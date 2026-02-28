@@ -347,6 +347,76 @@ function buildTopFunderAgendas(
   }
 }
 
+function importContributionTiming(): {
+  weekly_pac_totals: Record<string, unknown>[];
+  events: { date: string; label: string; bill: string; event_type: string; significance: string }[];
+  event_analysis: Record<string, unknown>[];
+} | null {
+  const pacWeeklyPath = join(PIPELINE_OUTPUT, "pac_weekly_totals.csv");
+  const eventAnalysisPath = join(PIPELINE_OUTPUT, "event_timing_analysis.csv");
+  const eventsConfigPath = join(CONFIG_DIR, "legislative_events.json");
+
+  if (!existsSync(pacWeeklyPath) || !existsSync(eventAnalysisPath) || !existsSync(eventsConfigPath)) {
+    console.log("  Skipping contribution timing (source files not found)");
+    return null;
+  }
+
+  // 1. Read and pivot PAC weekly totals
+  const pacWeeklyRaw = readCSV("pac_weekly_totals.csv");
+  if (!pacWeeklyRaw) return null;
+
+  const weekMap = new Map<string, Record<string, unknown>>();
+  for (const row of pacWeeklyRaw) {
+    const week = row.week_start;
+    if (!weekMap.has(week)) {
+      weekMap.set(week, { week, total: 0 });
+    }
+    const entry = weekMap.get(week)!;
+    const amt = toNumber(row.total_amount) ?? 0;
+    entry[row.sector] = amt;
+    entry.total = (entry.total as number) + amt;
+  }
+  const weeklyPacTotals = Array.from(weekMap.values()).sort((a, b) =>
+    (a.week as string).localeCompare(b.week as string)
+  );
+
+  // 2. Load legislative events for chart markers
+  const eventsRaw = JSON.parse(readFileSync(eventsConfigPath, "utf-8")) as Array<{
+    bill: string;
+    bill_title: string;
+    event_type: string;
+    date: string;
+    significance: string;
+  }>;
+  const events = eventsRaw.map((e) => ({
+    date: e.date,
+    label: `${e.bill} ${e.event_type.replace(/_/g, " ")}`,
+    bill: e.bill,
+    event_type: e.event_type,
+    significance: e.significance,
+  }));
+
+  // 3. Read event analysis
+  const eventAnalysisRaw = readCSV("event_timing_analysis.csv");
+  if (!eventAnalysisRaw) return null;
+
+  const eventAnalysis = eventAnalysisRaw.map((row) => ({
+    bill: row.bill,
+    event_type: row.event_type,
+    date: row.date,
+    sector: row.sector,
+    baseline_weekly_avg: toNumber(row.baseline_weekly_avg) ?? 0,
+    pre_event_total: toNumber(row.pre_event_total) ?? 0,
+    event_week_total: toNumber(row.event_week_total) ?? 0,
+    post_event_total: toNumber(row.post_event_total) ?? 0,
+    spike_ratio: row.spike_ratio === "" || row.spike_ratio === "None" ? null : toNumber(row.spike_ratio),
+    sector_specific: toBool(row.sector_specific),
+    significance: row.significance,
+  }));
+
+  return { weekly_pac_totals: weeklyPacTotals, events, event_analysis: eventAnalysis };
+}
+
 // --- Main ---
 
 console.log("Importing pipeline data...");
@@ -402,6 +472,16 @@ if (beforeAfter) {
     JSON.stringify(beforeAfter, null, 2)
   );
   console.log(`  before_after.json: ${beforeAfter.members.length} members, headline: ${beforeAfter.headline.median_pct_change?.toFixed(1)}% median change`);
+}
+
+// Import contribution timing
+const timing = importContributionTiming();
+if (timing) {
+  writeFileSync(
+    join(DATA_DIR, "contribution_timing.json"),
+    JSON.stringify(timing, null, 2)
+  );
+  console.log(`  contribution_timing.json: ${timing.weekly_pac_totals.length} weeks, ${timing.events.length} events, ${timing.event_analysis.length} analysis rows`);
 }
 
 const datasets: [string, unknown][] = [

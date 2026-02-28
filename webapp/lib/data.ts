@@ -1,4 +1,4 @@
-import { readFileSync } from "fs";
+import { readFileSync, existsSync } from "fs";
 import { join } from "path";
 
 // --- Types ---
@@ -172,6 +172,40 @@ export interface BeforeAfterData {
   members: BeforeAfterMember[];
 }
 
+export interface WeeklyPacTotal {
+  week: string;
+  total: number;
+  [sector: string]: number | string;
+}
+
+export interface TimingEvent {
+  date: string;
+  label: string;
+  bill: string;
+  event_type: string;
+  significance: string;
+}
+
+export interface EventAnalysisEntry {
+  bill: string;
+  event_type: string;
+  date: string;
+  sector: string;
+  baseline_weekly_avg: number;
+  pre_event_total: number;
+  event_week_total: number;
+  post_event_total: number;
+  spike_ratio: number | null;
+  sector_specific: boolean;
+  significance: string;
+}
+
+export interface ContributionTiming {
+  weekly_pac_totals: WeeklyPacTotal[];
+  events: TimingEvent[];
+  event_analysis: EventAnalysisEntry[];
+}
+
 // --- Data loading via fs (server components only) ---
 
 const DATA_DIR = join(process.cwd(), "data");
@@ -262,4 +296,11 @@ export function getBeforeAfter(): BeforeAfterData | null {
   } catch {
     return null;
   }
+}
+
+export function getContributionTiming(): ContributionTiming | null {
+  const filePath = join(DATA_DIR, "contribution_timing.json");
+  if (!existsSync(filePath)) return null;
+  const raw = readFileSync(filePath, "utf-8");
+  return JSON.parse(raw) as ContributionTiming;
 }

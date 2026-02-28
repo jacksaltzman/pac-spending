@@ -1,0 +1,11 @@
+data/raw/
+data/checkpoints/
+data/processed/
+__pycache__/
+*.pyc
+.env
+venv/
+.venv/
+node_modules/
+.next/
+.DS_Store

@@ -246,6 +246,56 @@ function importOneLiners() {
   }));
 }
 
+function importBeforeAfter() {
+  const rows = readCSV("before_after_summary.csv");
+  if (!rows) return null;
+
+  const members = rows.map((r) => ({
+    name: r.name,
+    fec_candidate_id: r.fec_candidate_id,
+    party: r.party || "",
+    chamber: r.chamber || "",
+    committee: r.committee || "",
+    first_year: toNumber(r.first_year),
+    cycles_before: toNumber(r.cycles_before) ?? 0,
+    cycles_after: toNumber(r.cycles_after) ?? 0,
+    median_pac_before: toNumber(r.median_pac_before),
+    median_pac_after: toNumber(r.median_pac_after),
+    pct_change_pac: toNumber(r.pct_change_pac),
+    median_total_before: toNumber(r.median_total_before),
+    median_total_after: toNumber(r.median_total_after),
+    pct_change_total: toNumber(r.pct_change_total),
+    flag: r.flag || "",
+  }));
+
+  // Compute aggregates
+  const valid = members.filter(
+    (m) => m.flag === "" && m.pct_change_pac != null
+  );
+  const increased = valid.filter((m) => (m.pct_change_pac ?? 0) > 0).length;
+  const changes = valid
+    .map((m) => m.pct_change_pac!)
+    .sort((a, b) => a - b);
+  const medianChange =
+    changes.length > 0
+      ? changes[Math.floor(changes.length / 2)]
+      : null;
+  const meanChange =
+    changes.length > 0
+      ? changes.reduce((a, b) => a + b, 0) / changes.length
+      : null;
+
+  return {
+    headline: {
+      valid_members: valid.length,
+      increased_count: increased,
+      median_pct_change: medianChange,
+      mean_pct_change: meanChange,
+    },
+    members,
+  };
+}
+
 function buildTopFunderAgendas(
   members: { member_name: string; top_funder_agendas?: string }[],
   pacs: { member_name: string; total: number; agenda: string }[]
@@ -342,6 +392,16 @@ if (existsSync(newsPath)) {
   const newsData = JSON.parse(readFileSync(newsPath, "utf-8"));
   writeFileSync(join(DATA_DIR, "pac_news.json"), JSON.stringify(newsData, null, 2));
   console.log(`  pac_news.json: ${newsData.length} articles`);
+}
+
+// Import before/after analysis
+const beforeAfter = importBeforeAfter();
+if (beforeAfter) {
+  writeFileSync(
+    join(DATA_DIR, "before_after.json"),
+    JSON.stringify(beforeAfter, null, 2)
+  );
+  console.log(`  before_after.json: ${beforeAfter.members.length} members, headline: ${beforeAfter.headline.median_pct_change?.toFixed(1)}% median change`);
 }
 
 const datasets: [string, unknown][] = [

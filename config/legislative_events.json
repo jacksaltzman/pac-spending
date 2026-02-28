@@ -1,0 +1,233 @@
+[
+  {
+    "bill": "H.R. 7024",
+    "bill_title": "Tax Relief for American Families and Workers Act of 2024",
+    "event_type": "committee_markup",
+    "date": "2024-01-19",
+    "committee": "ways_and_means",
+    "chamber": "house",
+    "description": "Ways & Means Committee marks up and advances the bill 40-3, the largest bipartisan tax package of the 118th Congress",
+    "sectors_affected": ["Finance & Insurance", "Tech & Telecom", "Real Estate & Housing", "Retail & Consumer"],
+    "significance": "high"
+  },
+  {
+    "bill": "H.R. 7024",
+    "bill_title": "Tax Relief for American Families and Workers Act of 2024",
+    "event_type": "floor_vote",
+    "date": "2024-01-31",
+    "committee": "ways_and_means",
+    "chamber": "house",
+    "description": "House passes the tax package 357-70 with overwhelming bipartisan support, restoring R&D expensing, expanding Child Tax Credit, and extending business interest deductions",
+    "sectors_affected": ["Finance & Insurance", "Tech & Telecom", "Real Estate & Housing", "Retail & Consumer"],
+    "significance": "high"
+  },
+  {
+    "bill": "H.R. 7024",
+    "bill_title": "Tax Relief for American Families and Workers Act of 2024",
+    "event_type": "floor_vote",
+    "date": "2024-08-01",
+    "committee": "senate_finance",
+    "chamber": "senate",
+    "description": "Senate cloture vote fails 48-44 (needed 60), effectively killing the $79B bipartisan tax relief bill for the 118th Congress",
+    "sectors_affected": ["Finance & Insurance", "Tech & Telecom", "Real Estate & Housing", "Retail & Consumer"],
+    "significance": "high"
+  },
+  {
+    "bill": "S. 2973",
+    "bill_title": "Modernizing and Ensuring PBM Accountability Act",
+    "event_type": "committee_hearing",
+    "date": "2023-03-30",
+    "committee": "senate_finance",
+    "chamber": "senate",
+    "description": "Senate Finance Committee hearing on pharmacy benefit managers and the prescription drug supply chain's impact on patients and taxpayers",
+    "sectors_affected": ["Healthcare & Pharma"],
+    "significance": "high"
+  },
+  {
+    "bill": "S. 2973",
+    "bill_title": "Modernizing and Ensuring PBM Accountability Act",
+    "event_type": "committee_markup",
+    "date": "2023-07-26",
+    "committee": "senate_finance",
+    "chamber": "senate",
+    "description": "Senate Finance Committee passes bipartisan PBM reform legislation 26-1, imposing drug pricing standards on pharmacy benefit managers",
+    "sectors_affected": ["Healthcare & Pharma", "Retail & Consumer"],
+    "significance": "high"
+  },
+  {
+    "bill": "S. 2973",
+    "bill_title": "Better Mental Health Care, Lower-Cost Drugs, and Extenders Act",
+    "event_type": "committee_markup",
+    "date": "2023-11-08",
+    "committee": "senate_finance",
+    "chamber": "senate",
+    "description": "Senate Finance Committee passes expanded PBM reform and mental health package 26-0, combining drug pricing, mental health access, and tax extenders",
+    "sectors_affected": ["Healthcare & Pharma", "Professional Services"],
+    "significance": "high"
+  },
+  {
+    "bill": "H.R. 3936",
+    "bill_title": "Tax Cuts for Working Families Act",
+    "event_type": "committee_markup",
+    "date": "2023-06-13",
+    "committee": "ways_and_means",
+    "chamber": "house",
+    "description": "Ways & Means marks up the Tax Cuts for Working Families Act 24-16, part of the American Families and Jobs Act package increasing standard deduction and expanding tax brackets",
+    "sectors_affected": ["Real Estate & Housing", "Retail & Consumer", "Finance & Insurance"],
+    "significance": "high"
+  },
+  {
+    "bill": "H.R. 3937",
+    "bill_title": "Small Business Jobs Act",
+    "event_type": "committee_markup",
+    "date": "2023-06-13",
+    "committee": "ways_and_means",
+    "chamber": "house",
+    "description": "Ways & Means marks up the Small Business Jobs Act 24-18, expanding pass-through deductions and small business expensing provisions",
+    "sectors_affected": ["Professional Services", "Retail & Consumer", "Finance & Insurance"],
+    "significance": "medium"
+  },
+  {
+    "bill": "H.R. 3938",
+    "bill_title": "Build It in America Act",
+    "event_type": "committee_markup",
+    "date": "2023-06-13",
+    "committee": "ways_and_means",
+    "chamber": "house",
+    "description": "Ways & Means marks up the Build It in America Act 24-18, restoring R&D expensing, repealing IRA green energy credits, and countering China's economic influence",
+    "sectors_affected": ["Tech & Telecom", "Energy & Utilities", "Defense & Aerospace", "Construction & Engineering"],
+    "significance": "high"
+  },
+  {
+    "bill": "N/A",
+    "bill_title": "Tax Policy's Role in Increasing Affordable Housing Supply",
+    "event_type": "committee_hearing",
+    "date": "2023-03-07",
+    "committee": "senate_finance",
+    "chamber": "senate",
+    "description": "Senate Finance Committee hearing on housing tax incentives including LIHTC expansion; Chairman Wyden introduces the DASH Act for affordable housing",
+    "sectors_affected": ["Real Estate & Housing", "Construction & Engineering"],
+    "significance": "medium"
+  },
+  {
+    "bill": "N/A",
+    "bill_title": "Cross-border Rx: Pharmaceutical Manufacturers and U.S. International Tax Policy",
+    "event_type": "committee_hearing",
+    "date": "2023-05-11",
+    "committee": "senate_finance",
+    "chamber": "senate",
+    "description": "Senate Finance Committee examines how pharmaceutical companies use international tax strategies to shift profits offshore and avoid U.S. taxes",
+    "sectors_affected": ["Healthcare & Pharma", "Professional Services"],
+    "significance": "medium"
+  },
+  {
+    "bill": "N/A",
+    "bill_title": "IRS Accountability and Transparency",
+    "event_type": "committee_hearing",
+    "date": "2023-04-27",
+    "committee": "ways_and_means",
+    "chamber": "house",
+    "description": "Ways & Means hearing on IRS accountability featuring Commissioner Werfel, examining IRS enforcement funding and taxpayer service issues",
+    "sectors_affected": ["Finance & Insurance", "Professional Services"],
+    "significance": "medium"
+  },
+  {
+    "bill": "N/A",
+    "bill_title": "Ultra-Wealthy Tax Avoidance Schemes",
+    "event_type": "committee_hearing",
+    "date": "2023-11-09",
+    "committee": "senate_finance",
+    "chamber": "senate",
+    "description": "Senate Finance Committee examines tax avoidance schemes used by ultra-wealthy Americans, leading to introduction of Billionaires Income Tax proposal",
+    "sectors_affected": ["Finance & Insurance", "Professional Services", "Real Estate & Housing"],
+    "significance": "medium"
+  },
+  {
+    "bill": "N/A",
+    "bill_title": "Drug Shortages: Supply Challenges and Policy Solutions",
+    "event_type": "committee_hearing",
+    "date": "2023-12-05",
+    "committee": "senate_finance",
+    "chamber": "senate",
+    "description": "Senate Finance Committee hearing examining prescription drug shortages from a federal health program perspective, leading to bipartisan draft legislation",
+    "sectors_affected": ["Healthcare & Pharma"],
+    "significance": "medium"
+  },
+  {
+    "bill": "N/A",
+    "bill_title": "Success of the Tax Cuts and Jobs Act",
+    "event_type": "committee_hearing",
+    "date": "2024-04-11",
+    "committee": "ways_and_means",
+    "chamber": "house",
+    "description": "Ways & Means hearing on TCJA impact and expiring provisions, the official kickoff of debate on extending $4.3 trillion in tax cuts before 2025 sunset",
+    "sectors_affected": ["Finance & Insurance", "Real Estate & Housing", "Energy & Utilities", "Tech & Telecom", "Retail & Consumer"],
+    "significance": "high"
+  },
+  {
+    "bill": "H.R. 8816",
+    "bill_title": "American Medical Innovation and Investment Act of 2024",
+    "event_type": "committee_markup",
+    "date": "2024-06-27",
+    "committee": "ways_and_means",
+    "chamber": "house",
+    "description": "Ways & Means marks up healthcare innovation bills including Medicare coverage for breakthrough devices, multi-cancer screening, and obesity treatment",
+    "sectors_affected": ["Healthcare & Pharma"],
+    "significance": "medium"
+  },
+  {
+    "bill": "H.R. 9495",
+    "bill_title": "Stop Terror-Financing and Tax Penalties on American Hostages Act",
+    "event_type": "committee_markup",
+    "date": "2024-09-11",
+    "committee": "ways_and_means",
+    "chamber": "house",
+    "description": "Ways & Means marks up five tax bills 38-0 including terror-financing provisions, tax-exempt org accountability, and gig worker reporting rules",
+    "sectors_affected": ["Finance & Insurance", "Professional Services", "Ideological"],
+    "significance": "medium"
+  },
+  {
+    "bill": "N/A",
+    "bill_title": "The 2025 Tax Policy Debate and Tax Avoidance Strategies",
+    "event_type": "committee_hearing",
+    "date": "2024-09-12",
+    "committee": "senate_finance",
+    "chamber": "senate",
+    "description": "Senate Finance Committee hearing on the 2025 tax policy debate examining TCJA extension options and tax avoidance strategies by high-income taxpayers",
+    "sectors_affected": ["Finance & Insurance", "Real Estate & Housing", "Professional Services", "Energy & Utilities"],
+    "significance": "high"
+  },
+  {
+    "bill": "H.R. 9495",
+    "bill_title": "Stop Terror-Financing and Tax Penalties on American Hostages Act",
+    "event_type": "floor_vote",
+    "date": "2024-11-21",
+    "committee": "ways_and_means",
+    "chamber": "house",
+    "description": "House passes H.R. 9495 219-184, granting IRS power to revoke tax-exempt status of organizations supporting terrorism and providing hostage tax relief",
+    "sectors_affected": ["Finance & Insurance", "Professional Services", "Ideological"],
+    "significance": "medium"
+  },
+  {
+    "bill": "H.R. 3936",
+    "bill_title": "American Families and Jobs Act (package introduction)",
+    "event_type": "bill_introduction",
+    "date": "2023-06-09",
+    "committee": "ways_and_means",
+    "chamber": "house",
+    "description": "Chairman Smith introduces the three-bill American Families and Jobs Act package: Tax Cuts for Working Families Act, Small Business Jobs Act, and Build It in America Act",
+    "sectors_affected": ["Real Estate & Housing", "Retail & Consumer", "Finance & Insurance", "Tech & Telecom", "Energy & Utilities"],
+    "significance": "medium"
+  },
+  {
+    "bill": "H.R. 7024",
+    "bill_title": "Tax Relief for American Families and Workers Act of 2024",
+    "event_type": "bill_introduction",
+    "date": "2024-01-17",
+    "committee": "ways_and_means",
+    "chamber": "house",
+    "description": "Chairman Smith and Senate Finance Chairman Wyden announce bipartisan $79B tax deal restoring R&D expensing, expanding Child Tax Credit, and extending bonus depreciation",
+    "sectors_affected": ["Finance & Insurance", "Tech & Telecom", "Real Estate & Housing", "Retail & Consumer"],
+    "significance": "high"
+  }
+]

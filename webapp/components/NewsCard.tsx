@@ -1,0 +1,75 @@
+"use client";
+
+import type { NewsEntry } from "@/lib/data";
+
+interface NewsCardsProps {
+  articles: NewsEntry[];
+  sectorColors: Record<string, string>;
+}
+
+function SectorDot({ sector, color }: { sector: string; color: string }) {
+  return (
+    <span className="inline-flex items-center gap-1.5 text-[10px] uppercase tracking-wide text-stone-500">
+      <span
+        className="w-2 h-2 rounded-full inline-block flex-shrink-0"
+        style={{ backgroundColor: color }}
+      />
+      {sector}
+    </span>
+  );
+}
+
+export default function NewsCards({ articles, sectorColors }: NewsCardsProps) {
+  if (articles.length === 0) return null;
+
+  return (
+    <section>
+      <h2
+        className="text-xs uppercase tracking-[0.2em] text-stone-500 mb-4"
+        style={{ fontFamily: "var(--font-display)" }}
+      >
+        In the News
+      </h2>
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+        {articles.map((article, i) => (
+          <a
+            key={i}
+            href={article.url}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="group block bg-white border border-[#C8C1B6]/50 rounded-lg p-5 hover:border-[#C8C1B6] hover:shadow-sm transition-all"
+          >
+            <div className="flex items-start justify-between gap-3 mb-3">
+              <SectorDot
+                sector={article.sector}
+                color={sectorColors[article.sector] || "#9CA3AF"}
+              />
+              <span className="text-[10px] text-stone-400 whitespace-nowrap flex-shrink-0">
+                {formatDate(article.date)}
+              </span>
+            </div>
+            <h3 className="text-sm font-semibold text-[#111111] leading-snug mb-2 group-hover:text-[#4C6971] transition-colors">
+              {article.title}
+            </h3>
+            <p className="text-xs text-stone-500 leading-relaxed mb-3 line-clamp-3">
+              {article.excerpt}
+            </p>
+            <div className="flex items-center gap-2">
+              <span className="text-[10px] font-medium text-stone-400 uppercase tracking-wide">
+                {article.source}
+              </span>
+              <span className="text-stone-300 group-hover:text-[#4C6971] transition-colors text-xs">
+                &rarr;
+              </span>
+            </div>
+          </a>
+        ))}
+      </div>
+    </section>
+  );
+}
+
+function formatDate(dateStr: string): string {
+  const d = new Date(dateStr + "T00:00:00");
+  return d.toLocaleDateString("en-US", { month: "short", year: "numeric" });
+}

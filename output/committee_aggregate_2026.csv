@@ -1,0 +1,8 @@
+group,member_count,mean_pct_outside,median_pct_outside,mean_pct_dc,median_pct_dc,total_contributions,avg_contributions_per_member,highest_outside_member,highest_outside_pct,lowest_outside_member,lowest_outside_pct,mean_unitemized_pct
+All Members,71,76.6,79.7,5.6,4.4,40789523,574500.32,Linda Sanchez,99.68,Ron Wyden,30.93,9.3
+House Ways & Means,44,79.5,84.8,6.6,4.7,16750352,380689.82,Linda Sanchez,99.68,John Larson,36.52,4.7
+Senate Finance,27,72.0,79.2,4.0,2.6,24039171,890339.67,Bernie Sanders,97.01,Ron Wyden,30.93,18.0
+House W&M Republicans,26,79.8,86.5,4.9,4.6,9534263,366702.42,Claudia Tenney,97.99,David Kustoff,39.88,5.4
+House W&M Democrats,18,79.0,81.9,8.9,5.0,7216089,400893.83,Linda Sanchez,99.68,John Larson,36.52,3.7
+Senate Finance Republicans,14,78.4,81.0,3.7,2.4,11485124,820366.0,Tim Scott,93.33,John Cornyn,40.1,10.0
+Senate Finance Democrats,13,65.2,68.7,4.3,4.4,12554047,965695.92,Bernie Sanders,97.01,Ron Wyden,30.93,24.7

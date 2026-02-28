@@ -1,0 +1,636 @@
+{
+  "house_ways_and_means": {
+    "committee_name": "House Committee on Ways and Means",
+    "chamber": "house",
+    "members": [
+      {
+        "name": "Jason Smith",
+        "party": "R",
+        "state": "MO",
+        "district": 8,
+        "role": "Chair",
+        "fec_candidate_id": "H4MO08162",
+        "principal_committee_id": "C00541862"
+      },
+      {
+        "name": "Vern Buchanan",
+        "party": "R",
+        "state": "FL",
+        "district": 16,
+        "role": "Member",
+        "fec_candidate_id": "H6FL13148",
+        "principal_committee_id": "C00412759"
+      },
+      {
+        "name": "Adrian Smith",
+        "party": "R",
+        "state": "NE",
+        "district": 3,
+        "role": "Member",
+        "fec_candidate_id": "H6NE03115",
+        "principal_committee_id": "C00412890"
+      },
+      {
+        "name": "Mike Kelly",
+        "party": "R",
+        "state": "PA",
+        "district": 16,
+        "role": "Member",
+        "fec_candidate_id": "H0PA03271",
+        "principal_committee_id": "C00474189"
+      },
+      {
+        "name": "David Schweikert",
+        "party": "R",
+        "state": "AZ",
+        "district": 1,
+        "role": "Member",
+        "fec_candidate_id": "H4AZ06045",
+        "principal_committee_id": "C00540617"
+      },
+      {
+        "name": "Darin LaHood",
+        "party": "R",
+        "state": "IL",
+        "district": 16,
+        "role": "Member",
+        "fec_candidate_id": "H6IL18088",
+        "principal_committee_id": "C00575050"
+      },
+      {
+        "name": "Jodey Arrington",
+        "party": "R",
+        "state": "TX",
+        "district": 19,
+        "role": "Member",
+        "fec_candidate_id": "H6TX19099",
+        "principal_committee_id": "C00588657"
+      },
+      {
+        "name": "Ron Estes",
+        "party": "R",
+        "state": "KS",
+        "district": 4,
+        "role": "Member",
+        "fec_candidate_id": "H8KS04112",
+        "principal_committee_id": "C00632067"
+      },
+      {
+        "name": "Lloyd Smucker",
+        "party": "R",
+        "state": "PA",
+        "district": 11,
+        "role": "Member",
+        "fec_candidate_id": "H6PA16320",
+        "principal_committee_id": "C00599464"
+      },
+      {
+        "name": "Kevin Hern",
+        "party": "R",
+        "state": "OK",
+        "district": 1,
+        "role": "Member",
+        "fec_candidate_id": "H8OK01157",
+        "principal_committee_id": "C00636092"
+      },
+      {
+        "name": "Carol Miller",
+        "party": "R",
+        "state": "WV",
+        "district": 2,
+        "role": "Member",
+        "fec_candidate_id": "H8WV03097",
+        "principal_committee_id": "C00653220"
+      },
+      {
+        "name": "Greg Murphy",
+        "party": "R",
+        "state": "NC",
+        "district": 3,
+        "role": "Member",
+        "fec_candidate_id": "H0NC03172",
+        "principal_committee_id": "C00697649"
+      },
+      {
+        "name": "David Kustoff",
+        "party": "R",
+        "state": "TN",
+        "district": 8,
+        "role": "Member",
+        "fec_candidate_id": "H2TN07103",
+        "principal_committee_id": "C00614826"
+      },
+      {
+        "name": "Brian Fitzpatrick",
+        "party": "R",
+        "state": "PA",
+        "district": 1,
+        "role": "Member",
+        "fec_candidate_id": "H6PA08277",
+        "principal_committee_id": "C00607416"
+      },
+      {
+        "name": "Greg Steube",
+        "party": "R",
+        "state": "FL",
+        "district": 17,
+        "role": "Member",
+        "fec_candidate_id": "H8FL17053",
+        "principal_committee_id": "C00671891"
+      },
+      {
+        "name": "Claudia Tenney",
+        "party": "R",
+        "state": "NY",
+        "district": 24,
+        "role": "Member",
+        "fec_candidate_id": "H4NY22051",
+        "principal_committee_id": "C00632828"
+      },
+      {
+        "name": "Michelle Fischbach",
+        "party": "R",
+        "state": "MN",
+        "district": 7,
+        "role": "Member",
+        "fec_candidate_id": "H0MN07091",
+        "principal_committee_id": "C00717959"
+      },
+      {
+        "name": "Blake Moore",
+        "party": "R",
+        "state": "UT",
+        "district": 1,
+        "role": "Member",
+        "fec_candidate_id": "H0UT01205",
+        "principal_committee_id": "C00738872"
+      },
+      {
+        "name": "Beth Van Duyne",
+        "party": "R",
+        "state": "TX",
+        "district": 24,
+        "role": "Member",
+        "fec_candidate_id": "H0TX24209",
+        "principal_committee_id": "C00714865"
+      },
+      {
+        "name": "Randy Feenstra",
+        "party": "R",
+        "state": "IA",
+        "district": 4,
+        "role": "Member",
+        "fec_candidate_id": "H0IA04145",
+        "principal_committee_id": "C00693663"
+      },
+      {
+        "name": "Nicole Malliotakis",
+        "party": "R",
+        "state": "NY",
+        "district": 11,
+        "role": "Member",
+        "fec_candidate_id": "H0NY11078",
+        "principal_committee_id": "C00694778"
+      },
+      {
+        "name": "Mike Carey",
+        "party": "R",
+        "state": "OH",
+        "district": 15,
+        "role": "Member",
+        "fec_candidate_id": "H2OH15228",
+        "principal_committee_id": "C00779603"
+      },
+      {
+        "name": "Rudy Yakym",
+        "party": "R",
+        "state": "IN",
+        "district": 2,
+        "role": "Member",
+        "fec_candidate_id": "H2IN02295",
+        "principal_committee_id": "C00822767"
+      },
+      {
+        "name": "Max Miller",
+        "party": "R",
+        "state": "OH",
+        "district": 7,
+        "role": "Member",
+        "fec_candidate_id": "H2OH16051",
+        "principal_committee_id": "C00770818"
+      },
+      {
+        "name": "Aaron Bean",
+        "party": "R",
+        "state": "FL",
+        "district": 4,
+        "role": "Member",
+        "fec_candidate_id": "H2FL04211",
+        "principal_committee_id": "C00816983"
+      },
+      {
+        "name": "Nathaniel Moran",
+        "party": "R",
+        "state": "TX",
+        "district": 1,
+        "role": "Member",
+        "fec_candidate_id": "H2TX01112",
+        "principal_committee_id": "C00796086"
+      },
+      {
+        "name": "Richard Neal",
+        "party": "D",
+        "state": "MA",
+        "district": 1,
+        "role": "Ranking Member",
+        "fec_candidate_id": "H8MA02041",
+        "principal_committee_id": "C00226522"
+      },
+      {
+        "name": "Lloyd Doggett",
+        "party": "D",
+        "state": "TX",
+        "district": 37,
+        "role": "Member",
+        "fec_candidate_id": "H4TX10028",
+        "principal_committee_id": "C00286500"
+      },
+      {
+        "name": "Mike Thompson",
+        "party": "D",
+        "state": "CA",
+        "district": 4,
+        "role": "Member",
+        "fec_candidate_id": "H8CA01109",
+        "principal_committee_id": "C00326363"
+      },
+      {
+        "name": "John Larson",
+        "party": "D",
+        "state": "CT",
+        "district": 1,
+        "role": "Member",
+        "fec_candidate_id": "H8CT01046",
+        "principal_committee_id": "C00330142"
+      },
+      {
+        "name": "Danny Davis",
+        "party": "D",
+        "state": "IL",
+        "district": 7,
+        "role": "Member",
+        "fec_candidate_id": "H4IL07037",
+        "principal_committee_id": "C00172619"
+      },
+      {
+        "name": "Linda Sanchez",
+        "party": "D",
+        "state": "CA",
+        "district": 38,
+        "role": "Member",
+        "fec_candidate_id": "H2CA39078",
+        "principal_committee_id": "C00384057"
+      },
+      {
+        "name": "Terri Sewell",
+        "party": "D",
+        "state": "AL",
+        "district": 7,
+        "role": "Member",
+        "fec_candidate_id": "H0AL07086",
+        "principal_committee_id": "C00458976"
+      },
+      {
+        "name": "Suzan DelBene",
+        "party": "D",
+        "state": "WA",
+        "district": 1,
+        "role": "Member",
+        "fec_candidate_id": "H0WA08046",
+        "principal_committee_id": "C00459099"
+      },
+      {
+        "name": "Judy Chu",
+        "party": "D",
+        "state": "CA",
+        "district": 28,
+        "role": "Member",
+        "fec_candidate_id": "H0CA32101",
+        "principal_committee_id": "C00458125"
+      },
+      {
+        "name": "Gwen Moore",
+        "party": "D",
+        "state": "WI",
+        "district": 4,
+        "role": "Member",
+        "fec_candidate_id": "H4WI04183",
+        "principal_committee_id": "C00397505"
+      },
+      {
+        "name": "Brendan Boyle",
+        "party": "D",
+        "state": "PA",
+        "district": 2,
+        "role": "Member",
+        "fec_candidate_id": "H4PA13199",
+        "principal_committee_id": "C00543363"
+      },
+      {
+        "name": "Don Beyer",
+        "party": "D",
+        "state": "VA",
+        "district": 8,
+        "role": "Member",
+        "fec_candidate_id": "H4VA08224",
+        "principal_committee_id": "C00555888"
+      },
+      {
+        "name": "Dwight Evans",
+        "party": "D",
+        "state": "PA",
+        "district": 3,
+        "role": "Member",
+        "fec_candidate_id": "H6PA02171",
+        "principal_committee_id": "C00591065"
+      },
+      {
+        "name": "Brad Schneider",
+        "party": "D",
+        "state": "IL",
+        "district": 10,
+        "role": "Member",
+        "fec_candidate_id": "H2IL10068",
+        "principal_committee_id": "C00495952"
+      },
+      {
+        "name": "Jimmy Panetta",
+        "party": "D",
+        "state": "CA",
+        "district": 19,
+        "role": "Member",
+        "fec_candidate_id": "H6CA20152",
+        "principal_committee_id": "C00592154"
+      },
+      {
+        "name": "Jimmy Gomez",
+        "party": "D",
+        "state": "CA",
+        "district": 34,
+        "role": "Member",
+        "fec_candidate_id": "H8CA34266",
+        "principal_committee_id": "C00629659"
+      },
+      {
+        "name": "Steven Horsford",
+        "party": "D",
+        "state": "NV",
+        "district": 4,
+        "role": "Member",
+        "fec_candidate_id": "H2NV04011",
+        "principal_committee_id": "C00668228"
+      },
+      {
+        "name": "Stacey Plaskett",
+        "party": "D",
+        "state": "VI",
+        "district": 0,
+        "role": "Member",
+        "fec_candidate_id": "H2VI00082",
+        "principal_committee_id": "C00528182",
+        "note": "Delegate from USVI. Non-voting. Extreme geographic outlier \u2014 nearly all contributions will be from outside her jurisdiction."
+      },
+      {
+        "name": "Thomas Suozzi",
+        "party": "D",
+        "state": "NY",
+        "district": 3,
+        "role": "Member",
+        "fec_candidate_id": "H6NY03247",
+        "principal_committee_id": "C00607200"
+      }
+    ]
+  },
+  "senate_finance": {
+    "committee_name": "Senate Committee on Finance",
+    "chamber": "senate",
+    "members": [
+      {
+        "name": "Mike Crapo",
+        "party": "R",
+        "state": "ID",
+        "role": "Chair",
+        "fec_candidate_id": "S8ID00027",
+        "principal_committee_id": "C00330886"
+      },
+      {
+        "name": "Chuck Grassley",
+        "party": "R",
+        "state": "IA",
+        "role": "Member",
+        "fec_candidate_id": "S0IA00028",
+        "principal_committee_id": "C00230482"
+      },
+      {
+        "name": "John Cornyn",
+        "party": "R",
+        "state": "TX",
+        "role": "Member",
+        "fec_candidate_id": "S2TX00106",
+        "principal_committee_id": "C00369033"
+      },
+      {
+        "name": "John Thune",
+        "party": "R",
+        "state": "SD",
+        "role": "Member",
+        "fec_candidate_id": "S2SD00068",
+        "principal_committee_id": "C00409581"
+      },
+      {
+        "name": "Tim Scott",
+        "party": "R",
+        "state": "SC",
+        "role": "Member",
+        "fec_candidate_id": "S4SC00240",
+        "principal_committee_id": "C00540302"
+      },
+      {
+        "name": "Bill Cassidy",
+        "party": "R",
+        "state": "LA",
+        "role": "Member",
+        "fec_candidate_id": "S4LA00107",
+        "principal_committee_id": "C00543983"
+      },
+      {
+        "name": "James Lankford",
+        "party": "R",
+        "state": "OK",
+        "role": "Member",
+        "fec_candidate_id": "S4OK00232",
+        "principal_committee_id": "C00466482"
+      },
+      {
+        "name": "Steve Daines",
+        "party": "R",
+        "state": "MT",
+        "role": "Member",
+        "fec_candidate_id": "S2MT00096",
+        "principal_committee_id": "C00491357"
+      },
+      {
+        "name": "Todd Young",
+        "party": "R",
+        "state": "IN",
+        "role": "Member",
+        "fec_candidate_id": "S6IN00191",
+        "principal_committee_id": "C00459255"
+      },
+      {
+        "name": "John Barrasso",
+        "party": "R",
+        "state": "WY",
+        "role": "Member",
+        "fec_candidate_id": "S6WY00068",
+        "principal_committee_id": "C00436386"
+      },
+      {
+        "name": "Ron Johnson",
+        "party": "R",
+        "state": "WI",
+        "role": "Member",
+        "fec_candidate_id": "S0WI00197",
+        "principal_committee_id": "C00482984"
+      },
+      {
+        "name": "Thom Tillis",
+        "party": "R",
+        "state": "NC",
+        "role": "Member",
+        "fec_candidate_id": "S4NC00162",
+        "principal_committee_id": "C00545772"
+      },
+      {
+        "name": "Marsha Blackburn",
+        "party": "R",
+        "state": "TN",
+        "role": "Member",
+        "fec_candidate_id": "S8TN00337",
+        "principal_committee_id": "C00376939"
+      },
+      {
+        "name": "Roger Marshall",
+        "party": "R",
+        "state": "KS",
+        "role": "Member",
+        "fec_candidate_id": "H6KS01179",
+        "principal_committee_id": "C00576173"
+      },
+      {
+        "name": "Ron Wyden",
+        "party": "D",
+        "state": "OR",
+        "role": "Ranking Member",
+        "fec_candidate_id": "S6OR00110",
+        "principal_committee_id": "C00308676"
+      },
+      {
+        "name": "Maria Cantwell",
+        "party": "D",
+        "state": "WA",
+        "role": "Member",
+        "fec_candidate_id": "S8WA00194",
+        "principal_committee_id": "C00349506"
+      },
+      {
+        "name": "Michael Bennet",
+        "party": "D",
+        "state": "CO",
+        "role": "Member",
+        "fec_candidate_id": "S0CO00211",
+        "principal_committee_id": "C00458398"
+      },
+      {
+        "name": "Mark Warner",
+        "party": "D",
+        "state": "VA",
+        "role": "Member",
+        "fec_candidate_id": "S6VA00093",
+        "principal_committee_id": "C00438713"
+      },
+      {
+        "name": "Sheldon Whitehouse",
+        "party": "D",
+        "state": "RI",
+        "role": "Member",
+        "fec_candidate_id": "S6RI00221",
+        "principal_committee_id": "C00410803"
+      },
+      {
+        "name": "Maggie Hassan",
+        "party": "D",
+        "state": "NH",
+        "role": "Member",
+        "fec_candidate_id": "S6NH00091",
+        "principal_committee_id": "C00588772"
+      },
+      {
+        "name": "Catherine Cortez Masto",
+        "party": "D",
+        "state": "NV",
+        "role": "Member",
+        "fec_candidate_id": "S6NV00200",
+        "principal_committee_id": "C00575548"
+      },
+      {
+        "name": "Elizabeth Warren",
+        "party": "D",
+        "state": "MA",
+        "role": "Member",
+        "fec_candidate_id": "S2MA00170",
+        "principal_committee_id": "C00500843"
+      },
+      {
+        "name": "Bernie Sanders",
+        "party": "I",
+        "state": "VT",
+        "role": "Member",
+        "fec_candidate_id": "S4VT00033",
+        "principal_committee_id": "C00411330"
+      },
+      {
+        "name": "Tina Smith",
+        "party": "D",
+        "state": "MN",
+        "role": "Member",
+        "fec_candidate_id": "S8MN00578",
+        "principal_committee_id": "C00663781"
+      },
+      {
+        "name": "Ben Ray Lujan",
+        "party": "D",
+        "state": "NM",
+        "role": "Member",
+        "fec_candidate_id": "S0NM00058",
+        "principal_committee_id": "C00443689"
+      },
+      {
+        "name": "Raphael Warnock",
+        "party": "D",
+        "state": "GA",
+        "role": "Member",
+        "fec_candidate_id": "S0GA00559",
+        "principal_committee_id": "C00736876"
+      },
+      {
+        "name": "Peter Welch",
+        "party": "D",
+        "state": "VT",
+        "role": "Member",
+        "fec_candidate_id": "S2VT00235",
+        "principal_committee_id": "C00795252"
+      }
+    ]
+  }
+}

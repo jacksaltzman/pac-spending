@@ -1,0 +1,351 @@
+{
+  "_description": "Sector classifications and agenda context for top PACs funding tax-writing committee members. Sectors are broad categories relevant to tax policy impact.",
+  "sectors": [
+    "Finance & Insurance",
+    "Healthcare & Pharma",
+    "Real Estate & Housing",
+    "Tech & Telecom",
+    "Energy & Utilities",
+    "Defense & Aerospace",
+    "Transportation",
+    "Retail & Consumer",
+    "Labor",
+    "Professional Services",
+    "Food & Beverage",
+    "Construction & Engineering",
+    "Ideological",
+    "Other Industry"
+  ],
+  "sector_colors": {
+    "Finance & Insurance": "#2563EB",
+    "Healthcare & Pharma": "#DC2626",
+    "Real Estate & Housing": "#16A34A",
+    "Tech & Telecom": "#7C3AED",
+    "Energy & Utilities": "#F59E0B",
+    "Defense & Aerospace": "#6B7280",
+    "Transportation": "#0891B2",
+    "Retail & Consumer": "#EC4899",
+    "Labor": "#EA580C",
+    "Professional Services": "#4F46E5",
+    "Food & Beverage": "#65A30D",
+    "Construction & Engineering": "#A16207",
+    "Ideological": "#BE185D",
+    "Other Industry": "#9CA3AF"
+  },
+  "pacs": {
+    "C00147066": {
+      "sector": "Finance & Insurance",
+      "agenda": "Lobbies for favorable tax treatment of life insurance products, estate tax repeal, and retirement savings incentives"
+    },
+    "C00109017": {
+      "sector": "Tech & Telecom",
+      "agenda": "Seeks favorable depreciation rules for telecom infrastructure and lower corporate tax rates"
+    },
+    "C00186288": {
+      "sector": "Tech & Telecom",
+      "agenda": "Advocates for telecom infrastructure tax incentives and reduced regulatory costs"
+    },
+    "C00106146": {
+      "sector": "Healthcare & Pharma",
+      "agenda": "Opposes cuts to Medicare reimbursements and seeks tax-exempt bond financing for hospital construction"
+    },
+    "C00283135": {
+      "sector": "Finance & Insurance",
+      "agenda": "Advocates for tax-advantaged employer-sponsored benefits and insurance product tax treatment"
+    },
+    "C00127779": {
+      "sector": "Finance & Insurance",
+      "agenda": "Seeks favorable tax treatment for insurance products, retirement savings, and financial services"
+    },
+    "C00303024": {
+      "sector": "Defense & Aerospace",
+      "agenda": "Supports R&D tax credits, defense procurement spending, and favorable corporate tax treatment"
+    },
+    "C00542365": {
+      "sector": "Transportation",
+      "agenda": "Pushes for EV tax credit policies, manufacturing investment incentives, and trade tariff adjustments"
+    },
+    "C00010868": {
+      "sector": "Construction & Engineering",
+      "agenda": "Supports infrastructure tax incentives, bonus depreciation, and pass-through business deductions"
+    },
+    "C00030718": {
+      "sector": "Real Estate & Housing",
+      "agenda": "Defends mortgage interest deduction, 1031 exchanges, and capital gains treatment of home sales"
+    },
+    "C00197228": {
+      "sector": "Healthcare & Pharma",
+      "agenda": "Opposes taxes on health insurance plans and seeks favorable tax treatment for managed care"
+    },
+    "C00002972": {
+      "sector": "Energy & Utilities",
+      "agenda": "Supports rural energy tax credits, co-op tax exemptions, and broadband investment incentives"
+    },
+    "C00447565": {
+      "sector": "Finance & Insurance",
+      "agenda": "Advocates for tax-advantaged financial planning products and advisor compensation rules"
+    },
+    "C00034157": {
+      "sector": "Finance & Insurance",
+      "agenda": "Supports favorable tax treatment for supplemental insurance products and employer-provided benefits"
+    },
+    "C00284885": {
+      "sector": "Retail & Consumer",
+      "agenda": "Advocates for lower corporate tax rates, pass-through deductions, and trade policy on imported goods"
+    },
+    "C00105981": {
+      "sector": "Finance & Insurance",
+      "agenda": "Lobbies for tax treatment of mutual funds, capital gains rates, and retirement savings vehicles"
+    },
+    "C00077321": {
+      "sector": "Professional Services",
+      "agenda": "Shapes tax code complexity and accounting standards; advocates for pass-through business deductions"
+    },
+    "C00238725": {
+      "sector": "Labor",
+      "agenda": "Supports federal employee benefits, retirement security, and aviation infrastructure funding"
+    },
+    "C00068692": {
+      "sector": "Transportation",
+      "agenda": "Seeks favorable package delivery taxation, fuel tax policy, and international trade rules"
+    },
+    "C00130773": {
+      "sector": "Real Estate & Housing",
+      "agenda": "Defends Low-Income Housing Tax Credit, depreciation schedules, and multifamily investment incentives"
+    },
+    "C00039578": {
+      "sector": "Finance & Insurance",
+      "agenda": "Advocates for commercial insurance tax treatment and broker compensation rules"
+    },
+    "C00197095": {
+      "sector": "Finance & Insurance",
+      "agenda": "Supports life insurance tax advantages, estate tax reform, and retirement product taxation"
+    },
+    "C00359539": {
+      "sector": "Healthcare & Pharma",
+      "agenda": "Supports physician reimbursement rates and opposes Medicare payment cuts"
+    },
+    "C00093054": {
+      "sector": "Retail & Consumer",
+      "agenda": "Lobbies on international trade taxation, online sales tax, and corporate tax rates"
+    },
+    "C00144766": {
+      "sector": "Food & Beverage",
+      "agenda": "Opposes excise tax increases on beer and supports favorable alcohol industry tax treatment"
+    },
+    "C00236414": {
+      "sector": "Finance & Insurance",
+      "agenda": "Advocates for retirement product tax treatment and insurance industry tax policy"
+    },
+    "C00007880": {
+      "sector": "Finance & Insurance",
+      "agenda": "Defends credit union tax-exempt status and opposes efforts to tax credit union income"
+    },
+    "C00303339": {
+      "sector": "Real Estate & Housing",
+      "agenda": "Supports REIT tax structure, pass-through deductions, and commercial real estate depreciation"
+    },
+    "C00369751": {
+      "sector": "Tech & Telecom",
+      "agenda": "Advocates for tech equipment depreciation, R&D tax credits, and international tax reform"
+    },
+    "C00064766": {
+      "sector": "Transportation",
+      "agenda": "Supports transportation infrastructure funding, fuel tax policy, and international trade rules"
+    },
+    "C00107235": {
+      "sector": "Professional Services",
+      "agenda": "Shapes tax code through advisory services; advocates for partnership tax treatment and international rules"
+    },
+    "C00211318": {
+      "sector": "Professional Services",
+      "agenda": "Influences tax policy through consulting services; supports favorable partnership taxation"
+    },
+    "C00158881": {
+      "sector": "Finance & Insurance",
+      "agenda": "Supports life insurance tax advantages, estate tax policy, and retirement savings incentives"
+    },
+    "C00012245": {
+      "sector": "Finance & Insurance",
+      "agenda": "Lobbies for favorable capital gains rates, international banking tax rules, and financial services regulation"
+    },
+    "C00005249": {
+      "sector": "Finance & Insurance",
+      "agenda": "Advocates for tax treatment of insurance and financial advisor compensation"
+    },
+    "C00016683": {
+      "sector": "Healthcare & Pharma",
+      "agenda": "Seeks favorable tax treatment for pharmaceutical R&D, drug pricing flexibility, and IP tax rules"
+    },
+    "C00431312": {
+      "sector": "Finance & Insurance",
+      "agenda": "Lobbies for capital markets tax treatment, carried interest rules, and securities regulation"
+    },
+    "C00251876": {
+      "sector": "Healthcare & Pharma",
+      "agenda": "Supports biotech R&D tax credits, IP taxation rules, and drug pricing policy"
+    },
+    "C00140061": {
+      "sector": "Healthcare & Pharma",
+      "agenda": "Opposes Medicare reimbursement cuts and supports emergency physician tax incentives"
+    },
+    "C00121319": {
+      "sector": "Finance & Insurance",
+      "agenda": "Supports fraternal benefit society tax exemptions and retirement product tax treatment"
+    },
+    "C00004275": {
+      "sector": "Finance & Insurance",
+      "agenda": "Lobbies for bank-friendly tax policy, corporate rate cuts, and pass-through deductions"
+    },
+    "C00170258": {
+      "sector": "Finance & Insurance",
+      "agenda": "Supports mutual insurance company tax treatment and property casualty tax rules"
+    },
+    "C00104901": {
+      "sector": "Professional Services",
+      "agenda": "Top lobbying firm; influences tax policy across multiple industries through client representation"
+    },
+    "C00343137": {
+      "sector": "Healthcare & Pharma",
+      "agenda": "Supports physician reimbursement rates and medical device tax policy"
+    },
+    "C00000422": {
+      "sector": "Healthcare & Pharma",
+      "agenda": "Advocates for physician tax incentives, Medicare reimbursement, and healthcare tax deductions"
+    },
+    "C00022343": {
+      "sector": "Finance & Insurance",
+      "agenda": "Supports independent insurance agent compensation rules and small business tax deductions"
+    },
+    "C00380550": {
+      "sector": "Finance & Insurance",
+      "agenda": "Supports capital gains tax rates, retirement savings policy, and investment product tax treatment"
+    },
+    "C00188177": {
+      "sector": "Professional Services",
+      "agenda": "Lobbies to preserve individual tax preparation complexity and tax refund product rules"
+    },
+    "C00113803": {
+      "sector": "Healthcare & Pharma",
+      "agenda": "Supports physician reimbursement and osteopathic medicine funding"
+    },
+    "C00797670": {
+      "sector": "Ideological",
+      "agenda": "Supports pro-Israel foreign policy; engages on defense and foreign aid appropriations"
+    },
+    "C00012880": {
+      "sector": "Healthcare & Pharma",
+      "agenda": "Supports physical therapy reimbursement rates and healthcare provider tax incentives"
+    },
+    "C00227744": {
+      "sector": "Professional Services",
+      "agenda": "Shapes tax code through advisory services; supports favorable partnership and corporate taxation"
+    },
+    "C00000901": {
+      "sector": "Real Estate & Housing",
+      "agenda": "Supports homebuilder tax incentives, mortgage interest deduction, and housing tax credits"
+    },
+    "C00085316": {
+      "sector": "Healthcare & Pharma",
+      "agenda": "Opposes health insurance taxes and supports managed care tax treatment"
+    },
+    "C00361758": {
+      "sector": "Tech & Telecom",
+      "agenda": "Advocates for telecom spectrum policy, infrastructure investment incentives, and wireless tax rules"
+    },
+    "C00536573": {
+      "sector": "Healthcare & Pharma",
+      "agenda": "Supports pharmaceutical R&D tax credits, IP protection, and drug pricing flexibility"
+    },
+    "C00248716": {
+      "sector": "Tech & Telecom",
+      "agenda": "Lobbies for media/telecom tax treatment, broadband investment incentives, and content regulation"
+    },
+    "C00096156": {
+      "sector": "Defense & Aerospace",
+      "agenda": "Supports R&D tax credits, manufacturing incentives, and defense contractor tax treatment"
+    },
+    "C00118943": {
+      "sector": "Finance & Insurance",
+      "agenda": "Supports life insurance tax advantages, retirement savings incentives, and mutual company taxation"
+    },
+    "C00040998": {
+      "sector": "Transportation",
+      "agenda": "Advocates for auto dealer pass-through deductions, LIFO accounting, and vehicle tax credits"
+    },
+    "C00196246": {
+      "sector": "Healthcare & Pharma",
+      "agenda": "Supports physician reimbursement and opposes Medicare payment cuts for ophthalmology"
+    },
+    "C00142711": {
+      "sector": "Defense & Aerospace",
+      "agenda": "Supports defense spending, R&D tax credits, and manufacturing tax incentives"
+    },
+    "C00103903": {
+      "sector": "Construction & Engineering",
+      "agenda": "Supports infrastructure tax incentives and engineering firm pass-through deductions"
+    },
+    "C00035675": {
+      "sector": "Healthcare & Pharma",
+      "agenda": "Supports pharmaceutical R&D tax credits and opposes drug pricing reforms"
+    },
+    "C00024968": {
+      "sector": "Healthcare & Pharma",
+      "agenda": "Supports optometrist reimbursement and vision care tax deductions"
+    },
+    "C00066472": {
+      "sector": "Finance & Insurance",
+      "agenda": "Advocates for property casualty insurance tax treatment and catastrophe reserve deductions"
+    },
+    "C00147173": {
+      "sector": "Food & Beverage",
+      "agenda": "Opposes excise tax increases on wine and spirits and supports favorable alcohol tax treatment"
+    },
+    "C00431361": {
+      "sector": "Finance & Insurance",
+      "agenda": "Supports retirement savings tax policy, pension regulation, and financial product taxation"
+    },
+    "C00004812": {
+      "sector": "Finance & Insurance",
+      "agenda": "Lobbies for mortgage lending tax treatment, MSR deductions, and housing finance tax policy"
+    },
+    "C00255752": {
+      "sector": "Healthcare & Pharma",
+      "agenda": "Supports physician reimbursement and anesthesiology practice tax incentives"
+    },
+    "C00000729": {
+      "sector": "Healthcare & Pharma",
+      "agenda": "Supports dental practice deductions and opposes cuts to dental reimbursement"
+    },
+    "C00002261": {
+      "sector": "Healthcare & Pharma",
+      "agenda": "Supports hospital tax-exempt bond financing and opposes Medicare payment reductions"
+    },
+    "C00411553": {
+      "sector": "Healthcare & Pharma",
+      "agenda": "Supports family physician reimbursement and primary care tax incentives"
+    },
+    "C00001198": {
+      "sector": "Retail & Consumer",
+      "agenda": "Supports hospitality industry tax deductions, business meal deductions, and lodging tax rules"
+    },
+    "C00694323": {
+      "sector": "Ideological",
+      "agenda": "Republican online fundraising platform; processes contributions from conservative donors"
+    }
+  },
+  "keyword_fallbacks": {
+    "Finance & Insurance": ["BANK", "INSURANCE", "FINANCIAL", "CREDIT UNION", "MUTUAL", "INVESTMENT", "SECURITIES", "MORTGAGE", "LENDING", "ANNUIT"],
+    "Healthcare & Pharma": ["MEDICAL", "HOSPITAL", "HEALTH", "PHARMA", "PHYSICIAN", "NURSE", "DENTAL", "OPTOM", "OPHTHALM", "ORTHOP", "ANESTHE", "THERAPY", "BIOTECH", "DRUG"],
+    "Real Estate & Housing": ["REALTOR", "REAL ESTATE", "HOUSING", "HOME BUILD", "APARTMENT", "MULTIFAMILY", "REIT"],
+    "Tech & Telecom": ["TECHNOLOGY", "TELECOM", "WIRELESS", "SOFTWARE", "INTERNET", "BROADBAND", "COMPUTING", "MICROSOFT", "GOOGLE", "META", "APPLE"],
+    "Energy & Utilities": ["ENERGY", "ELECTRIC", "OIL", "GAS", "PETROLEUM", "UTILITY", "SOLAR", "WIND", "NUCLEAR", "PIPELINE"],
+    "Defense & Aerospace": ["DEFENSE", "AEROSPACE", "MILITARY", "BOEING", "LOCKHEED", "RAYTHEON", "NORTHROP"],
+    "Transportation": ["TRANSPORT", "AIRLINE", "AUTO", "TRUCK", "RAIL", "SHIPPING", "FEDEX", "UPS", "TOYOTA"],
+    "Retail & Consumer": ["RETAIL", "CONSUMER", "WALMART", "HOME DEPOT", "HOTEL", "LODGING", "RESTAURANT"],
+    "Labor": ["UNION", "WORKERS", "LABOR", "TEACHERS", "FIREFIGHTER", "POLICE", "AFL-CIO", "TEAMSTER", "SEIU"],
+    "Professional Services": ["ACCOUNTANT", "ATTORNEY", "LAWYER", "CONSULTING", "PRICEWATERHOUSE", "DELOITTE", "ERNST", "KPMG", "H&R BLOCK"],
+    "Food & Beverage": ["BEER", "WINE", "SPIRIT", "BEVERAGE", "FOOD", "RESTAURANT", "GROCERY", "DISTILL"],
+    "Construction & Engineering": ["CONSTRUCTION", "ENGINEERING", "BUILDING", "CONTRACTOR", "ARCHITECT", "CEMENT", "AGGREGATE"]
+  }
+}

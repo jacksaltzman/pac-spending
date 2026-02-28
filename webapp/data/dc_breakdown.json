@@ -1,0 +1,722 @@
+[
+  {
+    "member_name": "Linda Sanchez",
+    "party": "D",
+    "state": "CA",
+    "district": 38,
+    "chamber": "house",
+    "pct_dc_kstreet": 18.81,
+    "amt_dc_kstreet": 68250,
+    "total_itemized_amount": 362842
+  },
+  {
+    "member_name": "Stacey Plaskett",
+    "party": "D",
+    "state": "VI",
+    "district": 0,
+    "chamber": "house",
+    "pct_dc_kstreet": 13.58,
+    "amt_dc_kstreet": 43100,
+    "total_itemized_amount": 317446
+  },
+  {
+    "member_name": "Don Beyer",
+    "party": "D",
+    "state": "VA",
+    "district": 8,
+    "chamber": "house",
+    "pct_dc_kstreet": 13.25,
+    "amt_dc_kstreet": 132791,
+    "total_itemized_amount": 1002034
+  },
+  {
+    "member_name": "Peter Welch",
+    "party": "D",
+    "state": "VT",
+    "district": null,
+    "chamber": "senate",
+    "pct_dc_kstreet": 10.1,
+    "amt_dc_kstreet": 5900,
+    "total_itemized_amount": 58406
+  },
+  {
+    "member_name": "Ben Ray Lujan",
+    "party": "D",
+    "state": "NM",
+    "district": null,
+    "chamber": "senate",
+    "pct_dc_kstreet": 9.42,
+    "amt_dc_kstreet": 76934,
+    "total_itemized_amount": 816400
+  },
+  {
+    "member_name": "Kevin Hern",
+    "party": "R",
+    "state": "OK",
+    "district": 1,
+    "chamber": "house",
+    "pct_dc_kstreet": 9.19,
+    "amt_dc_kstreet": 59845,
+    "total_itemized_amount": 651132
+  },
+  {
+    "member_name": "Maggie Hassan",
+    "party": "D",
+    "state": "NH",
+    "district": null,
+    "chamber": "senate",
+    "pct_dc_kstreet": 8.76,
+    "amt_dc_kstreet": 98340,
+    "total_itemized_amount": 1122848
+  },
+  {
+    "member_name": "Steven Horsford",
+    "party": "D",
+    "state": "NV",
+    "district": 4,
+    "chamber": "house",
+    "pct_dc_kstreet": 8.65,
+    "amt_dc_kstreet": 224775,
+    "total_itemized_amount": 2598960
+  },
+  {
+    "member_name": "Richard Neal",
+    "party": "D",
+    "state": "MA",
+    "district": 1,
+    "chamber": "house",
+    "pct_dc_kstreet": 8.59,
+    "amt_dc_kstreet": 64000,
+    "total_itemized_amount": 745005
+  },
+  {
+    "member_name": "Terri Sewell",
+    "party": "D",
+    "state": "AL",
+    "district": 7,
+    "chamber": "house",
+    "pct_dc_kstreet": 8.43,
+    "amt_dc_kstreet": 74870,
+    "total_itemized_amount": 887691
+  },
+  {
+    "member_name": "Darin LaHood",
+    "party": "R",
+    "state": "IL",
+    "district": 16,
+    "chamber": "house",
+    "pct_dc_kstreet": 7.95,
+    "amt_dc_kstreet": 66459,
+    "total_itemized_amount": 836260
+  },
+  {
+    "member_name": "Mark Warner",
+    "party": "D",
+    "state": "VA",
+    "district": null,
+    "chamber": "senate",
+    "pct_dc_kstreet": 7.88,
+    "amt_dc_kstreet": 154470,
+    "total_itemized_amount": 1960339
+  },
+  {
+    "member_name": "Gwen Moore",
+    "party": "D",
+    "state": "WI",
+    "district": 4,
+    "chamber": "house",
+    "pct_dc_kstreet": 7.8,
+    "amt_dc_kstreet": 26910,
+    "total_itemized_amount": 345033
+  },
+  {
+    "member_name": "Mike Crapo",
+    "party": "R",
+    "state": "ID",
+    "district": null,
+    "chamber": "senate",
+    "pct_dc_kstreet": 6.75,
+    "amt_dc_kstreet": 20100,
+    "total_itemized_amount": 297674
+  },
+  {
+    "member_name": "Jodey Arrington",
+    "party": "R",
+    "state": "TX",
+    "district": 19,
+    "chamber": "house",
+    "pct_dc_kstreet": 6.52,
+    "amt_dc_kstreet": 36250,
+    "total_itemized_amount": 555652
+  },
+  {
+    "member_name": "Jimmy Gomez",
+    "party": "D",
+    "state": "CA",
+    "district": 34,
+    "chamber": "house",
+    "pct_dc_kstreet": 6.45,
+    "amt_dc_kstreet": 83200,
+    "total_itemized_amount": 1290589
+  },
+  {
+    "member_name": "Brendan Boyle",
+    "party": "D",
+    "state": "PA",
+    "district": 2,
+    "chamber": "house",
+    "pct_dc_kstreet": 6.39,
+    "amt_dc_kstreet": 40300,
+    "total_itemized_amount": 630438
+  },
+  {
+    "member_name": "Thom Tillis",
+    "party": "R",
+    "state": "NC",
+    "district": null,
+    "chamber": "senate",
+    "pct_dc_kstreet": 6.38,
+    "amt_dc_kstreet": 85950,
+    "total_itemized_amount": 1347146
+  },
+  {
+    "member_name": "Sheldon Whitehouse",
+    "party": "D",
+    "state": "RI",
+    "district": null,
+    "chamber": "senate",
+    "pct_dc_kstreet": 6.09,
+    "amt_dc_kstreet": 125367,
+    "total_itemized_amount": 2058014
+  },
+  {
+    "member_name": "Mike Carey",
+    "party": "R",
+    "state": "OH",
+    "district": 15,
+    "chamber": "house",
+    "pct_dc_kstreet": 5.9,
+    "amt_dc_kstreet": 49338,
+    "total_itemized_amount": 835588
+  },
+  {
+    "member_name": "Steve Daines",
+    "party": "R",
+    "state": "MT",
+    "district": null,
+    "chamber": "senate",
+    "pct_dc_kstreet": 5.81,
+    "amt_dc_kstreet": 26904,
+    "total_itemized_amount": 462843
+  },
+  {
+    "member_name": "Carol Miller",
+    "party": "R",
+    "state": "WV",
+    "district": 2,
+    "chamber": "house",
+    "pct_dc_kstreet": 5.63,
+    "amt_dc_kstreet": 32124,
+    "total_itemized_amount": 571037
+  },
+  {
+    "member_name": "Lloyd Smucker",
+    "party": "R",
+    "state": "PA",
+    "district": 11,
+    "chamber": "house",
+    "pct_dc_kstreet": 5.6,
+    "amt_dc_kstreet": 16250,
+    "total_itemized_amount": 290100
+  },
+  {
+    "member_name": "Ron Estes",
+    "party": "R",
+    "state": "KS",
+    "district": 4,
+    "chamber": "house",
+    "pct_dc_kstreet": 5.5,
+    "amt_dc_kstreet": 21800,
+    "total_itemized_amount": 396434
+  },
+  {
+    "member_name": "Greg Steube",
+    "party": "R",
+    "state": "FL",
+    "district": 17,
+    "chamber": "house",
+    "pct_dc_kstreet": 5.44,
+    "amt_dc_kstreet": 22600,
+    "total_itemized_amount": 415271
+  },
+  {
+    "member_name": "Roger Marshall",
+    "party": "R",
+    "state": "KS",
+    "district": null,
+    "chamber": "senate",
+    "pct_dc_kstreet": 5.34,
+    "amt_dc_kstreet": 21050,
+    "total_itemized_amount": 394318
+  },
+  {
+    "member_name": "John Barrasso",
+    "party": "R",
+    "state": "WY",
+    "district": null,
+    "chamber": "senate",
+    "pct_dc_kstreet": 5.32,
+    "amt_dc_kstreet": 175975,
+    "total_itemized_amount": 3310219
+  },
+  {
+    "member_name": "Bill Cassidy",
+    "party": "R",
+    "state": "LA",
+    "district": null,
+    "chamber": "senate",
+    "pct_dc_kstreet": 5.27,
+    "amt_dc_kstreet": 76492,
+    "total_itemized_amount": 1451213
+  },
+  {
+    "member_name": "Ron Wyden",
+    "party": "D",
+    "state": "OR",
+    "district": null,
+    "chamber": "senate",
+    "pct_dc_kstreet": 5.07,
+    "amt_dc_kstreet": 20150,
+    "total_itemized_amount": 397302
+  },
+  {
+    "member_name": "Maria Cantwell",
+    "party": "D",
+    "state": "WA",
+    "district": null,
+    "chamber": "senate",
+    "pct_dc_kstreet": 4.94,
+    "amt_dc_kstreet": 447354,
+    "total_itemized_amount": 9051589
+  },
+  {
+    "member_name": "Mike Kelly",
+    "party": "R",
+    "state": "PA",
+    "district": 16,
+    "chamber": "house",
+    "pct_dc_kstreet": 4.55,
+    "amt_dc_kstreet": 24600,
+    "total_itemized_amount": 541197
+  },
+  {
+    "member_name": "Tina Smith",
+    "party": "D",
+    "state": "MN",
+    "district": null,
+    "chamber": "senate",
+    "pct_dc_kstreet": 4.25,
+    "amt_dc_kstreet": 32980,
+    "total_itemized_amount": 775863
+  },
+  {
+    "member_name": "Adrian Smith",
+    "party": "R",
+    "state": "NE",
+    "district": 3,
+    "chamber": "house",
+    "pct_dc_kstreet": 4.14,
+    "amt_dc_kstreet": 18500,
+    "total_itemized_amount": 447093
+  },
+  {
+    "member_name": "Marsha Blackburn",
+    "party": "R",
+    "state": "TN",
+    "district": null,
+    "chamber": "senate",
+    "pct_dc_kstreet": 4.07,
+    "amt_dc_kstreet": 138516,
+    "total_itemized_amount": 3401229
+  },
+  {
+    "member_name": "Aaron Bean",
+    "party": "R",
+    "state": "FL",
+    "district": 4,
+    "chamber": "house",
+    "pct_dc_kstreet": 3.8,
+    "amt_dc_kstreet": 23500,
+    "total_itemized_amount": 618152
+  },
+  {
+    "member_name": "Vern Buchanan",
+    "party": "R",
+    "state": "FL",
+    "district": 16,
+    "chamber": "house",
+    "pct_dc_kstreet": 3.78,
+    "amt_dc_kstreet": 18500,
+    "total_itemized_amount": 488845
+  },
+  {
+    "member_name": "Jason Smith",
+    "party": "R",
+    "state": "MO",
+    "district": 8,
+    "chamber": "house",
+    "pct_dc_kstreet": 3.72,
+    "amt_dc_kstreet": 65314,
+    "total_itemized_amount": 1756665
+  },
+  {
+    "member_name": "David Kustoff",
+    "party": "R",
+    "state": "TN",
+    "district": 8,
+    "chamber": "house",
+    "pct_dc_kstreet": 3.58,
+    "amt_dc_kstreet": 37000,
+    "total_itemized_amount": 1032448
+  },
+  {
+    "member_name": "James Lankford",
+    "party": "R",
+    "state": "OK",
+    "district": null,
+    "chamber": "senate",
+    "pct_dc_kstreet": 3.56,
+    "amt_dc_kstreet": 12750,
+    "total_itemized_amount": 358403
+  },
+  {
+    "member_name": "Danny Davis",
+    "party": "D",
+    "state": "IL",
+    "district": 7,
+    "chamber": "house",
+    "pct_dc_kstreet": 3.54,
+    "amt_dc_kstreet": 11250,
+    "total_itemized_amount": 317612
+  },
+  {
+    "member_name": "Claudia Tenney",
+    "party": "R",
+    "state": "NY",
+    "district": 24,
+    "chamber": "house",
+    "pct_dc_kstreet": 3.45,
+    "amt_dc_kstreet": 38016,
+    "total_itemized_amount": 1100698
+  },
+  {
+    "member_name": "Beth Van Duyne",
+    "party": "R",
+    "state": "TX",
+    "district": 24,
+    "chamber": "house",
+    "pct_dc_kstreet": 3.41,
+    "amt_dc_kstreet": 27577,
+    "total_itemized_amount": 809335
+  },
+  {
+    "member_name": "Blake Moore",
+    "party": "R",
+    "state": "UT",
+    "district": 1,
+    "chamber": "house",
+    "pct_dc_kstreet": 3.21,
+    "amt_dc_kstreet": 29700,
+    "total_itemized_amount": 925538
+  },
+  {
+    "member_name": "David Schweikert",
+    "party": "R",
+    "state": "AZ",
+    "district": 1,
+    "chamber": "house",
+    "pct_dc_kstreet": 3.19,
+    "amt_dc_kstreet": 52550,
+    "total_itemized_amount": 1648703
+  },
+  {
+    "member_name": "Mike Thompson",
+    "party": "D",
+    "state": "CA",
+    "district": 4,
+    "chamber": "house",
+    "pct_dc_kstreet": 3.18,
+    "amt_dc_kstreet": 25509,
+    "total_itemized_amount": 803374
+  },
+  {
+    "member_name": "Michelle Fischbach",
+    "party": "R",
+    "state": "MN",
+    "district": 7,
+    "chamber": "house",
+    "pct_dc_kstreet": 3.18,
+    "amt_dc_kstreet": 18150,
+    "total_itemized_amount": 570564
+  },
+  {
+    "member_name": "Randy Feenstra",
+    "party": "R",
+    "state": "IA",
+    "district": 4,
+    "chamber": "house",
+    "pct_dc_kstreet": 3.02,
+    "amt_dc_kstreet": 45991,
+    "total_itemized_amount": 1523397
+  },
+  {
+    "member_name": "John Larson",
+    "party": "D",
+    "state": "CT",
+    "district": 1,
+    "chamber": "house",
+    "pct_dc_kstreet": 2.93,
+    "amt_dc_kstreet": 12585,
+    "total_itemized_amount": 428855
+  },
+  {
+    "member_name": "Nathaniel Moran",
+    "party": "R",
+    "state": "TX",
+    "district": 1,
+    "chamber": "house",
+    "pct_dc_kstreet": 2.87,
+    "amt_dc_kstreet": 8750,
+    "total_itemized_amount": 304802
+  },
+  {
+    "member_name": "Jimmy Panetta",
+    "party": "D",
+    "state": "CA",
+    "district": 19,
+    "chamber": "house",
+    "pct_dc_kstreet": 2.83,
+    "amt_dc_kstreet": 42050,
+    "total_itemized_amount": 1487740
+  },
+  {
+    "member_name": "Suzan DelBene",
+    "party": "D",
+    "state": "WA",
+    "district": 1,
+    "chamber": "house",
+    "pct_dc_kstreet": 2.74,
+    "amt_dc_kstreet": 36600,
+    "total_itemized_amount": 1336414
+  },
+  {
+    "member_name": "Nicole Malliotakis",
+    "party": "R",
+    "state": "NY",
+    "district": 11,
+    "chamber": "house",
+    "pct_dc_kstreet": 2.56,
+    "amt_dc_kstreet": 30590,
+    "total_itemized_amount": 1192614
+  },
+  {
+    "member_name": "Todd Young",
+    "party": "R",
+    "state": "IN",
+    "district": null,
+    "chamber": "senate",
+    "pct_dc_kstreet": 2.4,
+    "amt_dc_kstreet": 14100,
+    "total_itemized_amount": 587065
+  },
+  {
+    "member_name": "John Cornyn",
+    "party": "R",
+    "state": "TX",
+    "district": null,
+    "chamber": "senate",
+    "pct_dc_kstreet": 2.22,
+    "amt_dc_kstreet": 26500,
+    "total_itemized_amount": 1193195
+  },
+  {
+    "member_name": "John Thune",
+    "party": "R",
+    "state": "SD",
+    "district": null,
+    "chamber": "senate",
+    "pct_dc_kstreet": 2.22,
+    "amt_dc_kstreet": 24500,
+    "total_itemized_amount": 1103601
+  },
+  {
+    "member_name": "Dwight Evans",
+    "party": "D",
+    "state": "PA",
+    "district": 3,
+    "chamber": "house",
+    "pct_dc_kstreet": 2.08,
+    "amt_dc_kstreet": 6000,
+    "total_itemized_amount": 288875
+  },
+  {
+    "member_name": "Catherine Cortez Masto",
+    "party": "D",
+    "state": "NV",
+    "district": null,
+    "chamber": "senate",
+    "pct_dc_kstreet": 1.97,
+    "amt_dc_kstreet": 25146,
+    "total_itemized_amount": 1276360
+  },
+  {
+    "member_name": "Greg Murphy",
+    "party": "R",
+    "state": "NC",
+    "district": 3,
+    "chamber": "house",
+    "pct_dc_kstreet": 1.96,
+    "amt_dc_kstreet": 17750,
+    "total_itemized_amount": 907043
+  },
+  {
+    "member_name": "Thomas Suozzi",
+    "party": "D",
+    "state": "NY",
+    "district": 3,
+    "chamber": "house",
+    "pct_dc_kstreet": 1.91,
+    "amt_dc_kstreet": 114987,
+    "total_itemized_amount": 6014193
+  },
+  {
+    "member_name": "Brad Schneider",
+    "party": "D",
+    "state": "IL",
+    "district": 10,
+    "chamber": "house",
+    "pct_dc_kstreet": 1.9,
+    "amt_dc_kstreet": 38746,
+    "total_itemized_amount": 2044077
+  },
+  {
+    "member_name": "Michael Bennet",
+    "party": "D",
+    "state": "CO",
+    "district": null,
+    "chamber": "senate",
+    "pct_dc_kstreet": 1.83,
+    "amt_dc_kstreet": 9215,
+    "total_itemized_amount": 502934
+  },
+  {
+    "member_name": "Max Miller",
+    "party": "R",
+    "state": "OH",
+    "district": 7,
+    "chamber": "house",
+    "pct_dc_kstreet": 1.79,
+    "amt_dc_kstreet": 13050,
+    "total_itemized_amount": 727835
+  },
+  {
+    "member_name": "Brian Fitzpatrick",
+    "party": "R",
+    "state": "PA",
+    "district": 1,
+    "chamber": "house",
+    "pct_dc_kstreet": 1.75,
+    "amt_dc_kstreet": 40370,
+    "total_itemized_amount": 2306017
+  },
+  {
+    "member_name": "Rudy Yakym",
+    "party": "R",
+    "state": "IN",
+    "district": 2,
+    "chamber": "house",
+    "pct_dc_kstreet": 1.68,
+    "amt_dc_kstreet": 18155,
+    "total_itemized_amount": 1080325
+  },
+  {
+    "member_name": "Tim Scott",
+    "party": "R",
+    "state": "SC",
+    "district": null,
+    "chamber": "senate",
+    "pct_dc_kstreet": 1.65,
+    "amt_dc_kstreet": 195732,
+    "total_itemized_amount": 11860794
+  },
+  {
+    "member_name": "Raphael Warnock",
+    "party": "D",
+    "state": "GA",
+    "district": null,
+    "chamber": "senate",
+    "pct_dc_kstreet": 1.59,
+    "amt_dc_kstreet": 47279,
+    "total_itemized_amount": 2979130
+  },
+  {
+    "member_name": "Chuck Grassley",
+    "party": "R",
+    "state": "IA",
+    "district": null,
+    "chamber": "senate",
+    "pct_dc_kstreet": 1.2,
+    "amt_dc_kstreet": 2950,
+    "total_itemized_amount": 246052
+  },
+  {
+    "member_name": "Elizabeth Warren",
+    "party": "D",
+    "state": "MA",
+    "district": null,
+    "chamber": "senate",
+    "pct_dc_kstreet": 1.07,
+    "amt_dc_kstreet": 43621,
+    "total_itemized_amount": 4095429
+  },
+  {
+    "member_name": "Lloyd Doggett",
+    "party": "D",
+    "state": "TX",
+    "district": 37,
+    "chamber": "house",
+    "pct_dc_kstreet": 0.9,
+    "amt_dc_kstreet": 5865,
+    "total_itemized_amount": 652694
+  },
+  {
+    "member_name": "Judy Chu",
+    "party": "D",
+    "state": "CA",
+    "district": 28,
+    "chamber": "house",
+    "pct_dc_kstreet": 0.86,
+    "amt_dc_kstreet": 9650,
+    "total_itemized_amount": 1127907
+  },
+  {
+    "member_name": "Bernie Sanders",
+    "party": "I",
+    "state": "VT",
+    "district": null,
+    "chamber": "senate",
+    "pct_dc_kstreet": 0.77,
+    "amt_dc_kstreet": 26429,
+    "total_itemized_amount": 3416238
+  },
+  {
+    "member_name": "Ron Johnson",
+    "party": "R",
+    "state": "WI",
+    "district": null,
+    "chamber": "senate",
+    "pct_dc_kstreet": 0.54,
+    "amt_dc_kstreet": 19310,
+    "total_itemized_amount": 3575762
+  }
+]

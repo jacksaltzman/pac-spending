@@ -1,0 +1,8 @@
+group,member_count,mean_pct_outside,median_pct_outside,mean_pct_dc,median_pct_dc,total_contributions,avg_contributions_per_member,highest_outside_member,highest_outside_pct,lowest_outside_member,lowest_outside_pct,mean_unitemized_pct
+All Members,71,74.6,75.8,4.6,3.7,102997444,1450668.23,Brendan Boyle,98.9,John Cornyn,30.3,9.3
+House Ways & Means,44,75.5,76.8,4.7,3.6,44897078,1020388.14,Brendan Boyle,98.9,Nathaniel Moran,33.59,4.7
+Senate Finance,27,73.1,75.8,4.3,4.2,58100366,2151865.41,Bernie Sanders,97.28,John Cornyn,30.3,18.0
+House W&M Republicans,26,73.8,76.6,4.1,3.7,22532745,866644.04,Claudia Tenney,96.07,Nathaniel Moran,33.59,5.4
+House W&M Democrats,18,78.1,78.7,5.6,3.4,22364333,1242462.94,Brendan Boyle,98.9,John Larson,43.55,3.7
+Senate Finance Republicans,14,73.2,74.7,3.8,3.8,29589514,2113536.71,Mike Crapo,97.19,John Cornyn,30.3,10.0
+Senate Finance Democrats,13,73.0,77.2,4.9,4.9,28510852,2193142.46,Bernie Sanders,97.28,Michael Bennet,44.6,24.7

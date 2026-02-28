@@ -1,0 +1,36 @@
+{
+  "house": {
+    "all_incumbents": {
+      "count": 440,
+      "median_receipts": 1976833,
+      "mean_receipts": 3354290,
+      "median_pac": 723617,
+      "mean_pac": 845570
+    },
+    "committee": {
+      "name": "Ways & Means",
+      "count": 41,
+      "median_receipts": 2337216,
+      "mean_receipts": 2835004,
+      "median_pac": 1202564,
+      "mean_pac": 1337197
+    }
+  },
+  "senate": {
+    "all_incumbents": {
+      "count": 34,
+      "median_receipts": 7984637,
+      "mean_receipts": 18722808,
+      "median_pac": 1038296,
+      "mean_pac": 1209764
+    },
+    "committee": {
+      "name": "Finance",
+      "count": 22,
+      "median_pac": 319850,
+      "mean_pac": 548572
+    }
+  },
+  "cycle": 2024,
+  "source": "FEC webl24.txt (all-candidates summary file)"
+}

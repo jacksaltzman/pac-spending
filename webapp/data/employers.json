@@ -1,0 +1,8360 @@
+[
+  {
+    "member_name": "Jason Smith",
+    "rank": 1,
+    "employer": "BLACKSTONE",
+    "total": 66900,
+    "count": 24
+  },
+  {
+    "member_name": "Jason Smith",
+    "rank": 2,
+    "employer": "HERZOG",
+    "total": 42900,
+    "count": 14
+  },
+  {
+    "member_name": "Jason Smith",
+    "rank": 3,
+    "employer": "TRIBE",
+    "total": 42700,
+    "count": 20
+  },
+  {
+    "member_name": "Jason Smith",
+    "rank": 4,
+    "employer": "APOLLO GLOBAL",
+    "total": 23100,
+    "count": 11
+  },
+  {
+    "member_name": "Jason Smith",
+    "rank": 5,
+    "employer": "WCAS",
+    "total": 15700,
+    "count": 13
+  },
+  {
+    "member_name": "Jason Smith",
+    "rank": 6,
+    "employer": "BLUFF POINT",
+    "total": 12400,
+    "count": 7
+  },
+  {
+    "member_name": "Jason Smith",
+    "rank": 7,
+    "employer": "CHARTER BROKERAGE",
+    "total": 12000,
+    "count": 7
+  },
+  {
+    "member_name": "Jason Smith",
+    "rank": 8,
+    "employer": "BGR",
+    "total": 11400,
+    "count": 10
+  },
+  {
+    "member_name": "Jason Smith",
+    "rank": 9,
+    "employer": "WELSH CARSON",
+    "total": 11000,
+    "count": 8
+  },
+  {
+    "member_name": "Jason Smith",
+    "rank": 10,
+    "employer": "APOLLO",
+    "total": 10700,
+    "count": 5
+  },
+  {
+    "member_name": "Jason Smith",
+    "rank": 11,
+    "employer": "CAPITOL TAX",
+    "total": 10000,
+    "count": 8
+  },
+  {
+    "member_name": "Jason Smith",
+    "rank": 12,
+    "employer": "RED APPLE",
+    "total": 9900,
+    "count": 6
+  },
+  {
+    "member_name": "Jason Smith",
+    "rank": 13,
+    "employer": "INVARIANT",
+    "total": 8500,
+    "count": 10
+  },
+  {
+    "member_name": "Jason Smith",
+    "rank": 14,
+    "employer": "NORTHWESTERN MUTUAL",
+    "total": 8000,
+    "count": 8
+  },
+  {
+    "member_name": "Jason Smith",
+    "rank": 15,
+    "employer": "ADVANTAGE CAPITAL",
+    "total": 7800,
+    "count": 5
+  },
+  {
+    "member_name": "Jason Smith",
+    "rank": 16,
+    "employer": "AXON",
+    "total": 7500,
+    "count": 5
+  },
+  {
+    "member_name": "Vern Buchanan",
+    "rank": 1,
+    "employer": "DERICK DERMATOLOGY",
+    "total": 13200,
+    "count": 4
+  },
+  {
+    "member_name": "Vern Buchanan",
+    "rank": 2,
+    "employer": "BLACKSTONE",
+    "total": 8100,
+    "count": 3
+  },
+  {
+    "member_name": "Vern Buchanan",
+    "rank": 3,
+    "employer": "CAPITOL COUNSEL",
+    "total": 8000,
+    "count": 5
+  },
+  {
+    "member_name": "Vern Buchanan",
+    "rank": 4,
+    "employer": "CASL",
+    "total": 7609,
+    "count": 4
+  },
+  {
+    "member_name": "Vern Buchanan",
+    "rank": 5,
+    "employer": "TERREG",
+    "total": 7600,
+    "count": 3
+  },
+  {
+    "member_name": "Vern Buchanan",
+    "rank": 6,
+    "employer": "EMSI TAMPA",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "Vern Buchanan",
+    "rank": 7,
+    "employer": "SENIOR STAR",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "Vern Buchanan",
+    "rank": 8,
+    "employer": "FINANCIAL INSURANCE",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "Vern Buchanan",
+    "rank": 9,
+    "employer": "SOROBAN CAPITAL",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "Vern Buchanan",
+    "rank": 10,
+    "employer": "HAMLIN &",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "Vern Buchanan",
+    "rank": 11,
+    "employer": "STEPHENS",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "Vern Buchanan",
+    "rank": 12,
+    "employer": "CARNIVAL CRUISE LINE",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "Vern Buchanan",
+    "rank": 13,
+    "employer": "SEAN N PARKER FOUNDATION",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "Vern Buchanan",
+    "rank": 14,
+    "employer": "HAYCORP",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "Vern Buchanan",
+    "rank": 15,
+    "employer": "FEDERAL POLICY",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "Vern Buchanan",
+    "rank": 16,
+    "employer": "BEVERAGE POUCH",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "Adrian Smith",
+    "rank": 1,
+    "employer": "HAWKINS CONSTRUCTION",
+    "total": 13200,
+    "count": 5
+  },
+  {
+    "member_name": "Adrian Smith",
+    "rank": 2,
+    "employer": "SANDHILLS PUBLISHING",
+    "total": 13200,
+    "count": 4
+  },
+  {
+    "member_name": "Adrian Smith",
+    "rank": 3,
+    "employer": "OAKLAND ATHLETICS",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "Adrian Smith",
+    "rank": 4,
+    "employer": "SEAN N PARKER FOUNDATION",
+    "total": 6600,
+    "count": 5
+  },
+  {
+    "member_name": "Adrian Smith",
+    "rank": 5,
+    "employer": "CASSLING DIAGNOSTIC",
+    "total": 6600,
+    "count": 5
+  },
+  {
+    "member_name": "Adrian Smith",
+    "rank": 6,
+    "employer": "FREMONT CONTRACT CARRIERS",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "Adrian Smith",
+    "rank": 7,
+    "employer": "BRUNING LAW",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "Adrian Smith",
+    "rank": 8,
+    "employer": "BLACKSTONE",
+    "total": 6600,
+    "count": 3
+  },
+  {
+    "member_name": "Adrian Smith",
+    "rank": 9,
+    "employer": "BAXTER AUTOMOTIVE",
+    "total": 6600,
+    "count": 5
+  },
+  {
+    "member_name": "Adrian Smith",
+    "rank": 10,
+    "employer": "HUB",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "Adrian Smith",
+    "rank": 11,
+    "employer": "PETER KIEWIT SONS",
+    "total": 6600,
+    "count": 5
+  },
+  {
+    "member_name": "Adrian Smith",
+    "rank": 12,
+    "employer": "DCI",
+    "total": 6500,
+    "count": 9
+  },
+  {
+    "member_name": "Adrian Smith",
+    "rank": 13,
+    "employer": "AKRS EQUIPMENT",
+    "total": 6200,
+    "count": 2
+  },
+  {
+    "member_name": "Adrian Smith",
+    "rank": 14,
+    "employer": "SAMPSON CONSTRUCTION",
+    "total": 5300,
+    "count": 3
+  },
+  {
+    "member_name": "Adrian Smith",
+    "rank": 15,
+    "employer": "ROUTE ONE INVESTMENT",
+    "total": 5000,
+    "count": 3
+  },
+  {
+    "member_name": "Adrian Smith",
+    "rank": 16,
+    "employer": "CAPITOL TAX",
+    "total": 5000,
+    "count": 5
+  },
+  {
+    "member_name": "Adrian Smith",
+    "rank": 17,
+    "employer": "THE RUSSELL",
+    "total": 5000,
+    "count": 4
+  },
+  {
+    "member_name": "Mike Kelly",
+    "rank": 1,
+    "employer": "THE PARKER FOUNDATION",
+    "total": 13200,
+    "count": 8
+  },
+  {
+    "member_name": "Mike Kelly",
+    "rank": 2,
+    "employer": "GREATER PITTSBURGH AUTO DEALERS ASSOCI",
+    "total": 8300,
+    "count": 3
+  },
+  {
+    "member_name": "Mike Kelly",
+    "rank": 3,
+    "employer": "O'BRIEN AUTOMOTIVE TEAM",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "Mike Kelly",
+    "rank": 4,
+    "employer": "JIM NORTON TOYOTA",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "Mike Kelly",
+    "rank": 5,
+    "employer": "PENNECO",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "Mike Kelly",
+    "rank": 6,
+    "employer": "ELLWOOD FORGE",
+    "total": 6600,
+    "count": 1
+  },
+  {
+    "member_name": "Mike Kelly",
+    "rank": 7,
+    "employer": "CAPITOL COUNSEL",
+    "total": 5500,
+    "count": 8
+  },
+  {
+    "member_name": "Mike Kelly",
+    "rank": 8,
+    "employer": "VETERANS GUARDIAN",
+    "total": 5000,
+    "count": 2
+  },
+  {
+    "member_name": "Mike Kelly",
+    "rank": 9,
+    "employer": "MCLEOD REGIONAL",
+    "total": 5000,
+    "count": 2
+  },
+  {
+    "member_name": "Mike Kelly",
+    "rank": 10,
+    "employer": "SYNERGI",
+    "total": 5000,
+    "count": 2
+  },
+  {
+    "member_name": "Mike Kelly",
+    "rank": 11,
+    "employer": "MEHLMAN CASTAGNETTI ROSEN & THOMAS",
+    "total": 4300,
+    "count": 3
+  },
+  {
+    "member_name": "Mike Kelly",
+    "rank": 12,
+    "employer": "MAYER BROWN",
+    "total": 4300,
+    "count": 4
+  },
+  {
+    "member_name": "Mike Kelly",
+    "rank": 13,
+    "employer": "TODD STRATEGY",
+    "total": 3500,
+    "count": 7
+  },
+  {
+    "member_name": "Mike Kelly",
+    "rank": 14,
+    "employer": "MONUMENT ADVOCACY",
+    "total": 3300,
+    "count": 1
+  },
+  {
+    "member_name": "Mike Kelly",
+    "rank": 15,
+    "employer": "ROBINDALE",
+    "total": 3300,
+    "count": 1
+  },
+  {
+    "member_name": "Mike Kelly",
+    "rank": 16,
+    "employer": "CONCAST WIELAND",
+    "total": 3300,
+    "count": 2
+  },
+  {
+    "member_name": "David Schweikert",
+    "rank": 1,
+    "employer": "VETERANS GUARDIANS",
+    "total": 13200,
+    "count": 4
+  },
+  {
+    "member_name": "David Schweikert",
+    "rank": 2,
+    "employer": "CAPITOL COUNSEL",
+    "total": 9800,
+    "count": 11
+  },
+  {
+    "member_name": "David Schweikert",
+    "rank": 3,
+    "employer": "OPTIMA FINANCIAL",
+    "total": 7100,
+    "count": 7
+  },
+  {
+    "member_name": "David Schweikert",
+    "rank": 4,
+    "employer": "MMR",
+    "total": 7100,
+    "count": 3
+  },
+  {
+    "member_name": "David Schweikert",
+    "rank": 5,
+    "employer": "GABY FOUNDATION",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "David Schweikert",
+    "rank": 6,
+    "employer": "CLEAR PATH",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "David Schweikert",
+    "rank": 7,
+    "employer": "COTTONWOOD PROPERTIES",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "David Schweikert",
+    "rank": 8,
+    "employer": "CREST INSURANCE",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "David Schweikert",
+    "rank": 9,
+    "employer": "AQR",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "David Schweikert",
+    "rank": 10,
+    "employer": "CUMBERLAND DEVELOPMENT",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "David Schweikert",
+    "rank": 11,
+    "employer": "DANZIK APPLIED SCIENCES",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "David Schweikert",
+    "rank": 12,
+    "employer": "ELLIOTT INVESTMENT",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "David Schweikert",
+    "rank": 13,
+    "employer": "(RETIRED)",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "David Schweikert",
+    "rank": 14,
+    "employer": "GOLUB CAPITAL",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "David Schweikert",
+    "rank": 15,
+    "employer": "ALTRIA",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "David Schweikert",
+    "rank": 16,
+    "employer": "KELLOGG CAPITAL",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "Darin LaHood",
+    "rank": 1,
+    "employer": "BGR",
+    "total": 15850,
+    "count": 17
+  },
+  {
+    "member_name": "Darin LaHood",
+    "rank": 2,
+    "employer": "APOLLO GLOBAL",
+    "total": 10400,
+    "count": 5
+  },
+  {
+    "member_name": "Darin LaHood",
+    "rank": 3,
+    "employer": "RII",
+    "total": 9900,
+    "count": 3
+  },
+  {
+    "member_name": "Darin LaHood",
+    "rank": 4,
+    "employer": "CAPITOL TAX",
+    "total": 9803,
+    "count": 8
+  },
+  {
+    "member_name": "Darin LaHood",
+    "rank": 5,
+    "employer": "ERNST YOUNG",
+    "total": 8400,
+    "count": 3
+  },
+  {
+    "member_name": "Darin LaHood",
+    "rank": 6,
+    "employer": "GOOGLE",
+    "total": 7600,
+    "count": 3
+  },
+  {
+    "member_name": "Darin LaHood",
+    "rank": 7,
+    "employer": "BLACKSTONE",
+    "total": 7100,
+    "count": 3
+  },
+  {
+    "member_name": "Darin LaHood",
+    "rank": 8,
+    "employer": "ALSTON BIRD",
+    "total": 7000,
+    "count": 6
+  },
+  {
+    "member_name": "Darin LaHood",
+    "rank": 9,
+    "employer": "JP MCMAHON TRANSPORT",
+    "total": 6700,
+    "count": 2
+  },
+  {
+    "member_name": "Darin LaHood",
+    "rank": 10,
+    "employer": "WIREPATH HOME SYSTEMS",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "Darin LaHood",
+    "rank": 11,
+    "employer": "CAROLYN ROWAN COLLECTION",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "Darin LaHood",
+    "rank": 12,
+    "employer": "ROCKET MORTGAGE",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "Darin LaHood",
+    "rank": 13,
+    "employer": "DRW TRADING",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "Darin LaHood",
+    "rank": 14,
+    "employer": "PEORIA DISPOSAL",
+    "total": 6600,
+    "count": 3
+  },
+  {
+    "member_name": "Darin LaHood",
+    "rank": 15,
+    "employer": "SPRINGFIELD ARMORY",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "Darin LaHood",
+    "rank": 16,
+    "employer": "FBB FEDERAL RELATIONS",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "Darin LaHood",
+    "rank": 17,
+    "employer": "AKIN GUMP STRAUSS HAUER FELD",
+    "total": 6000,
+    "count": 6
+  },
+  {
+    "member_name": "Jodey Arrington",
+    "rank": 1,
+    "employer": "GRAIL",
+    "total": 25200,
+    "count": 9
+  },
+  {
+    "member_name": "Jodey Arrington",
+    "rank": 2,
+    "employer": "INTERSECT POWER",
+    "total": 10800,
+    "count": 3
+  },
+  {
+    "member_name": "Jodey Arrington",
+    "rank": 3,
+    "employer": "WINGED KEEL",
+    "total": 9000,
+    "count": 11
+  },
+  {
+    "member_name": "Jodey Arrington",
+    "rank": 4,
+    "employer": "BLACKSTONE",
+    "total": 7100,
+    "count": 3
+  },
+  {
+    "member_name": "Jodey Arrington",
+    "rank": 5,
+    "employer": "HUNT CONSOLIDATED",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "Jodey Arrington",
+    "rank": 6,
+    "employer": "MATADOR GAS",
+    "total": 6000,
+    "count": 4
+  },
+  {
+    "member_name": "Jodey Arrington",
+    "rank": 7,
+    "employer": "NORTH STAR RESOURCE",
+    "total": 5500,
+    "count": 6
+  },
+  {
+    "member_name": "Jodey Arrington",
+    "rank": 8,
+    "employer": "STENSON TAMADDON",
+    "total": 5500,
+    "count": 2
+  },
+  {
+    "member_name": "Jodey Arrington",
+    "rank": 9,
+    "employer": "FASKEN",
+    "total": 4996,
+    "count": 6
+  },
+  {
+    "member_name": "Jodey Arrington",
+    "rank": 10,
+    "employer": "ROCKBRIDGE",
+    "total": 4000,
+    "count": 3
+  },
+  {
+    "member_name": "Jodey Arrington",
+    "rank": 11,
+    "employer": "TEXAS ONCOLOGY",
+    "total": 4000,
+    "count": 6
+  },
+  {
+    "member_name": "Jodey Arrington",
+    "rank": 12,
+    "employer": "FISHER INVESTMENTS",
+    "total": 3300,
+    "count": 1
+  },
+  {
+    "member_name": "Jodey Arrington",
+    "rank": 13,
+    "employer": "PLANO 6500",
+    "total": 3300,
+    "count": 1
+  },
+  {
+    "member_name": "Jodey Arrington",
+    "rank": 14,
+    "employer": "FEDERAL HEALTH COUNSEL",
+    "total": 3300,
+    "count": 1
+  },
+  {
+    "member_name": "Jodey Arrington",
+    "rank": 15,
+    "employer": "STILLWATER FOUNDATION",
+    "total": 3300,
+    "count": 1
+  },
+  {
+    "member_name": "Jodey Arrington",
+    "rank": 16,
+    "employer": "PORT CORPUS CHRISTI",
+    "total": 3300,
+    "count": 1
+  },
+  {
+    "member_name": "Ron Estes",
+    "rank": 1,
+    "employer": "CAPITOL TAX",
+    "total": 8300,
+    "count": 7
+  },
+  {
+    "member_name": "Ron Estes",
+    "rank": 2,
+    "employer": "TRANSYSTEMS",
+    "total": 7700,
+    "count": 4
+  },
+  {
+    "member_name": "Ron Estes",
+    "rank": 3,
+    "employer": "ASH BROKERAGE",
+    "total": 7061,
+    "count": 8
+  },
+  {
+    "member_name": "Ron Estes",
+    "rank": 4,
+    "employer": "KCUC",
+    "total": 7000,
+    "count": 14
+  },
+  {
+    "member_name": "Ron Estes",
+    "rank": 5,
+    "employer": "BLACKSTONE",
+    "total": 6600,
+    "count": 4
+  },
+  {
+    "member_name": "Ron Estes",
+    "rank": 6,
+    "employer": "MUJTABA AESTHETICS",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "Ron Estes",
+    "rank": 7,
+    "employer": "NORTHWESTERN MUTUAL",
+    "total": 5645,
+    "count": 11
+  },
+  {
+    "member_name": "Ron Estes",
+    "rank": 8,
+    "employer": "RYAN AIRLINES",
+    "total": 5000,
+    "count": 2
+  },
+  {
+    "member_name": "Ron Estes",
+    "rank": 9,
+    "employer": "CAPITOL COUNSEL",
+    "total": 4500,
+    "count": 6
+  },
+  {
+    "member_name": "Ron Estes",
+    "rank": 10,
+    "employer": "GOOGLE",
+    "total": 4300,
+    "count": 2
+  },
+  {
+    "member_name": "Ron Estes",
+    "rank": 11,
+    "employer": "BGR",
+    "total": 4250,
+    "count": 6
+  },
+  {
+    "member_name": "Ron Estes",
+    "rank": 12,
+    "employer": "COLT ENERGY",
+    "total": 3600,
+    "count": 3
+  },
+  {
+    "member_name": "Ron Estes",
+    "rank": 13,
+    "employer": "CONESTOGA ENERGY",
+    "total": 3300,
+    "count": 1
+  },
+  {
+    "member_name": "Ron Estes",
+    "rank": 14,
+    "employer": "SLAVIC401K",
+    "total": 3300,
+    "count": 1
+  },
+  {
+    "member_name": "Ron Estes",
+    "rank": 15,
+    "employer": "GUIDA",
+    "total": 3000,
+    "count": 2
+  },
+  {
+    "member_name": "Ron Estes",
+    "rank": 16,
+    "employer": "ENERGY INFRASTRUCTURE COUNCIL",
+    "total": 3000,
+    "count": 2
+  },
+  {
+    "member_name": "Ron Estes",
+    "rank": 17,
+    "employer": "NM",
+    "total": 3000,
+    "count": 2
+  },
+  {
+    "member_name": "Lloyd Smucker",
+    "rank": 1,
+    "employer": "BLACKSTONE",
+    "total": 7100,
+    "count": 6
+  },
+  {
+    "member_name": "Lloyd Smucker",
+    "rank": 2,
+    "employer": "LEM SETTLEMENT",
+    "total": 6600,
+    "count": 3
+  },
+  {
+    "member_name": "Lloyd Smucker",
+    "rank": 3,
+    "employer": "SEAN N PARKER FOUNDATION",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "Lloyd Smucker",
+    "rank": 4,
+    "employer": "CAPITOL COUNSEL",
+    "total": 5800,
+    "count": 4
+  },
+  {
+    "member_name": "Lloyd Smucker",
+    "rank": 5,
+    "employer": "LINCOLN POLICY",
+    "total": 5000,
+    "count": 4
+  },
+  {
+    "member_name": "Lloyd Smucker",
+    "rank": 6,
+    "employer": "SELECT MEDICAL",
+    "total": 5000,
+    "count": 3
+  },
+  {
+    "member_name": "Lloyd Smucker",
+    "rank": 7,
+    "employer": "CAPITOL TAX",
+    "total": 5000,
+    "count": 6
+  },
+  {
+    "member_name": "Lloyd Smucker",
+    "rank": 8,
+    "employer": "CS CAPITAL",
+    "total": 3500,
+    "count": 2
+  },
+  {
+    "member_name": "Lloyd Smucker",
+    "rank": 9,
+    "employer": "FISHER INVESTMENTS",
+    "total": 3300,
+    "count": 1
+  },
+  {
+    "member_name": "Lloyd Smucker",
+    "rank": 10,
+    "employer": "PLANO 6500",
+    "total": 3300,
+    "count": 1
+  },
+  {
+    "member_name": "Lloyd Smucker",
+    "rank": 11,
+    "employer": "EMPIRE EDUCATION/EMPIRE BEAUTY SCHOOLS",
+    "total": 3300,
+    "count": 1
+  },
+  {
+    "member_name": "Lloyd Smucker",
+    "rank": 12,
+    "employer": "PRICAP ADVISORS",
+    "total": 3300,
+    "count": 1
+  },
+  {
+    "member_name": "Lloyd Smucker",
+    "rank": 13,
+    "employer": "BROWN PHYSICIANS",
+    "total": 3300,
+    "count": 1
+  },
+  {
+    "member_name": "Lloyd Smucker",
+    "rank": 14,
+    "employer": "ROCKERBOX",
+    "total": 3100,
+    "count": 4
+  },
+  {
+    "member_name": "Lloyd Smucker",
+    "rank": 15,
+    "employer": "MAYER BROWN",
+    "total": 3000,
+    "count": 3
+  },
+  {
+    "member_name": "Lloyd Smucker",
+    "rank": 16,
+    "employer": "EQUITABLE ADVISORS",
+    "total": 3000,
+    "count": 2
+  },
+  {
+    "member_name": "Lloyd Smucker",
+    "rank": 17,
+    "employer": "ERNST & YOUNG",
+    "total": 3000,
+    "count": 2
+  },
+  {
+    "member_name": "Kevin Hern",
+    "rank": 1,
+    "employer": "CAPITOL TAX",
+    "total": 19750,
+    "count": 16
+  },
+  {
+    "member_name": "Kevin Hern",
+    "rank": 2,
+    "employer": "BLACKSTONE",
+    "total": 9900,
+    "count": 5
+  },
+  {
+    "member_name": "Kevin Hern",
+    "rank": 3,
+    "employer": "APOLLO GLOBAL",
+    "total": 9200,
+    "count": 5
+  },
+  {
+    "member_name": "Kevin Hern",
+    "rank": 4,
+    "employer": "BGR",
+    "total": 7000,
+    "count": 6
+  },
+  {
+    "member_name": "Kevin Hern",
+    "rank": 5,
+    "employer": "DEVON ENERGY",
+    "total": 6600,
+    "count": 1
+  },
+  {
+    "member_name": "Kevin Hern",
+    "rank": 6,
+    "employer": "HEIDEMAN NUDELMAN KALIK",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "Kevin Hern",
+    "rank": 7,
+    "employer": "CAROLYN ROWAN COLLECTION",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "Kevin Hern",
+    "rank": 8,
+    "employer": "CANADA LIFE REINSURANCE",
+    "total": 6250,
+    "count": 5
+  },
+  {
+    "member_name": "Kevin Hern",
+    "rank": 9,
+    "employer": "ALB SOLUTIONS",
+    "total": 5625,
+    "count": 7
+  },
+  {
+    "member_name": "Kevin Hern",
+    "rank": 10,
+    "employer": "APOLLO",
+    "total": 5200,
+    "count": 5
+  },
+  {
+    "member_name": "Kevin Hern",
+    "rank": 11,
+    "employer": "THE PETRIZZO",
+    "total": 5000,
+    "count": 7
+  },
+  {
+    "member_name": "Kevin Hern",
+    "rank": 12,
+    "employer": "THE HOBBS",
+    "total": 5000,
+    "count": 2
+  },
+  {
+    "member_name": "Kevin Hern",
+    "rank": 13,
+    "employer": "HARBOR",
+    "total": 5000,
+    "count": 2
+  },
+  {
+    "member_name": "Kevin Hern",
+    "rank": 14,
+    "employer": "AKIN GUMP",
+    "total": 4500,
+    "count": 3
+  },
+  {
+    "member_name": "Kevin Hern",
+    "rank": 15,
+    "employer": "SYNERGI",
+    "total": 4300,
+    "count": 2
+  },
+  {
+    "member_name": "Kevin Hern",
+    "rank": 16,
+    "employer": "RCB BANK",
+    "total": 4300,
+    "count": 2
+  },
+  {
+    "member_name": "Kevin Hern",
+    "rank": 17,
+    "employer": "US SENATE",
+    "total": 4000,
+    "count": 6
+  },
+  {
+    "member_name": "Carol Miller",
+    "rank": 1,
+    "employer": "SELECT MEDICAL",
+    "total": 13300,
+    "count": 5
+  },
+  {
+    "member_name": "Carol Miller",
+    "rank": 2,
+    "employer": "APEX PIPELINE",
+    "total": 9900,
+    "count": 3
+  },
+  {
+    "member_name": "Carol Miller",
+    "rank": 3,
+    "employer": "COLE AUTOMOTIVE",
+    "total": 8100,
+    "count": 3
+  },
+  {
+    "member_name": "Carol Miller",
+    "rank": 4,
+    "employer": "THE PARKER FOUNDATION",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "Carol Miller",
+    "rank": 5,
+    "employer": "TEAM HEALTH",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "Carol Miller",
+    "rank": 6,
+    "employer": "CLEAR PATH",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "Carol Miller",
+    "rank": 7,
+    "employer": "HALL STRATEGIES",
+    "total": 6600,
+    "count": 3
+  },
+  {
+    "member_name": "Carol Miller",
+    "rank": 8,
+    "employer": "PISCES",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "Carol Miller",
+    "rank": 9,
+    "employer": "SERVICE PUMP AND SUPPLY",
+    "total": 6600,
+    "count": 3
+  },
+  {
+    "member_name": "Carol Miller",
+    "rank": 10,
+    "employer": "ALLIANCE COAL",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "Carol Miller",
+    "rank": 11,
+    "employer": "ERGON",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "Carol Miller",
+    "rank": 12,
+    "employer": "AGENT PIPELINE",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "Carol Miller",
+    "rank": 13,
+    "employer": "MIDSTATE AUTOMOTIVE",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "Carol Miller",
+    "rank": 14,
+    "employer": "MARSHALL HEALTH",
+    "total": 6500,
+    "count": 9
+  },
+  {
+    "member_name": "Carol Miller",
+    "rank": 15,
+    "employer": "RADINC",
+    "total": 6300,
+    "count": 3
+  },
+  {
+    "member_name": "Carol Miller",
+    "rank": 16,
+    "employer": "CAPITOL COUNSEL",
+    "total": 6300,
+    "count": 4
+  },
+  {
+    "member_name": "Carol Miller",
+    "rank": 17,
+    "employer": "BROWNSTEIN HYATT FARBER SCHRECK",
+    "total": 6000,
+    "count": 5
+  },
+  {
+    "member_name": "Greg Murphy",
+    "rank": 1,
+    "employer": "ALG SENIOR",
+    "total": 13200,
+    "count": 4
+  },
+  {
+    "member_name": "Greg Murphy",
+    "rank": 2,
+    "employer": "UROLOGY OF NORTH TEXAS",
+    "total": 12850,
+    "count": 9
+  },
+  {
+    "member_name": "Greg Murphy",
+    "rank": 3,
+    "employer": "OCEANS HEALTHCARE",
+    "total": 10000,
+    "count": 2
+  },
+  {
+    "member_name": "Greg Murphy",
+    "rank": 4,
+    "employer": "BELL LEGAL",
+    "total": 9900,
+    "count": 4
+  },
+  {
+    "member_name": "Greg Murphy",
+    "rank": 5,
+    "employer": "SOLARIS HEALTH",
+    "total": 9900,
+    "count": 2
+  },
+  {
+    "member_name": "Greg Murphy",
+    "rank": 6,
+    "employer": "CAPITOL COUNSEL",
+    "total": 8300,
+    "count": 9
+  },
+  {
+    "member_name": "Greg Murphy",
+    "rank": 7,
+    "employer": "KNOW BIO",
+    "total": 8300,
+    "count": 3
+  },
+  {
+    "member_name": "Greg Murphy",
+    "rank": 8,
+    "employer": "SEEGARS FENCE",
+    "total": 7500,
+    "count": 3
+  },
+  {
+    "member_name": "Greg Murphy",
+    "rank": 9,
+    "employer": "CLEARPATH FOUNDATION",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "Greg Murphy",
+    "rank": 10,
+    "employer": "ASKBIO",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "Greg Murphy",
+    "rank": 11,
+    "employer": "NEWSMAX",
+    "total": 5468,
+    "count": 2
+  },
+  {
+    "member_name": "Greg Murphy",
+    "rank": 12,
+    "employer": "MCCOMB'S STEEL",
+    "total": 5000,
+    "count": 2
+  },
+  {
+    "member_name": "Greg Murphy",
+    "rank": 13,
+    "employer": "MILLER LAW",
+    "total": 5000,
+    "count": 2
+  },
+  {
+    "member_name": "Greg Murphy",
+    "rank": 14,
+    "employer": "PIGGLY WIGGLY",
+    "total": 5000,
+    "count": 2
+  },
+  {
+    "member_name": "Greg Murphy",
+    "rank": 15,
+    "employer": "ALPHASTRAT",
+    "total": 5000,
+    "count": 2
+  },
+  {
+    "member_name": "Greg Murphy",
+    "rank": 16,
+    "employer": "FEDERAL HEALTH POLICY STRATEGIES",
+    "total": 4500,
+    "count": 4
+  },
+  {
+    "member_name": "David Kustoff",
+    "rank": 1,
+    "employer": "BLACKSTONE",
+    "total": 28400,
+    "count": 12
+  },
+  {
+    "member_name": "David Kustoff",
+    "rank": 2,
+    "employer": "APOLLO GLOBAL",
+    "total": 24400,
+    "count": 15
+  },
+  {
+    "member_name": "David Kustoff",
+    "rank": 3,
+    "employer": "UROLOGY OF INDIANA",
+    "total": 14400,
+    "count": 20
+  },
+  {
+    "member_name": "David Kustoff",
+    "rank": 4,
+    "employer": "QUEST",
+    "total": 7850,
+    "count": 3
+  },
+  {
+    "member_name": "David Kustoff",
+    "rank": 5,
+    "employer": "AKIN GUMP STRAUSS HAUER & FELD",
+    "total": 7350,
+    "count": 3
+  },
+  {
+    "member_name": "David Kustoff",
+    "rank": 6,
+    "employer": "CAROLYN ROWAN COLLECTION",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "David Kustoff",
+    "rank": 7,
+    "employer": "FIRST BANK",
+    "total": 6600,
+    "count": 3
+  },
+  {
+    "member_name": "David Kustoff",
+    "rank": 8,
+    "employer": "HAURY & SMITH",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "David Kustoff",
+    "rank": 9,
+    "employer": "HYDE FAMILY FOUNDATIONS",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "David Kustoff",
+    "rank": 10,
+    "employer": "INGRAM INDUSTRIES",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "David Kustoff",
+    "rank": 11,
+    "employer": "BEREXCO",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "David Kustoff",
+    "rank": 12,
+    "employer": "LIPMAN BROS",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "David Kustoff",
+    "rank": 13,
+    "employer": "THE AYERS FOUNDATION",
+    "total": 6600,
+    "count": 3
+  },
+  {
+    "member_name": "David Kustoff",
+    "rank": 14,
+    "employer": "STEPHENS",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "David Kustoff",
+    "rank": 15,
+    "employer": "AMERICAN DEVELOPMENT",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "David Kustoff",
+    "rank": 16,
+    "employer": "CCA",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "Brian Fitzpatrick",
+    "rank": 1,
+    "employer": "BLACKSTONE",
+    "total": 21800,
+    "count": 9
+  },
+  {
+    "member_name": "Brian Fitzpatrick",
+    "rank": 2,
+    "employer": "GREYLOCK",
+    "total": 19800,
+    "count": 4
+  },
+  {
+    "member_name": "Brian Fitzpatrick",
+    "rank": 3,
+    "employer": "OAKTREE CAPITAL",
+    "total": 19800,
+    "count": 6
+  },
+  {
+    "member_name": "Brian Fitzpatrick",
+    "rank": 4,
+    "employer": "ASHER CHOCOLATES",
+    "total": 15000,
+    "count": 4
+  },
+  {
+    "member_name": "Brian Fitzpatrick",
+    "rank": 5,
+    "employer": "RBC CAPITAL MARKETS",
+    "total": 14500,
+    "count": 12
+  },
+  {
+    "member_name": "Brian Fitzpatrick",
+    "rank": 6,
+    "employer": "GOLDMAN SACHS",
+    "total": 13700,
+    "count": 5
+  },
+  {
+    "member_name": "Brian Fitzpatrick",
+    "rank": 7,
+    "employer": "FORTRESS INVESTMENT",
+    "total": 13200,
+    "count": 5
+  },
+  {
+    "member_name": "Brian Fitzpatrick",
+    "rank": 8,
+    "employer": "MONTGOMERY CAPITAL",
+    "total": 13200,
+    "count": 4
+  },
+  {
+    "member_name": "Brian Fitzpatrick",
+    "rank": 9,
+    "employer": "SAILPOINT",
+    "total": 13200,
+    "count": 3
+  },
+  {
+    "member_name": "Brian Fitzpatrick",
+    "rank": 10,
+    "employer": "NPX ONE",
+    "total": 13200,
+    "count": 3
+  },
+  {
+    "member_name": "Brian Fitzpatrick",
+    "rank": 11,
+    "employer": "CARDINAL INVESTMENT",
+    "total": 13200,
+    "count": 3
+  },
+  {
+    "member_name": "Brian Fitzpatrick",
+    "rank": 12,
+    "employer": "EDW C LEVY",
+    "total": 13200,
+    "count": 3
+  },
+  {
+    "member_name": "Brian Fitzpatrick",
+    "rank": 13,
+    "employer": "VETERANS GUARDIAN VA CLAIM",
+    "total": 13200,
+    "count": 4
+  },
+  {
+    "member_name": "Brian Fitzpatrick",
+    "rank": 14,
+    "employer": "APOLLO",
+    "total": 13000,
+    "count": 4
+  },
+  {
+    "member_name": "Brian Fitzpatrick",
+    "rank": 15,
+    "employer": "CLEAN ENERGY FUELS",
+    "total": 10561,
+    "count": 14
+  },
+  {
+    "member_name": "Brian Fitzpatrick",
+    "rank": 16,
+    "employer": "SESAC MUSIC",
+    "total": 9900,
+    "count": 3
+  },
+  {
+    "member_name": "Greg Steube",
+    "rank": 1,
+    "employer": "STEPHENS",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "Greg Steube",
+    "rank": 2,
+    "employer": "DOUGLAS JEEP CHRYSLER DODGE RAM",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "Greg Steube",
+    "rank": 3,
+    "employer": "CULLINAN PROPERTIES",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "Greg Steube",
+    "rank": 4,
+    "employer": "BLACKSTONE",
+    "total": 6600,
+    "count": 3
+  },
+  {
+    "member_name": "Greg Steube",
+    "rank": 5,
+    "employer": "NORTHWESTERN MUTUAL",
+    "total": 5000,
+    "count": 5
+  },
+  {
+    "member_name": "Greg Steube",
+    "rank": 6,
+    "employer": "BCC",
+    "total": 4500,
+    "count": 3
+  },
+  {
+    "member_name": "Greg Steube",
+    "rank": 7,
+    "employer": "MOORE'S DAIRY FARM",
+    "total": 4050,
+    "count": 12
+  },
+  {
+    "member_name": "Greg Steube",
+    "rank": 8,
+    "employer": "INVESTMENTS",
+    "total": 3300,
+    "count": 1
+  },
+  {
+    "member_name": "Greg Steube",
+    "rank": 9,
+    "employer": "TEMPLETON",
+    "total": 3300,
+    "count": 1
+  },
+  {
+    "member_name": "Greg Steube",
+    "rank": 10,
+    "employer": "CHENEY BROTHERS",
+    "total": 3300,
+    "count": 6
+  },
+  {
+    "member_name": "Greg Steube",
+    "rank": 11,
+    "employer": "DANIELS MANUFACTURING",
+    "total": 3300,
+    "count": 1
+  },
+  {
+    "member_name": "Greg Steube",
+    "rank": 12,
+    "employer": "CHRISTOPHER LIGORI",
+    "total": 3300,
+    "count": 1
+  },
+  {
+    "member_name": "Greg Steube",
+    "rank": 13,
+    "employer": "ORCHID COVE HEALTH",
+    "total": 3300,
+    "count": 1
+  },
+  {
+    "member_name": "Greg Steube",
+    "rank": 14,
+    "employer": "THE COMMERCE FUND OF FLORIDA",
+    "total": 3300,
+    "count": 1
+  },
+  {
+    "member_name": "Greg Steube",
+    "rank": 15,
+    "employer": "MAYER BROWN",
+    "total": 3035,
+    "count": 4
+  },
+  {
+    "member_name": "Greg Steube",
+    "rank": 16,
+    "employer": "NAJMY THOMPSON",
+    "total": 3000,
+    "count": 1
+  },
+  {
+    "member_name": "Greg Steube",
+    "rank": 17,
+    "employer": "MULTI CHANNEL",
+    "total": 2500,
+    "count": 6
+  },
+  {
+    "member_name": "Greg Steube",
+    "rank": 18,
+    "employer": "PAUL MILLER AUTO",
+    "total": 2500,
+    "count": 3
+  },
+  {
+    "member_name": "Claudia Tenney",
+    "rank": 1,
+    "employer": "WEXFORD CAPITAL",
+    "total": 13300,
+    "count": 4
+  },
+  {
+    "member_name": "Claudia Tenney",
+    "rank": 2,
+    "employer": "POLARIS",
+    "total": 13200,
+    "count": 4
+  },
+  {
+    "member_name": "Claudia Tenney",
+    "rank": 3,
+    "employer": "HUBBARD BROADCASTING",
+    "total": 13200,
+    "count": 2
+  },
+  {
+    "member_name": "Claudia Tenney",
+    "rank": 4,
+    "employer": "COINBASE",
+    "total": 8400,
+    "count": 6
+  },
+  {
+    "member_name": "Claudia Tenney",
+    "rank": 5,
+    "employer": "MINDSET",
+    "total": 7300,
+    "count": 5
+  },
+  {
+    "member_name": "Claudia Tenney",
+    "rank": 6,
+    "employer": "THE PEROT COMPANIES",
+    "total": 6600,
+    "count": 3
+  },
+  {
+    "member_name": "Claudia Tenney",
+    "rank": 7,
+    "employer": "AUBURN LIMOUSINES",
+    "total": 6600,
+    "count": 3
+  },
+  {
+    "member_name": "Claudia Tenney",
+    "rank": 8,
+    "employer": "FISHER INVESTMENTS",
+    "total": 6600,
+    "count": 3
+  },
+  {
+    "member_name": "Claudia Tenney",
+    "rank": 9,
+    "employer": "PLANO 6500",
+    "total": 6600,
+    "count": 3
+  },
+  {
+    "member_name": "Claudia Tenney",
+    "rank": 10,
+    "employer": "WOODVINE",
+    "total": 6600,
+    "count": 3
+  },
+  {
+    "member_name": "Claudia Tenney",
+    "rank": 11,
+    "employer": "BLACKSTONE",
+    "total": 6600,
+    "count": 3
+  },
+  {
+    "member_name": "Claudia Tenney",
+    "rank": 12,
+    "employer": "EDWARD C LEVY",
+    "total": 6600,
+    "count": 3
+  },
+  {
+    "member_name": "Claudia Tenney",
+    "rank": 13,
+    "employer": "BLUMBERG CAPITAL",
+    "total": 6600,
+    "count": 4
+  },
+  {
+    "member_name": "Claudia Tenney",
+    "rank": 14,
+    "employer": "STRATA PRODUCTION",
+    "total": 6600,
+    "count": 3
+  },
+  {
+    "member_name": "Claudia Tenney",
+    "rank": 15,
+    "employer": "SLAVIC 401K",
+    "total": 6600,
+    "count": 3
+  },
+  {
+    "member_name": "Claudia Tenney",
+    "rank": 16,
+    "employer": "RESMED",
+    "total": 6600,
+    "count": 30
+  },
+  {
+    "member_name": "Michelle Fischbach",
+    "rank": 1,
+    "employer": "MARQUIS",
+    "total": 16700,
+    "count": 8
+  },
+  {
+    "member_name": "Michelle Fischbach",
+    "rank": 2,
+    "employer": "KING CAPITAL",
+    "total": 13200,
+    "count": 5
+  },
+  {
+    "member_name": "Michelle Fischbach",
+    "rank": 3,
+    "employer": "STARKEY HEARING",
+    "total": 13200,
+    "count": 4
+  },
+  {
+    "member_name": "Michelle Fischbach",
+    "rank": 4,
+    "employer": "FRANDSEN",
+    "total": 7800,
+    "count": 3
+  },
+  {
+    "member_name": "Michelle Fischbach",
+    "rank": 5,
+    "employer": "ULINE",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "Michelle Fischbach",
+    "rank": 6,
+    "employer": "AZ DIAMONDBACKS BASEBALL",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "Michelle Fischbach",
+    "rank": 7,
+    "employer": "GRANITE LOGISTICS",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "Michelle Fischbach",
+    "rank": 8,
+    "employer": "FISHER INVESTMENTS",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "Michelle Fischbach",
+    "rank": 9,
+    "employer": "CASTLE HARLAN",
+    "total": 6600,
+    "count": 3
+  },
+  {
+    "member_name": "Michelle Fischbach",
+    "rank": 10,
+    "employer": "PLANO 6500",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "Michelle Fischbach",
+    "rank": 11,
+    "employer": "AXON",
+    "total": 6250,
+    "count": 10
+  },
+  {
+    "member_name": "Michelle Fischbach",
+    "rank": 12,
+    "employer": "AUTOMOTIVE PARTS HEADQUARTERS",
+    "total": 6200,
+    "count": 2
+  },
+  {
+    "member_name": "Michelle Fischbach",
+    "rank": 13,
+    "employer": "SCHWARTZ FARMS",
+    "total": 5300,
+    "count": 2
+  },
+  {
+    "member_name": "Michelle Fischbach",
+    "rank": 14,
+    "employer": "CHRISTENSEN",
+    "total": 5000,
+    "count": 5
+  },
+  {
+    "member_name": "Michelle Fischbach",
+    "rank": 15,
+    "employer": "US CONGRESS",
+    "total": 4600,
+    "count": 4
+  },
+  {
+    "member_name": "Michelle Fischbach",
+    "rank": 16,
+    "employer": "MAYER BROWN",
+    "total": 4300,
+    "count": 3
+  },
+  {
+    "member_name": "Michelle Fischbach",
+    "rank": 17,
+    "employer": "MADEL",
+    "total": 3300,
+    "count": 1
+  },
+  {
+    "member_name": "Blake Moore",
+    "rank": 1,
+    "employer": "DOTERRA",
+    "total": 14100,
+    "count": 5
+  },
+  {
+    "member_name": "Blake Moore",
+    "rank": 2,
+    "employer": "APERCEN",
+    "total": 13200,
+    "count": 2
+  },
+  {
+    "member_name": "Blake Moore",
+    "rank": 3,
+    "employer": "ES3",
+    "total": 12600,
+    "count": 4
+  },
+  {
+    "member_name": "Blake Moore",
+    "rank": 4,
+    "employer": "PAUL WEISS WHARTON RIFKIND GARRISON",
+    "total": 9900,
+    "count": 3
+  },
+  {
+    "member_name": "Blake Moore",
+    "rank": 5,
+    "employer": "SORENSON CAPITAL",
+    "total": 9900,
+    "count": 3
+  },
+  {
+    "member_name": "Blake Moore",
+    "rank": 6,
+    "employer": "NOMI HEALTH",
+    "total": 9900,
+    "count": 3
+  },
+  {
+    "member_name": "Blake Moore",
+    "rank": 7,
+    "employer": "APOLLO GLOBAL",
+    "total": 8200,
+    "count": 5
+  },
+  {
+    "member_name": "Blake Moore",
+    "rank": 8,
+    "employer": "LOBBYIST",
+    "total": 6300,
+    "count": 5
+  },
+  {
+    "member_name": "Blake Moore",
+    "rank": 9,
+    "employer": "APOLLO",
+    "total": 6200,
+    "count": 7
+  },
+  {
+    "member_name": "Blake Moore",
+    "rank": 10,
+    "employer": "TDY",
+    "total": 6200,
+    "count": 3
+  },
+  {
+    "member_name": "Blake Moore",
+    "rank": 11,
+    "employer": "BGR",
+    "total": 5775,
+    "count": 7
+  },
+  {
+    "member_name": "Blake Moore",
+    "rank": 12,
+    "employer": "VSPRING CAPITAL",
+    "total": 5000,
+    "count": 3
+  },
+  {
+    "member_name": "Blake Moore",
+    "rank": 13,
+    "employer": "PHARMALIFE",
+    "total": 5000,
+    "count": 2
+  },
+  {
+    "member_name": "Blake Moore",
+    "rank": 14,
+    "employer": "OGILVY GOVERNMENT RELATIONS",
+    "total": 4800,
+    "count": 8
+  },
+  {
+    "member_name": "Blake Moore",
+    "rank": 15,
+    "employer": "GOOGLE",
+    "total": 4300,
+    "count": 2
+  },
+  {
+    "member_name": "Blake Moore",
+    "rank": 16,
+    "employer": "CLYDE COMPANIES",
+    "total": 4300,
+    "count": 2
+  },
+  {
+    "member_name": "Blake Moore",
+    "rank": 17,
+    "employer": "CAPITOL COUNSEL",
+    "total": 4000,
+    "count": 6
+  },
+  {
+    "member_name": "Beth Van Duyne",
+    "rank": 1,
+    "employer": "BLACKSTONE",
+    "total": 7600,
+    "count": 7
+  },
+  {
+    "member_name": "Beth Van Duyne",
+    "rank": 2,
+    "employer": "CITADEL",
+    "total": 6600,
+    "count": 5
+  },
+  {
+    "member_name": "Beth Van Duyne",
+    "rank": 3,
+    "employer": "SEAN N PARKER FOUNDATION",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "Beth Van Duyne",
+    "rank": 4,
+    "employer": "APPLIED MATERIALS",
+    "total": 6600,
+    "count": 3
+  },
+  {
+    "member_name": "Beth Van Duyne",
+    "rank": 5,
+    "employer": "MEHLMAN CASTAGNETTI ROSEN THOMAS",
+    "total": 6200,
+    "count": 2
+  },
+  {
+    "member_name": "Beth Van Duyne",
+    "rank": 6,
+    "employer": "BGR",
+    "total": 5800,
+    "count": 8
+  },
+  {
+    "member_name": "Beth Van Duyne",
+    "rank": 7,
+    "employer": "MSM",
+    "total": 5000,
+    "count": 2
+  },
+  {
+    "member_name": "Beth Van Duyne",
+    "rank": 8,
+    "employer": "CAPITOL TAX",
+    "total": 4750,
+    "count": 6
+  },
+  {
+    "member_name": "Beth Van Duyne",
+    "rank": 9,
+    "employer": "ALSTON & BIRD",
+    "total": 4400,
+    "count": 2
+  },
+  {
+    "member_name": "Beth Van Duyne",
+    "rank": 10,
+    "employer": "SLAVIC401K",
+    "total": 4350,
+    "count": 3
+  },
+  {
+    "member_name": "Beth Van Duyne",
+    "rank": 11,
+    "employer": "WASHINGTON COUNCIL ERNST YOUNG",
+    "total": 4300,
+    "count": 4
+  },
+  {
+    "member_name": "Beth Van Duyne",
+    "rank": 12,
+    "employer": "MAYER BROWN",
+    "total": 4000,
+    "count": 3
+  },
+  {
+    "member_name": "Beth Van Duyne",
+    "rank": 13,
+    "employer": "OGILVY GOVERNMENT RELATIONS",
+    "total": 3941,
+    "count": 9
+  },
+  {
+    "member_name": "Beth Van Duyne",
+    "rank": 14,
+    "employer": "CAPITOL COUNSEL",
+    "total": 3750,
+    "count": 5
+  },
+  {
+    "member_name": "Beth Van Duyne",
+    "rank": 15,
+    "employer": "PACK AUTOMOTIVE",
+    "total": 3700,
+    "count": 4
+  },
+  {
+    "member_name": "Beth Van Duyne",
+    "rank": 16,
+    "employer": "BCC",
+    "total": 3500,
+    "count": 4
+  },
+  {
+    "member_name": "Randy Feenstra",
+    "rank": 1,
+    "employer": "MARQUIS",
+    "total": 21800,
+    "count": 16
+  },
+  {
+    "member_name": "Randy Feenstra",
+    "rank": 2,
+    "employer": "BGR",
+    "total": 16625,
+    "count": 17
+  },
+  {
+    "member_name": "Randy Feenstra",
+    "rank": 3,
+    "employer": "DOLL DISTRIBUTING",
+    "total": 13450,
+    "count": 9
+  },
+  {
+    "member_name": "Randy Feenstra",
+    "rank": 4,
+    "employer": "SABIN METAL",
+    "total": 13200,
+    "count": 4
+  },
+  {
+    "member_name": "Randy Feenstra",
+    "rank": 5,
+    "employer": "CAPITOL TAX",
+    "total": 10600,
+    "count": 6
+  },
+  {
+    "member_name": "Randy Feenstra",
+    "rank": 6,
+    "employer": "CEO",
+    "total": 10300,
+    "count": 7
+  },
+  {
+    "member_name": "Randy Feenstra",
+    "rank": 7,
+    "employer": "MEHLMAN",
+    "total": 8600,
+    "count": 6
+  },
+  {
+    "member_name": "Randy Feenstra",
+    "rank": 8,
+    "employer": "AMVC",
+    "total": 8315,
+    "count": 8
+  },
+  {
+    "member_name": "Randy Feenstra",
+    "rank": 9,
+    "employer": "THE MASCHHOFS",
+    "total": 8105,
+    "count": 6
+  },
+  {
+    "member_name": "Randy Feenstra",
+    "rank": 10,
+    "employer": "CORNERSTONE GOVERNMENT AFFAIRS",
+    "total": 7750,
+    "count": 11
+  },
+  {
+    "member_name": "Randy Feenstra",
+    "rank": 11,
+    "employer": "BLACKSTONE",
+    "total": 7600,
+    "count": 4
+  },
+  {
+    "member_name": "Randy Feenstra",
+    "rank": 12,
+    "employer": "ALLIED POTATO",
+    "total": 7600,
+    "count": 3
+  },
+  {
+    "member_name": "Randy Feenstra",
+    "rank": 13,
+    "employer": "COTTINGHAM BUTLER",
+    "total": 7600,
+    "count": 7
+  },
+  {
+    "member_name": "Randy Feenstra",
+    "rank": 14,
+    "employer": "SINATRA &",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "Randy Feenstra",
+    "rank": 15,
+    "employer": "SEAN N PARKER FOUNDATION",
+    "total": 6600,
+    "count": 5
+  },
+  {
+    "member_name": "Randy Feenstra",
+    "rank": 16,
+    "employer": "JW CHILDS",
+    "total": 6600,
+    "count": 1
+  },
+  {
+    "member_name": "Nicole Malliotakis",
+    "rank": 1,
+    "employer": "WCAS",
+    "total": 20400,
+    "count": 14
+  },
+  {
+    "member_name": "Nicole Malliotakis",
+    "rank": 2,
+    "employer": "BLACKSTONE",
+    "total": 13200,
+    "count": 4
+  },
+  {
+    "member_name": "Nicole Malliotakis",
+    "rank": 3,
+    "employer": "APOLLO GLOBAL",
+    "total": 11116,
+    "count": 8
+  },
+  {
+    "member_name": "Nicole Malliotakis",
+    "rank": 4,
+    "employer": "APOLLO",
+    "total": 10066,
+    "count": 6
+  },
+  {
+    "member_name": "Nicole Malliotakis",
+    "rank": 5,
+    "employer": "SYNERGI",
+    "total": 9900,
+    "count": 3
+  },
+  {
+    "member_name": "Nicole Malliotakis",
+    "rank": 6,
+    "employer": "CITADEL",
+    "total": 8100,
+    "count": 3
+  },
+  {
+    "member_name": "Nicole Malliotakis",
+    "rank": 7,
+    "employer": "TODD STRATEGY",
+    "total": 6750,
+    "count": 4
+  },
+  {
+    "member_name": "Nicole Malliotakis",
+    "rank": 8,
+    "employer": "SCIAME CONSTRUCTION",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "Nicole Malliotakis",
+    "rank": 9,
+    "employer": "MANNIX FAMILY MARKETS",
+    "total": 6600,
+    "count": 5
+  },
+  {
+    "member_name": "Nicole Malliotakis",
+    "rank": 10,
+    "employer": "SEAN N PARKER FOUNDATION",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "Nicole Malliotakis",
+    "rank": 11,
+    "employer": "GNYHA",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "Nicole Malliotakis",
+    "rank": 12,
+    "employer": "MACK CONSTRUCTION",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "Nicole Malliotakis",
+    "rank": 13,
+    "employer": "CHAIRMAN",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "Nicole Malliotakis",
+    "rank": 14,
+    "employer": "LAGOS LAGOS PLL",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "Nicole Malliotakis",
+    "rank": 15,
+    "employer": "SABIN METAL",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "Nicole Malliotakis",
+    "rank": 16,
+    "employer": "RETTNER BUILDING",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "Mike Carey",
+    "rank": 1,
+    "employer": "DCI",
+    "total": 17500,
+    "count": 21
+  },
+  {
+    "member_name": "Mike Carey",
+    "rank": 2,
+    "employer": "CAPITOL TAX",
+    "total": 10500,
+    "count": 10
+  },
+  {
+    "member_name": "Mike Carey",
+    "rank": 3,
+    "employer": "LAGOS & LAGOS",
+    "total": 7600,
+    "count": 3
+  },
+  {
+    "member_name": "Mike Carey",
+    "rank": 4,
+    "employer": "MILLER STRATEGIES",
+    "total": 6800,
+    "count": 5
+  },
+  {
+    "member_name": "Mike Carey",
+    "rank": 5,
+    "employer": "KITTLE PROPERTY",
+    "total": 6600,
+    "count": 3
+  },
+  {
+    "member_name": "Mike Carey",
+    "rank": 6,
+    "employer": "SUGARCREEK",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "Mike Carey",
+    "rank": 7,
+    "employer": "CITADEL",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "Mike Carey",
+    "rank": 8,
+    "employer": "OHIO CAT",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "Mike Carey",
+    "rank": 9,
+    "employer": "BLACKSTONE",
+    "total": 6600,
+    "count": 3
+  },
+  {
+    "member_name": "Mike Carey",
+    "rank": 10,
+    "employer": "ERNST CONCRETE",
+    "total": 6500,
+    "count": 5
+  },
+  {
+    "member_name": "Mike Carey",
+    "rank": 11,
+    "employer": "MAYER BROWN",
+    "total": 6070,
+    "count": 8
+  },
+  {
+    "member_name": "Mike Carey",
+    "rank": 12,
+    "employer": "INVARIANT",
+    "total": 6000,
+    "count": 6
+  },
+  {
+    "member_name": "Mike Carey",
+    "rank": 13,
+    "employer": "HEARTLAND BANK",
+    "total": 5800,
+    "count": 2
+  },
+  {
+    "member_name": "Mike Carey",
+    "rank": 14,
+    "employer": "GOOGLE",
+    "total": 5300,
+    "count": 3
+  },
+  {
+    "member_name": "Mike Carey",
+    "rank": 15,
+    "employer": "GOVERNMENT STRATEGIES",
+    "total": 5300,
+    "count": 3
+  },
+  {
+    "member_name": "Mike Carey",
+    "rank": 16,
+    "employer": "SHERWIN WILLIAMS",
+    "total": 5000,
+    "count": 5
+  },
+  {
+    "member_name": "Mike Carey",
+    "rank": 17,
+    "employer": "DYNALAB",
+    "total": 4800,
+    "count": 3
+  },
+  {
+    "member_name": "Rudy Yakym",
+    "rank": 1,
+    "employer": "DARYLE DODEN PERSONAL FINANCES",
+    "total": 19800,
+    "count": 5
+  },
+  {
+    "member_name": "Rudy Yakym",
+    "rank": 2,
+    "employer": "KIRKLAND & ELLIS",
+    "total": 13900,
+    "count": 8
+  },
+  {
+    "member_name": "Rudy Yakym",
+    "rank": 3,
+    "employer": "FDC GRAPHIC FILMS",
+    "total": 10500,
+    "count": 5
+  },
+  {
+    "member_name": "Rudy Yakym",
+    "rank": 4,
+    "employer": "LIFE EMS AMBULANCE",
+    "total": 6600,
+    "count": 3
+  },
+  {
+    "member_name": "Rudy Yakym",
+    "rank": 5,
+    "employer": "WAY TO MANAGE",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "Rudy Yakym",
+    "rank": 6,
+    "employer": "AMBASSADOR ENTERPRISES",
+    "total": 6600,
+    "count": 3
+  },
+  {
+    "member_name": "Rudy Yakym",
+    "rank": 7,
+    "employer": "OLD DOMINION FREIGHT LINE",
+    "total": 5800,
+    "count": 2
+  },
+  {
+    "member_name": "Rudy Yakym",
+    "rank": 8,
+    "employer": "LSV",
+    "total": 4900,
+    "count": 3
+  },
+  {
+    "member_name": "Rudy Yakym",
+    "rank": 9,
+    "employer": "HILL &",
+    "total": 4730,
+    "count": 172
+  },
+  {
+    "member_name": "Rudy Yakym",
+    "rank": 10,
+    "employer": "GAYLOR ELECTRIC",
+    "total": 4300,
+    "count": 2
+  },
+  {
+    "member_name": "Rudy Yakym",
+    "rank": 11,
+    "employer": "BLUE OWL",
+    "total": 4000,
+    "count": 4
+  },
+  {
+    "member_name": "Rudy Yakym",
+    "rank": 12,
+    "employer": "RESMED",
+    "total": 3995,
+    "count": 18
+  },
+  {
+    "member_name": "Rudy Yakym",
+    "rank": 13,
+    "employer": "SKYBOX CAPITAL",
+    "total": 3300,
+    "count": 1
+  },
+  {
+    "member_name": "Rudy Yakym",
+    "rank": 14,
+    "employer": "EA COMPAINES",
+    "total": 3300,
+    "count": 3
+  },
+  {
+    "member_name": "Rudy Yakym",
+    "rank": 15,
+    "employer": "BOSE MCKINNEY & EVANS",
+    "total": 3300,
+    "count": 1
+  },
+  {
+    "member_name": "Rudy Yakym",
+    "rank": 16,
+    "employer": "NSPA",
+    "total": 3300,
+    "count": 1
+  },
+  {
+    "member_name": "Max Miller",
+    "rank": 1,
+    "employer": "APOLLO GLOBAL",
+    "total": 14900,
+    "count": 7
+  },
+  {
+    "member_name": "Max Miller",
+    "rank": 2,
+    "employer": "THE NRP",
+    "total": 9900,
+    "count": 5
+  },
+  {
+    "member_name": "Max Miller",
+    "rank": 3,
+    "employer": "APOLLO",
+    "total": 8800,
+    "count": 3
+  },
+  {
+    "member_name": "Max Miller",
+    "rank": 4,
+    "employer": "CAROLYN ROWAN COLLECTION",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "Max Miller",
+    "rank": 5,
+    "employer": "BEREXCO",
+    "total": 6600,
+    "count": 3
+  },
+  {
+    "member_name": "Max Miller",
+    "rank": 6,
+    "employer": "ELLIOTT INVESTMENT",
+    "total": 6600,
+    "count": 3
+  },
+  {
+    "member_name": "Max Miller",
+    "rank": 7,
+    "employer": "VIBRANT CAPITAL PARTNERSD",
+    "total": 6600,
+    "count": 3
+  },
+  {
+    "member_name": "Max Miller",
+    "rank": 8,
+    "employer": "MILSTEIN ENTERTAINMENT",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "Max Miller",
+    "rank": 9,
+    "employer": "NEXT GENERATION",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "Max Miller",
+    "rank": 10,
+    "employer": "KINZIE ADVANCED POLYMERS",
+    "total": 6600,
+    "count": 4
+  },
+  {
+    "member_name": "Max Miller",
+    "rank": 11,
+    "employer": "CLEARPATH FOUNDATION",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "Max Miller",
+    "rank": 12,
+    "employer": "COHEN KLINGENSTEIN",
+    "total": 6600,
+    "count": 3
+  },
+  {
+    "member_name": "Max Miller",
+    "rank": 13,
+    "employer": "CROWN REALTY",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "Max Miller",
+    "rank": 14,
+    "employer": "WEINBERG CAPITAL",
+    "total": 5000,
+    "count": 3
+  },
+  {
+    "member_name": "Max Miller",
+    "rank": 15,
+    "employer": "TRACTION",
+    "total": 5000,
+    "count": 3
+  },
+  {
+    "member_name": "Max Miller",
+    "rank": 16,
+    "employer": "USIP",
+    "total": 4500,
+    "count": 4
+  },
+  {
+    "member_name": "Max Miller",
+    "rank": 17,
+    "employer": "PACHULSKI STANG ZIEHL & JONES",
+    "total": 4500,
+    "count": 2
+  },
+  {
+    "member_name": "Aaron Bean",
+    "rank": 1,
+    "employer": "APOLLO GLOBAL",
+    "total": 7800,
+    "count": 5
+  },
+  {
+    "member_name": "Aaron Bean",
+    "rank": 2,
+    "employer": "THE MAYERNICK",
+    "total": 7000,
+    "count": 3
+  },
+  {
+    "member_name": "Aaron Bean",
+    "rank": 3,
+    "employer": "RETTNER",
+    "total": 6600,
+    "count": 3
+  },
+  {
+    "member_name": "Aaron Bean",
+    "rank": 4,
+    "employer": "APOLLO",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "Aaron Bean",
+    "rank": 5,
+    "employer": "CENTURY 21 COLLINS REALTY",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "Aaron Bean",
+    "rank": 6,
+    "employer": "PET PARADISE RESORT",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "Aaron Bean",
+    "rank": 7,
+    "employer": "CAROLYN ROWAN COLLECTION",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "Aaron Bean",
+    "rank": 8,
+    "employer": "FS REAL ESTATE",
+    "total": 6200,
+    "count": 2
+  },
+  {
+    "member_name": "Aaron Bean",
+    "rank": 9,
+    "employer": "KEISER UNIVERSITY",
+    "total": 5800,
+    "count": 3
+  },
+  {
+    "member_name": "Aaron Bean",
+    "rank": 10,
+    "employer": "BLACKSTONE",
+    "total": 5500,
+    "count": 3
+  },
+  {
+    "member_name": "Aaron Bean",
+    "rank": 11,
+    "employer": "BROOKS REHABILITATION",
+    "total": 5000,
+    "count": 2
+  },
+  {
+    "member_name": "Aaron Bean",
+    "rank": 12,
+    "employer": "AMSCOT FINANCIAL",
+    "total": 5000,
+    "count": 2
+  },
+  {
+    "member_name": "Aaron Bean",
+    "rank": 13,
+    "employer": "FULL SAIL UNIVERSITY",
+    "total": 4000,
+    "count": 6
+  },
+  {
+    "member_name": "Aaron Bean",
+    "rank": 14,
+    "employer": "ROGERS TOWERS ATTORNEYS AT LAW",
+    "total": 4000,
+    "count": 2
+  },
+  {
+    "member_name": "Aaron Bean",
+    "rank": 15,
+    "employer": "GRAYROBINSON",
+    "total": 3500,
+    "count": 9
+  },
+  {
+    "member_name": "Aaron Bean",
+    "rank": 16,
+    "employer": "OLD NORTH STRATEGIES",
+    "total": 3500,
+    "count": 4
+  },
+  {
+    "member_name": "Aaron Bean",
+    "rank": 17,
+    "employer": "GRAIL",
+    "total": 3500,
+    "count": 4
+  },
+  {
+    "member_name": "Aaron Bean",
+    "rank": 18,
+    "employer": "JAGUAR",
+    "total": 3300,
+    "count": 1
+  },
+  {
+    "member_name": "Nathaniel Moran",
+    "rank": 1,
+    "employer": "RYAN",
+    "total": 5800,
+    "count": 4
+  },
+  {
+    "member_name": "Nathaniel Moran",
+    "rank": 2,
+    "employer": "HUNT CONSOLIDATED",
+    "total": 3300,
+    "count": 1
+  },
+  {
+    "member_name": "Nathaniel Moran",
+    "rank": 3,
+    "employer": "MYB GOUSTON",
+    "total": 3300,
+    "count": 1
+  },
+  {
+    "member_name": "Nathaniel Moran",
+    "rank": 4,
+    "employer": "LINDEN ENERGY",
+    "total": 3300,
+    "count": 1
+  },
+  {
+    "member_name": "Nathaniel Moran",
+    "rank": 5,
+    "employer": "ACG ADVOCACY",
+    "total": 3000,
+    "count": 4
+  },
+  {
+    "member_name": "Nathaniel Moran",
+    "rank": 6,
+    "employer": "ALPINE",
+    "total": 3000,
+    "count": 6
+  },
+  {
+    "member_name": "Nathaniel Moran",
+    "rank": 7,
+    "employer": "SUSSER BANK",
+    "total": 3000,
+    "count": 2
+  },
+  {
+    "member_name": "Nathaniel Moran",
+    "rank": 8,
+    "employer": "COMMERCE LUIGI CLUB",
+    "total": 2500,
+    "count": 1
+  },
+  {
+    "member_name": "Nathaniel Moran",
+    "rank": 9,
+    "employer": "SULLIVAN & CROMWELL",
+    "total": 2500,
+    "count": 2
+  },
+  {
+    "member_name": "Nathaniel Moran",
+    "rank": 10,
+    "employer": "LONGVIEW BRIDGE & ROAD",
+    "total": 2000,
+    "count": 1
+  },
+  {
+    "member_name": "Nathaniel Moran",
+    "rank": 11,
+    "employer": "UNITED ENERGY WORKERS HEALTHCARE",
+    "total": 2000,
+    "count": 1
+  },
+  {
+    "member_name": "Nathaniel Moran",
+    "rank": 12,
+    "employer": "MEMORIAL HERMANN HEALTH SYSTEM",
+    "total": 1600,
+    "count": 3
+  },
+  {
+    "member_name": "Nathaniel Moran",
+    "rank": 13,
+    "employer": "HEYCO ENERGY",
+    "total": 1250,
+    "count": 2
+  },
+  {
+    "member_name": "Nathaniel Moran",
+    "rank": 14,
+    "employer": "SILVER COMPANIES",
+    "total": 1000,
+    "count": 1
+  },
+  {
+    "member_name": "Nathaniel Moran",
+    "rank": 15,
+    "employer": "SKYRISE PROPERTIES",
+    "total": 1000,
+    "count": 1
+  },
+  {
+    "member_name": "Nathaniel Moran",
+    "rank": 16,
+    "employer": "STONEBRIAR",
+    "total": 1000,
+    "count": 1
+  },
+  {
+    "member_name": "Nathaniel Moran",
+    "rank": 17,
+    "employer": "SULLIVAN CROMWELL",
+    "total": 1000,
+    "count": 1
+  },
+  {
+    "member_name": "Richard Neal",
+    "rank": 1,
+    "employer": "FIDELITY INVESTMENTS",
+    "total": 21350,
+    "count": 17
+  },
+  {
+    "member_name": "Richard Neal",
+    "rank": 2,
+    "employer": "BLACKSTONE",
+    "total": 19800,
+    "count": 6
+  },
+  {
+    "member_name": "Richard Neal",
+    "rank": 3,
+    "employer": "NFP",
+    "total": 17500,
+    "count": 15
+  },
+  {
+    "member_name": "Richard Neal",
+    "rank": 4,
+    "employer": "CREI",
+    "total": 13200,
+    "count": 4
+  },
+  {
+    "member_name": "Richard Neal",
+    "rank": 5,
+    "employer": "WINGED KEEL",
+    "total": 12500,
+    "count": 15
+  },
+  {
+    "member_name": "Richard Neal",
+    "rank": 6,
+    "employer": "APOLLO GLOBAL",
+    "total": 11400,
+    "count": 10
+  },
+  {
+    "member_name": "Richard Neal",
+    "rank": 7,
+    "employer": "ROCKET MORTGAGE",
+    "total": 9900,
+    "count": 3
+  },
+  {
+    "member_name": "Richard Neal",
+    "rank": 8,
+    "employer": "CAPITOL COUNSEL",
+    "total": 9500,
+    "count": 12
+  },
+  {
+    "member_name": "Richard Neal",
+    "rank": 9,
+    "employer": "ROCKET CENTRAL",
+    "total": 8500,
+    "count": 3
+  },
+  {
+    "member_name": "Richard Neal",
+    "rank": 10,
+    "employer": "KEARNEY DONOVAN & MCGEE",
+    "total": 8000,
+    "count": 12
+  },
+  {
+    "member_name": "Richard Neal",
+    "rank": 11,
+    "employer": "GOLUB CAPITAL",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "Richard Neal",
+    "rank": 12,
+    "employer": "GOOGLE",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "Richard Neal",
+    "rank": 13,
+    "employer": "ARNOLD VENTURES",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "Richard Neal",
+    "rank": 14,
+    "employer": "HOPPER-DEAN FOUNDATION",
+    "total": 6600,
+    "count": 4
+  },
+  {
+    "member_name": "Richard Neal",
+    "rank": 15,
+    "employer": "PIVOTAL VENTURES",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "Richard Neal",
+    "rank": 16,
+    "employer": "ROCKET COMPANIES",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "Richard Neal",
+    "rank": 17,
+    "employer": "ONEAMERICA",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "Lloyd Doggett",
+    "rank": 1,
+    "employer": "DCP360",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "Lloyd Doggett",
+    "rank": 2,
+    "employer": "BROPHY & DEVANEY",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "Lloyd Doggett",
+    "rank": 3,
+    "employer": "SLACK DAVIS SANGER",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "Lloyd Doggett",
+    "rank": 4,
+    "employer": "CESIUMASTRO",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "Lloyd Doggett",
+    "rank": 5,
+    "employer": "MCELROY SULLIVAN MILLER & WEBER",
+    "total": 6600,
+    "count": 3
+  },
+  {
+    "member_name": "Lloyd Doggett",
+    "rank": 6,
+    "employer": "ASIAN AMERICAN CULTURAL CENTER",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "Lloyd Doggett",
+    "rank": 7,
+    "employer": "SEIDEL LAW FIRM",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "Lloyd Doggett",
+    "rank": 8,
+    "employer": "HEARD & SMITH",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "Lloyd Doggett",
+    "rank": 9,
+    "employer": "ANGELOUECONOMICS",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "Lloyd Doggett",
+    "rank": 10,
+    "employer": "EV",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "Lloyd Doggett",
+    "rank": 11,
+    "employer": "HENDLER FLORES LAW",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "Lloyd Doggett",
+    "rank": 12,
+    "employer": "WENTWOOD",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "Lloyd Doggett",
+    "rank": 13,
+    "employer": "TOPO",
+    "total": 5800,
+    "count": 3
+  },
+  {
+    "member_name": "Lloyd Doggett",
+    "rank": 14,
+    "employer": "CANTILO& BENNETT",
+    "total": 5300,
+    "count": 2
+  },
+  {
+    "member_name": "Lloyd Doggett",
+    "rank": 15,
+    "employer": "PERRY&HAAS",
+    "total": 5300,
+    "count": 3
+  },
+  {
+    "member_name": "Lloyd Doggett",
+    "rank": 16,
+    "employer": "SXSW",
+    "total": 4800,
+    "count": 5
+  },
+  {
+    "member_name": "Lloyd Doggett",
+    "rank": 17,
+    "employer": "APPLIED ECONOMICS IN",
+    "total": 4300,
+    "count": 2
+  },
+  {
+    "member_name": "Mike Thompson",
+    "rank": 1,
+    "employer": "TRINCHERO FAMILY ESTATES",
+    "total": 18906,
+    "count": 10
+  },
+  {
+    "member_name": "Mike Thompson",
+    "rank": 2,
+    "employer": "NORTHWESTERN MUTUAL",
+    "total": 16113,
+    "count": 19
+  },
+  {
+    "member_name": "Mike Thompson",
+    "rank": 3,
+    "employer": "PISCES",
+    "total": 9900,
+    "count": 3
+  },
+  {
+    "member_name": "Mike Thompson",
+    "rank": 4,
+    "employer": "JACKSON FAMILY WINES",
+    "total": 9900,
+    "count": 3
+  },
+  {
+    "member_name": "Mike Thompson",
+    "rank": 5,
+    "employer": "PRODUCTS",
+    "total": 9500,
+    "count": 3
+  },
+  {
+    "member_name": "Mike Thompson",
+    "rank": 6,
+    "employer": "MANZANITA CAPITAL",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "Mike Thompson",
+    "rank": 7,
+    "employer": "GC MICRO",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "Mike Thompson",
+    "rank": 8,
+    "employer": "SEAN N PARKER FOUNDATION",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "Mike Thompson",
+    "rank": 9,
+    "employer": "ROCKET MORTGAGE",
+    "total": 6300,
+    "count": 3
+  },
+  {
+    "member_name": "Mike Thompson",
+    "rank": 10,
+    "employer": "ROCK CREEK COUNSEL",
+    "total": 6000,
+    "count": 2
+  },
+  {
+    "member_name": "Mike Thompson",
+    "rank": 11,
+    "employer": "SIERRA PACIFIC INDUSTRIES",
+    "total": 5800,
+    "count": 2
+  },
+  {
+    "member_name": "Mike Thompson",
+    "rank": 12,
+    "employer": "ENERGY INFRASTRUCTURE COUNCIL",
+    "total": 5500,
+    "count": 3
+  },
+  {
+    "member_name": "Mike Thompson",
+    "rank": 13,
+    "employer": "A WILSEY PROPERTIES",
+    "total": 5300,
+    "count": 3
+  },
+  {
+    "member_name": "Mike Thompson",
+    "rank": 14,
+    "employer": "E & J GALLO WINERY",
+    "total": 5000,
+    "count": 2
+  },
+  {
+    "member_name": "Mike Thompson",
+    "rank": 15,
+    "employer": "HOGAN LOVELLS",
+    "total": 4900,
+    "count": 2
+  },
+  {
+    "member_name": "Mike Thompson",
+    "rank": 16,
+    "employer": "HALL WINERY",
+    "total": 4517,
+    "count": 6
+  },
+  {
+    "member_name": "Mike Thompson",
+    "rank": 17,
+    "employer": "NEILMED PHARMACEUTICALS",
+    "total": 4509,
+    "count": 4
+  },
+  {
+    "member_name": "John Larson",
+    "rank": 1,
+    "employer": "SEAN N PARKER FOUNDATION",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "John Larson",
+    "rank": 2,
+    "employer": "BLUE OWL CAPITAL",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "John Larson",
+    "rank": 3,
+    "employer": "NOT APPLICABLE",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "John Larson",
+    "rank": 4,
+    "employer": "EVOLUTION BENEFITS",
+    "total": 5800,
+    "count": 6
+  },
+  {
+    "member_name": "John Larson",
+    "rank": 5,
+    "employer": "HARTFORD HEALTHCARE",
+    "total": 5500,
+    "count": 8
+  },
+  {
+    "member_name": "John Larson",
+    "rank": 6,
+    "employer": "GUARDIAN LIFE",
+    "total": 5000,
+    "count": 7
+  },
+  {
+    "member_name": "John Larson",
+    "rank": 7,
+    "employer": "GAFFNEY BENNETT",
+    "total": 4750,
+    "count": 7
+  },
+  {
+    "member_name": "John Larson",
+    "rank": 8,
+    "employer": "LAW OFF FREDERICK H GRAEFE",
+    "total": 4715,
+    "count": 13
+  },
+  {
+    "member_name": "John Larson",
+    "rank": 9,
+    "employer": "ADCHEM MFG TECH",
+    "total": 4550,
+    "count": 11
+  },
+  {
+    "member_name": "John Larson",
+    "rank": 10,
+    "employer": "LINDY FARMS",
+    "total": 4300,
+    "count": 2
+  },
+  {
+    "member_name": "John Larson",
+    "rank": 11,
+    "employer": "BARRETT OUTDOOR COMMUNICATIONS",
+    "total": 3300,
+    "count": 2
+  },
+  {
+    "member_name": "John Larson",
+    "rank": 12,
+    "employer": "BIRDON AMERICA",
+    "total": 3300,
+    "count": 1
+  },
+  {
+    "member_name": "John Larson",
+    "rank": 13,
+    "employer": "GALEHOUSE",
+    "total": 3300,
+    "count": 1
+  },
+  {
+    "member_name": "John Larson",
+    "rank": 14,
+    "employer": "EVENT TICKETS CENTER",
+    "total": 3300,
+    "count": 1
+  },
+  {
+    "member_name": "John Larson",
+    "rank": 15,
+    "employer": "R&D DYNAMICS",
+    "total": 2505,
+    "count": 4
+  },
+  {
+    "member_name": "John Larson",
+    "rank": 16,
+    "employer": "ASSOCIATED BENEFITS CONSULTANT",
+    "total": 2500,
+    "count": 2
+  },
+  {
+    "member_name": "Danny Davis",
+    "rank": 1,
+    "employer": "ROSCOE",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "Danny Davis",
+    "rank": 2,
+    "employer": "DAMRON",
+    "total": 6000,
+    "count": 3
+  },
+  {
+    "member_name": "Danny Davis",
+    "rank": 3,
+    "employer": "PRIVATE PRACTICE",
+    "total": 4500,
+    "count": 2
+  },
+  {
+    "member_name": "Danny Davis",
+    "rank": 4,
+    "employer": "GLOBAL STRATEGIC ALLIANCE",
+    "total": 4400,
+    "count": 2
+  },
+  {
+    "member_name": "Danny Davis",
+    "rank": 5,
+    "employer": "FIELD MUSEUM",
+    "total": 3800,
+    "count": 2
+  },
+  {
+    "member_name": "Danny Davis",
+    "rank": 6,
+    "employer": "ENTREPRENEUR",
+    "total": 3300,
+    "count": 1
+  },
+  {
+    "member_name": "Danny Davis",
+    "rank": 7,
+    "employer": "NAVIER",
+    "total": 3300,
+    "count": 1
+  },
+  {
+    "member_name": "Danny Davis",
+    "rank": 8,
+    "employer": "SAP SOLUTION",
+    "total": 3300,
+    "count": 1
+  },
+  {
+    "member_name": "Danny Davis",
+    "rank": 9,
+    "employer": "NAPERVILLE PUBLIC LIBRARY",
+    "total": 3300,
+    "count": 1
+  },
+  {
+    "member_name": "Danny Davis",
+    "rank": 10,
+    "employer": "RIGHTEOUS WORKS",
+    "total": 3300,
+    "count": 1
+  },
+  {
+    "member_name": "Danny Davis",
+    "rank": 11,
+    "employer": "MYMAGGO",
+    "total": 3300,
+    "count": 1
+  },
+  {
+    "member_name": "Danny Davis",
+    "rank": 12,
+    "employer": "IMPACT NETWORKING",
+    "total": 3300,
+    "count": 1
+  },
+  {
+    "member_name": "Danny Davis",
+    "rank": 13,
+    "employer": "PRESIDENT",
+    "total": 3300,
+    "count": 1
+  },
+  {
+    "member_name": "Danny Davis",
+    "rank": 14,
+    "employer": "KAVI",
+    "total": 3300,
+    "count": 1
+  },
+  {
+    "member_name": "Danny Davis",
+    "rank": 15,
+    "employer": "MIDWAY PROPERTIES",
+    "total": 3300,
+    "count": 1
+  },
+  {
+    "member_name": "Danny Davis",
+    "rank": 16,
+    "employer": "EATON",
+    "total": 3300,
+    "count": 1
+  },
+  {
+    "member_name": "Linda Sanchez",
+    "rank": 1,
+    "employer": "FULCRUM PUBLIC AFFAIRS",
+    "total": 10000,
+    "count": 3
+  },
+  {
+    "member_name": "Linda Sanchez",
+    "rank": 2,
+    "employer": "THORN RUN",
+    "total": 8300,
+    "count": 7
+  },
+  {
+    "member_name": "Linda Sanchez",
+    "rank": 3,
+    "employer": "CAPITOL COUNSEL",
+    "total": 7500,
+    "count": 4
+  },
+  {
+    "member_name": "Linda Sanchez",
+    "rank": 4,
+    "employer": "RIO GRANDE UROLOGY",
+    "total": 7500,
+    "count": 4
+  },
+  {
+    "member_name": "Linda Sanchez",
+    "rank": 5,
+    "employer": "BLUE OWL CAPITAL",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "Linda Sanchez",
+    "rank": 6,
+    "employer": "GOOGLE",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "Linda Sanchez",
+    "rank": 7,
+    "employer": "GOLDMAN SACHS",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "Linda Sanchez",
+    "rank": 8,
+    "employer": "GREATER BOSTON UROLOGY",
+    "total": 6385,
+    "count": 12
+  },
+  {
+    "member_name": "Linda Sanchez",
+    "rank": 9,
+    "employer": "CREDIT UNION OF SOUTHERN CALIFORNIA",
+    "total": 5800,
+    "count": 2
+  },
+  {
+    "member_name": "Linda Sanchez",
+    "rank": 10,
+    "employer": "RED CHAMBER",
+    "total": 5300,
+    "count": 3
+  },
+  {
+    "member_name": "Linda Sanchez",
+    "rank": 11,
+    "employer": "LAPOLT LAW",
+    "total": 5300,
+    "count": 3
+  },
+  {
+    "member_name": "Linda Sanchez",
+    "rank": 12,
+    "employer": "CAPITOL TAX",
+    "total": 5250,
+    "count": 6
+  },
+  {
+    "member_name": "Linda Sanchez",
+    "rank": 13,
+    "employer": "COMCAST",
+    "total": 5000,
+    "count": 3
+  },
+  {
+    "member_name": "Linda Sanchez",
+    "rank": 14,
+    "employer": "COMPREHENSIVE UROLOGY",
+    "total": 5000,
+    "count": 5
+  },
+  {
+    "member_name": "Linda Sanchez",
+    "rank": 15,
+    "employer": "THE ALPINE",
+    "total": 5000,
+    "count": 3
+  },
+  {
+    "member_name": "Linda Sanchez",
+    "rank": 16,
+    "employer": "ERNST & YOUNG",
+    "total": 5000,
+    "count": 3
+  },
+  {
+    "member_name": "Linda Sanchez",
+    "rank": 17,
+    "employer": "ROLEX BOUTIQUE J LICHT & SONS",
+    "total": 5000,
+    "count": 2
+  },
+  {
+    "member_name": "Terri Sewell",
+    "rank": 1,
+    "employer": "CHARTER BROKERAGE",
+    "total": 22950,
+    "count": 12
+  },
+  {
+    "member_name": "Terri Sewell",
+    "rank": 2,
+    "employer": "GRAIL",
+    "total": 22700,
+    "count": 11
+  },
+  {
+    "member_name": "Terri Sewell",
+    "rank": 3,
+    "employer": "NHS",
+    "total": 13200,
+    "count": 4
+  },
+  {
+    "member_name": "Terri Sewell",
+    "rank": 4,
+    "employer": "BALL HEALTHCARE",
+    "total": 12400,
+    "count": 5
+  },
+  {
+    "member_name": "Terri Sewell",
+    "rank": 5,
+    "employer": "MCWANE",
+    "total": 10900,
+    "count": 4
+  },
+  {
+    "member_name": "Terri Sewell",
+    "rank": 6,
+    "employer": "ROCKY RESEARCH",
+    "total": 9900,
+    "count": 3
+  },
+  {
+    "member_name": "Terri Sewell",
+    "rank": 7,
+    "employer": "UROLOGY OF ST LOUIS",
+    "total": 9639,
+    "count": 15
+  },
+  {
+    "member_name": "Terri Sewell",
+    "rank": 8,
+    "employer": "PROTECTIVE LIFE",
+    "total": 7600,
+    "count": 3
+  },
+  {
+    "member_name": "Terri Sewell",
+    "rank": 9,
+    "employer": "UNIVERSITY OF AL",
+    "total": 7500,
+    "count": 8
+  },
+  {
+    "member_name": "Terri Sewell",
+    "rank": 10,
+    "employer": "DAVIS POLK & WARDWELL",
+    "total": 6900,
+    "count": 5
+  },
+  {
+    "member_name": "Terri Sewell",
+    "rank": 11,
+    "employer": "APOLLO GLOBAL",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "Terri Sewell",
+    "rank": 12,
+    "employer": "ARIEL INVESTMENTS",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "Terri Sewell",
+    "rank": 13,
+    "employer": "THE FORD FOUNDATION",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "Terri Sewell",
+    "rank": 14,
+    "employer": "PIVOTAL VENTURES",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "Terri Sewell",
+    "rank": 15,
+    "employer": "CAROLYN ROWAN ACCESSORIES",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "Terri Sewell",
+    "rank": 16,
+    "employer": "SEAN N PARKER FOUNDATION",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "Suzan DelBene",
+    "rank": 1,
+    "employer": "GOOGLE",
+    "total": 16500,
+    "count": 5
+  },
+  {
+    "member_name": "Suzan DelBene",
+    "rank": 2,
+    "employer": "AMAZON",
+    "total": 15650,
+    "count": 18
+  },
+  {
+    "member_name": "Suzan DelBene",
+    "rank": 3,
+    "employer": "SANA BIOTECHNOLOGY",
+    "total": 14598,
+    "count": 11
+  },
+  {
+    "member_name": "Suzan DelBene",
+    "rank": 4,
+    "employer": "D4",
+    "total": 13200,
+    "count": 6
+  },
+  {
+    "member_name": "Suzan DelBene",
+    "rank": 5,
+    "employer": "THE UROLOGY CENTER OF COLORADO",
+    "total": 11200,
+    "count": 6
+  },
+  {
+    "member_name": "Suzan DelBene",
+    "rank": 6,
+    "employer": "APOLLO",
+    "total": 10600,
+    "count": 7
+  },
+  {
+    "member_name": "Suzan DelBene",
+    "rank": 7,
+    "employer": "APOLLO GLOBAL",
+    "total": 10400,
+    "count": 10
+  },
+  {
+    "member_name": "Suzan DelBene",
+    "rank": 8,
+    "employer": "MICROSOFT",
+    "total": 10300,
+    "count": 21
+  },
+  {
+    "member_name": "Suzan DelBene",
+    "rank": 9,
+    "employer": "ARIEL INVESTMENTS",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "Suzan DelBene",
+    "rank": 10,
+    "employer": "FORTRESS INVESTMENT",
+    "total": 6600,
+    "count": 3
+  },
+  {
+    "member_name": "Suzan DelBene",
+    "rank": 11,
+    "employer": "GOLDMAN SACHS",
+    "total": 6600,
+    "count": 3
+  },
+  {
+    "member_name": "Suzan DelBene",
+    "rank": 12,
+    "employer": "HOUSING",
+    "total": 6600,
+    "count": 3
+  },
+  {
+    "member_name": "Suzan DelBene",
+    "rank": 13,
+    "employer": "SEAN N PARKER FOUNDATION",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "Suzan DelBene",
+    "rank": 14,
+    "employer": "PROGRESSIVE POLICY INSTITUTE",
+    "total": 6600,
+    "count": 3
+  },
+  {
+    "member_name": "Suzan DelBene",
+    "rank": 15,
+    "employer": "ZINC COLLECTIVE",
+    "total": 6600,
+    "count": 3
+  },
+  {
+    "member_name": "Suzan DelBene",
+    "rank": 16,
+    "employer": "ZUMIEZ",
+    "total": 6600,
+    "count": 4
+  },
+  {
+    "member_name": "Judy Chu",
+    "rank": 1,
+    "employer": "EDI MEDIA",
+    "total": 9900,
+    "count": 4
+  },
+  {
+    "member_name": "Judy Chu",
+    "rank": 2,
+    "employer": "APEX GLOBAL GROUPS",
+    "total": 9900,
+    "count": 3
+  },
+  {
+    "member_name": "Judy Chu",
+    "rank": 3,
+    "employer": "SEVILLE CLASSICS",
+    "total": 9100,
+    "count": 3
+  },
+  {
+    "member_name": "Judy Chu",
+    "rank": 4,
+    "employer": "AMERICAN LENDING CENTER",
+    "total": 8300,
+    "count": 3
+  },
+  {
+    "member_name": "Judy Chu",
+    "rank": 5,
+    "employer": "GRUEN",
+    "total": 8300,
+    "count": 3
+  },
+  {
+    "member_name": "Judy Chu",
+    "rank": 6,
+    "employer": "ROYAL BUSINESS BANK",
+    "total": 7600,
+    "count": 3
+  },
+  {
+    "member_name": "Judy Chu",
+    "rank": 7,
+    "employer": "ALEXANDRA PARKER",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "Judy Chu",
+    "rank": 8,
+    "employer": "ONCOC4COM",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "Judy Chu",
+    "rank": 9,
+    "employer": "CHINA-US BUSINESS SUMMIT",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "Judy Chu",
+    "rank": 10,
+    "employer": "GARFIELD HEALTH CENTER",
+    "total": 6600,
+    "count": 4
+  },
+  {
+    "member_name": "Judy Chu",
+    "rank": 11,
+    "employer": "SEAN N PARKER FOUNDATION",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "Judy Chu",
+    "rank": 12,
+    "employer": "GRAND CENTURY CRUISES",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "Judy Chu",
+    "rank": 13,
+    "employer": "IW",
+    "total": 5800,
+    "count": 2
+  },
+  {
+    "member_name": "Judy Chu",
+    "rank": 14,
+    "employer": "BUSINESS FINANCE CAPITAL",
+    "total": 5600,
+    "count": 3
+  },
+  {
+    "member_name": "Judy Chu",
+    "rank": 15,
+    "employer": "IQ LASER VISION",
+    "total": 5250,
+    "count": 3
+  },
+  {
+    "member_name": "Judy Chu",
+    "rank": 16,
+    "employer": "ATEUM SOLUTION",
+    "total": 5000,
+    "count": 2
+  },
+  {
+    "member_name": "Judy Chu",
+    "rank": 17,
+    "employer": "AJ CONSTRUCTION",
+    "total": 5000,
+    "count": 2
+  },
+  {
+    "member_name": "Gwen Moore",
+    "rank": 1,
+    "employer": "APOLLO",
+    "total": 10800,
+    "count": 4
+  },
+  {
+    "member_name": "Gwen Moore",
+    "rank": 2,
+    "employer": "INVARIANT",
+    "total": 10500,
+    "count": 7
+  },
+  {
+    "member_name": "Gwen Moore",
+    "rank": 3,
+    "employer": "LEM SETTLEMENT",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "Gwen Moore",
+    "rank": 4,
+    "employer": "EPIC SYSTEMS",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "Gwen Moore",
+    "rank": 5,
+    "employer": "CAROLYN ROWAN COLLECTION",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "Gwen Moore",
+    "rank": 6,
+    "employer": "ROCKET MORTGAGE",
+    "total": 5700,
+    "count": 3
+  },
+  {
+    "member_name": "Gwen Moore",
+    "rank": 7,
+    "employer": "TOWN OF SOMERSET MD",
+    "total": 5600,
+    "count": 5
+  },
+  {
+    "member_name": "Gwen Moore",
+    "rank": 8,
+    "employer": "STEWART STRATEGIES & SOLUTIONS",
+    "total": 4400,
+    "count": 2
+  },
+  {
+    "member_name": "Gwen Moore",
+    "rank": 9,
+    "employer": "RBC CAPITAL MARKETS",
+    "total": 4000,
+    "count": 5
+  },
+  {
+    "member_name": "Gwen Moore",
+    "rank": 10,
+    "employer": "INTRAFI NETWORK",
+    "total": 3700,
+    "count": 4
+  },
+  {
+    "member_name": "Gwen Moore",
+    "rank": 11,
+    "employer": "APOLLO GLOBAL",
+    "total": 3600,
+    "count": 2
+  },
+  {
+    "member_name": "Gwen Moore",
+    "rank": 12,
+    "employer": "JAMES H LOWRY &",
+    "total": 3300,
+    "count": 1
+  },
+  {
+    "member_name": "Gwen Moore",
+    "rank": 13,
+    "employer": "STANFORD UNIVERSITY",
+    "total": 3300,
+    "count": 1
+  },
+  {
+    "member_name": "Gwen Moore",
+    "rank": 14,
+    "employer": "QUICKEN LOANS",
+    "total": 3300,
+    "count": 1
+  },
+  {
+    "member_name": "Gwen Moore",
+    "rank": 15,
+    "employer": "INTRAFI",
+    "total": 3300,
+    "count": 1
+  },
+  {
+    "member_name": "Gwen Moore",
+    "rank": 16,
+    "employer": "EXACT SCIENCES",
+    "total": 3300,
+    "count": 2
+  },
+  {
+    "member_name": "Gwen Moore",
+    "rank": 17,
+    "employer": "KYNDRYL",
+    "total": 3300,
+    "count": 1
+  },
+  {
+    "member_name": "Gwen Moore",
+    "rank": 18,
+    "employer": "HOGAN LOVELLS US",
+    "total": 3000,
+    "count": 1
+  },
+  {
+    "member_name": "Brendan Boyle",
+    "rank": 1,
+    "employer": "KIRKLAND & ELLIS",
+    "total": 10500,
+    "count": 9
+  },
+  {
+    "member_name": "Brendan Boyle",
+    "rank": 2,
+    "employer": "ROCKET COMPANIES",
+    "total": 9900,
+    "count": 3
+  },
+  {
+    "member_name": "Brendan Boyle",
+    "rank": 3,
+    "employer": "THE DASCHLE",
+    "total": 9300,
+    "count": 7
+  },
+  {
+    "member_name": "Brendan Boyle",
+    "rank": 4,
+    "employer": "MASSMUTUAL",
+    "total": 8000,
+    "count": 8
+  },
+  {
+    "member_name": "Brendan Boyle",
+    "rank": 5,
+    "employer": "CORNERSTONE GOVERNMENT AFFAIRS",
+    "total": 7300,
+    "count": 5
+  },
+  {
+    "member_name": "Brendan Boyle",
+    "rank": 6,
+    "employer": "GOLDMAN SACHS",
+    "total": 6850,
+    "count": 3
+  },
+  {
+    "member_name": "Brendan Boyle",
+    "rank": 7,
+    "employer": "BLUE OWL CAPITAL",
+    "total": 6600,
+    "count": 3
+  },
+  {
+    "member_name": "Brendan Boyle",
+    "rank": 8,
+    "employer": "BOSTON BEER",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "Brendan Boyle",
+    "rank": 9,
+    "employer": "VIBRANT CAPITAL",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "Brendan Boyle",
+    "rank": 10,
+    "employer": "CAPITAL",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "Brendan Boyle",
+    "rank": 11,
+    "employer": "PEPSI-COLA & NATIONAL BRAND BEVERAGES",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "Brendan Boyle",
+    "rank": 12,
+    "employer": "CHARTERHOUSE",
+    "total": 6600,
+    "count": 4
+  },
+  {
+    "member_name": "Brendan Boyle",
+    "rank": 13,
+    "employer": "COZEN O'CONNOR",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "Brendan Boyle",
+    "rank": 14,
+    "employer": "MCCARTER GS",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "Brendan Boyle",
+    "rank": 15,
+    "employer": "SELECT MEDICAL",
+    "total": 6200,
+    "count": 4
+  },
+  {
+    "member_name": "Brendan Boyle",
+    "rank": 16,
+    "employer": "BREAKTHRU BEVERAGE",
+    "total": 5400,
+    "count": 3
+  },
+  {
+    "member_name": "Brendan Boyle",
+    "rank": 17,
+    "employer": "SINGH SEMICONDUCTORS",
+    "total": 5000,
+    "count": 3
+  },
+  {
+    "member_name": "Don Beyer",
+    "rank": 1,
+    "employer": "PLANET SUBARU",
+    "total": 10000,
+    "count": 4
+  },
+  {
+    "member_name": "Don Beyer",
+    "rank": 2,
+    "employer": "AKIN GUMP STRAUSS HAUER & FELD",
+    "total": 7000,
+    "count": 5
+  },
+  {
+    "member_name": "Don Beyer",
+    "rank": 3,
+    "employer": "MORINO VENTURES",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "Don Beyer",
+    "rank": 4,
+    "employer": "GENERATION INVESTMENT",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "Don Beyer",
+    "rank": 5,
+    "employer": "ETC",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "Don Beyer",
+    "rank": 6,
+    "employer": "KITEBROOK",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "Don Beyer",
+    "rank": 7,
+    "employer": "ELICIT RESEARCH PBC",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "Don Beyer",
+    "rank": 8,
+    "employer": "NVR",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "Don Beyer",
+    "rank": 9,
+    "employer": "ORRICK HERRINGTON & SUTCLIFFE",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "Don Beyer",
+    "rank": 10,
+    "employer": "KAPCO",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "Don Beyer",
+    "rank": 11,
+    "employer": "ROONEY",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "Don Beyer",
+    "rank": 12,
+    "employer": "JAMES RIVER EQUIPMENT",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "Don Beyer",
+    "rank": 13,
+    "employer": "SRA",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "Don Beyer",
+    "rank": 14,
+    "employer": "STRELITZIA VENTURES",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "Don Beyer",
+    "rank": 15,
+    "employer": "IRSFELD &",
+    "total": 6600,
+    "count": 3
+  },
+  {
+    "member_name": "Don Beyer",
+    "rank": 16,
+    "employer": "WESTON FAMILY FOUNDATION",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "Dwight Evans",
+    "rank": 1,
+    "employer": "PROGRESSIVE",
+    "total": 5000,
+    "count": 2
+  },
+  {
+    "member_name": "Dwight Evans",
+    "rank": 2,
+    "employer": "SELECT MEDICAL",
+    "total": 5000,
+    "count": 2
+  },
+  {
+    "member_name": "Dwight Evans",
+    "rank": 3,
+    "employer": "METRO PHILLY",
+    "total": 4100,
+    "count": 2
+  },
+  {
+    "member_name": "Dwight Evans",
+    "rank": 4,
+    "employer": "TRIAD STRATEGIES",
+    "total": 3500,
+    "count": 3
+  },
+  {
+    "member_name": "Dwight Evans",
+    "rank": 5,
+    "employer": "TEAM CLEAN",
+    "total": 3300,
+    "count": 1
+  },
+  {
+    "member_name": "Dwight Evans",
+    "rank": 6,
+    "employer": "EBRM",
+    "total": 3300,
+    "count": 1
+  },
+  {
+    "member_name": "Dwight Evans",
+    "rank": 7,
+    "employer": "FOUNDATIONS",
+    "total": 3010,
+    "count": 4
+  },
+  {
+    "member_name": "Dwight Evans",
+    "rank": 8,
+    "employer": "DALE",
+    "total": 3000,
+    "count": 4
+  },
+  {
+    "member_name": "Dwight Evans",
+    "rank": 9,
+    "employer": "METRO PHILLY MGMT",
+    "total": 2500,
+    "count": 1
+  },
+  {
+    "member_name": "Dwight Evans",
+    "rank": 10,
+    "employer": "ANDERSON CONSTRUCTION",
+    "total": 2500,
+    "count": 1
+  },
+  {
+    "member_name": "Dwight Evans",
+    "rank": 11,
+    "employer": "GENOVA BURNS",
+    "total": 2500,
+    "count": 1
+  },
+  {
+    "member_name": "Dwight Evans",
+    "rank": 12,
+    "employer": "PIPV CAPITAL",
+    "total": 2500,
+    "count": 1
+  },
+  {
+    "member_name": "Dwight Evans",
+    "rank": 13,
+    "employer": "SID BOOKER'S SHRIMP CORNER",
+    "total": 2500,
+    "count": 1
+  },
+  {
+    "member_name": "Dwight Evans",
+    "rank": 14,
+    "employer": "COMMONWEALTH STRATEGIC",
+    "total": 2500,
+    "count": 3
+  },
+  {
+    "member_name": "Dwight Evans",
+    "rank": 15,
+    "employer": "COMMONWEALTH STRATEGIES",
+    "total": 2500,
+    "count": 3
+  },
+  {
+    "member_name": "Dwight Evans",
+    "rank": 16,
+    "employer": "ALLIED CONSTRUCTION II",
+    "total": 2500,
+    "count": 2
+  },
+  {
+    "member_name": "Dwight Evans",
+    "rank": 17,
+    "employer": "DRISCOLL CONSTRUCTION",
+    "total": 2000,
+    "count": 2
+  },
+  {
+    "member_name": "Brad Schneider",
+    "rank": 1,
+    "employer": "PARAGON BIOSCIENCES",
+    "total": 12600,
+    "count": 6
+  },
+  {
+    "member_name": "Brad Schneider",
+    "rank": 2,
+    "employer": "GREENBERG TRAURIG",
+    "total": 9798,
+    "count": 9
+  },
+  {
+    "member_name": "Brad Schneider",
+    "rank": 3,
+    "employer": "BLACKSTONE",
+    "total": 8600,
+    "count": 3
+  },
+  {
+    "member_name": "Brad Schneider",
+    "rank": 4,
+    "employer": "APOLLO GLOBAL",
+    "total": 8200,
+    "count": 3
+  },
+  {
+    "member_name": "Brad Schneider",
+    "rank": 5,
+    "employer": "GOLDMAN SACHS",
+    "total": 7600,
+    "count": 3
+  },
+  {
+    "member_name": "Brad Schneider",
+    "rank": 6,
+    "employer": "NORTHWESTERN UNIVERSITY",
+    "total": 6618,
+    "count": 3
+  },
+  {
+    "member_name": "Brad Schneider",
+    "rank": 7,
+    "employer": "SENATOR INVESTMENT",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "Brad Schneider",
+    "rank": 8,
+    "employer": "HIDDEN VIEW FARM",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "Brad Schneider",
+    "rank": 9,
+    "employer": "PETERSON FOUNDATION",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "Brad Schneider",
+    "rank": 10,
+    "employer": "DCVC",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "Brad Schneider",
+    "rank": 11,
+    "employer": "INTERCAPITAL",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "Brad Schneider",
+    "rank": 12,
+    "employer": "HOUSING",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "Brad Schneider",
+    "rank": 13,
+    "employer": "CLIFFORD LAW OFFICES",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "Brad Schneider",
+    "rank": 14,
+    "employer": "KIRKLAND & ELLIS",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "Brad Schneider",
+    "rank": 15,
+    "employer": "ON BALANCE",
+    "total": 6600,
+    "count": 3
+  },
+  {
+    "member_name": "Brad Schneider",
+    "rank": 16,
+    "employer": "JMB REALTY",
+    "total": 6600,
+    "count": 3
+  },
+  {
+    "member_name": "Jimmy Panetta",
+    "rank": 1,
+    "employer": "NFP",
+    "total": 15500,
+    "count": 10
+  },
+  {
+    "member_name": "Jimmy Panetta",
+    "rank": 2,
+    "employer": "APOLLO GLOBAL",
+    "total": 13500,
+    "count": 13
+  },
+  {
+    "member_name": "Jimmy Panetta",
+    "rank": 3,
+    "employer": "ROCKET CENTRAL",
+    "total": 12000,
+    "count": 4
+  },
+  {
+    "member_name": "Jimmy Panetta",
+    "rank": 4,
+    "employer": "FOLKTALE WINERY",
+    "total": 7760,
+    "count": 5
+  },
+  {
+    "member_name": "Jimmy Panetta",
+    "rank": 5,
+    "employer": "FINANCIAL ARCHITECTS",
+    "total": 7750,
+    "count": 12
+  },
+  {
+    "member_name": "Jimmy Panetta",
+    "rank": 6,
+    "employer": "MORGAN STANLEY",
+    "total": 7300,
+    "count": 5
+  },
+  {
+    "member_name": "Jimmy Panetta",
+    "rank": 7,
+    "employer": "TARANA WIRELESS",
+    "total": 7000,
+    "count": 5
+  },
+  {
+    "member_name": "Jimmy Panetta",
+    "rank": 8,
+    "employer": "PISCES",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "Jimmy Panetta",
+    "rank": 9,
+    "employer": "PETERSON INST FOR ECONOM",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "Jimmy Panetta",
+    "rank": 10,
+    "employer": "ROCKET COMPANIES",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "Jimmy Panetta",
+    "rank": 11,
+    "employer": "CORDISH COMPANIES",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "Jimmy Panetta",
+    "rank": 12,
+    "employer": "SEAN N PARKER FOUNDATION",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "Jimmy Panetta",
+    "rank": 13,
+    "employer": "ZEEV VENTURES",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "Jimmy Panetta",
+    "rank": 14,
+    "employer": "MALIBU CONFERENCE CENTER",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "Jimmy Panetta",
+    "rank": 15,
+    "employer": "GREENSKY",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "Jimmy Panetta",
+    "rank": 16,
+    "employer": "SOLEL",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "Jimmy Gomez",
+    "rank": 1,
+    "employer": "CAPITAL",
+    "total": 46300,
+    "count": 14
+  },
+  {
+    "member_name": "Jimmy Gomez",
+    "rank": 2,
+    "employer": "PISCES",
+    "total": 13200,
+    "count": 4
+  },
+  {
+    "member_name": "Jimmy Gomez",
+    "rank": 3,
+    "employer": "NOT-EMPLOYED",
+    "total": 13100,
+    "count": 11
+  },
+  {
+    "member_name": "Jimmy Gomez",
+    "rank": 4,
+    "employer": "CAPITAL COMPANIES",
+    "total": 10900,
+    "count": 5
+  },
+  {
+    "member_name": "Jimmy Gomez",
+    "rank": 5,
+    "employer": "SEVILLE CLASSICS",
+    "total": 9900,
+    "count": 3
+  },
+  {
+    "member_name": "Jimmy Gomez",
+    "rank": 6,
+    "employer": "UCLA",
+    "total": 8798,
+    "count": 15
+  },
+  {
+    "member_name": "Jimmy Gomez",
+    "rank": 7,
+    "employer": "LATHAM & WATKINS",
+    "total": 7600,
+    "count": 3
+  },
+  {
+    "member_name": "Jimmy Gomez",
+    "rank": 8,
+    "employer": "FARAH LAW",
+    "total": 7500,
+    "count": 3
+  },
+  {
+    "member_name": "Jimmy Gomez",
+    "rank": 9,
+    "employer": "SERVENCO",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "Jimmy Gomez",
+    "rank": 10,
+    "employer": "MANZANITA CAPITAL",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "Jimmy Gomez",
+    "rank": 11,
+    "employer": "CORDOBA",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "Jimmy Gomez",
+    "rank": 12,
+    "employer": "GDML",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "Jimmy Gomez",
+    "rank": 13,
+    "employer": "MANUEL GONZALES",
+    "total": 6600,
+    "count": 3
+  },
+  {
+    "member_name": "Jimmy Gomez",
+    "rank": 14,
+    "employer": "MEBO",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "Jimmy Gomez",
+    "rank": 15,
+    "employer": "MEBD",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "Jimmy Gomez",
+    "rank": 16,
+    "employer": "MVSC",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "Jimmy Gomez",
+    "rank": 17,
+    "employer": "ART ADVISORS",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "Steven Horsford",
+    "rank": 1,
+    "employer": "BLACKSTONE",
+    "total": 36300,
+    "count": 11
+  },
+  {
+    "member_name": "Steven Horsford",
+    "rank": 2,
+    "employer": "APOLLO GLOBAL",
+    "total": 26400,
+    "count": 11
+  },
+  {
+    "member_name": "Steven Horsford",
+    "rank": 3,
+    "employer": "ANDREESSEN HOROWITZ",
+    "total": 19800,
+    "count": 6
+  },
+  {
+    "member_name": "Steven Horsford",
+    "rank": 4,
+    "employer": "ARIEL INVESTMENTS",
+    "total": 13200,
+    "count": 4
+  },
+  {
+    "member_name": "Steven Horsford",
+    "rank": 5,
+    "employer": "WINKLEVOSS CAPITAL",
+    "total": 13200,
+    "count": 4
+  },
+  {
+    "member_name": "Steven Horsford",
+    "rank": 6,
+    "employer": "MGM RESORTS",
+    "total": 13200,
+    "count": 4
+  },
+  {
+    "member_name": "Steven Horsford",
+    "rank": 7,
+    "employer": "THE RIVERSIDE",
+    "total": 13200,
+    "count": 4
+  },
+  {
+    "member_name": "Steven Horsford",
+    "rank": 8,
+    "employer": "EVERGREEN MONEY",
+    "total": 13200,
+    "count": 3
+  },
+  {
+    "member_name": "Steven Horsford",
+    "rank": 9,
+    "employer": "INVARIANT",
+    "total": 12792,
+    "count": 15
+  },
+  {
+    "member_name": "Steven Horsford",
+    "rank": 10,
+    "employer": "AREVIA POWER",
+    "total": 10100,
+    "count": 4
+  },
+  {
+    "member_name": "Steven Horsford",
+    "rank": 11,
+    "employer": "ROBERTI GLOBAL",
+    "total": 10000,
+    "count": 3
+  },
+  {
+    "member_name": "Steven Horsford",
+    "rank": 12,
+    "employer": "EMPIRE GLOBAL VENTURES",
+    "total": 10000,
+    "count": 4
+  },
+  {
+    "member_name": "Steven Horsford",
+    "rank": 13,
+    "employer": "NATIONAL MATERIAL",
+    "total": 9900,
+    "count": 3
+  },
+  {
+    "member_name": "Steven Horsford",
+    "rank": 14,
+    "employer": "JPMORGAN CHASE",
+    "total": 9850,
+    "count": 7
+  },
+  {
+    "member_name": "Steven Horsford",
+    "rank": 15,
+    "employer": "THEGROUP",
+    "total": 9800,
+    "count": 6
+  },
+  {
+    "member_name": "Steven Horsford",
+    "rank": 16,
+    "employer": "MINDSET",
+    "total": 9580,
+    "count": 9
+  },
+  {
+    "member_name": "Steven Horsford",
+    "rank": 17,
+    "employer": "BROWNSTEIN HYATT FARBER SCHRECK",
+    "total": 9100,
+    "count": 15
+  },
+  {
+    "member_name": "Stacey Plaskett",
+    "rank": 1,
+    "employer": "TYCHEROS CAPITAL",
+    "total": 13200,
+    "count": 3
+  },
+  {
+    "member_name": "Stacey Plaskett",
+    "rank": 2,
+    "employer": "BLOOMBERG",
+    "total": 11900,
+    "count": 4
+  },
+  {
+    "member_name": "Stacey Plaskett",
+    "rank": 3,
+    "employer": "THEGROUP",
+    "total": 7600,
+    "count": 4
+  },
+  {
+    "member_name": "Stacey Plaskett",
+    "rank": 4,
+    "employer": "KNOWLEDGE LLLP",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "Stacey Plaskett",
+    "rank": 5,
+    "employer": "MARJORIE ROBERTS",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "Stacey Plaskett",
+    "rank": 6,
+    "employer": "CB LORANGER COMPANIES",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "Stacey Plaskett",
+    "rank": 7,
+    "employer": "35711 INVESTMENTS",
+    "total": 5600,
+    "count": 2
+  },
+  {
+    "member_name": "Stacey Plaskett",
+    "rank": 8,
+    "employer": "INVARIANT",
+    "total": 4800,
+    "count": 4
+  },
+  {
+    "member_name": "Stacey Plaskett",
+    "rank": 9,
+    "employer": "WINDWARD STRATEGIES",
+    "total": 4500,
+    "count": 7
+  },
+  {
+    "member_name": "Stacey Plaskett",
+    "rank": 10,
+    "employer": "HOLIDAY HOMES OF ST JOHN",
+    "total": 4500,
+    "count": 3
+  },
+  {
+    "member_name": "Stacey Plaskett",
+    "rank": 11,
+    "employer": "KAZAN MCCLAIN SATTERLEY & GREENWOOD",
+    "total": 4300,
+    "count": 2
+  },
+  {
+    "member_name": "Stacey Plaskett",
+    "rank": 12,
+    "employer": "ROCKET CENTRAL",
+    "total": 3400,
+    "count": 2
+  },
+  {
+    "member_name": "Stacey Plaskett",
+    "rank": 13,
+    "employer": "PRIVATE BANK VI",
+    "total": 3300,
+    "count": 1
+  },
+  {
+    "member_name": "Stacey Plaskett",
+    "rank": 14,
+    "employer": "JOEL H HOLT ESQ",
+    "total": 3300,
+    "count": 1
+  },
+  {
+    "member_name": "Stacey Plaskett",
+    "rank": 15,
+    "employer": "CADWALADER",
+    "total": 3300,
+    "count": 1
+  },
+  {
+    "member_name": "Stacey Plaskett",
+    "rank": 16,
+    "employer": "RATH ENTERPRISES",
+    "total": 3300,
+    "count": 1
+  },
+  {
+    "member_name": "Thomas Suozzi",
+    "rank": 1,
+    "employer": "PAUL WEISS RIFKIND WHARTON & GARRISON",
+    "total": 91550,
+    "count": 68
+  },
+  {
+    "member_name": "Thomas Suozzi",
+    "rank": 2,
+    "employer": "TEITLER & TEITLER",
+    "total": 20800,
+    "count": 9
+  },
+  {
+    "member_name": "Thomas Suozzi",
+    "rank": 3,
+    "employer": "GEHRY",
+    "total": 19800,
+    "count": 6
+  },
+  {
+    "member_name": "Thomas Suozzi",
+    "rank": 4,
+    "employer": "GLOBAL INDUSTRIAL",
+    "total": 19800,
+    "count": 12
+  },
+  {
+    "member_name": "Thomas Suozzi",
+    "rank": 5,
+    "employer": "BAIN CAPITAL",
+    "total": 19800,
+    "count": 6
+  },
+  {
+    "member_name": "Thomas Suozzi",
+    "rank": 6,
+    "employer": "THE WONDERFUL",
+    "total": 19800,
+    "count": 6
+  },
+  {
+    "member_name": "Thomas Suozzi",
+    "rank": 7,
+    "employer": "JPMORGAN CHASE",
+    "total": 18500,
+    "count": 7
+  },
+  {
+    "member_name": "Thomas Suozzi",
+    "rank": 8,
+    "employer": "OLIVIA TERIAN ART & DESIGN",
+    "total": 16000,
+    "count": 5
+  },
+  {
+    "member_name": "Thomas Suozzi",
+    "rank": 9,
+    "employer": "GLOBAL INFRASTRUCTURE SOLUTIONS",
+    "total": 15000,
+    "count": 7
+  },
+  {
+    "member_name": "Thomas Suozzi",
+    "rank": 10,
+    "employer": "CAPITOL COUNSEL",
+    "total": 13850,
+    "count": 17
+  },
+  {
+    "member_name": "Thomas Suozzi",
+    "rank": 11,
+    "employer": "ESTEE LAUDER COMPANIES",
+    "total": 13200,
+    "count": 4
+  },
+  {
+    "member_name": "Thomas Suozzi",
+    "rank": 12,
+    "employer": "TWO TREES",
+    "total": 13200,
+    "count": 8
+  },
+  {
+    "member_name": "Thomas Suozzi",
+    "rank": 13,
+    "employer": "GREYLOCK",
+    "total": 13200,
+    "count": 4
+  },
+  {
+    "member_name": "Thomas Suozzi",
+    "rank": 14,
+    "employer": "BREAKTHRU BEVERAGE",
+    "total": 13200,
+    "count": 4
+  },
+  {
+    "member_name": "Thomas Suozzi",
+    "rank": 15,
+    "employer": "RELATED COMPANIES",
+    "total": 13200,
+    "count": 4
+  },
+  {
+    "member_name": "Thomas Suozzi",
+    "rank": 16,
+    "employer": "ARBOR",
+    "total": 12900,
+    "count": 6
+  },
+  {
+    "member_name": "Thomas Suozzi",
+    "rank": 17,
+    "employer": "HENRY SCHEIN",
+    "total": 12350,
+    "count": 9
+  },
+  {
+    "member_name": "Mike Crapo",
+    "rank": 1,
+    "employer": "NEXTERA ENERGY",
+    "total": 19000,
+    "count": 18
+  },
+  {
+    "member_name": "Mike Crapo",
+    "rank": 2,
+    "employer": "WINGED KEEL",
+    "total": 10500,
+    "count": 12
+  },
+  {
+    "member_name": "Mike Crapo",
+    "rank": 3,
+    "employer": "NEXTERA",
+    "total": 8000,
+    "count": 8
+  },
+  {
+    "member_name": "Mike Crapo",
+    "rank": 4,
+    "employer": "CAPITAL FUNDING",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "Mike Crapo",
+    "rank": 5,
+    "employer": "VILLAGEMD",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "Mike Crapo",
+    "rank": 6,
+    "employer": "VETERANS UNITED HOME LOANS",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "Mike Crapo",
+    "rank": 7,
+    "employer": "VETERANS UNITED",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "Mike Crapo",
+    "rank": 8,
+    "employer": "SOROBAN CAPITAL",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "Mike Crapo",
+    "rank": 9,
+    "employer": "DMM PROPIETA",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "Mike Crapo",
+    "rank": 10,
+    "employer": "ACLI",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "Mike Crapo",
+    "rank": 11,
+    "employer": "CAPITOL TAX",
+    "total": 5500,
+    "count": 5
+  },
+  {
+    "member_name": "Mike Crapo",
+    "rank": 12,
+    "employer": "NEXTERA ENERGY RESOURCES",
+    "total": 5000,
+    "count": 5
+  },
+  {
+    "member_name": "Mike Crapo",
+    "rank": 13,
+    "employer": "ROCKBRIDGE",
+    "total": 5000,
+    "count": 4
+  },
+  {
+    "member_name": "Mike Crapo",
+    "rank": 14,
+    "employer": "MASSMUTUAL",
+    "total": 4300,
+    "count": 2
+  },
+  {
+    "member_name": "Mike Crapo",
+    "rank": 15,
+    "employer": "SECURIAN FINANCIAL",
+    "total": 3300,
+    "count": 1
+  },
+  {
+    "member_name": "Mike Crapo",
+    "rank": 16,
+    "employer": "GENWORTH FINANCIAL",
+    "total": 3300,
+    "count": 1
+  },
+  {
+    "member_name": "Mike Crapo",
+    "rank": 17,
+    "employer": "STEPHENS",
+    "total": 3300,
+    "count": 1
+  },
+  {
+    "member_name": "Chuck Grassley",
+    "rank": 1,
+    "employer": "BLACKSTONE",
+    "total": 6600,
+    "count": 3
+  },
+  {
+    "member_name": "Chuck Grassley",
+    "rank": 2,
+    "employer": "ARVIG ENTERPRISES",
+    "total": 5010,
+    "count": 5
+  },
+  {
+    "member_name": "Chuck Grassley",
+    "rank": 3,
+    "employer": "PECK ENT",
+    "total": 3449,
+    "count": 8
+  },
+  {
+    "member_name": "Chuck Grassley",
+    "rank": 4,
+    "employer": "DEPARTMENT OF JUSTICE",
+    "total": 3300,
+    "count": 1
+  },
+  {
+    "member_name": "Chuck Grassley",
+    "rank": 5,
+    "employer": "MCKEE FOODS",
+    "total": 3300,
+    "count": 1
+  },
+  {
+    "member_name": "Chuck Grassley",
+    "rank": 6,
+    "employer": "THE HAWTHORNE",
+    "total": 2500,
+    "count": 1
+  },
+  {
+    "member_name": "Chuck Grassley",
+    "rank": 7,
+    "employer": "ANTERO",
+    "total": 1500,
+    "count": 2
+  },
+  {
+    "member_name": "Chuck Grassley",
+    "rank": 8,
+    "employer": "SITE DEVELOPMENT",
+    "total": 1026,
+    "count": 7
+  },
+  {
+    "member_name": "Chuck Grassley",
+    "rank": 9,
+    "employer": "TCK",
+    "total": 1000,
+    "count": 1
+  },
+  {
+    "member_name": "Chuck Grassley",
+    "rank": 10,
+    "employer": "ADAMS RESOURCES",
+    "total": 1000,
+    "count": 1
+  },
+  {
+    "member_name": "Chuck Grassley",
+    "rank": 11,
+    "employer": "JONATHAN PARDEE",
+    "total": 1000,
+    "count": 4
+  },
+  {
+    "member_name": "Chuck Grassley",
+    "rank": 12,
+    "employer": "MANATOS & MANATOS",
+    "total": 1000,
+    "count": 1
+  },
+  {
+    "member_name": "Chuck Grassley",
+    "rank": 13,
+    "employer": "DAVID LEE JEWELERS",
+    "total": 850,
+    "count": 4
+  },
+  {
+    "member_name": "Chuck Grassley",
+    "rank": 14,
+    "employer": "FIRST UNITED METHODIST CHURCH",
+    "total": 774,
+    "count": 23
+  },
+  {
+    "member_name": "Chuck Grassley",
+    "rank": 15,
+    "employer": "SHELBY",
+    "total": 666,
+    "count": 10
+  },
+  {
+    "member_name": "Chuck Grassley",
+    "rank": 16,
+    "employer": "ACG ADVOCACY",
+    "total": 500,
+    "count": 2
+  },
+  {
+    "member_name": "Chuck Grassley",
+    "rank": 17,
+    "employer": "THE MCKEON",
+    "total": 500,
+    "count": 1
+  },
+  {
+    "member_name": "John Cornyn",
+    "rank": 1,
+    "employer": "CAPITAL",
+    "total": 22500,
+    "count": 12
+  },
+  {
+    "member_name": "John Cornyn",
+    "rank": 2,
+    "employer": "ANDREESSEN HOROWITZ",
+    "total": 16500,
+    "count": 7
+  },
+  {
+    "member_name": "John Cornyn",
+    "rank": 3,
+    "employer": "BLACKSTONE",
+    "total": 12600,
+    "count": 5
+  },
+  {
+    "member_name": "John Cornyn",
+    "rank": 4,
+    "employer": "FIDELITY INVESTMENTS",
+    "total": 10000,
+    "count": 12
+  },
+  {
+    "member_name": "John Cornyn",
+    "rank": 5,
+    "employer": "THE CAPITAL",
+    "total": 10000,
+    "count": 5
+  },
+  {
+    "member_name": "John Cornyn",
+    "rank": 6,
+    "employer": "GOOGLE",
+    "total": 8000,
+    "count": 8
+  },
+  {
+    "member_name": "John Cornyn",
+    "rank": 7,
+    "employer": "ELEVANCE HEALTH",
+    "total": 7000,
+    "count": 7
+  },
+  {
+    "member_name": "John Cornyn",
+    "rank": 8,
+    "employer": "YANCEY BROS",
+    "total": 6600,
+    "count": 3
+  },
+  {
+    "member_name": "John Cornyn",
+    "rank": 9,
+    "employer": "PALANTIR",
+    "total": 6600,
+    "count": 3
+  },
+  {
+    "member_name": "John Cornyn",
+    "rank": 10,
+    "employer": "CUMBERLAND DEVELOPMENT",
+    "total": 6600,
+    "count": 3
+  },
+  {
+    "member_name": "John Cornyn",
+    "rank": 11,
+    "employer": "CULLINAN PROPERTIES",
+    "total": 6600,
+    "count": 6
+  },
+  {
+    "member_name": "John Cornyn",
+    "rank": 12,
+    "employer": "ELLIOTT INVESTMENT",
+    "total": 6600,
+    "count": 3
+  },
+  {
+    "member_name": "John Cornyn",
+    "rank": 13,
+    "employer": "CHARLES SCHWAB",
+    "total": 6600,
+    "count": 3
+  },
+  {
+    "member_name": "John Cornyn",
+    "rank": 14,
+    "employer": "SEAN N PARKER FOUNDATION",
+    "total": 6600,
+    "count": 3
+  },
+  {
+    "member_name": "John Cornyn",
+    "rank": 15,
+    "employer": "AMERICA FIRST ACTION",
+    "total": 6600,
+    "count": 3
+  },
+  {
+    "member_name": "John Cornyn",
+    "rank": 16,
+    "employer": "CAPITAL COMPANIES",
+    "total": 5000,
+    "count": 3
+  },
+  {
+    "member_name": "John Cornyn",
+    "rank": 17,
+    "employer": "THE CAPITAL COMPANIES",
+    "total": 5000,
+    "count": 3
+  },
+  {
+    "member_name": "John Thune",
+    "rank": 1,
+    "employer": "MARQUIS",
+    "total": 39600,
+    "count": 17
+  },
+  {
+    "member_name": "John Thune",
+    "rank": 2,
+    "employer": "BLACKSTONE",
+    "total": 25100,
+    "count": 8
+  },
+  {
+    "member_name": "John Thune",
+    "rank": 3,
+    "employer": "HDR ENGINEERING",
+    "total": 13400,
+    "count": 4
+  },
+  {
+    "member_name": "John Thune",
+    "rank": 4,
+    "employer": "BLUFF POINT",
+    "total": 11600,
+    "count": 3
+  },
+  {
+    "member_name": "John Thune",
+    "rank": 5,
+    "employer": "WCAS",
+    "total": 10850,
+    "count": 10
+  },
+  {
+    "member_name": "John Thune",
+    "rank": 6,
+    "employer": "GOOGLE",
+    "total": 9000,
+    "count": 5
+  },
+  {
+    "member_name": "John Thune",
+    "rank": 7,
+    "employer": "ROUTE ONE INVESTMENT",
+    "total": 6600,
+    "count": 1
+  },
+  {
+    "member_name": "John Thune",
+    "rank": 8,
+    "employer": "PAYWARD",
+    "total": 6600,
+    "count": 3
+  },
+  {
+    "member_name": "John Thune",
+    "rank": 9,
+    "employer": "LEFRAK ORGANIZATION",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "John Thune",
+    "rank": 10,
+    "employer": "KKR",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "John Thune",
+    "rank": 11,
+    "employer": "KEEWAYDIN INVESTMENTS",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "John Thune",
+    "rank": 12,
+    "employer": "ELLIOTT INVESTMENT",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "John Thune",
+    "rank": 13,
+    "employer": "CRESTVIEW",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "John Thune",
+    "rank": 14,
+    "employer": "PALANTIR",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "John Thune",
+    "rank": 15,
+    "employer": "CANDY BOMBER",
+    "total": 6600,
+    "count": 3
+  },
+  {
+    "member_name": "John Thune",
+    "rank": 16,
+    "employer": "SHAWN N PARKER FOUNDATION",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "John Thune",
+    "rank": 17,
+    "employer": "CORECIVIC",
+    "total": 6300,
+    "count": 4
+  },
+  {
+    "member_name": "Tim Scott",
+    "rank": 1,
+    "employer": "GOLDMAN SACHS",
+    "total": 79200,
+    "count": 45
+  },
+  {
+    "member_name": "Tim Scott",
+    "rank": 2,
+    "employer": "COINBASE",
+    "total": 36300,
+    "count": 17
+  },
+  {
+    "member_name": "Tim Scott",
+    "rank": 3,
+    "employer": "ENTREPRENEUR",
+    "total": 35764,
+    "count": 253
+  },
+  {
+    "member_name": "Tim Scott",
+    "rank": 4,
+    "employer": "PENN MUTUAL",
+    "total": 30100,
+    "count": 37
+  },
+  {
+    "member_name": "Tim Scott",
+    "rank": 5,
+    "employer": "SABIN METAL",
+    "total": 26400,
+    "count": 15
+  },
+  {
+    "member_name": "Tim Scott",
+    "rank": 6,
+    "employer": "BLACKSTONE",
+    "total": 23100,
+    "count": 10
+  },
+  {
+    "member_name": "Tim Scott",
+    "rank": 7,
+    "employer": "ARNOLD VENTURES",
+    "total": 19800,
+    "count": 9
+  },
+  {
+    "member_name": "Tim Scott",
+    "rank": 8,
+    "employer": "CAPITAL",
+    "total": 19800,
+    "count": 9
+  },
+  {
+    "member_name": "Tim Scott",
+    "rank": 9,
+    "employer": "FEDERAL HALL POLICY ADVISORS",
+    "total": 17700,
+    "count": 24
+  },
+  {
+    "member_name": "Tim Scott",
+    "rank": 10,
+    "employer": "WILLIAMS JENSEN",
+    "total": 17500,
+    "count": 17
+  },
+  {
+    "member_name": "Tim Scott",
+    "rank": 11,
+    "employer": "MORGAN LEWIS",
+    "total": 16632,
+    "count": 20
+  },
+  {
+    "member_name": "Tim Scott",
+    "rank": 12,
+    "employer": "GOLDENTREE ASSET",
+    "total": 16600,
+    "count": 12
+  },
+  {
+    "member_name": "Tim Scott",
+    "rank": 13,
+    "employer": "GCP CAPITAL",
+    "total": 16500,
+    "count": 14
+  },
+  {
+    "member_name": "Tim Scott",
+    "rank": 14,
+    "employer": "STATEWIDE MINERALS",
+    "total": 16500,
+    "count": 6
+  },
+  {
+    "member_name": "Tim Scott",
+    "rank": 15,
+    "employer": "JW HOWARD ATTORNEYS",
+    "total": 15700,
+    "count": 20
+  },
+  {
+    "member_name": "Tim Scott",
+    "rank": 16,
+    "employer": "BGR",
+    "total": 15601,
+    "count": 13
+  },
+  {
+    "member_name": "Bill Cassidy",
+    "rank": 1,
+    "employer": "DAVITA",
+    "total": 25250,
+    "count": 12
+  },
+  {
+    "member_name": "Bill Cassidy",
+    "rank": 2,
+    "employer": "ANDREESSEN HOROWITZ",
+    "total": 19800,
+    "count": 9
+  },
+  {
+    "member_name": "Bill Cassidy",
+    "rank": 3,
+    "employer": "TEXAS ONCOLOGY",
+    "total": 18600,
+    "count": 14
+  },
+  {
+    "member_name": "Bill Cassidy",
+    "rank": 4,
+    "employer": "ARKANSAS UROLOGY",
+    "total": 17000,
+    "count": 15
+  },
+  {
+    "member_name": "Bill Cassidy",
+    "rank": 5,
+    "employer": "FLAGSHIP PIONEERING",
+    "total": 16100,
+    "count": 13
+  },
+  {
+    "member_name": "Bill Cassidy",
+    "rank": 6,
+    "employer": "TEXAS CRUDE ENERGY",
+    "total": 10619,
+    "count": 9
+  },
+  {
+    "member_name": "Bill Cassidy",
+    "rank": 7,
+    "employer": "MONTGOMERY CAPITAL",
+    "total": 10036,
+    "count": 12
+  },
+  {
+    "member_name": "Bill Cassidy",
+    "rank": 8,
+    "employer": "APOLLO GLOBAL",
+    "total": 10000,
+    "count": 4
+  },
+  {
+    "member_name": "Bill Cassidy",
+    "rank": 9,
+    "employer": "CARDINAL INVESTMENT",
+    "total": 9906,
+    "count": 9
+  },
+  {
+    "member_name": "Bill Cassidy",
+    "rank": 10,
+    "employer": "OBERNDORF ENTERPRISES",
+    "total": 9900,
+    "count": 5
+  },
+  {
+    "member_name": "Bill Cassidy",
+    "rank": 11,
+    "employer": "PALANTIR",
+    "total": 9900,
+    "count": 5
+  },
+  {
+    "member_name": "Bill Cassidy",
+    "rank": 12,
+    "employer": "DMM PROPRIETA",
+    "total": 9900,
+    "count": 1
+  },
+  {
+    "member_name": "Bill Cassidy",
+    "rank": 13,
+    "employer": "SOROBAN CAPITAL",
+    "total": 9900,
+    "count": 1
+  },
+  {
+    "member_name": "Bill Cassidy",
+    "rank": 14,
+    "employer": "REGENCY CENTERS",
+    "total": 9402,
+    "count": 15
+  },
+  {
+    "member_name": "Bill Cassidy",
+    "rank": 15,
+    "employer": "2FILLC",
+    "total": 9106,
+    "count": 9
+  },
+  {
+    "member_name": "Bill Cassidy",
+    "rank": 16,
+    "employer": "DEVRY UNIVERSITY",
+    "total": 8500,
+    "count": 15
+  },
+  {
+    "member_name": "James Lankford",
+    "rank": 1,
+    "employer": "APOLLO GLOBAL",
+    "total": 9100,
+    "count": 5
+  },
+  {
+    "member_name": "James Lankford",
+    "rank": 2,
+    "employer": "APOLLO",
+    "total": 8600,
+    "count": 4
+  },
+  {
+    "member_name": "James Lankford",
+    "rank": 3,
+    "employer": "CAROLYN ROWAN COLLECTION",
+    "total": 6600,
+    "count": 3
+  },
+  {
+    "member_name": "James Lankford",
+    "rank": 4,
+    "employer": "SOROBAN CAPITAL",
+    "total": 6600,
+    "count": 3
+  },
+  {
+    "member_name": "James Lankford",
+    "rank": 5,
+    "employer": "INTERSECT POWER",
+    "total": 6600,
+    "count": 6
+  },
+  {
+    "member_name": "James Lankford",
+    "rank": 6,
+    "employer": "KIDS CAPITAL",
+    "total": 6600,
+    "count": 3
+  },
+  {
+    "member_name": "James Lankford",
+    "rank": 7,
+    "employer": "INDIAN TRIBE",
+    "total": 4300,
+    "count": 2
+  },
+  {
+    "member_name": "James Lankford",
+    "rank": 8,
+    "employer": "SUMMIT PETROLEUM",
+    "total": 4000,
+    "count": 4
+  },
+  {
+    "member_name": "James Lankford",
+    "rank": 9,
+    "employer": "WILLIAMS & JENSEN",
+    "total": 4000,
+    "count": 8
+  },
+  {
+    "member_name": "James Lankford",
+    "rank": 10,
+    "employer": "THE NICKLES",
+    "total": 3500,
+    "count": 4
+  },
+  {
+    "member_name": "James Lankford",
+    "rank": 11,
+    "employer": "AMERICAN PROPERTY ENTERPRISES",
+    "total": 3300,
+    "count": 1
+  },
+  {
+    "member_name": "James Lankford",
+    "rank": 12,
+    "employer": "THE ANSCHUTZ",
+    "total": 3300,
+    "count": 1
+  },
+  {
+    "member_name": "James Lankford",
+    "rank": 13,
+    "employer": "FF INCOME PROPERTIES",
+    "total": 3300,
+    "count": 1
+  },
+  {
+    "member_name": "James Lankford",
+    "rank": 14,
+    "employer": "BANK OF COMMERCE",
+    "total": 3300,
+    "count": 1
+  },
+  {
+    "member_name": "James Lankford",
+    "rank": 15,
+    "employer": "CA DEPT OF TRANSPORTATION",
+    "total": 3300,
+    "count": 1
+  },
+  {
+    "member_name": "James Lankford",
+    "rank": 16,
+    "employer": "CONSTITUTION",
+    "total": 3300,
+    "count": 1
+  },
+  {
+    "member_name": "James Lankford",
+    "rank": 17,
+    "employer": "REAL LIFE PREGNANCY CENTER",
+    "total": 3300,
+    "count": 1
+  },
+  {
+    "member_name": "Steve Daines",
+    "rank": 1,
+    "employer": "APOLLO",
+    "total": 18800,
+    "count": 12
+  },
+  {
+    "member_name": "Steve Daines",
+    "rank": 2,
+    "employer": "FLORA FARMS",
+    "total": 10000,
+    "count": 4
+  },
+  {
+    "member_name": "Steve Daines",
+    "rank": 3,
+    "employer": "VETERANS GUARDIAN",
+    "total": 9100,
+    "count": 4
+  },
+  {
+    "member_name": "Steve Daines",
+    "rank": 4,
+    "employer": "CAPITOL TAX",
+    "total": 8000,
+    "count": 6
+  },
+  {
+    "member_name": "Steve Daines",
+    "rank": 5,
+    "employer": "SOROBAN CAPITAL",
+    "total": 6600,
+    "count": 3
+  },
+  {
+    "member_name": "Steve Daines",
+    "rank": 6,
+    "employer": "GENERAL ATLANTIC",
+    "total": 6600,
+    "count": 3
+  },
+  {
+    "member_name": "Steve Daines",
+    "rank": 7,
+    "employer": "CAROLYN ROWAN COLLECTION",
+    "total": 6600,
+    "count": 3
+  },
+  {
+    "member_name": "Steve Daines",
+    "rank": 8,
+    "employer": "COINBASE",
+    "total": 6600,
+    "count": 3
+  },
+  {
+    "member_name": "Steve Daines",
+    "rank": 9,
+    "employer": "KIDS CAPITAL",
+    "total": 6600,
+    "count": 3
+  },
+  {
+    "member_name": "Steve Daines",
+    "rank": 10,
+    "employer": "ELLIOTT",
+    "total": 6600,
+    "count": 3
+  },
+  {
+    "member_name": "Steve Daines",
+    "rank": 11,
+    "employer": "WINKLEVOSS CAPITAL",
+    "total": 6600,
+    "count": 6
+  },
+  {
+    "member_name": "Steve Daines",
+    "rank": 12,
+    "employer": "NORTHWESTERN MUTUAL",
+    "total": 6000,
+    "count": 6
+  },
+  {
+    "member_name": "Steve Daines",
+    "rank": 13,
+    "employer": "ESSENTIA HEALTH",
+    "total": 6000,
+    "count": 6
+  },
+  {
+    "member_name": "Steve Daines",
+    "rank": 14,
+    "employer": "AKIN GUMP",
+    "total": 6000,
+    "count": 11
+  },
+  {
+    "member_name": "Steve Daines",
+    "rank": 15,
+    "employer": "GOOGLE",
+    "total": 5300,
+    "count": 3
+  },
+  {
+    "member_name": "Steve Daines",
+    "rank": 16,
+    "employer": "C3 INDUSTRIES",
+    "total": 5000,
+    "count": 3
+  },
+  {
+    "member_name": "Todd Young",
+    "rank": 1,
+    "employer": "ANDREESSEN HOROWITZ",
+    "total": 19800,
+    "count": 7
+  },
+  {
+    "member_name": "Todd Young",
+    "rank": 2,
+    "employer": "SAGESURE",
+    "total": 13200,
+    "count": 6
+  },
+  {
+    "member_name": "Todd Young",
+    "rank": 3,
+    "employer": "HHQ VENTURES",
+    "total": 7000,
+    "count": 15
+  },
+  {
+    "member_name": "Todd Young",
+    "rank": 4,
+    "employer": "DAVITA",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "Todd Young",
+    "rank": 5,
+    "employer": "SOROBAN CAPITAL",
+    "total": 6600,
+    "count": 3
+  },
+  {
+    "member_name": "Todd Young",
+    "rank": 6,
+    "employer": "KEY SQUARE",
+    "total": 6600,
+    "count": 3
+  },
+  {
+    "member_name": "Todd Young",
+    "rank": 7,
+    "employer": "SILVER POINT CAPITAL",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "Todd Young",
+    "rank": 8,
+    "employer": "DMM PROPRIETA",
+    "total": 6600,
+    "count": 3
+  },
+  {
+    "member_name": "Todd Young",
+    "rank": 9,
+    "employer": "WILMERHALE",
+    "total": 6600,
+    "count": 4
+  },
+  {
+    "member_name": "Todd Young",
+    "rank": 10,
+    "employer": "CHARTWELL STRATEGY",
+    "total": 5800,
+    "count": 4
+  },
+  {
+    "member_name": "Todd Young",
+    "rank": 11,
+    "employer": "HOROWITZ FOUNDATION",
+    "total": 5100,
+    "count": 3
+  },
+  {
+    "member_name": "Todd Young",
+    "rank": 12,
+    "employer": "CLOTHIA",
+    "total": 5100,
+    "count": 1
+  },
+  {
+    "member_name": "Todd Young",
+    "rank": 13,
+    "employer": "FOX",
+    "total": 5000,
+    "count": 4
+  },
+  {
+    "member_name": "Todd Young",
+    "rank": 14,
+    "employer": "MOUNTAINDALE INVESTMENT",
+    "total": 4800,
+    "count": 4
+  },
+  {
+    "member_name": "Todd Young",
+    "rank": 15,
+    "employer": "LENOX ADVISORS",
+    "total": 4000,
+    "count": 5
+  },
+  {
+    "member_name": "Todd Young",
+    "rank": 16,
+    "employer": "MASSMUTUAL",
+    "total": 3500,
+    "count": 5
+  },
+  {
+    "member_name": "Todd Young",
+    "rank": 17,
+    "employer": "WELSH CARSON ANDERSON & STOWE",
+    "total": 3300,
+    "count": 1
+  },
+  {
+    "member_name": "John Barrasso",
+    "rank": 1,
+    "employer": "KKR",
+    "total": 47200,
+    "count": 15
+  },
+  {
+    "member_name": "John Barrasso",
+    "rank": 2,
+    "employer": "WCAS",
+    "total": 25952,
+    "count": 13
+  },
+  {
+    "member_name": "John Barrasso",
+    "rank": 3,
+    "employer": "CAPITOL COUNSEL",
+    "total": 25741,
+    "count": 16
+  },
+  {
+    "member_name": "John Barrasso",
+    "rank": 4,
+    "employer": "DELTA AIRLINES",
+    "total": 25637,
+    "count": 20
+  },
+  {
+    "member_name": "John Barrasso",
+    "rank": 5,
+    "employer": "CONSTELLATION",
+    "total": 25553,
+    "count": 33
+  },
+  {
+    "member_name": "John Barrasso",
+    "rank": 6,
+    "employer": "MICROSOFT",
+    "total": 25345,
+    "count": 11
+  },
+  {
+    "member_name": "John Barrasso",
+    "rank": 7,
+    "employer": "BLACKSTONE",
+    "total": 22600,
+    "count": 9
+  },
+  {
+    "member_name": "John Barrasso",
+    "rank": 8,
+    "employer": "APOLLO",
+    "total": 21900,
+    "count": 8
+  },
+  {
+    "member_name": "John Barrasso",
+    "rank": 9,
+    "employer": "UNITED AIRLINES",
+    "total": 21122,
+    "count": 15
+  },
+  {
+    "member_name": "John Barrasso",
+    "rank": 10,
+    "employer": "CONSTELLATION ENERGY",
+    "total": 20411,
+    "count": 25
+  },
+  {
+    "member_name": "John Barrasso",
+    "rank": 11,
+    "employer": "DISH NETWORK",
+    "total": 20200,
+    "count": 7
+  },
+  {
+    "member_name": "John Barrasso",
+    "rank": 12,
+    "employer": "MARNELL COMPANIES",
+    "total": 19935,
+    "count": 6
+  },
+  {
+    "member_name": "John Barrasso",
+    "rank": 13,
+    "employer": "CRESTVIEW",
+    "total": 19800,
+    "count": 6
+  },
+  {
+    "member_name": "John Barrasso",
+    "rank": 14,
+    "employer": "KIRKLAND & ELLIS",
+    "total": 17600,
+    "count": 11
+  },
+  {
+    "member_name": "John Barrasso",
+    "rank": 15,
+    "employer": "APS",
+    "total": 15005,
+    "count": 11
+  },
+  {
+    "member_name": "John Barrasso",
+    "rank": 16,
+    "employer": "ANDREESEN HOROWITZ",
+    "total": 13200,
+    "count": 4
+  },
+  {
+    "member_name": "Ron Johnson",
+    "rank": 1,
+    "employer": "ENTREPRENEUR",
+    "total": 24486,
+    "count": 521
+  },
+  {
+    "member_name": "Ron Johnson",
+    "rank": 2,
+    "employer": "SO CAL LANDSCAPE",
+    "total": 11050,
+    "count": 76
+  },
+  {
+    "member_name": "Ron Johnson",
+    "rank": 3,
+    "employer": "NALLC",
+    "total": 9018,
+    "count": 357
+  },
+  {
+    "member_name": "Ron Johnson",
+    "rank": 4,
+    "employer": "CHARLES A KLEIN",
+    "total": 8900,
+    "count": 147
+  },
+  {
+    "member_name": "Ron Johnson",
+    "rank": 5,
+    "employer": "DMM PROPRIETA",
+    "total": 6600,
+    "count": 5
+  },
+  {
+    "member_name": "Ron Johnson",
+    "rank": 6,
+    "employer": "SOROBAN CAPITAL",
+    "total": 6600,
+    "count": 5
+  },
+  {
+    "member_name": "Ron Johnson",
+    "rank": 7,
+    "employer": "GIC",
+    "total": 5700,
+    "count": 46
+  },
+  {
+    "member_name": "Ron Johnson",
+    "rank": 8,
+    "employer": "SITE DEVELOPMENT",
+    "total": 5583,
+    "count": 72
+  },
+  {
+    "member_name": "Ron Johnson",
+    "rank": 9,
+    "employer": "JL SOSA MD",
+    "total": 4500,
+    "count": 34
+  },
+  {
+    "member_name": "Ron Johnson",
+    "rank": 10,
+    "employer": "REP",
+    "total": 4000,
+    "count": 5
+  },
+  {
+    "member_name": "Ron Johnson",
+    "rank": 11,
+    "employer": "VAPROSHIELD",
+    "total": 3845,
+    "count": 38
+  },
+  {
+    "member_name": "Ron Johnson",
+    "rank": 12,
+    "employer": "FIRST UNITED METHODIST CHURCH",
+    "total": 3729,
+    "count": 272
+  },
+  {
+    "member_name": "Ron Johnson",
+    "rank": 13,
+    "employer": "KIRKLAND ELLIS",
+    "total": 3300,
+    "count": 3
+  },
+  {
+    "member_name": "Ron Johnson",
+    "rank": 14,
+    "employer": "MINERS",
+    "total": 3300,
+    "count": 1
+  },
+  {
+    "member_name": "Ron Johnson",
+    "rank": 15,
+    "employer": "EDWCLEVY",
+    "total": 3300,
+    "count": 3
+  },
+  {
+    "member_name": "Ron Johnson",
+    "rank": 16,
+    "employer": "ROCKET COMPANIES",
+    "total": 3300,
+    "count": 3
+  },
+  {
+    "member_name": "Thom Tillis",
+    "rank": 1,
+    "employer": "BLACKSTONE",
+    "total": 70700,
+    "count": 23
+  },
+  {
+    "member_name": "Thom Tillis",
+    "rank": 2,
+    "employer": "METLIFE",
+    "total": 38400,
+    "count": 22
+  },
+  {
+    "member_name": "Thom Tillis",
+    "rank": 3,
+    "employer": "WCAS",
+    "total": 29000,
+    "count": 13
+  },
+  {
+    "member_name": "Thom Tillis",
+    "rank": 4,
+    "employer": "BNY MELLON",
+    "total": 21300,
+    "count": 7
+  },
+  {
+    "member_name": "Thom Tillis",
+    "rank": 5,
+    "employer": "APOLLO GLOBAL",
+    "total": 18950,
+    "count": 11
+  },
+  {
+    "member_name": "Thom Tillis",
+    "rank": 6,
+    "employer": "BRIGHTHOUSE FINANCIAL",
+    "total": 18850,
+    "count": 15
+  },
+  {
+    "member_name": "Thom Tillis",
+    "rank": 7,
+    "employer": "APOLLO MGMT",
+    "total": 17400,
+    "count": 6
+  },
+  {
+    "member_name": "Thom Tillis",
+    "rank": 8,
+    "employer": "APOLLO",
+    "total": 17050,
+    "count": 11
+  },
+  {
+    "member_name": "Thom Tillis",
+    "rank": 9,
+    "employer": "FIDELITY INVESTMENTS",
+    "total": 13000,
+    "count": 15
+  },
+  {
+    "member_name": "Thom Tillis",
+    "rank": 10,
+    "employer": "LIBERTY",
+    "total": 11000,
+    "count": 5
+  },
+  {
+    "member_name": "Thom Tillis",
+    "rank": 11,
+    "employer": "SCIPHER MEDICINE",
+    "total": 10300,
+    "count": 6
+  },
+  {
+    "member_name": "Thom Tillis",
+    "rank": 12,
+    "employer": "SUNRISE VASCULAR",
+    "total": 10000,
+    "count": 4
+  },
+  {
+    "member_name": "Thom Tillis",
+    "rank": 13,
+    "employer": "APOLLO GLOBAL MGMT",
+    "total": 8600,
+    "count": 3
+  },
+  {
+    "member_name": "Thom Tillis",
+    "rank": 14,
+    "employer": "TARPLIN DOWNS & YOUNG",
+    "total": 8000,
+    "count": 4
+  },
+  {
+    "member_name": "Thom Tillis",
+    "rank": 15,
+    "employer": "NYCBS",
+    "total": 7750,
+    "count": 8
+  },
+  {
+    "member_name": "Thom Tillis",
+    "rank": 16,
+    "employer": "FIERCE GOVERNMENT RELATIONS",
+    "total": 7000,
+    "count": 6
+  },
+  {
+    "member_name": "Thom Tillis",
+    "rank": 17,
+    "employer": "BGR",
+    "total": 6800,
+    "count": 6
+  },
+  {
+    "member_name": "Marsha Blackburn",
+    "rank": 1,
+    "employer": "RDV",
+    "total": 39600,
+    "count": 12
+  },
+  {
+    "member_name": "Marsha Blackburn",
+    "rank": 2,
+    "employer": "DAVITA",
+    "total": 23500,
+    "count": 10
+  },
+  {
+    "member_name": "Marsha Blackburn",
+    "rank": 3,
+    "employer": "APOLLO",
+    "total": 20000,
+    "count": 12
+  },
+  {
+    "member_name": "Marsha Blackburn",
+    "rank": 4,
+    "employer": "APOLLO GLOBAL",
+    "total": 19400,
+    "count": 12
+  },
+  {
+    "member_name": "Marsha Blackburn",
+    "rank": 5,
+    "employer": "HERZOG",
+    "total": 16500,
+    "count": 5
+  },
+  {
+    "member_name": "Marsha Blackburn",
+    "rank": 6,
+    "employer": "LEIDOS",
+    "total": 15600,
+    "count": 26
+  },
+  {
+    "member_name": "Marsha Blackburn",
+    "rank": 7,
+    "employer": "AMAZON",
+    "total": 14900,
+    "count": 10
+  },
+  {
+    "member_name": "Marsha Blackburn",
+    "rank": 8,
+    "employer": "BGR",
+    "total": 14000,
+    "count": 9
+  },
+  {
+    "member_name": "Marsha Blackburn",
+    "rank": 9,
+    "employer": "ICECAP",
+    "total": 13200,
+    "count": 6
+  },
+  {
+    "member_name": "Marsha Blackburn",
+    "rank": 10,
+    "employer": "DISH NETWORK",
+    "total": 13200,
+    "count": 6
+  },
+  {
+    "member_name": "Marsha Blackburn",
+    "rank": 11,
+    "employer": "AMWAY",
+    "total": 13200,
+    "count": 4
+  },
+  {
+    "member_name": "Marsha Blackburn",
+    "rank": 12,
+    "employer": "MELALEUCA",
+    "total": 13200,
+    "count": 6
+  },
+  {
+    "member_name": "Marsha Blackburn",
+    "rank": 13,
+    "employer": "AKIN GUMP STRAUSS HAUER & FELD",
+    "total": 10900,
+    "count": 9
+  },
+  {
+    "member_name": "Marsha Blackburn",
+    "rank": 14,
+    "employer": "BROWNSTEIN HYATT FARBER SCHRECK",
+    "total": 10535,
+    "count": 13
+  },
+  {
+    "member_name": "Marsha Blackburn",
+    "rank": 15,
+    "employer": "THE NICKLES",
+    "total": 10000,
+    "count": 10
+  },
+  {
+    "member_name": "Marsha Blackburn",
+    "rank": 16,
+    "employer": "HANNING & BEAN ENTERPRISES",
+    "total": 10000,
+    "count": 3
+  },
+  {
+    "member_name": "Roger Marshall",
+    "rank": 1,
+    "employer": "PYRAMID SOUND",
+    "total": 19800,
+    "count": 6
+  },
+  {
+    "member_name": "Roger Marshall",
+    "rank": 2,
+    "employer": "PLEXUS CAPITAL",
+    "total": 13200,
+    "count": 4
+  },
+  {
+    "member_name": "Roger Marshall",
+    "rank": 3,
+    "employer": "ECCO SELECT",
+    "total": 6607,
+    "count": 2
+  },
+  {
+    "member_name": "Roger Marshall",
+    "rank": 4,
+    "employer": "WORLD WIDE PLUMBING",
+    "total": 6600,
+    "count": 1
+  },
+  {
+    "member_name": "Roger Marshall",
+    "rank": 5,
+    "employer": "GROWITZ EQUITY",
+    "total": 6600,
+    "count": 1
+  },
+  {
+    "member_name": "Roger Marshall",
+    "rank": 6,
+    "employer": "CRH",
+    "total": 6600,
+    "count": 3
+  },
+  {
+    "member_name": "Roger Marshall",
+    "rank": 7,
+    "employer": "CASH DEPOT",
+    "total": 5000,
+    "count": 3
+  },
+  {
+    "member_name": "Roger Marshall",
+    "rank": 8,
+    "employer": "AAPEP",
+    "total": 4300,
+    "count": 4
+  },
+  {
+    "member_name": "Roger Marshall",
+    "rank": 9,
+    "employer": "INVARIANT",
+    "total": 4000,
+    "count": 4
+  },
+  {
+    "member_name": "Roger Marshall",
+    "rank": 10,
+    "employer": "CORECIVIC",
+    "total": 4000,
+    "count": 4
+  },
+  {
+    "member_name": "Roger Marshall",
+    "rank": 11,
+    "employer": "THE RUSSELL",
+    "total": 3500,
+    "count": 2
+  },
+  {
+    "member_name": "Roger Marshall",
+    "rank": 12,
+    "employer": "BLUESTEM EQUITY",
+    "total": 3300,
+    "count": 1
+  },
+  {
+    "member_name": "Roger Marshall",
+    "rank": 13,
+    "employer": "NEUROLOGICAL SURGERY",
+    "total": 3300,
+    "count": 3
+  },
+  {
+    "member_name": "Roger Marshall",
+    "rank": 14,
+    "employer": "EAGLE PRIVATE CAPITAL",
+    "total": 3300,
+    "count": 4
+  },
+  {
+    "member_name": "Roger Marshall",
+    "rank": 15,
+    "employer": "VIKING NAVIGATION",
+    "total": 3300,
+    "count": 1
+  },
+  {
+    "member_name": "Roger Marshall",
+    "rank": 16,
+    "employer": "THE KROGER",
+    "total": 3000,
+    "count": 1
+  },
+  {
+    "member_name": "Ron Wyden",
+    "rank": 1,
+    "employer": "ARNOLD VENTURES",
+    "total": 13200,
+    "count": 4
+  },
+  {
+    "member_name": "Ron Wyden",
+    "rank": 2,
+    "employer": "ROCKET CENTRAL",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "Ron Wyden",
+    "rank": 3,
+    "employer": "ANDREESSEN HOROWITZ",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "Ron Wyden",
+    "rank": 4,
+    "employer": "NYMAN TURKISH",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "Ron Wyden",
+    "rank": 5,
+    "employer": "WOODS AND WOODS",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "Ron Wyden",
+    "rank": 6,
+    "employer": "PISCES",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "Ron Wyden",
+    "rank": 7,
+    "employer": "HARMONY CAPITAL",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "Ron Wyden",
+    "rank": 8,
+    "employer": "CHISHOLM CHISHOLM & KILPATRICK",
+    "total": 6600,
+    "count": 3
+  },
+  {
+    "member_name": "Ron Wyden",
+    "rank": 9,
+    "employer": "CITIZENS DISABILITY",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "Ron Wyden",
+    "rank": 10,
+    "employer": "ROCK VENTURES",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "Ron Wyden",
+    "rank": 11,
+    "employer": "WINGED KEEL",
+    "total": 6500,
+    "count": 9
+  },
+  {
+    "member_name": "Ron Wyden",
+    "rank": 12,
+    "employer": "ZEKELMAN INDUSTRIES",
+    "total": 6300,
+    "count": 4
+  },
+  {
+    "member_name": "Ron Wyden",
+    "rank": 13,
+    "employer": "PRICEWATERHOUSECOOPERS",
+    "total": 6250,
+    "count": 24
+  },
+  {
+    "member_name": "Ron Wyden",
+    "rank": 14,
+    "employer": "SCARINCI HOLLENBECK",
+    "total": 6000,
+    "count": 2
+  },
+  {
+    "member_name": "Ron Wyden",
+    "rank": 15,
+    "employer": "MULLER BOHLIN",
+    "total": 6000,
+    "count": 2
+  },
+  {
+    "member_name": "Ron Wyden",
+    "rank": 16,
+    "employer": "INTERSECT POWER",
+    "total": 5800,
+    "count": 2
+  },
+  {
+    "member_name": "Ron Wyden",
+    "rank": 17,
+    "employer": "RICCHETTI",
+    "total": 5000,
+    "count": 2
+  },
+  {
+    "member_name": "Maria Cantwell",
+    "rank": 1,
+    "employer": "ROYAL CARIBBEAN",
+    "total": 52000,
+    "count": 26
+  },
+  {
+    "member_name": "Maria Cantwell",
+    "rank": 2,
+    "employer": "DELTA AIR LINES",
+    "total": 44450,
+    "count": 20
+  },
+  {
+    "member_name": "Maria Cantwell",
+    "rank": 3,
+    "employer": "UNITED AIRLINES",
+    "total": 44000,
+    "count": 35
+  },
+  {
+    "member_name": "Maria Cantwell",
+    "rank": 4,
+    "employer": "AT&T",
+    "total": 43100,
+    "count": 40
+  },
+  {
+    "member_name": "Maria Cantwell",
+    "rank": 5,
+    "employer": "META",
+    "total": 32350,
+    "count": 13
+  },
+  {
+    "member_name": "Maria Cantwell",
+    "rank": 6,
+    "employer": "WNC &",
+    "total": 31700,
+    "count": 15
+  },
+  {
+    "member_name": "Maria Cantwell",
+    "rank": 7,
+    "employer": "BROWNSTEIN HYATT FARBER SCHRECK",
+    "total": 28900,
+    "count": 27
+  },
+  {
+    "member_name": "Maria Cantwell",
+    "rank": 8,
+    "employer": "NEXTERA ENERGY",
+    "total": 28000,
+    "count": 24
+  },
+  {
+    "member_name": "Maria Cantwell",
+    "rank": 9,
+    "employer": "WILLIAMS HART & BOUNDAS LAW FIRM",
+    "total": 26400,
+    "count": 8
+  },
+  {
+    "member_name": "Maria Cantwell",
+    "rank": 10,
+    "employer": "APOLLO GLOBAL",
+    "total": 24400,
+    "count": 9
+  },
+  {
+    "member_name": "Maria Cantwell",
+    "rank": 11,
+    "employer": "T-MOBILE",
+    "total": 23145,
+    "count": 10
+  },
+  {
+    "member_name": "Maria Cantwell",
+    "rank": 12,
+    "employer": "GOOGLE",
+    "total": 22200,
+    "count": 10
+  },
+  {
+    "member_name": "Maria Cantwell",
+    "rank": 13,
+    "employer": "INTEL",
+    "total": 22033,
+    "count": 16
+  },
+  {
+    "member_name": "Maria Cantwell",
+    "rank": 14,
+    "employer": "CLIFFORD LAW OFFICES",
+    "total": 20350,
+    "count": 10
+  },
+  {
+    "member_name": "Maria Cantwell",
+    "rank": 15,
+    "employer": "MICROSOFT",
+    "total": 20166,
+    "count": 13
+  },
+  {
+    "member_name": "Maria Cantwell",
+    "rank": 16,
+    "employer": "GREATER NEW YORK HOSPITAL ASSOCIATION",
+    "total": 19800,
+    "count": 6
+  },
+  {
+    "member_name": "Maria Cantwell",
+    "rank": 17,
+    "employer": "HAGAN NOLL & BOYLE",
+    "total": 19000,
+    "count": 6
+  },
+  {
+    "member_name": "Michael Bennet",
+    "rank": 1,
+    "employer": "PISCES",
+    "total": 13200,
+    "count": 4
+  },
+  {
+    "member_name": "Michael Bennet",
+    "rank": 2,
+    "employer": "1ST FINANCIAL",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "Michael Bennet",
+    "rank": 3,
+    "employer": "JANE STREET",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "Michael Bennet",
+    "rank": 4,
+    "employer": "FREELANCE",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "Michael Bennet",
+    "rank": 5,
+    "employer": "YORK SPACE SYSTEMS",
+    "total": 5000,
+    "count": 4
+  },
+  {
+    "member_name": "Michael Bennet",
+    "rank": 6,
+    "employer": "AIG",
+    "total": 3300,
+    "count": 1
+  },
+  {
+    "member_name": "Michael Bennet",
+    "rank": 7,
+    "employer": "NEW BELGIUM BREWING",
+    "total": 3300,
+    "count": 1
+  },
+  {
+    "member_name": "Michael Bennet",
+    "rank": 8,
+    "employer": "DEPARTMENT OF THE AIR FORCE",
+    "total": 3300,
+    "count": 1
+  },
+  {
+    "member_name": "Michael Bennet",
+    "rank": 9,
+    "employer": "MONTROSE FOREST PRODUCTS",
+    "total": 3000,
+    "count": 2
+  },
+  {
+    "member_name": "Michael Bennet",
+    "rank": 10,
+    "employer": "PHYSICIAN",
+    "total": 2800,
+    "count": 48
+  },
+  {
+    "member_name": "Michael Bennet",
+    "rank": 11,
+    "employer": "CANADA LIFE REINSURANCE",
+    "total": 2500,
+    "count": 2
+  },
+  {
+    "member_name": "Michael Bennet",
+    "rank": 12,
+    "employer": "FOUNDATION WINDPOWER",
+    "total": 2500,
+    "count": 1
+  },
+  {
+    "member_name": "Michael Bennet",
+    "rank": 13,
+    "employer": "KIDS V CANCER",
+    "total": 2500,
+    "count": 1
+  },
+  {
+    "member_name": "Michael Bennet",
+    "rank": 14,
+    "employer": "TRIUM",
+    "total": 2000,
+    "count": 1
+  },
+  {
+    "member_name": "Michael Bennet",
+    "rank": 15,
+    "employer": "XENCO MEDICAL",
+    "total": 2000,
+    "count": 2
+  },
+  {
+    "member_name": "Michael Bennet",
+    "rank": 16,
+    "employer": "MACH VENTURES",
+    "total": 2000,
+    "count": 1
+  },
+  {
+    "member_name": "Michael Bennet",
+    "rank": 17,
+    "employer": "RECHARGE",
+    "total": 2000,
+    "count": 1
+  },
+  {
+    "member_name": "Mark Warner",
+    "rank": 1,
+    "employer": "CAPITAL",
+    "total": 50000,
+    "count": 20
+  },
+  {
+    "member_name": "Mark Warner",
+    "rank": 2,
+    "employer": "BLACKROCK",
+    "total": 40000,
+    "count": 17
+  },
+  {
+    "member_name": "Mark Warner",
+    "rank": 3,
+    "employer": "APOLLO GLOBAL",
+    "total": 26800,
+    "count": 9
+  },
+  {
+    "member_name": "Mark Warner",
+    "rank": 4,
+    "employer": "SIXTH STREET",
+    "total": 23100,
+    "count": 7
+  },
+  {
+    "member_name": "Mark Warner",
+    "rank": 5,
+    "employer": "THE BOEING",
+    "total": 22400,
+    "count": 31
+  },
+  {
+    "member_name": "Mark Warner",
+    "rank": 6,
+    "employer": "APOLLO",
+    "total": 22400,
+    "count": 8
+  },
+  {
+    "member_name": "Mark Warner",
+    "rank": 7,
+    "employer": "OAKTREE CAPITAL",
+    "total": 19800,
+    "count": 6
+  },
+  {
+    "member_name": "Mark Warner",
+    "rank": 8,
+    "employer": "RELATED COMPANIES",
+    "total": 13200,
+    "count": 4
+  },
+  {
+    "member_name": "Mark Warner",
+    "rank": 9,
+    "employer": "THE RADCLIFF COMPANIES",
+    "total": 13200,
+    "count": 4
+  },
+  {
+    "member_name": "Mark Warner",
+    "rank": 10,
+    "employer": "PROSPECT HOTEL ADVISORS",
+    "total": 13200,
+    "count": 4
+  },
+  {
+    "member_name": "Mark Warner",
+    "rank": 11,
+    "employer": "PILLSBURY",
+    "total": 13200,
+    "count": 2
+  },
+  {
+    "member_name": "Mark Warner",
+    "rank": 12,
+    "employer": "INSIGHT",
+    "total": 12600,
+    "count": 5
+  },
+  {
+    "member_name": "Mark Warner",
+    "rank": 13,
+    "employer": "APOLLO GLOBAL MANAGMENT",
+    "total": 11600,
+    "count": 4
+  },
+  {
+    "member_name": "Mark Warner",
+    "rank": 14,
+    "employer": "JANE STREET CAPITAL",
+    "total": 9900,
+    "count": 3
+  },
+  {
+    "member_name": "Mark Warner",
+    "rank": 15,
+    "employer": "DISH NETWORK",
+    "total": 8850,
+    "count": 5
+  },
+  {
+    "member_name": "Mark Warner",
+    "rank": 16,
+    "employer": "SIRIS CAPITAL",
+    "total": 8300,
+    "count": 3
+  },
+  {
+    "member_name": "Mark Warner",
+    "rank": 17,
+    "employer": "SULLIVAN & CROMWELL",
+    "total": 8100,
+    "count": 4
+  },
+  {
+    "member_name": "Sheldon Whitehouse",
+    "rank": 1,
+    "employer": "JANE STREET CAPITAL",
+    "total": 13200,
+    "count": 4
+  },
+  {
+    "member_name": "Sheldon Whitehouse",
+    "rank": 2,
+    "employer": "KOREIN TILLERY",
+    "total": 13200,
+    "count": 4
+  },
+  {
+    "member_name": "Sheldon Whitehouse",
+    "rank": 3,
+    "employer": "CLIFFORD LAW OFFICES",
+    "total": 11600,
+    "count": 5
+  },
+  {
+    "member_name": "Sheldon Whitehouse",
+    "rank": 4,
+    "employer": "BAIN CAPITAL",
+    "total": 9500,
+    "count": 3
+  },
+  {
+    "member_name": "Sheldon Whitehouse",
+    "rank": 5,
+    "employer": "BAUPOST",
+    "total": 8600,
+    "count": 3
+  },
+  {
+    "member_name": "Sheldon Whitehouse",
+    "rank": 6,
+    "employer": "INGRAM INDUSTRIES",
+    "total": 7600,
+    "count": 3
+  },
+  {
+    "member_name": "Sheldon Whitehouse",
+    "rank": 7,
+    "employer": "LARKSPUR MGMT",
+    "total": 7500,
+    "count": 18
+  },
+  {
+    "member_name": "Sheldon Whitehouse",
+    "rank": 8,
+    "employer": "GREENBERG TRAURIG",
+    "total": 6800,
+    "count": 6
+  },
+  {
+    "member_name": "Sheldon Whitehouse",
+    "rank": 9,
+    "employer": "MEDLEY",
+    "total": 6600,
+    "count": 1
+  },
+  {
+    "member_name": "Sheldon Whitehouse",
+    "rank": 10,
+    "employer": "BREAKTHROUGH ENERGY",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "Sheldon Whitehouse",
+    "rank": 11,
+    "employer": "KLEINER PERKINS CAUFIELD & BYERS",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "Sheldon Whitehouse",
+    "rank": 12,
+    "employer": "J CLASS",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "Sheldon Whitehouse",
+    "rank": 13,
+    "employer": "WASSERMAN",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "Sheldon Whitehouse",
+    "rank": 14,
+    "employer": "NEWSWEB",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "Sheldon Whitehouse",
+    "rank": 15,
+    "employer": "ARIEL INVESTMENTS",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "Sheldon Whitehouse",
+    "rank": 16,
+    "employer": "IDT",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "Sheldon Whitehouse",
+    "rank": 17,
+    "employer": "MADISON DEARBORN",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "Sheldon Whitehouse",
+    "rank": 18,
+    "employer": "SCI",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "Maggie Hassan",
+    "rank": 1,
+    "employer": "ELEVANCE HEALTH",
+    "total": 38400,
+    "count": 21
+  },
+  {
+    "member_name": "Maggie Hassan",
+    "rank": 2,
+    "employer": "AXXESS",
+    "total": 15000,
+    "count": 6
+  },
+  {
+    "member_name": "Maggie Hassan",
+    "rank": 3,
+    "employer": "NHS",
+    "total": 12400,
+    "count": 4
+  },
+  {
+    "member_name": "Maggie Hassan",
+    "rank": 4,
+    "employer": "WINGED KEEL",
+    "total": 10000,
+    "count": 13
+  },
+  {
+    "member_name": "Maggie Hassan",
+    "rank": 5,
+    "employer": "THE DASCHLE",
+    "total": 7600,
+    "count": 3
+  },
+  {
+    "member_name": "Maggie Hassan",
+    "rank": 6,
+    "employer": "GEPHARDT GOVERNMENT AFFAIRS",
+    "total": 7600,
+    "count": 3
+  },
+  {
+    "member_name": "Maggie Hassan",
+    "rank": 7,
+    "employer": "BLUE CROSS BLUE SHIELD ASSOCIATION",
+    "total": 7000,
+    "count": 7
+  },
+  {
+    "member_name": "Maggie Hassan",
+    "rank": 8,
+    "employer": "UNITYPOINT HEALTH MERITER",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "Maggie Hassan",
+    "rank": 9,
+    "employer": "NSRA",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "Maggie Hassan",
+    "rank": 10,
+    "employer": "VETERANS UNITED HOME LOANS",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "Maggie Hassan",
+    "rank": 11,
+    "employer": "VIVE CONCIERGE",
+    "total": 6600,
+    "count": 3
+  },
+  {
+    "member_name": "Maggie Hassan",
+    "rank": 12,
+    "employer": "BLACKSTONE",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "Maggie Hassan",
+    "rank": 13,
+    "employer": "EPIC SYSTEMS",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "Maggie Hassan",
+    "rank": 14,
+    "employer": "PATIENTRIGHTSADVOCATEORG",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "Maggie Hassan",
+    "rank": 15,
+    "employer": "ARNOLD VENTURES",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "Maggie Hassan",
+    "rank": 16,
+    "employer": "CITIZENS DISABILITY",
+    "total": 6250,
+    "count": 2
+  },
+  {
+    "member_name": "Maggie Hassan",
+    "rank": 17,
+    "employer": "NYMAN TURKISH",
+    "total": 6250,
+    "count": 2
+  },
+  {
+    "member_name": "Catherine Cortez Masto",
+    "rank": 1,
+    "employer": "DISABILITY PLANNERS",
+    "total": 26400,
+    "count": 8
+  },
+  {
+    "member_name": "Catherine Cortez Masto",
+    "rank": 2,
+    "employer": "PORTER",
+    "total": 13200,
+    "count": 4
+  },
+  {
+    "member_name": "Catherine Cortez Masto",
+    "rank": 3,
+    "employer": "THE PACIFIC COMPANIES",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "Catherine Cortez Masto",
+    "rank": 4,
+    "employer": "QUOTIDIAN GALLERY",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "Catherine Cortez Masto",
+    "rank": 5,
+    "employer": "PALANTIR",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "Catherine Cortez Masto",
+    "rank": 6,
+    "employer": "CINQCARE",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "Catherine Cortez Masto",
+    "rank": 7,
+    "employer": "INSURANCE BRANCH",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "Catherine Cortez Masto",
+    "rank": 8,
+    "employer": "VENROCK",
+    "total": 5500,
+    "count": 4
+  },
+  {
+    "member_name": "Catherine Cortez Masto",
+    "rank": 9,
+    "employer": "KAISER",
+    "total": 5355,
+    "count": 5
+  },
+  {
+    "member_name": "Catherine Cortez Masto",
+    "rank": 10,
+    "employer": "ROCKET CENTRAL",
+    "total": 5100,
+    "count": 2
+  },
+  {
+    "member_name": "Catherine Cortez Masto",
+    "rank": 11,
+    "employer": "AURORA PICTURES",
+    "total": 5000,
+    "count": 2
+  },
+  {
+    "member_name": "Catherine Cortez Masto",
+    "rank": 12,
+    "employer": "WILSON SONSINI GOODRICH & ROSATI",
+    "total": 5000,
+    "count": 2
+  },
+  {
+    "member_name": "Catherine Cortez Masto",
+    "rank": 13,
+    "employer": "ROCKET COMPANIES",
+    "total": 4950,
+    "count": 2
+  },
+  {
+    "member_name": "Catherine Cortez Masto",
+    "rank": 14,
+    "employer": "ALLEN AND",
+    "total": 4950,
+    "count": 3
+  },
+  {
+    "member_name": "Catherine Cortez Masto",
+    "rank": 15,
+    "employer": "FEDERAL HOME LOAN BANK SAN FRANCISCO",
+    "total": 4000,
+    "count": 3
+  },
+  {
+    "member_name": "Catherine Cortez Masto",
+    "rank": 16,
+    "employer": "CARGILLE SACHER LABS",
+    "total": 3795,
+    "count": 58
+  },
+  {
+    "member_name": "Catherine Cortez Masto",
+    "rank": 17,
+    "employer": "NFP",
+    "total": 3500,
+    "count": 2
+  },
+  {
+    "member_name": "Elizabeth Warren",
+    "rank": 1,
+    "employer": "MCARTHURGLEN",
+    "total": 13200,
+    "count": 4
+  },
+  {
+    "member_name": "Elizabeth Warren",
+    "rank": 2,
+    "employer": "SOROS FUND",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "Elizabeth Warren",
+    "rank": 3,
+    "employer": "MERITAGE",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "Elizabeth Warren",
+    "rank": 4,
+    "employer": "JUSTICE CATALYST LAW",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "Elizabeth Warren",
+    "rank": 5,
+    "employer": "UNIVERSITY OF PENNSYLVANIA",
+    "total": 5016,
+    "count": 34
+  },
+  {
+    "member_name": "Elizabeth Warren",
+    "rank": 6,
+    "employer": "NVIDIA",
+    "total": 4568,
+    "count": 13
+  },
+  {
+    "member_name": "Elizabeth Warren",
+    "rank": 7,
+    "employer": "US NAVY",
+    "total": 4496,
+    "count": 65
+  },
+  {
+    "member_name": "Elizabeth Warren",
+    "rank": 8,
+    "employer": "CALCULEX",
+    "total": 4300,
+    "count": 2
+  },
+  {
+    "member_name": "Elizabeth Warren",
+    "rank": 9,
+    "employer": "SOUTHSIDE COMMUNITY SCHOOL",
+    "total": 4000,
+    "count": 6
+  },
+  {
+    "member_name": "Elizabeth Warren",
+    "rank": 10,
+    "employer": "UNIVERSITY OF CALIFORNIA",
+    "total": 3722,
+    "count": 88
+  },
+  {
+    "member_name": "Elizabeth Warren",
+    "rank": 11,
+    "employer": "NEWSWEB",
+    "total": 3300,
+    "count": 1
+  },
+  {
+    "member_name": "Elizabeth Warren",
+    "rank": 12,
+    "employer": "JOHN LONGMAID DESIGNS",
+    "total": 3300,
+    "count": 1
+  },
+  {
+    "member_name": "Elizabeth Warren",
+    "rank": 13,
+    "employer": "WOOL735",
+    "total": 3300,
+    "count": 1
+  },
+  {
+    "member_name": "Elizabeth Warren",
+    "rank": 14,
+    "employer": "INVESTOR SOLUTIONS",
+    "total": 3300,
+    "count": 1
+  },
+  {
+    "member_name": "Elizabeth Warren",
+    "rank": 15,
+    "employer": "GOOGLE",
+    "total": 3173,
+    "count": 89
+  },
+  {
+    "member_name": "Elizabeth Warren",
+    "rank": 16,
+    "employer": "UNIVERSITY OF FLORIDA",
+    "total": 2833,
+    "count": 3
+  },
+  {
+    "member_name": "Bernie Sanders",
+    "rank": 1,
+    "employer": "GOOGLE",
+    "total": 13427,
+    "count": 309
+  },
+  {
+    "member_name": "Bernie Sanders",
+    "rank": 2,
+    "employer": "TA INSTRUMENTS",
+    "total": 13000,
+    "count": 9
+  },
+  {
+    "member_name": "Bernie Sanders",
+    "rank": 3,
+    "employer": "APPLE",
+    "total": 7622,
+    "count": 259
+  },
+  {
+    "member_name": "Bernie Sanders",
+    "rank": 4,
+    "employer": "MERITAGE",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "Bernie Sanders",
+    "rank": 5,
+    "employer": "NVIDIA",
+    "total": 5589,
+    "count": 21
+  },
+  {
+    "member_name": "Bernie Sanders",
+    "rank": 6,
+    "employer": "CUNY",
+    "total": 4576,
+    "count": 185
+  },
+  {
+    "member_name": "Bernie Sanders",
+    "rank": 7,
+    "employer": "UCLA",
+    "total": 3845,
+    "count": 134
+  },
+  {
+    "member_name": "Bernie Sanders",
+    "rank": 8,
+    "employer": "MIT",
+    "total": 3844,
+    "count": 85
+  },
+  {
+    "member_name": "Bernie Sanders",
+    "rank": 9,
+    "employer": "MICROSOFT",
+    "total": 3736,
+    "count": 141
+  },
+  {
+    "member_name": "Bernie Sanders",
+    "rank": 10,
+    "employer": "KAISER PERMANENTE",
+    "total": 3553,
+    "count": 159
+  },
+  {
+    "member_name": "Bernie Sanders",
+    "rank": 11,
+    "employer": "JANSSEN PHARMACEUTICALS",
+    "total": 3510,
+    "count": 14
+  },
+  {
+    "member_name": "Bernie Sanders",
+    "rank": 12,
+    "employer": "KOENIGSBERG &",
+    "total": 3461,
+    "count": 6
+  },
+  {
+    "member_name": "Bernie Sanders",
+    "rank": 13,
+    "employer": "AMAZON",
+    "total": 3245,
+    "count": 172
+  },
+  {
+    "member_name": "Bernie Sanders",
+    "rank": 14,
+    "employer": "KENNEDY ACCESS",
+    "total": 3070,
+    "count": 2
+  },
+  {
+    "member_name": "Bernie Sanders",
+    "rank": 15,
+    "employer": "WILDER'S PREPARATORY ACADEMY CHARTER S",
+    "total": 3027,
+    "count": 2
+  },
+  {
+    "member_name": "Bernie Sanders",
+    "rank": 16,
+    "employer": "ELLA FINANCIAL ADVISING",
+    "total": 2900,
+    "count": 2
+  },
+  {
+    "member_name": "Tina Smith",
+    "rank": 1,
+    "employer": "CAPITAL",
+    "total": 35000,
+    "count": 14
+  },
+  {
+    "member_name": "Tina Smith",
+    "rank": 2,
+    "employer": "LINKEDIN",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "Tina Smith",
+    "rank": 3,
+    "employer": "ROCKET COMPANIES",
+    "total": 6600,
+    "count": 3
+  },
+  {
+    "member_name": "Tina Smith",
+    "rank": 4,
+    "employer": "PATIENTRIGHTSADVOCATEORG",
+    "total": 6600,
+    "count": 3
+  },
+  {
+    "member_name": "Tina Smith",
+    "rank": 5,
+    "employer": "AVENUE SOLUTIONS",
+    "total": 5000,
+    "count": 7
+  },
+  {
+    "member_name": "Tina Smith",
+    "rank": 6,
+    "employer": "CAPITAL RESEARCH &",
+    "total": 5000,
+    "count": 2
+  },
+  {
+    "member_name": "Tina Smith",
+    "rank": 7,
+    "employer": "THE CAPITAL COMPANIES",
+    "total": 5000,
+    "count": 2
+  },
+  {
+    "member_name": "Tina Smith",
+    "rank": 8,
+    "employer": "CAPITOL COUNSEL",
+    "total": 4500,
+    "count": 5
+  },
+  {
+    "member_name": "Tina Smith",
+    "rank": 9,
+    "employer": "HOLLAND & KNIGHT",
+    "total": 3500,
+    "count": 3
+  },
+  {
+    "member_name": "Tina Smith",
+    "rank": 10,
+    "employer": "LAB TO LAND INSTITUTE",
+    "total": 3300,
+    "count": 1
+  },
+  {
+    "member_name": "Tina Smith",
+    "rank": 11,
+    "employer": "THE ACCOUNTABILITY BOARD",
+    "total": 3300,
+    "count": 1
+  },
+  {
+    "member_name": "Tina Smith",
+    "rank": 12,
+    "employer": "CARMEL-BY-THE-SEA",
+    "total": 3300,
+    "count": 1
+  },
+  {
+    "member_name": "Tina Smith",
+    "rank": 13,
+    "employer": "ROCKET MORTGAGE",
+    "total": 3300,
+    "count": 2
+  },
+  {
+    "member_name": "Tina Smith",
+    "rank": 14,
+    "employer": "JANE STREET CAPITAL",
+    "total": 3300,
+    "count": 1
+  },
+  {
+    "member_name": "Tina Smith",
+    "rank": 15,
+    "employer": "JACKSON FAMILY WINES",
+    "total": 3300,
+    "count": 1
+  },
+  {
+    "member_name": "Tina Smith",
+    "rank": 16,
+    "employer": "EMERGENT STRATEGIES",
+    "total": 2900,
+    "count": 2
+  },
+  {
+    "member_name": "Ben Ray Lujan",
+    "rank": 1,
+    "employer": "GARCIA HAMILTON &",
+    "total": 20500,
+    "count": 9
+  },
+  {
+    "member_name": "Ben Ray Lujan",
+    "rank": 2,
+    "employer": "CHARTER COMMUNICATIONS",
+    "total": 18500,
+    "count": 9
+  },
+  {
+    "member_name": "Ben Ray Lujan",
+    "rank": 3,
+    "employer": "ANDREESSEN HOROWITZ",
+    "total": 9900,
+    "count": 3
+  },
+  {
+    "member_name": "Ben Ray Lujan",
+    "rank": 4,
+    "employer": "ADVOCATE HEALTH ADVISORS",
+    "total": 7500,
+    "count": 4
+  },
+  {
+    "member_name": "Ben Ray Lujan",
+    "rank": 5,
+    "employer": "PSQ",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "Ben Ray Lujan",
+    "rank": 6,
+    "employer": "GFP REAL ESTATE",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "Ben Ray Lujan",
+    "rank": 7,
+    "employer": "ARDELYX",
+    "total": 6300,
+    "count": 5
+  },
+  {
+    "member_name": "Ben Ray Lujan",
+    "rank": 8,
+    "employer": "HISPANIOLA MEDICAL CARE",
+    "total": 6000,
+    "count": 2
+  },
+  {
+    "member_name": "Ben Ray Lujan",
+    "rank": 9,
+    "employer": "TUSK STRATEGIES",
+    "total": 6000,
+    "count": 5
+  },
+  {
+    "member_name": "Ben Ray Lujan",
+    "rank": 10,
+    "employer": "INTERSECT POWER",
+    "total": 5800,
+    "count": 2
+  },
+  {
+    "member_name": "Ben Ray Lujan",
+    "rank": 11,
+    "employer": "MCS CENTRO DE SERVICIO HATO REY",
+    "total": 5300,
+    "count": 5
+  },
+  {
+    "member_name": "Ben Ray Lujan",
+    "rank": 12,
+    "employer": "GOODWIN PROCTER",
+    "total": 5000,
+    "count": 2
+  },
+  {
+    "member_name": "Ben Ray Lujan",
+    "rank": 13,
+    "employer": "BUENA VISTA HOSPICE",
+    "total": 5000,
+    "count": 3
+  },
+  {
+    "member_name": "Ben Ray Lujan",
+    "rank": 14,
+    "employer": "PCCA",
+    "total": 4500,
+    "count": 3
+  },
+  {
+    "member_name": "Ben Ray Lujan",
+    "rank": 15,
+    "employer": "AT&T",
+    "total": 4500,
+    "count": 4
+  },
+  {
+    "member_name": "Ben Ray Lujan",
+    "rank": 16,
+    "employer": "EMMER",
+    "total": 4000,
+    "count": 5
+  },
+  {
+    "member_name": "Ben Ray Lujan",
+    "rank": 17,
+    "employer": "NATIONAL ASSOCIATION OF BROADCASTERS",
+    "total": 3895,
+    "count": 5
+  },
+  {
+    "member_name": "Raphael Warnock",
+    "rank": 1,
+    "employer": "DAVITA",
+    "total": 12660,
+    "count": 40
+  },
+  {
+    "member_name": "Raphael Warnock",
+    "rank": 2,
+    "employer": "GOOGLE",
+    "total": 8327,
+    "count": 203
+  },
+  {
+    "member_name": "Raphael Warnock",
+    "rank": 3,
+    "employer": "GLOBAL GREEN USA",
+    "total": 7660,
+    "count": 95
+  },
+  {
+    "member_name": "Raphael Warnock",
+    "rank": 4,
+    "employer": "VETERANS UNITED HOME LOANS",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "Raphael Warnock",
+    "rank": 5,
+    "employer": "THE BROE",
+    "total": 6600,
+    "count": 2
+  },
+  {
+    "member_name": "Raphael Warnock",
+    "rank": 6,
+    "employer": "MICROSOFT",
+    "total": 5217,
+    "count": 128
+  },
+  {
+    "member_name": "Raphael Warnock",
+    "rank": 7,
+    "employer": "ACTUM",
+    "total": 4950,
+    "count": 2
+  },
+  {
+    "member_name": "Raphael Warnock",
+    "rank": 8,
+    "employer": "TUFTS UNIVERSITY",
+    "total": 4100,
+    "count": 41
+  },
+  {
+    "member_name": "Raphael Warnock",
+    "rank": 9,
+    "employer": "COLGATE DIVINITY SCHOOL",
+    "total": 3631,
+    "count": 73
+  },
+  {
+    "member_name": "Raphael Warnock",
+    "rank": 10,
+    "employer": "BROE",
+    "total": 3400,
+    "count": 2
+  },
+  {
+    "member_name": "Raphael Warnock",
+    "rank": 11,
+    "employer": "MERCURY PUBLIC AFFAIRS",
+    "total": 3300,
+    "count": 1
+  },
+  {
+    "member_name": "Raphael Warnock",
+    "rank": 12,
+    "employer": "PASA ALTA MANOR",
+    "total": 3300,
+    "count": 1
+  },
+  {
+    "member_name": "Raphael Warnock",
+    "rank": 13,
+    "employer": "AMROCK",
+    "total": 3300,
+    "count": 1
+  },
+  {
+    "member_name": "Raphael Warnock",
+    "rank": 14,
+    "employer": "ROCK VENTURES",
+    "total": 3300,
+    "count": 1
+  },
+  {
+    "member_name": "Raphael Warnock",
+    "rank": 15,
+    "employer": "TRES ES",
+    "total": 3300,
+    "count": 1
+  },
+  {
+    "member_name": "Raphael Warnock",
+    "rank": 16,
+    "employer": "ELEMENO HEALTH",
+    "total": 3300,
+    "count": 1
+  },
+  {
+    "member_name": "Raphael Warnock",
+    "rank": 17,
+    "employer": "MERCURY",
+    "total": 3300,
+    "count": 1
+  },
+  {
+    "member_name": "Peter Welch",
+    "rank": 1,
+    "employer": "THE OLD MOUNTAIN",
+    "total": 3300,
+    "count": 1
+  },
+  {
+    "member_name": "Peter Welch",
+    "rank": 2,
+    "employer": "WEST FRONT STRATEGIES",
+    "total": 2500,
+    "count": 1
+  },
+  {
+    "member_name": "Peter Welch",
+    "rank": 3,
+    "employer": "WMC HOLDINGSINC",
+    "total": 2000,
+    "count": 1
+  },
+  {
+    "member_name": "Peter Welch",
+    "rank": 4,
+    "employer": "MINILEC SERVICE",
+    "total": 2000,
+    "count": 1
+  },
+  {
+    "member_name": "Peter Welch",
+    "rank": 5,
+    "employer": "WARNER MUSIC",
+    "total": 1250,
+    "count": 2
+  },
+  {
+    "member_name": "Peter Welch",
+    "rank": 6,
+    "employer": "MACHINE INTELLIGENCE RESEARCH INSTITUT",
+    "total": 1000,
+    "count": 1
+  },
+  {
+    "member_name": "Peter Welch",
+    "rank": 7,
+    "employer": "WMG",
+    "total": 750,
+    "count": 1
+  },
+  {
+    "member_name": "Peter Welch",
+    "rank": 8,
+    "employer": "EMPIRE",
+    "total": 500,
+    "count": 1
+  },
+  {
+    "member_name": "Peter Welch",
+    "rank": 9,
+    "employer": "MARYLAND",
+    "total": 500,
+    "count": 1
+  },
+  {
+    "member_name": "Peter Welch",
+    "rank": 10,
+    "employer": "GOOGLE",
+    "total": 500,
+    "count": 1
+  },
+  {
+    "member_name": "Peter Welch",
+    "rank": 11,
+    "employer": "FEDERAL STREET STRATEGIES",
+    "total": 500,
+    "count": 1
+  },
+  {
+    "member_name": "Peter Welch",
+    "rank": 12,
+    "employer": "WINN STRATEGIES",
+    "total": 500,
+    "count": 1
+  },
+  {
+    "member_name": "Peter Welch",
+    "rank": 13,
+    "employer": "AMERICAN INSTITUTE OF CPAS",
+    "total": 500,
+    "count": 2
+  },
+  {
+    "member_name": "Peter Welch",
+    "rank": 14,
+    "employer": "ENDEAVOR BIOMEDICINES",
+    "total": 277,
+    "count": 1
+  }
+]

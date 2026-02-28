@@ -1,0 +1,724 @@
+{
+  "members": [
+    {
+      "name": "Jason Smith",
+      "fec_candidate_id": "H4MO08162",
+      "committee": "ways_and_means",
+      "chamber": "house",
+      "first_congress": 114,
+      "first_year": 2015,
+      "role_current": "Chair",
+      "notes": "Elected to Congress via 2013 special election (113th). Appointed to W&M for 114th Congress (2015). Became chair in 118th Congress (2023)."
+    },
+    {
+      "name": "Vern Buchanan",
+      "fec_candidate_id": "H6FL13148",
+      "committee": "ways_and_means",
+      "chamber": "house",
+      "first_congress": 112,
+      "first_year": 2011,
+      "role_current": "Member",
+      "notes": "Named to Ways and Means for the 112th Congress (2011). First elected to Congress in 2006."
+    },
+    {
+      "name": "Adrian Smith",
+      "fec_candidate_id": "H6NE03115",
+      "committee": "ways_and_means",
+      "chamber": "house",
+      "first_congress": 112,
+      "first_year": 2011,
+      "role_current": "Member",
+      "notes": "Joined Ways and Means around 2010-2011. Was a member during the 112th Congress. First elected 2006."
+    },
+    {
+      "name": "Mike Kelly",
+      "fec_candidate_id": "H0PA03271",
+      "committee": "ways_and_means",
+      "chamber": "house",
+      "first_congress": 113,
+      "first_year": 2013,
+      "role_current": "Member",
+      "notes": "Selected to serve on Ways and Means for the 113th Congress (announced Nov 30, 2012). First elected 2010."
+    },
+    {
+      "name": "David Schweikert",
+      "fec_candidate_id": "H4AZ06045",
+      "committee": "ways_and_means",
+      "chamber": "house",
+      "first_congress": 114,
+      "first_year": 2015,
+      "role_current": "Member",
+      "notes": "Previously served on Financial Services. Joined Ways and Means for the 114th Congress (2015). First elected 2010."
+    },
+    {
+      "name": "Darin LaHood",
+      "fec_candidate_id": "H6IL18088",
+      "committee": "ways_and_means",
+      "chamber": "house",
+      "first_congress": 115,
+      "first_year": 2017,
+      "role_current": "Member",
+      "notes": "Announced selection to Ways and Means in January 2018 for the 115th Congress (mid-Congress appointment). Elected via 2015 special election."
+    },
+    {
+      "name": "Jodey Arrington",
+      "fec_candidate_id": "H6TX19099",
+      "committee": "ways_and_means",
+      "chamber": "house",
+      "first_congress": 116,
+      "first_year": 2019,
+      "role_current": "Member",
+      "notes": "Appointed to Ways and Means in his second term (116th Congress, 2019). First elected 2016."
+    },
+    {
+      "name": "Ron Estes",
+      "fec_candidate_id": "H8KS04112",
+      "committee": "ways_and_means",
+      "chamber": "house",
+      "first_congress": 116,
+      "first_year": 2019,
+      "role_current": "Member",
+      "notes": "Elected by House Republican Steering Committee to Ways and Means for the 116th Congress (Jan 2019). Won special election Apr 2017."
+    },
+    {
+      "name": "Lloyd Smucker",
+      "fec_candidate_id": "H6PA16320",
+      "committee": "ways_and_means",
+      "chamber": "house",
+      "first_congress": 115,
+      "first_year": 2017,
+      "role_current": "Member",
+      "notes": "Served on Ways and Means during 115th and 116th Congresses. First elected 2016."
+    },
+    {
+      "name": "Kevin Hern",
+      "fec_candidate_id": "H8OK01157",
+      "committee": "ways_and_means",
+      "chamber": "house",
+      "first_congress": 117,
+      "first_year": 2021,
+      "role_current": "Member",
+      "notes": "Appointed to Ways and Means in January 2021 (117th Congress). First Oklahoman in two decades on the committee. Won special election 2018."
+    },
+    {
+      "name": "Carol Miller",
+      "fec_candidate_id": "H8WV03097",
+      "committee": "ways_and_means",
+      "chamber": "house",
+      "first_congress": 117,
+      "first_year": 2021,
+      "role_current": "Member",
+      "notes": "Appointed to Ways and Means for the 117th Congress (Feb 2021). First woman from WV on the committee. First elected 2018."
+    },
+    {
+      "name": "Greg Murphy",
+      "fec_candidate_id": "H0NC03172",
+      "committee": "ways_and_means",
+      "chamber": "house",
+      "first_congress": 117,
+      "first_year": 2021,
+      "role_current": "Member",
+      "notes": "Selected to join Ways and Means in January 2022 (mid-117th Congress filling an open seat). Won special election Sept 2019."
+    },
+    {
+      "name": "David Kustoff",
+      "fec_candidate_id": "H2TN07103",
+      "committee": "ways_and_means",
+      "chamber": "house",
+      "first_congress": 119,
+      "first_year": 2025,
+      "role_current": "Member",
+      "notes": "Joined Ways and Means for 119th Congress (announced Jan 2, 2025). Previously served on Financial Services. First elected 2016."
+    },
+    {
+      "name": "Brian Fitzpatrick",
+      "fec_candidate_id": "H6PA08277",
+      "committee": "ways_and_means",
+      "chamber": "house",
+      "first_congress": 118,
+      "first_year": 2023,
+      "role_current": "Member",
+      "notes": "Appointed to Ways and Means for the 118th Congress (Jan 2023). First elected 2016."
+    },
+    {
+      "name": "Greg Steube",
+      "fec_candidate_id": "H8FL17053",
+      "committee": "ways_and_means",
+      "chamber": "house",
+      "first_congress": 118,
+      "first_year": 2023,
+      "role_current": "Member",
+      "notes": "Appointed to Ways and Means for the 118th Congress (Jan 2023). First elected 2018."
+    },
+    {
+      "name": "Claudia Tenney",
+      "fec_candidate_id": "H4NY22051",
+      "committee": "ways_and_means",
+      "chamber": "house",
+      "first_congress": 118,
+      "first_year": 2023,
+      "role_current": "Member",
+      "notes": "Selected for Ways and Means for 118th Congress (Jan 11, 2023). Initially elected 2016, lost 2018, re-elected 2020."
+    },
+    {
+      "name": "Michelle Fischbach",
+      "fec_candidate_id": "H0MN07091",
+      "committee": "ways_and_means",
+      "chamber": "house",
+      "first_congress": 118,
+      "first_year": 2023,
+      "role_current": "Member",
+      "notes": "Joined Ways and Means for the 118th Congress (2023). First elected to House 2020."
+    },
+    {
+      "name": "Blake Moore",
+      "fec_candidate_id": "H0UT01205",
+      "committee": "ways_and_means",
+      "chamber": "house",
+      "first_congress": 118,
+      "first_year": 2023,
+      "role_current": "Member",
+      "notes": "Elected to Ways and Means by House Steering Committee in Jan 2023 (118th Congress). First Republican from Utah on the committee. First elected 2020."
+    },
+    {
+      "name": "Beth Van Duyne",
+      "fec_candidate_id": "H0TX24209",
+      "committee": "ways_and_means",
+      "chamber": "house",
+      "first_congress": 118,
+      "first_year": 2023,
+      "role_current": "Member",
+      "notes": "Selected for Ways and Means for 118th Congress (Jan 11, 2023). First elected 2020."
+    },
+    {
+      "name": "Randy Feenstra",
+      "fec_candidate_id": "H0IA04145",
+      "committee": "ways_and_means",
+      "chamber": "house",
+      "first_congress": 118,
+      "first_year": 2023,
+      "role_current": "Member",
+      "notes": "Appointed to Ways and Means for 118th Congress (Jan 2023). First elected 2020."
+    },
+    {
+      "name": "Nicole Malliotakis",
+      "fec_candidate_id": "H0NY11078",
+      "committee": "ways_and_means",
+      "chamber": "house",
+      "first_congress": 118,
+      "first_year": 2023,
+      "role_current": "Member",
+      "notes": "Selected for Ways and Means for 118th Congress (Jan 2023). First elected 2020."
+    },
+    {
+      "name": "Mike Carey",
+      "fec_candidate_id": "H2OH15228",
+      "committee": "ways_and_means",
+      "chamber": "house",
+      "first_congress": 118,
+      "first_year": 2023,
+      "role_current": "Member",
+      "notes": "Selected for Ways and Means for 118th Congress (Jan 11, 2023). Won special election Nov 2021."
+    },
+    {
+      "name": "Rudy Yakym",
+      "fec_candidate_id": "H2IN02295",
+      "committee": "ways_and_means",
+      "chamber": "house",
+      "first_congress": 119,
+      "first_year": 2025,
+      "role_current": "Member",
+      "notes": "Selected for Ways and Means for 119th Congress (2025). Won special election Nov 2022."
+    },
+    {
+      "name": "Max Miller",
+      "fec_candidate_id": "H2OH16051",
+      "committee": "ways_and_means",
+      "chamber": "house",
+      "first_congress": 119,
+      "first_year": 2025,
+      "role_current": "Member",
+      "notes": "Appointed to Ways and Means for 119th Congress (Dec 2024 announcement). First elected 2022."
+    },
+    {
+      "name": "Aaron Bean",
+      "fec_candidate_id": "H2FL04211",
+      "committee": "ways_and_means",
+      "chamber": "house",
+      "first_congress": 119,
+      "first_year": 2025,
+      "role_current": "Member",
+      "notes": "Selected for Ways and Means for 119th Congress (Dec 16, 2024 announcement). First elected 2022."
+    },
+    {
+      "name": "Nathaniel Moran",
+      "fec_candidate_id": "H2TX01112",
+      "committee": "ways_and_means",
+      "chamber": "house",
+      "first_congress": 119,
+      "first_year": 2025,
+      "role_current": "Member",
+      "notes": "New member of Ways and Means for 119th Congress (Jan 2025). Previously served on Education and Foreign Affairs in 118th. First elected 2022."
+    },
+    {
+      "name": "Richard Neal",
+      "fec_candidate_id": "H8MA02041",
+      "committee": "ways_and_means",
+      "chamber": "house",
+      "first_congress": 103,
+      "first_year": 1993,
+      "role_current": "Ranking Member",
+      "notes": "Joined Ways and Means in 1993 (103rd Congress). Served as Chair in 116th-117th Congress (2019-2023). In Congress since 1989."
+    },
+    {
+      "name": "Lloyd Doggett",
+      "fec_candidate_id": "H4TX10028",
+      "committee": "ways_and_means",
+      "chamber": "house",
+      "first_congress": 106,
+      "first_year": 1999,
+      "role_current": "Member",
+      "notes": "In Congress since 1995. Joined Ways and Means approximately 106th Congress (1999). Named Health Subcommittee Chairman in 117th Congress."
+    },
+    {
+      "name": "Mike Thompson",
+      "fec_candidate_id": "H8CA01109",
+      "committee": "ways_and_means",
+      "chamber": "house",
+      "first_congress": 110,
+      "first_year": 2007,
+      "role_current": "Member",
+      "notes": "First elected 1998. Joined Ways and Means approximately 110th Congress (2007). Reappointed in 114th Congress and subsequent sessions."
+    },
+    {
+      "name": "John Larson",
+      "fec_candidate_id": "H8CT01046",
+      "committee": "ways_and_means",
+      "chamber": "house",
+      "first_congress": 109,
+      "first_year": 2005,
+      "role_current": "Member",
+      "notes": "Named to Ways and Means by Democratic Caucus, press release dated Jan 5, 2005 (109th Congress). First elected 1998."
+    },
+    {
+      "name": "Danny Davis",
+      "fec_candidate_id": "H4IL07037",
+      "committee": "ways_and_means",
+      "chamber": "house",
+      "first_congress": 110,
+      "first_year": 2007,
+      "role_current": "Member",
+      "notes": "In Congress since 1997. Joined Ways and Means approximately 110th Congress (2007). Repeatedly reappointed through 119th Congress."
+    },
+    {
+      "name": "Linda Sanchez",
+      "fec_candidate_id": "H2CA39078",
+      "committee": "ways_and_means",
+      "chamber": "house",
+      "first_congress": 111,
+      "first_year": 2009,
+      "role_current": "Member",
+      "notes": "First Latina on Ways and Means. Served on the committee in the 111th Congress (2009). Initially on Judiciary Committee when first elected 2002."
+    },
+    {
+      "name": "Terri Sewell",
+      "fec_candidate_id": "H0AL07086",
+      "committee": "ways_and_means",
+      "chamber": "house",
+      "first_congress": 115,
+      "first_year": 2017,
+      "role_current": "Member",
+      "notes": "Joined Ways and Means for the 115th Congress (2017). First elected 2010."
+    },
+    {
+      "name": "Suzan DelBene",
+      "fec_candidate_id": "H0WA08046",
+      "committee": "ways_and_means",
+      "chamber": "house",
+      "first_congress": 115,
+      "first_year": 2017,
+      "role_current": "Member",
+      "notes": "Joined Ways and Means for the 115th Congress (announced Jan 5, 2017). First sworn in Nov 2012 via special election."
+    },
+    {
+      "name": "Judy Chu",
+      "fec_candidate_id": "H0CA32101",
+      "committee": "ways_and_means",
+      "chamber": "house",
+      "first_congress": 115,
+      "first_year": 2017,
+      "role_current": "Member",
+      "notes": "Joined Ways and Means in 115th Congress (2017), filling Xavier Becerra's seat after he resigned to become CA Attorney General. First elected 2009."
+    },
+    {
+      "name": "Gwen Moore",
+      "fec_candidate_id": "H4WI04183",
+      "committee": "ways_and_means",
+      "chamber": "house",
+      "first_congress": 116,
+      "first_year": 2019,
+      "role_current": "Member",
+      "notes": "Nominated for Ways and Means by Democratic Steering and Policy Committee for 116th Congress (2019). Previously on Financial Services. First elected 2004."
+    },
+    {
+      "name": "Brendan Boyle",
+      "fec_candidate_id": "H4PA13199",
+      "committee": "ways_and_means",
+      "chamber": "house",
+      "first_congress": 116,
+      "first_year": 2019,
+      "role_current": "Member",
+      "notes": "Selected for Ways and Means by Democratic Steering Committee (Jan 10, 2019, 116th Congress). First elected 2014."
+    },
+    {
+      "name": "Don Beyer",
+      "fec_candidate_id": "H4VA08224",
+      "committee": "ways_and_means",
+      "chamber": "house",
+      "first_congress": 116,
+      "first_year": 2019,
+      "role_current": "Member",
+      "notes": "Appointed to Ways and Means for 116th Congress (Jan 10, 2019). First elected 2014."
+    },
+    {
+      "name": "Dwight Evans",
+      "fec_candidate_id": "H6PA02171",
+      "committee": "ways_and_means",
+      "chamber": "house",
+      "first_congress": 116,
+      "first_year": 2019,
+      "role_current": "Member",
+      "notes": "Named to Ways and Means for 116th Congress (Jan 9, 2019). First African American from PA on the committee. Won special election Nov 2016."
+    },
+    {
+      "name": "Brad Schneider",
+      "fec_candidate_id": "H2IL10068",
+      "committee": "ways_and_means",
+      "chamber": "house",
+      "first_congress": 116,
+      "first_year": 2019,
+      "role_current": "Member",
+      "notes": "Appointed to Ways and Means for 116th Congress (2019). First elected 2012, lost 2014, re-elected 2016."
+    },
+    {
+      "name": "Jimmy Panetta",
+      "fec_candidate_id": "H6CA20152",
+      "committee": "ways_and_means",
+      "chamber": "house",
+      "first_congress": 116,
+      "first_year": 2019,
+      "role_current": "Member",
+      "notes": "Appointed to Ways and Means for 116th Congress (Jan 10, 2019). First elected 2016."
+    },
+    {
+      "name": "Jimmy Gomez",
+      "fec_candidate_id": "H8CA34266",
+      "committee": "ways_and_means",
+      "chamber": "house",
+      "first_congress": 116,
+      "first_year": 2019,
+      "role_current": "Member",
+      "notes": "Joined Ways and Means for 116th Congress (2019). Won special election June 2017."
+    },
+    {
+      "name": "Steven Horsford",
+      "fec_candidate_id": "H2NV04011",
+      "committee": "ways_and_means",
+      "chamber": "house",
+      "first_congress": 116,
+      "first_year": 2019,
+      "role_current": "Member",
+      "notes": "Appointed to Ways and Means shortly after being sworn in Jan 2019 (116th Congress). Previously served 113th Congress (2013-15) then returned 2019."
+    },
+    {
+      "name": "Stacey Plaskett",
+      "fec_candidate_id": "H2VI00082",
+      "committee": "ways_and_means",
+      "chamber": "house",
+      "first_congress": 117,
+      "first_year": 2021,
+      "role_current": "Member",
+      "notes": "Appointed to Ways and Means for 117th Congress (2021). First member from a U.S. territory on the committee. First elected 2014."
+    },
+    {
+      "name": "Thomas Suozzi",
+      "fec_candidate_id": "H6NY03247",
+      "committee": "ways_and_means",
+      "chamber": "house",
+      "first_congress": 116,
+      "first_year": 2019,
+      "role_current": "Member",
+      "notes": "Joined Ways and Means in 116th Congress (2019). Left Congress 2022 to run for governor, returned via Feb 2024 special election. Reappointed for 119th Congress."
+    },
+    {
+      "name": "Mike Crapo",
+      "fec_candidate_id": "S8ID00027",
+      "committee": "finance",
+      "chamber": "senate",
+      "first_congress": 109,
+      "first_year": 2005,
+      "role_current": "Chair",
+      "notes": "Joined Senate Finance Committee in 2005 (109th Congress). Previously Ranking Member. Became Chair in 119th Congress (2025). In Senate since 1999."
+    },
+    {
+      "name": "Chuck Grassley",
+      "fec_candidate_id": "S0IA00028",
+      "committee": "finance",
+      "chamber": "senate",
+      "first_congress": 107,
+      "first_year": 2001,
+      "role_current": "Member",
+      "notes": "Joined Finance Committee in 2001 (107th Congress). Served as Chairman or Ranking Member 2001-2010 and again 2019-2021. In Senate since 1981."
+    },
+    {
+      "name": "John Cornyn",
+      "fec_candidate_id": "S2TX00106",
+      "committee": "finance",
+      "chamber": "senate",
+      "first_congress": 113,
+      "first_year": 2013,
+      "role_current": "Member",
+      "notes": "Joined Finance Committee approximately 113th Congress (2013). Chaired Trade subcommittee in 114th Congress. In Senate since 2002."
+    },
+    {
+      "name": "John Thune",
+      "fec_candidate_id": "S2SD00068",
+      "committee": "finance",
+      "chamber": "senate",
+      "first_congress": 112,
+      "first_year": 2011,
+      "role_current": "Member",
+      "notes": "Joined Finance Committee for the 112th Congress (2011). Currently Senate Majority Leader. In Senate since 2005."
+    },
+    {
+      "name": "Tim Scott",
+      "fec_candidate_id": "S4SC00240",
+      "committee": "finance",
+      "chamber": "senate",
+      "first_congress": 114,
+      "first_year": 2015,
+      "role_current": "Member",
+      "notes": "Joined Finance Committee in 2015 (114th Congress) when Republicans took Senate majority. Appointed to Senate Dec 2012, elected 2014."
+    },
+    {
+      "name": "Bill Cassidy",
+      "fec_candidate_id": "S4LA00107",
+      "committee": "finance",
+      "chamber": "senate",
+      "first_congress": 114,
+      "first_year": 2015,
+      "role_current": "Member",
+      "notes": "Joined Finance Committee for the 114th Congress (2015), his first term in the Senate. Chaired Finance subcommittee in 116th Congress. Elected to Senate 2014."
+    },
+    {
+      "name": "James Lankford",
+      "fec_candidate_id": "S4OK00232",
+      "committee": "finance",
+      "chamber": "senate",
+      "first_congress": 116,
+      "first_year": 2019,
+      "role_current": "Member",
+      "notes": "Selected for Finance Committee for 116th Congress (announced Jan 3, 2019 by McConnell). In Senate since 2015."
+    },
+    {
+      "name": "Steve Daines",
+      "fec_candidate_id": "S2MT00096",
+      "committee": "finance",
+      "chamber": "senate",
+      "first_congress": 117,
+      "first_year": 2021,
+      "role_current": "Member",
+      "notes": "Appointed to Finance Committee for 117th Congress (Feb 2021). Third Montana senator ever on Finance. In Senate since 2015."
+    },
+    {
+      "name": "Todd Young",
+      "fec_candidate_id": "S6IN00191",
+      "committee": "finance",
+      "chamber": "senate",
+      "first_congress": 115,
+      "first_year": 2017,
+      "role_current": "Member",
+      "notes": "Joined Finance Committee in his first term (115th Congress, 2017). In Senate since 2017."
+    },
+    {
+      "name": "John Barrasso",
+      "fec_candidate_id": "S6WY00068",
+      "committee": "finance",
+      "chamber": "senate",
+      "first_congress": 117,
+      "first_year": 2021,
+      "role_current": "Member",
+      "notes": "Joined Finance Committee for 117th Congress (Feb 2021). Previously focused on Energy and Natural Resources. In Senate since 2007."
+    },
+    {
+      "name": "Ron Johnson",
+      "fec_candidate_id": "S0WI00197",
+      "committee": "finance",
+      "chamber": "senate",
+      "first_congress": 118,
+      "first_year": 2023,
+      "role_current": "Member",
+      "notes": "Welcomed to Finance Committee for 118th Congress (Feb 2023) by Ranking Member Crapo. Previously chaired Homeland Security. In Senate since 2011."
+    },
+    {
+      "name": "Thom Tillis",
+      "fec_candidate_id": "S4NC00162",
+      "committee": "finance",
+      "chamber": "senate",
+      "first_congress": 118,
+      "first_year": 2023,
+      "role_current": "Member",
+      "notes": "Appointed to Finance Committee for 118th Congress (Feb 2023). In Senate since 2015."
+    },
+    {
+      "name": "Marsha Blackburn",
+      "fec_candidate_id": "S8TN00337",
+      "committee": "finance",
+      "chamber": "senate",
+      "first_congress": 118,
+      "first_year": 2023,
+      "role_current": "Member",
+      "notes": "Named to Finance Committee for 118th Congress (Feb 2023). In Senate since 2019."
+    },
+    {
+      "name": "Roger Marshall",
+      "fec_candidate_id": "H6KS01179",
+      "committee": "finance",
+      "chamber": "senate",
+      "first_congress": 119,
+      "first_year": 2025,
+      "role_current": "Member",
+      "notes": "Joined Finance Committee for 119th Congress (Jan 7, 2025 announcement). In Senate since 2021."
+    },
+    {
+      "name": "Ron Wyden",
+      "fec_candidate_id": "S6OR00110",
+      "committee": "finance",
+      "chamber": "senate",
+      "first_congress": 107,
+      "first_year": 2001,
+      "role_current": "Ranking Member",
+      "notes": "Long-serving Finance Committee member; became chairman in 2014 after Baucus departure. Ranking Member in 119th Congress. In Senate since 1996."
+    },
+    {
+      "name": "Maria Cantwell",
+      "fec_candidate_id": "S8WA00194",
+      "committee": "finance",
+      "chamber": "senate",
+      "first_congress": 111,
+      "first_year": 2009,
+      "role_current": "Member",
+      "notes": "Active on Finance Committee by 2009 (participating in health care reform votes). In Senate since 2001."
+    },
+    {
+      "name": "Michael Bennet",
+      "fec_candidate_id": "S0CO00211",
+      "committee": "finance",
+      "chamber": "senate",
+      "first_congress": 113,
+      "first_year": 2013,
+      "role_current": "Member",
+      "notes": "Listed as Finance Committee member during 113th Congress (2013-2014). Appointed to Senate Jan 2009."
+    },
+    {
+      "name": "Mark Warner",
+      "fec_candidate_id": "S6VA00093",
+      "committee": "finance",
+      "chamber": "senate",
+      "first_congress": 114,
+      "first_year": 2015,
+      "role_current": "Member",
+      "notes": "Joined Finance Committee approximately 114th Congress (2015). Initially assigned to Banking, Budget, Commerce when entering Senate in 2009."
+    },
+    {
+      "name": "Sheldon Whitehouse",
+      "fec_candidate_id": "S6RI00221",
+      "committee": "finance",
+      "chamber": "senate",
+      "first_congress": 115,
+      "first_year": 2017,
+      "role_current": "Member",
+      "notes": "Joined Finance Committee during the 2nd session of 115th Congress (2018). In Senate since 2007."
+    },
+    {
+      "name": "Maggie Hassan",
+      "fec_candidate_id": "S6NH00091",
+      "committee": "finance",
+      "chamber": "senate",
+      "first_congress": 116,
+      "first_year": 2019,
+      "role_current": "Member",
+      "notes": "Joined Finance Committee for 116th Congress (announced Dec 13, 2018). In Senate since 2017."
+    },
+    {
+      "name": "Catherine Cortez Masto",
+      "fec_candidate_id": "S6NV00200",
+      "committee": "finance",
+      "chamber": "senate",
+      "first_congress": 116,
+      "first_year": 2019,
+      "role_current": "Member",
+      "notes": "Appointed to Finance Committee for 116th Congress (announced Dec 13, 2018). In Senate since 2017."
+    },
+    {
+      "name": "Elizabeth Warren",
+      "fec_candidate_id": "S2MA00170",
+      "committee": "finance",
+      "chamber": "senate",
+      "first_congress": 117,
+      "first_year": 2021,
+      "role_current": "Member",
+      "notes": "Joined Finance Committee for 117th Congress (Feb 2021). Introduced Wealth Tax upon joining. In Senate since 2013."
+    },
+    {
+      "name": "Bernie Sanders",
+      "fec_candidate_id": "S4VT00033",
+      "committee": "finance",
+      "chamber": "senate",
+      "first_congress": 119,
+      "first_year": 2025,
+      "role_current": "Member",
+      "notes": "Joined Finance Committee for 119th Congress (Jan 6, 2025). One of five new Democratic additions. Previously chaired Budget and HELP committees. In Senate since 2007."
+    },
+    {
+      "name": "Tina Smith",
+      "fec_candidate_id": "S8MN00578",
+      "committee": "finance",
+      "chamber": "senate",
+      "first_congress": 119,
+      "first_year": 2025,
+      "role_current": "Member",
+      "notes": "Joined Finance Committee for 119th Congress (Jan 2025). One of five new Democratic additions. In Senate since 2018."
+    },
+    {
+      "name": "Ben Ray Lujan",
+      "fec_candidate_id": "S0NM00058",
+      "committee": "finance",
+      "chamber": "senate",
+      "first_congress": 119,
+      "first_year": 2025,
+      "role_current": "Member",
+      "notes": "Joined Finance Committee for 119th Congress (Jan 3, 2025 announcement). New appointment. In Senate since 2021."
+    },
+    {
+      "name": "Raphael Warnock",
+      "fec_candidate_id": "S0GA00559",
+      "committee": "finance",
+      "chamber": "senate",
+      "first_congress": 119,
+      "first_year": 2025,
+      "role_current": "Member",
+      "notes": "Appointed to Finance Committee for 119th Congress (Jan 2, 2025 announcement). One of five new Democratic additions. In Senate since 2021."
+    },
+    {
+      "name": "Peter Welch",
+      "fec_candidate_id": "S2VT00235",
+      "committee": "finance",
+      "chamber": "senate",
+      "first_congress": 119,
+      "first_year": 2025,
+      "role_current": "Member",
+      "notes": "Joined Finance Committee for 119th Congress (Jan 2025). One of five new Democratic additions. Both VT senators now on Finance. In Senate since 2023."
+    }
+  ]
+}

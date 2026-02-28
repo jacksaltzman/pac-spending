@@ -296,6 +296,56 @@ function importBeforeAfter() {
   };
 }
 
+function importIndustryInfluence() {
+  const sectorRows = readCSV("industry_individual_totals.csv");
+  const employerRows = readCSV("industry_top_employers.csv");
+  if (!sectorRows) return null;
+
+  const sectorTotals = sectorRows.map((r) => ({
+    sector: r.sector,
+    individual_total: toNumber(r.individual_total) ?? 0,
+    individual_count: toNumber(r.individual_count) ?? 0,
+    individual_donors: toNumber(r.individual_donors) ?? 0,
+    pac_total: toNumber(r.pac_total) ?? 0,
+    combined_total: toNumber(r.combined_total) ?? 0,
+    individual_share_pct: toNumber(r.individual_share_pct) ?? 0,
+  }));
+
+  // Group top employers by sector
+  const topEmployersBySector: Record<
+    string,
+    { employer: string; total: number; count: number; members_funded: number }[]
+  > = {};
+  if (employerRows) {
+    for (const r of employerRows) {
+      const sector = r.sector;
+      if (!topEmployersBySector[sector]) topEmployersBySector[sector] = [];
+      topEmployersBySector[sector].push({
+        employer: r.employer,
+        total: toNumber(r.total) ?? 0,
+        count: toNumber(r.count) ?? 0,
+        members_funded: toNumber(r.distinct_members_funded) ?? 0,
+      });
+    }
+  }
+
+  // Classification coverage
+  const classifiedTotal = sectorTotals.reduce((s, r) => s + r.individual_total, 0);
+  const pacTotal = sectorTotals.reduce((s, r) => s + r.pac_total, 0);
+
+  return {
+    sector_totals: sectorTotals,
+    top_employers_by_sector: topEmployersBySector,
+    summary: {
+      classified_individual_total: classifiedTotal,
+      pac_total: pacTotal,
+      combined_total: classifiedTotal + pacTotal,
+      individual_to_pac_ratio:
+        pacTotal > 0 ? Math.round((classifiedTotal / pacTotal) * 10) / 10 : 0,
+    },
+  };
+}
+
 function buildTopFunderAgendas(
   members: { member_name: string; top_funder_agendas?: string }[],
   pacs: { member_name: string; total: number; agenda: string }[]
@@ -482,6 +532,16 @@ if (timing) {
     JSON.stringify(timing, null, 2)
   );
   console.log(`  contribution_timing.json: ${timing.weekly_pac_totals.length} weeks, ${timing.events.length} events, ${timing.event_analysis.length} analysis rows`);
+}
+
+// Import industry influence data
+const industryInfluence = importIndustryInfluence();
+if (industryInfluence) {
+  writeFileSync(
+    join(DATA_DIR, "industry_influence.json"),
+    JSON.stringify(industryInfluence, null, 2)
+  );
+  console.log(`  industry_influence.json: ${industryInfluence.sector_totals.length} sectors, ratio: ${industryInfluence.summary.individual_to_pac_ratio}×`);
 }
 
 const datasets: [string, unknown][] = [

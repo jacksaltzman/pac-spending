@@ -1,0 +1,1046 @@
+{
+  "sector_totals": [
+    {
+      "sector": "Finance & Insurance",
+      "individual_total": 8575001,
+      "individual_count": 11494,
+      "individual_donors": 4020,
+      "pac_total": 9945239,
+      "combined_total": 18520240,
+      "individual_share_pct": 46.3
+    },
+    {
+      "sector": "Healthcare & Pharma",
+      "individual_total": 3466627,
+      "individual_count": 26985,
+      "individual_donors": 4505,
+      "pac_total": 7635623,
+      "combined_total": 11102250,
+      "individual_share_pct": 31.2
+    },
+    {
+      "sector": "Professional Services",
+      "individual_total": 4594450,
+      "individual_count": 13023,
+      "individual_donors": 3626,
+      "pac_total": 1740000,
+      "combined_total": 6334450,
+      "individual_share_pct": 72.5
+    },
+    {
+      "sector": "Real Estate & Housing",
+      "individual_total": 2730879,
+      "individual_count": 5179,
+      "individual_donors": 1860,
+      "pac_total": 2767696,
+      "combined_total": 5498575,
+      "individual_share_pct": 49.7
+    },
+    {
+      "sector": "Labor",
+      "individual_total": 79572,
+      "individual_count": 1558,
+      "individual_donors": 197,
+      "pac_total": 3998403,
+      "combined_total": 4077975,
+      "individual_share_pct": 2
+    },
+    {
+      "sector": "Energy & Utilities",
+      "individual_total": 1161059,
+      "individual_count": 3394,
+      "individual_donors": 906,
+      "pac_total": 2633896,
+      "combined_total": 3794955,
+      "individual_share_pct": 30.6
+    },
+    {
+      "sector": "Tech & Telecom",
+      "individual_total": 1603647,
+      "individual_count": 10775,
+      "individual_donors": 1498,
+      "pac_total": 2097050,
+      "combined_total": 3700697,
+      "individual_share_pct": 43.3
+    },
+    {
+      "sector": "Lobbying & Gov Relations",
+      "individual_total": 3665126,
+      "individual_count": 4379,
+      "individual_donors": 1430,
+      "pac_total": 0,
+      "combined_total": 3665126,
+      "individual_share_pct": 100
+    },
+    {
+      "sector": "Transportation",
+      "individual_total": 827768,
+      "individual_count": 3357,
+      "individual_donors": 667,
+      "pac_total": 2263175,
+      "combined_total": 3090943,
+      "individual_share_pct": 26.8
+    },
+    {
+      "sector": "Construction & Engineering",
+      "individual_total": 992432,
+      "individual_count": 4243,
+      "individual_donors": 849,
+      "pac_total": 1354250,
+      "combined_total": 2346682,
+      "individual_share_pct": 42.3
+    },
+    {
+      "sector": "Food & Beverage",
+      "individual_total": 431015,
+      "individual_count": 1633,
+      "individual_donors": 352,
+      "pac_total": 957458,
+      "combined_total": 1388473,
+      "individual_share_pct": 31
+    },
+    {
+      "sector": "Defense & Aerospace",
+      "individual_total": 162057,
+      "individual_count": 1597,
+      "individual_donors": 251,
+      "pac_total": 1117397,
+      "combined_total": 1279454,
+      "individual_share_pct": 12.7
+    },
+    {
+      "sector": "Retail & Consumer",
+      "individual_total": 183980,
+      "individual_count": 2309,
+      "individual_donors": 275,
+      "pac_total": 1094000,
+      "combined_total": 1277980,
+      "individual_share_pct": 14.4
+    },
+    {
+      "sector": "Other Industry",
+      "individual_total": 546694,
+      "individual_count": 924,
+      "individual_donors": 169,
+      "pac_total": 0,
+      "combined_total": 546694,
+      "individual_share_pct": 100
+    },
+    {
+      "sector": "Agriculture & Food",
+      "individual_total": 60306,
+      "individual_count": 29,
+      "individual_donors": 7,
+      "pac_total": 0,
+      "combined_total": 60306,
+      "individual_share_pct": 100
+    },
+    {
+      "sector": "Ideological",
+      "individual_total": 112400,
+      "individual_count": 41,
+      "individual_donors": 9,
+      "pac_total": -574712,
+      "combined_total": -462312,
+      "individual_share_pct": -24.3
+    }
+  ],
+  "top_employers_by_sector": {
+    "Agriculture & Food": [
+      {
+        "employer": "LEPRINO FOODS",
+        "total": 31800,
+        "count": 12,
+        "members_funded": 12
+      },
+      {
+        "employer": "BREAKTHRU BEVERAGE",
+        "total": 28506,
+        "count": 17,
+        "members_funded": 4
+      }
+    ],
+    "Construction & Engineering": [
+      {
+        "employer": "HERZOG",
+        "total": 62700,
+        "count": 20,
+        "members_funded": 3
+      },
+      {
+        "employer": "EDW C LEVY",
+        "total": 26070,
+        "count": 10,
+        "members_funded": 3
+      },
+      {
+        "employer": "HDR ENGINEERING",
+        "total": 14650,
+        "count": 6,
+        "members_funded": 2
+      },
+      {
+        "employer": "HAWKINS CONSTRUCTION",
+        "total": 13200,
+        "count": 5,
+        "members_funded": 1
+      },
+      {
+        "employer": "HUNTER ENGINEERING",
+        "total": 13200,
+        "count": 4,
+        "members_funded": 2
+      },
+      {
+        "employer": "SCOTT CONSTRUCTION",
+        "total": 12050,
+        "count": 60,
+        "members_funded": 5
+      },
+      {
+        "employer": "MANSON CONSTRUCTION",
+        "total": 11900,
+        "count": 6,
+        "members_funded": 1
+      },
+      {
+        "employer": "DENARK CONSTRUCTION",
+        "total": 10600,
+        "count": 6,
+        "members_funded": 2
+      },
+      {
+        "employer": "EASTERN SHIPBUILDING",
+        "total": 10000,
+        "count": 4,
+        "members_funded": 1
+      },
+      {
+        "employer": "GEHRY",
+        "total": 9900,
+        "count": 3,
+        "members_funded": 1
+      }
+    ],
+    "Defense & Aerospace": [
+      {
+        "employer": "THE BOEING",
+        "total": 42696,
+        "count": 108,
+        "members_funded": 10
+      },
+      {
+        "employer": "ANDURIL INDUSTRIES",
+        "total": 27600,
+        "count": 13,
+        "members_funded": 11
+      },
+      {
+        "employer": "BOEING",
+        "total": 17192,
+        "count": 253,
+        "members_funded": 12
+      },
+      {
+        "employer": "MILITARY PRODUCE",
+        "total": 8800,
+        "count": 7,
+        "members_funded": 3
+      },
+      {
+        "employer": "INNOVATIVE DEFENSE",
+        "total": 6600,
+        "count": 2,
+        "members_funded": 1
+      },
+      {
+        "employer": "LOCKHEED MARTIN",
+        "total": 5856,
+        "count": 202,
+        "members_funded": 11
+      },
+      {
+        "employer": "UNITED STATES DEPARTMENT OF DEFENSE",
+        "total": 5500,
+        "count": 2,
+        "members_funded": 1
+      },
+      {
+        "employer": "NORTHROP GRUMMAN",
+        "total": 4919,
+        "count": 113,
+        "members_funded": 8
+      },
+      {
+        "employer": "AMERICAN DEFENSE",
+        "total": 4000,
+        "count": 9,
+        "members_funded": 5
+      },
+      {
+        "employer": "RAYTHEON",
+        "total": 3719,
+        "count": 187,
+        "members_funded": 7
+      }
+    ],
+    "Energy & Utilities": [
+      {
+        "employer": "INTERSECT POWER",
+        "total": 55000,
+        "count": 25,
+        "members_funded": 10
+      },
+      {
+        "employer": "NEXTERA ENERGY",
+        "total": 49183,
+        "count": 50,
+        "members_funded": 4
+      },
+      {
+        "employer": "CONSTELLATION",
+        "total": 28367,
+        "count": 44,
+        "members_funded": 4
+      },
+      {
+        "employer": "TEXAS CRUDE ENERGY",
+        "total": 26919,
+        "count": 18,
+        "members_funded": 3
+      },
+      {
+        "employer": "KOCH INDUSTRIES",
+        "total": 22982,
+        "count": 29,
+        "members_funded": 9
+      },
+      {
+        "employer": "CONSTELLATION ENERGY",
+        "total": 20411,
+        "count": 25,
+        "members_funded": 1
+      },
+      {
+        "employer": "CLEAN ENERGY FUELS",
+        "total": 18061,
+        "count": 26,
+        "members_funded": 5
+      },
+      {
+        "employer": "DEVON ENERGY",
+        "total": 17600,
+        "count": 11,
+        "members_funded": 3
+      },
+      {
+        "employer": "CONESTOGA ENERGY",
+        "total": 16500,
+        "count": 6,
+        "members_funded": 4
+      },
+      {
+        "employer": "HELION ENERGY",
+        "total": 15049,
+        "count": 9,
+        "members_funded": 5
+      }
+    ],
+    "Finance & Insurance": [
+      {
+        "employer": "BLACKSTONE",
+        "total": 490426,
+        "count": 196,
+        "members_funded": 38
+      },
+      {
+        "employer": "APOLLO GLOBAL",
+        "total": 332366,
+        "count": 181,
+        "members_funded": 28
+      },
+      {
+        "employer": "APOLLO",
+        "total": 232566,
+        "count": 128,
+        "members_funded": 24
+      },
+      {
+        "employer": "GOLDMAN SACHS",
+        "total": 156126,
+        "count": 103,
+        "members_funded": 16
+      },
+      {
+        "employer": "ANDREESSEN HOROWITZ",
+        "total": 134284,
+        "count": 52,
+        "members_funded": 14
+      },
+      {
+        "employer": "WCAS",
+        "total": 121702,
+        "count": 72,
+        "members_funded": 8
+      },
+      {
+        "employer": "COINBASE",
+        "total": 88171,
+        "count": 67,
+        "members_funded": 15
+      },
+      {
+        "employer": "FISHER INVESTMENTS",
+        "total": 81200,
+        "count": 36,
+        "members_funded": 19
+      },
+      {
+        "employer": "KKR",
+        "total": 80100,
+        "count": 32,
+        "members_funded": 10
+      },
+      {
+        "employer": "WINGED KEEL",
+        "total": 77500,
+        "count": 99,
+        "members_funded": 15
+      }
+    ],
+    "Food & Beverage": [
+      {
+        "employer": "TRIDENT SEAFOODS",
+        "total": 18708,
+        "count": 19,
+        "members_funded": 3
+      },
+      {
+        "employer": "B&G FOOD ENTERPRISES",
+        "total": 13200,
+        "count": 17,
+        "members_funded": 1
+      },
+      {
+        "employer": "BRIMHALL FOODS",
+        "total": 13200,
+        "count": 6,
+        "members_funded": 1
+      },
+      {
+        "employer": "JACKSON FAMILY WINES",
+        "total": 13200,
+        "count": 4,
+        "members_funded": 2
+      },
+      {
+        "employer": "WAWONA FROZEN FOODS",
+        "total": 13200,
+        "count": 6,
+        "members_funded": 1
+      },
+      {
+        "employer": "KATIES SEAFOOD MARKET",
+        "total": 12000,
+        "count": 4,
+        "members_funded": 1
+      },
+      {
+        "employer": "SMITHFIELD FOODS",
+        "total": 10750,
+        "count": 11,
+        "members_funded": 1
+      },
+      {
+        "employer": "MCKEE FOODS",
+        "total": 8300,
+        "count": 4,
+        "members_funded": 2
+      },
+      {
+        "employer": "TYSON FOODS",
+        "total": 7996,
+        "count": 16,
+        "members_funded": 7
+      },
+      {
+        "employer": "FOLKTALE WINERY",
+        "total": 7760,
+        "count": 5,
+        "members_funded": 1
+      }
+    ],
+    "Healthcare & Pharma": [
+      {
+        "employer": "DAVITA",
+        "total": 77518,
+        "count": 72,
+        "members_funded": 9
+      },
+      {
+        "employer": "GRAIL",
+        "total": 60150,
+        "count": 33,
+        "members_funded": 11
+      },
+      {
+        "employer": "ELEVANCE HEALTH",
+        "total": 50023,
+        "count": 51,
+        "members_funded": 8
+      },
+      {
+        "employer": "SELECT MEDICAL",
+        "total": 44400,
+        "count": 19,
+        "members_funded": 8
+      },
+      {
+        "employer": "SANA BIOTECHNOLOGY",
+        "total": 39193,
+        "count": 33,
+        "members_funded": 2
+      },
+      {
+        "employer": "AMGEN",
+        "total": 30725,
+        "count": 21,
+        "members_funded": 11
+      },
+      {
+        "employer": "SENIOR STAR",
+        "total": 26400,
+        "count": 9,
+        "members_funded": 5
+      },
+      {
+        "employer": "LTC PHARMACY",
+        "total": 25000,
+        "count": 17,
+        "members_funded": 4
+      },
+      {
+        "employer": "PFIZER",
+        "total": 24633,
+        "count": 105,
+        "members_funded": 8
+      },
+      {
+        "employer": "TEXAS ONCOLOGY",
+        "total": 23872,
+        "count": 42,
+        "members_funded": 5
+      }
+    ],
+    "Ideological": [
+      {
+        "employer": "ARNOLD VENTURES",
+        "total": 76100,
+        "count": 31,
+        "members_funded": 15
+      },
+      {
+        "employer": "PIVOTAL VENTURES",
+        "total": 36300,
+        "count": 10,
+        "members_funded": 6
+      }
+    ],
+    "Labor": [
+      {
+        "employer": "GTI LABORATORIES",
+        "total": 6600,
+        "count": 2,
+        "members_funded": 1
+      },
+      {
+        "employer": "ABBOTT LABORATORIES",
+        "total": 4128,
+        "count": 9,
+        "members_funded": 4
+      },
+      {
+        "employer": "NATIONAL TAXPAYERS UNION",
+        "total": 4000,
+        "count": 4,
+        "members_funded": 4
+      },
+      {
+        "employer": "UNION PACIFIC",
+        "total": 4000,
+        "count": 4,
+        "members_funded": 2
+      },
+      {
+        "employer": "IEH LABORATORIES",
+        "total": 3700,
+        "count": 2,
+        "members_funded": 1
+      },
+      {
+        "employer": "UNION SQUARE VENTURES",
+        "total": 3300,
+        "count": 1,
+        "members_funded": 1
+      },
+      {
+        "employer": "PACIFIC NORTHWEST NATIONAL LABORATORY",
+        "total": 3056,
+        "count": 7,
+        "members_funded": 1
+      },
+      {
+        "employer": "SERVICE EMPLOYEES UNION",
+        "total": 2575,
+        "count": 4,
+        "members_funded": 2
+      },
+      {
+        "employer": "INTERPORT POLICE",
+        "total": 1750,
+        "count": 3,
+        "members_funded": 2
+      },
+      {
+        "employer": "LEV LABOR",
+        "total": 1500,
+        "count": 1,
+        "members_funded": 1
+      }
+    ],
+    "Lobbying & Gov Relations": [
+      {
+        "employer": "CAPITOL COUNSEL",
+        "total": 213441,
+        "count": 233,
+        "members_funded": 52
+      },
+      {
+        "employer": "CAPITOL TAX",
+        "total": 171103,
+        "count": 175,
+        "members_funded": 35
+      },
+      {
+        "employer": "BGR",
+        "total": 151351,
+        "count": 158,
+        "members_funded": 39
+      },
+      {
+        "employer": "INVARIANT",
+        "total": 134492,
+        "count": 150,
+        "members_funded": 43
+      },
+      {
+        "employer": "BROWNSTEIN HYATT FARBER SCHRECK",
+        "total": 116450,
+        "count": 141,
+        "members_funded": 31
+      },
+      {
+        "employer": "TODD STRATEGY",
+        "total": 84000,
+        "count": 72,
+        "members_funded": 25
+      },
+      {
+        "employer": "AKIN GUMP",
+        "total": 80553,
+        "count": 102,
+        "members_funded": 35
+      },
+      {
+        "employer": "FIERCE GOVERNMENT RELATIONS",
+        "total": 79650,
+        "count": 97,
+        "members_funded": 29
+      },
+      {
+        "employer": "OGILVY GOVERNMENT RELATIONS",
+        "total": 79137,
+        "count": 126,
+        "members_funded": 40
+      },
+      {
+        "employer": "CORNERSTONE GOVERNMENT AFFAIRS",
+        "total": 76601,
+        "count": 101,
+        "members_funded": 33
+      }
+    ],
+    "Other Industry": [
+      {
+        "employer": "MARQUIS",
+        "total": 106900,
+        "count": 55,
+        "members_funded": 7
+      },
+      {
+        "employer": "CAROLYN ROWAN COLLECTION",
+        "total": 92400,
+        "count": 33,
+        "members_funded": 15
+      },
+      {
+        "employer": "PISCES",
+        "total": 73700,
+        "count": 30,
+        "members_funded": 13
+      },
+      {
+        "employer": "PLANO 6500",
+        "total": 72600,
+        "count": 29,
+        "members_funded": 13
+      },
+      {
+        "employer": "UNIVERSITY OF WASHINGTON",
+        "total": 57510,
+        "count": 366,
+        "members_funded": 6
+      },
+      {
+        "employer": "SABIN METAL",
+        "total": 50000,
+        "count": 23,
+        "members_funded": 4
+      },
+      {
+        "employer": "POLARIS",
+        "total": 41550,
+        "count": 33,
+        "members_funded": 12
+      },
+      {
+        "employer": "HARVARD UNIVERSITY",
+        "total": 27034,
+        "count": 347,
+        "members_funded": 12
+      },
+      {
+        "employer": "SPRINGFIELD ARMORY",
+        "total": 25000,
+        "count": 8,
+        "members_funded": 1
+      }
+    ],
+    "Professional Services": [
+      {
+        "employer": "PAUL WEISS RIFKIND WHARTON & GARRISON",
+        "total": 106750,
+        "count": 74,
+        "members_funded": 3
+      },
+      {
+        "employer": "KIRKLAND & ELLIS",
+        "total": 84537,
+        "count": 61,
+        "members_funded": 14
+      },
+      {
+        "employer": "MAYER BROWN",
+        "total": 78379,
+        "count": 124,
+        "members_funded": 32
+      },
+      {
+        "employer": "GREENBERG TRAURIG",
+        "total": 53895,
+        "count": 45,
+        "members_funded": 17
+      },
+      {
+        "employer": "CLIFFORD LAW OFFICES",
+        "total": 38550,
+        "count": 17,
+        "members_funded": 3
+      },
+      {
+        "employer": "ALSTON BIRD",
+        "total": 34500,
+        "count": 44,
+        "members_funded": 17
+      },
+      {
+        "employer": "ERNST & YOUNG",
+        "total": 33762,
+        "count": 86,
+        "members_funded": 23
+      },
+      {
+        "employer": "PAUL WEISS",
+        "total": 29421,
+        "count": 32,
+        "members_funded": 7
+      },
+      {
+        "employer": "FTI",
+        "total": 29252,
+        "count": 47,
+        "members_funded": 18
+      },
+      {
+        "employer": "ALSTON & BIRD",
+        "total": 27150,
+        "count": 38,
+        "members_funded": 14
+      }
+    ],
+    "Real Estate & Housing": [
+      {
+        "employer": "ROCKET COMPANIES",
+        "total": 61100,
+        "count": 23,
+        "members_funded": 13
+      },
+      {
+        "employer": "ROCKET MORTGAGE",
+        "total": 59000,
+        "count": 28,
+        "members_funded": 12
+      },
+      {
+        "employer": "ROCKET CENTRAL",
+        "total": 53768,
+        "count": 23,
+        "members_funded": 13
+      },
+      {
+        "employer": "HOUSING",
+        "total": 42900,
+        "count": 14,
+        "members_funded": 8
+      },
+      {
+        "employer": "COLDWELL BANKER REALTY",
+        "total": 38721,
+        "count": 101,
+        "members_funded": 23
+      },
+      {
+        "employer": "RELATED COMPANIES",
+        "total": 34284,
+        "count": 20,
+        "members_funded": 5
+      },
+      {
+        "employer": "CUMBERLAND DEVELOPMENT",
+        "total": 32999,
+        "count": 12,
+        "members_funded": 5
+      },
+      {
+        "employer": "CULLINAN PROPERTIES",
+        "total": 32600,
+        "count": 14,
+        "members_funded": 8
+      },
+      {
+        "employer": "GFP REAL ESTATE",
+        "total": 26100,
+        "count": 8,
+        "members_funded": 4
+      },
+      {
+        "employer": "ALBANESE ORGANIZATION",
+        "total": 19100,
+        "count": 6,
+        "members_funded": 1
+      }
+    ],
+    "Retail & Consumer": [
+      {
+        "employer": "PROSPECT HOTEL ADVISORS",
+        "total": 17000,
+        "count": 6,
+        "members_funded": 3
+      },
+      {
+        "employer": "WALMART",
+        "total": 11012,
+        "count": 436,
+        "members_funded": 13
+      },
+      {
+        "employer": "LOEWS HOTELS",
+        "total": 9900,
+        "count": 3,
+        "members_funded": 2
+      },
+      {
+        "employer": "THE SPINX",
+        "total": 9900,
+        "count": 6,
+        "members_funded": 1
+      },
+      {
+        "employer": "SOUTHERN SALT RESTAURANT",
+        "total": 8000,
+        "count": 3,
+        "members_funded": 1
+      },
+      {
+        "employer": "MANNIX FAMILY MARKETS",
+        "total": 6600,
+        "count": 5,
+        "members_funded": 1
+      },
+      {
+        "employer": "MY PLACE HOTELS OF AMERICA",
+        "total": 6600,
+        "count": 2,
+        "members_funded": 1
+      },
+      {
+        "employer": "MARINA PACIFIC HOTEL & SUITES",
+        "total": 5000,
+        "count": 4,
+        "members_funded": 4
+      },
+      {
+        "employer": "WIN TIME HOTELS",
+        "total": 4000,
+        "count": 2,
+        "members_funded": 1
+      },
+      {
+        "employer": "NATIONAL RETAIL FEDERATION",
+        "total": 3500,
+        "count": 3,
+        "members_funded": 3
+      }
+    ],
+    "Tech & Telecom": [
+      {
+        "employer": "GOOGLE",
+        "total": 202258,
+        "count": 799,
+        "members_funded": 35
+      },
+      {
+        "employer": "MICROSOFT",
+        "total": 183458,
+        "count": 529,
+        "members_funded": 17
+      },
+      {
+        "employer": "AMAZON",
+        "total": 110167,
+        "count": 363,
+        "members_funded": 16
+      },
+      {
+        "employer": "T-MOBILE",
+        "total": 100115,
+        "count": 86,
+        "members_funded": 5
+      },
+      {
+        "employer": "SEAN N PARKER FOUNDATION",
+        "total": 92400,
+        "count": 35,
+        "members_funded": 14
+      },
+      {
+        "employer": "AT&T",
+        "total": 61462,
+        "count": 240,
+        "members_funded": 14
+      },
+      {
+        "employer": "META",
+        "total": 57062,
+        "count": 154,
+        "members_funded": 12
+      },
+      {
+        "employer": "PALANTIR",
+        "total": 56250,
+        "count": 42,
+        "members_funded": 10
+      },
+      {
+        "employer": "DISH NETWORK",
+        "total": 54950,
+        "count": 41,
+        "members_funded": 6
+      },
+      {
+        "employer": "COMCAST",
+        "total": 50298,
+        "count": 174,
+        "members_funded": 17
+      }
+    ],
+    "Transportation": [
+      {
+        "employer": "UNITED AIRLINES",
+        "total": 80862,
+        "count": 235,
+        "members_funded": 18
+      },
+      {
+        "employer": "ROYAL CARIBBEAN",
+        "total": 53000,
+        "count": 27,
+        "members_funded": 2
+      },
+      {
+        "employer": "DELTA AIR LINES",
+        "total": 52813,
+        "count": 199,
+        "members_funded": 8
+      },
+      {
+        "employer": "DELTA AIRLINES",
+        "total": 30651,
+        "count": 74,
+        "members_funded": 9
+      },
+      {
+        "employer": "AMERICAN AIRLINES",
+        "total": 26724,
+        "count": 144,
+        "members_funded": 17
+      },
+      {
+        "employer": "SALTCHUK",
+        "total": 26589,
+        "count": 19,
+        "members_funded": 1
+      },
+      {
+        "employer": "ALASKA AIRLINES",
+        "total": 16512,
+        "count": 65,
+        "members_funded": 5
+      },
+      {
+        "employer": "MCE AUTOMOTIVE",
+        "total": 16500,
+        "count": 9,
+        "members_funded": 1
+      },
+      {
+        "employer": "BASKIN TRUCK PARTS",
+        "total": 13200,
+        "count": 4,
+        "members_funded": 1
+      },
+      {
+        "employer": "JIM NORTON TOYOTA",
+        "total": 12900,
+        "count": 4,
+        "members_funded": 3
+      }
+    ]
+  },
+  "summary": {
+    "classified_individual_total": 29193013,
+    "pac_total": 37029475,
+    "combined_total": 66222488,
+    "individual_to_pac_ratio": 0.8
+  }
+}

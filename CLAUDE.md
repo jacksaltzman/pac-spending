@@ -24,8 +24,9 @@ A Python data pipeline fetches FEC bulk data, classifies each contribution by ge
 │   ├── members.json           # All 72 tracked members with FEC IDs
 │   ├── employer_aliases.json  # Employer name normalization rules
 │   ├── pac_sectors.json       # Curated PAC → industry sector mappings (75 PACs, 14 sectors)
-│   └── pac_news.json          # Curated news articles about PAC influence on tax policy (12 articles)
-├── scripts/                   # 9-step Python pipeline (00–08)
+│   ├── pac_news.json          # Curated news articles about PAC influence on tax policy (12 articles)
+│   └── committee_history.json # Member committee appointment dates (first_congress, first_year)
+├── scripts/                   # 10-step Python pipeline (00–09)
 │   └── run_all.py             # Orchestrator with checkpoint resume
 ├── utils/                     # Shared: FEC API client, checkpoints, employer normalizer
 ├── data/                      # raw/, processed/ (parquet), reference/, checkpoints/
@@ -48,11 +49,11 @@ A Python data pipeline fetches FEC bulk data, classifies each contribution by ge
 │   │   ├── CopyButton.tsx     # Copy-to-clipboard button
 │   │   └── OneLinerCopy.tsx   # One-liner copy component
 │   ├── lib/
-│   │   ├── data.ts            # Server-side data loaders (13 exports)
+│   │   ├── data.ts            # Server-side data loaders (14 exports)
 │   │   └── utils.ts           # formatMoney, formatPct, memberSlug, partyColor, geoClassColor, cn
 │   ├── scripts/
 │   │   └── import-data.ts     # Pipeline CSV → static JSON converter (also copies pac_news, pac_sectors)
-│   └── data/                  # Static JSON consumed by webapp (10 files)
+│   └── data/                  # Static JSON consumed by webapp (11 files)
 │       ├── members.json       # Member data with geographic breakdowns
 │       ├── pac_spread.json    # PAC spread analysis (enriched with sectors/agendas)
 │       ├── pacs.json          # Per-member PAC contributions
@@ -62,7 +63,8 @@ A Python data pipeline fetches FEC bulk data, classifies each contribution by ge
 │       ├── benchmarks.json    # FEC benchmark comparison data (committee vs all incumbents)
 │       ├── pac_news.json      # Curated news articles
 │       ├── sector_colors.json # Industry sector → color mapping
-│       └── one_liners.json    # Auto-generated member one-liners
+│       ├── one_liners.json    # Auto-generated member one-liners
+│       └── before_after.json  # Before/after committee appointment PAC analysis
 └── requirements.txt           # Python deps: pandas, pyarrow, requests, tqdm
 ```
 
@@ -94,6 +96,7 @@ Pipeline steps:
 6. Normalize employer names
 7. Generate summary statistics — **resolves PAC names from committee master** (not payee names), groups by CMTE_ID, enriches with connected org names
 8. Generate markdown report
+9. Fetch historical PAC receipts via FEC API and analyze before/after committee appointment (`scripts/09_before_after.py`, standalone)
 
 Checkpoints live in `data/checkpoints/`. Delete a checkpoint file to force re-run of that step.
 
@@ -111,6 +114,7 @@ The `import-data` script:
 - Copies `config/pac_news.json` → `webapp/data/pac_news.json`
 - Merges `config/pac_sectors.json` into `pac_spread.json` (sector, agenda, connected_org fields)
 - Generates `sector_colors.json` with consistent color assignments per sector
+- Converts `output/before_after_summary.csv` → `webapp/data/before_after.json` with headline aggregates
 
 ## Data Flow
 
@@ -136,16 +140,18 @@ Additional data:
 | `config/members.json` | Member roster with FEC IDs (updated by step 01) |
 | `config/pac_sectors.json` | Curated mapping: CMTE_ID → sector, agenda, opensecrets_url (75 PACs across 14 sectors) |
 | `config/pac_news.json` | Curated news articles about PAC/tax policy influence (12 articles with title, source, url, date, sector, excerpt) |
+| `config/committee_history.json` | Committee appointment dates for all 72 members (first_congress, first_year) |
 | `scripts/07_analyze.py` | Summary stats generator — resolves PAC names from committee master, computes PAC spread |
+| `scripts/09_before_after.py` | Fetches historical PAC receipts from FEC API, computes before/after committee appointment analysis |
 | `utils/fec_api.py` | Rate-limited FEC API client (1s delay, 5 retries) |
 | `utils/checkpoint.py` | Pipeline checkpoint/resume system |
-| `webapp/lib/data.ts` | Server-side data loaders: getMembers, getMemberBySlug, getPacSpread, getBenchmarks, getNews, getSectorColors, etc. (13 exports) |
+| `webapp/lib/data.ts` | Server-side data loaders: getMembers, getMemberBySlug, getPacSpread, getBenchmarks, getBeforeAfter, getNews, getSectorColors, etc. (14 exports) |
 | `webapp/lib/utils.ts` | formatMoney, formatPct, memberSlug, partyColor, geoClassColor, geoClassLabel, cn |
 | `webapp/app/globals.css` | Tailwind theme: coral (#FE4F40), teal (#4C6971), lime (#D4F72A), paper (#FDFBF9) |
 | `webapp/components/PacCharts.tsx` | Three Recharts visualizations: sector breakdown bar chart, reach-vs-dollars scatter, party split stacked bars |
 | `webapp/components/NewsCard.tsx` | News article card grid with sector dots and hover effects |
 | `webapp/app/pacs/PacsTable.tsx` | Interactive PAC table with search, sector filter, sort controls |
-| `webapp/app/pacs/page.tsx` | PACs page: key findings, benchmarks, charts, sector spotlights, top recipients, news, table |
+| `webapp/app/pacs/page.tsx` | PACs page: key findings, benchmarks, before/after analysis, charts, sector spotlights, top recipients, news, table |
 | `webapp/data/benchmarks.json` | FEC all-incumbents vs committee member comparison (median PAC $, total receipts) |
 
 ## Webapp Page Architecture
@@ -169,6 +175,7 @@ The most feature-rich page. Server component with extensive data processing:
 - **Key findings** — auto-generated narrative bullets (top sector %, bipartisan reach, total PAC $)
 - **Stat cards** — total PACs, broadest-reach PAC, total PAC $, ultra-broad PACs count
 - **"Do Tax-Writers Get More PAC Money?"** — visual benchmark comparison with bar charts (House W&M median vs all incumbents), computed from `benchmarks.json`
+- **"The Committee Seat Premium"** — before/after committee appointment analysis: 3 headline stat cards (median/mean % change, X/Y increased), top 8 gainers table with before/after PAC $, methodology caveat. Data from `before_after.json`
 - **PacCharts** (client component via `PacCharts.tsx`):
   - Sector breakdown horizontal bar chart (color-coded by industry)
   - Reach vs. dollars scatter plot (10+ recipients, colored by sector)

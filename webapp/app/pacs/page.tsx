@@ -5,13 +5,16 @@ import {
   getMembers,
   getBenchmarks,
   getBeforeAfter,
+  getContributionTiming,
   PacSpreadEntry,
+  type EventAnalysisEntry,
 } from "@/lib/data";
 import { formatMoney, memberSlug } from "@/lib/utils";
 import Link from "next/link";
 import StatCard from "@/components/StatCard";
 import EmptyState from "@/components/EmptyState";
 import PacCharts from "@/components/PacCharts";
+import TimingChart from "@/components/TimingChart";
 import NewsCards from "@/components/NewsCard";
 import PacsTable from "./PacsTable";
 
@@ -208,6 +211,29 @@ function buildTopRecipients(
     }));
 }
 
+/* ── Timing narrative builder ─────────────────────────────── */
+
+function buildTimingNarrative(
+  analysis: EventAnalysisEntry[]
+): string {
+  const sectorSpikes = analysis
+    .filter((a) => a.sector_specific && a.spike_ratio != null)
+    .sort((a, b) => (b.spike_ratio ?? 0) - (a.spike_ratio ?? 0));
+
+  if (sectorSpikes.length === 0) {
+    return "PAC contributions to committee members show no statistically meaningful correlation with the legislative calendar. Money flows at a relatively steady rate regardless of when markups or votes occur.";
+  }
+
+  const top = sectorSpikes[0];
+  const eventLabel = top.event_type.replace(/_/g, " ");
+
+  if ((top.spike_ratio ?? 0) >= 1.5) {
+    return `PAC contributions don\u2019t arrive at random. They cluster around the moments that matter most. When Congress acted on ${top.bill}, affected-sector PAC contributions spiked to ${top.spike_ratio}\u00d7 their weekly baseline \u2014 suggesting strategically timed giving, not routine relationship maintenance.`;
+  }
+
+  return `PAC contribution patterns show modest fluctuations around legislative events. The highest spike observed was ${top.spike_ratio}\u00d7 baseline during the ${top.bill} ${eventLabel}, a moderate increase that may reflect seasonal patterns rather than targeted timing.`;
+}
+
 /* ── Page component ───────────────────────────────────────── */
 
 export default function PacsPage() {
@@ -217,6 +243,7 @@ export default function PacsPage() {
   const members = getMembers();
   const benchmarks = getBenchmarks();
   const beforeAfter = getBeforeAfter();
+  const timing = getContributionTiming();
 
   if (!pacs || pacs.length === 0) {
     return (
@@ -591,6 +618,34 @@ export default function PacsPage() {
 
       {/* Charts */}
       <PacCharts pacs={topPacs} sectorColors={sectorColors} />
+
+      {/* ── Contribution Timing ───────────────────────────── */}
+      {timing && (
+        <section className="mt-12 space-y-4">
+          <div>
+            <p
+              className="text-xs uppercase tracking-[0.2em] text-stone-500 mb-1"
+              style={{ fontFamily: "var(--font-display)" }}
+            >
+              Contribution Timing
+            </p>
+            <h2
+              className="text-2xl font-bold text-stone-900"
+              style={{ fontFamily: "var(--font-display)" }}
+            >
+              When Does the Money Move?
+            </h2>
+          </div>
+          <p className="text-sm text-stone-600 max-w-3xl leading-relaxed">
+            {buildTimingNarrative(timing.event_analysis)}
+          </p>
+          <TimingChart timing={timing} sectorColors={sectorColors} />
+          <p className="text-[10px] text-stone-400">
+            Source: FEC bulk contribution data, 2024 election cycle. Legislative
+            event dates from Congress.gov.
+          </p>
+        </section>
+      )}
 
       {/* ── Sector Spotlights ─────────────────────────────── */}
       {sectorSpotlights.length > 0 && (

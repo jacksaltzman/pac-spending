@@ -144,6 +144,34 @@ export interface OneLiner {
   one_liner: string;
 }
 
+export interface BeforeAfterMember {
+  name: string;
+  fec_candidate_id: string;
+  party: string;
+  chamber: string;
+  committee: string;
+  first_year: number | null;
+  cycles_before: number;
+  cycles_after: number;
+  median_pac_before: number | null;
+  median_pac_after: number | null;
+  pct_change_pac: number | null;
+  median_total_before: number | null;
+  median_total_after: number | null;
+  pct_change_total: number | null;
+  flag: string;
+}
+
+export interface BeforeAfterData {
+  headline: {
+    valid_members: number;
+    increased_count: number;
+    median_pct_change: number | null;
+    mean_pct_change: number | null;
+  };
+  members: BeforeAfterMember[];
+}
+
 // --- Data loading via fs (server components only) ---
 
 const DATA_DIR = join(process.cwd(), "data");
@@ -225,4 +253,13 @@ export function getOneLiners(): OneLiner[] {
 export function getOneLinerForMember(name: string): string {
   const entry = getOneLiners().find((o) => o.member_name === name);
   return entry?.one_liner ?? "";
+}
+
+export function getBeforeAfter(): BeforeAfterData | null {
+  try {
+    const raw = readFileSync(join(DATA_DIR, "before_after.json"), "utf-8");
+    return JSON.parse(raw) as BeforeAfterData;
+  } catch {
+    return null;
+  }
 }

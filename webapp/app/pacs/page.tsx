@@ -4,9 +4,10 @@ import {
   getNews,
   getMembers,
   getBenchmarks,
+  getBeforeAfter,
   PacSpreadEntry,
 } from "@/lib/data";
-import { formatMoney } from "@/lib/utils";
+import { formatMoney, memberSlug } from "@/lib/utils";
 import Link from "next/link";
 import StatCard from "@/components/StatCard";
 import EmptyState from "@/components/EmptyState";
@@ -215,6 +216,7 @@ export default function PacsPage() {
   const news = getNews();
   const members = getMembers();
   const benchmarks = getBenchmarks();
+  const beforeAfter = getBeforeAfter();
 
   if (!pacs || pacs.length === 0) {
     return (
@@ -455,6 +457,137 @@ export default function PacsPage() {
           </div>
         </section>
       )}
+
+      {/* ── Before/After Committee Appointment ────────── */}
+      {beforeAfter && beforeAfter.headline.valid_members > 0 && (() => {
+        const { headline, members: baMembers } = beforeAfter;
+        const validMembers = baMembers
+          .filter((m) => m.flag === "" && m.pct_change_pac != null)
+          .sort((a, b) => (b.pct_change_pac ?? 0) - (a.pct_change_pac ?? 0));
+        const topGainers = validMembers.slice(0, 8);
+
+        return (
+          <section className="mb-10">
+            <h2
+              className="text-xs uppercase tracking-[0.2em] text-stone-500 mb-1"
+              style={{ fontFamily: "var(--font-display)" }}
+            >
+              The Committee Seat Premium
+            </h2>
+            <p className="text-xs text-stone-500 mb-5 max-w-2xl leading-relaxed">
+              Do PAC contributions increase after a member joins the tax-writing
+              committee? We compared each member&apos;s median PAC receipts in
+              election cycles <em>before</em> their appointment vs.{" "}
+              <em>after</em>.
+            </p>
+
+            {/* Headline stats */}
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-6">
+              <div className="bg-white border border-[#C8C1B6]/50 rounded-lg p-5 text-center">
+                <p className="text-3xl font-bold text-[#FE4F40]" style={{ fontFamily: "var(--font-display)" }}>
+                  {headline.median_pct_change != null
+                    ? `${headline.median_pct_change > 0 ? "+" : ""}${headline.median_pct_change.toFixed(0)}%`
+                    : "N/A"}
+                </p>
+                <p className="text-xs text-stone-500 mt-1">
+                  Median change in PAC receipts
+                </p>
+              </div>
+              <div className="bg-white border border-[#C8C1B6]/50 rounded-lg p-5 text-center">
+                <p className="text-3xl font-bold text-[#111111]" style={{ fontFamily: "var(--font-display)" }}>
+                  {headline.increased_count}/{headline.valid_members}
+                </p>
+                <p className="text-xs text-stone-500 mt-1">
+                  Members saw PAC money increase
+                </p>
+              </div>
+              <div className="bg-white border border-[#C8C1B6]/50 rounded-lg p-5 text-center">
+                <p className="text-3xl font-bold text-[#4C6971]" style={{ fontFamily: "var(--font-display)" }}>
+                  {headline.mean_pct_change != null
+                    ? `${headline.mean_pct_change > 0 ? "+" : ""}${headline.mean_pct_change.toFixed(0)}%`
+                    : "N/A"}
+                </p>
+                <p className="text-xs text-stone-500 mt-1">
+                  Mean change in PAC receipts
+                </p>
+              </div>
+            </div>
+
+            {/* Before/after table — top gainers */}
+            {topGainers.length > 0 && (
+              <div className="bg-white border border-[#C8C1B6]/50 rounded-lg overflow-hidden">
+                <div className="overflow-x-auto">
+                  <table className="w-full text-sm">
+                    <thead>
+                      <tr className="border-b border-[#C8C1B6]/50 bg-[#F5F0EB]">
+                        <th className="px-4 py-3 text-left text-[10px] uppercase tracking-wider text-stone-500" style={{ fontFamily: "var(--font-display)" }}>
+                          Member
+                        </th>
+                        <th className="px-4 py-3 text-right text-[10px] uppercase tracking-wider text-stone-500" style={{ fontFamily: "var(--font-display)" }}>
+                          Joined
+                        </th>
+                        <th className="px-4 py-3 text-right text-[10px] uppercase tracking-wider text-stone-500" style={{ fontFamily: "var(--font-display)" }}>
+                          PAC $ Before
+                        </th>
+                        <th className="px-4 py-3 text-right text-[10px] uppercase tracking-wider text-stone-500" style={{ fontFamily: "var(--font-display)" }}>
+                          PAC $ After
+                        </th>
+                        <th className="px-4 py-3 text-right text-[10px] uppercase tracking-wider text-stone-500" style={{ fontFamily: "var(--font-display)" }}>
+                          Change
+                        </th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      {topGainers.map((m, i) => {
+                        const slug = memberSlug(m.name);
+                        const change = m.pct_change_pac ?? 0;
+                        return (
+                          <tr
+                            key={m.fec_candidate_id}
+                            className={`border-b border-[#C8C1B6]/30 last:border-b-0 hover:bg-[#F5F0EB] transition-colors ${i % 2 === 0 ? "bg-white" : "bg-[#FDFBF9]"}`}
+                          >
+                            <td className="px-4 py-2.5">
+                              <Link
+                                href={`/members/${slug}`}
+                                className="text-[#111111] font-medium hover:text-[#4C6971] transition-colors"
+                              >
+                                {m.name}
+                              </Link>
+                              <span className="text-xs text-stone-400 ml-2">
+                                ({m.party})
+                              </span>
+                            </td>
+                            <td className="px-4 py-2.5 text-right text-stone-500 tabular-nums">
+                              {m.first_year}
+                            </td>
+                            <td className="px-4 py-2.5 text-right text-stone-500 tabular-nums">
+                              {m.median_pac_before != null ? formatMoney(m.median_pac_before) : "\u2014"}
+                            </td>
+                            <td className="px-4 py-2.5 text-right font-medium text-[#111111] tabular-nums">
+                              {m.median_pac_after != null ? formatMoney(m.median_pac_after) : "\u2014"}
+                            </td>
+                            <td className={`px-4 py-2.5 text-right font-semibold tabular-nums ${change > 0 ? "text-[#FE4F40]" : change < 0 ? "text-[#4C6971]" : "text-stone-400"}`}>
+                              {change > 0 ? "+" : ""}{change.toFixed(0)}%
+                            </td>
+                          </tr>
+                        );
+                      })}
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            )}
+
+            <p className="text-[10px] text-stone-400 mt-2 max-w-2xl leading-relaxed">
+              Based on {headline.valid_members} members with at least one election
+              cycle before and after their committee appointment. Median PAC
+              receipts compared across cycles 2014&ndash;2024. The cycle of appointment
+              is excluded from both groups. Members appointed before 2014 are
+              excluded due to insufficient pre-appointment data.
+            </p>
+          </section>
+        );
+      })()}
 
       {/* Charts */}
       <PacCharts pacs={topPacs} sectorColors={sectorColors} />

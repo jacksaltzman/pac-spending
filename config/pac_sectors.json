@@ -11,6 +11,7 @@
     "Retail & Consumer",
     "Labor",
     "Professional Services",
+    "Lobbying & Gov Relations",
     "Food & Beverage",
     "Construction & Engineering",
     "Ideological",
@@ -27,6 +28,7 @@
     "Retail & Consumer": "#EC4899",
     "Labor": "#EA580C",
     "Professional Services": "#4F46E5",
+    "Lobbying & Gov Relations": "#8B5CF6",
     "Food & Beverage": "#65A30D",
     "Construction & Engineering": "#A16207",
     "Ideological": "#BE185D",
@@ -346,6 +348,7 @@
     "Labor": ["UNION", "WORKERS", "LABOR", "TEACHERS", "FIREFIGHTER", "POLICE", "AFL-CIO", "TEAMSTER", "SEIU"],
     "Professional Services": ["ACCOUNTANT", "ATTORNEY", "LAWYER", "CONSULTING", "PRICEWATERHOUSE", "DELOITTE", "ERNST", "KPMG", "H&R BLOCK"],
     "Food & Beverage": ["BEER", "WINE", "SPIRIT", "BEVERAGE", "FOOD", "RESTAURANT", "GROCERY", "DISTILL"],
+    "Lobbying & Gov Relations": ["LOBBY", "GOVERNMENT RELATIONS", "GOVERNMENT AFFAIRS", "PUBLIC AFFAIRS", "PUBLIC POLICY", "ADVOCACY"],
     "Construction & Engineering": ["CONSTRUCTION", "ENGINEERING", "BUILDING", "CONTRACTOR", "ARCHITECT", "CEMENT", "AGGREGATE"]
   }
 }

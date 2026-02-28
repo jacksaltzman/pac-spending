@@ -1,0 +1,1092 @@
+week_start,sector,total_amount,transaction_count,distinct_pacs,distinct_recipients
+2022-12-26,Other/Unclassified,1000,1,1,1
+2023-01-02,Finance & Insurance,5000,1,1,1
+2023-01-02,Other/Unclassified,67142,41,20,13
+2023-01-09,Construction & Engineering,2500,1,1,1
+2023-01-09,Food & Beverage,20000,4,1,4
+2023-01-09,Healthcare & Pharma,2500,1,1,1
+2023-01-09,Other/Unclassified,1240413,39,26,25
+2023-01-09,Real Estate & Housing,3000,1,1,1
+2023-01-16,Finance & Insurance,11500,5,2,5
+2023-01-16,Healthcare & Pharma,4500,3,2,3
+2023-01-16,Labor,4000,4,1,3
+2023-01-16,Other/Unclassified,134759,67,41,29
+2023-01-16,Real Estate & Housing,6000,3,1,3
+2023-01-23,Finance & Insurance,24500,11,3,8
+2023-01-23,Food & Beverage,10000,2,2,2
+2023-01-23,Healthcare & Pharma,8500,5,4,5
+2023-01-23,Labor,2000,2,1,2
+2023-01-23,Other/Unclassified,230342,99,61,41
+2023-01-23,Professional Services,2500,1,1,1
+2023-01-23,Real Estate & Housing,8000,4,1,4
+2023-01-23,Tech & Telecom,4500,2,2,2
+2023-01-30,Finance & Insurance,50500,14,3,12
+2023-01-30,Healthcare & Pharma,9000,6,3,6
+2023-01-30,Other/Unclassified,256901,142,94,51
+2023-01-30,Professional Services,1000,3,3,3
+2023-01-30,Real Estate & Housing,8000,4,1,4
+2023-01-30,Tech & Telecom,12500,3,2,3
+2023-02-06,Construction & Engineering,-1000,1,1,1
+2023-02-06,Energy & Utilities,2000,2,1,2
+2023-02-06,Finance & Insurance,41500,17,5,15
+2023-02-06,Food & Beverage,2000,1,1,1
+2023-02-06,Healthcare & Pharma,55500,20,7,11
+2023-02-06,Other/Unclassified,372086,105,68,42
+2023-02-06,Professional Services,3750,1,1,1
+2023-02-06,Real Estate & Housing,4500,2,2,2
+2023-02-06,Retail & Consumer,2500,1,1,1
+2023-02-06,Tech & Telecom,15000,6,2,6
+2023-02-06,Transportation,14000,7,1,7
+2023-02-13,Defense & Aerospace,15500,7,1,7
+2023-02-13,Energy & Utilities,8000,5,1,5
+2023-02-13,Finance & Insurance,26500,12,6,11
+2023-02-13,Food & Beverage,2000,2,1,2
+2023-02-13,Healthcare & Pharma,10000,8,3,6
+2023-02-13,Labor,11000,3,1,3
+2023-02-13,Other/Unclassified,690170,156,90,38
+2023-02-13,Professional Services,2500,1,1,1
+2023-02-13,Real Estate & Housing,5000,1,1,1
+2023-02-13,Tech & Telecom,7000,4,2,4
+2023-02-13,Transportation,3000,3,1,3
+2023-02-20,Construction & Engineering,13500,8,1,8
+2023-02-20,Defense & Aerospace,14500,12,2,11
+2023-02-20,Energy & Utilities,2000,2,1,2
+2023-02-20,Finance & Insurance,74000,35,6,25
+2023-02-20,Healthcare & Pharma,8000,6,5,6
+2023-02-20,Labor,7500,5,1,5
+2023-02-20,Other/Unclassified,362201,149,87,48
+2023-02-20,Professional Services,29000,11,3,10
+2023-02-20,Real Estate & Housing,2000,1,1,1
+2023-02-20,Retail & Consumer,1000,1,1,1
+2023-02-20,Tech & Telecom,17000,4,3,4
+2023-02-20,Transportation,14000,7,2,7
+2023-02-27,Defense & Aerospace,13000,6,1,5
+2023-02-27,Finance & Insurance,60000,21,7,14
+2023-02-27,Food & Beverage,2500,1,1,1
+2023-02-27,Healthcare & Pharma,66000,26,6,20
+2023-02-27,Labor,0,8,1,4
+2023-02-27,Other/Unclassified,437992,236,134,57
+2023-02-27,Professional Services,10000,4,1,4
+2023-02-27,Real Estate & Housing,-8000,2,1,2
+2023-02-27,Retail & Consumer,15000,3,1,3
+2023-02-27,Tech & Telecom,16500,6,2,6
+2023-02-27,Transportation,2500,1,1,1
+2023-03-06,Construction & Engineering,17500,7,2,7
+2023-03-06,Defense & Aerospace,2000,2,1,2
+2023-03-06,Finance & Insurance,75500,22,7,17
+2023-03-06,Food & Beverage,12000,6,2,6
+2023-03-06,Healthcare & Pharma,67500,28,6,15
+2023-03-06,Ideological,5000,1,1,1
+2023-03-06,Other/Unclassified,718959,281,160,60
+2023-03-06,Professional Services,7500,2,1,2
+2023-03-06,Real Estate & Housing,37500,10,1,9
+2023-03-06,Tech & Telecom,35000,10,2,9
+2023-03-06,Transportation,3000,7,2,7
+2023-03-13,Defense & Aerospace,3000,3,1,3
+2023-03-13,Energy & Utilities,24000,10,1,9
+2023-03-13,Finance & Insurance,73500,30,8,22
+2023-03-13,Food & Beverage,7000,6,1,5
+2023-03-13,Healthcare & Pharma,95000,42,10,25
+2023-03-13,Other/Unclassified,654696,281,159,56
+2023-03-13,Professional Services,3500,2,2,2
+2023-03-13,Real Estate & Housing,7500,4,2,4
+2023-03-13,Retail & Consumer,5000,3,1,3
+2023-03-13,Tech & Telecom,11000,8,2,6
+2023-03-13,Transportation,39000,11,1,10
+2023-03-20,Construction & Engineering,7500,2,1,1
+2023-03-20,Defense & Aerospace,36500,17,1,13
+2023-03-20,Energy & Utilities,4000,3,1,3
+2023-03-20,Finance & Insurance,222500,95,14,38
+2023-03-20,Food & Beverage,4000,2,2,2
+2023-03-20,Healthcare & Pharma,144500,64,11,32
+2023-03-20,Labor,10000,5,1,5
+2023-03-20,Other/Unclassified,1583722,638,320,65
+2023-03-20,Professional Services,34500,13,3,11
+2023-03-20,Real Estate & Housing,65000,21,3,17
+2023-03-20,Retail & Consumer,53500,13,3,13
+2023-03-20,Tech & Telecom,14000,5,3,5
+2023-03-20,Transportation,11000,6,2,6
+2023-03-27,Construction & Engineering,11000,5,1,5
+2023-03-27,Defense & Aerospace,20500,17,2,12
+2023-03-27,Energy & Utilities,0,2,1,1
+2023-03-27,Finance & Insurance,137500,63,17,33
+2023-03-27,Food & Beverage,12869,9,2,7
+2023-03-27,Healthcare & Pharma,67000,33,8,21
+2023-03-27,Labor,5500,3,1,3
+2023-03-27,Other/Unclassified,1507862,632,356,59
+2023-03-27,Professional Services,52000,18,4,11
+2023-03-27,Real Estate & Housing,5500,3,2,3
+2023-03-27,Retail & Consumer,11000,8,1,8
+2023-03-27,Tech & Telecom,2500,2,2,2
+2023-03-27,Transportation,9500,4,2,4
+2023-04-03,Construction & Engineering,1000,1,1,1
+2023-04-03,Defense & Aerospace,13000,7,1,7
+2023-04-03,Finance & Insurance,24000,14,5,10
+2023-04-03,Healthcare & Pharma,4500,2,2,2
+2023-04-03,Other/Unclassified,250635,102,75,43
+2023-04-03,Real Estate & Housing,7000,4,1,4
+2023-04-03,Retail & Consumer,5000,1,1,1
+2023-04-03,Tech & Telecom,1500,1,1,1
+2023-04-10,Construction & Engineering,8000,2,1,2
+2023-04-10,Finance & Insurance,27000,8,5,6
+2023-04-10,Food & Beverage,3500,2,1,2
+2023-04-10,Healthcare & Pharma,10500,6,3,6
+2023-04-10,Ideological,5000,1,1,1
+2023-04-10,Labor,5000,2,1,2
+2023-04-10,Other/Unclassified,263117,118,82,42
+2023-04-10,Professional Services,5000,1,1,1
+2023-04-10,Real Estate & Housing,2500,1,1,1
+2023-04-10,Transportation,5000,5,1,5
+2023-04-17,Construction & Engineering,-1000,1,1,1
+2023-04-17,Defense & Aerospace,12500,6,1,5
+2023-04-17,Finance & Insurance,21500,12,6,10
+2023-04-17,Food & Beverage,238,1,1,1
+2023-04-17,Healthcare & Pharma,46500,29,8,18
+2023-04-17,Labor,10500,5,1,5
+2023-04-17,Other/Unclassified,346148,163,108,49
+2023-04-17,Professional Services,24500,7,4,7
+2023-04-17,Real Estate & Housing,29000,8,2,6
+2023-04-17,Tech & Telecom,11500,5,2,5
+2023-04-17,Transportation,6000,3,1,3
+2023-04-24,Construction & Engineering,11000,4,1,4
+2023-04-24,Defense & Aerospace,6000,6,1,6
+2023-04-24,Energy & Utilities,4500,3,1,3
+2023-04-24,Finance & Insurance,61000,31,9,19
+2023-04-24,Healthcare & Pharma,31000,18,9,12
+2023-04-24,Labor,4500,5,1,4
+2023-04-24,Other/Unclassified,339733,202,134,59
+2023-04-24,Real Estate & Housing,9500,4,1,4
+2023-04-24,Tech & Telecom,500,3,2,3
+2023-04-24,Transportation,2500,1,1,1
+2023-05-01,Construction & Engineering,2500,1,1,1
+2023-05-01,Defense & Aerospace,4500,4,1,4
+2023-05-01,Energy & Utilities,8000,6,1,6
+2023-05-01,Finance & Insurance,42500,20,7,17
+2023-05-01,Food & Beverage,1500,1,1,1
+2023-05-01,Healthcare & Pharma,24000,11,3,10
+2023-05-01,Other/Unclassified,408531,188,126,54
+2023-05-01,Professional Services,22750,10,3,9
+2023-05-01,Real Estate & Housing,10500,4,2,4
+2023-05-01,Retail & Consumer,7500,3,1,3
+2023-05-01,Tech & Telecom,9500,5,2,5
+2023-05-01,Transportation,3500,2,2,2
+2023-05-08,Construction & Engineering,9000,4,1,3
+2023-05-08,Defense & Aerospace,4500,3,1,2
+2023-05-08,Finance & Insurance,88000,43,11,29
+2023-05-08,Food & Beverage,11000,5,2,4
+2023-05-08,Healthcare & Pharma,12500,8,5,7
+2023-05-08,Ideological,5000,1,1,1
+2023-05-08,Labor,2500,1,1,1
+2023-05-08,Other/Unclassified,420525,238,151,57
+2023-05-08,Real Estate & Housing,15500,6,1,6
+2023-05-08,Tech & Telecom,16500,7,3,6
+2023-05-08,Transportation,2500,1,1,1
+2023-05-15,Construction & Engineering,-4500,4,2,4
+2023-05-15,Defense & Aerospace,1000,1,1,1
+2023-05-15,Energy & Utilities,2000,2,1,2
+2023-05-15,Finance & Insurance,9500,5,4,5
+2023-05-15,Healthcare & Pharma,40000,22,6,15
+2023-05-15,Labor,3500,3,1,2
+2023-05-15,Other/Unclassified,473825,243,141,60
+2023-05-15,Professional Services,32500,13,3,9
+2023-05-15,Real Estate & Housing,27500,11,3,9
+2023-05-15,Tech & Telecom,4000,3,2,3
+2023-05-15,Transportation,8500,6,2,6
+2023-05-22,Construction & Engineering,4000,2,1,2
+2023-05-22,Defense & Aerospace,13000,10,1,9
+2023-05-22,Energy & Utilities,9500,5,1,5
+2023-05-22,Finance & Insurance,62500,32,9,25
+2023-05-22,Food & Beverage,3854,4,2,4
+2023-05-22,Healthcare & Pharma,51500,22,7,21
+2023-05-22,Other/Unclassified,488665,262,134,53
+2023-05-22,Real Estate & Housing,26500,11,3,11
+2023-05-22,Retail & Consumer,11500,6,1,6
+2023-05-22,Tech & Telecom,11000,4,1,4
+2023-05-22,Transportation,4500,2,1,2
+2023-05-29,Defense & Aerospace,15500,16,2,12
+2023-05-29,Finance & Insurance,43000,17,5,14
+2023-05-29,Food & Beverage,4000,1,1,1
+2023-05-29,Healthcare & Pharma,20000,12,4,11
+2023-05-29,Ideological,10000,2,1,2
+2023-05-29,Labor,5500,3,1,3
+2023-05-29,Other/Unclassified,488943,215,116,57
+2023-05-29,Retail & Consumer,42500,11,1,10
+2023-05-29,Tech & Telecom,16500,11,3,11
+2023-05-29,Transportation,18000,12,2,11
+2023-06-05,Defense & Aerospace,12500,3,1,3
+2023-06-05,Energy & Utilities,11000,6,1,6
+2023-06-05,Finance & Insurance,122000,53,10,28
+2023-06-05,Food & Beverage,8500,5,1,5
+2023-06-05,Healthcare & Pharma,32500,23,9,20
+2023-06-05,Ideological,15050,13,1,4
+2023-06-05,Labor,9500,5,1,5
+2023-06-05,Other/Unclassified,519346,283,154,59
+2023-06-05,Professional Services,61750,24,4,23
+2023-06-05,Tech & Telecom,25500,11,3,8
+2023-06-05,Transportation,1500,1,1,1
+2023-06-12,Defense & Aerospace,9000,8,1,8
+2023-06-12,Energy & Utilities,8500,6,1,6
+2023-06-12,Finance & Insurance,58000,27,6,18
+2023-06-12,Healthcare & Pharma,51500,30,7,22
+2023-06-12,Ideological,6250,2,1,2
+2023-06-12,Other/Unclassified,811203,420,207,57
+2023-06-12,Professional Services,26250,11,3,10
+2023-06-12,Real Estate & Housing,16000,9,4,8
+2023-06-12,Retail & Consumer,10000,3,2,3
+2023-06-12,Tech & Telecom,4500,3,3,3
+2023-06-12,Transportation,4000,4,1,4
+2023-06-19,Construction & Engineering,11000,4,1,4
+2023-06-19,Defense & Aerospace,12500,11,2,10
+2023-06-19,Finance & Insurance,81000,47,14,26
+2023-06-19,Food & Beverage,1500,1,1,1
+2023-06-19,Healthcare & Pharma,92500,51,11,28
+2023-06-19,Ideological,11100,4,1,1
+2023-06-19,Labor,1000,1,1,1
+2023-06-19,Other/Unclassified,1076691,504,267,61
+2023-06-19,Real Estate & Housing,3500,2,2,2
+2023-06-19,Retail & Consumer,18500,14,1,13
+2023-06-19,Tech & Telecom,4000,3,2,3
+2023-06-26,Construction & Engineering,5000,4,1,3
+2023-06-26,Defense & Aerospace,26000,22,2,15
+2023-06-26,Finance & Insurance,109500,47,12,29
+2023-06-26,Food & Beverage,10000,6,2,5
+2023-06-26,Healthcare & Pharma,56000,36,12,25
+2023-06-26,Ideological,5691,45,2,9
+2023-06-26,Other/Unclassified,1320801,580,277,66
+2023-06-26,Professional Services,65000,26,5,20
+2023-06-26,Real Estate & Housing,7000,3,1,3
+2023-06-26,Retail & Consumer,12500,3,1,3
+2023-06-26,Tech & Telecom,29000,12,3,10
+2023-06-26,Transportation,67500,24,3,21
+2023-07-03,Construction & Engineering,2500,1,1,1
+2023-07-03,Ideological,40806,388,2,18
+2023-07-03,Labor,2000,1,1,1
+2023-07-03,Other/Unclassified,125612,66,43,31
+2023-07-10,Energy & Utilities,6500,4,1,4
+2023-07-10,Finance & Insurance,13000,7,4,6
+2023-07-10,Food & Beverage,2500,1,1,1
+2023-07-10,Healthcare & Pharma,15000,7,1,7
+2023-07-10,Ideological,8863,235,1,16
+2023-07-10,Labor,3500,3,1,3
+2023-07-10,Other/Unclassified,309894,203,123,57
+2023-07-10,Professional Services,12000,5,1,5
+2023-07-10,Real Estate & Housing,38500,15,3,15
+2023-07-10,Tech & Telecom,2500,1,1,1
+2023-07-17,Defense & Aerospace,4500,3,1,3
+2023-07-17,Energy & Utilities,10000,6,1,6
+2023-07-17,Finance & Insurance,36500,18,6,14
+2023-07-17,Food & Beverage,5000,3,1,3
+2023-07-17,Healthcare & Pharma,62000,34,9,21
+2023-07-17,Ideological,5133,194,1,16
+2023-07-17,Labor,1000,1,1,1
+2023-07-17,Other/Unclassified,323941,193,109,59
+2023-07-17,Professional Services,7000,3,1,3
+2023-07-17,Real Estate & Housing,2500,1,1,1
+2023-07-17,Retail & Consumer,3500,1,1,1
+2023-07-17,Tech & Telecom,23500,9,4,7
+2023-07-17,Transportation,19500,10,2,10
+2023-07-24,Construction & Engineering,6000,6,1,5
+2023-07-24,Defense & Aerospace,15500,12,2,11
+2023-07-24,Energy & Utilities,1000,1,1,1
+2023-07-24,Finance & Insurance,67500,34,10,27
+2023-07-24,Healthcare & Pharma,16000,10,6,9
+2023-07-24,Ideological,17371,214,1,12
+2023-07-24,Labor,1000,1,1,1
+2023-07-24,Other/Unclassified,427856,237,137,56
+2023-07-24,Professional Services,17000,4,2,3
+2023-07-24,Real Estate & Housing,6000,3,2,3
+2023-07-24,Tech & Telecom,6000,3,2,2
+2023-07-31,Defense & Aerospace,7000,7,1,7
+2023-07-31,Energy & Utilities,2000,2,1,2
+2023-07-31,Finance & Insurance,32500,16,4,12
+2023-07-31,Healthcare & Pharma,22500,12,5,9
+2023-07-31,Ideological,21471,295,2,16
+2023-07-31,Labor,2000,2,1,2
+2023-07-31,Other/Unclassified,225714,138,82,50
+2023-07-31,Professional Services,29000,12,3,9
+2023-07-31,Real Estate & Housing,19500,10,2,10
+2023-07-31,Retail & Consumer,21000,10,2,9
+2023-07-31,Tech & Telecom,-1500,2,1,2
+2023-07-31,Transportation,17000,6,3,5
+2023-08-07,Energy & Utilities,2500,1,1,1
+2023-08-07,Finance & Insurance,26500,15,5,14
+2023-08-07,Healthcare & Pharma,14500,7,4,6
+2023-08-07,Ideological,10737,239,2,20
+2023-08-07,Labor,3500,2,1,2
+2023-08-07,Other/Unclassified,183974,90,57,39
+2023-08-07,Professional Services,1500,2,1,2
+2023-08-07,Real Estate & Housing,3500,2,2,2
+2023-08-07,Retail & Consumer,2000,2,1,2
+2023-08-07,Tech & Telecom,16500,7,1,6
+2023-08-14,Construction & Engineering,11500,3,1,3
+2023-08-14,Defense & Aerospace,18000,9,1,9
+2023-08-14,Finance & Insurance,29000,13,5,12
+2023-08-14,Healthcare & Pharma,14000,10,4,10
+2023-08-14,Ideological,14792,275,2,20
+2023-08-14,Labor,1000,1,1,1
+2023-08-14,Other/Unclassified,225450,127,78,50
+2023-08-14,Real Estate & Housing,1500,2,2,2
+2023-08-14,Retail & Consumer,1000,1,1,1
+2023-08-14,Tech & Telecom,10000,2,2,2
+2023-08-14,Transportation,6500,3,1,3
+2023-08-21,Construction & Engineering,7500,2,1,2
+2023-08-21,Defense & Aerospace,5500,3,1,2
+2023-08-21,Energy & Utilities,6000,4,1,4
+2023-08-21,Finance & Insurance,26500,12,6,11
+2023-08-21,Food & Beverage,13281,6,2,5
+2023-08-21,Healthcare & Pharma,14000,10,4,9
+2023-08-21,Ideological,18111,295,2,17
+2023-08-21,Other/Unclassified,217060,113,66,45
+2023-08-21,Real Estate & Housing,3500,2,2,2
+2023-08-21,Retail & Consumer,6000,4,1,4
+2023-08-21,Tech & Telecom,3500,1,1,1
+2023-08-21,Transportation,5000,1,1,1
+2023-08-28,Construction & Engineering,9000,3,1,2
+2023-08-28,Finance & Insurance,16000,7,3,7
+2023-08-28,Food & Beverage,3500,1,1,1
+2023-08-28,Healthcare & Pharma,14000,7,2,6
+2023-08-28,Ideological,16359,229,2,19
+2023-08-28,Other/Unclassified,257928,150,86,48
+2023-08-28,Real Estate & Housing,7500,2,1,2
+2023-08-28,Tech & Telecom,5000,1,1,1
+2023-08-28,Transportation,17000,7,3,7
+2023-09-04,Construction & Engineering,12500,5,1,4
+2023-09-04,Finance & Insurance,24500,17,6,15
+2023-09-04,Food & Beverage,1500,1,1,1
+2023-09-04,Healthcare & Pharma,14000,9,5,7
+2023-09-04,Ideological,25434,420,2,21
+2023-09-04,Other/Unclassified,232640,158,100,50
+2023-09-04,Professional Services,2500,1,1,1
+2023-09-04,Real Estate & Housing,2500,1,1,1
+2023-09-04,Retail & Consumer,2500,1,1,1
+2023-09-04,Tech & Telecom,3500,2,2,2
+2023-09-04,Transportation,22500,5,1,5
+2023-09-11,Construction & Engineering,2500,1,1,1
+2023-09-11,Energy & Utilities,2000,2,1,2
+2023-09-11,Finance & Insurance,38500,19,6,11
+2023-09-11,Food & Beverage,6500,4,1,4
+2023-09-11,Healthcare & Pharma,65000,34,9,23
+2023-09-11,Ideological,20538,191,2,20
+2023-09-11,Other/Unclassified,658926,368,194,61
+2023-09-11,Professional Services,30000,9,3,5
+2023-09-11,Real Estate & Housing,15500,7,3,6
+2023-09-11,Retail & Consumer,2500,1,1,1
+2023-09-11,Tech & Telecom,32500,16,2,14
+2023-09-11,Transportation,12500,3,2,3
+2023-09-18,Construction & Engineering,19000,6,1,6
+2023-09-18,Defense & Aerospace,40000,16,2,12
+2023-09-18,Energy & Utilities,11000,9,1,8
+2023-09-18,Finance & Insurance,105500,52,12,35
+2023-09-18,Food & Beverage,18500,5,2,4
+2023-09-18,Healthcare & Pharma,64000,34,9,24
+2023-09-18,Ideological,7765,201,1,16
+2023-09-18,Other/Unclassified,841293,469,241,66
+2023-09-18,Professional Services,75750,39,5,21
+2023-09-18,Real Estate & Housing,2000,2,1,2
+2023-09-18,Retail & Consumer,2000,2,1,2
+2023-09-18,Tech & Telecom,18500,7,3,6
+2023-09-18,Transportation,20000,13,2,12
+2023-09-25,Defense & Aerospace,21000,18,2,15
+2023-09-25,Finance & Insurance,148000,71,17,35
+2023-09-25,Food & Beverage,5000,2,2,2
+2023-09-25,Healthcare & Pharma,94500,54,11,29
+2023-09-25,Ideological,6027,373,1,17
+2023-09-25,Labor,6500,4,1,4
+2023-09-25,Other/Unclassified,1620764,799,376,65
+2023-09-25,Professional Services,23250,9,4,8
+2023-09-25,Real Estate & Housing,27000,14,3,14
+2023-09-25,Retail & Consumer,29500,13,2,12
+2023-09-25,Tech & Telecom,26000,14,4,13
+2023-09-25,Transportation,26500,12,3,12
+2023-10-02,Construction & Engineering,18000,9,1,8
+2023-10-02,Defense & Aerospace,8500,8,1,8
+2023-10-02,Finance & Insurance,24500,12,3,11
+2023-10-02,Healthcare & Pharma,14500,8,3,7
+2023-10-02,Ideological,25240,361,2,26
+2023-10-02,Other/Unclassified,236696,124,89,51
+2023-10-02,Real Estate & Housing,9000,3,2,2
+2023-10-02,Transportation,5000,1,1,1
+2023-10-09,Energy & Utilities,11500,11,1,9
+2023-10-09,Finance & Insurance,39500,18,8,14
+2023-10-09,Food & Beverage,12500,4,1,4
+2023-10-09,Healthcare & Pharma,6500,3,2,3
+2023-10-09,Ideological,46873,341,2,30
+2023-10-09,Other/Unclassified,236695,146,83,49
+2023-10-09,Professional Services,11250,5,2,5
+2023-10-09,Real Estate & Housing,18500,8,3,7
+2023-10-09,Tech & Telecom,2000,1,1,1
+2023-10-09,Transportation,5000,1,1,1
+2023-10-16,Finance & Insurance,35000,15,3,13
+2023-10-16,Food & Beverage,3500,2,1,2
+2023-10-16,Healthcare & Pharma,38500,23,6,18
+2023-10-16,Ideological,19274,575,2,32
+2023-10-16,Other/Unclassified,355120,211,138,58
+2023-10-16,Real Estate & Housing,5500,4,2,4
+2023-10-16,Transportation,14500,7,2,6
+2023-10-23,Construction & Engineering,4000,1,1,1
+2023-10-23,Defense & Aerospace,4500,4,1,4
+2023-10-23,Finance & Insurance,44500,19,7,13
+2023-10-23,Healthcare & Pharma,26500,14,7,12
+2023-10-23,Ideological,67005,469,2,29
+2023-10-23,Other/Unclassified,516776,291,173,63
+2023-10-23,Professional Services,10000,3,1,2
+2023-10-23,Real Estate & Housing,15500,8,3,8
+2023-10-23,Tech & Telecom,7000,2,2,2
+2023-10-23,Transportation,19500,9,2,8
+2023-10-30,Construction & Engineering,3500,2,1,2
+2023-10-30,Defense & Aerospace,28000,18,3,11
+2023-10-30,Finance & Insurance,72000,27,8,17
+2023-10-30,Food & Beverage,21000,10,1,10
+2023-10-30,Healthcare & Pharma,17000,15,3,12
+2023-10-30,Ideological,11381,208,2,17
+2023-10-30,Labor,4500,3,1,3
+2023-10-30,Other/Unclassified,475177,232,150,58
+2023-10-30,Professional Services,10250,6,2,6
+2023-10-30,Real Estate & Housing,3500,3,3,3
+2023-10-30,Tech & Telecom,20000,12,3,12
+2023-10-30,Transportation,21000,14,3,13
+2023-11-06,Construction & Engineering,15500,9,2,9
+2023-11-06,Energy & Utilities,16500,14,1,12
+2023-11-06,Finance & Insurance,22500,11,6,10
+2023-11-06,Healthcare & Pharma,66500,34,6,23
+2023-11-06,Ideological,9034,326,1,16
+2023-11-06,Other/Unclassified,362110,217,131,55
+2023-11-06,Professional Services,50500,14,4,12
+2023-11-06,Real Estate & Housing,4500,3,3,3
+2023-11-06,Tech & Telecom,17500,8,3,8
+2023-11-13,Construction & Engineering,1000,1,1,1
+2023-11-13,Energy & Utilities,1000,1,1,1
+2023-11-13,Finance & Insurance,99000,43,10,29
+2023-11-13,Food & Beverage,5300,7,2,7
+2023-11-13,Healthcare & Pharma,32500,20,5,16
+2023-11-13,Ideological,33707,460,2,19
+2023-11-13,Labor,4000,2,1,2
+2023-11-13,Other/Unclassified,439763,267,151,60
+2023-11-13,Professional Services,10500,6,3,5
+2023-11-13,Retail & Consumer,4500,3,1,3
+2023-11-13,Tech & Telecom,3500,4,2,3
+2023-11-13,Transportation,5000,1,1,1
+2023-11-20,Defense & Aerospace,5000,5,2,4
+2023-11-20,Finance & Insurance,4500,3,2,3
+2023-11-20,Healthcare & Pharma,27500,14,4,11
+2023-11-20,Ideological,9343,246,1,16
+2023-11-20,Labor,1500,1,1,1
+2023-11-20,Other/Unclassified,219318,138,65,48
+2023-11-20,Professional Services,7250,4,2,4
+2023-11-20,Real Estate & Housing,1000,1,1,1
+2023-11-20,Tech & Telecom,13000,4,2,4
+2023-11-20,Transportation,5000,1,1,1
+2023-11-27,Construction & Engineering,1000,1,1,1
+2023-11-27,Defense & Aerospace,13500,12,2,10
+2023-11-27,Finance & Insurance,53500,36,10,27
+2023-11-27,Food & Beverage,2500,2,1,2
+2023-11-27,Healthcare & Pharma,40000,24,7,20
+2023-11-27,Ideological,21588,272,1,26
+2023-11-27,Other/Unclassified,614029,346,185,64
+2023-11-27,Professional Services,22250,14,3,13
+2023-11-27,Real Estate & Housing,18000,7,1,7
+2023-11-27,Tech & Telecom,26500,16,3,15
+2023-12-04,Defense & Aerospace,16500,14,2,13
+2023-12-04,Energy & Utilities,12500,11,1,10
+2023-12-04,Finance & Insurance,49000,22,9,14
+2023-12-04,Food & Beverage,2500,1,1,1
+2023-12-04,Healthcare & Pharma,47000,35,10,26
+2023-12-04,Ideological,5845,257,1,20
+2023-12-04,Labor,2000,2,1,2
+2023-12-04,Other/Unclassified,803649,428,229,65
+2023-12-04,Professional Services,14500,6,2,6
+2023-12-04,Real Estate & Housing,40000,18,4,17
+2023-12-04,Retail & Consumer,18000,10,2,9
+2023-12-04,Tech & Telecom,4500,2,1,2
+2023-12-04,Transportation,29500,16,2,12
+2023-12-11,Construction & Engineering,1000,1,1,1
+2023-12-11,Finance & Insurance,133000,71,15,40
+2023-12-11,Healthcare & Pharma,69000,42,11,28
+2023-12-11,Ideological,17004,266,1,21
+2023-12-11,Labor,5500,4,1,3
+2023-12-11,Other/Unclassified,971544,569,292,64
+2023-12-11,Professional Services,28750,17,4,13
+2023-12-11,Real Estate & Housing,28000,10,3,9
+2023-12-11,Retail & Consumer,35000,8,1,8
+2023-12-11,Tech & Telecom,15000,11,3,10
+2023-12-11,Transportation,23000,13,4,13
+2023-12-18,Defense & Aerospace,9500,8,2,8
+2023-12-18,Energy & Utilities,3500,4,1,4
+2023-12-18,Finance & Insurance,113000,49,12,31
+2023-12-18,Food & Beverage,13000,4,2,4
+2023-12-18,Healthcare & Pharma,11500,9,5,8
+2023-12-18,Ideological,13055,234,2,20
+2023-12-18,Other/Unclassified,889032,424,193,61
+2023-12-18,Professional Services,26000,14,2,11
+2023-12-18,Real Estate & Housing,1000,1,1,1
+2023-12-18,Retail & Consumer,12000,8,1,8
+2023-12-18,Tech & Telecom,14000,8,3,7
+2023-12-25,Construction & Engineering,6500,5,1,4
+2023-12-25,Finance & Insurance,22500,6,2,5
+2023-12-25,Healthcare & Pharma,-9000,4,1,3
+2023-12-25,Ideological,5771,166,1,13
+2023-12-25,Other/Unclassified,227813,122,71,47
+2024-01-01,Finance & Insurance,2500,1,1,1
+2024-01-01,Healthcare & Pharma,20500,10,4,10
+2024-01-01,Ideological,-3104,328,2,23
+2024-01-01,Labor,1000,1,1,1
+2024-01-01,Other/Unclassified,210005,87,47,34
+2024-01-01,Real Estate & Housing,8500,2,1,2
+2024-01-08,Energy & Utilities,3500,2,1,2
+2024-01-08,Finance & Insurance,1000,1,1,1
+2024-01-08,Healthcare & Pharma,10500,9,4,8
+2024-01-08,Ideological,-7572,456,1,25
+2024-01-08,Other/Unclassified,909790,136,95,41
+2024-01-08,Professional Services,8000,6,1,2
+2024-01-08,Transportation,8000,3,2,3
+2024-01-15,Construction & Engineering,2000,2,1,2
+2024-01-15,Energy & Utilities,2500,1,1,1
+2024-01-15,Finance & Insurance,40500,19,8,16
+2024-01-15,Healthcare & Pharma,35000,15,5,10
+2024-01-15,Ideological,-8628,254,1,13
+2024-01-15,Other/Unclassified,2886890,149,96,41
+2024-01-15,Professional Services,1750,2,2,2
+2024-01-15,Real Estate & Housing,5000,2,1,2
+2024-01-22,Construction & Engineering,4500,2,1,2
+2024-01-22,Defense & Aerospace,2500,2,1,2
+2024-01-22,Energy & Utilities,12500,8,1,7
+2024-01-22,Finance & Insurance,75500,34,9,19
+2024-01-22,Food & Beverage,11000,6,2,5
+2024-01-22,Healthcare & Pharma,65000,29,10,24
+2024-01-22,Ideological,-11880,202,1,15
+2024-01-22,Labor,8000,7,1,4
+2024-01-22,Other/Unclassified,1312095,213,128,49
+2024-01-22,Professional Services,12250,6,2,6
+2024-01-22,Transportation,1000,1,1,1
+2024-01-29,Construction & Engineering,2000,1,1,1
+2024-01-29,Finance & Insurance,51500,24,11,13
+2024-01-29,Food & Beverage,12500,4,1,4
+2024-01-29,Healthcare & Pharma,53000,23,4,17
+2024-01-29,Ideological,-16019,254,1,17
+2024-01-29,Other/Unclassified,4253897,275,170,55
+2024-01-29,Professional Services,11500,4,2,4
+2024-01-29,Real Estate & Housing,19500,5,1,5
+2024-01-29,Retail & Consumer,17500,5,1,5
+2024-01-29,Tech & Telecom,1000,1,1,1
+2024-01-29,Transportation,16000,5,1,5
+2024-02-05,Construction & Engineering,1000,3,2,3
+2024-02-05,Defense & Aerospace,7500,11,2,6
+2024-02-05,Energy & Utilities,14000,10,1,9
+2024-02-05,Finance & Insurance,26500,13,8,12
+2024-02-05,Food & Beverage,14000,6,1,6
+2024-02-05,Healthcare & Pharma,57500,31,8,18
+2024-02-05,Ideological,-6988,321,1,16
+2024-02-05,Other/Unclassified,2149397,317,195,55
+2024-02-05,Professional Services,7250,7,3,6
+2024-02-05,Real Estate & Housing,7500,2,2,2
+2024-02-05,Retail & Consumer,2500,1,1,1
+2024-02-05,Tech & Telecom,19000,7,1,7
+2024-02-05,Transportation,5500,4,1,3
+2024-02-12,Construction & Engineering,6000,3,1,2
+2024-02-12,Defense & Aerospace,1000,1,1,1
+2024-02-12,Energy & Utilities,2500,1,1,1
+2024-02-12,Finance & Insurance,99500,50,9,30
+2024-02-12,Healthcare & Pharma,23000,16,8,14
+2024-02-12,Ideological,-2389,213,1,15
+2024-02-12,Other/Unclassified,1063295,338,173,57
+2024-02-12,Professional Services,30000,11,3,9
+2024-02-12,Real Estate & Housing,6500,3,2,3
+2024-02-12,Tech & Telecom,15500,9,2,9
+2024-02-12,Transportation,19000,12,1,10
+2024-02-19,Construction & Engineering,5000,1,1,1
+2024-02-19,Defense & Aerospace,1000,1,1,1
+2024-02-19,Finance & Insurance,82500,40,9,28
+2024-02-19,Healthcare & Pharma,23500,13,5,11
+2024-02-19,Ideological,-650654,628,1,18
+2024-02-19,Labor,17000,8,1,6
+2024-02-19,Other/Unclassified,621127,304,157,59
+2024-02-19,Professional Services,-1000,2,2,2
+2024-02-19,Real Estate & Housing,11000,7,3,7
+2024-02-19,Tech & Telecom,2500,3,2,3
+2024-02-19,Transportation,29000,13,2,10
+2024-02-26,Construction & Engineering,12500,8,2,6
+2024-02-26,Defense & Aerospace,24000,15,2,13
+2024-02-26,Energy & Utilities,11000,5,1,4
+2024-02-26,Finance & Insurance,108500,46,11,27
+2024-02-26,Food & Beverage,10300,4,1,4
+2024-02-26,Healthcare & Pharma,114500,63,13,33
+2024-02-26,Ideological,-95330,842,1,23
+2024-02-26,Labor,3000,3,1,3
+2024-02-26,Other/Unclassified,983546,460,241,62
+2024-02-26,Professional Services,37750,14,3,13
+2024-02-26,Real Estate & Housing,26000,8,3,7
+2024-02-26,Retail & Consumer,33000,18,2,17
+2024-02-26,Tech & Telecom,25500,13,4,13
+2024-02-26,Transportation,10500,5,2,5
+2024-03-04,Defense & Aerospace,1000,1,1,1
+2024-03-04,Finance & Insurance,86500,44,8,25
+2024-03-04,Healthcare & Pharma,17000,10,3,10
+2024-03-04,Ideological,-8579,394,1,19
+2024-03-04,Other/Unclassified,812381,410,220,61
+2024-03-04,Professional Services,10000,4,1,4
+2024-03-04,Real Estate & Housing,27500,6,2,6
+2024-03-04,Retail & Consumer,14000,6,2,5
+2024-03-04,Tech & Telecom,41000,14,1,11
+2024-03-11,Construction & Engineering,3500,2,1,2
+2024-03-11,Defense & Aerospace,3500,3,2,2
+2024-03-11,Energy & Utilities,11500,12,1,10
+2024-03-11,Finance & Insurance,147500,59,14,30
+2024-03-11,Food & Beverage,8041,4,1,3
+2024-03-11,Healthcare & Pharma,60500,33,9,19
+2024-03-11,Ideological,-6624,204,1,14
+2024-03-11,Labor,7000,4,1,3
+2024-03-11,Other/Unclassified,834084,371,203,60
+2024-03-11,Professional Services,11500,4,1,3
+2024-03-11,Real Estate & Housing,3000,2,2,1
+2024-03-11,Retail & Consumer,3000,2,1,2
+2024-03-11,Tech & Telecom,20000,10,2,9
+2024-03-11,Transportation,49000,13,2,10
+2024-03-18,Construction & Engineering,10000,4,1,3
+2024-03-18,Defense & Aerospace,25000,19,3,14
+2024-03-18,Energy & Utilities,2500,3,1,3
+2024-03-18,Finance & Insurance,84000,40,11,27
+2024-03-18,Healthcare & Pharma,104500,52,15,27
+2024-03-18,Ideological,-16368,238,1,20
+2024-03-18,Labor,1000,1,1,1
+2024-03-18,Other/Unclassified,1218400,592,271,63
+2024-03-18,Professional Services,62750,26,4,14
+2024-03-18,Real Estate & Housing,33000,10,2,10
+2024-03-18,Retail & Consumer,2500,1,1,1
+2024-03-18,Tech & Telecom,6500,5,2,5
+2024-03-18,Transportation,3500,2,1,2
+2024-03-25,Construction & Engineering,28000,12,2,10
+2024-03-25,Defense & Aerospace,4000,5,2,3
+2024-03-25,Energy & Utilities,3000,2,1,2
+2024-03-25,Finance & Insurance,144000,67,14,36
+2024-03-25,Food & Beverage,5000,8,2,8
+2024-03-25,Healthcare & Pharma,21000,16,6,12
+2024-03-25,Ideological,-30664,317,1,22
+2024-03-25,Labor,1000,1,1,1
+2024-03-25,Other/Unclassified,1072801,538,280,63
+2024-03-25,Professional Services,14000,5,4,4
+2024-03-25,Real Estate & Housing,19500,10,2,10
+2024-03-25,Retail & Consumer,23000,8,2,6
+2024-03-25,Tech & Telecom,47000,16,4,11
+2024-03-25,Transportation,13500,13,4,11
+2024-04-01,Construction & Engineering,22000,7,1,6
+2024-04-01,Finance & Insurance,12500,7,2,6
+2024-04-01,Food & Beverage,16000,8,1,6
+2024-04-01,Healthcare & Pharma,13500,10,6,7
+2024-04-01,Ideological,-4815,308,2,27
+2024-04-01,Labor,6000,3,1,3
+2024-04-01,Other/Unclassified,262086,157,95,49
+2024-04-01,Professional Services,-2500,1,1,1
+2024-04-01,Real Estate & Housing,6000,2,1,2
+2024-04-01,Retail & Consumer,4000,1,1,1
+2024-04-01,Tech & Telecom,5000,1,1,1
+2024-04-01,Transportation,2500,1,1,1
+2024-04-08,Defense & Aerospace,1000,1,1,1
+2024-04-08,Energy & Utilities,7000,4,1,4
+2024-04-08,Finance & Insurance,43500,17,5,14
+2024-04-08,Food & Beverage,7500,2,1,2
+2024-04-08,Healthcare & Pharma,47500,20,4,17
+2024-04-08,Ideological,50843,280,2,38
+2024-04-08,Labor,4000,2,1,2
+2024-04-08,Other/Unclassified,463601,195,120,54
+2024-04-08,Professional Services,10000,2,1,2
+2024-04-08,Real Estate & Housing,10000,2,2,2
+2024-04-08,Retail & Consumer,1000,1,1,1
+2024-04-08,Tech & Telecom,7500,4,1,3
+2024-04-08,Transportation,4500,3,1,3
+2024-04-15,Construction & Engineering,7500,2,1,2
+2024-04-15,Defense & Aerospace,5000,5,2,4
+2024-04-15,Energy & Utilities,1000,1,1,1
+2024-04-15,Finance & Insurance,83000,30,7,24
+2024-04-15,Food & Beverage,5000,2,1,2
+2024-04-15,Healthcare & Pharma,15000,7,3,6
+2024-04-15,Ideological,3775,287,2,44
+2024-04-15,Labor,2500,1,1,1
+2024-04-15,Other/Unclassified,623798,285,151,57
+2024-04-15,Professional Services,24750,9,3,9
+2024-04-15,Real Estate & Housing,5000,1,1,1
+2024-04-15,Tech & Telecom,30500,13,4,13
+2024-04-22,Construction & Engineering,21000,7,1,5
+2024-04-22,Defense & Aerospace,11000,6,1,5
+2024-04-22,Energy & Utilities,5500,7,1,6
+2024-04-22,Finance & Insurance,43500,19,7,15
+2024-04-22,Food & Beverage,1000,1,1,1
+2024-04-22,Healthcare & Pharma,57000,29,9,18
+2024-04-22,Ideological,26853,242,2,23
+2024-04-22,Labor,1000,1,1,1
+2024-04-22,Other/Unclassified,549111,274,153,56
+2024-04-22,Professional Services,32500,11,2,9
+2024-04-22,Real Estate & Housing,11500,4,2,4
+2024-04-22,Retail & Consumer,2500,1,1,1
+2024-04-22,Tech & Telecom,2500,2,2,2
+2024-04-22,Transportation,4500,3,2,3
+2024-04-29,Energy & Utilities,7000,5,1,5
+2024-04-29,Finance & Insurance,41500,25,8,18
+2024-04-29,Food & Beverage,6000,3,1,3
+2024-04-29,Healthcare & Pharma,12500,9,5,8
+2024-04-29,Ideological,-12612,222,2,19
+2024-04-29,Labor,3500,2,1,2
+2024-04-29,Other/Unclassified,666542,312,187,61
+2024-04-29,Professional Services,20000,5,1,4
+2024-04-29,Real Estate & Housing,31500,10,3,10
+2024-04-29,Retail & Consumer,17500,6,1,6
+2024-04-29,Tech & Telecom,10500,5,3,5
+2024-04-29,Transportation,5000,1,1,1
+2024-05-06,Construction & Engineering,21000,9,2,8
+2024-05-06,Defense & Aerospace,2000,2,1,2
+2024-05-06,Energy & Utilities,2000,2,1,2
+2024-05-06,Finance & Insurance,49000,20,6,16
+2024-05-06,Healthcare & Pharma,39500,22,8,14
+2024-05-06,Ideological,2329,215,2,20
+2024-05-06,Other/Unclassified,493615,252,160,56
+2024-05-06,Professional Services,43250,19,3,14
+2024-05-06,Real Estate & Housing,5000,1,1,1
+2024-05-06,Tech & Telecom,11000,6,2,6
+2024-05-06,Transportation,14500,6,3,6
+2024-05-13,Construction & Engineering,12000,5,1,5
+2024-05-13,Defense & Aerospace,1000,1,1,1
+2024-05-13,Energy & Utilities,2500,2,1,2
+2024-05-13,Finance & Insurance,57000,29,9,21
+2024-05-13,Food & Beverage,40000,19,2,19
+2024-05-13,Healthcare & Pharma,21500,14,5,13
+2024-05-13,Ideological,-9050,194,2,21
+2024-05-13,Labor,2500,1,1,1
+2024-05-13,Other/Unclassified,743319,323,189,61
+2024-05-13,Professional Services,19500,8,1,6
+2024-05-13,Real Estate & Housing,25500,7,2,6
+2024-05-13,Tech & Telecom,16000,5,4,5
+2024-05-13,Transportation,7500,3,1,3
+2024-05-20,Defense & Aerospace,9500,8,1,6
+2024-05-20,Energy & Utilities,6500,4,1,4
+2024-05-20,Finance & Insurance,81500,34,7,21
+2024-05-20,Food & Beverage,12000,4,2,4
+2024-05-20,Healthcare & Pharma,39000,22,8,13
+2024-05-20,Ideological,7409,185,2,23
+2024-05-20,Other/Unclassified,780882,379,204,64
+2024-05-20,Professional Services,7500,2,2,2
+2024-05-20,Real Estate & Housing,52000,15,2,15
+2024-05-20,Retail & Consumer,35000,8,2,8
+2024-05-20,Tech & Telecom,8500,5,3,5
+2024-05-20,Transportation,28000,12,3,11
+2024-05-27,Finance & Insurance,90000,39,9,26
+2024-05-27,Food & Beverage,10500,6,2,5
+2024-05-27,Healthcare & Pharma,23500,14,8,10
+2024-05-27,Ideological,-12800,146,1,18
+2024-05-27,Labor,2500,2,1,2
+2024-05-27,Other/Unclassified,578331,277,139,60
+2024-05-27,Professional Services,750,1,1,1
+2024-05-27,Real Estate & Housing,5000,1,1,1
+2024-05-27,Retail & Consumer,17500,13,2,10
+2024-05-27,Tech & Telecom,23500,14,2,11
+2024-05-27,Transportation,7500,2,1,2
+2024-06-03,Energy & Utilities,3000,3,1,3
+2024-06-03,Finance & Insurance,49000,27,7,17
+2024-06-03,Food & Beverage,304,1,1,1
+2024-06-03,Healthcare & Pharma,37500,20,8,15
+2024-06-03,Ideological,-7822,320,2,23
+2024-06-03,Labor,1000,1,1,1
+2024-06-03,Other/Unclassified,660762,333,198,63
+2024-06-03,Professional Services,34000,13,2,10
+2024-06-03,Real Estate & Housing,28500,11,3,10
+2024-06-03,Tech & Telecom,23000,7,2,6
+2024-06-03,Transportation,2500,1,1,1
+2024-06-10,Construction & Engineering,10000,4,1,4
+2024-06-10,Defense & Aerospace,12500,3,1,3
+2024-06-10,Energy & Utilities,3500,2,1,2
+2024-06-10,Finance & Insurance,78500,31,9,20
+2024-06-10,Healthcare & Pharma,82500,48,12,29
+2024-06-10,Ideological,-13136,318,2,24
+2024-06-10,Other/Unclassified,866447,415,212,66
+2024-06-10,Professional Services,14750,11,2,9
+2024-06-10,Real Estate & Housing,6000,4,2,3
+2024-06-10,Retail & Consumer,11500,9,1,9
+2024-06-10,Tech & Telecom,16000,5,2,5
+2024-06-10,Transportation,35000,15,3,11
+2024-06-17,Construction & Engineering,17000,11,2,11
+2024-06-17,Defense & Aerospace,10500,9,2,8
+2024-06-17,Finance & Insurance,61000,31,9,25
+2024-06-17,Food & Beverage,20500,8,1,8
+2024-06-17,Healthcare & Pharma,58500,36,10,21
+2024-06-17,Ideological,-6581,167,1,19
+2024-06-17,Other/Unclassified,1001524,492,238,62
+2024-06-17,Professional Services,35500,11,3,7
+2024-06-17,Real Estate & Housing,28000,11,2,10
+2024-06-17,Retail & Consumer,11500,5,2,5
+2024-06-17,Tech & Telecom,19000,12,4,9
+2024-06-17,Transportation,31000,9,2,9
+2024-06-24,Defense & Aerospace,5500,4,1,4
+2024-06-24,Finance & Insurance,164750,85,15,32
+2024-06-24,Food & Beverage,11000,3,1,3
+2024-06-24,Healthcare & Pharma,56000,31,13,23
+2024-06-24,Ideological,-30420,358,1,23
+2024-06-24,Labor,3500,2,1,2
+2024-06-24,Other/Unclassified,1614075,777,362,69
+2024-06-24,Professional Services,17500,9,4,8
+2024-06-24,Real Estate & Housing,55500,16,3,15
+2024-06-24,Retail & Consumer,19000,9,3,7
+2024-06-24,Tech & Telecom,26500,15,4,13
+2024-06-24,Transportation,7000,5,2,5
+2024-07-01,Defense & Aerospace,6000,5,1,5
+2024-07-01,Finance & Insurance,1000,1,1,1
+2024-07-01,Healthcare & Pharma,3000,2,2,2
+2024-07-01,Ideological,-12474,224,2,19
+2024-07-01,Other/Unclassified,260894,127,77,49
+2024-07-01,Professional Services,750,1,1,1
+2024-07-01,Real Estate & Housing,16500,6,1,6
+2024-07-01,Tech & Telecom,11500,4,1,4
+2024-07-08,Construction & Engineering,13000,5,1,4
+2024-07-08,Energy & Utilities,7000,5,1,5
+2024-07-08,Finance & Insurance,32000,13,5,12
+2024-07-08,Food & Beverage,1500,1,1,1
+2024-07-08,Healthcare & Pharma,65500,29,8,24
+2024-07-08,Ideological,-3461,301,2,23
+2024-07-08,Labor,3500,2,1,2
+2024-07-08,Other/Unclassified,627947,305,148,67
+2024-07-08,Professional Services,14000,4,2,4
+2024-07-08,Real Estate & Housing,27000,8,3,8
+2024-07-08,Tech & Telecom,3500,2,1,1
+2024-07-08,Transportation,5000,1,1,1
+2024-07-15,Construction & Engineering,4000,1,1,1
+2024-07-15,Defense & Aerospace,8000,4,2,4
+2024-07-15,Finance & Insurance,38500,13,4,13
+2024-07-15,Food & Beverage,2000,2,1,2
+2024-07-15,Healthcare & Pharma,43000,25,7,20
+2024-07-15,Ideological,-825,174,2,24
+2024-07-15,Labor,6500,5,1,5
+2024-07-15,Other/Unclassified,516868,246,129,61
+2024-07-15,Real Estate & Housing,11000,3,3,3
+2024-07-15,Retail & Consumer,2500,1,1,1
+2024-07-15,Tech & Telecom,12000,9,2,8
+2024-07-15,Transportation,28500,10,2,8
+2024-07-22,Energy & Utilities,2000,2,1,2
+2024-07-22,Finance & Insurance,49500,29,11,24
+2024-07-22,Food & Beverage,9906,7,2,5
+2024-07-22,Healthcare & Pharma,44000,23,9,17
+2024-07-22,Ideological,-7482,229,2,18
+2024-07-22,Other/Unclassified,860906,330,169,61
+2024-07-22,Professional Services,25000,9,2,9
+2024-07-22,Real Estate & Housing,26500,8,4,8
+2024-07-22,Retail & Consumer,2500,1,1,1
+2024-07-22,Transportation,5000,6,2,6
+2024-07-29,Defense & Aerospace,12500,7,2,6
+2024-07-29,Energy & Utilities,3000,3,1,3
+2024-07-29,Finance & Insurance,143250,64,10,38
+2024-07-29,Food & Beverage,38000,11,2,11
+2024-07-29,Healthcare & Pharma,15500,9,6,9
+2024-07-29,Ideological,-16598,537,2,27
+2024-07-29,Other/Unclassified,588844,285,167,63
+2024-07-29,Professional Services,27000,8,2,7
+2024-07-29,Real Estate & Housing,16500,4,2,4
+2024-07-29,Retail & Consumer,27000,10,3,10
+2024-07-29,Tech & Telecom,19000,9,3,9
+2024-07-29,Transportation,19500,6,2,6
+2024-08-05,Defense & Aerospace,4000,4,1,4
+2024-08-05,Finance & Insurance,39000,15,4,13
+2024-08-05,Food & Beverage,34000,11,1,11
+2024-08-05,Healthcare & Pharma,15000,7,3,7
+2024-08-05,Ideological,-9541,202,2,20
+2024-08-05,Other/Unclassified,530590,180,95,58
+2024-08-05,Professional Services,2250,2,1,2
+2024-08-05,Real Estate & Housing,21000,5,2,5
+2024-08-05,Retail & Consumer,1000,1,1,1
+2024-08-05,Tech & Telecom,2000,1,1,1
+2024-08-05,Transportation,5000,1,1,1
+2024-08-12,Defense & Aerospace,6000,4,1,4
+2024-08-12,Energy & Utilities,4000,1,1,1
+2024-08-12,Finance & Insurance,23500,7,4,7
+2024-08-12,Food & Beverage,5000,2,1,2
+2024-08-12,Healthcare & Pharma,30500,16,5,14
+2024-08-12,Ideological,-15982,473,1,25
+2024-08-12,Labor,5000,3,1,3
+2024-08-12,Other/Unclassified,385375,212,97,62
+2024-08-12,Professional Services,2000,1,1,1
+2024-08-12,Real Estate & Housing,6000,2,1,2
+2024-08-12,Retail & Consumer,9000,7,1,7
+2024-08-12,Tech & Telecom,2500,2,1,2
+2024-08-12,Transportation,14500,4,2,3
+2024-08-19,Construction & Engineering,9000,5,1,5
+2024-08-19,Finance & Insurance,26000,21,7,16
+2024-08-19,Food & Beverage,14000,5,1,5
+2024-08-19,Healthcare & Pharma,26000,11,5,10
+2024-08-19,Ideological,-6912,333,1,20
+2024-08-19,Labor,3500,2,1,2
+2024-08-19,Other/Unclassified,422774,197,102,62
+2024-08-19,Real Estate & Housing,108000,23,4,21
+2024-08-19,Retail & Consumer,18000,7,1,7
+2024-08-19,Tech & Telecom,19000,9,3,8
+2024-08-19,Transportation,5000,3,1,3
+2024-08-26,Construction & Engineering,-3000,1,1,1
+2024-08-26,Defense & Aerospace,4500,3,2,3
+2024-08-26,Energy & Utilities,9500,7,1,5
+2024-08-26,Finance & Insurance,57500,27,8,20
+2024-08-26,Food & Beverage,2500,1,1,1
+2024-08-26,Healthcare & Pharma,77000,38,10,25
+2024-08-26,Ideological,-4948,238,1,22
+2024-08-26,Labor,1000,1,1,1
+2024-08-26,Other/Unclassified,719848,243,134,62
+2024-08-26,Real Estate & Housing,4000,1,1,1
+2024-08-26,Retail & Consumer,10000,3,1,3
+2024-09-02,Construction & Engineering,7500,3,1,3
+2024-09-02,Finance & Insurance,60000,24,6,22
+2024-09-02,Healthcare & Pharma,10000,5,2,5
+2024-09-02,Ideological,2205,462,2,27
+2024-09-02,Other/Unclassified,1141874,388,168,69
+2024-09-02,Professional Services,15000,4,1,4
+2024-09-02,Real Estate & Housing,48000,12,4,10
+2024-09-02,Tech & Telecom,11500,5,2,5
+2024-09-02,Transportation,9000,2,1,2
+2024-09-09,Construction & Engineering,2500,1,1,1
+2024-09-09,Defense & Aerospace,10000,7,1,7
+2024-09-09,Energy & Utilities,18000,8,1,8
+2024-09-09,Finance & Insurance,31000,15,7,13
+2024-09-09,Food & Beverage,2000,1,1,1
+2024-09-09,Healthcare & Pharma,69500,37,9,25
+2024-09-09,Ideological,-15805,297,1,19
+2024-09-09,Labor,7500,2,1,2
+2024-09-09,Other/Unclassified,1151150,531,270,65
+2024-09-09,Professional Services,35500,11,3,9
+2024-09-09,Real Estate & Housing,15500,4,3,4
+2024-09-09,Tech & Telecom,4500,2,2,2
+2024-09-09,Transportation,46500,16,3,16
+2024-09-16,Construction & Engineering,39500,16,1,16
+2024-09-16,Defense & Aerospace,4000,3,1,3
+2024-09-16,Energy & Utilities,1000,1,1,1
+2024-09-16,Finance & Insurance,59500,33,9,24
+2024-09-16,Food & Beverage,9500,9,2,8
+2024-09-16,Healthcare & Pharma,90500,40,10,28
+2024-09-16,Ideological,11940,292,2,24
+2024-09-16,Labor,1000,1,1,1
+2024-09-16,Other/Unclassified,4989373,727,339,71
+2024-09-16,Professional Services,29500,7,3,7
+2024-09-16,Real Estate & Housing,47500,12,3,12
+2024-09-16,Retail & Consumer,37000,16,1,16
+2024-09-16,Tech & Telecom,30500,18,3,16
+2024-09-16,Transportation,16000,4,2,4
+2024-09-23,Construction & Engineering,2500,1,1,1
+2024-09-23,Defense & Aerospace,41500,20,3,17
+2024-09-23,Energy & Utilities,12500,4,1,4
+2024-09-23,Finance & Insurance,714000,116,17,53
+2024-09-23,Food & Beverage,16000,7,2,7
+2024-09-23,Healthcare & Pharma,161750,65,12,35
+2024-09-23,Ideological,11642,347,2,26
+2024-09-23,Other/Unclassified,3557392,1168,449,70
+2024-09-23,Professional Services,54250,19,4,17
+2024-09-23,Real Estate & Housing,117500,33,3,28
+2024-09-23,Retail & Consumer,17500,14,1,14
+2024-09-23,Tech & Telecom,40000,23,5,21
+2024-09-23,Transportation,39000,15,4,12
+2024-09-30,Defense & Aerospace,12500,8,1,8
+2024-09-30,Finance & Insurance,49000,27,10,21
+2024-09-30,Food & Beverage,7500,2,1,2
+2024-09-30,Healthcare & Pharma,25500,15,7,11
+2024-09-30,Ideological,-10296,471,2,28
+2024-09-30,Other/Unclassified,3771111,490,245,69
+2024-09-30,Professional Services,8250,8,4,8
+2024-09-30,Real Estate & Housing,3500,1,1,1
+2024-09-30,Retail & Consumer,17500,5,1,5
+2024-09-30,Tech & Telecom,-1500,1,1,1
+2024-09-30,Transportation,10000,2,1,2
+2024-10-07,Construction & Engineering,8000,5,1,5
+2024-10-07,Finance & Insurance,23500,10,8,9
+2024-10-07,Food & Beverage,34393,18,2,16
+2024-10-07,Healthcare & Pharma,34500,16,10,13
+2024-10-07,Ideological,-21529,363,1,22
+2024-10-07,Other/Unclassified,3686062,321,173,65
+2024-10-07,Real Estate & Housing,65500,14,2,12
+2024-10-07,Retail & Consumer,1000,1,1,1
+2024-10-07,Tech & Telecom,2000,1,1,1
+2024-10-07,Transportation,0,3,2,3
+2024-10-14,Construction & Engineering,2500,1,1,1
+2024-10-14,Defense & Aerospace,7000,3,2,3
+2024-10-14,Energy & Utilities,5000,2,1,2
+2024-10-14,Finance & Insurance,100500,44,9,32
+2024-10-14,Food & Beverage,5000,2,1,1
+2024-10-14,Healthcare & Pharma,108522,7,4,7
+2024-10-14,Ideological,-11237,845,2,27
+2024-10-14,Labor,1500,1,1,1
+2024-10-14,Other/Unclassified,3487739,458,199,66
+2024-10-14,Professional Services,7000,4,2,4
+2024-10-14,Real Estate & Housing,6000,2,1,2
+2024-10-14,Tech & Telecom,5500,2,1,2
+2024-10-14,Transportation,23500,7,2,6
+2024-10-21,Construction & Engineering,500,2,1,2
+2024-10-21,Defense & Aerospace,16500,6,1,6
+2024-10-21,Energy & Utilities,7000,2,1,2
+2024-10-21,Finance & Insurance,79000,44,8,31
+2024-10-21,Food & Beverage,2500,1,1,1
+2024-10-21,Healthcare & Pharma,32500,18,9,14
+2024-10-21,Ideological,1886,662,2,25
+2024-10-21,Other/Unclassified,3757631,480,245,65
+2024-10-21,Professional Services,4000,2,1,2
+2024-10-21,Real Estate & Housing,8000,2,2,2
+2024-10-21,Retail & Consumer,6500,3,2,3
+2024-10-21,Tech & Telecom,3000,2,1,2
+2024-10-21,Transportation,18000,5,2,5
+2024-10-28,Defense & Aerospace,16000,7,3,7
+2024-10-28,Finance & Insurance,54500,21,10,19
+2024-10-28,Food & Beverage,1500,1,1,1
+2024-10-28,Healthcare & Pharma,30000,11,8,9
+2024-10-28,Ideological,-39597,507,1,18
+2024-10-28,Labor,26000,11,1,11
+2024-10-28,Other/Unclassified,1516082,519,261,69
+2024-10-28,Professional Services,10000,3,2,3
+2024-10-28,Real Estate & Housing,4000,2,1,2
+2024-10-28,Retail & Consumer,1000,1,1,1
+2024-10-28,Tech & Telecom,23500,11,4,10
+2024-10-28,Transportation,2500,2,2,2
+2024-11-04,Finance & Insurance,10000,4,3,3
+2024-11-04,Healthcare & Pharma,85500,35,3,31
+2024-11-04,Ideological,-42315,614,1,27
+2024-11-04,Other/Unclassified,368147,139,73,51
+2024-11-04,Real Estate & Housing,-2000,1,1,1
+2024-11-04,Tech & Telecom,-1000,1,1,1
+2024-11-04,Transportation,5000,1,1,1
+2024-11-11,Finance & Insurance,2500,1,1,1
+2024-11-11,Ideological,-47146,857,1,21
+2024-11-11,Other/Unclassified,165233,45,32,23
+2024-11-11,Real Estate & Housing,-1000,1,1,1
+2024-11-18,Defense & Aerospace,3000,3,2,3
+2024-11-18,Finance & Insurance,22000,8,3,7
+2024-11-18,Food & Beverage,-2000,1,1,1
+2024-11-18,Healthcare & Pharma,9500,5,4,4
+2024-11-18,Ideological,-20935,1589,1,27
+2024-11-18,Other/Unclassified,121377,60,45,31
+2024-11-18,Professional Services,8000,3,2,3
+2024-11-18,Tech & Telecom,7500,2,1,2
+2024-11-25,Finance & Insurance,0,2,2,2
+2024-11-25,Healthcare & Pharma,-6000,3,2,3
+2024-11-25,Ideological,-1094,51,1,6
+2024-11-25,Other/Unclassified,63051,33,23,19
+2024-11-25,Professional Services,10000,2,1,1
+2024-11-25,Tech & Telecom,5000,2,1,2
+2024-12-02,Construction & Engineering,4500,2,1,2
+2024-12-02,Defense & Aerospace,-1000,1,1,1
+2024-12-02,Finance & Insurance,6000,2,2,2
+2024-12-02,Healthcare & Pharma,3500,2,2,2
+2024-12-02,Other/Unclassified,218535,103,62,44
+2024-12-02,Professional Services,5000,2,1,1
+2024-12-02,Tech & Telecom,8000,4,2,3
+2024-12-09,Construction & Engineering,-2500,1,1,1
+2024-12-09,Finance & Insurance,2500,6,5,6
+2024-12-09,Healthcare & Pharma,13500,9,4,8
+2024-12-09,Ideological,-5000,1,1,1
+2024-12-09,Other/Unclassified,287446,132,81,46
+2024-12-09,Tech & Telecom,5000,2,1,2
+2024-12-16,Finance & Insurance,4500,4,3,3
+2024-12-16,Food & Beverage,5000,2,1,2
+2024-12-16,Healthcare & Pharma,2500,1,1,1
+2024-12-16,Labor,6500,3,1,3
+2024-12-16,Other/Unclassified,315616,144,89,47
+2024-12-16,Professional Services,28500,10,2,7
+2024-12-16,Real Estate & Housing,15000,3,1,2
+2024-12-16,Retail & Consumer,22500,5,2,2
+2024-12-16,Tech & Telecom,4000,2,2,2
+2024-12-16,Transportation,4000,2,1,2
+2024-12-23,Construction & Engineering,19000,10,1,10
+2024-12-23,Finance & Insurance,5000,2,1,1
+2024-12-23,Other/Unclassified,89002,23,15,13
+2024-12-23,Professional Services,2500,2,1,1
+2024-12-30,Defense & Aerospace,-1000,1,1,1
+2024-12-30,Finance & Insurance,6000,3,2,3
+2024-12-30,Healthcare & Pharma,-2500,1,1,1
+2024-12-30,Other/Unclassified,-25027,35,25,27
+2024-12-30,Real Estate & Housing,-5000,1,1,1

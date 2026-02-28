@@ -1,0 +1,43 @@
+bill,event_type,date,sector,baseline_weekly_avg,pre_event_total,event_week_total,post_event_total,spike_ratio,sector_specific,significance
+H.R. 7024,committee_markup,2024-01-19,All Sectors,807466,4176337,2965012,9483010,3.67,False,high
+H.R. 7024,committee_markup,2024-01-19,Affected Sectors,99692,134500,45500,342000,0.46,True,high
+H.R. 7024,floor_vote,2024-01-31,All Sectors,732533,5868545,4422378,6511246,6.04,False,high
+H.R. 7024,floor_vote,2024-01-31,Affected Sectors,94500,173000,89500,501000,0.95,True,high
+H.R. 7024,floor_vote,2024-08-01,All Sectors,1051878,3288509,893496,2741675,0.85,False,high
+H.R. 7024,floor_vote,2024-08-01,Affected Sectors,128712,405750,205750,352500,1.6,True,high
+S. 2973,committee_hearing,2023-03-30,All Sectors,486992,5771698,1842731,1963301,3.78,False,high
+S. 2973,committee_hearing,2023-03-30,Affected Sectors,12775,391500,67000,126500,5.24,True,high
+S. 2973,committee_markup,2023-07-26,All Sectors,787177,3048010,581227,1554397,0.74,False,high
+S. 2973,committee_markup,2023-07-26,Affected Sectors,51158,150000,16000,101000,0.31,True,high
+S. 2973,committee_markup,2023-11-08,All Sectors,701933,2478373,564644,3011280,0.8,False,high
+S. 2973,committee_markup,2023-11-08,Affected Sectors,49875,184000,117000,241000,2.35,True,high
+H.R. 3936,committee_markup,2023-06-13,All Sectors,862916,2932933,1005203,4191803,1.16,False,high
+H.R. 3936,committee_markup,2023-06-13,Affected Sectors,106050,346000,84000,354500,0.79,True,high
+H.R. 3937,committee_markup,2023-06-13,All Sectors,862916,2932933,1005203,4191803,1.16,False,medium
+H.R. 3937,committee_markup,2023-06-13,Affected Sectors,105379,399250,94250,379250,0.89,True,medium
+H.R. 3938,committee_markup,2023-06-13,All Sectors,862916,2932933,1005203,4191803,1.16,False,high
+H.R. 3938,committee_markup,2023-06-13,Affected Sectors,26950,121000,22000,118500,0.82,True,high
+N/A,committee_hearing,2023-03-07,All Sectors,248565,2605199,981459,5873493,3.95,False,medium
+N/A,committee_hearing,2023-03-07,Affected Sectors,3208,47500,55000,115500,17.14,True,medium
+N/A,committee_hearing,2023-05-11,All Sectors,973549,2166554,587525,2853921,0.6,False,medium
+N/A,committee_hearing,2023-05-11,Affected Sectors,71342,166750,12500,238250,0.18,True,medium
+N/A,committee_hearing,2023-04-27,All Sectors,911318,2918452,470233,2463810,0.52,False,medium
+N/A,committee_hearing,2023-04-27,Affected Sectors,93654,317000,61000,265750,0.65,True,medium
+N/A,committee_hearing,2023-11-09,All Sectors,699956,2562638,564644,2829424,0.81,False,medium
+N/A,committee_hearing,2023-11-09,Affected Sectors,73208,330500,77500,324500,1.06,True,medium
+N/A,committee_hearing,2023-12-05,All Sectors,817591,2440349,1045494,3458552,1.28,False,medium
+N/A,committee_hearing,2023-12-05,Affected Sectors,38500,168500,47000,135000,1.22,True,medium
+N/A,committee_hearing,2024-04-11,All Sectors,1855731,4679942,657944,3170328,0.35,False,high
+N/A,committee_hearing,2024-04-11,Affected Sectors,108033,582000,69000,375500,0.64,True,high
+H.R. 8816,committee_markup,2024-06-27,All Sectors,762974,5196075,1949905,3086542,2.56,False,medium
+H.R. 8816,committee_markup,2024-06-27,Affected Sectors,30450,244500,56000,158000,1.84,True,medium
+H.R. 9495,committee_markup,2024-09-11,All Sectors,935084,3858129,1377845,18386356,1.47,False,medium
+H.R. 9495,committee_markup,2024-09-11,Affected Sectors,71377,192055,50695,945711,0.71,True,medium
+N/A,committee_hearing,2024-09-12,All Sectors,915152,4129262,1377845,18155579,1.51,False,high
+N/A,committee_hearing,2024-09-12,Affected Sectors,102288,442500,100000,1186500,0.98,True,high
+H.R. 9495,floor_vote,2024-11-21,All Sectors,3089019,5627179,148442,1060579,0.05,False,medium
+H.R. 9495,floor_vote,2024-11-21,Affected Sectors,141921,15463,9065,55931,0.06,True,medium
+H.R. 3936,bill_introduction,2023-06-09,All Sectors,873826,2966537,819146,4216404,0.94,False,medium
+H.R. 3936,bill_introduction,2023-06-09,Affected Sectors,116317,428000,158500,362000,1.36,True,medium
+H.R. 7024,bill_introduction,2024-01-17,All Sectors,762749,2718366,2965012,11934655,3.89,False,high
+H.R. 7024,bill_introduction,2024-01-17,Affected Sectors,100508,178000,45500,365000,0.45,True,high

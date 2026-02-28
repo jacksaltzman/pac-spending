@@ -1,0 +1,899 @@
+member_name,sector,individual_total,individual_count
+Aaron Bean,Finance & Insurance,54429,28
+Aaron Bean,Lobbying & Gov Relations,43075,60
+Aaron Bean,Healthcare & Pharma,42500,32
+Aaron Bean,Professional Services,30529,28
+Aaron Bean,Real Estate & Housing,23379,13
+Aaron Bean,Construction & Engineering,19100,13
+Aaron Bean,Other Industry,6600,2
+Aaron Bean,Transportation,4779,3
+Aaron Bean,Energy & Utilities,3500,2
+Aaron Bean,Tech & Telecom,2000,1
+Aaron Bean,Ideological,1000,1
+Aaron Bean,Retail & Consumer,1000,1
+Adrian Smith,Lobbying & Gov Relations,37500,49
+Adrian Smith,Finance & Insurance,37012,42
+Adrian Smith,Construction & Engineering,23500,11
+Adrian Smith,Professional Services,16400,12
+Adrian Smith,Tech & Telecom,11400,8
+Adrian Smith,Healthcare & Pharma,10550,12
+Adrian Smith,Transportation,6600,5
+Adrian Smith,Real Estate & Housing,4612,6
+Adrian Smith,Labor,4550,5
+Adrian Smith,Other Industry,3500,2
+Adrian Smith,Agriculture & Food,3300,1
+Adrian Smith,Energy & Utilities,2500,1
+Adrian Smith,Food & Beverage,750,2
+Adrian Smith,Ideological,500,1
+Ben Ray Lujan,Healthcare & Pharma,49801,425
+Ben Ray Lujan,Lobbying & Gov Relations,47550,58
+Ben Ray Lujan,Professional Services,43139,250
+Ben Ray Lujan,Tech & Telecom,37750,55
+Ben Ray Lujan,Finance & Insurance,21425,41
+Ben Ray Lujan,Real Estate & Housing,13940,65
+Ben Ray Lujan,Energy & Utilities,9384,54
+Ben Ray Lujan,Agriculture & Food,3300,1
+Ben Ray Lujan,Food & Beverage,1510,3
+Ben Ray Lujan,Construction & Engineering,1255,24
+Ben Ray Lujan,Labor,1000,1
+Ben Ray Lujan,Defense & Aerospace,676,24
+Ben Ray Lujan,Transportation,645,31
+Bernie Sanders,Healthcare & Pharma,161157,9290
+Bernie Sanders,Tech & Telecom,109721,4632
+Bernie Sanders,Professional Services,48136,1892
+Bernie Sanders,Finance & Insurance,29613,893
+Bernie Sanders,Construction & Engineering,18571,995
+Bernie Sanders,Energy & Utilities,17117,918
+Bernie Sanders,Transportation,12823,726
+Bernie Sanders,Labor,12521,905
+Bernie Sanders,Retail & Consumer,11440,910
+Bernie Sanders,Real Estate & Housing,11345,694
+Bernie Sanders,Food & Beverage,8737,674
+Bernie Sanders,Defense & Aerospace,8175,398
+Bernie Sanders,Other Industry,2802,239
+Bernie Sanders,Lobbying & Gov Relations,1161,68
+Beth Van Duyne,Finance & Insurance,148607,243
+Beth Van Duyne,Real Estate & Housing,63450,107
+Beth Van Duyne,Lobbying & Gov Relations,56091,78
+Beth Van Duyne,Professional Services,23113,57
+Beth Van Duyne,Healthcare & Pharma,18394,29
+Beth Van Duyne,Tech & Telecom,14110,69
+Beth Van Duyne,Energy & Utilities,12822,11
+Beth Van Duyne,Transportation,9747,45
+Beth Van Duyne,Other Industry,3300,2
+Beth Van Duyne,Construction & Engineering,2843,12
+Beth Van Duyne,Defense & Aerospace,859,10
+Bill Cassidy,Healthcare & Pharma,221203,316
+Bill Cassidy,Finance & Insurance,153624,106
+Bill Cassidy,Lobbying & Gov Relations,78712,84
+Bill Cassidy,Professional Services,35044,34
+Bill Cassidy,Energy & Utilities,25119,20
+Bill Cassidy,Real Estate & Housing,17574,13
+Bill Cassidy,Food & Beverage,13450,18
+Bill Cassidy,Tech & Telecom,12778,8
+Bill Cassidy,Ideological,6600,1
+Bill Cassidy,Transportation,4875,6
+Bill Cassidy,Construction & Engineering,4251,8
+Bill Cassidy,Agriculture & Food,3306,9
+Bill Cassidy,Labor,3006,4
+Blake Moore,Finance & Insurance,89250,120
+Blake Moore,Lobbying & Gov Relations,57675,74
+Blake Moore,Real Estate & Housing,49400,82
+Blake Moore,Healthcare & Pharma,35162,22
+Blake Moore,Professional Services,34200,29
+Blake Moore,Tech & Telecom,10400,4
+Blake Moore,Construction & Engineering,6500,5
+Blake Moore,Other Industry,2000,2
+Blake Moore,Energy & Utilities,1000,1
+Blake Moore,Ideological,1000,2
+Blake Moore,Labor,1000,1
+Blake Moore,Transportation,500,1
+Brad Schneider,Finance & Insurance,217027,192
+Brad Schneider,Professional Services,173362,323
+Brad Schneider,Real Estate & Housing,81434,99
+Brad Schneider,Healthcare & Pharma,57317,182
+Brad Schneider,Lobbying & Gov Relations,37821,50
+Brad Schneider,Construction & Engineering,16467,38
+Brad Schneider,Food & Beverage,11675,18
+Brad Schneider,Tech & Telecom,9409,39
+Brad Schneider,Transportation,8350,4
+Brad Schneider,Other Industry,4300,2
+Brad Schneider,Defense & Aerospace,3396,9
+Brad Schneider,Energy & Utilities,2750,20
+Brad Schneider,Retail & Consumer,1100,2
+Brad Schneider,Labor,500,1
+Brendan Boyle,Finance & Insurance,111633,145
+Brendan Boyle,Real Estate & Housing,69978,77
+Brendan Boyle,Professional Services,54538,45
+Brendan Boyle,Lobbying & Gov Relations,36850,39
+Brendan Boyle,Healthcare & Pharma,14450,17
+Brendan Boyle,Food & Beverage,13200,4
+Brendan Boyle,Energy & Utilities,6000,7
+Brendan Boyle,Agriculture & Food,5400,3
+Brendan Boyle,Tech & Telecom,3500,4
+Brendan Boyle,Labor,1000,1
+Brendan Boyle,Construction & Engineering,750,2
+Brendan Boyle,Transportation,500,1
+Brian Fitzpatrick,Finance & Insurance,333336,175
+Brian Fitzpatrick,Professional Services,85861,87
+Brian Fitzpatrick,Real Estate & Housing,60450,45
+Brian Fitzpatrick,Lobbying & Gov Relations,45450,59
+Brian Fitzpatrick,Energy & Utilities,37061,43
+Brian Fitzpatrick,Tech & Telecom,26750,16
+Brian Fitzpatrick,Construction & Engineering,22320,11
+Brian Fitzpatrick,Healthcare & Pharma,20106,54
+Brian Fitzpatrick,Other Industry,13200,4
+Brian Fitzpatrick,Transportation,12200,22
+Brian Fitzpatrick,Agriculture & Food,6600,1
+Brian Fitzpatrick,Defense & Aerospace,4050,3
+Brian Fitzpatrick,Food & Beverage,1350,3
+Brian Fitzpatrick,Labor,1000,2
+Brian Fitzpatrick,Retail & Consumer,500,1
+Carol Miller,Healthcare & Pharma,69000,62
+Carol Miller,Lobbying & Gov Relations,67438,71
+Carol Miller,Energy & Utilities,36200,16
+Carol Miller,Transportation,23800,10
+Carol Miller,Finance & Insurance,22075,18
+Carol Miller,Professional Services,19550,23
+Carol Miller,Other Industry,6600,2
+Carol Miller,Construction & Engineering,5750,7
+Carol Miller,Tech & Telecom,4250,3
+Carol Miller,Food & Beverage,3600,2
+Carol Miller,Real Estate & Housing,1250,3
+Catherine Cortez Masto,Finance & Insurance,77955,192
+Catherine Cortez Masto,Professional Services,38726,365
+Catherine Cortez Masto,Healthcare & Pharma,34217,907
+Catherine Cortez Masto,Real Estate & Housing,27227,66
+Catherine Cortez Masto,Construction & Engineering,11614,90
+Catherine Cortez Masto,Tech & Telecom,11381,164
+Catherine Cortez Masto,Lobbying & Gov Relations,7550,9
+Catherine Cortez Masto,Energy & Utilities,2555,77
+Catherine Cortez Masto,Retail & Consumer,1121,111
+Catherine Cortez Masto,Transportation,742,42
+Catherine Cortez Masto,Labor,600,3
+Catherine Cortez Masto,Defense & Aerospace,364,21
+Catherine Cortez Masto,Food & Beverage,250,1
+Chuck Grassley,Finance & Insurance,9709,20
+Chuck Grassley,Tech & Telecom,6600,3
+Chuck Grassley,Real Estate & Housing,3649,12
+Chuck Grassley,Food & Beverage,3300,1
+Chuck Grassley,Healthcare & Pharma,2947,56
+Chuck Grassley,Transportation,1005,3
+Chuck Grassley,Lobbying & Gov Relations,755,4
+Chuck Grassley,Construction & Engineering,100,1
+Chuck Grassley,Professional Services,100,1
+Claudia Tenney,Finance & Insurance,54328,76
+Claudia Tenney,Lobbying & Gov Relations,53020,70
+Claudia Tenney,Professional Services,28845,97
+Claudia Tenney,Healthcare & Pharma,21334,149
+Claudia Tenney,Other Industry,19800,7
+Claudia Tenney,Construction & Engineering,16586,29
+Claudia Tenney,Food & Beverage,7915,11
+Claudia Tenney,Energy & Utilities,6870,11
+Claudia Tenney,Tech & Telecom,6333,16
+Claudia Tenney,Real Estate & Housing,4248,49
+Claudia Tenney,Transportation,2950,5
+Claudia Tenney,Defense & Aerospace,1374,24
+Claudia Tenney,Retail & Consumer,821,23
+Danny Davis,Healthcare & Pharma,25050,32
+Danny Davis,Professional Services,9150,10
+Danny Davis,Lobbying & Gov Relations,5750,9
+Danny Davis,Construction & Engineering,5050,4
+Danny Davis,Finance & Insurance,3700,6
+Danny Davis,Retail & Consumer,1500,2
+Danny Davis,Food & Beverage,1000,1
+Danny Davis,Labor,1000,1
+Danny Davis,Real Estate & Housing,1000,3
+Danny Davis,Tech & Telecom,1000,1
+Danny Davis,Energy & Utilities,200,1
+Darin LaHood,Lobbying & Gov Relations,100010,99
+Darin LaHood,Professional Services,60009,67
+Darin LaHood,Other Industry,54700,20
+Darin LaHood,Finance & Insurance,51956,45
+Darin LaHood,Healthcare & Pharma,35880,40
+Darin LaHood,Real Estate & Housing,22250,17
+Darin LaHood,Transportation,16418,20
+Darin LaHood,Tech & Telecom,12100,9
+Darin LaHood,Energy & Utilities,8850,8
+Darin LaHood,Construction & Engineering,8750,13
+Darin LaHood,Ideological,3300,1
+Darin LaHood,Retail & Consumer,3300,1
+Darin LaHood,Food & Beverage,2750,4
+Darin LaHood,Defense & Aerospace,500,1
+Darin LaHood,Labor,150,1
+David Kustoff,Finance & Insurance,147500,111
+David Kustoff,Professional Services,67050,56
+David Kustoff,Lobbying & Gov Relations,60650,68
+David Kustoff,Healthcare & Pharma,42450,43
+David Kustoff,Transportation,36800,18
+David Kustoff,Real Estate & Housing,25550,14
+David Kustoff,Construction & Engineering,20500,19
+David Kustoff,Energy & Utilities,19250,13
+David Kustoff,Other Industry,7100,3
+David Kustoff,Retail & Consumer,4500,4
+David Kustoff,Food & Beverage,4000,3
+David Kustoff,Tech & Telecom,1000,1
+David Schweikert,Finance & Insurance,103600,75
+David Schweikert,Lobbying & Gov Relations,71650,98
+David Schweikert,Healthcare & Pharma,57700,57
+David Schweikert,Professional Services,43150,55
+David Schweikert,Real Estate & Housing,38600,30
+David Schweikert,Construction & Engineering,15350,11
+David Schweikert,Energy & Utilities,12400,7
+David Schweikert,Tech & Telecom,10250,14
+David Schweikert,Transportation,8840,15
+David Schweikert,Labor,6600,2
+David Schweikert,Other Industry,3300,1
+David Schweikert,Food & Beverage,2000,2
+David Schweikert,Ideological,1000,1
+David Schweikert,Defense & Aerospace,750,2
+Don Beyer,Professional Services,94014,100
+Don Beyer,Real Estate & Housing,41390,25
+Don Beyer,Lobbying & Gov Relations,39155,42
+Don Beyer,Finance & Insurance,32450,27
+Don Beyer,Transportation,18450,11
+Don Beyer,Tech & Telecom,18250,12
+Don Beyer,Healthcare & Pharma,9004,24
+Don Beyer,Defense & Aerospace,5950,22
+Don Beyer,Ideological,3300,1
+Don Beyer,Retail & Consumer,3300,1
+Don Beyer,Energy & Utilities,3290,22
+Don Beyer,Construction & Engineering,3250,4
+Don Beyer,Other Industry,2000,2
+Dwight Evans,Professional Services,25850,29
+Dwight Evans,Lobbying & Gov Relations,17050,22
+Dwight Evans,Construction & Engineering,11750,9
+Dwight Evans,Healthcare & Pharma,8500,37
+Dwight Evans,Real Estate & Housing,7250,5
+Dwight Evans,Finance & Insurance,7000,6
+Dwight Evans,Retail & Consumer,2500,3
+Dwight Evans,Transportation,1500,3
+Dwight Evans,Tech & Telecom,1000,1
+Dwight Evans,Energy & Utilities,700,3
+Elizabeth Warren,Healthcare & Pharma,100257,3771
+Elizabeth Warren,Professional Services,75934,2112
+Elizabeth Warren,Tech & Telecom,63736,2266
+Elizabeth Warren,Finance & Insurance,44393,700
+Elizabeth Warren,Construction & Engineering,18783,537
+Elizabeth Warren,Real Estate & Housing,12606,265
+Elizabeth Warren,Energy & Utilities,10079,417
+Elizabeth Warren,Other Industry,9235,229
+Elizabeth Warren,Transportation,6653,168
+Elizabeth Warren,Food & Beverage,6438,168
+Elizabeth Warren,Retail & Consumer,5520,350
+Elizabeth Warren,Labor,4248,329
+Elizabeth Warren,Defense & Aerospace,3256,216
+Elizabeth Warren,Lobbying & Gov Relations,1649,40
+Greg Murphy,Healthcare & Pharma,160104,161
+Greg Murphy,Professional Services,45925,70
+Greg Murphy,Lobbying & Gov Relations,28300,46
+Greg Murphy,Finance & Insurance,21212,17
+Greg Murphy,Construction & Engineering,20750,21
+Greg Murphy,Retail & Consumer,10000,6
+Greg Murphy,Real Estate & Housing,9945,13
+Greg Murphy,Transportation,5800,3
+Greg Murphy,Food & Beverage,5500,7
+Greg Murphy,Energy & Utilities,2250,3
+Greg Murphy,Defense & Aerospace,1750,4
+Greg Murphy,Labor,1000,1
+Greg Steube,Lobbying & Gov Relations,36562,57
+Greg Steube,Finance & Insurance,27050,34
+Greg Steube,Professional Services,20085,44
+Greg Steube,Healthcare & Pharma,13275,18
+Greg Steube,Real Estate & Housing,8500,6
+Greg Steube,Construction & Engineering,8000,16
+Greg Steube,Transportation,3750,5
+Greg Steube,Tech & Telecom,3500,3
+Greg Steube,Energy & Utilities,1000,1
+Greg Steube,Food & Beverage,1000,1
+Greg Steube,Retail & Consumer,150,6
+Gwen Moore,Finance & Insurance,36158,34
+Gwen Moore,Lobbying & Gov Relations,29700,34
+Gwen Moore,Professional Services,15905,42
+Gwen Moore,Real Estate & Housing,8200,5
+Gwen Moore,Other Industry,6600,2
+Gwen Moore,Healthcare & Pharma,4044,14
+Gwen Moore,Transportation,1180,7
+Gwen Moore,Energy & Utilities,425,2
+James Lankford,Finance & Insurance,69000,52
+James Lankford,Lobbying & Gov Relations,29250,46
+James Lankford,Energy & Utilities,24970,24
+James Lankford,Professional Services,15117,19
+James Lankford,Other Industry,6600,3
+James Lankford,Real Estate & Housing,4700,3
+James Lankford,Healthcare & Pharma,3500,5
+James Lankford,Ideological,3300,1
+James Lankford,Transportation,3300,1
+James Lankford,Defense & Aerospace,2500,3
+James Lankford,Tech & Telecom,1250,2
+James Lankford,Retail & Consumer,1000,1
+James Lankford,Construction & Engineering,750,2
+Jason Smith,Finance & Insurance,375935,306
+Jason Smith,Lobbying & Gov Relations,111900,96
+Jason Smith,Real Estate & Housing,87042,127
+Jason Smith,Construction & Engineering,61385,25
+Jason Smith,Professional Services,38908,35
+Jason Smith,Healthcare & Pharma,32561,33
+Jason Smith,Energy & Utilities,28634,28
+Jason Smith,Tech & Telecom,24200,17
+Jason Smith,Other Industry,19950,14
+Jason Smith,Transportation,15285,12
+Jason Smith,Retail & Consumer,2000,2
+Jason Smith,Labor,500,1
+Jason Smith,Defense & Aerospace,257,2
+Jimmy Gomez,Finance & Insurance,137510,146
+Jimmy Gomez,Real Estate & Housing,83942,94
+Jimmy Gomez,Professional Services,73466,69
+Jimmy Gomez,Lobbying & Gov Relations,52150,75
+Jimmy Gomez,Healthcare & Pharma,26810,32
+Jimmy Gomez,Tech & Telecom,17250,14
+Jimmy Gomez,Other Industry,16500,5
+Jimmy Gomez,Construction & Engineering,14950,7
+Jimmy Gomez,Ideological,6600,2
+Jimmy Gomez,Retail & Consumer,4500,4
+Jimmy Gomez,Food & Beverage,3500,3
+Jimmy Gomez,Transportation,3300,1
+Jimmy Gomez,Energy & Utilities,1500,3
+Jimmy Gomez,Labor,770,19
+Jimmy Gomez,Defense & Aerospace,500,1
+Jimmy Panetta,Finance & Insurance,181432,201
+Jimmy Panetta,Real Estate & Housing,97643,112
+Jimmy Panetta,Professional Services,70244,82
+Jimmy Panetta,Lobbying & Gov Relations,46050,56
+Jimmy Panetta,Tech & Telecom,33600,26
+Jimmy Panetta,Healthcare & Pharma,26600,43
+Jimmy Panetta,Food & Beverage,26112,23
+Jimmy Panetta,Other Industry,14900,5
+Jimmy Panetta,Transportation,6600,2
+Jimmy Panetta,Construction & Engineering,5770,11
+Jimmy Panetta,Energy & Utilities,4100,5
+Jimmy Panetta,Agriculture & Food,3300,1
+Jimmy Panetta,Ideological,3300,1
+Jimmy Panetta,Retail & Consumer,2812,4
+Jimmy Panetta,Defense & Aerospace,750,2
+Jimmy Panetta,Labor,400,3
+Jodey Arrington,Finance & Insurance,62861,61
+Jodey Arrington,Healthcare & Pharma,54685,53
+Jodey Arrington,Lobbying & Gov Relations,27550,35
+Jodey Arrington,Energy & Utilities,23654,16
+Jodey Arrington,Professional Services,14711,17
+Jodey Arrington,Real Estate & Housing,4750,7
+Jodey Arrington,Agriculture & Food,3300,1
+Jodey Arrington,Other Industry,3300,1
+Jodey Arrington,Transportation,2643,4
+Jodey Arrington,Food & Beverage,2500,1
+Jodey Arrington,Construction & Engineering,2000,3
+Jodey Arrington,Labor,1000,1
+John Barrasso,Finance & Insurance,483818,430
+John Barrasso,Lobbying & Gov Relations,218306,174
+John Barrasso,Healthcare & Pharma,168275,326
+John Barrasso,Professional Services,139794,127
+John Barrasso,Energy & Utilities,131211,150
+John Barrasso,Real Estate & Housing,98186,120
+John Barrasso,Tech & Telecom,75421,43
+John Barrasso,Transportation,58878,52
+John Barrasso,Construction & Engineering,23470,19
+John Barrasso,Other Industry,17500,8
+John Barrasso,Retail & Consumer,7245,8
+John Barrasso,Food & Beverage,3300,1
+John Barrasso,Labor,250,1
+John Barrasso,Defense & Aerospace,103,5
+John Cornyn,Finance & Insurance,134008,173
+John Cornyn,Healthcare & Pharma,90645,297
+John Cornyn,Tech & Telecom,39663,64
+John Cornyn,Real Estate & Housing,37125,45
+John Cornyn,Professional Services,34556,74
+John Cornyn,Energy & Utilities,21750,108
+John Cornyn,Lobbying & Gov Relations,12000,20
+John Cornyn,Transportation,11325,13
+John Cornyn,Construction & Engineering,10157,18
+John Cornyn,Ideological,6600,3
+John Cornyn,Agriculture & Food,3300,1
+John Cornyn,Defense & Aerospace,1810,7
+John Cornyn,Food & Beverage,750,2
+John Cornyn,Retail & Consumer,65,13
+John Larson,Finance & Insurance,28700,38
+John Larson,Healthcare & Pharma,25850,40
+John Larson,Professional Services,21825,64
+John Larson,Lobbying & Gov Relations,19000,49
+John Larson,Real Estate & Housing,6800,8
+John Larson,Tech & Telecom,6600,2
+John Larson,Transportation,5750,8
+John Larson,Energy & Utilities,5000,9
+John Larson,Construction & Engineering,4000,4
+John Larson,Food & Beverage,1500,2
+John Larson,Labor,150,1
+John Thune,Finance & Insurance,220225,253
+John Thune,Real Estate & Housing,63900,119
+John Thune,Other Industry,39600,17
+John Thune,Energy & Utilities,32100,21
+John Thune,Lobbying & Gov Relations,30800,24
+John Thune,Professional Services,21400,25
+John Thune,Tech & Telecom,19600,13
+John Thune,Healthcare & Pharma,15950,34
+John Thune,Construction & Engineering,15550,8
+John Thune,Retail & Consumer,9600,6
+John Thune,Transportation,6255,10
+John Thune,Agriculture & Food,3300,1
+John Thune,Food & Beverage,850,3
+Judy Chu,Healthcare & Pharma,87500,73
+Judy Chu,Finance & Insurance,77875,49
+Judy Chu,Professional Services,54090,50
+Judy Chu,Real Estate & Housing,33375,20
+Judy Chu,Transportation,23550,10
+Judy Chu,Energy & Utilities,17450,16
+Judy Chu,Construction & Engineering,14150,14
+Judy Chu,Food & Beverage,13550,7
+Judy Chu,Tech & Telecom,12325,20
+Judy Chu,Lobbying & Gov Relations,10725,22
+Judy Chu,Retail & Consumer,8250,6
+Judy Chu,Other Industry,1000,1
+Kevin Hern,Finance & Insurance,107501,142
+Kevin Hern,Lobbying & Gov Relations,101736,103
+Kevin Hern,Real Estate & Housing,34800,60
+Kevin Hern,Professional Services,19112,16
+Kevin Hern,Healthcare & Pharma,17350,13
+Kevin Hern,Energy & Utilities,12058,7
+Kevin Hern,Other Industry,6600,2
+Kevin Hern,Transportation,6000,3
+Kevin Hern,Retail & Consumer,5686,4
+Kevin Hern,Tech & Telecom,4500,5
+Kevin Hern,Food & Beverage,2000,2
+Kevin Hern,Construction & Engineering,1250,12
+Linda Sanchez,Lobbying & Gov Relations,74600,55
+Linda Sanchez,Finance & Insurance,48300,32
+Linda Sanchez,Professional Services,31050,39
+Linda Sanchez,Tech & Telecom,11600,5
+Linda Sanchez,Real Estate & Housing,7822,7
+Linda Sanchez,Healthcare & Pharma,7365,30
+Linda Sanchez,Other Industry,2000,2
+Linda Sanchez,Retail & Consumer,1000,1
+Linda Sanchez,Construction & Engineering,500,1
+Linda Sanchez,Food & Beverage,375,8
+Lloyd Doggett,Professional Services,90215,53
+Lloyd Doggett,Healthcare & Pharma,22600,19
+Lloyd Doggett,Real Estate & Housing,21750,10
+Lloyd Doggett,Construction & Engineering,18800,12
+Lloyd Doggett,Finance & Insurance,14900,8
+Lloyd Doggett,Lobbying & Gov Relations,8550,13
+Lloyd Doggett,Energy & Utilities,3550,2
+Lloyd Doggett,Tech & Telecom,2125,5
+Lloyd Doggett,Food & Beverage,500,1
+Lloyd Doggett,Defense & Aerospace,250,1
+Lloyd Doggett,Retail & Consumer,250,1
+Lloyd Smucker,Lobbying & Gov Relations,36300,45
+Lloyd Smucker,Finance & Insurance,22497,15
+Lloyd Smucker,Professional Services,11957,14
+Lloyd Smucker,Healthcare & Pharma,11604,10
+Lloyd Smucker,Tech & Telecom,7600,4
+Lloyd Smucker,Real Estate & Housing,5350,6
+Lloyd Smucker,Other Industry,3300,1
+Lloyd Smucker,Energy & Utilities,2561,2
+Lloyd Smucker,Defense & Aerospace,602,5
+Lloyd Smucker,Construction & Engineering,500,1
+Lloyd Smucker,Retail & Consumer,450,2
+Maggie Hassan,Lobbying & Gov Relations,100650,84
+Maggie Hassan,Healthcare & Pharma,73747,339
+Maggie Hassan,Professional Services,60333,224
+Maggie Hassan,Finance & Insurance,58831,119
+Maggie Hassan,Real Estate & Housing,12050,8
+Maggie Hassan,Tech & Telecom,8658,115
+Maggie Hassan,Ideological,6600,2
+Maggie Hassan,Construction & Engineering,5445,61
+Maggie Hassan,Energy & Utilities,3005,18
+Maggie Hassan,Labor,2500,1
+Maggie Hassan,Food & Beverage,2400,24
+Maggie Hassan,Other Industry,2100,47
+Maggie Hassan,Defense & Aerospace,1300,7
+Maggie Hassan,Transportation,1216,31
+Maggie Hassan,Retail & Consumer,304,7
+Maria Cantwell,Professional Services,561479,515
+Maria Cantwell,Tech & Telecom,528048,417
+Maria Cantwell,Finance & Insurance,494364,401
+Maria Cantwell,Lobbying & Gov Relations,344797,349
+Maria Cantwell,Real Estate & Housing,296047,279
+Maria Cantwell,Transportation,220677,226
+Maria Cantwell,Healthcare & Pharma,185648,426
+Maria Cantwell,Energy & Utilities,149211,137
+Maria Cantwell,Construction & Engineering,84961,89
+Maria Cantwell,Other Industry,51418,89
+Maria Cantwell,Food & Beverage,31208,24
+Maria Cantwell,Defense & Aerospace,19262,35
+Maria Cantwell,Labor,14406,31
+Maria Cantwell,Retail & Consumer,12446,14
+Maria Cantwell,Ideological,6600,2
+Mark Warner,Finance & Insurance,285938,185
+Mark Warner,Professional Services,126942,191
+Mark Warner,Healthcare & Pharma,63451,263
+Mark Warner,Defense & Aerospace,48320,104
+Mark Warner,Lobbying & Gov Relations,45845,118
+Mark Warner,Real Estate & Housing,37157,46
+Mark Warner,Energy & Utilities,32810,55
+Mark Warner,Tech & Telecom,21165,64
+Mark Warner,Food & Beverage,14500,15
+Mark Warner,Retail & Consumer,13750,9
+Mark Warner,Construction & Engineering,8027,29
+Mark Warner,Labor,3300,1
+Mark Warner,Transportation,1500,40
+Marsha Blackburn,Finance & Insurance,340038,480
+Marsha Blackburn,Lobbying & Gov Relations,165499,192
+Marsha Blackburn,Healthcare & Pharma,142898,257
+Marsha Blackburn,Real Estate & Housing,139494,271
+Marsha Blackburn,Professional Services,69775,118
+Marsha Blackburn,Construction & Engineering,50229,90
+Marsha Blackburn,Tech & Telecom,46644,53
+Marsha Blackburn,Energy & Utilities,34930,42
+Marsha Blackburn,Food & Beverage,22280,31
+Marsha Blackburn,Transportation,20649,54
+Marsha Blackburn,Other Industry,12600,11
+Marsha Blackburn,Retail & Consumer,4465,7
+Marsha Blackburn,Defense & Aerospace,1075,24
+Marsha Blackburn,Labor,85,3
+Max Miller,Finance & Insurance,56205,40
+Max Miller,Real Estate & Housing,33257,30
+Max Miller,Professional Services,27073,26
+Max Miller,Lobbying & Gov Relations,21800,27
+Max Miller,Healthcare & Pharma,9900,15
+Max Miller,Other Industry,9900,4
+Max Miller,Construction & Engineering,8600,4
+Max Miller,Transportation,6800,4
+Max Miller,Energy & Utilities,1500,2
+Max Miller,Retail & Consumer,1000,1
+Max Miller,Tech & Telecom,1000,3
+Michael Bennet,Professional Services,23091,188
+Michael Bennet,Finance & Insurance,22920,60
+Michael Bennet,Healthcare & Pharma,17174,215
+Michael Bennet,Other Industry,13200,4
+Michael Bennet,Tech & Telecom,9810,56
+Michael Bennet,Energy & Utilities,4122,53
+Michael Bennet,Construction & Engineering,4050,30
+Michael Bennet,Real Estate & Housing,2709,13
+Michael Bennet,Defense & Aerospace,1365,60
+Michael Bennet,Lobbying & Gov Relations,1250,2
+Michael Bennet,Transportation,1002,28
+Michael Bennet,Retail & Consumer,710,87
+Michael Bennet,Food & Beverage,460,31
+Michelle Fischbach,Finance & Insurance,29603,23
+Michelle Fischbach,Lobbying & Gov Relations,24500,40
+Michelle Fischbach,Other Industry,23300,10
+Michelle Fischbach,Professional Services,17475,19
+Michelle Fischbach,Energy & Utilities,16450,27
+Michelle Fischbach,Construction & Engineering,15327,38
+Michelle Fischbach,Tech & Telecom,12300,16
+Michelle Fischbach,Transportation,9275,5
+Michelle Fischbach,Healthcare & Pharma,7365,14
+Michelle Fischbach,Food & Beverage,4250,5
+Michelle Fischbach,Real Estate & Housing,3500,3
+Michelle Fischbach,Agriculture & Food,1500,1
+Michelle Fischbach,Retail & Consumer,1500,3
+Mike Carey,Lobbying & Gov Relations,100300,127
+Mike Carey,Professional Services,66470,80
+Mike Carey,Finance & Insurance,38800,29
+Mike Carey,Healthcare & Pharma,35402,24
+Mike Carey,Construction & Engineering,23141,16
+Mike Carey,Real Estate & Housing,20700,16
+Mike Carey,Energy & Utilities,17550,25
+Mike Carey,Tech & Telecom,7300,7
+Mike Carey,Transportation,3750,5
+Mike Carey,Food & Beverage,1500,3
+Mike Carey,Other Industry,1500,2
+Mike Carey,Retail & Consumer,950,3
+Mike Crapo,Finance & Insurance,79150,51
+Mike Crapo,Energy & Utilities,27000,26
+Mike Crapo,Lobbying & Gov Relations,16300,16
+Mike Crapo,Healthcare & Pharma,11620,10
+Mike Crapo,Tech & Telecom,2500,2
+Mike Crapo,Professional Services,1250,2
+Mike Kelly,Finance & Insurance,78025,127
+Mike Kelly,Lobbying & Gov Relations,38350,51
+Mike Kelly,Transportation,35991,19
+Mike Kelly,Real Estate & Housing,29000,55
+Mike Kelly,Energy & Utilities,16300,9
+Mike Kelly,Healthcare & Pharma,13875,16
+Mike Kelly,Professional Services,11150,17
+Mike Kelly,Construction & Engineering,4000,4
+Mike Kelly,Other Industry,3300,1
+Mike Kelly,Food & Beverage,2500,4
+Mike Kelly,Tech & Telecom,1750,4
+Mike Kelly,Retail & Consumer,500,1
+Mike Thompson,Food & Beverage,115074,155
+Mike Thompson,Lobbying & Gov Relations,34650,39
+Mike Thompson,Finance & Insurance,34622,43
+Mike Thompson,Healthcare & Pharma,26194,68
+Mike Thompson,Professional Services,20775,47
+Mike Thompson,Real Estate & Housing,16750,16
+Mike Thompson,Other Industry,9900,3
+Mike Thompson,Energy & Utilities,8450,8
+Mike Thompson,Tech & Telecom,7028,4
+Mike Thompson,Agriculture & Food,2500,1
+Mike Thompson,Transportation,1348,4
+Mike Thompson,Construction & Engineering,1100,7
+Mike Thompson,Defense & Aerospace,500,1
+Mike Thompson,Retail & Consumer,400,2
+Nathaniel Moran,Professional Services,32650,25
+Nathaniel Moran,Finance & Insurance,14854,16
+Nathaniel Moran,Transportation,14700,6
+Nathaniel Moran,Healthcare & Pharma,12400,11
+Nathaniel Moran,Lobbying & Gov Relations,11250,19
+Nathaniel Moran,Real Estate & Housing,9900,3
+Nathaniel Moran,Energy & Utilities,9067,7
+Nathaniel Moran,Tech & Telecom,3500,2
+Nathaniel Moran,Retail & Consumer,2500,1
+Nathaniel Moran,Defense & Aerospace,1000,1
+Nathaniel Moran,Construction & Engineering,500,1
+Nathaniel Moran,Food & Beverage,500,1
+Nicole Malliotakis,Finance & Insurance,122527,125
+Nicole Malliotakis,Professional Services,70434,75
+Nicole Malliotakis,Construction & Engineering,48735,49
+Nicole Malliotakis,Real Estate & Housing,37144,56
+Nicole Malliotakis,Lobbying & Gov Relations,36771,46
+Nicole Malliotakis,Healthcare & Pharma,26327,93
+Nicole Malliotakis,Other Industry,16500,5
+Nicole Malliotakis,Energy & Utilities,15351,24
+Nicole Malliotakis,Retail & Consumer,10700,10
+Nicole Malliotakis,Tech & Telecom,7100,3
+Nicole Malliotakis,Food & Beverage,6250,6
+Nicole Malliotakis,Labor,1675,6
+Nicole Malliotakis,Transportation,1375,2
+Peter Welch,Lobbying & Gov Relations,3000,2
+Peter Welch,Real Estate & Housing,2000,2
+Peter Welch,Professional Services,1250,2
+Peter Welch,Tech & Telecom,500,1
+Peter Welch,Construction & Engineering,200,2
+Peter Welch,Defense & Aerospace,100,2
+Randy Feenstra,Finance & Insurance,243824,284
+Randy Feenstra,Lobbying & Gov Relations,92525,94
+Randy Feenstra,Real Estate & Housing,64530,113
+Randy Feenstra,Other Industry,41600,23
+Randy Feenstra,Professional Services,40282,36
+Randy Feenstra,Energy & Utilities,34650,22
+Randy Feenstra,Construction & Engineering,13880,11
+Randy Feenstra,Tech & Telecom,12400,9
+Randy Feenstra,Healthcare & Pharma,11685,15
+Randy Feenstra,Transportation,11200,8
+Randy Feenstra,Food & Beverage,5800,2
+Randy Feenstra,Agriculture & Food,1500,1
+Randy Feenstra,Retail & Consumer,250,1
+Randy Feenstra,Defense & Aerospace,30,1
+Raphael Warnock,Healthcare & Pharma,113811,3428
+Raphael Warnock,Professional Services,73800,1685
+Raphael Warnock,Tech & Telecom,52391,1612
+Raphael Warnock,Finance & Insurance,15835,546
+Raphael Warnock,Construction & Engineering,11995,395
+Raphael Warnock,Real Estate & Housing,11192,330
+Raphael Warnock,Transportation,6599,322
+Raphael Warnock,Food & Beverage,5370,99
+Raphael Warnock,Lobbying & Gov Relations,5041,33
+Raphael Warnock,Defense & Aerospace,4570,216
+Raphael Warnock,Energy & Utilities,3317,153
+Raphael Warnock,Labor,2500,124
+Raphael Warnock,Other Industry,1780,51
+Raphael Warnock,Retail & Consumer,1555,107
+Richard Neal,Finance & Insurance,202750,207
+Richard Neal,Real Estate & Housing,73030,75
+Richard Neal,Lobbying & Gov Relations,56550,74
+Richard Neal,Professional Services,47000,48
+Richard Neal,Ideological,13200,4
+Richard Neal,Energy & Utilities,11100,9
+Richard Neal,Tech & Telecom,9900,3
+Richard Neal,Healthcare & Pharma,8500,7
+Richard Neal,Construction & Engineering,3800,2
+Richard Neal,Transportation,1750,3
+Richard Neal,Retail & Consumer,250,1
+Roger Marshall,Finance & Insurance,31574,18
+Roger Marshall,Healthcare & Pharma,30650,31
+Roger Marshall,Lobbying & Gov Relations,17957,24
+Roger Marshall,Real Estate & Housing,7600,3
+Roger Marshall,Professional Services,7593,17
+Roger Marshall,Energy & Utilities,7000,7
+Roger Marshall,Other Industry,1000,1
+Roger Marshall,Retail & Consumer,900,2
+Roger Marshall,Food & Beverage,500,1
+Ron Estes,Lobbying & Gov Relations,35300,45
+Ron Estes,Finance & Insurance,30935,30
+Ron Estes,Healthcare & Pharma,18150,21
+Ron Estes,Construction & Engineering,12850,7
+Ron Estes,Energy & Utilities,12150,9
+Ron Estes,Transportation,10450,8
+Ron Estes,Real Estate & Housing,7600,6
+Ron Estes,Tech & Telecom,5800,4
+Ron Estes,Defense & Aerospace,3300,1
+Ron Estes,Professional Services,2750,3
+Ron Estes,Labor,1000,1
+Ron Estes,Food & Beverage,250,1
+Ron Johnson,Healthcare & Pharma,50770,939
+Ron Johnson,Finance & Insurance,35713,455
+Ron Johnson,Real Estate & Housing,33598,234
+Ron Johnson,Construction & Engineering,25563,296
+Ron Johnson,Professional Services,21175,379
+Ron Johnson,Energy & Utilities,18344,218
+Ron Johnson,Transportation,17758,508
+Ron Johnson,Tech & Telecom,7880,189
+Ron Johnson,Retail & Consumer,4526,247
+Ron Johnson,Food & Beverage,3783,73
+Ron Johnson,Lobbying & Gov Relations,1510,22
+Ron Johnson,Defense & Aerospace,1228,145
+Ron Johnson,Other Industry,1000,1
+Ron Johnson,Labor,404,8
+Ron Wyden,Professional Services,46850,42
+Ron Wyden,Finance & Insurance,30902,73
+Ron Wyden,Lobbying & Gov Relations,15500,12
+Ron Wyden,Ideological,13200,4
+Ron Wyden,Real Estate & Housing,10220,12
+Ron Wyden,Healthcare & Pharma,7099,106
+Ron Wyden,Other Industry,6600,2
+Ron Wyden,Energy & Utilities,5900,6
+Ron Wyden,Tech & Telecom,4980,64
+Ron Wyden,Agriculture & Food,2500,1
+Ron Wyden,Retail & Consumer,1965,16
+Ron Wyden,Construction & Engineering,450,18
+Ron Wyden,Transportation,360,18
+Ron Wyden,Food & Beverage,195,13
+Rudy Yakym,Professional Services,31135,34
+Rudy Yakym,Finance & Insurance,22764,44
+Rudy Yakym,Lobbying & Gov Relations,18500,29
+Rudy Yakym,Healthcare & Pharma,15964,101
+Rudy Yakym,Construction & Engineering,6583,62
+Rudy Yakym,Energy & Utilities,4710,8
+Rudy Yakym,Transportation,4478,55
+Rudy Yakym,Real Estate & Housing,3280,36
+Rudy Yakym,Tech & Telecom,1495,49
+Rudy Yakym,Retail & Consumer,1295,12
+Rudy Yakym,Food & Beverage,500,1
+Sheldon Whitehouse,Professional Services,190580,200
+Sheldon Whitehouse,Finance & Insurance,100737,69
+Sheldon Whitehouse,Real Estate & Housing,47484,40
+Sheldon Whitehouse,Healthcare & Pharma,44310,181
+Sheldon Whitehouse,Lobbying & Gov Relations,38500,38
+Sheldon Whitehouse,Energy & Utilities,29525,40
+Sheldon Whitehouse,Construction & Engineering,14305,43
+Sheldon Whitehouse,Tech & Telecom,7249,22
+Sheldon Whitehouse,Defense & Aerospace,3300,1
+Sheldon Whitehouse,Food & Beverage,896,4
+Sheldon Whitehouse,Other Industry,500,2
+Sheldon Whitehouse,Transportation,394,15
+Sheldon Whitehouse,Retail & Consumer,235,24
+Sheldon Whitehouse,Labor,50,1
+Stacey Plaskett,Professional Services,31300,25
+Stacey Plaskett,Lobbying & Gov Relations,18350,22
+Stacey Plaskett,Construction & Engineering,14875,24
+Stacey Plaskett,Finance & Insurance,14600,6
+Stacey Plaskett,Real Estate & Housing,11200,6
+Stacey Plaskett,Healthcare & Pharma,5725,29
+Stacey Plaskett,Energy & Utilities,4500,7
+Stacey Plaskett,Tech & Telecom,4300,2
+Stacey Plaskett,Labor,1000,1
+Stacey Plaskett,Retail & Consumer,500,1
+Stacey Plaskett,Transportation,250,1
+Stacey Plaskett,Defense & Aerospace,150,10
+Steve Daines,Finance & Insurance,59955,87
+Steve Daines,Lobbying & Gov Relations,38250,38
+Steve Daines,Healthcare & Pharma,13085,93
+Steve Daines,Other Industry,8100,4
+Steve Daines,Professional Services,7679,47
+Steve Daines,Tech & Telecom,7191,19
+Steve Daines,Energy & Utilities,3500,4
+Steve Daines,Transportation,1975,40
+Steve Daines,Construction & Engineering,1250,28
+Steve Daines,Real Estate & Housing,1145,29
+Steve Daines,Retail & Consumer,745,23
+Steven Horsford,Finance & Insurance,339195,248
+Steven Horsford,Professional Services,154758,189
+Steven Horsford,Lobbying & Gov Relations,149266,170
+Steven Horsford,Healthcare & Pharma,84866,154
+Steven Horsford,Real Estate & Housing,73275,91
+Steven Horsford,Energy & Utilities,36940,72
+Steven Horsford,Tech & Telecom,23555,52
+Steven Horsford,Construction & Engineering,17415,16
+Steven Horsford,Defense & Aerospace,6050,7
+Steven Horsford,Other Industry,5300,3
+Steven Horsford,Transportation,2674,9
+Steven Horsford,Food & Beverage,1500,2
+Steven Horsford,Labor,1350,5
+Steven Horsford,Retail & Consumer,1260,13
+Suzan DelBene,Finance & Insurance,137678,186
+Suzan DelBene,Tech & Telecom,75893,122
+Suzan DelBene,Professional Services,56357,114
+Suzan DelBene,Real Estate & Housing,50208,88
+Suzan DelBene,Lobbying & Gov Relations,35650,53
+Suzan DelBene,Healthcare & Pharma,32047,70
+Suzan DelBene,Energy & Utilities,12900,14
+Suzan DelBene,Other Industry,8159,44
+Suzan DelBene,Food & Beverage,7500,10
+Suzan DelBene,Ideological,6600,2
+Suzan DelBene,Defense & Aerospace,5605,69
+Suzan DelBene,Transportation,2000,1
+Suzan DelBene,Agriculture & Food,1500,1
+Suzan DelBene,Construction & Engineering,1400,8
+Suzan DelBene,Labor,750,2
+Suzan DelBene,Retail & Consumer,50,1
+Terri Sewell,Finance & Insurance,156050,163
+Terri Sewell,Professional Services,83336,108
+Terri Sewell,Healthcare & Pharma,62920,70
+Terri Sewell,Real Estate & Housing,31800,56
+Terri Sewell,Lobbying & Gov Relations,25750,43
+Terri Sewell,Defense & Aerospace,9050,4
+Terri Sewell,Tech & Telecom,8100,4
+Terri Sewell,Ideological,6600,2
+Terri Sewell,Energy & Utilities,5300,4
+Terri Sewell,Other Industry,3850,7
+Terri Sewell,Transportation,1025,2
+Terri Sewell,Construction & Engineering,800,7
+Thom Tillis,Finance & Insurance,375510,223
+Thom Tillis,Lobbying & Gov Relations,100050,80
+Thom Tillis,Professional Services,90610,61
+Thom Tillis,Healthcare & Pharma,81737,193
+Thom Tillis,Energy & Utilities,22850,11
+Thom Tillis,Tech & Telecom,17100,9
+Thom Tillis,Real Estate & Housing,11710,12
+Thom Tillis,Transportation,9180,31
+Thom Tillis,Other Industry,6600,2
+Thom Tillis,Defense & Aerospace,3975,23
+Thom Tillis,Food & Beverage,3000,2
+Thom Tillis,Construction & Engineering,1390,48
+Thom Tillis,Retail & Consumer,1000,1
+Thomas Suozzi,Professional Services,514314,658
+Thomas Suozzi,Finance & Insurance,413830,273
+Thomas Suozzi,Healthcare & Pharma,227341,248
+Thomas Suozzi,Real Estate & Housing,199198,119
+Thomas Suozzi,Lobbying & Gov Relations,71292,102
+Thomas Suozzi,Construction & Engineering,62951,52
+Thomas Suozzi,Tech & Telecom,39074,62
+Thomas Suozzi,Energy & Utilities,37850,22
+Thomas Suozzi,Transportation,18025,15
+Thomas Suozzi,Food & Beverage,15550,10
+Thomas Suozzi,Agriculture & Food,13200,4
+Thomas Suozzi,Retail & Consumer,9100,6
+Thomas Suozzi,Defense & Aerospace,7350,4
+Thomas Suozzi,Labor,4002,29
+Thomas Suozzi,Other Industry,1600,5
+Tim Scott,Finance & Insurance,708103,1325
+Tim Scott,Professional Services,328149,1237
+Tim Scott,Real Estate & Housing,201749,571
+Tim Scott,Healthcare & Pharma,179431,2415
+Tim Scott,Lobbying & Gov Relations,167979,189
+Tim Scott,Construction & Engineering,103243,737
+Tim Scott,Transportation,88974,625
+Tim Scott,Energy & Utilities,43656,254
+Tim Scott,Other Industry,40100,24
+Tim Scott,Food & Beverage,31283,99
+Tim Scott,Tech & Telecom,24538,169
+Tim Scott,Retail & Consumer,20974,201
+Tim Scott,Ideological,19800,9
+Tim Scott,Defense & Aerospace,6655,122
+Tim Scott,Labor,1385,35
+Tina Smith,Lobbying & Gov Relations,27650,33
+Tina Smith,Finance & Insurance,19345,79
+Tina Smith,Professional Services,15500,64
+Tina Smith,Healthcare & Pharma,12138,354
+Tina Smith,Real Estate & Housing,10640,30
+Tina Smith,Food & Beverage,3550,26
+Tina Smith,Construction & Engineering,2495,44
+Tina Smith,Tech & Telecom,1646,85
+Tina Smith,Labor,620,26
+Tina Smith,Energy & Utilities,556,38
+Tina Smith,Retail & Consumer,290,34
+Tina Smith,Transportation,100,1
+Todd Young,Finance & Insurance,144770,213
+Todd Young,Real Estate & Housing,39000,75
+Todd Young,Professional Services,20675,27
+Todd Young,Healthcare & Pharma,16000,14
+Todd Young,Lobbying & Gov Relations,13350,11
+Todd Young,Labor,3300,1
+Todd Young,Tech & Telecom,3300,1
+Todd Young,Construction & Engineering,2100,2
+Todd Young,Food & Beverage,454,13
+Vern Buchanan,Lobbying & Gov Relations,51153,54
+Vern Buchanan,Finance & Insurance,35450,14
+Vern Buchanan,Healthcare & Pharma,18700,7
+Vern Buchanan,Professional Services,15400,8
+Vern Buchanan,Real Estate & Housing,8300,3
+Vern Buchanan,Food & Beverage,6600,2
+Vern Buchanan,Tech & Telecom,6600,2
+Vern Buchanan,Construction & Engineering,5750,6
+Vern Buchanan,Ideological,3300,1
+Vern Buchanan,Agriculture & Food,2500,1
+Vern Buchanan,Energy & Utilities,705,14
+Vern Buchanan,Other Industry,500,1
+Vern Buchanan,Transportation,500,1
+Vern Buchanan,Retail & Consumer,250,1

@@ -275,7 +275,7 @@ export default function PacsPage() {
         >
           PAC Influence
         </h1>
-        <p className="text-sm text-stone-600 max-w-2xl leading-relaxed">
+        <p className="text-sm text-stone-600 max-w-4xl leading-relaxed">
           Political Action Committees funnel industry money directly to
           tax-writing committee members. This analysis shows which PACs have
           the broadest reach, which industries spend the most, and how they
@@ -340,7 +340,7 @@ export default function PacsPage() {
           >
             Do Tax-Writers Get More PAC Money?
           </h2>
-          <p className="text-xs text-stone-500 mb-5 max-w-2xl leading-relaxed">
+          <p className="text-xs text-stone-500 mb-5 max-w-4xl leading-relaxed">
             Comparing median PAC contributions received by Ways &amp; Means and
             Finance Committee members vs. all other House and Senate incumbents.
           </p>
@@ -474,7 +474,7 @@ export default function PacsPage() {
             >
               The Committee Seat Premium
             </h2>
-            <p className="text-xs text-stone-500 mb-5 max-w-2xl leading-relaxed">
+            <p className="text-xs text-stone-500 mb-5 max-w-4xl leading-relaxed">
               Do PAC contributions increase after a member joins the tax-writing
               committee? We compared each member&apos;s median PAC receipts in
               election cycles <em>before</em> their appointment vs.{" "}
@@ -578,7 +578,7 @@ export default function PacsPage() {
               </div>
             )}
 
-            <p className="text-[10px] text-stone-400 mt-2 max-w-2xl leading-relaxed">
+            <p className="text-[10px] text-stone-400 mt-2 max-w-4xl leading-relaxed">
               Based on {headline.valid_members} members with at least one election
               cycle before and after their committee appointment. Median PAC
               receipts compared across cycles 2014&ndash;2024. The cycle of appointment
@@ -601,7 +601,7 @@ export default function PacsPage() {
           >
             What Each Industry Wants
           </h2>
-          <p className="text-xs text-stone-500 mb-5 max-w-2xl leading-relaxed">
+          <p className="text-xs text-stone-500 mb-5 max-w-4xl leading-relaxed">
             The money isn&apos;t abstract — each sector has a specific tax
             policy wishlist. Here&apos;s what the top industries are paying to
             protect.
@@ -678,7 +678,7 @@ export default function PacsPage() {
           >
             Who Receives the Most PAC Attention?
           </h2>
-          <p className="text-xs text-stone-500 mb-5 max-w-2xl leading-relaxed">
+          <p className="text-xs text-stone-500 mb-5 max-w-4xl leading-relaxed">
             These committee members are funded by the largest number of
             distinct PACs — making them the most courted lawmakers on tax
             policy.

@@ -180,7 +180,7 @@ export default async function MemberDetailPage({
     .sort((a, b) => b.total - a.total);
 
   return (
-    <div className="max-w-5xl mx-auto space-y-10">
+    <div className="space-y-10">
       {/* ---- Back link ---- */}
       <Link
         href="/members"

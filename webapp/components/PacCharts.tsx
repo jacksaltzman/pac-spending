@@ -95,7 +95,7 @@ export default function PacCharts({ pacs, sectorColors }: PacChartsProps) {
         >
           PAC Dollars by Industry Sector
         </h2>
-        <p className="text-xs text-stone-500 mb-4 max-w-2xl leading-relaxed">
+        <p className="text-xs text-stone-500 mb-4 max-w-4xl leading-relaxed">
           Industries that spend the most on PAC contributions to tax-writing committees are the same ones with the most at stake in tax legislation.
           Finance, healthcare, and real estate together account for the majority of classified PAC dollars — and each has a distinct tax policy wishlist.
         </p>
@@ -135,7 +135,7 @@ export default function PacCharts({ pacs, sectorColors }: PacChartsProps) {
         >
           PAC Reach vs. Total Dollars (10+ Recipients)
         </h2>
-        <p className="text-xs text-stone-500 mb-4 max-w-2xl leading-relaxed">
+        <p className="text-xs text-stone-500 mb-4 max-w-4xl leading-relaxed">
           The upper-right corner is where the power lives: PACs that spend big <em>and</em> spread wide.
           A PAC funding 40+ members across both committees doesn&apos;t just have access — it has leverage over every stage of the tax-writing process.
         </p>
@@ -195,7 +195,7 @@ export default function PacCharts({ pacs, sectorColors }: PacChartsProps) {
         >
           Party Split — Top PACs by Reach (20+ Recipients)
         </h2>
-        <p className="text-xs text-stone-500 mb-4 max-w-2xl leading-relaxed">
+        <p className="text-xs text-stone-500 mb-4 max-w-4xl leading-relaxed">
           The most powerful PACs give to both parties — not out of bipartisanship, but to guarantee a seat at the table regardless of who controls the committee.
           This &ldquo;hedge your bets&rdquo; strategy ensures their tax priorities survive any shift in power.
         </p>

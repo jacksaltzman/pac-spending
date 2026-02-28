@@ -189,7 +189,7 @@ export default function StoriesPage() {
   }
 
   return (
-    <div className="max-w-5xl">
+    <div>
       <header className="mb-8">
         <h1
           className="text-3xl sm:text-5xl text-[#111111] mb-2 uppercase tracking-tight font-bold"

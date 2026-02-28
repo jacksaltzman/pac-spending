@@ -76,7 +76,7 @@ export default function DashboardPage() {
   const comparisonRows = [houseAgg, senateAgg].filter(Boolean);
 
   return (
-    <div className="max-w-6xl">
+    <div>
       {/* ── Header ──────────────────────────────────────── */}
       <header className="mb-6">
         <h1
@@ -87,7 +87,7 @@ export default function DashboardPage() {
           <br />
           American Tax Policy?
         </h1>
-        <p className="text-sm text-stone-600 max-w-2xl leading-relaxed">
+        <p className="text-sm text-stone-600 max-w-4xl leading-relaxed">
           A geographic analysis of individual contributions to every member of
           the House Ways &amp; Means Committee and Senate Finance Committee.
           Tracking where the money originates &mdash; in-district, in-state,
@@ -96,7 +96,7 @@ export default function DashboardPage() {
       </header>
 
       {/* ── Introduction / Why This Matters ───────────── */}
-      <section className="mb-10 max-w-3xl">
+      <section className="mb-10 max-w-5xl">
         <div className="border-l-4 border-[#FE4F40] pl-5 py-1">
           <h2
             className="text-xs uppercase tracking-[0.2em] text-stone-500 mb-3"

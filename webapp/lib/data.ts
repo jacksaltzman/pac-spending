@@ -206,6 +206,34 @@ export interface ContributionTiming {
   event_analysis: EventAnalysisEntry[];
 }
 
+export interface IndustrySectorTotal {
+  sector: string;
+  individual_total: number;
+  individual_count: number;
+  individual_donors: number;
+  pac_total: number;
+  combined_total: number;
+  individual_share_pct: number;
+}
+
+export interface IndustryEmployer {
+  employer: string;
+  total: number;
+  count: number;
+  members_funded: number;
+}
+
+export interface IndustryInfluenceData {
+  sector_totals: IndustrySectorTotal[];
+  top_employers_by_sector: Record<string, IndustryEmployer[]>;
+  summary: {
+    classified_individual_total: number;
+    pac_total: number;
+    combined_total: number;
+    individual_to_pac_ratio: number;
+  };
+}
+
 // --- Data loading via fs (server components only) ---
 
 const DATA_DIR = join(process.cwd(), "data");
@@ -303,4 +331,13 @@ export function getContributionTiming(): ContributionTiming | null {
   if (!existsSync(filePath)) return null;
   const raw = readFileSync(filePath, "utf-8");
   return JSON.parse(raw) as ContributionTiming;
+}
+
+export function getIndustryInfluence(): IndustryInfluenceData | null {
+  try {
+    const raw = readFileSync(join(DATA_DIR, "industry_influence.json"), "utf-8");
+    return JSON.parse(raw) as IndustryInfluenceData;
+  } catch {
+    return null;
+  }
 }

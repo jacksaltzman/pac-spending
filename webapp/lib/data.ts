@@ -234,6 +234,57 @@ export interface IndustryInfluenceData {
   };
 }
 
+export interface LeadershipTierRow {
+  tier: string;
+  count: number;
+  median_pac: number;
+  mean_pac: number;
+  median_receipts: number;
+  mean_receipts: number;
+  median_pct_outside: number;
+  median_pct_dc: number;
+  premium_vs_rank_file_pct: number | null;
+}
+
+export interface LeadershipSectorAlignment {
+  subcommittee: string;
+  member: string;
+  title: string;
+  party: string;
+  state: string;
+  chamber: string;
+  relevant_sectors: string;
+  member_sector_pac_pct: number;
+  committee_avg_sector_pac_pct: number;
+  premium_pct: number;
+}
+
+export interface LeadershipMemberRole {
+  tier: number;
+  title: string;
+  subcommittee: string | null;
+}
+
+export interface LeadershipAnalysis {
+  tier_comparison: {
+    house: LeadershipTierRow[];
+    senate: LeadershipTierRow[];
+    combined: LeadershipTierRow[];
+  };
+  subcommittee_sector_alignment: LeadershipSectorAlignment[];
+  headline: {
+    subcommittee_leadership_premium_pct: number | null;
+    full_committee_premium_pct: number | null;
+    most_targeted_leader: string | null;
+    most_targeted_leader_pac: number | null;
+    most_sector_aligned_subcommittee: string | null;
+    most_sector_aligned_member: string | null;
+    most_sector_aligned_premium: number | null;
+    avg_pac_leadership_premium_pct: number | null;
+  };
+  member_leadership_roles: Record<string, LeadershipMemberRole>;
+}
+
 // --- Data loading via fs (server components only) ---
 
 const DATA_DIR = join(process.cwd(), "data");
@@ -337,6 +388,15 @@ export function getIndustryInfluence(): IndustryInfluenceData | null {
   try {
     const raw = readFileSync(join(DATA_DIR, "industry_influence.json"), "utf-8");
     return JSON.parse(raw) as IndustryInfluenceData;
+  } catch {
+    return null;
+  }
+}
+
+export function getLeadershipAnalysis(): LeadershipAnalysis | null {
+  try {
+    const raw = readFileSync(join(DATA_DIR, "leadership_analysis.json"), "utf-8");
+    return JSON.parse(raw) as LeadershipAnalysis;
   } catch {
     return null;
   }

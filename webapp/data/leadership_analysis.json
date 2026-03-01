@@ -1,0 +1,977 @@
+{
+  "tier_comparison": {
+    "house": [
+      {
+        "tier": "Full Committee Leadership",
+        "count": 2,
+        "median_pac": 2948995,
+        "mean_pac": 2948995,
+        "median_receipts": 4917701,
+        "mean_receipts": 4917701,
+        "median_pct_outside": 91.4,
+        "median_pct_dc": 6.2,
+        "premium_vs_rank_file_pct": 158.0
+      },
+      {
+        "tier": "Subcommittee Leadership",
+        "count": 8,
+        "median_pac": 1346105,
+        "mean_pac": 1229608,
+        "median_receipts": 1910610,
+        "mean_receipts": 2271096,
+        "median_pct_outside": 74.7,
+        "median_pct_dc": 3.4,
+        "premium_vs_rank_file_pct": 17.8
+      },
+      {
+        "tier": "Rank-and-File",
+        "count": 31,
+        "median_pac": 1143059,
+        "mean_pac": 1260975,
+        "median_receipts": 2337216,
+        "mean_receipts": 2846161,
+        "median_pct_outside": 77.9,
+        "median_pct_dc": 3.6,
+        "premium_vs_rank_file_pct": 0.0
+      }
+    ],
+    "senate": [
+      {
+        "tier": "Full Committee Leadership",
+        "count": 1,
+        "median_pac": 309350,
+        "mean_pac": 309350,
+        "median_receipts": 1533628,
+        "mean_receipts": 1533628,
+        "median_pct_outside": 61.2,
+        "median_pct_dc": 5.1,
+        "premium_vs_rank_file_pct": -55.4
+      },
+      {
+        "tier": "Subcommittee Leadership",
+        "count": 10,
+        "median_pac": 196442,
+        "mean_pac": 465339,
+        "median_receipts": 4098667,
+        "mean_receipts": 4600350,
+        "median_pct_outside": 69.3,
+        "median_pct_dc": 2.3,
+        "premium_vs_rank_file_pct": -71.7
+      },
+      {
+        "tier": "Rank-and-File",
+        "count": 11,
+        "median_pac": 693800,
+        "mean_pac": 645987,
+        "median_receipts": 4163983,
+        "mean_receipts": 5803834,
+        "median_pct_outside": 76.8,
+        "median_pct_dc": 5.8,
+        "premium_vs_rank_file_pct": 0.0
+      }
+    ],
+    "combined": [
+      {
+        "tier": "Full Committee Leadership",
+        "count": 3,
+        "median_pac": 2417922,
+        "mean_pac": 2069113,
+        "median_receipts": 3285602,
+        "mean_receipts": 3789676,
+        "median_pct_outside": 89.0,
+        "median_pct_dc": 5.1,
+        "premium_vs_rank_file_pct": 129.7
+      },
+      {
+        "tier": "Subcommittee Leadership",
+        "count": 18,
+        "median_pac": 449531,
+        "mean_pac": 805014,
+        "median_receipts": 2215490,
+        "mean_receipts": 3565126,
+        "median_pct_outside": 73.9,
+        "median_pct_dc": 3.2,
+        "premium_vs_rank_file_pct": -57.3
+      },
+      {
+        "tier": "Rank-and-File",
+        "count": 42,
+        "median_pac": 1052606,
+        "mean_pac": 1099907,
+        "median_receipts": 2566106,
+        "mean_receipts": 3620790,
+        "median_pct_outside": 77.0,
+        "median_pct_dc": 3.9,
+        "premium_vs_rank_file_pct": 0.0
+      }
+    ]
+  },
+  "pac_targeting": [
+    {
+      "pac_cmte_id": "C00147066",
+      "pac_name": "AMERICAN COUNCIL OF LIFE INSURERS POLITICAL ACTION COMMITTEE",
+      "sector": "Finance & Insurance",
+      "total_given": 327500,
+      "num_recipients": 58,
+      "leadership_recipients": 7,
+      "rankfile_recipients": 3,
+      "avg_to_leadership": 6643,
+      "avg_to_rankfile": 9167,
+      "leadership_premium_pct": -27.5
+    },
+    {
+      "pac_cmte_id": "C00109017",
+      "pac_name": "AT&T INC. EMPLOYEE FEDERAL POLITICAL ACTION COMMITTEE (AT&T EMPLOYEE FEDERAL PAC)",
+      "sector": "Tech & Telecom",
+      "total_given": 324000,
+      "num_recipients": 56,
+      "leadership_recipients": 3,
+      "rankfile_recipients": 3,
+      "avg_to_leadership": 7333,
+      "avg_to_rankfile": 10000,
+      "leadership_premium_pct": -26.7
+    },
+    {
+      "pac_cmte_id": "C00186288",
+      "pac_name": "VERIZON COMMUNICATIONS, INC. POLITICAL ACTION COMMITTEE (VERIZON PAC)",
+      "sector": "Tech & Telecom",
+      "total_given": 223000,
+      "num_recipients": 54,
+      "leadership_recipients": 2,
+      "rankfile_recipients": 1,
+      "avg_to_leadership": 10000,
+      "avg_to_rankfile": 10000,
+      "leadership_premium_pct": 0.0
+    },
+    {
+      "pac_cmte_id": "C00106146",
+      "pac_name": "AMERICAN HOSPITAL ASSOCIATION PAC",
+      "sector": "Healthcare & Pharma",
+      "total_given": 487522,
+      "num_recipients": 52,
+      "leadership_recipients": 4,
+      "rankfile_recipients": 8,
+      "avg_to_leadership": 8125,
+      "avg_to_rankfile": 21940,
+      "leadership_premium_pct": -63.0
+    },
+    {
+      "pac_cmte_id": "C00283135",
+      "pac_name": "NATIONAL ASSOCIATION OF BENEFITS AND INSURANCE PROFESSIONALS PAC (NABIP PAC)",
+      "sector": "Finance & Insurance",
+      "total_given": 172000,
+      "num_recipients": 52,
+      "leadership_recipients": 1,
+      "rankfile_recipients": 1,
+      "avg_to_leadership": 5000,
+      "avg_to_rankfile": 5000,
+      "leadership_premium_pct": 0.0
+    },
+    {
+      "pac_cmte_id": "C00127779",
+      "pac_name": "PRUDENTIAL FINANCIAL INC. FEDERAL POLITICAL ACTION COMMITTEE (AKA - PRUDENTIAL FEDERAL PAC)",
+      "sector": "Finance & Insurance",
+      "total_given": 237500,
+      "num_recipients": 52,
+      "leadership_recipients": 1,
+      "rankfile_recipients": 1,
+      "avg_to_leadership": 5000,
+      "avg_to_rankfile": 10000,
+      "leadership_premium_pct": -50.0
+    },
+    {
+      "pac_cmte_id": "C00303024",
+      "pac_name": "LOCKHEED MARTIN CORPORATION EMPLOYEES' POLITICAL ACTION COMMITTEE",
+      "sector": "Defense & Aerospace",
+      "total_given": 209000,
+      "num_recipients": 51,
+      "leadership_recipients": 1,
+      "rankfile_recipients": 2,
+      "avg_to_leadership": 10000,
+      "avg_to_rankfile": 7500,
+      "leadership_premium_pct": 33.3
+    },
+    {
+      "pac_cmte_id": "C00542365",
+      "pac_name": "TOYOTA MOTOR NORTH AMERICA, INC POLITICAL ACTION COMMITTEE (TOYOTA/LEXUS PAC)",
+      "sector": "Transportation",
+      "total_given": 236500,
+      "num_recipients": 50,
+      "leadership_recipients": 1,
+      "rankfile_recipients": 2,
+      "avg_to_leadership": 3000,
+      "avg_to_rankfile": 8250,
+      "leadership_premium_pct": -63.6
+    },
+    {
+      "pac_cmte_id": "C00010868",
+      "pac_name": "AMERICAN COUNCIL OF ENGINEERING COMPANIES (ACEC/PAC)",
+      "sector": "Construction & Engineering",
+      "total_given": 381000,
+      "num_recipients": 50,
+      "leadership_recipients": 1,
+      "rankfile_recipients": 5,
+      "avg_to_leadership": 9500,
+      "avg_to_rankfile": 9700,
+      "leadership_premium_pct": -2.1
+    },
+    {
+      "pac_cmte_id": "C00030718",
+      "pac_name": "NATIONAL ASSOCIATION OF REALTORS POLITICAL ACTION COMMITTEE",
+      "sector": "Real Estate & Housing",
+      "total_given": 822538,
+      "num_recipients": 50,
+      "leadership_recipients": 6,
+      "rankfile_recipients": 32,
+      "avg_to_leadership": 20222,
+      "avg_to_rankfile": 19147,
+      "leadership_premium_pct": 5.6
+    },
+    {
+      "pac_cmte_id": "C00197228",
+      "pac_name": "ELEVANCE HEALTH, INC. POLITICAL ACTION COMMITTEE (ELEVANCE HEALTH PAC)",
+      "sector": "Healthcare & Pharma",
+      "total_given": 256500,
+      "num_recipients": 48,
+      "leadership_recipients": 1,
+      "rankfile_recipients": 1,
+      "avg_to_leadership": 10000,
+      "avg_to_rankfile": 12000,
+      "leadership_premium_pct": -16.7
+    },
+    {
+      "pac_cmte_id": "C00002972",
+      "pac_name": "NATIONAL RURAL ELECTRIC COOPERATIVE ASSOCIATION AMERICA'S ELECTRIC COOPERATIVES PAC",
+      "sector": "Energy & Utilities",
+      "total_given": 339500,
+      "num_recipients": 48,
+      "leadership_recipients": 1,
+      "rankfile_recipients": 1,
+      "avg_to_leadership": 10000,
+      "avg_to_rankfile": 8500,
+      "leadership_premium_pct": 17.6
+    },
+    {
+      "pac_cmte_id": "C00447565",
+      "pac_name": "FINSECA PAC",
+      "sector": "Finance & Insurance",
+      "total_given": 273500,
+      "num_recipients": 48,
+      "leadership_recipients": 2,
+      "rankfile_recipients": 2,
+      "avg_to_leadership": 5500,
+      "avg_to_rankfile": 10000,
+      "leadership_premium_pct": -45.0
+    },
+    {
+      "pac_cmte_id": "C00034157",
+      "pac_name": "AFLAC POLITICAL ACTION COMMITTEE (AFLAC PAC)",
+      "sector": "Finance & Insurance",
+      "total_given": 273000,
+      "num_recipients": 48,
+      "leadership_recipients": 2,
+      "rankfile_recipients": 1,
+      "avg_to_leadership": 10000,
+      "avg_to_rankfile": 10000,
+      "leadership_premium_pct": 0.0
+    },
+    {
+      "pac_cmte_id": "C00284885",
+      "pac_name": "THE HOME DEPOT INC. POLITICAL ACTION COMMITTEE",
+      "sector": "Retail & Consumer",
+      "total_given": 360000,
+      "num_recipients": 47,
+      "leadership_recipients": 3,
+      "rankfile_recipients": 11,
+      "avg_to_leadership": 9167,
+      "avg_to_rankfile": 9545,
+      "leadership_premium_pct": -4.0
+    },
+    {
+      "pac_cmte_id": "C00105981",
+      "pac_name": "INVESTMENT COMPANY INSTITUTE POLITICAL ACTION COMMITTEE (ICI PAC)",
+      "sector": "Finance & Insurance",
+      "total_given": 306000,
+      "num_recipients": 47,
+      "leadership_recipients": 0,
+      "rankfile_recipients": 6,
+      "avg_to_leadership": null,
+      "avg_to_rankfile": 10000,
+      "leadership_premium_pct": null
+    },
+    {
+      "pac_cmte_id": "C00077321",
+      "pac_name": "AMERICAN INSTITUTE OF CERTIFIED PUBLIC ACCOUNTANTS POLITICAL ACTION COMMITTEE",
+      "sector": "Professional Services",
+      "total_given": 417000,
+      "num_recipients": 47,
+      "leadership_recipients": 4,
+      "rankfile_recipients": 16,
+      "avg_to_leadership": 10000,
+      "avg_to_rankfile": 10094,
+      "leadership_premium_pct": -0.9
+    },
+    {
+      "pac_cmte_id": "C00238725",
+      "pac_name": "NATIONAL AIR TRAFFIC CONTROLLERS ASSOCIATION PAC",
+      "sector": "Labor",
+      "total_given": 246500,
+      "num_recipients": 46,
+      "leadership_recipients": 0,
+      "rankfile_recipients": 8,
+      "avg_to_leadership": null,
+      "avg_to_rankfile": 8188,
+      "leadership_premium_pct": null
+    },
+    {
+      "pac_cmte_id": "C00068692",
+      "pac_name": "FEDEX CORPORATION POLITICAL ACTION COMMITTEE",
+      "sector": "Transportation",
+      "total_given": 181000,
+      "num_recipients": 46,
+      "leadership_recipients": 0,
+      "rankfile_recipients": 1,
+      "avg_to_leadership": null,
+      "avg_to_rankfile": 10000,
+      "leadership_premium_pct": null
+    },
+    {
+      "pac_cmte_id": "C00130773",
+      "pac_name": "NATIONAL MULTIFAMILY HOUSING COUNCIL POLITICAL ACTION COMMITTEE",
+      "sector": "Real Estate & Housing",
+      "total_given": 417000,
+      "num_recipients": 46,
+      "leadership_recipients": 5,
+      "rankfile_recipients": 11,
+      "avg_to_leadership": 10000,
+      "avg_to_rankfile": 10000,
+      "leadership_premium_pct": 0.0
+    }
+  ],
+  "subcommittee_sector_alignment": [
+    {
+      "subcommittee": "Social Security",
+      "member": "John Larson",
+      "title": "Subcommittee Ranking Member",
+      "party": "D",
+      "state": "CT",
+      "chamber": "house",
+      "relevant_sectors": "Finance & Insurance, Labor",
+      "member_sector_pac_pct": 34.5,
+      "committee_avg_sector_pac_pct": 7.8,
+      "premium_pct": 26.7
+    },
+    {
+      "subcommittee": "Social Security, Pensions, and Family Policy",
+      "member": "Chuck Grassley",
+      "title": "Subcommittee Chair",
+      "party": "R",
+      "state": "IA",
+      "chamber": "senate",
+      "relevant_sectors": "Finance & Insurance, Labor",
+      "member_sector_pac_pct": 32.6,
+      "committee_avg_sector_pac_pct": 7.8,
+      "premium_pct": 24.8
+    },
+    {
+      "subcommittee": "Social Security, Pensions, and Family Policy",
+      "member": "Bernie Sanders",
+      "title": "Subcommittee Ranking Member",
+      "party": "I",
+      "state": "VT",
+      "chamber": "senate",
+      "relevant_sectors": "Finance & Insurance, Labor",
+      "member_sector_pac_pct": 28.8,
+      "committee_avg_sector_pac_pct": 7.8,
+      "premium_pct": 21.0
+    },
+    {
+      "subcommittee": "Health",
+      "member": "Vern Buchanan",
+      "title": "Subcommittee Chair",
+      "party": "R",
+      "state": "FL",
+      "chamber": "house",
+      "relevant_sectors": "Healthcare & Pharma",
+      "member_sector_pac_pct": 19.9,
+      "committee_avg_sector_pac_pct": 2.1,
+      "premium_pct": 17.8
+    },
+    {
+      "subcommittee": "Tax",
+      "member": "Mike Thompson",
+      "title": "Subcommittee Ranking Member",
+      "party": "D",
+      "state": "CA",
+      "chamber": "house",
+      "relevant_sectors": "Finance & Insurance, Professional Services",
+      "member_sector_pac_pct": 19.5,
+      "committee_avg_sector_pac_pct": 4.4,
+      "premium_pct": 15.1
+    },
+    {
+      "subcommittee": "Work and Welfare",
+      "member": "Danny Davis",
+      "title": "Subcommittee Ranking Member",
+      "party": "D",
+      "state": "IL",
+      "chamber": "house",
+      "relevant_sectors": "Labor",
+      "member_sector_pac_pct": 16.6,
+      "committee_avg_sector_pac_pct": 4.2,
+      "premium_pct": 12.4
+    },
+    {
+      "subcommittee": "Health",
+      "member": "Lloyd Doggett",
+      "title": "Subcommittee Ranking Member",
+      "party": "D",
+      "state": "TX",
+      "chamber": "house",
+      "relevant_sectors": "Healthcare & Pharma",
+      "member_sector_pac_pct": 14.5,
+      "committee_avg_sector_pac_pct": 2.1,
+      "premium_pct": 12.4
+    },
+    {
+      "subcommittee": "Tax",
+      "member": "Mike Kelly",
+      "title": "Subcommittee Chair",
+      "party": "R",
+      "state": "PA",
+      "chamber": "house",
+      "relevant_sectors": "Finance & Insurance, Professional Services",
+      "member_sector_pac_pct": 15.0,
+      "committee_avg_sector_pac_pct": 4.4,
+      "premium_pct": 10.6
+    },
+    {
+      "subcommittee": "Fiscal Responsibility and Economic Growth",
+      "member": "Tina Smith",
+      "title": "Subcommittee Ranking Member",
+      "party": "D",
+      "state": "MN",
+      "chamber": "senate",
+      "relevant_sectors": "Finance & Insurance, Professional Services",
+      "member_sector_pac_pct": 12.8,
+      "committee_avg_sector_pac_pct": 4.4,
+      "premium_pct": 8.4
+    },
+    {
+      "subcommittee": "Trade",
+      "member": "Adrian Smith",
+      "title": "Subcommittee Chair",
+      "party": "R",
+      "state": "NE",
+      "chamber": "house",
+      "relevant_sectors": "Retail & Consumer, Transportation, Tech & Telecom",
+      "member_sector_pac_pct": 9.4,
+      "committee_avg_sector_pac_pct": 2.1,
+      "premium_pct": 7.3
+    },
+    {
+      "subcommittee": "Fiscal Responsibility and Economic Growth",
+      "member": "Ron Johnson",
+      "title": "Subcommittee Chair",
+      "party": "R",
+      "state": "WI",
+      "chamber": "senate",
+      "relevant_sectors": "Finance & Insurance, Professional Services",
+      "member_sector_pac_pct": 8.8,
+      "committee_avg_sector_pac_pct": 4.4,
+      "premium_pct": 4.4
+    },
+    {
+      "subcommittee": "Health Care",
+      "member": "Todd Young",
+      "title": "Subcommittee Chair",
+      "party": "R",
+      "state": "IN",
+      "chamber": "senate",
+      "relevant_sectors": "Healthcare & Pharma",
+      "member_sector_pac_pct": 6.2,
+      "committee_avg_sector_pac_pct": 2.1,
+      "premium_pct": 4.1
+    },
+    {
+      "subcommittee": "Taxation and IRS Oversight",
+      "member": "Michael Bennet",
+      "title": "Subcommittee Ranking Member",
+      "party": "D",
+      "state": "CO",
+      "chamber": "senate",
+      "relevant_sectors": "Finance & Insurance, Professional Services",
+      "member_sector_pac_pct": 6.4,
+      "committee_avg_sector_pac_pct": 4.4,
+      "premium_pct": 2.0
+    },
+    {
+      "subcommittee": "International Trade",
+      "member": "John Cornyn",
+      "title": "Subcommittee Chair",
+      "party": "R",
+      "state": "TX",
+      "chamber": "senate",
+      "relevant_sectors": "Retail & Consumer, Transportation, Tech & Telecom",
+      "member_sector_pac_pct": 4.0,
+      "committee_avg_sector_pac_pct": 2.1,
+      "premium_pct": 1.9
+    },
+    {
+      "subcommittee": "Health Care",
+      "member": "Maggie Hassan",
+      "title": "Subcommittee Ranking Member",
+      "party": "D",
+      "state": "NH",
+      "chamber": "senate",
+      "relevant_sectors": "Healthcare & Pharma",
+      "member_sector_pac_pct": 2.9,
+      "committee_avg_sector_pac_pct": 2.1,
+      "premium_pct": 0.8
+    },
+    {
+      "subcommittee": "Work and Welfare",
+      "member": "Darin LaHood",
+      "title": "Subcommittee Chair",
+      "party": "R",
+      "state": "IL",
+      "chamber": "house",
+      "relevant_sectors": "Labor",
+      "member_sector_pac_pct": 4.9,
+      "committee_avg_sector_pac_pct": 4.2,
+      "premium_pct": 0.7
+    },
+    {
+      "subcommittee": "Energy, Natural Resources, and Infrastructure",
+      "member": "James Lankford",
+      "title": "Subcommittee Chair",
+      "party": "R",
+      "state": "OK",
+      "chamber": "senate",
+      "relevant_sectors": "Energy & Utilities",
+      "member_sector_pac_pct": 0.0,
+      "committee_avg_sector_pac_pct": 0.4,
+      "premium_pct": -0.4
+    },
+    {
+      "subcommittee": "Energy, Natural Resources, and Infrastructure",
+      "member": "Maria Cantwell",
+      "title": "Subcommittee Ranking Member",
+      "party": "D",
+      "state": "WA",
+      "chamber": "senate",
+      "relevant_sectors": "Energy & Utilities",
+      "member_sector_pac_pct": 0.0,
+      "committee_avg_sector_pac_pct": 0.4,
+      "premium_pct": -0.4
+    },
+    {
+      "subcommittee": "International Trade",
+      "member": "Raphael Warnock",
+      "title": "Subcommittee Ranking Member",
+      "party": "D",
+      "state": "GA",
+      "chamber": "senate",
+      "relevant_sectors": "Retail & Consumer, Transportation, Tech & Telecom",
+      "member_sector_pac_pct": 0.0,
+      "committee_avg_sector_pac_pct": 2.1,
+      "premium_pct": -2.1
+    },
+    {
+      "subcommittee": "Taxation and IRS Oversight",
+      "member": "John Barrasso",
+      "title": "Subcommittee Chair",
+      "party": "R",
+      "state": "WY",
+      "chamber": "senate",
+      "relevant_sectors": "Finance & Insurance, Professional Services",
+      "member_sector_pac_pct": 0.8,
+      "committee_avg_sector_pac_pct": 4.4,
+      "premium_pct": -3.6
+    },
+    {
+      "subcommittee": "Oversight",
+      "member": "David Schweikert",
+      "title": "Subcommittee Chair",
+      "party": "R",
+      "state": "AZ",
+      "chamber": "house",
+      "relevant_sectors": "Finance & Insurance, Professional Services",
+      "member_sector_pac_pct": 0.0,
+      "committee_avg_sector_pac_pct": 4.4,
+      "premium_pct": -4.4
+    }
+  ],
+  "headline": {
+    "subcommittee_leadership_premium_pct": -57.3,
+    "full_committee_premium_pct": 129.7,
+    "most_targeted_leader": "Jason Smith",
+    "most_targeted_leader_pac": 3480068,
+    "most_sector_aligned_subcommittee": "Social Security",
+    "most_sector_aligned_member": "John Larson",
+    "most_sector_aligned_premium": 26.7,
+    "avg_pac_leadership_premium_pct": -14.3
+  },
+  "member_leadership_roles": {
+    "Jason Smith": {
+      "tier": 1,
+      "title": "Committee Chair",
+      "subcommittee": null
+    },
+    "Richard Neal": {
+      "tier": 1,
+      "title": "Committee Ranking Member",
+      "subcommittee": null
+    },
+    "Mike Crapo": {
+      "tier": 1,
+      "title": "Committee Chair",
+      "subcommittee": null
+    },
+    "Ron Wyden": {
+      "tier": 1,
+      "title": "Committee Ranking Member",
+      "subcommittee": null
+    },
+    "Vern Buchanan": {
+      "tier": 2,
+      "title": "Subcommittee Chair",
+      "subcommittee": "Health"
+    },
+    "Mike Kelly": {
+      "tier": 2,
+      "title": "Subcommittee Chair",
+      "subcommittee": "Tax"
+    },
+    "Adrian Smith": {
+      "tier": 2,
+      "title": "Subcommittee Chair",
+      "subcommittee": "Trade"
+    },
+    "Darin LaHood": {
+      "tier": 2,
+      "title": "Subcommittee Chair",
+      "subcommittee": "Work and Welfare"
+    },
+    "David Schweikert": {
+      "tier": 2,
+      "title": "Subcommittee Chair",
+      "subcommittee": "Oversight"
+    },
+    "Lloyd Doggett": {
+      "tier": 2,
+      "title": "Subcommittee Ranking Member",
+      "subcommittee": "Health"
+    },
+    "Mike Thompson": {
+      "tier": 2,
+      "title": "Subcommittee Ranking Member",
+      "subcommittee": "Tax"
+    },
+    "Danny Davis": {
+      "tier": 2,
+      "title": "Subcommittee Ranking Member",
+      "subcommittee": "Work and Welfare"
+    },
+    "John Larson": {
+      "tier": 2,
+      "title": "Subcommittee Ranking Member",
+      "subcommittee": "Social Security"
+    },
+    "Chuck Grassley": {
+      "tier": 2,
+      "title": "Subcommittee Chair",
+      "subcommittee": "Social Security, Pensions, and Family Policy"
+    },
+    "John Cornyn": {
+      "tier": 2,
+      "title": "Subcommittee Chair",
+      "subcommittee": "International Trade"
+    },
+    "James Lankford": {
+      "tier": 2,
+      "title": "Subcommittee Chair",
+      "subcommittee": "Energy, Natural Resources, and Infrastructure"
+    },
+    "Todd Young": {
+      "tier": 2,
+      "title": "Subcommittee Chair",
+      "subcommittee": "Health Care"
+    },
+    "John Barrasso": {
+      "tier": 2,
+      "title": "Subcommittee Chair",
+      "subcommittee": "Taxation and IRS Oversight"
+    },
+    "Ron Johnson": {
+      "tier": 2,
+      "title": "Subcommittee Chair",
+      "subcommittee": "Fiscal Responsibility and Economic Growth"
+    },
+    "Bernie Sanders": {
+      "tier": 2,
+      "title": "Subcommittee Ranking Member",
+      "subcommittee": "Social Security, Pensions, and Family Policy"
+    },
+    "Raphael Warnock": {
+      "tier": 2,
+      "title": "Subcommittee Ranking Member",
+      "subcommittee": "International Trade"
+    },
+    "Maria Cantwell": {
+      "tier": 2,
+      "title": "Subcommittee Ranking Member",
+      "subcommittee": "Energy, Natural Resources, and Infrastructure"
+    },
+    "Maggie Hassan": {
+      "tier": 2,
+      "title": "Subcommittee Ranking Member",
+      "subcommittee": "Health Care"
+    },
+    "Michael Bennet": {
+      "tier": 2,
+      "title": "Subcommittee Ranking Member",
+      "subcommittee": "Taxation and IRS Oversight"
+    },
+    "Tina Smith": {
+      "tier": 2,
+      "title": "Subcommittee Ranking Member",
+      "subcommittee": "Fiscal Responsibility and Economic Growth"
+    },
+    "Jodey Arrington": {
+      "tier": 3,
+      "title": "Rank-and-File",
+      "subcommittee": null
+    },
+    "Ron Estes": {
+      "tier": 3,
+      "title": "Rank-and-File",
+      "subcommittee": null
+    },
+    "Lloyd Smucker": {
+      "tier": 3,
+      "title": "Rank-and-File",
+      "subcommittee": null
+    },
+    "Kevin Hern": {
+      "tier": 3,
+      "title": "Rank-and-File",
+      "subcommittee": null
+    },
+    "Carol Miller": {
+      "tier": 3,
+      "title": "Rank-and-File",
+      "subcommittee": null
+    },
+    "Greg Murphy": {
+      "tier": 3,
+      "title": "Rank-and-File",
+      "subcommittee": null
+    },
+    "David Kustoff": {
+      "tier": 3,
+      "title": "Rank-and-File",
+      "subcommittee": null
+    },
+    "Brian Fitzpatrick": {
+      "tier": 3,
+      "title": "Rank-and-File",
+      "subcommittee": null
+    },
+    "Greg Steube": {
+      "tier": 3,
+      "title": "Rank-and-File",
+      "subcommittee": null
+    },
+    "Claudia Tenney": {
+      "tier": 3,
+      "title": "Rank-and-File",
+      "subcommittee": null
+    },
+    "Michelle Fischbach": {
+      "tier": 3,
+      "title": "Rank-and-File",
+      "subcommittee": null
+    },
+    "Blake Moore": {
+      "tier": 3,
+      "title": "Rank-and-File",
+      "subcommittee": null
+    },
+    "Beth Van Duyne": {
+      "tier": 3,
+      "title": "Rank-and-File",
+      "subcommittee": null
+    },
+    "Randy Feenstra": {
+      "tier": 3,
+      "title": "Rank-and-File",
+      "subcommittee": null
+    },
+    "Nicole Malliotakis": {
+      "tier": 3,
+      "title": "Rank-and-File",
+      "subcommittee": null
+    },
+    "Mike Carey": {
+      "tier": 3,
+      "title": "Rank-and-File",
+      "subcommittee": null
+    },
+    "Rudy Yakym": {
+      "tier": 3,
+      "title": "Rank-and-File",
+      "subcommittee": null
+    },
+    "Max Miller": {
+      "tier": 3,
+      "title": "Rank-and-File",
+      "subcommittee": null
+    },
+    "Aaron Bean": {
+      "tier": 3,
+      "title": "Rank-and-File",
+      "subcommittee": null
+    },
+    "Nathaniel Moran": {
+      "tier": 3,
+      "title": "Rank-and-File",
+      "subcommittee": null
+    },
+    "Linda Sanchez": {
+      "tier": 3,
+      "title": "Rank-and-File",
+      "subcommittee": null
+    },
+    "Terri Sewell": {
+      "tier": 3,
+      "title": "Rank-and-File",
+      "subcommittee": null
+    },
+    "Suzan DelBene": {
+      "tier": 3,
+      "title": "Rank-and-File",
+      "subcommittee": null
+    },
+    "Judy Chu": {
+      "tier": 3,
+      "title": "Rank-and-File",
+      "subcommittee": null
+    },
+    "Gwen Moore": {
+      "tier": 3,
+      "title": "Rank-and-File",
+      "subcommittee": null
+    },
+    "Brendan Boyle": {
+      "tier": 3,
+      "title": "Rank-and-File",
+      "subcommittee": null
+    },
+    "Don Beyer": {
+      "tier": 3,
+      "title": "Rank-and-File",
+      "subcommittee": null
+    },
+    "Dwight Evans": {
+      "tier": 3,
+      "title": "Rank-and-File",
+      "subcommittee": null
+    },
+    "Brad Schneider": {
+      "tier": 3,
+      "title": "Rank-and-File",
+      "subcommittee": null
+    },
+    "Jimmy Panetta": {
+      "tier": 3,
+      "title": "Rank-and-File",
+      "subcommittee": null
+    },
+    "Jimmy Gomez": {
+      "tier": 3,
+      "title": "Rank-and-File",
+      "subcommittee": null
+    },
+    "Steven Horsford": {
+      "tier": 3,
+      "title": "Rank-and-File",
+      "subcommittee": null
+    },
+    "Stacey Plaskett": {
+      "tier": 3,
+      "title": "Rank-and-File",
+      "subcommittee": null
+    },
+    "Thomas Suozzi": {
+      "tier": 3,
+      "title": "Rank-and-File",
+      "subcommittee": null
+    },
+    "John Thune": {
+      "tier": 3,
+      "title": "Rank-and-File",
+      "subcommittee": null
+    },
+    "Tim Scott": {
+      "tier": 3,
+      "title": "Rank-and-File",
+      "subcommittee": null
+    },
+    "Bill Cassidy": {
+      "tier": 3,
+      "title": "Rank-and-File",
+      "subcommittee": null
+    },
+    "Steve Daines": {
+      "tier": 3,
+      "title": "Rank-and-File",
+      "subcommittee": null
+    },
+    "Thom Tillis": {
+      "tier": 3,
+      "title": "Rank-and-File",
+      "subcommittee": null
+    },
+    "Marsha Blackburn": {
+      "tier": 3,
+      "title": "Rank-and-File",
+      "subcommittee": null
+    },
+    "Roger Marshall": {
+      "tier": 3,
+      "title": "Rank-and-File",
+      "subcommittee": null
+    },
+    "Mark Warner": {
+      "tier": 3,
+      "title": "Rank-and-File",
+      "subcommittee": null
+    },
+    "Sheldon Whitehouse": {
+      "tier": 3,
+      "title": "Rank-and-File",
+      "subcommittee": null
+    },
+    "Catherine Cortez Masto": {
+      "tier": 3,
+      "title": "Rank-and-File",
+      "subcommittee": null
+    },
+    "Elizabeth Warren": {
+      "tier": 3,
+      "title": "Rank-and-File",
+      "subcommittee": null
+    },
+    "Ben Ray Lujan": {
+      "tier": 3,
+      "title": "Rank-and-File",
+      "subcommittee": null
+    },
+    "Peter Welch": {
+      "tier": 3,
+      "title": "Rank-and-File",
+      "subcommittee": null
+    }
+  }
+}

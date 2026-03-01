@@ -1,0 +1,10 @@
+chamber,tier,count,median_pac,mean_pac,median_receipts,mean_receipts,median_pct_outside,median_pct_dc,premium_vs_rank_file_pct
+Combined,Full Committee Leadership,3,2417922,2069113,3285602,3789676,89.0,5.1,129.7
+Combined,Subcommittee Leadership,18,449531,805014,2215490,3565126,73.9,3.2,-57.3
+Combined,Rank-and-File,42,1052606,1099907,2566106,3620790,77.0,3.9,0.0
+House,Full Committee Leadership,2,2948995,2948995,4917701,4917701,91.4,6.2,158.0
+House,Subcommittee Leadership,8,1346105,1229608,1910610,2271096,74.7,3.4,17.8
+House,Rank-and-File,31,1143059,1260975,2337216,2846161,77.9,3.6,0.0
+Senate,Full Committee Leadership,1,309350,309350,1533628,1533628,61.2,5.1,-55.4
+Senate,Subcommittee Leadership,10,196442,465339,4098667,4600350,69.3,2.3,-71.7
+Senate,Rank-and-File,11,693800,645987,4163983,5803834,76.8,5.8,0.0

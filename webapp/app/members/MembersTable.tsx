@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useMemo } from "react";
-import Link from "next/link";
+import { useRouter } from "next/navigation";
 import type { Member } from "@/lib/data";
 import { formatMoney, formatPct } from "@/lib/utils";
 
@@ -86,6 +86,7 @@ function SortArrow({ active, dir }: { active: boolean; dir: SortDir }) {
 }
 
 export default function MembersTable({ members: allMembers }: { members: Member[] }) {
+  const router = useRouter();
   const [committee, setCommittee] = useState("all");
   const [party, setParty] = useState("all");
   const [search, setSearch] = useState("");
@@ -222,6 +223,7 @@ export default function MembersTable({ members: allMembers }: { members: Member[
         <input
           type="text"
           placeholder="Search member, state, employer..."
+          aria-label="Search members"
           value={search}
           onChange={(e) => setSearch(e.target.value)}
           className="bg-white border border-[#C8C1B6]/50 rounded-lg px-3 py-1.5 text-sm text-[#111111] placeholder-stone-400 focus:outline-none focus:border-[#FE4F40] w-64 transition-colors"
@@ -262,24 +264,31 @@ export default function MembersTable({ members: allMembers }: { members: Member[
               <tbody>
                 {members.map((m, i) => {
                   const badge = partyBadge(m.party);
+                  const href = `/members/${m.slug || toSlug(m.member_name)}`;
                   return (
-                    <Link key={m.slug || toSlug(m.member_name)} href={`/members/${m.slug || toSlug(m.member_name)}`} className="contents">
-                      <tr className={`border-b border-[#C8C1B6]/30 last:border-b-0 hover:bg-[#F5F0EB] transition-colors cursor-pointer ${i % 2 === 0 ? "bg-white" : "bg-[#FDFBF9]"}`}>
-                        <td className="px-3 py-2.5 text-xs text-stone-400">{i + 1}</td>
-                        <td className="px-3 py-2.5 text-[#111111] font-medium whitespace-nowrap">{m.member_name}</td>
-                        <td className="px-3 py-2.5">
-                          <span className="inline-block px-2 py-0.5 rounded-sm text-[10px] uppercase tracking-wide font-bold" style={{ fontFamily: "var(--font-display)", backgroundColor: badge.bg, color: badge.text }}>{m.party}</span>
-                        </td>
-                        <td className="px-3 py-2.5 text-stone-500 whitespace-nowrap">{stateDistrict(m)}</td>
-                        <td className="px-3 py-2.5 text-right font-semibold tabular-nums" style={{ color: outsidePctColor(m.pct_outside) }}>{formatPct(m.pct_outside)}</td>
-                        <td className="px-3 py-2.5 text-right text-stone-500 tabular-nums">{formatPct(m.pct_dc_kstreet)}</td>
-                        <td className="px-3 py-2.5 text-right text-stone-500 tabular-nums">{formatPct(m.pct_in_home)}</td>
-                        <td className="px-3 py-2.5 text-right text-[#111111] tabular-nums whitespace-nowrap">{formatMoney(m.total_itemized_amount)}</td>
-                        <td className="px-3 py-2.5 text-stone-500 text-xs max-w-64">
-  <span className="line-clamp-2">{m.top_funder_agendas || "\u2014"}</span>
-</td>
-                      </tr>
-                    </Link>
+                    <tr
+                      key={m.slug || toSlug(m.member_name)}
+                      role="link"
+                      tabIndex={0}
+                      aria-label={`View ${m.member_name}`}
+                      onClick={() => router.push(href)}
+                      onKeyDown={(e) => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); router.push(href); } }}
+                      className={`border-b border-[#C8C1B6]/30 last:border-b-0 hover:bg-[#F5F0EB] transition-colors cursor-pointer ${i % 2 === 0 ? "bg-white" : "bg-[#FDFBF9]"}`}
+                    >
+                      <td className="px-3 py-2.5 text-xs text-stone-400">{i + 1}</td>
+                      <td className="px-3 py-2.5 text-[#111111] font-medium whitespace-nowrap">{m.member_name}</td>
+                      <td className="px-3 py-2.5">
+                        <span className="inline-block px-2 py-0.5 rounded-sm text-[10px] uppercase tracking-wide font-bold" style={{ fontFamily: "var(--font-display)", backgroundColor: badge.bg, color: badge.text }}>{m.party}</span>
+                      </td>
+                      <td className="px-3 py-2.5 text-stone-500 whitespace-nowrap">{stateDistrict(m)}</td>
+                      <td className="px-3 py-2.5 text-right font-semibold tabular-nums" style={{ color: outsidePctColor(m.pct_outside) }}>{formatPct(m.pct_outside)}</td>
+                      <td className="px-3 py-2.5 text-right text-stone-500 tabular-nums">{formatPct(m.pct_dc_kstreet)}</td>
+                      <td className="px-3 py-2.5 text-right text-stone-500 tabular-nums">{formatPct(m.pct_in_home)}</td>
+                      <td className="px-3 py-2.5 text-right text-[#111111] tabular-nums whitespace-nowrap">{formatMoney(m.total_itemized_amount)}</td>
+                      <td className="px-3 py-2.5 text-stone-500 text-xs max-w-64">
+                        <span className="line-clamp-2">{m.top_funder_agendas || "\u2014"}</span>
+                      </td>
+                    </tr>
                   );
                 })}
               </tbody>

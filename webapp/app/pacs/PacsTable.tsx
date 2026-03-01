@@ -180,6 +180,7 @@ export default function PacsTable({
           <select
             value={sector}
             onChange={(e) => setSector(e.target.value)}
+            aria-label="Filter by sector"
             className="bg-white border border-[#C8C1B6]/50 rounded-lg px-3 py-1.5 text-xs text-[#111111] focus:outline-none focus:border-[#FE4F40] transition-colors"
           >
             <option value="all">All Sectors</option>
@@ -196,6 +197,7 @@ export default function PacsTable({
         <input
           type="text"
           placeholder="Search PAC, org, or member name..."
+          aria-label="Search PACs"
           value={search}
           onChange={(e) => setSearch(e.target.value)}
           className="bg-white border border-[#C8C1B6]/50 rounded-lg px-3 py-1.5 text-sm text-[#111111] placeholder-stone-400 focus:outline-none focus:border-[#FE4F40] w-72 transition-colors"

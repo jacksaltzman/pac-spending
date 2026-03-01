@@ -1,0 +1,22 @@
+subcommittee,member,title,party,state,chamber,relevant_sectors,member_sector_pac_pct,committee_avg_sector_pac_pct,premium_pct,relevant_pac_amount,total_pac_amount
+Social Security,John Larson,Subcommittee Ranking Member,D,CT,house,"Finance & Insurance, Labor",34.5,7.8,26.7,70000,203000
+"Social Security, Pensions, and Family Policy",Chuck Grassley,Subcommittee Chair,R,IA,senate,"Finance & Insurance, Labor",32.6,7.8,24.8,30891,94891
+"Social Security, Pensions, and Family Policy",Bernie Sanders,Subcommittee Ranking Member,I,VT,senate,"Finance & Insurance, Labor",28.8,7.8,21.0,27500,95562
+Health,Vern Buchanan,Subcommittee Chair,R,FL,house,Healthcare & Pharma,19.9,2.1,17.8,40000,200534
+Tax,Mike Thompson,Subcommittee Ranking Member,D,CA,house,"Finance & Insurance, Professional Services",19.5,4.4,15.1,40000,204935
+Work and Welfare,Danny Davis,Subcommittee Ranking Member,D,IL,house,Labor,16.6,4.2,12.4,42500,256710
+Health,Lloyd Doggett,Subcommittee Ranking Member,D,TX,house,Healthcare & Pharma,14.5,2.1,12.4,28500,196000
+Tax,Mike Kelly,Subcommittee Chair,R,PA,house,"Finance & Insurance, Professional Services",15.0,4.4,10.6,30000,200000
+Fiscal Responsibility and Economic Growth,Tina Smith,Subcommittee Ranking Member,D,MN,senate,"Finance & Insurance, Professional Services",12.8,4.4,8.4,15000,117000
+Trade,Adrian Smith,Subcommittee Chair,R,NE,house,"Retail & Consumer, Transportation, Tech & Telecom",9.4,2.1,7.3,20000,213817
+Fiscal Responsibility and Economic Growth,Ron Johnson,Subcommittee Chair,R,WI,senate,"Finance & Insurance, Professional Services",8.8,4.4,4.4,8000,91290
+Health Care,Todd Young,Subcommittee Chair,R,IN,senate,Healthcare & Pharma,6.2,2.1,4.1,17500,282410
+Taxation and IRS Oversight,Michael Bennet,Subcommittee Ranking Member,D,CO,senate,"Finance & Insurance, Professional Services",6.4,4.4,2.0,3500,54500
+International Trade,John Cornyn,Subcommittee Chair,R,TX,senate,"Retail & Consumer, Transportation, Tech & Telecom",4.0,2.1,1.9,7500,186100
+Health Care,Maggie Hassan,Subcommittee Ranking Member,D,NH,senate,Healthcare & Pharma,2.9,2.1,0.8,5000,169779
+Work and Welfare,Darin LaHood,Subcommittee Chair,R,IL,house,Labor,4.9,4.2,0.7,10000,203499
+"Energy, Natural Resources, and Infrastructure",James Lankford,Subcommittee Chair,R,OK,senate,Energy & Utilities,0.0,0.4,-0.4,0,113000
+"Energy, Natural Resources, and Infrastructure",Maria Cantwell,Subcommittee Ranking Member,D,WA,senate,Energy & Utilities,0.0,0.4,-0.4,0,97738
+International Trade,Raphael Warnock,Subcommittee Ranking Member,D,GA,senate,"Retail & Consumer, Transportation, Tech & Telecom",0.0,2.1,-2.1,0,2007725
+Taxation and IRS Oversight,John Barrasso,Subcommittee Chair,R,WY,senate,"Finance & Insurance, Professional Services",0.8,4.4,-3.6,10000,1241948
+Oversight,David Schweikert,Subcommittee Chair,R,AZ,house,"Finance & Insurance, Professional Services",0.0,4.4,-4.4,0,12181825

@@ -334,6 +334,26 @@
     "C00694323": {
       "sector": "Ideological",
       "agenda": "Republican online fundraising platform; processes contributions from conservative donors"
+    },
+    "C00337626": {
+      "sector": "Finance & Insurance",
+      "agenda": "Lobbies for favorable capital gains rates, wealth management tax treatment, and securities regulation"
+    },
+    "C00104299": {
+      "sector": "Finance & Insurance",
+      "agenda": "Advocates for bank-friendly tax policy, capital markets regulation, and corporate rate reductions"
+    },
+    "C00271007": {
+      "sector": "Healthcare & Pharma",
+      "agenda": "Supports Medicare Advantage funding, opposes cuts to managed care reimbursement rates"
+    },
+    "C00340943": {
+      "sector": "Healthcare & Pharma",
+      "agenda": "Lobbies for favorable dialysis reimbursement rates and opposes Medicare payment reductions"
+    },
+    "C00097568": {
+      "sector": "Defense & Aerospace",
+      "agenda": "Supports defense procurement spending, R&D tax credits, and manufacturing tax incentives"
     }
   },
   "keyword_fallbacks": {

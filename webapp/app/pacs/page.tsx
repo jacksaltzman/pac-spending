@@ -7,6 +7,7 @@ import {
   getBeforeAfter,
   getContributionTiming,
   getIndustryInfluence,
+  getLeadershipAnalysis,
   PacSpreadEntry,
   type EventAnalysisEntry,
 } from "@/lib/data";
@@ -15,6 +16,7 @@ import Link from "next/link";
 import StatCard from "@/components/StatCard";
 import EmptyState from "@/components/EmptyState";
 import PacCharts from "@/components/PacCharts";
+import LeadershipChart from "@/components/LeadershipChart";
 import TimingChart from "@/components/TimingChart";
 import IndustryChart from "@/components/IndustryChart";
 import NewsCards from "@/components/NewsCard";
@@ -247,6 +249,7 @@ export default function PacsPage() {
   const beforeAfter = getBeforeAfter();
   const timing = getContributionTiming();
   const industryInfluence = getIndustryInfluence();
+  const leadershipAnalysis = getLeadershipAnalysis();
 
   if (!pacs || pacs.length === 0) {
     return (
@@ -341,11 +344,8 @@ export default function PacsPage() {
         <StatCard label="PACs Tracked" value={totalPacs.toLocaleString()} />
         <StatCard
           label="Most Connected PAC"
-          value={
-            mostConnectedName.length > 22
-              ? mostConnectedName.slice(0, 22) + "…"
-              : mostConnectedName
-          }
+          value={mostConnectedName}
+          smallValue
           detail={`${mostConnected.num_recipients} members funded`}
           accent="#FE4F40"
         />
@@ -398,7 +398,7 @@ export default function PacsPage() {
                     <div
                       className="h-full rounded-full bg-[#FE4F40]"
                       style={{
-                        width: `${Math.min(100, (benchmarks.house.committee.median_pac / benchmarks.house.committee.median_pac) * 100)}%`,
+                        width: "100%",
                       }}
                     />
                   </div>
@@ -416,14 +416,14 @@ export default function PacsPage() {
                     <div
                       className="h-full rounded-full bg-stone-300"
                       style={{
-                        width: `${Math.min(100, (benchmarks.house.all_incumbents.median_pac / benchmarks.house.committee.median_pac) * 100)}%`,
+                        width: `${benchmarks.house.committee.median_pac > 0 ? Math.min(100, (benchmarks.house.all_incumbents.median_pac / benchmarks.house.committee.median_pac) * 100) : 0}%`,
                       }}
                     />
                   </div>
                 </div>
               </div>
               <p className="text-xs text-[#FE4F40] font-semibold mt-3">
-                +{Math.round(((benchmarks.house.committee.median_pac / benchmarks.house.all_incumbents.median_pac) - 1) * 100)}% more PAC money
+                +{benchmarks.house.all_incumbents.median_pac > 0 ? Math.round(((benchmarks.house.committee.median_pac / benchmarks.house.all_incumbents.median_pac) - 1) * 100) : 0}% more PAC money
               </p>
               <p className="text-[10px] text-stone-400 mt-1">
                 Based on {benchmarks.house.committee.count} W&amp;M members vs.{" "}
@@ -453,7 +453,7 @@ export default function PacsPage() {
                     <div
                       className="h-full rounded-full bg-[#4C6971]"
                       style={{
-                        width: `${Math.min(100, (benchmarks.house.committee.median_receipts / benchmarks.house.committee.median_receipts) * 100)}%`,
+                        width: "100%",
                       }}
                     />
                   </div>
@@ -471,14 +471,14 @@ export default function PacsPage() {
                     <div
                       className="h-full rounded-full bg-stone-300"
                       style={{
-                        width: `${Math.min(100, (benchmarks.house.all_incumbents.median_receipts / benchmarks.house.committee.median_receipts) * 100)}%`,
+                        width: `${benchmarks.house.committee.median_receipts > 0 ? Math.min(100, (benchmarks.house.all_incumbents.median_receipts / benchmarks.house.committee.median_receipts) * 100) : 0}%`,
                       }}
                     />
                   </div>
                 </div>
               </div>
               <p className="text-xs text-[#4C6971] font-semibold mt-3">
-                +{Math.round(((benchmarks.house.committee.median_receipts / benchmarks.house.all_incumbents.median_receipts) - 1) * 100)}% more total fundraising
+                +{benchmarks.house.all_incumbents.median_receipts > 0 ? Math.round(((benchmarks.house.committee.median_receipts / benchmarks.house.all_incumbents.median_receipts) - 1) * 100) : 0}% more total fundraising
               </p>
               <p className="text-[10px] text-stone-400 mt-1">
                 Median total receipts, 2024 cycle. Source: FEC bulk data.
@@ -614,6 +614,72 @@ export default function PacsPage() {
               receipts compared across cycles 2014&ndash;2024. The cycle of appointment
               is excluded from both groups. Members appointed before 2014 are
               excluded due to insufficient pre-appointment data.
+            </p>
+          </section>
+        );
+      })()}
+
+      {/* ── Leadership vs. Rank-and-File ──────────────── */}
+      {leadershipAnalysis && leadershipAnalysis.tier_comparison.house.length > 0 && (() => {
+        const { headline, tier_comparison, subcommittee_sector_alignment } = leadershipAnalysis;
+        const houseTiers = tier_comparison.house;
+        const houseSubPremium = houseTiers.find(t => t.tier === "Subcommittee Leadership")?.premium_vs_rank_file_pct;
+
+        return (
+          <section className="mb-10">
+            <h2
+              className="text-xs uppercase tracking-[0.2em] text-stone-500 mb-1"
+              style={{ fontFamily: "var(--font-display)" }}
+            >
+              Where Power Sits, Money Follows
+            </h2>
+            <p className="text-xs text-stone-500 mb-5 max-w-4xl leading-relaxed">
+              Not all committee seats are equal. Members who chair subcommittees
+              &mdash; the ones who set hearing agendas and decide which bills get a markup
+              &mdash; receive{" "}
+              {houseSubPremium != null && houseSubPremium > 0 ? (
+                <strong className="text-[#111111]">{houseSubPremium}% more PAC money</strong>
+              ) : (
+                "different levels of PAC money"
+              )}{" "}
+              than rank-and-file members. And the industries funding them match the
+              jurisdictions they control.
+            </p>
+
+            <div className="bg-white border border-[#C8C1B6]/50 rounded-lg p-5 mb-6">
+              <LeadershipChart
+                houseTiers={houseTiers}
+                sectorAlignment={subcommittee_sector_alignment}
+              />
+            </div>
+
+            <div className="border-l-4 border-[#F59E0B] pl-4 py-1">
+              <p className="text-xs text-stone-600 leading-relaxed">
+                <strong className="text-[#111111]">The pattern is clearest at the top:</strong>{" "}
+                {headline.most_sector_aligned_member && headline.most_sector_aligned_subcommittee ? (
+                  <>
+                    {headline.most_sector_aligned_member}, who chairs the{" "}
+                    {headline.most_sector_aligned_subcommittee} subcommittee, receives{" "}
+                    <strong className="text-[#FE4F40]">
+                      +{headline.most_sector_aligned_premium}pp
+                    </strong>{" "}
+                    more of their PAC money from the sectors their subcommittee oversees
+                    compared to the committee average.
+                  </>
+                ) : (
+                  "Subcommittee leaders tend to receive more PAC money from sectors relevant to their jurisdiction."
+                )}{" "}
+                PACs aren&apos;t just funding the committee &mdash; they&apos;re targeting the
+                specific gatekeepers who control their issue area.
+              </p>
+            </div>
+
+            <p className="text-[10px] text-stone-400 mt-3 max-w-4xl leading-relaxed">
+              Leadership tiers: Full Committee Leadership = Chair + Ranking Member (n=2
+              for House). Subcommittee Leadership = Subcommittee Chairs + Ranking
+              Members (n=8 for House, n=10 for Senate). Rank-and-File = all other
+              members. Senate tier comparison omitted because PAC data for off-cycle
+              senators underreports actual fundraising.
             </p>
           </section>
         );

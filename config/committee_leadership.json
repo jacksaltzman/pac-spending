@@ -1,0 +1,186 @@
+{
+  "house_ways_and_means": {
+    "full_committee": {
+      "chair": "Jason Smith",
+      "ranking_member": "Richard Neal"
+    },
+    "subcommittees": [
+      {
+        "name": "Health",
+        "chair": "Vern Buchanan",
+        "ranking_member": "Lloyd Doggett"
+      },
+      {
+        "name": "Tax",
+        "chair": "Mike Kelly",
+        "ranking_member": "Mike Thompson"
+      },
+      {
+        "name": "Trade",
+        "chair": "Adrian Smith",
+        "ranking_member": null,
+        "ranking_member_note": "Earl Blumenauer (resigned Nov 2023, not in project roster)"
+      },
+      {
+        "name": "Work and Welfare",
+        "chair": "Darin LaHood",
+        "ranking_member": "Danny Davis"
+      },
+      {
+        "name": "Oversight",
+        "chair": "David Schweikert",
+        "ranking_member": null,
+        "ranking_member_note": "Bill Pascrell Jr. (died Aug 2024, not in project roster)"
+      },
+      {
+        "name": "Social Security",
+        "chair": null,
+        "chair_note": "Drew Ferguson (announced retirement Dec 2023, not in project roster)",
+        "ranking_member": "John Larson"
+      }
+    ]
+  },
+  "senate_finance": {
+    "full_committee": {
+      "chair": "Mike Crapo",
+      "ranking_member": "Ron Wyden"
+    },
+    "subcommittees": [
+      {
+        "name": "Social Security, Pensions, and Family Policy",
+        "chair": "Chuck Grassley",
+        "ranking_member": "Bernie Sanders"
+      },
+      {
+        "name": "International Trade",
+        "chair": "John Cornyn",
+        "ranking_member": "Raphael Warnock"
+      },
+      {
+        "name": "Energy, Natural Resources, and Infrastructure",
+        "chair": "James Lankford",
+        "ranking_member": "Maria Cantwell"
+      },
+      {
+        "name": "Health Care",
+        "chair": "Todd Young",
+        "ranking_member": "Maggie Hassan"
+      },
+      {
+        "name": "Taxation and IRS Oversight",
+        "chair": "John Barrasso",
+        "ranking_member": "Michael Bennet"
+      },
+      {
+        "name": "Fiscal Responsibility and Economic Growth",
+        "chair": "Ron Johnson",
+        "ranking_member": "Tina Smith"
+      }
+    ]
+  },
+  "member_tiers": {
+    "Jason Smith": { "tier": 1, "title": "Committee Chair", "committee": "house_ways_and_means", "subcommittee": null },
+    "Richard Neal": { "tier": 1, "title": "Committee Ranking Member", "committee": "house_ways_and_means", "subcommittee": null },
+    "Mike Crapo": { "tier": 1, "title": "Committee Chair", "committee": "senate_finance", "subcommittee": null },
+    "Ron Wyden": { "tier": 1, "title": "Committee Ranking Member", "committee": "senate_finance", "subcommittee": null },
+
+    "Vern Buchanan": { "tier": 2, "title": "Subcommittee Chair", "committee": "house_ways_and_means", "subcommittee": "Health" },
+    "Mike Kelly": { "tier": 2, "title": "Subcommittee Chair", "committee": "house_ways_and_means", "subcommittee": "Tax" },
+    "Adrian Smith": { "tier": 2, "title": "Subcommittee Chair", "committee": "house_ways_and_means", "subcommittee": "Trade" },
+    "Darin LaHood": { "tier": 2, "title": "Subcommittee Chair", "committee": "house_ways_and_means", "subcommittee": "Work and Welfare" },
+    "David Schweikert": { "tier": 2, "title": "Subcommittee Chair", "committee": "house_ways_and_means", "subcommittee": "Oversight" },
+    "Lloyd Doggett": { "tier": 2, "title": "Subcommittee Ranking Member", "committee": "house_ways_and_means", "subcommittee": "Health" },
+    "Mike Thompson": { "tier": 2, "title": "Subcommittee Ranking Member", "committee": "house_ways_and_means", "subcommittee": "Tax" },
+    "Danny Davis": { "tier": 2, "title": "Subcommittee Ranking Member", "committee": "house_ways_and_means", "subcommittee": "Work and Welfare" },
+    "John Larson": { "tier": 2, "title": "Subcommittee Ranking Member", "committee": "house_ways_and_means", "subcommittee": "Social Security" },
+
+    "Chuck Grassley": { "tier": 2, "title": "Subcommittee Chair", "committee": "senate_finance", "subcommittee": "Social Security, Pensions, and Family Policy" },
+    "John Cornyn": { "tier": 2, "title": "Subcommittee Chair", "committee": "senate_finance", "subcommittee": "International Trade" },
+    "James Lankford": { "tier": 2, "title": "Subcommittee Chair", "committee": "senate_finance", "subcommittee": "Energy, Natural Resources, and Infrastructure" },
+    "Todd Young": { "tier": 2, "title": "Subcommittee Chair", "committee": "senate_finance", "subcommittee": "Health Care" },
+    "John Barrasso": { "tier": 2, "title": "Subcommittee Chair", "committee": "senate_finance", "subcommittee": "Taxation and IRS Oversight" },
+    "Ron Johnson": { "tier": 2, "title": "Subcommittee Chair", "committee": "senate_finance", "subcommittee": "Fiscal Responsibility and Economic Growth" },
+    "Bernie Sanders": { "tier": 2, "title": "Subcommittee Ranking Member", "committee": "senate_finance", "subcommittee": "Social Security, Pensions, and Family Policy" },
+    "Raphael Warnock": { "tier": 2, "title": "Subcommittee Ranking Member", "committee": "senate_finance", "subcommittee": "International Trade" },
+    "Maria Cantwell": { "tier": 2, "title": "Subcommittee Ranking Member", "committee": "senate_finance", "subcommittee": "Energy, Natural Resources, and Infrastructure" },
+    "Maggie Hassan": { "tier": 2, "title": "Subcommittee Ranking Member", "committee": "senate_finance", "subcommittee": "Health Care" },
+    "Michael Bennet": { "tier": 2, "title": "Subcommittee Ranking Member", "committee": "senate_finance", "subcommittee": "Taxation and IRS Oversight" },
+    "Tina Smith": { "tier": 2, "title": "Subcommittee Ranking Member", "committee": "senate_finance", "subcommittee": "Fiscal Responsibility and Economic Growth" },
+
+    "Jodey Arrington": { "tier": 3, "title": "Rank-and-File", "committee": "house_ways_and_means", "subcommittee": null },
+    "Ron Estes": { "tier": 3, "title": "Rank-and-File", "committee": "house_ways_and_means", "subcommittee": null },
+    "Lloyd Smucker": { "tier": 3, "title": "Rank-and-File", "committee": "house_ways_and_means", "subcommittee": null },
+    "Kevin Hern": { "tier": 3, "title": "Rank-and-File", "committee": "house_ways_and_means", "subcommittee": null },
+    "Carol Miller": { "tier": 3, "title": "Rank-and-File", "committee": "house_ways_and_means", "subcommittee": null },
+    "Greg Murphy": { "tier": 3, "title": "Rank-and-File", "committee": "house_ways_and_means", "subcommittee": null },
+    "David Kustoff": { "tier": 3, "title": "Rank-and-File", "committee": "house_ways_and_means", "subcommittee": null },
+    "Brian Fitzpatrick": { "tier": 3, "title": "Rank-and-File", "committee": "house_ways_and_means", "subcommittee": null },
+    "Greg Steube": { "tier": 3, "title": "Rank-and-File", "committee": "house_ways_and_means", "subcommittee": null },
+    "Claudia Tenney": { "tier": 3, "title": "Rank-and-File", "committee": "house_ways_and_means", "subcommittee": null },
+    "Michelle Fischbach": { "tier": 3, "title": "Rank-and-File", "committee": "house_ways_and_means", "subcommittee": null },
+    "Blake Moore": { "tier": 3, "title": "Rank-and-File", "committee": "house_ways_and_means", "subcommittee": null },
+    "Beth Van Duyne": { "tier": 3, "title": "Rank-and-File", "committee": "house_ways_and_means", "subcommittee": null },
+    "Randy Feenstra": { "tier": 3, "title": "Rank-and-File", "committee": "house_ways_and_means", "subcommittee": null },
+    "Nicole Malliotakis": { "tier": 3, "title": "Rank-and-File", "committee": "house_ways_and_means", "subcommittee": null },
+    "Mike Carey": { "tier": 3, "title": "Rank-and-File", "committee": "house_ways_and_means", "subcommittee": null },
+    "Rudy Yakym": { "tier": 3, "title": "Rank-and-File", "committee": "house_ways_and_means", "subcommittee": null },
+    "Max Miller": { "tier": 3, "title": "Rank-and-File", "committee": "house_ways_and_means", "subcommittee": null },
+    "Aaron Bean": { "tier": 3, "title": "Rank-and-File", "committee": "house_ways_and_means", "subcommittee": null },
+    "Nathaniel Moran": { "tier": 3, "title": "Rank-and-File", "committee": "house_ways_and_means", "subcommittee": null },
+    "Linda Sanchez": { "tier": 3, "title": "Rank-and-File", "committee": "house_ways_and_means", "subcommittee": null },
+    "Terri Sewell": { "tier": 3, "title": "Rank-and-File", "committee": "house_ways_and_means", "subcommittee": null },
+    "Suzan DelBene": { "tier": 3, "title": "Rank-and-File", "committee": "house_ways_and_means", "subcommittee": null },
+    "Judy Chu": { "tier": 3, "title": "Rank-and-File", "committee": "house_ways_and_means", "subcommittee": null },
+    "Gwen Moore": { "tier": 3, "title": "Rank-and-File", "committee": "house_ways_and_means", "subcommittee": null },
+    "Brendan Boyle": { "tier": 3, "title": "Rank-and-File", "committee": "house_ways_and_means", "subcommittee": null },
+    "Don Beyer": { "tier": 3, "title": "Rank-and-File", "committee": "house_ways_and_means", "subcommittee": null },
+    "Dwight Evans": { "tier": 3, "title": "Rank-and-File", "committee": "house_ways_and_means", "subcommittee": null },
+    "Brad Schneider": { "tier": 3, "title": "Rank-and-File", "committee": "house_ways_and_means", "subcommittee": null },
+    "Jimmy Panetta": { "tier": 3, "title": "Rank-and-File", "committee": "house_ways_and_means", "subcommittee": null },
+    "Jimmy Gomez": { "tier": 3, "title": "Rank-and-File", "committee": "house_ways_and_means", "subcommittee": null },
+    "Steven Horsford": { "tier": 3, "title": "Rank-and-File", "committee": "house_ways_and_means", "subcommittee": null },
+    "Stacey Plaskett": { "tier": 3, "title": "Rank-and-File", "committee": "house_ways_and_means", "subcommittee": null },
+    "Thomas Suozzi": { "tier": 3, "title": "Rank-and-File", "committee": "house_ways_and_means", "subcommittee": null },
+
+    "John Thune": { "tier": 3, "title": "Rank-and-File", "committee": "senate_finance", "subcommittee": null },
+    "Tim Scott": { "tier": 3, "title": "Rank-and-File", "committee": "senate_finance", "subcommittee": null },
+    "Bill Cassidy": { "tier": 3, "title": "Rank-and-File", "committee": "senate_finance", "subcommittee": null },
+    "Steve Daines": { "tier": 3, "title": "Rank-and-File", "committee": "senate_finance", "subcommittee": null },
+    "Thom Tillis": { "tier": 3, "title": "Rank-and-File", "committee": "senate_finance", "subcommittee": null },
+    "Marsha Blackburn": { "tier": 3, "title": "Rank-and-File", "committee": "senate_finance", "subcommittee": null },
+    "Roger Marshall": { "tier": 3, "title": "Rank-and-File", "committee": "senate_finance", "subcommittee": null },
+    "Mark Warner": { "tier": 3, "title": "Rank-and-File", "committee": "senate_finance", "subcommittee": null },
+    "Sheldon Whitehouse": { "tier": 3, "title": "Rank-and-File", "committee": "senate_finance", "subcommittee": null },
+    "Catherine Cortez Masto": { "tier": 3, "title": "Rank-and-File", "committee": "senate_finance", "subcommittee": null },
+    "Elizabeth Warren": { "tier": 3, "title": "Rank-and-File", "committee": "senate_finance", "subcommittee": null },
+    "Ben Ray Lujan": { "tier": 3, "title": "Rank-and-File", "committee": "senate_finance", "subcommittee": null },
+    "Peter Welch": { "tier": 3, "title": "Rank-and-File", "committee": "senate_finance", "subcommittee": null }
+  },
+  "subcommittee_sector_mapping": {
+    "Tax": ["Finance & Insurance", "Professional Services"],
+    "Taxation and IRS Oversight": ["Finance & Insurance", "Professional Services"],
+    "Health": ["Healthcare & Pharma"],
+    "Health Care": ["Healthcare & Pharma"],
+    "Trade": ["Retail & Consumer", "Transportation", "Tech & Telecom"],
+    "International Trade": ["Retail & Consumer", "Transportation", "Tech & Telecom"],
+    "Energy, Natural Resources, and Infrastructure": ["Energy & Utilities"],
+    "Social Security": ["Finance & Insurance", "Labor"],
+    "Social Security, Pensions, and Family Policy": ["Finance & Insurance", "Labor"],
+    "Work and Welfare": ["Labor"],
+    "Oversight": ["Finance & Insurance", "Professional Services"],
+    "Fiscal Responsibility and Economic Growth": ["Finance & Insurance", "Professional Services"]
+  },
+  "_notes": {
+    "congress": "118th (2023-2024)",
+    "missing_from_roster": [
+      "Drew Ferguson (R-GA) — Social Security Subcommittee Chair, House W&M. Announced retirement Dec 2023, served full term. Not in project's 72-member roster.",
+      "Earl Blumenauer (D-OR) — Trade Subcommittee Ranking Member, House W&M. Resigned Nov 2023.",
+      "Bill Pascrell Jr. (D-NJ) — Oversight Subcommittee Ranking Member, House W&M. Died Aug 2024."
+    ],
+    "tier_definitions": {
+      "1": "Full Committee Leadership — Chair + Ranking Member (4 members)",
+      "2": "Subcommittee Leadership — Subcommittee Chairs + Ranking Members (21 members in our data)",
+      "3": "Rank-and-File — all other committee members (47 members)"
+    }
+  }
+}

@@ -3,9 +3,10 @@ interface StatCardProps {
   value: string;
   detail?: string;
   accent?: string;
+  smallValue?: boolean;
 }
 
-export default function StatCard({ label, value, detail, accent }: StatCardProps) {
+export default function StatCard({ label, value, detail, accent, smallValue }: StatCardProps) {
   return (
     <div className="bg-white rounded-lg border border-[#C8C1B6]/50 p-5">
       <p
@@ -15,7 +16,7 @@ export default function StatCard({ label, value, detail, accent }: StatCardProps
         {label}
       </p>
       <p
-        className="text-2xl font-bold tracking-tight"
+        className={`${smallValue ? "text-base" : "text-2xl"} font-bold tracking-tight`}
         style={{ fontFamily: "var(--font-display)", color: accent || "#111111" }}
       >
         {value}

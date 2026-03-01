@@ -44,7 +44,7 @@ export default function MemberCard({
   return (
     <Link
       href={`/members/${slug}`}
-      className="block bg-white rounded-lg border border-[#C8C1B6]/50 p-4 hover:border-[#C8C1B6] transition-all group"
+      className="block border-b border-stone-200 py-3 px-1 hover:bg-stone-50 transition-colors group"
     >
       <div className="flex items-start justify-between mb-2">
         <div className="flex items-center gap-2">

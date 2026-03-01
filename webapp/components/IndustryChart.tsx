@@ -8,7 +8,6 @@ import {
   YAxis,
   Tooltip,
   ResponsiveContainer,
-  Legend,
   Cell,
 } from "recharts";
 import type { IndustrySectorTotal } from "@/lib/data";
@@ -79,27 +78,19 @@ export default function IndustryChart({
                   : "Direct PAC $",
               ]) as never}
               contentStyle={{
-                backgroundColor: "#111",
-                border: "none",
-                borderRadius: "8px",
+                backgroundColor: "#FDFBF9",
+                border: "1px solid #C8C1B6",
+                borderRadius: "4px",
                 fontSize: "12px",
-                color: "#e7e5e4",
+                color: "#111111",
               }}
-            />
-            <Legend
-              wrapperStyle={{ fontSize: "11px", paddingTop: "8px" }}
-              formatter={(value: string) =>
-                value === "individual"
-                  ? "Individual Employee Contributions"
-                  : "Direct PAC Contributions"
-              }
             />
             <Bar dataKey="individual" stackId="a" radius={[0, 0, 0, 0]}>
               {data.map((entry, i) => (
                 <Cell key={i} fill={entry.color} fillOpacity={0.85} />
               ))}
             </Bar>
-            <Bar dataKey="pac" stackId="a" radius={[0, 4, 4, 0]}>
+            <Bar dataKey="pac" stackId="a" radius={0}>
               {data.map((entry, i) => (
                 <Cell key={i} fill={entry.color} fillOpacity={0.4} />
               ))}
@@ -107,8 +98,10 @@ export default function IndustryChart({
           </BarChart>
         </ResponsiveContainer>
       </div>
-      <p className="text-[10px] text-stone-400 mt-2 text-center">
-        Solid bars = individual employee contributions. Faded bars = direct PAC contributions. Same industry, two channels.
+      <p className="text-[10px] text-stone-500 mt-2">
+        <span className="inline-block w-2.5 h-2.5 rounded-sm mr-1 align-middle" style={{ backgroundColor: "#9CA3AF", opacity: 0.85 }} />Solid = individual employee contributions
+        <span className="mx-2 text-stone-300">|</span>
+        <span className="inline-block w-2.5 h-2.5 rounded-sm mr-1 align-middle" style={{ backgroundColor: "#9CA3AF", opacity: 0.4 }} />Faded = direct PAC contributions
       </p>
     </div>
   );

@@ -72,12 +72,12 @@ export default function IndustryChart({
               tickLine={false}
             />
             <Tooltip
-              formatter={(value: number, name: string) => [
-                formatDollarsShort(value),
+              formatter={((value: number | undefined, name: string | undefined) => [
+                formatDollarsShort(value ?? 0),
                 name === "individual"
                   ? "Individual Employee $"
                   : "Direct PAC $",
-              ]}
+              ]) as never}
               contentStyle={{
                 backgroundColor: "#111",
                 border: "none",

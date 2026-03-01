@@ -6,6 +6,7 @@ import {
   getBenchmarks,
   getBeforeAfter,
   getContributionTiming,
+  getIndustryInfluence,
   PacSpreadEntry,
   type EventAnalysisEntry,
 } from "@/lib/data";
@@ -15,6 +16,7 @@ import StatCard from "@/components/StatCard";
 import EmptyState from "@/components/EmptyState";
 import PacCharts from "@/components/PacCharts";
 import TimingChart from "@/components/TimingChart";
+import IndustryChart from "@/components/IndustryChart";
 import NewsCards from "@/components/NewsCard";
 import PacsTable from "./PacsTable";
 
@@ -244,6 +246,7 @@ export default function PacsPage() {
   const benchmarks = getBenchmarks();
   const beforeAfter = getBeforeAfter();
   const timing = getContributionTiming();
+  const industryInfluence = getIndustryInfluence();
 
   if (!pacs || pacs.length === 0) {
     return (
@@ -618,6 +621,138 @@ export default function PacsPage() {
 
       {/* Charts */}
       <PacCharts pacs={topPacs} sectorColors={sectorColors} />
+
+      {/* ── The Full Picture: Individual + PAC ─────────── */}
+      {industryInfluence && industryInfluence.sector_totals.length > 0 && (
+        <section className="mt-12">
+          <h2
+            className="text-xs uppercase tracking-[0.2em] text-stone-500 mb-1"
+            style={{ fontFamily: "var(--font-display)" }}
+          >
+            The Full Picture: PAC Money Is Just the Tip
+          </h2>
+          <p className="text-xs text-stone-500 mb-5 max-w-4xl leading-relaxed">
+            PAC contributions are the most visible channel of industry influence,
+            but individual donations from employees of the same companies and
+            industries dwarf direct PAC giving. For every dollar a PAC contributes,
+            employees of the same industry give{" "}
+            <strong className="text-[#111111]">
+              {industryInfluence.summary.individual_to_pac_ratio}×
+            </strong>{" "}
+            more individually.
+          </p>
+
+          {/* Stacked bar chart */}
+          <div className="bg-white border border-[#C8C1B6]/50 rounded-lg p-5 mb-6">
+            <IndustryChart
+              sectors={industryInfluence.sector_totals}
+              sectorColors={sectorColors}
+            />
+          </div>
+
+          {/* Top employers table */}
+          {(() => {
+            const allEmployers = Object.values(
+              industryInfluence.top_employers_by_sector
+            )
+              .flat()
+              .sort((a, b) => b.total - a.total)
+              .slice(0, 15);
+
+            if (allEmployers.length === 0) return null;
+
+            // Build employer → sector lookup
+            const empSectorMap = new Map<string, string>();
+            for (const [sector, emps] of Object.entries(
+              industryInfluence.top_employers_by_sector
+            )) {
+              for (const e of emps) empSectorMap.set(e.employer, sector);
+            }
+
+            return (
+              <div className="mb-6">
+                <h3
+                  className="text-xs uppercase tracking-[0.2em] text-stone-500 mb-3"
+                  style={{ fontFamily: "var(--font-display)" }}
+                >
+                  Industry Employees Funding the Committee
+                </h3>
+                <div className="bg-white border border-[#C8C1B6]/50 rounded-lg overflow-hidden">
+                  <div className="overflow-x-auto">
+                    <table className="w-full text-sm">
+                      <thead>
+                        <tr className="border-b border-[#C8C1B6]/50 bg-[#F5F0EB]">
+                          <th className="px-4 py-3 text-left text-[10px] uppercase tracking-wider text-stone-500" style={{ fontFamily: "var(--font-display)" }}>
+                            Employer
+                          </th>
+                          <th className="px-4 py-3 text-left text-[10px] uppercase tracking-wider text-stone-500" style={{ fontFamily: "var(--font-display)" }}>
+                            Sector
+                          </th>
+                          <th className="px-4 py-3 text-right text-[10px] uppercase tracking-wider text-stone-500" style={{ fontFamily: "var(--font-display)" }}>
+                            Employee $
+                          </th>
+                          <th className="px-4 py-3 text-right text-[10px] uppercase tracking-wider text-stone-500" style={{ fontFamily: "var(--font-display)" }}>
+                            Donations
+                          </th>
+                          <th className="px-4 py-3 text-right text-[10px] uppercase tracking-wider text-stone-500" style={{ fontFamily: "var(--font-display)" }}>
+                            Members
+                          </th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        {allEmployers.map((e, i) => {
+                          const sector = empSectorMap.get(e.employer) || "";
+                          return (
+                            <tr
+                              key={e.employer}
+                              className={`border-b border-[#C8C1B6]/30 last:border-b-0 hover:bg-[#F5F0EB] transition-colors ${i % 2 === 0 ? "bg-white" : "bg-[#FDFBF9]"}`}
+                            >
+                              <td className="px-4 py-2.5 font-medium text-[#111111]">
+                                {e.employer}
+                              </td>
+                              <td className="px-4 py-2.5">
+                                <span className="inline-flex items-center gap-1.5 text-xs text-stone-600">
+                                  <span
+                                    className="w-2 h-2 rounded-full flex-shrink-0"
+                                    style={{
+                                      backgroundColor:
+                                        sectorColors[sector] || "#9CA3AF",
+                                    }}
+                                  />
+                                  {sector}
+                                </span>
+                              </td>
+                              <td className="px-4 py-2.5 text-right font-semibold text-[#FE4F40] tabular-nums">
+                                {formatMoney(e.total)}
+                              </td>
+                              <td className="px-4 py-2.5 text-right text-stone-500 tabular-nums">
+                                {e.count.toLocaleString()}
+                              </td>
+                              <td className="px-4 py-2.5 text-right text-[#4C6971] font-medium tabular-nums">
+                                {e.members_funded}
+                              </td>
+                            </tr>
+                          );
+                        })}
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+            );
+          })()}
+
+          <p className="text-[10px] text-stone-400 max-w-4xl leading-relaxed">
+            Individual contributions classified by employer industry using curated
+            mappings and keyword matching. Contributions from retirees,
+            self-employed, and unemployed donors are excluded from industry
+            totals. Classification covers{" "}
+            {formatMoney(industryInfluence.summary.classified_individual_total)} of
+            itemized individual contributions. Source: FEC bulk individual
+            contributions, 2024 cycle.
+          </p>
+        </section>
+      )}
 
       {/* ── Contribution Timing ───────────────────────────── */}
       {timing && (

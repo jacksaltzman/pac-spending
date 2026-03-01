@@ -237,10 +237,20 @@ export default async function MemberDetailPage({
 
   /* ---------- voting table data ---------- */
 
-  // Build sector position lookup: roll_call_id -> Record<sector, {position, reason}>
-  const sectorPositionMap = new Map<string, Record<string, { position: string; reason: string }>>();
+  // Build sector position lookup: roll_call_id -> curated vote info
+  const sectorPositionMap = new Map<string, {
+    sector_positions: Record<string, { position: string; reason: string }>;
+    bill_title: string;
+    description: string;
+    bill: string;
+  }>();
   for (const sp of sectorPositions) {
-    sectorPositionMap.set(sp.roll_call_id, sp.sector_positions);
+    sectorPositionMap.set(sp.roll_call_id, {
+      sector_positions: sp.sector_positions,
+      bill_title: sp.bill_title,
+      description: sp.description,
+      bill: sp.bill,
+    });
   }
 
   // Build vote matching data — only show curated votes where the member voted
@@ -269,15 +279,15 @@ export default async function MemberDetailPage({
   const voteRows: VoteRow[] = [];
   if (taxVotes.length > 0 && memberFundingSectors.length > 0) {
     for (const vote of taxVotes) {
-      const positions = sectorPositionMap.get(vote.roll_call_id);
-      if (!positions) continue; // Skip votes without curated sector positions
+      const curated = sectorPositionMap.get(vote.roll_call_id);
+      if (!curated) continue; // Skip votes without curated sector positions
       const memberPos = vote.position?.toLowerCase();
       if (!memberPos || memberPos === "not voting") continue;
 
       // Check each of the member's top funding sectors against this vote
       const sectorMatches: SectorMatch[] = [];
       for (const sector of memberFundingSectors) {
-        const sp = positions[sector];
+        const sp = curated.sector_positions[sector];
         if (!sp) continue;
         const wanted = sp.position.toLowerCase();
         sectorMatches.push({
@@ -292,8 +302,8 @@ export default async function MemberDetailPage({
 
       voteRows.push({
         date: vote.date,
-        bill: vote.bill,
-        billTitle: vote.bill_title,
+        bill: curated.bill,
+        billTitle: curated.bill_title,
         memberPosition: vote.position,
         rollCallId: vote.roll_call_id,
         sectorMatches,

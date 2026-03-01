@@ -1,0 +1,50 @@
+[
+  {
+    "committee": "Ways & Means",
+    "count": 45,
+    "median_pac": 1202564,
+    "mean_pac": 1322435,
+    "median_receipts": 2337216,
+    "mean_receipts": 2800313
+  },
+  {
+    "committee": "Armed Services",
+    "count": 56,
+    "median_pac": 534375,
+    "mean_pac": 656228,
+    "median_receipts": 2052344,
+    "mean_receipts": 3667938
+  },
+  {
+    "committee": "Appropriations",
+    "count": 62,
+    "median_pac": 831488,
+    "mean_pac": 961186,
+    "median_receipts": 1918289,
+    "mean_receipts": 2903562
+  },
+  {
+    "committee": "Energy & Commerce",
+    "count": 54,
+    "median_pac": 909838,
+    "mean_pac": 974516,
+    "median_receipts": 1988594,
+    "mean_receipts": 2681066
+  },
+  {
+    "committee": "Financial Services",
+    "count": 53,
+    "median_pac": 861549,
+    "mean_pac": 973318,
+    "median_receipts": 2120398,
+    "mean_receipts": 3305693
+  },
+  {
+    "committee": "All House Incumbents",
+    "count": 440,
+    "median_pac": 723617,
+    "mean_pac": 845570,
+    "median_receipts": 1976833,
+    "mean_receipts": 3354290
+  }
+]

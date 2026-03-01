@@ -252,6 +252,15 @@ export interface IndustryInfluenceData {
   };
 }
 
+export interface CommitteeComparisonEntry {
+  committee: string;
+  count: number;
+  median_pac: number;
+  mean_pac: number;
+  median_receipts: number;
+  mean_receipts: number;
+}
+
 export interface LeadershipTierRow {
   tier: string;
   count: number;
@@ -498,4 +507,13 @@ export function getBeforeAfterForMember(name: string): BeforeAfterMember | null 
   const data = getBeforeAfter();
   if (!data) return null;
   return data.members.find((m) => m.name === name) ?? null;
+}
+
+export function getCommitteeComparison(): CommitteeComparisonEntry[] {
+  try {
+    const raw = readFileSync(join(DATA_DIR, "committee_comparison.json"), "utf-8");
+    return JSON.parse(raw) as CommitteeComparisonEntry[];
+  } catch {
+    return [];
+  }
 }

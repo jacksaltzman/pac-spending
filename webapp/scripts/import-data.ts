@@ -296,6 +296,20 @@ function importBeforeAfter() {
   };
 }
 
+function importCommitteeComparison() {
+  const rows = readCSV("committee_comparison.csv");
+  if (!rows) return null;
+
+  return rows.map((r) => ({
+    committee: r.committee,
+    count: toNumber(r.count) ?? 0,
+    median_pac: toNumber(r.median_pac) ?? 0,
+    mean_pac: toNumber(r.mean_pac) ?? 0,
+    median_receipts: toNumber(r.median_receipts) ?? 0,
+    mean_receipts: toNumber(r.mean_receipts) ?? 0,
+  }));
+}
+
 function importIndustryInfluence() {
   const sectorRows = readCSV("industry_individual_totals.csv");
   const employerRows = readCSV("industry_top_employers.csv");
@@ -624,6 +638,16 @@ if (industryInfluence) {
     JSON.stringify(industryInfluence, null, 2)
   );
   console.log(`  industry_influence.json: ${industryInfluence.sector_totals.length} sectors, ratio: ${industryInfluence.summary.individual_to_pac_ratio}×`);
+}
+
+// Import committee comparison data
+const committeeComparison = importCommitteeComparison();
+if (committeeComparison) {
+  writeFileSync(
+    join(DATA_DIR, "committee_comparison.json"),
+    JSON.stringify(committeeComparison, null, 2)
+  );
+  console.log(`  committee_comparison.json: ${committeeComparison.length} committees`);
 }
 
 // Note: leadership_analysis.json is generated directly by scripts/12_leadership_analysis.py

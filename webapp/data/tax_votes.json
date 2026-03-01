@@ -1,0 +1,3321 @@
+[
+  {
+    "congress": 118,
+    "chamber": "house",
+    "session": 1,
+    "roll_call": 379,
+    "date": "2023-07-27",
+    "question": "Making appropriations for military construction, the Department of Veterans Affairs, and related agencies for the fiscal year ending September 30, 2024, and for other purposes",
+    "result": "Failed",
+    "title": "Making appropriations for military construction, the Department of Veterans Affairs, and related agencies for the fiscal year ending September 30, 2024, and for other purposes",
+    "bill": {
+      "number": "H R 4366",
+      "title": "Making appropriations for military construction, the Department of Veterans Affairs, and related agencies for the fiscal year ending September 30, 2024, and for other purposes"
+    },
+    "vote_url": "https://clerk.house.gov/evs/2023/roll379.xml"
+  },
+  {
+    "congress": 118,
+    "chamber": "house",
+    "session": 1,
+    "roll_call": 565,
+    "date": "2023-11-02",
+    "question": "Providing for consideration of the bills (H.R. 4821) Dept. of Interior, Environment, and Related Agencies Appropriations Act, 2024; (H.R. 4820) Dept. of Transportation, Housing and Urban Development, and Related Agencies Appropriations Act, 2024; and (H.R. 6126) Israel Security Supplemental Appropriations Act, 2024",
+    "result": "Passed",
+    "title": "Providing for consideration of the bills (H.R. 4821) Dept. of Interior, Environment, and Related Agencies Appropriations Act, 2024; (H.R. 4820) Dept. of Transportation, Housing and Urban Development, and Related Agencies Appropriations Act, 2024; and (H.R. 6126) Israel Security Supplemental Appropriations Act, 2024",
+    "bill": {
+      "number": "H RES 838",
+      "title": "Providing for consideration of the bills (H.R. 4821) Dept. of Interior, Environment, and Related Agencies Appropriations Act, 2024; (H.R. 4820) Dept. of Transportation, Housing and Urban Development, and Related Agencies Appropriations Act, 2024; and (H.R. 6126) Israel Security Supplemental Appropriations Act, 2024"
+    },
+    "vote_url": "https://clerk.house.gov/evs/2023/roll565.xml"
+  },
+  {
+    "congress": 118,
+    "chamber": "house",
+    "session": 1,
+    "roll_call": 602,
+    "date": "2023-11-07",
+    "question": "Providing for consideration of the bill (H.R. 4664) making appropriations for financial services and general government for the fiscal year ending September 30, 2024, and for other purposes",
+    "result": "Passed",
+    "title": "Providing for consideration of the bill (H.R. 4664) making appropriations for financial services and general government for the fiscal year ending September 30, 2024, and for other purposes",
+    "bill": {
+      "number": "H RES 847",
+      "title": "Providing for consideration of the bill (H.R. 4664) making appropriations for financial services and general government for the fiscal year ending September 30, 2024, and for other purposes"
+    },
+    "vote_url": "https://clerk.house.gov/evs/2023/roll602.xml"
+  },
+  {
+    "congress": 118,
+    "chamber": "house",
+    "session": 1,
+    "roll_call": 457,
+    "date": "2023-09-28",
+    "question": "Providing for consideration of the bills (H.R. 5692) Making supplemental appropriations for the fiscal year ending September 30, 2024; (H.R. 4365) Department of Defense Appropriations Act, 2024; and (H.R. 4367) Department of Homeland Security Appropriations Act, 2024",
+    "result": "Passed",
+    "title": "Providing for consideration of the bills (H.R. 5692) Making supplemental appropriations for the fiscal year ending September 30, 2024; (H.R. 4365) Department of Defense Appropriations Act, 2024; and (H.R. 4367) Department of Homeland Security Appropriations Act, 2024",
+    "bill": {
+      "number": "H RES 730",
+      "title": "Providing for consideration of the bills (H.R. 5692) Making supplemental appropriations for the fiscal year ending September 30, 2024; (H.R. 4365) Department of Defense Appropriations Act, 2024; and (H.R. 4367) Department of Homeland Security Appropriations Act, 2024"
+    },
+    "vote_url": "https://clerk.house.gov/evs/2023/roll457.xml"
+  },
+  {
+    "congress": 118,
+    "chamber": "house",
+    "session": 1,
+    "roll_call": 501,
+    "date": "2023-09-28",
+    "question": "Making appropriations for the Department of Defense for the fiscal year ending September 30, 2024, and for other purposes",
+    "result": "Failed",
+    "title": "Making appropriations for the Department of Defense for the fiscal year ending September 30, 2024, and for other purposes",
+    "bill": {
+      "number": "H R 4365",
+      "title": "Making appropriations for the Department of Defense for the fiscal year ending September 30, 2024, and for other purposes"
+    },
+    "vote_url": "https://clerk.house.gov/evs/2023/roll501.xml"
+  },
+  {
+    "congress": 118,
+    "chamber": "house",
+    "session": 1,
+    "roll_call": 558,
+    "date": "2023-10-26",
+    "question": "Making appropriations for energy and water development and related agencies for the fiscal year ending September 30, 2024, and for other purposes",
+    "result": "Passed",
+    "title": "Making appropriations for energy and water development and related agencies for the fiscal year ending September 30, 2024, and for other purposes",
+    "bill": {
+      "number": "H R 4394",
+      "title": "Making appropriations for energy and water development and related agencies for the fiscal year ending September 30, 2024, and for other purposes"
+    },
+    "vote_url": "https://clerk.house.gov/evs/2023/roll558.xml"
+  },
+  {
+    "congress": 118,
+    "chamber": "house",
+    "session": 1,
+    "roll_call": 660,
+    "date": "2023-11-15",
+    "question": "Providing for consideration of the bill (H.R. 5893) Commerce, Justice, Science, and Related Agencies Appropriations Act, 2024 and providing for consideration of the bill (H.R. 5961) No Funds for Iranian Terrorism Act",
+    "result": "Failed",
+    "title": "Providing for consideration of the bill (H.R. 5893) Commerce, Justice, Science, and Related Agencies Appropriations Act, 2024 and providing for consideration of the bill (H.R. 5961) No Funds for Iranian Terrorism Act",
+    "bill": {
+      "number": "H RES 869",
+      "title": "Providing for consideration of the bill (H.R. 5893) Commerce, Justice, Science, and Related Agencies Appropriations Act, 2024 and providing for consideration of the bill (H.R. 5961) No Funds for Iranian Terrorism Act"
+    },
+    "vote_url": "https://clerk.house.gov/evs/2023/roll660.xml"
+  },
+  {
+    "congress": 118,
+    "chamber": "house",
+    "session": 1,
+    "roll_call": 596,
+    "date": "2023-11-03",
+    "question": "Making appropriations for the Department of the Interior, environment, and related agencies for the fiscal year ending September 30, 2024, and for other purposes",
+    "result": "Failed",
+    "title": "Making appropriations for the Department of the Interior, environment, and related agencies for the fiscal year ending September 30, 2024, and for other purposes",
+    "bill": {
+      "number": "H R 4821",
+      "title": "Making appropriations for the Department of the Interior, environment, and related agencies for the fiscal year ending September 30, 2024, and for other purposes"
+    },
+    "vote_url": "https://clerk.house.gov/evs/2023/roll596.xml"
+  },
+  {
+    "congress": 118,
+    "chamber": "house",
+    "session": 1,
+    "roll_call": 456,
+    "date": "2023-09-28",
+    "question": "Providing for consideration of the bills (H.R. 5692) Making supplemental appropriations for the fiscal year ending September 30, 2024; (H.R. 4365) Department of Defense Appropriations Act, 2024; and (H.R. 4367) Department of Homeland Security Appropriations Act, 2024",
+    "result": "Passed",
+    "title": "Providing for consideration of the bills (H.R. 5692) Making supplemental appropriations for the fiscal year ending September 30, 2024; (H.R. 4365) Department of Defense Appropriations Act, 2024; and (H.R. 4367) Department of Homeland Security Appropriations Act, 2024",
+    "bill": {
+      "number": "H RES 730",
+      "title": "Providing for consideration of the bills (H.R. 5692) Making supplemental appropriations for the fiscal year ending September 30, 2024; (H.R. 4365) Department of Defense Appropriations Act, 2024; and (H.R. 4367) Department of Homeland Security Appropriations Act, 2024"
+    },
+    "vote_url": "https://clerk.house.gov/evs/2023/roll456.xml"
+  },
+  {
+    "congress": 118,
+    "chamber": "house",
+    "session": 1,
+    "roll_call": 517,
+    "date": "2023-10-03",
+    "question": "Providing for consideration of the bill (H.R. 4394) Energy and Water Development and Related Agencies Appropriations Act, 2024; providing for consideration of the bill (H.R. 4364) Legislative Branch Appropriations Act, 2024; and for other purposes",
+    "result": "Passed",
+    "title": "Providing for consideration of the bill (H.R. 4394) Energy and Water Development and Related Agencies Appropriations Act, 2024; providing for consideration of the bill (H.R. 4364) Legislative Branch Appropriations Act, 2024; and for other purposes",
+    "bill": {
+      "number": "H RES 756",
+      "title": "Providing for consideration of the bill (H.R. 4394) Energy and Water Development and Related Agencies Appropriations Act, 2024; providing for consideration of the bill (H.R. 4364) Legislative Branch Appropriations Act, 2024; and for other purposes"
+    },
+    "vote_url": "https://clerk.house.gov/evs/2023/roll517.xml"
+  },
+  {
+    "congress": 118,
+    "chamber": "house",
+    "session": 1,
+    "roll_call": 566,
+    "date": "2023-11-02",
+    "question": "Providing for consideration of the bills (H.R. 4821) Dept. of Interior, Environment, and Related Agencies Appropriations Act, 2024; (H.R. 4820) Dept. of Transportation, Housing and Urban Development, and Related Agencies Appropriations Act, 2024; and (H.R. 6126) Israel Security Supplemental Appropriations Act, 2024",
+    "result": "Passed",
+    "title": "Providing for consideration of the bills (H.R. 4821) Dept. of Interior, Environment, and Related Agencies Appropriations Act, 2024; (H.R. 4820) Dept. of Transportation, Housing and Urban Development, and Related Agencies Appropriations Act, 2024; and (H.R. 6126) Israel Security Supplemental Appropriations Act, 2024",
+    "bill": {
+      "number": "H RES 838",
+      "title": "Providing for consideration of the bills (H.R. 4821) Dept. of Interior, Environment, and Related Agencies Appropriations Act, 2024; (H.R. 4820) Dept. of Transportation, Housing and Urban Development, and Related Agencies Appropriations Act, 2024; and (H.R. 6126) Israel Security Supplemental Appropriations Act, 2024"
+    },
+    "vote_url": "https://clerk.house.gov/evs/2023/roll566.xml"
+  },
+  {
+    "congress": 118,
+    "chamber": "house",
+    "session": 1,
+    "roll_call": 646,
+    "date": "2023-11-14",
+    "question": "Providing for consideration of the bill (H.R. 5894) making appropriations for the Departments of Labor, Health and Human Services, and Education, and related agencies for the fiscal year ending September 30, 2024, and for other purposes",
+    "result": "Passed",
+    "title": "Providing for consideration of the bill (H.R. 5894) making appropriations for the Departments of Labor, Health and Human Services, and Education, and related agencies for the fiscal year ending September 30, 2024, and for other purposes",
+    "bill": {
+      "number": "H RES 864",
+      "title": "Providing for consideration of the bill (H.R. 5894) making appropriations for the Departments of Labor, Health and Human Services, and Education, and related agencies for the fiscal year ending September 30, 2024, and for other purposes"
+    },
+    "vote_url": "https://clerk.house.gov/evs/2023/roll646.xml"
+  },
+  {
+    "congress": 118,
+    "chamber": "house",
+    "session": 1,
+    "roll_call": 678,
+    "date": "2023-11-29",
+    "question": "Providing for consideration of (H.R. 5283) Protecting our Communities from Failure to Secure the Border Act; (H.R. 5961) No Funds for Iranian Terrorism Act; (S.J. Res. 32) providing for congressional disapproval, relating to “Small Business Lending Under the Equal Credit Opportunity Act (Regulation B)”",
+    "result": "Passed",
+    "title": "Providing for consideration of (H.R. 5283) Protecting our Communities from Failure to Secure the Border Act; (H.R. 5961) No Funds for Iranian Terrorism Act; (S.J. Res. 32) providing for congressional disapproval, relating to “Small Business Lending Under the Equal Credit Opportunity Act (Regulation B)”",
+    "bill": {
+      "number": "H RES 891",
+      "title": "Providing for consideration of (H.R. 5283) Protecting our Communities from Failure to Secure the Border Act; (H.R. 5961) No Funds for Iranian Terrorism Act; (S.J. Res. 32) providing for congressional disapproval, relating to “Small Business Lending Under the Equal Credit Opportunity Act (Regulation B)”"
+    },
+    "vote_url": "https://clerk.house.gov/evs/2023/roll678.xml"
+  },
+  {
+    "congress": 118,
+    "chamber": "house",
+    "session": 1,
+    "roll_call": 183,
+    "date": "2023-04-17",
+    "question": "Upholding Sovereignty of Airspace Act",
+    "result": "Passed",
+    "title": "Upholding Sovereignty of Airspace Act",
+    "bill": {
+      "number": "H R 1151",
+      "title": "Upholding Sovereignty of Airspace Act"
+    },
+    "vote_url": "https://clerk.house.gov/evs/2023/roll183.xml"
+  },
+  {
+    "congress": 118,
+    "chamber": "house",
+    "session": 1,
+    "roll_call": 597,
+    "date": "2023-11-03",
+    "question": "Making appropriations for the Department of the Interior, environment, and related agencies for the fiscal year ending September 30, 2024, and for other purposes",
+    "result": "Passed",
+    "title": "Making appropriations for the Department of the Interior, environment, and related agencies for the fiscal year ending September 30, 2024, and for other purposes",
+    "bill": {
+      "number": "H R 4821",
+      "title": "Making appropriations for the Department of the Interior, environment, and related agencies for the fiscal year ending September 30, 2024, and for other purposes"
+    },
+    "vote_url": "https://clerk.house.gov/evs/2023/roll597.xml"
+  },
+  {
+    "congress": 118,
+    "chamber": "house",
+    "session": 1,
+    "roll_call": 24,
+    "date": "2023-01-09",
+    "question": "Family and Small Business Taxpayer Protection Act",
+    "result": "Failed",
+    "title": "Family and Small Business Taxpayer Protection Act",
+    "bill": {
+      "number": "H R 23",
+      "title": "Family and Small Business Taxpayer Protection Act"
+    },
+    "vote_url": "https://clerk.house.gov/evs/2023/roll024.xml"
+  },
+  {
+    "congress": 118,
+    "chamber": "house",
+    "session": 1,
+    "roll_call": 241,
+    "date": "2023-05-31",
+    "question": "Providing for consideration of H.R. 3746, the Fiscal Responsibility Act of 2023",
+    "result": "Passed",
+    "title": "Providing for consideration of H.R. 3746, the Fiscal Responsibility Act of 2023",
+    "bill": {
+      "number": "H RES 456",
+      "title": "Providing for consideration of H.R. 3746, the Fiscal Responsibility Act of 2023"
+    },
+    "vote_url": "https://clerk.house.gov/evs/2023/roll241.xml"
+  },
+  {
+    "congress": 118,
+    "chamber": "house",
+    "session": 1,
+    "roll_call": 387,
+    "date": "2023-09-13",
+    "question": "To extend the authority to collect Shasta-Trinity Marina fees through fiscal year 2029",
+    "result": "Passed",
+    "title": "To extend the authority to collect Shasta-Trinity Marina fees through fiscal year 2029",
+    "bill": {
+      "number": "H R 3324",
+      "title": "To extend the authority to collect Shasta-Trinity Marina fees through fiscal year 2029"
+    },
+    "vote_url": "https://clerk.house.gov/evs/2023/roll387.xml"
+  },
+  {
+    "congress": 118,
+    "chamber": "house",
+    "session": 1,
+    "roll_call": 393,
+    "date": "2023-09-18",
+    "question": "To designate the clinic of the Department of Veterans Affairs in Gallup, New Mexico, as the Hiroshi “Hershey” Miyamura VA Clinic",
+    "result": "Passed",
+    "title": "To designate the clinic of the Department of Veterans Affairs in Gallup, New Mexico, as the Hiroshi “Hershey” Miyamura VA Clinic",
+    "bill": {
+      "number": "S 475",
+      "title": "To designate the clinic of the Department of Veterans Affairs in Gallup, New Mexico, as the Hiroshi “Hershey” Miyamura VA Clinic"
+    },
+    "vote_url": "https://clerk.house.gov/evs/2023/roll393.xml"
+  },
+  {
+    "congress": 118,
+    "chamber": "house",
+    "session": 1,
+    "roll_call": 397,
+    "date": "2023-09-19",
+    "question": "Providing for consideration of the bill (H.R. 1435) Preserving Choice in Vehicle Purchases Act, and providing for consideration of the bill (H.R. 4365) Department of Defense Appropriations Act, 2024, and for other purposes",
+    "result": "Passed",
+    "title": "Providing for consideration of the bill (H.R. 1435) Preserving Choice in Vehicle Purchases Act, and providing for consideration of the bill (H.R. 4365) Department of Defense Appropriations Act, 2024, and for other purposes",
+    "bill": {
+      "number": "H RES 680",
+      "title": "Providing for consideration of the bill (H.R. 1435) Preserving Choice in Vehicle Purchases Act, and providing for consideration of the bill (H.R. 4365) Department of Defense Appropriations Act, 2024, and for other purposes"
+    },
+    "vote_url": "https://clerk.house.gov/evs/2023/roll397.xml"
+  },
+  {
+    "congress": 118,
+    "chamber": "house",
+    "session": 1,
+    "roll_call": 398,
+    "date": "2023-09-19",
+    "question": "Providing for consideration of the bill (H.R. 1435) Preserving Choice in Vehicle Purchases Act, and providing for consideration of the bill (H.R. 4365) Department of Defense Appropriations Act, 2024, and for other purposes",
+    "result": "Failed",
+    "title": "Providing for consideration of the bill (H.R. 1435) Preserving Choice in Vehicle Purchases Act, and providing for consideration of the bill (H.R. 4365) Department of Defense Appropriations Act, 2024, and for other purposes",
+    "bill": {
+      "number": "H RES 680",
+      "title": "Providing for consideration of the bill (H.R. 1435) Preserving Choice in Vehicle Purchases Act, and providing for consideration of the bill (H.R. 4365) Department of Defense Appropriations Act, 2024, and for other purposes"
+    },
+    "vote_url": "https://clerk.house.gov/evs/2023/roll398.xml"
+  },
+  {
+    "congress": 118,
+    "chamber": "house",
+    "session": 1,
+    "roll_call": 402,
+    "date": "2023-09-21",
+    "question": "Providing for consideration of the bill (H.R. 4365) Department of Defense Appropriations Act, 2024; providing for consideration of the bill (H.R. 1130) Unlocking our Domestic LNG Potential Act; and providing for consideration of the resolution (H.Res. 684)",
+    "result": "Passed",
+    "title": "Providing for consideration of the bill (H.R. 4365) Department of Defense Appropriations Act, 2024; providing for consideration of the bill (H.R. 1130) Unlocking our Domestic LNG Potential Act; and providing for consideration of the resolution (H.Res. 684)",
+    "bill": {
+      "number": "H RES 712",
+      "title": "Providing for consideration of the bill (H.R. 4365) Department of Defense Appropriations Act, 2024; providing for consideration of the bill (H.R. 1130) Unlocking our Domestic LNG Potential Act; and providing for consideration of the resolution (H.Res. 684)"
+    },
+    "vote_url": "https://clerk.house.gov/evs/2023/roll402.xml"
+  },
+  {
+    "congress": 118,
+    "chamber": "house",
+    "session": 1,
+    "roll_call": 403,
+    "date": "2023-09-21",
+    "question": "Providing for consideration of the bill (H.R. 4365) Department of Defense Appropriations Act, 2024; providing for consideration of the bill (H.R. 1130) Unlocking our Domestic LNG Potential Act; and providing for consideration of the resolution (H.Res. 684)",
+    "result": "Failed",
+    "title": "Providing for consideration of the bill (H.R. 4365) Department of Defense Appropriations Act, 2024; providing for consideration of the bill (H.R. 1130) Unlocking our Domestic LNG Potential Act; and providing for consideration of the resolution (H.Res. 684)",
+    "bill": {
+      "number": "H RES 712",
+      "title": "Providing for consideration of the bill (H.R. 4365) Department of Defense Appropriations Act, 2024; providing for consideration of the bill (H.R. 1130) Unlocking our Domestic LNG Potential Act; and providing for consideration of the resolution (H.Res. 684)"
+    },
+    "vote_url": "https://clerk.house.gov/evs/2023/roll403.xml"
+  },
+  {
+    "congress": 118,
+    "chamber": "house",
+    "session": 1,
+    "roll_call": 405,
+    "date": "2023-09-26",
+    "question": "Providing for consideration of (H.R. 4365) Dept. of Defense Appropriations Act; (H.R. 4367) Dept. of Homeland Security Appropriations Bill; (H.R. 4368) Agriculture, Rural Development, FDA, and Related Agencies Appropriations Act; (H.R. 4665) Dept. of State, Foreign Operations, and Related Programs Appropriations Act",
+    "result": "Passed",
+    "title": "Providing for consideration of (H.R. 4365) Dept. of Defense Appropriations Act; (H.R. 4367) Dept. of Homeland Security Appropriations Bill; (H.R. 4368) Agriculture, Rural Development, FDA, and Related Agencies Appropriations Act; (H.R. 4665) Dept. of State, Foreign Operations, and Related Programs Appropriations Act",
+    "bill": {
+      "number": "H RES 723",
+      "title": "Providing for consideration of (H.R. 4365) Dept. of Defense Appropriations Act; (H.R. 4367) Dept. of Homeland Security Appropriations Bill; (H.R. 4368) Agriculture, Rural Development, FDA, and Related Agencies Appropriations Act; (H.R. 4665) Dept. of State, Foreign Operations, and Related Programs Appropriations Act"
+    },
+    "vote_url": "https://clerk.house.gov/evs/2023/roll405.xml"
+  },
+  {
+    "congress": 118,
+    "chamber": "house",
+    "session": 1,
+    "roll_call": 406,
+    "date": "2023-09-26",
+    "question": "Providing for consideration of (H.R. 4365) Dept. of Defense Appropriations Act; (H.R. 4367) Dept. of Homeland Security Appropriations Bill; (H.R. 4368) Agriculture, Rural Development, FDA, and Related Agencies Appropriations Act; (H.R. 4665) Dept. of State, Foreign Operations, and Related Programs Appropriations Act",
+    "result": "Passed",
+    "title": "Providing for consideration of (H.R. 4365) Dept. of Defense Appropriations Act; (H.R. 4367) Dept. of Homeland Security Appropriations Bill; (H.R. 4368) Agriculture, Rural Development, FDA, and Related Agencies Appropriations Act; (H.R. 4665) Dept. of State, Foreign Operations, and Related Programs Appropriations Act",
+    "bill": {
+      "number": "H RES 723",
+      "title": "Providing for consideration of (H.R. 4365) Dept. of Defense Appropriations Act; (H.R. 4367) Dept. of Homeland Security Appropriations Bill; (H.R. 4368) Agriculture, Rural Development, FDA, and Related Agencies Appropriations Act; (H.R. 4665) Dept. of State, Foreign Operations, and Related Programs Appropriations Act"
+    },
+    "vote_url": "https://clerk.house.gov/evs/2023/roll406.xml"
+  },
+  {
+    "congress": 118,
+    "chamber": "house",
+    "session": 1,
+    "roll_call": 562,
+    "date": "2023-11-01",
+    "question": "Making appropriations for the Legislative Branch for the fiscal year ending September 30, 2024, and for other purposes",
+    "result": "Failed",
+    "title": "Making appropriations for the Legislative Branch for the fiscal year ending September 30, 2024, and for other purposes",
+    "bill": {
+      "number": "H R 4364",
+      "title": "Making appropriations for the Legislative Branch for the fiscal year ending September 30, 2024, and for other purposes"
+    },
+    "vote_url": "https://clerk.house.gov/evs/2023/roll562.xml"
+  },
+  {
+    "congress": 118,
+    "chamber": "house",
+    "session": 1,
+    "roll_call": 563,
+    "date": "2023-11-01",
+    "question": "Making appropriations for the Legislative Branch for the fiscal year ending September 30, 2024, and for other purposes",
+    "result": "Passed",
+    "title": "Making appropriations for the Legislative Branch for the fiscal year ending September 30, 2024, and for other purposes",
+    "bill": {
+      "number": "H R 4364",
+      "title": "Making appropriations for the Legislative Branch for the fiscal year ending September 30, 2024, and for other purposes"
+    },
+    "vote_url": "https://clerk.house.gov/evs/2023/roll563.xml"
+  },
+  {
+    "congress": 118,
+    "chamber": "house",
+    "session": 1,
+    "roll_call": 205,
+    "date": "2023-05-10",
+    "question": "Providing for consideration of the bill (H.R. 2) Secure the Border Act and providing for consideration of the bill (H.R. 1163) Protecting Taxpayers and Victims of Unemployment Fraud Act",
+    "result": "Passed",
+    "title": "Providing for consideration of the bill (H.R. 2) Secure the Border Act and providing for consideration of the bill (H.R. 1163) Protecting Taxpayers and Victims of Unemployment Fraud Act",
+    "bill": {
+      "number": "H RES 383",
+      "title": "Providing for consideration of the bill (H.R. 2) Secure the Border Act and providing for consideration of the bill (H.R. 1163) Protecting Taxpayers and Victims of Unemployment Fraud Act"
+    },
+    "vote_url": "https://clerk.house.gov/evs/2023/roll205.xml"
+  },
+  {
+    "congress": 118,
+    "chamber": "house",
+    "session": 1,
+    "roll_call": 207,
+    "date": "2023-05-10",
+    "question": "Providing for consideration of the bill (H.R. 2) Secure the Border Act and providing for consideration of the bill (H.R. 1163) Protecting Taxpayers and Victims of Unemployment Fraud Act",
+    "result": "Passed",
+    "title": "Providing for consideration of the bill (H.R. 2) Secure the Border Act and providing for consideration of the bill (H.R. 1163) Protecting Taxpayers and Victims of Unemployment Fraud Act",
+    "bill": {
+      "number": "H RES 383",
+      "title": "Providing for consideration of the bill (H.R. 2) Secure the Border Act and providing for consideration of the bill (H.R. 1163) Protecting Taxpayers and Victims of Unemployment Fraud Act"
+    },
+    "vote_url": "https://clerk.house.gov/evs/2023/roll207.xml"
+  },
+  {
+    "congress": 118,
+    "chamber": "house",
+    "session": 1,
+    "roll_call": 210,
+    "date": "2023-05-11",
+    "question": "Protecting Taxpayers and Victims of Unemployment Fraud Act",
+    "result": "Failed",
+    "title": "Protecting Taxpayers and Victims of Unemployment Fraud Act",
+    "bill": {
+      "number": "H R 1163",
+      "title": "Protecting Taxpayers and Victims of Unemployment Fraud Act"
+    },
+    "vote_url": "https://clerk.house.gov/evs/2023/roll210.xml"
+  },
+  {
+    "congress": 118,
+    "chamber": "house",
+    "session": 1,
+    "roll_call": 211,
+    "date": "2023-05-11",
+    "question": "Protecting Taxpayers and Victims of Unemployment Fraud Act",
+    "result": "Passed",
+    "title": "Protecting Taxpayers and Victims of Unemployment Fraud Act",
+    "bill": {
+      "number": "H R 1163",
+      "title": "Protecting Taxpayers and Victims of Unemployment Fraud Act"
+    },
+    "vote_url": "https://clerk.house.gov/evs/2023/roll211.xml"
+  },
+  {
+    "congress": 118,
+    "chamber": "house",
+    "session": 1,
+    "roll_call": 557,
+    "date": "2023-10-26",
+    "question": "Making appropriations for energy and water development and related agencies for the fiscal year ending September 30, 2024, and for other purposes",
+    "result": "Failed",
+    "title": "Making appropriations for energy and water development and related agencies for the fiscal year ending September 30, 2024, and for other purposes",
+    "bill": {
+      "number": "H R 4394",
+      "title": "Making appropriations for energy and water development and related agencies for the fiscal year ending September 30, 2024, and for other purposes"
+    },
+    "vote_url": "https://clerk.house.gov/evs/2023/roll557.xml"
+  },
+  {
+    "congress": 118,
+    "chamber": "house",
+    "session": 1,
+    "roll_call": 679,
+    "date": "2023-11-29",
+    "question": "Providing for consideration of (H.R. 5283) Protecting our Communities from Failure to Secure the Border Act; (H.R. 5961) No Funds for Iranian Terrorism Act; (S.J. Res. 32) providing for congressional disapproval, relating to “Small Business Lending Under the Equal Credit Opportunity Act (Regulation B)”",
+    "result": "Passed",
+    "title": "Providing for consideration of (H.R. 5283) Protecting our Communities from Failure to Secure the Border Act; (H.R. 5961) No Funds for Iranian Terrorism Act; (S.J. Res. 32) providing for congressional disapproval, relating to “Small Business Lending Under the Equal Credit Opportunity Act (Regulation B)”",
+    "bill": {
+      "number": "H RES 891",
+      "title": "Providing for consideration of (H.R. 5283) Protecting our Communities from Failure to Secure the Border Act; (H.R. 5961) No Funds for Iranian Terrorism Act; (S.J. Res. 32) providing for congressional disapproval, relating to “Small Business Lending Under the Equal Credit Opportunity Act (Regulation B)”"
+    },
+    "vote_url": "https://clerk.house.gov/evs/2023/roll679.xml"
+  },
+  {
+    "congress": 118,
+    "chamber": "house",
+    "session": 1,
+    "roll_call": 690,
+    "date": "2023-12-01",
+    "question": "Providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Bureau of Consumer Financial Protection relating to “Small Business Lending Under the Equal Credit Opportunity Act (Regulation B)”",
+    "result": "Passed",
+    "title": "Providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Bureau of Consumer Financial Protection relating to “Small Business Lending Under the Equal Credit Opportunity Act (Regulation B)”",
+    "bill": {
+      "number": "S J RES 32",
+      "title": "Providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Bureau of Consumer Financial Protection relating to “Small Business Lending Under the Equal Credit Opportunity Act (Regulation B)”"
+    },
+    "vote_url": "https://clerk.house.gov/evs/2023/roll690.xml"
+  },
+  {
+    "congress": 118,
+    "chamber": "house",
+    "session": 1,
+    "roll_call": 25,
+    "date": "2023-01-09",
+    "question": "Family and Small Business Taxpayer Protection Act",
+    "result": "Passed",
+    "title": "Family and Small Business Taxpayer Protection Act",
+    "bill": {
+      "number": "H R 23",
+      "title": "Family and Small Business Taxpayer Protection Act"
+    },
+    "vote_url": "https://clerk.house.gov/evs/2023/roll025.xml"
+  },
+  {
+    "congress": 118,
+    "chamber": "house",
+    "session": 1,
+    "roll_call": 243,
+    "date": "2023-05-31",
+    "question": "Fiscal Responsibility Act",
+    "result": "Passed",
+    "title": "Fiscal Responsibility Act",
+    "bill": {
+      "number": "H R 3746",
+      "title": "Fiscal Responsibility Act"
+    },
+    "vote_url": "https://clerk.house.gov/evs/2023/roll243.xml"
+  },
+  {
+    "congress": 118,
+    "chamber": "house",
+    "session": 1,
+    "roll_call": 273,
+    "date": "2023-06-20",
+    "question": "To designate the clinic of the Department of Veterans Affairs in Indian River, Michigan, as the “Pfc. Justin T. Paton Department of Veterans Affairs Clinic”",
+    "result": "Passed",
+    "title": "To designate the clinic of the Department of Veterans Affairs in Indian River, Michigan, as the “Pfc. Justin T. Paton Department of Veterans Affairs Clinic”",
+    "bill": {
+      "number": "H R 3672",
+      "title": "To designate the clinic of the Department of Veterans Affairs in Indian River, Michigan, as the “Pfc. Justin T. Paton Department of Veterans Affairs Clinic”"
+    },
+    "vote_url": "https://clerk.house.gov/evs/2023/roll273.xml"
+  },
+  {
+    "congress": 118,
+    "chamber": "house",
+    "session": 1,
+    "roll_call": 380,
+    "date": "2023-07-27",
+    "question": "Making appropriations for military construction, the Department of Veterans Affairs, and related agencies for the fiscal year ending September 30, 2024, and for other purposes",
+    "result": "Passed",
+    "title": "Making appropriations for military construction, the Department of Veterans Affairs, and related agencies for the fiscal year ending September 30, 2024, and for other purposes",
+    "bill": {
+      "number": "H R 4366",
+      "title": "Making appropriations for military construction, the Department of Veterans Affairs, and related agencies for the fiscal year ending September 30, 2024, and for other purposes"
+    },
+    "vote_url": "https://clerk.house.gov/evs/2023/roll380.xml"
+  },
+  {
+    "congress": 118,
+    "chamber": "house",
+    "session": 1,
+    "roll_call": 404,
+    "date": "2023-09-26",
+    "question": "Providing for consideration of (H.R. 4365) Dept. of Defense Appropriations Act; (H.R. 4367) Dept. of Homeland Security Appropriations Bill; (H.R. 4368) Agriculture, Rural Development, FDA, and Related Agencies Appropriations Act; (H.R. 4665) Dept. of State, Foreign Operations, and Related Programs Appropriations Act",
+    "result": "Passed",
+    "title": "Providing for consideration of (H.R. 4365) Dept. of Defense Appropriations Act; (H.R. 4367) Dept. of Homeland Security Appropriations Bill; (H.R. 4368) Agriculture, Rural Development, FDA, and Related Agencies Appropriations Act; (H.R. 4665) Dept. of State, Foreign Operations, and Related Programs Appropriations Act",
+    "bill": {
+      "number": "H RES 723",
+      "title": "Providing for consideration of (H.R. 4365) Dept. of Defense Appropriations Act; (H.R. 4367) Dept. of Homeland Security Appropriations Bill; (H.R. 4368) Agriculture, Rural Development, FDA, and Related Agencies Appropriations Act; (H.R. 4665) Dept. of State, Foreign Operations, and Related Programs Appropriations Act"
+    },
+    "vote_url": "https://clerk.house.gov/evs/2023/roll404.xml"
+  },
+  {
+    "congress": 118,
+    "chamber": "house",
+    "session": 1,
+    "roll_call": 499,
+    "date": "2023-09-28",
+    "question": "Making appropriations for the Department of State, foreign operations, and related programs for the fiscal year ending September 30, 2024, and for other purposes",
+    "result": "Failed",
+    "title": "Making appropriations for the Department of State, foreign operations, and related programs for the fiscal year ending September 30, 2024, and for other purposes",
+    "bill": {
+      "number": "H R 4665",
+      "title": "Making appropriations for the Department of State, foreign operations, and related programs for the fiscal year ending September 30, 2024, and for other purposes"
+    },
+    "vote_url": "https://clerk.house.gov/evs/2023/roll499.xml"
+  },
+  {
+    "congress": 118,
+    "chamber": "house",
+    "session": 1,
+    "roll_call": 502,
+    "date": "2023-09-28",
+    "question": "Making appropriations for the Department of Defense for the fiscal year ending September 30, 2024, and for other purposes",
+    "result": "Passed",
+    "title": "Making appropriations for the Department of Defense for the fiscal year ending September 30, 2024, and for other purposes",
+    "bill": {
+      "number": "H R 4365",
+      "title": "Making appropriations for the Department of Defense for the fiscal year ending September 30, 2024, and for other purposes"
+    },
+    "vote_url": "https://clerk.house.gov/evs/2023/roll502.xml"
+  },
+  {
+    "congress": 118,
+    "chamber": "house",
+    "session": 1,
+    "roll_call": 504,
+    "date": "2023-09-28",
+    "question": "Making appropriations for the Department of Homeland Security for the fiscal year ending September 30, 2024, and for other purposes",
+    "result": "Failed",
+    "title": "Making appropriations for the Department of Homeland Security for the fiscal year ending September 30, 2024, and for other purposes",
+    "bill": {
+      "number": "H R 4367",
+      "title": "Making appropriations for the Department of Homeland Security for the fiscal year ending September 30, 2024, and for other purposes"
+    },
+    "vote_url": "https://clerk.house.gov/evs/2023/roll504.xml"
+  },
+  {
+    "congress": 118,
+    "chamber": "house",
+    "session": 1,
+    "roll_call": 505,
+    "date": "2023-09-28",
+    "question": "Making appropriations for the Department of Homeland Security for the fiscal year ending September 30, 2024, and for other purposes",
+    "result": "Passed",
+    "title": "Making appropriations for the Department of Homeland Security for the fiscal year ending September 30, 2024, and for other purposes",
+    "bill": {
+      "number": "H R 4367",
+      "title": "Making appropriations for the Department of Homeland Security for the fiscal year ending September 30, 2024, and for other purposes"
+    },
+    "vote_url": "https://clerk.house.gov/evs/2023/roll505.xml"
+  },
+  {
+    "congress": 118,
+    "chamber": "house",
+    "session": 1,
+    "roll_call": 506,
+    "date": "2023-09-28",
+    "question": "Agriculture, Rural Development, Food and Drug Administration, and Related Agencies Appropriations Act, 2024",
+    "result": "Failed",
+    "title": "Agriculture, Rural Development, Food and Drug Administration, and Related Agencies Appropriations Act, 2024",
+    "bill": {
+      "number": "H R 4368",
+      "title": "Agriculture, Rural Development, Food and Drug Administration, and Related Agencies Appropriations Act, 2024"
+    },
+    "vote_url": "https://clerk.house.gov/evs/2023/roll506.xml"
+  },
+  {
+    "congress": 118,
+    "chamber": "house",
+    "session": 1,
+    "roll_call": 507,
+    "date": "2023-09-28",
+    "question": "Agriculture, Rural Development, Food and Drug Administration, and Related Agencies Appropriations Act, 2024",
+    "result": "Failed",
+    "title": "Agriculture, Rural Development, Food and Drug Administration, and Related Agencies Appropriations Act, 2024",
+    "bill": {
+      "number": "H R 4368",
+      "title": "Agriculture, Rural Development, Food and Drug Administration, and Related Agencies Appropriations Act, 2024"
+    },
+    "vote_url": "https://clerk.house.gov/evs/2023/roll507.xml"
+  },
+  {
+    "congress": 118,
+    "chamber": "house",
+    "session": 1,
+    "roll_call": 500,
+    "date": "2023-09-28",
+    "question": "Making appropriations for the Department of State, foreign operations, and related programs for the fiscal year ending September 30, 2024, and for other purposes",
+    "result": "Passed",
+    "title": "Making appropriations for the Department of State, foreign operations, and related programs for the fiscal year ending September 30, 2024, and for other purposes",
+    "bill": {
+      "number": "H R 4665",
+      "title": "Making appropriations for the Department of State, foreign operations, and related programs for the fiscal year ending September 30, 2024, and for other purposes"
+    },
+    "vote_url": "https://clerk.house.gov/evs/2023/roll500.xml"
+  },
+  {
+    "congress": 118,
+    "chamber": "house",
+    "session": 1,
+    "roll_call": 503,
+    "date": "2023-09-28",
+    "question": "Making supplemental appropriations for the fiscal year ending September 30, 2024, and for other purposes",
+    "result": "Passed",
+    "title": "Making supplemental appropriations for the fiscal year ending September 30, 2024, and for other purposes",
+    "bill": {
+      "number": "H R 5692",
+      "title": "Making supplemental appropriations for the fiscal year ending September 30, 2024, and for other purposes"
+    },
+    "vote_url": "https://clerk.house.gov/evs/2023/roll503.xml"
+  },
+  {
+    "congress": 118,
+    "chamber": "house",
+    "session": 1,
+    "roll_call": 516,
+    "date": "2023-10-03",
+    "question": "Providing for consideration of the bill (H.R. 4394) Energy and Water Development and Related Agencies Appropriations Act, 2024; providing for consideration of the bill (H.R. 4364) Legislative Branch Appropriations Act, 2024; and for other purposes",
+    "result": "Passed",
+    "title": "Providing for consideration of the bill (H.R. 4394) Energy and Water Development and Related Agencies Appropriations Act, 2024; providing for consideration of the bill (H.R. 4364) Legislative Branch Appropriations Act, 2024; and for other purposes",
+    "bill": {
+      "number": "H RES 756",
+      "title": "Providing for consideration of the bill (H.R. 4394) Energy and Water Development and Related Agencies Appropriations Act, 2024; providing for consideration of the bill (H.R. 4364) Legislative Branch Appropriations Act, 2024; and for other purposes"
+    },
+    "vote_url": "https://clerk.house.gov/evs/2023/roll516.xml"
+  },
+  {
+    "congress": 118,
+    "chamber": "house",
+    "session": 1,
+    "roll_call": 513,
+    "date": "2023-09-30",
+    "question": "Continuing Appropriations Act, 2024 and Other Extensions Act",
+    "result": "Passed",
+    "title": "Continuing Appropriations Act, 2024 and Other Extensions Act",
+    "bill": {
+      "number": "H R 5860",
+      "title": "Continuing Appropriations Act, 2024 and Other Extensions Act"
+    },
+    "vote_url": "https://clerk.house.gov/evs/2023/roll513.xml"
+  },
+  {
+    "congress": 118,
+    "chamber": "house",
+    "session": 1,
+    "roll_call": 601,
+    "date": "2023-11-07",
+    "question": "Providing for consideration of the bill (H.R. 4664) making appropriations for financial services and general government for the fiscal year ending September 30, 2024, and for other purposes",
+    "result": "Passed",
+    "title": "Providing for consideration of the bill (H.R. 4664) making appropriations for financial services and general government for the fiscal year ending September 30, 2024, and for other purposes",
+    "bill": {
+      "number": "H RES 847",
+      "title": "Providing for consideration of the bill (H.R. 4664) making appropriations for financial services and general government for the fiscal year ending September 30, 2024, and for other purposes"
+    },
+    "vote_url": "https://clerk.house.gov/evs/2023/roll601.xml"
+  },
+  {
+    "congress": 118,
+    "chamber": "house",
+    "session": 1,
+    "roll_call": 644,
+    "date": "2023-11-13",
+    "question": "To rename the Department of Veterans Affairs community-based outpatient clinic in Hinesville, Georgia, as the “John Gibson, Dan James, William Sapp, and Frankie Smiley VA Clinic”",
+    "result": "Passed",
+    "title": "To rename the Department of Veterans Affairs community-based outpatient clinic in Hinesville, Georgia, as the “John Gibson, Dan James, William Sapp, and Frankie Smiley VA Clinic”",
+    "bill": {
+      "number": "H R 593",
+      "title": "To rename the Department of Veterans Affairs community-based outpatient clinic in Hinesville, Georgia, as the “John Gibson, Dan James, William Sapp, and Frankie Smiley VA Clinic”"
+    },
+    "vote_url": "https://clerk.house.gov/evs/2023/roll644.xml"
+  },
+  {
+    "congress": 118,
+    "chamber": "house",
+    "session": 1,
+    "roll_call": 647,
+    "date": "2023-11-14",
+    "question": "Providing for consideration of the bill (H.R. 5894) making appropriations for the Departments of Labor, Health and Human Services, and Education, and related agencies for the fiscal year ending September 30, 2024, and for other purposes",
+    "result": "Passed",
+    "title": "Providing for consideration of the bill (H.R. 5894) making appropriations for the Departments of Labor, Health and Human Services, and Education, and related agencies for the fiscal year ending September 30, 2024, and for other purposes",
+    "bill": {
+      "number": "H RES 864",
+      "title": "Providing for consideration of the bill (H.R. 5894) making appropriations for the Departments of Labor, Health and Human Services, and Education, and related agencies for the fiscal year ending September 30, 2024, and for other purposes"
+    },
+    "vote_url": "https://clerk.house.gov/evs/2023/roll647.xml"
+  },
+  {
+    "congress": 118,
+    "chamber": "house",
+    "session": 1,
+    "roll_call": 658,
+    "date": "2023-11-14",
+    "question": "Further Continuing Appropriations and Other Extensions Act, 2024",
+    "result": "Passed",
+    "title": "Further Continuing Appropriations and Other Extensions Act, 2024",
+    "bill": {
+      "number": "H R 6363",
+      "title": "Further Continuing Appropriations and Other Extensions Act, 2024"
+    },
+    "vote_url": "https://clerk.house.gov/evs/2023/roll658.xml"
+  },
+  {
+    "congress": 118,
+    "chamber": "house",
+    "session": 1,
+    "roll_call": 659,
+    "date": "2023-11-15",
+    "question": "Providing for consideration of the bill (H.R. 5893) Commerce, Justice, Science, and Related Agencies Appropriations Act, 2024 and providing for consideration of the bill (H.R. 5961) No Funds for Iranian Terrorism Act",
+    "result": "Passed",
+    "title": "Providing for consideration of the bill (H.R. 5893) Commerce, Justice, Science, and Related Agencies Appropriations Act, 2024 and providing for consideration of the bill (H.R. 5961) No Funds for Iranian Terrorism Act",
+    "bill": {
+      "number": "H RES 869",
+      "title": "Providing for consideration of the bill (H.R. 5893) Commerce, Justice, Science, and Related Agencies Appropriations Act, 2024 and providing for consideration of the bill (H.R. 5961) No Funds for Iranian Terrorism Act"
+    },
+    "vote_url": "https://clerk.house.gov/evs/2023/roll659.xml"
+  },
+  {
+    "congress": 118,
+    "chamber": "house",
+    "session": 2,
+    "roll_call": 150,
+    "date": "2024-04-20",
+    "question": "Ukraine Security Supplemental Appropriations Act, 2024",
+    "result": "Failed",
+    "title": "Ukraine Security Supplemental Appropriations Act, 2024",
+    "bill": {
+      "number": "H R 8035",
+      "title": "Ukraine Security Supplemental Appropriations Act, 2024"
+    },
+    "vote_url": "https://clerk.house.gov/evs/2024/roll150.xml"
+  },
+  {
+    "congress": 118,
+    "chamber": "house",
+    "session": 2,
+    "roll_call": 236,
+    "date": "2024-06-04",
+    "question": "Providing for consideration of the bill (H.R. 8580) making appropriations for military construction, the Department of Veterans Affairs, and related agencies for the fiscal year ending September 30, 2025, and providing for consideration of the bill (H.R. 8282) Illegitimate Court Counteraction Act",
+    "result": "Passed",
+    "title": "Providing for consideration of the bill (H.R. 8580) making appropriations for military construction, the Department of Veterans Affairs, and related agencies for the fiscal year ending September 30, 2025, and providing for consideration of the bill (H.R. 8282) Illegitimate Court Counteraction Act",
+    "bill": {
+      "number": "H RES 1269",
+      "title": "Providing for consideration of the bill (H.R. 8580) making appropriations for military construction, the Department of Veterans Affairs, and related agencies for the fiscal year ending September 30, 2025, and providing for consideration of the bill (H.R. 8282) Illegitimate Court Counteraction Act"
+    },
+    "vote_url": "https://clerk.house.gov/evs/2024/roll236.xml"
+  },
+  {
+    "congress": 118,
+    "chamber": "house",
+    "session": 2,
+    "roll_call": 251,
+    "date": "2024-06-12",
+    "question": "Providing for consideration of the bill (H.R. 8070) the Servicemember Quality of Life Improvement and National Defense Authorization Act for Fiscal Year 2025; and relating to the consideration of House Report 118-527 and an accompanying resolution; and for other purposes",
+    "result": "Passed",
+    "title": "Providing for consideration of the bill (H.R. 8070) the Servicemember Quality of Life Improvement and National Defense Authorization Act for Fiscal Year 2025; and relating to the consideration of House Report 118-527 and an accompanying resolution; and for other purposes",
+    "bill": {
+      "number": "H RES 1287",
+      "title": "Providing for consideration of the bill (H.R. 8070) the Servicemember Quality of Life Improvement and National Defense Authorization Act for Fiscal Year 2025; and relating to the consideration of House Report 118-527 and an accompanying resolution; and for other purposes"
+    },
+    "vote_url": "https://clerk.house.gov/evs/2024/roll251.xml"
+  },
+  {
+    "congress": 118,
+    "chamber": "house",
+    "session": 2,
+    "roll_call": 283,
+    "date": "2024-06-26",
+    "question": "Providing for consideration of (H.R. 8774) Department of Defense Appropriations Act, 2025; consideration of (H.R. 8771) Department of State, Foreign Operations, and Related Programs Appropriations Act, 2025; consideration of (H.R. 8752) Department of Homeland Security Appropriations Act, 2025; and for other purposes",
+    "result": "Passed",
+    "title": "Providing for consideration of (H.R. 8774) Department of Defense Appropriations Act, 2025; consideration of (H.R. 8771) Department of State, Foreign Operations, and Related Programs Appropriations Act, 2025; consideration of (H.R. 8752) Department of Homeland Security Appropriations Act, 2025; and for other purposes",
+    "bill": {
+      "number": "H RES 1316",
+      "title": "Providing for consideration of (H.R. 8774) Department of Defense Appropriations Act, 2025; consideration of (H.R. 8771) Department of State, Foreign Operations, and Related Programs Appropriations Act, 2025; consideration of (H.R. 8752) Department of Homeland Security Appropriations Act, 2025; and for other purposes"
+    },
+    "vote_url": "https://clerk.house.gov/evs/2024/roll283.xml"
+  },
+  {
+    "congress": 118,
+    "chamber": "house",
+    "session": 2,
+    "roll_call": 468,
+    "date": "2024-11-19",
+    "question": "Providing for consideration of the bill (H.R. 1449) the CLEAN Act; and providing for consideration of the bill (H.R. 9495) the Stop Terror-Financing and Tax Penalties on American Hostages Act",
+    "result": "Passed",
+    "title": "Providing for consideration of the bill (H.R. 1449) the CLEAN Act; and providing for consideration of the bill (H.R. 9495) the Stop Terror-Financing and Tax Penalties on American Hostages Act",
+    "bill": {
+      "number": "H RES 1576",
+      "title": "Providing for consideration of the bill (H.R. 1449) the CLEAN Act; and providing for consideration of the bill (H.R. 9495) the Stop Terror-Financing and Tax Penalties on American Hostages Act"
+    },
+    "vote_url": "https://clerk.house.gov/evs/2024/roll468.xml"
+  },
+  {
+    "congress": 118,
+    "chamber": "house",
+    "session": 2,
+    "roll_call": 359,
+    "date": "2024-07-23",
+    "question": "Providing for consideration of the bills (H.R. 8997) Energy and Water Development and Related Agencies Appropriations Act, 2025; and (H.R. 8998) Department of the Interior, Environment, and Related Agencies Appropriations Act, 2025.",
+    "result": "Passed",
+    "title": "Providing for consideration of the bills (H.R. 8997) Energy and Water Development and Related Agencies Appropriations Act, 2025; and (H.R. 8998) Department of the Interior, Environment, and Related Agencies Appropriations Act, 2025.",
+    "bill": {
+      "number": "H RES 1370",
+      "title": "Providing for consideration of the bills (H.R. 8997) Energy and Water Development and Related Agencies Appropriations Act, 2025; and (H.R. 8998) Department of the Interior, Environment, and Related Agencies Appropriations Act, 2025."
+    },
+    "vote_url": "https://clerk.house.gov/evs/2024/roll359.xml"
+  },
+  {
+    "congress": 118,
+    "chamber": "house",
+    "session": 2,
+    "roll_call": 469,
+    "date": "2024-11-19",
+    "question": "Providing for consideration of the bill (H.R. 1449) the CLEAN Act; and providing for consideration of the bill (H.R. 9495) the Stop Terror-Financing and Tax Penalties on American Hostages Act",
+    "result": "Passed",
+    "title": "Providing for consideration of the bill (H.R. 1449) the CLEAN Act; and providing for consideration of the bill (H.R. 9495) the Stop Terror-Financing and Tax Penalties on American Hostages Act",
+    "bill": {
+      "number": "H RES 1576",
+      "title": "Providing for consideration of the bill (H.R. 1449) the CLEAN Act; and providing for consideration of the bill (H.R. 9495) the Stop Terror-Financing and Tax Penalties on American Hostages Act"
+    },
+    "vote_url": "https://clerk.house.gov/evs/2024/roll469.xml"
+  },
+  {
+    "congress": 118,
+    "chamber": "house",
+    "session": 2,
+    "roll_call": 430,
+    "date": "2024-09-18",
+    "question": "Continuing Appropriations and Other Matters Act, 2025",
+    "result": "Failed",
+    "title": "Continuing Appropriations and Other Matters Act, 2025",
+    "bill": {
+      "number": "H R 9494",
+      "title": "Continuing Appropriations and Other Matters Act, 2025"
+    },
+    "vote_url": "https://clerk.house.gov/evs/2024/roll430.xml"
+  },
+  {
+    "congress": 118,
+    "chamber": "house",
+    "session": 2,
+    "roll_call": 279,
+    "date": "2024-06-14",
+    "question": "Servicemember Quality of Life Improvement and National Defense Authorization Act for Fiscal Year 2025",
+    "result": "Passed",
+    "title": "Servicemember Quality of Life Improvement and National Defense Authorization Act for Fiscal Year 2025",
+    "bill": {
+      "number": "H R 8070",
+      "title": "Servicemember Quality of Life Improvement and National Defense Authorization Act for Fiscal Year 2025"
+    },
+    "vote_url": "https://clerk.house.gov/evs/2024/roll279.xml"
+  },
+  {
+    "congress": 118,
+    "chamber": "house",
+    "session": 2,
+    "roll_call": 121,
+    "date": "2024-04-15",
+    "question": "To amend the Internal Revenue Code of 1986 to terminate the tax-exempt status of terrorist supporting organizations",
+    "result": "Passed",
+    "title": "To amend the Internal Revenue Code of 1986 to terminate the tax-exempt status of terrorist supporting organizations",
+    "bill": {
+      "number": "H R 6408",
+      "title": "To amend the Internal Revenue Code of 1986 to terminate the tax-exempt status of terrorist supporting organizations"
+    },
+    "vote_url": "https://clerk.house.gov/evs/2024/roll121.xml"
+  },
+  {
+    "congress": 118,
+    "chamber": "house",
+    "session": 2,
+    "roll_call": 335,
+    "date": "2024-06-28",
+    "question": "Making appropriations for the Department of State, foreign operations, and related programs for the fiscal year ending September 30, 2025, and for other purposes",
+    "result": "Passed",
+    "title": "Making appropriations for the Department of State, foreign operations, and related programs for the fiscal year ending September 30, 2025, and for other purposes",
+    "bill": {
+      "number": "H R 8771",
+      "title": "Making appropriations for the Department of State, foreign operations, and related programs for the fiscal year ending September 30, 2025, and for other purposes"
+    },
+    "vote_url": "https://clerk.house.gov/evs/2024/roll335.xml"
+  },
+  {
+    "congress": 118,
+    "chamber": "house",
+    "session": 2,
+    "roll_call": 12,
+    "date": "2024-01-17",
+    "question": "To amend the Homeland Security Act of 2002 relating to authority of U.S. Customs and Border Protection to consolidate, modify, or reorganize Customs revenue functions",
+    "result": "Passed",
+    "title": "To amend the Homeland Security Act of 2002 relating to authority of U.S. Customs and Border Protection to consolidate, modify, or reorganize Customs revenue functions",
+    "bill": {
+      "number": "H R 5862",
+      "title": "To amend the Homeland Security Act of 2002 relating to authority of U.S. Customs and Border Protection to consolidate, modify, or reorganize Customs revenue functions"
+    },
+    "vote_url": "https://clerk.house.gov/evs/2024/roll012.xml"
+  },
+  {
+    "congress": 118,
+    "chamber": "house",
+    "session": 2,
+    "roll_call": 30,
+    "date": "2024-01-31",
+    "question": "Tax Relief for American Families and Workers Act",
+    "result": "Passed",
+    "title": "Tax Relief for American Families and Workers Act",
+    "bill": {
+      "number": "H R 7024",
+      "title": "Tax Relief for American Families and Workers Act"
+    },
+    "vote_url": "https://clerk.house.gov/evs/2024/roll030.xml"
+  },
+  {
+    "congress": 118,
+    "chamber": "house",
+    "session": 2,
+    "roll_call": 330,
+    "date": "2024-06-28",
+    "question": "Department of Defense Appropriations Act, 2025",
+    "result": "Failed",
+    "title": "Department of Defense Appropriations Act, 2025",
+    "bill": {
+      "number": "H R 8774",
+      "title": "Department of Defense Appropriations Act, 2025"
+    },
+    "vote_url": "https://clerk.house.gov/evs/2024/roll330.xml"
+  },
+  {
+    "congress": 118,
+    "chamber": "house",
+    "session": 2,
+    "roll_call": 331,
+    "date": "2024-06-28",
+    "question": "Department of Defense Appropriations Act, 2025",
+    "result": "Passed",
+    "title": "Department of Defense Appropriations Act, 2025",
+    "bill": {
+      "number": "H R 8774",
+      "title": "Department of Defense Appropriations Act, 2025"
+    },
+    "vote_url": "https://clerk.house.gov/evs/2024/roll331.xml"
+  },
+  {
+    "congress": 118,
+    "chamber": "house",
+    "session": 2,
+    "roll_call": 332,
+    "date": "2024-06-28",
+    "question": "Department of Homeland Security Appropriations Act, 2025",
+    "result": "Failed",
+    "title": "Department of Homeland Security Appropriations Act, 2025",
+    "bill": {
+      "number": "H R 8752",
+      "title": "Department of Homeland Security Appropriations Act, 2025"
+    },
+    "vote_url": "https://clerk.house.gov/evs/2024/roll332.xml"
+  },
+  {
+    "congress": 118,
+    "chamber": "house",
+    "session": 2,
+    "roll_call": 333,
+    "date": "2024-06-28",
+    "question": "Department of Homeland Security Appropriations Act, 2025",
+    "result": "Passed",
+    "title": "Department of Homeland Security Appropriations Act, 2025",
+    "bill": {
+      "number": "H R 8752",
+      "title": "Department of Homeland Security Appropriations Act, 2025"
+    },
+    "vote_url": "https://clerk.house.gov/evs/2024/roll333.xml"
+  },
+  {
+    "congress": 118,
+    "chamber": "house",
+    "session": 2,
+    "roll_call": 334,
+    "date": "2024-06-28",
+    "question": "Making appropriations for the Department of State, foreign operations, and related programs for the fiscal year ending September 30, 2025, and for other purposes",
+    "result": "Failed",
+    "title": "Making appropriations for the Department of State, foreign operations, and related programs for the fiscal year ending September 30, 2025, and for other purposes",
+    "bill": {
+      "number": "H R 8771",
+      "title": "Making appropriations for the Department of State, foreign operations, and related programs for the fiscal year ending September 30, 2025, and for other purposes"
+    },
+    "vote_url": "https://clerk.house.gov/evs/2024/roll334.xml"
+  },
+  {
+    "congress": 118,
+    "chamber": "house",
+    "session": 2,
+    "roll_call": 60,
+    "date": "2024-03-05",
+    "question": "Gabriella Miller Kids First Research Act 2.0",
+    "result": "Passed",
+    "title": "Gabriella Miller Kids First Research Act 2.0",
+    "bill": {
+      "number": "H R 3391",
+      "title": "Gabriella Miller Kids First Research Act 2.0"
+    },
+    "vote_url": "https://clerk.house.gov/evs/2024/roll060.xml"
+  },
+  {
+    "congress": 118,
+    "chamber": "house",
+    "session": 2,
+    "roll_call": 142,
+    "date": "2024-04-19",
+    "question": "Providing for consideration of the bills (H.R. 8034) Israel Security Supplemental Appropriations Act; (H.R. 8035) Ukraine Security Supplemental Appropriations Act; (H.R. 8036) Indo-Pacific Security Supplemental Appropriations Act; and (H.R. 8038) 21st Century Peace through Strength Act;",
+    "result": "Passed",
+    "title": "Providing for consideration of the bills (H.R. 8034) Israel Security Supplemental Appropriations Act; (H.R. 8035) Ukraine Security Supplemental Appropriations Act; (H.R. 8036) Indo-Pacific Security Supplemental Appropriations Act; and (H.R. 8038) 21st Century Peace through Strength Act;",
+    "bill": {
+      "number": "H RES 1160",
+      "title": "Providing for consideration of the bills (H.R. 8034) Israel Security Supplemental Appropriations Act; (H.R. 8035) Ukraine Security Supplemental Appropriations Act; (H.R. 8036) Indo-Pacific Security Supplemental Appropriations Act; and (H.R. 8038) 21st Century Peace through Strength Act;"
+    },
+    "vote_url": "https://clerk.house.gov/evs/2024/roll142.xml"
+  },
+  {
+    "congress": 118,
+    "chamber": "house",
+    "session": 2,
+    "roll_call": 146,
+    "date": "2024-04-20",
+    "question": "Indo-Pacific Security Supplemental Appropriations Act, 2024",
+    "result": "Passed",
+    "title": "Indo-Pacific Security Supplemental Appropriations Act, 2024",
+    "bill": {
+      "number": "H R 8036",
+      "title": "Indo-Pacific Security Supplemental Appropriations Act, 2024"
+    },
+    "vote_url": "https://clerk.house.gov/evs/2024/roll146.xml"
+  },
+  {
+    "congress": 118,
+    "chamber": "house",
+    "session": 2,
+    "roll_call": 151,
+    "date": "2024-04-20",
+    "question": "Ukraine Security Supplemental Appropriations Act, 2024",
+    "result": "Passed",
+    "title": "Ukraine Security Supplemental Appropriations Act, 2024",
+    "bill": {
+      "number": "H R 8035",
+      "title": "Ukraine Security Supplemental Appropriations Act, 2024"
+    },
+    "vote_url": "https://clerk.house.gov/evs/2024/roll151.xml"
+  },
+  {
+    "congress": 118,
+    "chamber": "house",
+    "session": 2,
+    "roll_call": 152,
+    "date": "2024-04-20",
+    "question": "Israel Security Supplemental Appropriations Act, 2024",
+    "result": "Passed",
+    "title": "Israel Security Supplemental Appropriations Act, 2024",
+    "bill": {
+      "number": "H R 8034",
+      "title": "Israel Security Supplemental Appropriations Act, 2024"
+    },
+    "vote_url": "https://clerk.house.gov/evs/2024/roll152.xml"
+  },
+  {
+    "congress": 118,
+    "chamber": "house",
+    "session": 2,
+    "roll_call": 219,
+    "date": "2024-05-21",
+    "question": "Federal Disaster Tax Relief Act",
+    "result": "Passed",
+    "title": "Federal Disaster Tax Relief Act",
+    "bill": {
+      "number": "H R 5863",
+      "title": "Federal Disaster Tax Relief Act"
+    },
+    "vote_url": "https://clerk.house.gov/evs/2024/roll219.xml"
+  },
+  {
+    "congress": 118,
+    "chamber": "house",
+    "session": 2,
+    "roll_call": 246,
+    "date": "2024-06-05",
+    "question": "Military Construction, Veterans Affairs, and Related Agencies Appropriations Act, 2025",
+    "result": "Failed",
+    "title": "Military Construction, Veterans Affairs, and Related Agencies Appropriations Act, 2025",
+    "bill": {
+      "number": "H R 8580",
+      "title": "Military Construction, Veterans Affairs, and Related Agencies Appropriations Act, 2025"
+    },
+    "vote_url": "https://clerk.house.gov/evs/2024/roll246.xml"
+  },
+  {
+    "congress": 118,
+    "chamber": "house",
+    "session": 2,
+    "roll_call": 247,
+    "date": "2024-06-05",
+    "question": "Military Construction, Veterans Affairs, and Related Agencies Appropriations Act, 2025",
+    "result": "Passed",
+    "title": "Military Construction, Veterans Affairs, and Related Agencies Appropriations Act, 2025",
+    "bill": {
+      "number": "H R 8580",
+      "title": "Military Construction, Veterans Affairs, and Related Agencies Appropriations Act, 2025"
+    },
+    "vote_url": "https://clerk.house.gov/evs/2024/roll247.xml"
+  },
+  {
+    "congress": 118,
+    "chamber": "house",
+    "session": 2,
+    "roll_call": 250,
+    "date": "2024-06-12",
+    "question": "Providing for consideration of the bill (H.R. 8070) the Servicemember Quality of Life Improvement and National Defense Authorization Act for Fiscal Year 2025; and relating to the consideration of House Report 118-527 and an accompanying resolution; and for other purposes",
+    "result": "Passed",
+    "title": "Providing for consideration of the bill (H.R. 8070) the Servicemember Quality of Life Improvement and National Defense Authorization Act for Fiscal Year 2025; and relating to the consideration of House Report 118-527 and an accompanying resolution; and for other purposes",
+    "bill": {
+      "number": "H RES 1287",
+      "title": "Providing for consideration of the bill (H.R. 8070) the Servicemember Quality of Life Improvement and National Defense Authorization Act for Fiscal Year 2025; and relating to the consideration of House Report 118-527 and an accompanying resolution; and for other purposes"
+    },
+    "vote_url": "https://clerk.house.gov/evs/2024/roll250.xml"
+  },
+  {
+    "congress": 118,
+    "chamber": "house",
+    "session": 2,
+    "roll_call": 235,
+    "date": "2024-06-04",
+    "question": "Providing for consideration of the bill (H.R. 8580) making appropriations for military construction, the Department of Veterans Affairs, and related agencies for the fiscal year ending September 30, 2025, and providing for consideration of the bill (H.R. 8282) Illegitimate Court Counteraction Act",
+    "result": "Passed",
+    "title": "Providing for consideration of the bill (H.R. 8580) making appropriations for military construction, the Department of Veterans Affairs, and related agencies for the fiscal year ending September 30, 2025, and providing for consideration of the bill (H.R. 8282) Illegitimate Court Counteraction Act",
+    "bill": {
+      "number": "H RES 1269",
+      "title": "Providing for consideration of the bill (H.R. 8580) making appropriations for military construction, the Department of Veterans Affairs, and related agencies for the fiscal year ending September 30, 2025, and providing for consideration of the bill (H.R. 8282) Illegitimate Court Counteraction Act"
+    },
+    "vote_url": "https://clerk.house.gov/evs/2024/roll235.xml"
+  },
+  {
+    "congress": 118,
+    "chamber": "house",
+    "session": 2,
+    "roll_call": 278,
+    "date": "2024-06-14",
+    "question": "Servicemember Quality of Life Improvement and National Defense Authorization Act for Fiscal Year 2025",
+    "result": "Failed",
+    "title": "Servicemember Quality of Life Improvement and National Defense Authorization Act for Fiscal Year 2025",
+    "bill": {
+      "number": "H R 8070",
+      "title": "Servicemember Quality of Life Improvement and National Defense Authorization Act for Fiscal Year 2025"
+    },
+    "vote_url": "https://clerk.house.gov/evs/2024/roll278.xml"
+  },
+  {
+    "congress": 118,
+    "chamber": "house",
+    "session": 2,
+    "roll_call": 284,
+    "date": "2024-06-26",
+    "question": "Providing for consideration of (H.R. 8774) Department of Defense Appropriations Act, 2025; consideration of (H.R. 8771) Department of State, Foreign Operations, and Related Programs Appropriations Act, 2025; consideration of (H.R. 8752) Department of Homeland Security Appropriations Act, 2025; and for other purposes",
+    "result": "Passed",
+    "title": "Providing for consideration of (H.R. 8774) Department of Defense Appropriations Act, 2025; consideration of (H.R. 8771) Department of State, Foreign Operations, and Related Programs Appropriations Act, 2025; consideration of (H.R. 8752) Department of Homeland Security Appropriations Act, 2025; and for other purposes",
+    "bill": {
+      "number": "H RES 1316",
+      "title": "Providing for consideration of (H.R. 8774) Department of Defense Appropriations Act, 2025; consideration of (H.R. 8771) Department of State, Foreign Operations, and Related Programs Appropriations Act, 2025; consideration of (H.R. 8752) Department of Homeland Security Appropriations Act, 2025; and for other purposes"
+    },
+    "vote_url": "https://clerk.house.gov/evs/2024/roll284.xml"
+  },
+  {
+    "congress": 118,
+    "chamber": "house",
+    "session": 2,
+    "roll_call": 351,
+    "date": "2024-07-11",
+    "question": "Legislative Branch Appropriations Act, 2025",
+    "result": "Failed",
+    "title": "Legislative Branch Appropriations Act, 2025",
+    "bill": {
+      "number": "H R 8772",
+      "title": "Legislative Branch Appropriations Act, 2025"
+    },
+    "vote_url": "https://clerk.house.gov/evs/2024/roll351.xml"
+  },
+  {
+    "congress": 118,
+    "chamber": "house",
+    "session": 2,
+    "roll_call": 352,
+    "date": "2024-07-11",
+    "question": "Legislative Branch Appropriations Act, 2025",
+    "result": "Failed",
+    "title": "Legislative Branch Appropriations Act, 2025",
+    "bill": {
+      "number": "H R 8772",
+      "title": "Legislative Branch Appropriations Act, 2025"
+    },
+    "vote_url": "https://clerk.house.gov/evs/2024/roll352.xml"
+  },
+  {
+    "congress": 118,
+    "chamber": "house",
+    "session": 2,
+    "roll_call": 356,
+    "date": "2024-07-22",
+    "question": "To designate the outpatient clinic of the Department of Veterans Affairs in Wyandotte County, Kansas City, Kansas, as the “Captain Elwin Shopteese VA Clinic”",
+    "result": "Passed",
+    "title": "To designate the outpatient clinic of the Department of Veterans Affairs in Wyandotte County, Kansas City, Kansas, as the “Captain Elwin Shopteese VA Clinic”",
+    "bill": {
+      "number": "S 3249",
+      "title": "To designate the outpatient clinic of the Department of Veterans Affairs in Wyandotte County, Kansas City, Kansas, as the “Captain Elwin Shopteese VA Clinic”"
+    },
+    "vote_url": "https://clerk.house.gov/evs/2024/roll356.xml"
+  },
+  {
+    "congress": 118,
+    "chamber": "house",
+    "session": 2,
+    "roll_call": 338,
+    "date": "2024-07-09",
+    "question": "Providing for consideration of the bills H.R. 8281, Safeguard American Voter Eligibility Act; H.R. 8772, Legislative Branch Appropriations Act, 2025; H.R. 7700, Stop Unaffordable Dishwasher Standards Act; H.R. 7637, Refrigerator Freedom Act; and the joint resolution H.J. Res. 165",
+    "result": "Passed",
+    "title": "Providing for consideration of the bills H.R. 8281, Safeguard American Voter Eligibility Act; H.R. 8772, Legislative Branch Appropriations Act, 2025; H.R. 7700, Stop Unaffordable Dishwasher Standards Act; H.R. 7637, Refrigerator Freedom Act; and the joint resolution H.J. Res. 165",
+    "bill": {
+      "number": "H RES 1341",
+      "title": "Providing for consideration of the bills H.R. 8281, Safeguard American Voter Eligibility Act; H.R. 8772, Legislative Branch Appropriations Act, 2025; H.R. 7700, Stop Unaffordable Dishwasher Standards Act; H.R. 7637, Refrigerator Freedom Act; and the joint resolution H.J. Res. 165"
+    },
+    "vote_url": "https://clerk.house.gov/evs/2024/roll338.xml"
+  },
+  {
+    "congress": 118,
+    "chamber": "house",
+    "session": 2,
+    "roll_call": 339,
+    "date": "2024-07-09",
+    "question": "Providing for consideration of the bills H.R. 8281, Safeguard American Voter Eligibility Act; H.R. 8772, Legislative Branch Appropriations Act, 2025; H.R. 7700, Stop Unaffordable Dishwasher Standards Act; H.R. 7637, Refrigerator Freedom Act; and the joint resolution H.J. Res. 165",
+    "result": "Passed",
+    "title": "Providing for consideration of the bills H.R. 8281, Safeguard American Voter Eligibility Act; H.R. 8772, Legislative Branch Appropriations Act, 2025; H.R. 7700, Stop Unaffordable Dishwasher Standards Act; H.R. 7637, Refrigerator Freedom Act; and the joint resolution H.J. Res. 165",
+    "bill": {
+      "number": "H RES 1341",
+      "title": "Providing for consideration of the bills H.R. 8281, Safeguard American Voter Eligibility Act; H.R. 8772, Legislative Branch Appropriations Act, 2025; H.R. 7700, Stop Unaffordable Dishwasher Standards Act; H.R. 7637, Refrigerator Freedom Act; and the joint resolution H.J. Res. 165"
+    },
+    "vote_url": "https://clerk.house.gov/evs/2024/roll339.xml"
+  },
+  {
+    "congress": 118,
+    "chamber": "house",
+    "session": 2,
+    "roll_call": 38,
+    "date": "2024-02-06",
+    "question": "Israel Security Supplemental Appropriations Act",
+    "result": "Failed",
+    "title": "Israel Security Supplemental Appropriations Act",
+    "bill": {
+      "number": "H R 7217",
+      "title": "Israel Security Supplemental Appropriations Act"
+    },
+    "vote_url": "https://clerk.house.gov/evs/2024/roll038.xml"
+  },
+  {
+    "congress": 118,
+    "chamber": "house",
+    "session": 2,
+    "roll_call": 360,
+    "date": "2024-07-23",
+    "question": "Providing for consideration of the bills (H.R. 8997) Energy and Water Development and Related Agencies Appropriations Act, 2025; and (H.R. 8998) Department of the Interior, Environment, and Related Agencies Appropriations Act, 2025.",
+    "result": "Passed",
+    "title": "Providing for consideration of the bills (H.R. 8997) Energy and Water Development and Related Agencies Appropriations Act, 2025; and (H.R. 8998) Department of the Interior, Environment, and Related Agencies Appropriations Act, 2025.",
+    "bill": {
+      "number": "H RES 1370",
+      "title": "Providing for consideration of the bills (H.R. 8997) Energy and Water Development and Related Agencies Appropriations Act, 2025; and (H.R. 8998) Department of the Interior, Environment, and Related Agencies Appropriations Act, 2025."
+    },
+    "vote_url": "https://clerk.house.gov/evs/2024/roll360.xml"
+  },
+  {
+    "congress": 118,
+    "chamber": "house",
+    "session": 2,
+    "roll_call": 399,
+    "date": "2024-07-24",
+    "question": "Department of the Interior, Environment, and Related Agencies Appropriations Act, 2025",
+    "result": "Passed",
+    "title": "Department of the Interior, Environment, and Related Agencies Appropriations Act, 2025",
+    "bill": {
+      "number": "H R 8998",
+      "title": "Department of the Interior, Environment, and Related Agencies Appropriations Act, 2025"
+    },
+    "vote_url": "https://clerk.house.gov/evs/2024/roll399.xml"
+  },
+  {
+    "congress": 118,
+    "chamber": "house",
+    "session": 2,
+    "roll_call": 431,
+    "date": "2024-09-18",
+    "question": "Continuing Appropriations and Other Matters Act, 2025",
+    "result": "Failed",
+    "title": "Continuing Appropriations and Other Matters Act, 2025",
+    "bill": {
+      "number": "H R 9494",
+      "title": "Continuing Appropriations and Other Matters Act, 2025"
+    },
+    "vote_url": "https://clerk.house.gov/evs/2024/roll431.xml"
+  },
+  {
+    "congress": 118,
+    "chamber": "house",
+    "session": 2,
+    "roll_call": 432,
+    "date": "2024-09-19",
+    "question": "Accreditation for College Excellence Act",
+    "result": "Failed",
+    "title": "Accreditation for College Excellence Act",
+    "bill": {
+      "number": "H R 3724",
+      "title": "Accreditation for College Excellence Act"
+    },
+    "vote_url": "https://clerk.house.gov/evs/2024/roll432.xml"
+  },
+  {
+    "congress": 118,
+    "chamber": "house",
+    "session": 2,
+    "roll_call": 433,
+    "date": "2024-09-19",
+    "question": "Accreditation for College Excellence Act",
+    "result": "Passed",
+    "title": "Accreditation for College Excellence Act",
+    "bill": {
+      "number": "H R 3724",
+      "title": "Accreditation for College Excellence Act"
+    },
+    "vote_url": "https://clerk.house.gov/evs/2024/roll433.xml"
+  },
+  {
+    "congress": 118,
+    "chamber": "house",
+    "session": 2,
+    "roll_call": 450,
+    "date": "2024-09-25",
+    "question": "Continuing Appropriations and Extensions Act, 2025",
+    "result": "Passed",
+    "title": "Continuing Appropriations and Extensions Act, 2025",
+    "bill": {
+      "number": "H R 9747",
+      "title": "Continuing Appropriations and Extensions Act, 2025"
+    },
+    "vote_url": "https://clerk.house.gov/evs/2024/roll450.xml"
+  },
+  {
+    "congress": 118,
+    "chamber": "house",
+    "session": 2,
+    "roll_call": 458,
+    "date": "2024-11-12",
+    "question": "Stop Terror-Financing and Tax Penalties on American Hostages Act",
+    "result": "Failed",
+    "title": "Stop Terror-Financing and Tax Penalties on American Hostages Act",
+    "bill": {
+      "number": "H R 9495",
+      "title": "Stop Terror-Financing and Tax Penalties on American Hostages Act"
+    },
+    "vote_url": "https://clerk.house.gov/evs/2024/roll458.xml"
+  },
+  {
+    "congress": 118,
+    "chamber": "house",
+    "session": 2,
+    "roll_call": 477,
+    "date": "2024-11-21",
+    "question": "Stop Terror-Financing and Tax Penalties on American Hostages Act",
+    "result": "Passed",
+    "title": "Stop Terror-Financing and Tax Penalties on American Hostages Act",
+    "bill": {
+      "number": "H R 9495",
+      "title": "Stop Terror-Financing and Tax Penalties on American Hostages Act"
+    },
+    "vote_url": "https://clerk.house.gov/evs/2024/roll477.xml"
+  },
+  {
+    "congress": 118,
+    "chamber": "house",
+    "session": 2,
+    "roll_call": 58,
+    "date": "2024-02-29",
+    "question": "Extension of Continuing Appropriations and Other Matters Act",
+    "result": "Passed",
+    "title": "Extension of Continuing Appropriations and Other Matters Act",
+    "bill": {
+      "number": "H R 7463",
+      "title": "Extension of Continuing Appropriations and Other Matters Act"
+    },
+    "vote_url": "https://clerk.house.gov/evs/2024/roll058.xml"
+  },
+  {
+    "congress": 118,
+    "chamber": "house",
+    "session": 2,
+    "roll_call": 97,
+    "date": "2024-03-21",
+    "question": "Expressing the sense of Congress that a carbon tax would be detrimental to the United States economy",
+    "result": "Passed",
+    "title": "Expressing the sense of Congress that a carbon tax would be detrimental to the United States economy",
+    "bill": {
+      "number": "H CON RES 86",
+      "title": "Expressing the sense of Congress that a carbon tax would be detrimental to the United States economy"
+    },
+    "vote_url": "https://clerk.house.gov/evs/2024/roll097.xml"
+  },
+  {
+    "congress": 119,
+    "chamber": "house",
+    "session": 1,
+    "roll_call": 100,
+    "date": "2025-04-10",
+    "question": "Establishing the congressional budget for the United States Government for fiscal year 2025 and setting forth the appropriate budgetary levels for fiscal years 2026 through 2034",
+    "result": "Passed",
+    "title": "Establishing the congressional budget for the United States Government for fiscal year 2025 and setting forth the appropriate budgetary levels for fiscal years 2026 through 2034",
+    "bill": {
+      "number": "H CON RES 14",
+      "title": "Establishing the congressional budget for the United States Government for fiscal year 2025 and setting forth the appropriate budgetary levels for fiscal years 2026 through 2034"
+    },
+    "vote_url": "https://clerk.house.gov/evs/2025/roll100.xml"
+  },
+  {
+    "congress": 119,
+    "chamber": "house",
+    "session": 1,
+    "roll_call": 319,
+    "date": "2025-12-10",
+    "question": "To require the Secretary of Veterans Affairs to disinter the remains of Fernando V. Cota from Fort Sam Houston National Cemetery, Texas, and for other purposes",
+    "result": "Failed",
+    "title": "To require the Secretary of Veterans Affairs to disinter the remains of Fernando V. Cota from Fort Sam Houston National Cemetery, Texas, and for other purposes",
+    "bill": {
+      "number": "S 1071",
+      "title": "To require the Secretary of Veterans Affairs to disinter the remains of Fernando V. Cota from Fort Sam Houston National Cemetery, Texas, and for other purposes"
+    },
+    "vote_url": "https://clerk.house.gov/evs/2025/roll319.xml"
+  },
+  {
+    "congress": 119,
+    "chamber": "house",
+    "session": 1,
+    "roll_call": 261,
+    "date": "2025-09-10",
+    "question": "Streamlining Procurement for Effective Execution and Delivery and National Defense Authorization Act for Fiscal Year 2026",
+    "result": "Failed",
+    "title": "Streamlining Procurement for Effective Execution and Delivery and National Defense Authorization Act for Fiscal Year 2026",
+    "bill": {
+      "number": "H R 3838",
+      "title": "Streamlining Procurement for Effective Execution and Delivery and National Defense Authorization Act for Fiscal Year 2026"
+    },
+    "vote_url": "https://clerk.house.gov/evs/2025/roll261.xml"
+  },
+  {
+    "congress": 119,
+    "chamber": "house",
+    "session": 1,
+    "roll_call": 262,
+    "date": "2025-09-10",
+    "question": "Streamlining Procurement for Effective Execution and Delivery and National Defense Authorization Act for Fiscal Year 2026",
+    "result": "Passed",
+    "title": "Streamlining Procurement for Effective Execution and Delivery and National Defense Authorization Act for Fiscal Year 2026",
+    "bill": {
+      "number": "H R 3838",
+      "title": "Streamlining Procurement for Effective Execution and Delivery and National Defense Authorization Act for Fiscal Year 2026"
+    },
+    "vote_url": "https://clerk.house.gov/evs/2025/roll262.xml"
+  },
+  {
+    "congress": 119,
+    "chamber": "house",
+    "session": 1,
+    "roll_call": 85,
+    "date": "2025-03-31",
+    "question": "National Taxpayer Advocate Enhancement Act",
+    "result": "Passed",
+    "title": "National Taxpayer Advocate Enhancement Act",
+    "bill": {
+      "number": "H R 997",
+      "title": "National Taxpayer Advocate Enhancement Act"
+    },
+    "vote_url": "https://clerk.house.gov/evs/2025/roll085.xml"
+  },
+  {
+    "congress": 119,
+    "chamber": "house",
+    "session": 1,
+    "roll_call": 69,
+    "date": "2025-03-11",
+    "question": "Full-Year Continuing Appropriations and Extensions Act, 2025",
+    "result": "Failed",
+    "title": "Full-Year Continuing Appropriations and Extensions Act, 2025",
+    "bill": {
+      "number": "H R 1968",
+      "title": "Full-Year Continuing Appropriations and Extensions Act, 2025"
+    },
+    "vote_url": "https://clerk.house.gov/evs/2025/roll069.xml"
+  },
+  {
+    "congress": 119,
+    "chamber": "house",
+    "session": 1,
+    "roll_call": 70,
+    "date": "2025-03-11",
+    "question": "Full-Year Continuing Appropriations and Extensions Act, 2025",
+    "result": "Passed",
+    "title": "Full-Year Continuing Appropriations and Extensions Act, 2025",
+    "bill": {
+      "number": "H R 1968",
+      "title": "Full-Year Continuing Appropriations and Extensions Act, 2025"
+    },
+    "vote_url": "https://clerk.house.gov/evs/2025/roll070.xml"
+  },
+  {
+    "congress": 119,
+    "chamber": "house",
+    "session": 1,
+    "roll_call": 71,
+    "date": "2025-03-11",
+    "question": "Providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Internal Revenue Service relating to “Gross Proceeds Reporting by Brokers That Regularly Provide Services Effectuating Digital Asset Sales”",
+    "result": "Passed",
+    "title": "Providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Internal Revenue Service relating to “Gross Proceeds Reporting by Brokers That Regularly Provide Services Effectuating Digital Asset Sales”",
+    "bill": {
+      "number": "H J RES 25",
+      "title": "Providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Internal Revenue Service relating to “Gross Proceeds Reporting by Brokers That Regularly Provide Services Effectuating Digital Asset Sales”"
+    },
+    "vote_url": "https://clerk.house.gov/evs/2025/roll071.xml"
+  },
+  {
+    "congress": 119,
+    "chamber": "house",
+    "session": 1,
+    "roll_call": 93,
+    "date": "2025-04-09",
+    "question": "Providing for consideration of the Senate amendment to the concurrent resolution (H. Con. Res. 14) establishing the congressional budget for the United States Government for fiscal year 2025 and setting forth the appropriate budgetary levels for fiscal years 2026 through 2034, and for other purposes",
+    "result": "Passed",
+    "title": "Providing for consideration of the Senate amendment to the concurrent resolution (H. Con. Res. 14) establishing the congressional budget for the United States Government for fiscal year 2025 and setting forth the appropriate budgetary levels for fiscal years 2026 through 2034, and for other purposes",
+    "bill": {
+      "number": "H RES 313",
+      "title": "Providing for consideration of the Senate amendment to the concurrent resolution (H. Con. Res. 14) establishing the congressional budget for the United States Government for fiscal year 2025 and setting forth the appropriate budgetary levels for fiscal years 2026 through 2034, and for other purposes"
+    },
+    "vote_url": "https://clerk.house.gov/evs/2025/roll093.xml"
+  },
+  {
+    "congress": 119,
+    "chamber": "house",
+    "session": 1,
+    "roll_call": 94,
+    "date": "2025-04-09",
+    "question": "Providing for consideration of the Senate amendment to the concurrent resolution (H. Con. Res. 14) establishing the congressional budget for the United States Government for fiscal year 2025 and setting forth the appropriate budgetary levels for fiscal years 2026 through 2034, and for other purposes",
+    "result": "Passed",
+    "title": "Providing for consideration of the Senate amendment to the concurrent resolution (H. Con. Res. 14) establishing the congressional budget for the United States Government for fiscal year 2025 and setting forth the appropriate budgetary levels for fiscal years 2026 through 2034, and for other purposes",
+    "bill": {
+      "number": "H RES 313",
+      "title": "Providing for consideration of the Senate amendment to the concurrent resolution (H. Con. Res. 14) establishing the congressional budget for the United States Government for fiscal year 2025 and setting forth the appropriate budgetary levels for fiscal years 2026 through 2034, and for other purposes"
+    },
+    "vote_url": "https://clerk.house.gov/evs/2025/roll094.xml"
+  },
+  {
+    "congress": 119,
+    "chamber": "house",
+    "session": 1,
+    "roll_call": 320,
+    "date": "2025-12-10",
+    "question": "To require the Secretary of Veterans Affairs to disinter the remains of Fernando V. Cota from Fort Sam Houston National Cemetery, Texas, and for other purposes",
+    "result": "Passed",
+    "title": "To require the Secretary of Veterans Affairs to disinter the remains of Fernando V. Cota from Fort Sam Houston National Cemetery, Texas, and for other purposes",
+    "bill": {
+      "number": "S 1071",
+      "title": "To require the Secretary of Veterans Affairs to disinter the remains of Fernando V. Cota from Fort Sam Houston National Cemetery, Texas, and for other purposes"
+    },
+    "vote_url": "https://clerk.house.gov/evs/2025/roll320.xml"
+  },
+  {
+    "congress": 119,
+    "chamber": "house",
+    "session": 1,
+    "roll_call": 263,
+    "date": "2025-09-11",
+    "question": "Military Construction, Veterans Affairs, and Related Agencies Appropriations Act, 2026",
+    "result": "Failed",
+    "title": "Military Construction, Veterans Affairs, and Related Agencies Appropriations Act, 2026",
+    "bill": {
+      "number": "H R 3944",
+      "title": "Military Construction, Veterans Affairs, and Related Agencies Appropriations Act, 2026"
+    },
+    "vote_url": "https://clerk.house.gov/evs/2025/roll263.xml"
+  },
+  {
+    "congress": 119,
+    "chamber": "house",
+    "session": 1,
+    "roll_call": 276,
+    "date": "2025-09-17",
+    "question": "Censuring Representative Ilhan Omar of Minnesota and removing her from the Committee on Education and Workforce and the Committee on the Budget",
+    "result": "Passed",
+    "title": "Censuring Representative Ilhan Omar of Minnesota and removing her from the Committee on Education and Workforce and the Committee on the Budget",
+    "bill": {
+      "number": "H RES 713",
+      "title": "Censuring Representative Ilhan Omar of Minnesota and removing her from the Committee on Education and Workforce and the Committee on the Budget"
+    },
+    "vote_url": "https://clerk.house.gov/evs/2025/roll276.xml"
+  },
+  {
+    "congress": 119,
+    "chamber": "house",
+    "session": 1,
+    "roll_call": 273,
+    "date": "2025-09-17",
+    "question": "Providing for consideration of the bill (H.R. 5371) Continuing Appropriations and Extensions Act, 2026; providing for consideration of the resolution (H. Res. 719) honoring the life and legacy of Charles “Charlie” James Kirk; and for other purposes",
+    "result": "Passed",
+    "title": "Providing for consideration of the bill (H.R. 5371) Continuing Appropriations and Extensions Act, 2026; providing for consideration of the resolution (H. Res. 719) honoring the life and legacy of Charles “Charlie” James Kirk; and for other purposes",
+    "bill": {
+      "number": "H RES 722",
+      "title": "Providing for consideration of the bill (H.R. 5371) Continuing Appropriations and Extensions Act, 2026; providing for consideration of the resolution (H. Res. 719) honoring the life and legacy of Charles “Charlie” James Kirk; and for other purposes"
+    },
+    "vote_url": "https://clerk.house.gov/evs/2025/roll273.xml"
+  },
+  {
+    "congress": 119,
+    "chamber": "house",
+    "session": 1,
+    "roll_call": 280,
+    "date": "2025-09-19",
+    "question": "Continuing Appropriations and Extensions Act, 2026",
+    "result": "Failed",
+    "title": "Continuing Appropriations and Extensions Act, 2026",
+    "bill": {
+      "number": "H R 5371",
+      "title": "Continuing Appropriations and Extensions Act, 2026"
+    },
+    "vote_url": "https://clerk.house.gov/evs/2025/roll280.xml"
+  },
+  {
+    "congress": 119,
+    "chamber": "house",
+    "session": 1,
+    "roll_call": 281,
+    "date": "2025-09-19",
+    "question": "Continuing Appropriations and Extensions Act, 2026",
+    "result": "Passed",
+    "title": "Continuing Appropriations and Extensions Act, 2026",
+    "bill": {
+      "number": "H R 5371",
+      "title": "Continuing Appropriations and Extensions Act, 2026"
+    },
+    "vote_url": "https://clerk.house.gov/evs/2025/roll281.xml"
+  },
+  {
+    "congress": 119,
+    "chamber": "house",
+    "session": 1,
+    "roll_call": 272,
+    "date": "2025-09-17",
+    "question": "Providing for consideration of the bill (H.R. 5371) Continuing Appropriations and Extensions Act, 2026; providing for consideration of the resolution (H. Res. 719) honoring the life and legacy of Charles “Charlie” James Kirk; and for other purposes",
+    "result": "Passed",
+    "title": "Providing for consideration of the bill (H.R. 5371) Continuing Appropriations and Extensions Act, 2026; providing for consideration of the resolution (H. Res. 719) honoring the life and legacy of Charles “Charlie” James Kirk; and for other purposes",
+    "bill": {
+      "number": "H RES 722",
+      "title": "Providing for consideration of the bill (H.R. 5371) Continuing Appropriations and Extensions Act, 2026; providing for consideration of the resolution (H. Res. 719) honoring the life and legacy of Charles “Charlie” James Kirk; and for other purposes"
+    },
+    "vote_url": "https://clerk.house.gov/evs/2025/roll272.xml"
+  },
+  {
+    "congress": 119,
+    "chamber": "house",
+    "session": 1,
+    "roll_call": 284,
+    "date": "2025-11-12",
+    "question": "Providing for consideration of the Senate amendment to the bill (H.R. 5371) making continuing appropriations and extensions for fiscal year 2026, and for other purposes",
+    "result": "Passed",
+    "title": "Providing for consideration of the Senate amendment to the bill (H.R. 5371) making continuing appropriations and extensions for fiscal year 2026, and for other purposes",
+    "bill": {
+      "number": "H RES 873",
+      "title": "Providing for consideration of the Senate amendment to the bill (H.R. 5371) making continuing appropriations and extensions for fiscal year 2026, and for other purposes"
+    },
+    "vote_url": "https://clerk.house.gov/evs/2025/roll284.xml"
+  },
+  {
+    "congress": 119,
+    "chamber": "house",
+    "session": 1,
+    "roll_call": 283,
+    "date": "2025-11-12",
+    "question": "Providing for consideration of the Senate amendment to the bill (H.R. 5371) making continuing appropriations and extensions for fiscal year 2026, and for other purposes",
+    "result": "Passed",
+    "title": "Providing for consideration of the Senate amendment to the bill (H.R. 5371) making continuing appropriations and extensions for fiscal year 2026, and for other purposes",
+    "bill": {
+      "number": "H RES 873",
+      "title": "Providing for consideration of the Senate amendment to the bill (H.R. 5371) making continuing appropriations and extensions for fiscal year 2026, and for other purposes"
+    },
+    "vote_url": "https://clerk.house.gov/evs/2025/roll283.xml"
+  },
+  {
+    "congress": 119,
+    "chamber": "house",
+    "session": 1,
+    "roll_call": 50,
+    "date": "2025-02-25",
+    "question": "Establishing the congressional budget for the United States Government for fiscal year 2025 and setting forth the appropriate budgetary levels for fiscal years 2026 through 2034",
+    "result": "Passed",
+    "title": "Establishing the congressional budget for the United States Government for fiscal year 2025 and setting forth the appropriate budgetary levels for fiscal years 2026 through 2034",
+    "bill": {
+      "number": "H CON RES 14",
+      "title": "Establishing the congressional budget for the United States Government for fiscal year 2025 and setting forth the appropriate budgetary levels for fiscal years 2026 through 2034"
+    },
+    "vote_url": "https://clerk.house.gov/evs/2025/roll050.xml"
+  },
+  {
+    "congress": 119,
+    "chamber": "house",
+    "session": 1,
+    "roll_call": 293,
+    "date": "2025-11-18",
+    "question": "Censuring and condemning Delegate Stacey Plaskett and removing her from the House Permanent Select Committee on Intelligence for conduct that reflects discreditably on the House of Representatives for colluding with convicted felony sex offender Jeffrey Epstein during a congressional hearing",
+    "result": "Failed",
+    "title": "Censuring and condemning Delegate Stacey Plaskett and removing her from the House Permanent Select Committee on Intelligence for conduct that reflects discreditably on the House of Representatives for colluding with convicted felony sex offender Jeffrey Epstein during a congressional hearing",
+    "bill": {
+      "number": "H RES 888",
+      "title": "Censuring and condemning Delegate Stacey Plaskett and removing her from the House Permanent Select Committee on Intelligence for conduct that reflects discreditably on the House of Representatives for colluding with convicted felony sex offender Jeffrey Epstein during a congressional hearing"
+    },
+    "vote_url": "https://clerk.house.gov/evs/2025/roll293.xml"
+  },
+  {
+    "congress": 119,
+    "chamber": "house",
+    "session": 1,
+    "roll_call": 297,
+    "date": "2025-11-18",
+    "question": "Censuring and condemning Delegate Stacey Plaskett and removing her from the House Permanent Select Committee on Intelligence for conduct that reflects discreditably on the House of Representatives for colluding with convicted felony sex offender Jeffrey Epstein during a congressional hearing",
+    "result": "Failed",
+    "title": "Censuring and condemning Delegate Stacey Plaskett and removing her from the House Permanent Select Committee on Intelligence for conduct that reflects discreditably on the House of Representatives for colluding with convicted felony sex offender Jeffrey Epstein during a congressional hearing",
+    "bill": {
+      "number": "H RES 888",
+      "title": "Censuring and condemning Delegate Stacey Plaskett and removing her from the House Permanent Select Committee on Intelligence for conduct that reflects discreditably on the House of Representatives for colluding with convicted felony sex offender Jeffrey Epstein during a congressional hearing"
+    },
+    "vote_url": "https://clerk.house.gov/evs/2025/roll297.xml"
+  },
+  {
+    "congress": 119,
+    "chamber": "house",
+    "session": 1,
+    "roll_call": 302,
+    "date": "2025-11-19",
+    "question": "Censuring Representative Cory Mills and Removing Him From the Committee on Armed Services and the Committee on Foreign Affairs",
+    "result": "Passed",
+    "title": "Censuring Representative Cory Mills and Removing Him From the Committee on Armed Services and the Committee on Foreign Affairs",
+    "bill": {
+      "number": "H RES 893",
+      "title": "Censuring Representative Cory Mills and Removing Him From the Committee on Armed Services and the Committee on Foreign Affairs"
+    },
+    "vote_url": "https://clerk.house.gov/evs/2025/roll302.xml"
+  },
+  {
+    "congress": 119,
+    "chamber": "house",
+    "session": 1,
+    "roll_call": 285,
+    "date": "2025-11-12",
+    "question": "Continuing Appropriations and Extensions Act, 2026",
+    "result": "Passed",
+    "title": "Continuing Appropriations and Extensions Act, 2026",
+    "bill": {
+      "number": "H R 5371",
+      "title": "Continuing Appropriations and Extensions Act, 2026"
+    },
+    "vote_url": "https://clerk.house.gov/evs/2025/roll285.xml"
+  },
+  {
+    "congress": 119,
+    "chamber": "house",
+    "session": 1,
+    "roll_call": 148,
+    "date": "2025-06-04",
+    "question": "Providing for consideration of the bills (H.R. 2483) the SUPPORT for Patients and Communities Reauthorization Act; (H.R. 2931) the Save SBA from Sanctuary Cities Act; (H.R. 2966) the American Entrepreneurs First Act; and (H.R. 2987) the CEASE Act",
+    "result": "Passed",
+    "title": "Providing for consideration of the bills (H.R. 2483) the SUPPORT for Patients and Communities Reauthorization Act; (H.R. 2931) the Save SBA from Sanctuary Cities Act; (H.R. 2966) the American Entrepreneurs First Act; and (H.R. 2987) the CEASE Act",
+    "bill": {
+      "number": "H RES 458",
+      "title": "Providing for consideration of the bills (H.R. 2483) the SUPPORT for Patients and Communities Reauthorization Act; (H.R. 2931) the Save SBA from Sanctuary Cities Act; (H.R. 2966) the American Entrepreneurs First Act; and (H.R. 2987) the CEASE Act"
+    },
+    "vote_url": "https://clerk.house.gov/evs/2025/roll148.xml"
+  },
+  {
+    "congress": 119,
+    "chamber": "house",
+    "session": 1,
+    "roll_call": 149,
+    "date": "2025-06-04",
+    "question": "Providing for consideration of the bills (H.R. 2483) the SUPPORT for Patients and Communities Reauthorization Act; (H.R. 2931) the Save SBA from Sanctuary Cities Act; (H.R. 2966) the American Entrepreneurs First Act; and (H.R. 2987) the CEASE Act",
+    "result": "Passed",
+    "title": "Providing for consideration of the bills (H.R. 2483) the SUPPORT for Patients and Communities Reauthorization Act; (H.R. 2931) the Save SBA from Sanctuary Cities Act; (H.R. 2966) the American Entrepreneurs First Act; and (H.R. 2987) the CEASE Act",
+    "bill": {
+      "number": "H RES 458",
+      "title": "Providing for consideration of the bills (H.R. 2483) the SUPPORT for Patients and Communities Reauthorization Act; (H.R. 2931) the Save SBA from Sanctuary Cities Act; (H.R. 2966) the American Entrepreneurs First Act; and (H.R. 2987) the CEASE Act"
+    },
+    "vote_url": "https://clerk.house.gov/evs/2025/roll149.xml"
+  },
+  {
+    "congress": 119,
+    "chamber": "house",
+    "session": 1,
+    "roll_call": 156,
+    "date": "2025-06-06",
+    "question": "American Entrepreneurs First Act",
+    "result": "Passed",
+    "title": "American Entrepreneurs First Act",
+    "bill": {
+      "number": "H R 2966",
+      "title": "American Entrepreneurs First Act"
+    },
+    "vote_url": "https://clerk.house.gov/evs/2025/roll156.xml"
+  },
+  {
+    "congress": 119,
+    "chamber": "house",
+    "session": 1,
+    "roll_call": 181,
+    "date": "2025-06-25",
+    "question": "Military Construction, Veterans Affairs, and Related Agencies Appropriations Act, 2026",
+    "result": "Failed",
+    "title": "Military Construction, Veterans Affairs, and Related Agencies Appropriations Act, 2026",
+    "bill": {
+      "number": "H R 3944",
+      "title": "Military Construction, Veterans Affairs, and Related Agencies Appropriations Act, 2026"
+    },
+    "vote_url": "https://clerk.house.gov/evs/2025/roll181.xml"
+  },
+  {
+    "congress": 119,
+    "chamber": "house",
+    "session": 1,
+    "roll_call": 182,
+    "date": "2025-06-25",
+    "question": "Military Construction, Veterans Affairs, and Related Agencies Appropriations Act, 2026",
+    "result": "Passed",
+    "title": "Military Construction, Veterans Affairs, and Related Agencies Appropriations Act, 2026",
+    "bill": {
+      "number": "H R 3944",
+      "title": "Military Construction, Veterans Affairs, and Related Agencies Appropriations Act, 2026"
+    },
+    "vote_url": "https://clerk.house.gov/evs/2025/roll182.xml"
+  },
+  {
+    "congress": 119,
+    "chamber": "house",
+    "session": 1,
+    "roll_call": 194,
+    "date": "2025-07-15",
+    "question": "Providing for consideration of the bills (H.R. 4016) Department of Defense Appropriations Act, 2026; (H.R. 3633) CLARITY Act; (H.R. 1919) Anti-CBDC Surveillance State Act; and (S. 1582) GENIUS Act",
+    "result": "Passed",
+    "title": "Providing for consideration of the bills (H.R. 4016) Department of Defense Appropriations Act, 2026; (H.R. 3633) CLARITY Act; (H.R. 1919) Anti-CBDC Surveillance State Act; and (S. 1582) GENIUS Act",
+    "bill": {
+      "number": "H RES 580",
+      "title": "Providing for consideration of the bills (H.R. 4016) Department of Defense Appropriations Act, 2026; (H.R. 3633) CLARITY Act; (H.R. 1919) Anti-CBDC Surveillance State Act; and (S. 1582) GENIUS Act"
+    },
+    "vote_url": "https://clerk.house.gov/evs/2025/roll194.xml"
+  },
+  {
+    "congress": 119,
+    "chamber": "house",
+    "session": 1,
+    "roll_call": 195,
+    "date": "2025-07-15",
+    "question": "Providing for consideration of the bills (H.R. 4016) Department of Defense Appropriations Act, 2026; (H.R. 3633) CLARITY Act; (H.R. 1919) Anti-CBDC Surveillance State Act; and (S. 1582) GENIUS Act",
+    "result": "Failed",
+    "title": "Providing for consideration of the bills (H.R. 4016) Department of Defense Appropriations Act, 2026; (H.R. 3633) CLARITY Act; (H.R. 1919) Anti-CBDC Surveillance State Act; and (S. 1582) GENIUS Act",
+    "bill": {
+      "number": "H RES 580",
+      "title": "Providing for consideration of the bills (H.R. 4016) Department of Defense Appropriations Act, 2026; (H.R. 3633) CLARITY Act; (H.R. 1919) Anti-CBDC Surveillance State Act; and (S. 1582) GENIUS Act"
+    },
+    "vote_url": "https://clerk.house.gov/evs/2025/roll195.xml"
+  },
+  {
+    "congress": 119,
+    "chamber": "house",
+    "session": 1,
+    "roll_call": 197,
+    "date": "2025-07-16",
+    "question": "Providing for consideration of the bills (H.R. 4016) Department of Defense Appropriations Act, 2026; (H.R. 3633) CLARITY Act; (H.R. 1919) Anti-CBDC Surveillance State Act; and (S. 1582) GENIUS Act",
+    "result": "Passed",
+    "title": "Providing for consideration of the bills (H.R. 4016) Department of Defense Appropriations Act, 2026; (H.R. 3633) CLARITY Act; (H.R. 1919) Anti-CBDC Surveillance State Act; and (S. 1582) GENIUS Act",
+    "bill": {
+      "number": "H RES 580",
+      "title": "Providing for consideration of the bills (H.R. 4016) Department of Defense Appropriations Act, 2026; (H.R. 3633) CLARITY Act; (H.R. 1919) Anti-CBDC Surveillance State Act; and (S. 1582) GENIUS Act"
+    },
+    "vote_url": "https://clerk.house.gov/evs/2025/roll197.xml"
+  },
+  {
+    "congress": 119,
+    "chamber": "house",
+    "session": 1,
+    "roll_call": 198,
+    "date": "2025-07-16",
+    "question": "Providing for consideration of the bills (H.R. 4016) Department of Defense Appropriations Act, 2026; (H.R. 3633) CLARITY Act; (H.R. 1919) Anti-CBDC Surveillance State Act; and (S. 1582) GENIUS Act",
+    "result": "Passed",
+    "title": "Providing for consideration of the bills (H.R. 4016) Department of Defense Appropriations Act, 2026; (H.R. 3633) CLARITY Act; (H.R. 1919) Anti-CBDC Surveillance State Act; and (S. 1582) GENIUS Act",
+    "bill": {
+      "number": "H RES 580",
+      "title": "Providing for consideration of the bills (H.R. 4016) Department of Defense Appropriations Act, 2026; (H.R. 3633) CLARITY Act; (H.R. 1919) Anti-CBDC Surveillance State Act; and (S. 1582) GENIUS Act"
+    },
+    "vote_url": "https://clerk.house.gov/evs/2025/roll198.xml"
+  },
+  {
+    "congress": 119,
+    "chamber": "house",
+    "session": 1,
+    "roll_call": 202,
+    "date": "2025-07-17",
+    "question": "Relating to consideration of the Senate amendment to the bill (H.R. 4) to rescind certain budget authority proposed to be rescinded in special messages transmitted to the Congress by the President on June 3, 2025, in accordance with section 1012(a) of the Congressional Budget and Impoundment Control Act of 1974",
+    "result": "Passed",
+    "title": "Relating to consideration of the Senate amendment to the bill (H.R. 4) to rescind certain budget authority proposed to be rescinded in special messages transmitted to the Congress by the President on June 3, 2025, in accordance with section 1012(a) of the Congressional Budget and Impoundment Control Act of 1974",
+    "bill": {
+      "number": "H RES 590",
+      "title": "Relating to consideration of the Senate amendment to the bill (H.R. 4) to rescind certain budget authority proposed to be rescinded in special messages transmitted to the Congress by the President on June 3, 2025, in accordance with section 1012(a) of the Congressional Budget and Impoundment Control Act of 1974"
+    },
+    "vote_url": "https://clerk.house.gov/evs/2025/roll202.xml"
+  },
+  {
+    "congress": 119,
+    "chamber": "house",
+    "session": 1,
+    "roll_call": 203,
+    "date": "2025-07-18",
+    "question": "Relating to consideration of the Senate amendment to the bill (H.R. 4) to rescind certain budget authority proposed to be rescinded in special messages transmitted to the Congress by the President on June 3, 2025, in accordance with section 1012(a) of the Congressional Budget and Impoundment Control Act of 1974",
+    "result": "Passed",
+    "title": "Relating to consideration of the Senate amendment to the bill (H.R. 4) to rescind certain budget authority proposed to be rescinded in special messages transmitted to the Congress by the President on June 3, 2025, in accordance with section 1012(a) of the Congressional Budget and Impoundment Control Act of 1974",
+    "bill": {
+      "number": "H RES 590",
+      "title": "Relating to consideration of the Senate amendment to the bill (H.R. 4) to rescind certain budget authority proposed to be rescinded in special messages transmitted to the Congress by the President on June 3, 2025, in accordance with section 1012(a) of the Congressional Budget and Impoundment Control Act of 1974"
+    },
+    "vote_url": "https://clerk.house.gov/evs/2025/roll203.xml"
+  },
+  {
+    "congress": 119,
+    "chamber": "house",
+    "session": 1,
+    "roll_call": 211,
+    "date": "2025-07-18",
+    "question": "Department of Defense Appropriations Act, 2026",
+    "result": "Failed",
+    "title": "Department of Defense Appropriations Act, 2026",
+    "bill": {
+      "number": "H R 4016",
+      "title": "Department of Defense Appropriations Act, 2026"
+    },
+    "vote_url": "https://clerk.house.gov/evs/2025/roll211.xml"
+  },
+  {
+    "congress": 119,
+    "chamber": "house",
+    "session": 1,
+    "roll_call": 212,
+    "date": "2025-07-18",
+    "question": "Department of Defense Appropriations Act, 2026",
+    "result": "Passed",
+    "title": "Department of Defense Appropriations Act, 2026",
+    "bill": {
+      "number": "H R 4016",
+      "title": "Department of Defense Appropriations Act, 2026"
+    },
+    "vote_url": "https://clerk.house.gov/evs/2025/roll212.xml"
+  },
+  {
+    "congress": 119,
+    "chamber": "house",
+    "session": 1,
+    "roll_call": 221,
+    "date": "2025-09-03",
+    "question": "Providing for consideration of the bill H.R. 4553 the Energy and Water Development and Related Agencies Appropriations Act, 2026; providing for consideration of the joint resolutions H.J. Res. 104, H.J. Res. 105, and H.J. Res. 106; and for other purposes",
+    "result": "Passed",
+    "title": "Providing for consideration of the bill H.R. 4553 the Energy and Water Development and Related Agencies Appropriations Act, 2026; providing for consideration of the joint resolutions H.J. Res. 104, H.J. Res. 105, and H.J. Res. 106; and for other purposes",
+    "bill": {
+      "number": "H RES 672",
+      "title": "Providing for consideration of the bill H.R. 4553 the Energy and Water Development and Related Agencies Appropriations Act, 2026; providing for consideration of the joint resolutions H.J. Res. 104, H.J. Res. 105, and H.J. Res. 106; and for other purposes"
+    },
+    "vote_url": "https://clerk.house.gov/evs/2025/roll221.xml"
+  },
+  {
+    "congress": 119,
+    "chamber": "house",
+    "session": 1,
+    "roll_call": 222,
+    "date": "2025-09-03",
+    "question": "Providing for consideration of the bill H.R. 4553 the Energy and Water Development and Related Agencies Appropriations Act, 2026; providing for consideration of the joint resolutions H.J. Res. 104, H.J. Res. 105, and H.J. Res. 106; and for other purposes",
+    "result": "Passed",
+    "title": "Providing for consideration of the bill H.R. 4553 the Energy and Water Development and Related Agencies Appropriations Act, 2026; providing for consideration of the joint resolutions H.J. Res. 104, H.J. Res. 105, and H.J. Res. 106; and for other purposes",
+    "bill": {
+      "number": "H RES 672",
+      "title": "Providing for consideration of the bill H.R. 4553 the Energy and Water Development and Related Agencies Appropriations Act, 2026; providing for consideration of the joint resolutions H.J. Res. 104, H.J. Res. 105, and H.J. Res. 106; and for other purposes"
+    },
+    "vote_url": "https://clerk.house.gov/evs/2025/roll222.xml"
+  },
+  {
+    "congress": 119,
+    "chamber": "house",
+    "session": 1,
+    "roll_call": 239,
+    "date": "2025-09-04",
+    "question": "Energy and Water Development and Related Agencies Appropriations Act, 2026",
+    "result": "Passed",
+    "title": "Energy and Water Development and Related Agencies Appropriations Act, 2026",
+    "bill": {
+      "number": "H R 4553",
+      "title": "Energy and Water Development and Related Agencies Appropriations Act, 2026"
+    },
+    "vote_url": "https://clerk.house.gov/evs/2025/roll239.xml"
+  },
+  {
+    "congress": 119,
+    "chamber": "house",
+    "session": 1,
+    "roll_call": 238,
+    "date": "2025-09-04",
+    "question": "Energy and Water Development and Related Agencies Appropriations Act, 2026",
+    "result": "Failed",
+    "title": "Energy and Water Development and Related Agencies Appropriations Act, 2026",
+    "bill": {
+      "number": "H R 4553",
+      "title": "Energy and Water Development and Related Agencies Appropriations Act, 2026"
+    },
+    "vote_url": "https://clerk.house.gov/evs/2025/roll238.xml"
+  },
+  {
+    "congress": 119,
+    "chamber": "house",
+    "session": 1,
+    "roll_call": 15,
+    "date": "2025-01-15",
+    "question": "To amend the Internal Revenue Code of 1986 to provide special rules for the taxation of certain residents of Taiwan with income from sources within the United States",
+    "result": "Passed",
+    "title": "To amend the Internal Revenue Code of 1986 to provide special rules for the taxation of certain residents of Taiwan with income from sources within the United States",
+    "bill": {
+      "number": "H R 33",
+      "title": "To amend the Internal Revenue Code of 1986 to provide special rules for the taxation of certain residents of Taiwan with income from sources within the United States"
+    },
+    "vote_url": "https://clerk.house.gov/evs/2025/roll015.xml"
+  },
+  {
+    "congress": 119,
+    "chamber": "house",
+    "session": 2,
+    "roll_call": 2,
+    "date": "2026-01-07",
+    "question": "Providing for consideration of the bill (H.R. 4593) the SHOWER Act; providing for consideration of the bill (H.R. 5184) the Affordable HOMES Act; and providing for consideration of the bill (H.R. 6938) making consolidated appropriations for the fiscal year ending September 30, 2026, and for other purposes",
+    "result": "Passed",
+    "title": "Providing for consideration of the bill (H.R. 4593) the SHOWER Act; providing for consideration of the bill (H.R. 5184) the Affordable HOMES Act; and providing for consideration of the bill (H.R. 6938) making consolidated appropriations for the fiscal year ending September 30, 2026, and for other purposes",
+    "bill": {
+      "number": "H RES 977",
+      "title": "Providing for consideration of the bill (H.R. 4593) the SHOWER Act; providing for consideration of the bill (H.R. 5184) the Affordable HOMES Act; and providing for consideration of the bill (H.R. 6938) making consolidated appropriations for the fiscal year ending September 30, 2026, and for other purposes"
+    },
+    "vote_url": "https://clerk.house.gov/evs/2026/roll002.xml"
+  },
+  {
+    "congress": 119,
+    "chamber": "house",
+    "session": 2,
+    "roll_call": 3,
+    "date": "2026-01-07",
+    "question": "Providing for consideration of the bill (H.R. 4593) the SHOWER Act; providing for consideration of the bill (H.R. 5184) the Affordable HOMES Act; and providing for consideration of the bill (H.R. 6938) making consolidated appropriations for the fiscal year ending September 30, 2026, and for other purposes",
+    "result": "Passed",
+    "title": "Providing for consideration of the bill (H.R. 4593) the SHOWER Act; providing for consideration of the bill (H.R. 5184) the Affordable HOMES Act; and providing for consideration of the bill (H.R. 6938) making consolidated appropriations for the fiscal year ending September 30, 2026, and for other purposes",
+    "bill": {
+      "number": "H RES 977",
+      "title": "Providing for consideration of the bill (H.R. 4593) the SHOWER Act; providing for consideration of the bill (H.R. 5184) the Affordable HOMES Act; and providing for consideration of the bill (H.R. 6938) making consolidated appropriations for the fiscal year ending September 30, 2026, and for other purposes"
+    },
+    "vote_url": "https://clerk.house.gov/evs/2026/roll003.xml"
+  },
+  {
+    "congress": 119,
+    "chamber": "house",
+    "session": 2,
+    "roll_call": 5,
+    "date": "2026-01-08",
+    "question": "Commerce, Justice, Science; Energy and Water Development; and Interior and Environment Appropriations Act, 2026",
+    "result": "Passed",
+    "title": "Commerce, Justice, Science; Energy and Water Development; and Interior and Environment Appropriations Act, 2026",
+    "bill": {
+      "number": "H R 6938",
+      "title": "Commerce, Justice, Science; Energy and Water Development; and Interior and Environment Appropriations Act, 2026"
+    },
+    "vote_url": "https://clerk.house.gov/evs/2026/roll005.xml"
+  },
+  {
+    "congress": 119,
+    "chamber": "house",
+    "session": 2,
+    "roll_call": 6,
+    "date": "2026-01-08",
+    "question": "Commerce, Justice, Science; Energy and Water Development; and Interior and Environment Appropriations Act, 2026",
+    "result": "Passed",
+    "title": "Commerce, Justice, Science; Energy and Water Development; and Interior and Environment Appropriations Act, 2026",
+    "bill": {
+      "number": "H R 6938",
+      "title": "Commerce, Justice, Science; Energy and Water Development; and Interior and Environment Appropriations Act, 2026"
+    },
+    "vote_url": "https://clerk.house.gov/evs/2026/roll006.xml"
+  },
+  {
+    "congress": 119,
+    "chamber": "house",
+    "session": 2,
+    "roll_call": 7,
+    "date": "2026-01-08",
+    "question": "Commerce, Justice, Science; Energy and Water Development; and Interior and Environment Appropriations Act, 2026",
+    "result": "Passed",
+    "title": "Commerce, Justice, Science; Energy and Water Development; and Interior and Environment Appropriations Act, 2026",
+    "bill": {
+      "number": "H R 6938",
+      "title": "Commerce, Justice, Science; Energy and Water Development; and Interior and Environment Appropriations Act, 2026"
+    },
+    "vote_url": "https://clerk.house.gov/evs/2026/roll007.xml"
+  },
+  {
+    "congress": 119,
+    "chamber": "house",
+    "session": 2,
+    "roll_call": 25,
+    "date": "2026-01-14",
+    "question": "Providing for consideration of the bill (H.R. 7006) the Financial Services and General Government and National Security, Department of State, and Related Programs Appropriations Act, 2026",
+    "result": "Passed",
+    "title": "Providing for consideration of the bill (H.R. 7006) the Financial Services and General Government and National Security, Department of State, and Related Programs Appropriations Act, 2026",
+    "bill": {
+      "number": "H RES 992",
+      "title": "Providing for consideration of the bill (H.R. 7006) the Financial Services and General Government and National Security, Department of State, and Related Programs Appropriations Act, 2026"
+    },
+    "vote_url": "https://clerk.house.gov/evs/2026/roll025.xml"
+  },
+  {
+    "congress": 119,
+    "chamber": "house",
+    "session": 2,
+    "roll_call": 24,
+    "date": "2026-01-14",
+    "question": "Providing for consideration of the bill (H.R. 7006) the Financial Services and General Government and National Security, Department of State, and Related Programs Appropriations Act, 2026",
+    "result": "Passed",
+    "title": "Providing for consideration of the bill (H.R. 7006) the Financial Services and General Government and National Security, Department of State, and Related Programs Appropriations Act, 2026",
+    "bill": {
+      "number": "H RES 992",
+      "title": "Providing for consideration of the bill (H.R. 7006) the Financial Services and General Government and National Security, Department of State, and Related Programs Appropriations Act, 2026"
+    },
+    "vote_url": "https://clerk.house.gov/evs/2026/roll024.xml"
+  },
+  {
+    "congress": 119,
+    "chamber": "house",
+    "session": 2,
+    "roll_call": 28,
+    "date": "2026-01-14",
+    "question": "Financial Services and General Government and National Security, Department of State, and Related Programs Appropriations Act, 2026",
+    "result": "Passed",
+    "title": "Financial Services and General Government and National Security, Department of State, and Related Programs Appropriations Act, 2026",
+    "bill": {
+      "number": "H R 7006",
+      "title": "Financial Services and General Government and National Security, Department of State, and Related Programs Appropriations Act, 2026"
+    },
+    "vote_url": "https://clerk.house.gov/evs/2026/roll028.xml"
+  },
+  {
+    "congress": 119,
+    "chamber": "house",
+    "session": 2,
+    "roll_call": 39,
+    "date": "2026-01-22",
+    "question": "Providing for consideration of the bill (H.R. 7148) the Consolidated Appropriations Act, 2026; providing for consideration of the bill (H.R. 7147) the Department of Homeland Security Appropriations Act, 2026; and for other purposes",
+    "result": "Passed",
+    "title": "Providing for consideration of the bill (H.R. 7148) the Consolidated Appropriations Act, 2026; providing for consideration of the bill (H.R. 7147) the Department of Homeland Security Appropriations Act, 2026; and for other purposes",
+    "bill": {
+      "number": "H RES 1014",
+      "title": "Providing for consideration of the bill (H.R. 7148) the Consolidated Appropriations Act, 2026; providing for consideration of the bill (H.R. 7147) the Department of Homeland Security Appropriations Act, 2026; and for other purposes"
+    },
+    "vote_url": "https://clerk.house.gov/evs/2026/roll039.xml"
+  },
+  {
+    "congress": 119,
+    "chamber": "house",
+    "session": 2,
+    "roll_call": 42,
+    "date": "2026-01-22",
+    "question": "Making further consolidated appropriations for the fiscal year ending September 30, 2026, and for other purposes",
+    "result": "Passed",
+    "title": "Making further consolidated appropriations for the fiscal year ending September 30, 2026, and for other purposes",
+    "bill": {
+      "number": "H R 7147",
+      "title": "Making further consolidated appropriations for the fiscal year ending September 30, 2026, and for other purposes"
+    },
+    "vote_url": "https://clerk.house.gov/evs/2026/roll042.xml"
+  },
+  {
+    "congress": 119,
+    "chamber": "house",
+    "session": 2,
+    "roll_call": 41,
+    "date": "2026-01-22",
+    "question": "Providing for consideration of the bill (H.R. 7148) the Consolidated Appropriations Act, 2026; providing for consideration of the bill (H.R. 7147) the Department of Homeland Security Appropriations Act, 2026; and for other purposes",
+    "result": "Passed",
+    "title": "Providing for consideration of the bill (H.R. 7148) the Consolidated Appropriations Act, 2026; providing for consideration of the bill (H.R. 7147) the Department of Homeland Security Appropriations Act, 2026; and for other purposes",
+    "bill": {
+      "number": "H RES 1014",
+      "title": "Providing for consideration of the bill (H.R. 7148) the Consolidated Appropriations Act, 2026; providing for consideration of the bill (H.R. 7147) the Department of Homeland Security Appropriations Act, 2026; and for other purposes"
+    },
+    "vote_url": "https://clerk.house.gov/evs/2026/roll041.xml"
+  },
+  {
+    "congress": 119,
+    "chamber": "house",
+    "session": 2,
+    "roll_call": 45,
+    "date": "2026-01-22",
+    "question": "Consolidated Appropriations Act, 2026",
+    "result": "Passed",
+    "title": "Consolidated Appropriations Act, 2026",
+    "bill": {
+      "number": "H R 7148",
+      "title": "Consolidated Appropriations Act, 2026"
+    },
+    "vote_url": "https://clerk.house.gov/evs/2026/roll045.xml"
+  },
+  {
+    "congress": 119,
+    "chamber": "house",
+    "session": 2,
+    "roll_call": 53,
+    "date": "2026-02-03",
+    "question": "Consolidated Appropriations Act, 2026",
+    "result": "Passed",
+    "title": "Consolidated Appropriations Act, 2026",
+    "bill": {
+      "number": "H R 7148",
+      "title": "Consolidated Appropriations Act, 2026"
+    },
+    "vote_url": "https://clerk.house.gov/evs/2026/roll053.xml"
+  },
+  {
+    "congress": 119,
+    "chamber": "house",
+    "session": 2,
+    "roll_call": 56,
+    "date": "2026-02-04",
+    "question": "Disapproving the action of the District of Columbia Council in approving the D.C. Income and Franchise Tax Conformity and Revision Temporary Amendment Act of 2025",
+    "result": "Passed",
+    "title": "Disapproving the action of the District of Columbia Council in approving the D.C. Income and Franchise Tax Conformity and Revision Temporary Amendment Act of 2025",
+    "bill": {
+      "number": "H J RES 142",
+      "title": "Disapproving the action of the District of Columbia Council in approving the D.C. Income and Franchise Tax Conformity and Revision Temporary Amendment Act of 2025"
+    },
+    "vote_url": "https://clerk.house.gov/evs/2026/roll056.xml"
+  },
+  {
+    "congress": 118,
+    "chamber": "senate",
+    "session": 1,
+    "roll_call": 48,
+    "date": "March 8, 2023,  11:46 AM",
+    "question": "On the Cloture Motion PN27",
+    "result": "Cloture Motion Agreed to (51-44)",
+    "title": "Motion to Invoke Cloture: Daniel I. Werfel to be Commissioner of Internal Revenue",
+    "issue": ""
+  },
+  {
+    "congress": 118,
+    "chamber": "senate",
+    "session": 1,
+    "roll_call": 50,
+    "date": "March 9, 2023,  11:51 AM",
+    "question": "On the Nomination PN27",
+    "result": "Nomination Confirmed (54-42)",
+    "title": "Confirmation: Daniel I. Werfel, of the District of Columbia, to be Commissioner of Internal Revenue",
+    "issue": ""
+  },
+  {
+    "congress": 118,
+    "chamber": "senate",
+    "session": 1,
+    "roll_call": 95,
+    "date": "April 25, 2023,  05:40 PM",
+    "question": "On the Cloture Motion PN195",
+    "result": "Cloture Motion Agreed to (72-22)",
+    "title": "Motion to Invoke Cloture: Joshua David Jacobs to be Under Secretary for Benefits of the Department of Veterans Affairs.",
+    "issue": ""
+  },
+  {
+    "congress": 118,
+    "chamber": "senate",
+    "session": 1,
+    "roll_call": 96,
+    "date": "April 26, 2023,  12:05 PM",
+    "question": "On the Nomination PN195",
+    "result": "Nomination Confirmed (74-25)",
+    "title": "Confirmation: Joshua David Jacobs, of Washington, to be Under Secretary for Benefits of the Department of Veterans Affairs",
+    "issue": ""
+  },
+  {
+    "congress": 118,
+    "chamber": "senate",
+    "session": 1,
+    "roll_call": 103,
+    "date": "May 2, 2023,  12:25 PM",
+    "question": "On the Cloture Motion PN96",
+    "result": "Cloture Motion Agreed to (57-42)",
+    "title": "Motion to Invoke Cloture: Robert Kirsch to be U.S. District Judge for the District of New Jersey",
+    "issue": ""
+  },
+  {
+    "congress": 118,
+    "chamber": "senate",
+    "session": 1,
+    "roll_call": 105,
+    "date": "May 2, 2023,  05:02 PM",
+    "question": "On the Nomination PN96",
+    "result": "Nomination Confirmed (57-42)",
+    "title": "Confirmation: Robert Kirsch, of New Jersey, to be United States District Judge for the District of New Jersey",
+    "issue": ""
+  },
+  {
+    "congress": 118,
+    "chamber": "senate",
+    "session": 1,
+    "roll_call": 165,
+    "date": "June 15, 2023,  01:46 PM",
+    "question": "On the Cloture Motion PN90",
+    "result": "Cloture Motion Agreed to (53-45)",
+    "title": "Motion to Invoke Cloture: Julie Rikelman to be U.S. Circuit Judge for the First Circuit",
+    "issue": ""
+  },
+  {
+    "congress": 118,
+    "chamber": "senate",
+    "session": 1,
+    "roll_call": 166,
+    "date": "June 20, 2023,  05:32 PM",
+    "question": "On the Nomination PN90",
+    "result": "Nomination Confirmed (51-43)",
+    "title": "Confirmation: Julie Rikelman, of Massachusetts, to be U.S. Circuit Judge for the First Circuit",
+    "issue": ""
+  },
+  {
+    "congress": 118,
+    "chamber": "senate",
+    "session": 1,
+    "roll_call": 170,
+    "date": "June 21, 2023,  03:34 PM",
+    "question": "On the Cloture Motion Treaty Doc. 112-8",
+    "result": "Cloture Motion Agreed to (97-2, 3/5 majority required)",
+    "title": "Motion to Invoke Cloture: Treaty Doc. 112-8, Tax Convention with Chile",
+    "issue": ""
+  },
+  {
+    "congress": 118,
+    "chamber": "senate",
+    "session": 1,
+    "roll_call": 223,
+    "date": "September 11, 2023,  05:28 PM",
+    "question": "On the Cloture Motion PN551",
+    "result": "Cloture Motion Agreed to (49-44)",
+    "title": "Motion to Invoke Cloture: Tanya J. Bradsher to be Deputy Secretary of Veterans Affairs",
+    "issue": ""
+  },
+  {
+    "congress": 118,
+    "chamber": "senate",
+    "session": 1,
+    "roll_call": 224,
+    "date": "September 12, 2023,  11:30 AM",
+    "question": "On the Nomination PN551",
+    "result": "Nomination Confirmed (50-46)",
+    "title": "Confirmation: Tanya J. Bradsher, of Virginia, to be Deputy Secretary of Veterans Affairs",
+    "issue": ""
+  },
+  {
+    "congress": 118,
+    "chamber": "senate",
+    "session": 1,
+    "roll_call": 248,
+    "date": "October 3, 2023,  05:27 PM",
+    "question": "On the Cloture Motion PN676",
+    "result": "Cloture Motion Agreed to (63-32)",
+    "title": "Motion to Invoke Cloture: James C. O'Brien to be Assistant Secretary of State (European and Eurasian Affairs)",
+    "issue": ""
+  },
+  {
+    "congress": 118,
+    "chamber": "senate",
+    "session": 1,
+    "roll_call": 249,
+    "date": "October 4, 2023,  11:45 AM",
+    "question": "On the Nomination PN676",
+    "result": "Nomination Confirmed (67-31)",
+    "title": "Confirmation: James C. O'Brien, of Nebraska, to be an Assistant Secretary of State (European and Eurasian Affairs)",
+    "issue": ""
+  },
+  {
+    "congress": 118,
+    "chamber": "senate",
+    "session": 1,
+    "roll_call": 339,
+    "date": "December 12, 2023,  03:12 PM",
+    "question": "On the Motion to Table S.Amdt. 1373 to H.R. 2670 (National Defense Authorization Act for Fiscal Year 2024)",
+    "result": "Motion to Table Failed (47-53)",
+    "title": "Motion to Table Schumer Amdt. No. 1373",
+    "issue": ""
+  },
+  {
+    "congress": 118,
+    "chamber": "senate",
+    "session": 2,
+    "roll_call": 11,
+    "date": "January 18, 2024,  01:21 PM",
+    "question": "On the Motion (Marshall Motion to Commit H.R. 2872 to the Committee on Appropriations with instructions)",
+    "result": "Motion Rejected (13-82)",
+    "title": "Marshall Motion to Commit H.R. 2872 to the Committee on Appropriations with instructions",
+    "issue": ""
+  },
+  {
+    "congress": 118,
+    "chamber": "senate",
+    "session": 2,
+    "roll_call": 43,
+    "date": "February 11, 2024,  12:57 PM",
+    "question": "On the Motion to Table H.R. 815",
+    "result": "Motion to Table Failed (40-53)",
+    "title": "Motion to Table the Motion to Commit H.R. 815 to the Committee on Veterans' Affairs",
+    "issue": ""
+  },
+  {
+    "congress": 118,
+    "chamber": "senate",
+    "session": 2,
+    "roll_call": 45,
+    "date": "February 12, 2024,  08:22 PM",
+    "question": "On the Motion (Motion to Waive All Applicable Budgetary Discipline During the Consideration of H.R. 815)",
+    "result": "Motion Agreed to (66-33, 3/5 majority required)",
+    "title": "Motion to Waive All Applicable Budgetary Discipline During the Consideration of H.R. 815",
+    "issue": ""
+  },
+  {
+    "congress": 118,
+    "chamber": "senate",
+    "session": 2,
+    "roll_call": 59,
+    "date": "February 28, 2024,  06:29 PM",
+    "question": "On the Cloture Motion PN1217",
+    "result": "Cloture Motion Agreed to (52-42)",
+    "title": "Motion to Invoke Cloture: Marjorie A. Rollinson to be Chief Counsel for the Internal Revenue Service and an Assistant General Counsel in the Department of the Treasury",
+    "issue": ""
+  },
+  {
+    "congress": 118,
+    "chamber": "senate",
+    "session": 2,
+    "roll_call": 60,
+    "date": "February 29, 2024,  11:39 AM",
+    "question": "On the Nomination PN1217",
+    "result": "Nomination Confirmed (56-41)",
+    "title": "Confirmation: Marjorie A. Rollinson, of Virginia, to be Chief Counsel for the Internal Revenue Service and an Assistant General Counsel in the Department of the Treasury",
+    "issue": ""
+  },
+  {
+    "congress": 118,
+    "chamber": "senate",
+    "session": 2,
+    "roll_call": 64,
+    "date": "February 29, 2024,  07:04 PM",
+    "question": "On the Motion (Marshall Motion to Commit H.R. 7463 to the Committee on Appropriations with Instructions)",
+    "result": "Motion Rejected (14-76)",
+    "title": "Marshall Motion to Commit H.R. 7463 to the Committee on Appropriations with Instructions",
+    "issue": ""
+  },
+  {
+    "congress": 118,
+    "chamber": "senate",
+    "session": 2,
+    "roll_call": 65,
+    "date": "February 29, 2024,  07:21 PM",
+    "question": "On the Motion (Lee Motion to Commit H.R. 7463 to the Committee on Appropriations with Instructions)",
+    "result": "Motion Rejected (12-77)",
+    "title": "Lee Motion to Commit H.R. 7463 to the Committee on Appropriations with Instructions",
+    "issue": ""
+  },
+  {
+    "congress": 118,
+    "chamber": "senate",
+    "session": 2,
+    "roll_call": 66,
+    "date": "February 29, 2024,  07:35 PM",
+    "question": "On the Motion (Cruz Motion to Commit H.R. 7463 to the Committee on Appropriations with Instructions)",
+    "result": "Motion Rejected (32-58)",
+    "title": "Cruz Motion to Commit H.R. 7463 to the Committee on Appropriations with Instructions",
+    "issue": ""
+  },
+  {
+    "congress": 118,
+    "chamber": "senate",
+    "session": 2,
+    "roll_call": 82,
+    "date": "March 8, 2024,  06:36 PM",
+    "question": "On the Motion to Refer H.R. 4366",
+    "result": "Motion to Refer Rejected (32-64)",
+    "title": "Scott (FL) Motion to Refer H.R. 4366 to the Committee on Appropriations with Instructions",
+    "issue": ""
+  },
+  {
+    "congress": 118,
+    "chamber": "senate",
+    "session": 2,
+    "roll_call": 106,
+    "date": "March 23, 2024,  12:29 AM",
+    "question": "On the Motion to Refer H.R. 2882",
+    "result": "Motion to Refer Rejected (34-63)",
+    "title": "Paul Motion to Refer the House Message to Accompany H.R. 2882 to the Committee on Appropriations",
+    "issue": ""
+  },
+  {
+    "congress": 118,
+    "chamber": "senate",
+    "session": 2,
+    "roll_call": 151,
+    "date": "April 23, 2024,  01:26 PM",
+    "question": "On the Motion to Table H.R. 815",
+    "result": "Motion to Table Failed (48-50)",
+    "title": "Lee Motion to Table the Motion to Refer the House Message to Accompany H.R. 815 to the Committee on Appropriations",
+    "issue": ""
+  },
+  {
+    "congress": 118,
+    "chamber": "senate",
+    "session": 2,
+    "roll_call": 171,
+    "date": "May 16, 2024,  01:49 PM",
+    "question": "On the Cloture Motion PN1238",
+    "result": "Cloture Motion Agreed to (52-43)",
+    "title": "Motion to Invoke Cloture: Seth Robert Aframe to be U.S. Circuit Judge for the First Circuit",
+    "issue": ""
+  },
+  {
+    "congress": 118,
+    "chamber": "senate",
+    "session": 2,
+    "roll_call": 172,
+    "date": "May 20, 2024,  05:41 PM",
+    "question": "On the Nomination PN1238",
+    "result": "Nomination Confirmed (49-40)",
+    "title": "Confirmation: Seth Robert Aframe, of New Hampshire, to be U.S. Circuit Judge for the First Circuit",
+    "issue": ""
+  },
+  {
+    "congress": 118,
+    "chamber": "senate",
+    "session": 2,
+    "roll_call": 215,
+    "date": "July 24, 2024,  03:09 PM",
+    "question": "On the Cloture Motion PN1400",
+    "result": "Cloture Motion Agreed to (78-16)",
+    "title": "Motion to Invoke Cloture: Kashi Way to be a Judge of the United States Tax Court",
+    "issue": ""
+  },
+  {
+    "congress": 118,
+    "chamber": "senate",
+    "session": 2,
+    "roll_call": 216,
+    "date": "July 24, 2024,  05:08 PM",
+    "question": "On the Cloture Motion PN1401",
+    "result": "Cloture Motion Agreed to (85-12)",
+    "title": "Motion to Invoke Cloture: Adam B. Landy to be a Judge of the United States Tax Court",
+    "issue": ""
+  },
+  {
+    "congress": 118,
+    "chamber": "senate",
+    "session": 2,
+    "roll_call": 218,
+    "date": "July 25, 2024,  11:43 AM",
+    "question": "On the Nomination PN1400",
+    "result": "Nomination Confirmed (79-16)",
+    "title": "Confirmation: Kashi Way, of Maryland, to be a Judge of the United States Tax Court",
+    "issue": ""
+  },
+  {
+    "congress": 118,
+    "chamber": "senate",
+    "session": 2,
+    "roll_call": 220,
+    "date": "July 29, 2024,  05:30 PM",
+    "question": "On the Nomination PN1401",
+    "result": "Nomination Confirmed (73-13)",
+    "title": "Confirmation: Adam B. Landy, of South Carolina, to be a Judge of the United States Tax Court",
+    "issue": ""
+  },
+  {
+    "congress": 118,
+    "chamber": "senate",
+    "session": 2,
+    "roll_call": 248,
+    "date": "September 19, 2024,  01:41 PM",
+    "question": "On the Cloture Motion PN1399",
+    "result": "Cloture Motion Agreed to (76-15)",
+    "title": "Motion to Invoke Cloture: Rose E. Jenkins to be a Judge of the U.S. Tax Court\n",
+    "issue": ""
+  },
+  {
+    "congress": 118,
+    "chamber": "senate",
+    "session": 2,
+    "roll_call": 249,
+    "date": "September 23, 2024,  05:29 PM",
+    "question": "On the Nomination PN1399",
+    "result": "Nomination Confirmed (69-17)",
+    "title": "Confirmation: Rose E. Jenkins, of the District of Columbia, to be a Judge of the United States Tax Court",
+    "issue": ""
+  },
+  {
+    "congress": 118,
+    "chamber": "senate",
+    "session": 2,
+    "roll_call": 250,
+    "date": "September 24, 2024,  12:05 PM",
+    "question": "On the Cloture Motion PN1342",
+    "result": "Cloture Motion Agreed to (56-36)",
+    "title": "Motion to Invoke Cloture: Michael Sfraga to be Ambassador at Large for Arctic Affairs.",
+    "issue": ""
+  },
+  {
+    "congress": 118,
+    "chamber": "senate",
+    "session": 2,
+    "roll_call": 251,
+    "date": "September 24, 2024,  02:15 PM",
+    "question": "On the Nomination PN1342",
+    "result": "Nomination Confirmed (55-36)",
+    "title": "Confirmation: Michael Sfraga, of Alaska, to be Ambassador at Large for Arctic Affairs.",
+    "issue": ""
+  },
+  {
+    "congress": 118,
+    "chamber": "senate",
+    "session": 2,
+    "roll_call": 260,
+    "date": "November 13, 2024,  05:18 PM",
+    "question": "On the Cloture Motion PN1744",
+    "result": "Cloture Motion Agreed to (58-37)",
+    "title": "Motion to Invoke Cloture: Cathy Fung to be a Judge of the U.S. Tax Court",
+    "issue": ""
+  },
+  {
+    "congress": 118,
+    "chamber": "senate",
+    "session": 2,
+    "roll_call": 261,
+    "date": "November 14, 2024,  11:38 AM",
+    "question": "On the Nomination PN1744",
+    "result": "Nomination Confirmed (59-37)",
+    "title": "Confirmation: Cathy Fung, of California, to be a Judge of the United States Tax Court",
+    "issue": ""
+  },
+  {
+    "congress": 118,
+    "chamber": "senate",
+    "session": 2,
+    "roll_call": 337,
+    "date": "December 20, 2024,  11:52 PM",
+    "question": "On the Motion (Motion to Waive All Applicable Budgetary Discipline Re: H.R. 82)",
+    "result": "Motion Agreed to (66-30, 3/5 majority required)",
+    "title": "Motion to Waive All Applicable Budgetary Discipline Re: H.R. 82",
+    "issue": ""
+  },
+  {
+    "congress": 119,
+    "chamber": "senate",
+    "session": 1,
+    "roll_call": 28,
+    "date": "January 30, 2025,  07:09 PM",
+    "question": "On the Cloture Motion PN11-5",
+    "result": "Cloture Motion Agreed to (83-13)",
+    "title": "Motion to Invoke Cloture: Douglas Collins, of Georgia, to be Secretary of Veterans Affairs",
+    "issue": ""
+  },
+  {
+    "congress": 119,
+    "chamber": "senate",
+    "session": 1,
+    "roll_call": 32,
+    "date": "February 4, 2025,  12:07 PM",
+    "question": "On the Nomination PN11-5",
+    "result": "Nomination Confirmed (77-23)",
+    "title": "Confirmation: Douglas Collins, of Georgia, to be Secretary of Veterans Affairs",
+    "issue": ""
+  },
+  {
+    "congress": 119,
+    "chamber": "senate",
+    "session": 1,
+    "roll_call": 36,
+    "date": "February 5, 2025,  12:26 PM",
+    "question": "On the Cloture Motion PN11-22",
+    "result": "Cloture Motion Agreed to (53-47)",
+    "title": "Motion to Invoke Cloture: Russell Vought to be Director of the Office of Management and Budget",
+    "issue": ""
+  },
+  {
+    "congress": 119,
+    "chamber": "senate",
+    "session": 1,
+    "roll_call": 37,
+    "date": "February 6, 2025,  07:07 PM",
+    "question": "On the Nomination PN11-22",
+    "result": "Nomination Confirmed (53-47)",
+    "title": "Confirmation: Russell Vought, of Virginia, to be Director of the Office of Management and Budget",
+    "issue": ""
+  },
+  {
+    "congress": 119,
+    "chamber": "senate",
+    "session": 1,
+    "roll_call": 62,
+    "date": "February 20, 2025,  06:54 PM",
+    "question": "On the Motion (Motion to Waive All Applicable Budgetary Discipline Re: Schumer Amdt. No. 454)",
+    "result": "Motion Rejected (47-52, 3/5 majority required)",
+    "title": "Motion to Waive All Applicable Budgetary Discipline Re: Schumer Amdt. No. 454",
+    "issue": ""
+  },
+  {
+    "congress": 119,
+    "chamber": "senate",
+    "session": 1,
+    "roll_call": 63,
+    "date": "February 20, 2025,  07:35 PM",
+    "question": "On the Motion (Motion to Waive All Applicable Budgetary Discipline Re: Klobuchar Amdt. No. 494)",
+    "result": "Motion Rejected (48-52, 3/5 majority required)",
+    "title": "Motion to Waive All Applicable Budgetary Discipline Re: Klobuchar Amdt. No. 494",
+    "issue": ""
+  },
+  {
+    "congress": 119,
+    "chamber": "senate",
+    "session": 1,
+    "roll_call": 65,
+    "date": "February 20, 2025,  08:28 PM",
+    "question": "On the Motion (Motion to Waive All Applicable Budgetary Discipline Re: Warner Amdt. No. 130)",
+    "result": "Motion Rejected (47-53, 3/5 majority required)",
+    "title": "Motion to Waive All Applicable Budgetary Discipline Re: Warner Amdt. No. 130",
+    "issue": ""
+  },
+  {
+    "congress": 119,
+    "chamber": "senate",
+    "session": 1,
+    "roll_call": 67,
+    "date": "February 20, 2025,  09:19 PM",
+    "question": "On the Motion (Motion to Waive All Applicable Budgetary Discipline Re: Hickenlooper Amdt. No. 925)",
+    "result": "Motion Rejected (47-53, 3/5 majority required)",
+    "title": "Motion to Waive All Applicable Budgetary Discipline Re: Hickenlooper Amdt. No. 925",
+    "issue": ""
+  },
+  {
+    "congress": 119,
+    "chamber": "senate",
+    "session": 1,
+    "roll_call": 71,
+    "date": "February 20, 2025,  10:48 PM",
+    "question": "On the Motion (Motion to Waive All Applicable Budgetary Discipline Re: Schumer Amdt. No. 776)",
+    "result": "Motion Rejected (49-51, 3/5 majority required)",
+    "title": "Motion to Waive All Applicable Budgetary Discipline Re: Schumer Amdt. No. 776",
+    "issue": ""
+  },
+  {
+    "congress": 119,
+    "chamber": "senate",
+    "session": 1,
+    "roll_call": 73,
+    "date": "February 20, 2025,  11:31 PM",
+    "question": "On the Motion (Motion to Waive All Applicable Budgetary Discipline Re: Wyden Amdt. No. 1156)",
+    "result": "Motion Rejected (47-53, 3/5 majority required)",
+    "title": "Motion to Waive All Applicable Budgetary Discipline Re: Wyden Amdt. No. 1156",
+    "issue": ""
+  },
+  {
+    "congress": 119,
+    "chamber": "senate",
+    "session": 1,
+    "roll_call": 74,
+    "date": "February 20, 2025,  11:51 PM",
+    "question": "On the Motion (Motion to  Waive All Applicable Budgetary Discipline Re: Baldwin Amdt. No. 276)",
+    "result": "Motion Rejected (48-52, 3/5 majority required)",
+    "title": "Motion to  Waive All Applicable Budgetary Discipline Re: Baldwin Amdt. No. 276",
+    "issue": ""
+  },
+  {
+    "congress": 119,
+    "chamber": "senate",
+    "session": 1,
+    "roll_call": 75,
+    "date": "February 21, 2025,  12:12 AM",
+    "question": "On the Motion (Motion to Waive All Applicable Budgetary Discipline Re: Reed Amdt. No. 172)",
+    "result": "Motion Rejected (49-51, 3/5 majority required)",
+    "title": "Motion to Waive All Applicable Budgetary Discipline Re: Reed Amdt. No. 172",
+    "issue": ""
+  },
+  {
+    "congress": 119,
+    "chamber": "senate",
+    "session": 1,
+    "roll_call": 79,
+    "date": "February 21, 2025,  01:35 AM",
+    "question": "On the Motion (Motion to Waive All Applicable Budgetary Discipline Re: Van Hollen Amdt. No. 233)",
+    "result": "Motion Rejected (49-51, 3/5 majority required)",
+    "title": "Motion to Waive All Applicable Budgetary Discipline Re: Van Hollen Amdt. No. 233",
+    "issue": ""
+  },
+  {
+    "congress": 119,
+    "chamber": "senate",
+    "session": 1,
+    "roll_call": 144,
+    "date": "March 25, 2025,  08:57 PM",
+    "question": "On the Cloture Motion PN12-3",
+    "result": "Cloture Motion Agreed to (52-47)",
+    "title": "Motion to Invoke Cloture: James Bishop to be Deputy Director of the Office of Management and Budget",
+    "issue": ""
+  },
+  {
+    "congress": 119,
+    "chamber": "senate",
+    "session": 1,
+    "roll_call": 145,
+    "date": "March 26, 2025,  11:10 AM",
+    "question": "On the Nomination PN12-3",
+    "result": "Nomination Confirmed (53-45)",
+    "title": "Confirmation: James Bishop, of North Carolina, to be Deputy Director of the Office of Management and Budget",
+    "issue": ""
+  },
+  {
+    "congress": 119,
+    "chamber": "senate",
+    "session": 1,
+    "roll_call": 154,
+    "date": "March 27, 2025,  12:21 PM",
+    "question": "On the Cloture Motion PN13-9",
+    "result": "Cloture Motion Agreed to (53-47)",
+    "title": "Motion to Invoke Cloture: Paul Lawrence to be Deputy Secretary of Veterans Affairs",
+    "issue": ""
+  },
+  {
+    "congress": 119,
+    "chamber": "senate",
+    "session": 1,
+    "roll_call": 155,
+    "date": "March 27, 2025,  02:03 PM",
+    "question": "On the Nomination PN13-9",
+    "result": "Nomination Confirmed (51-45)",
+    "title": "Confirmation: Paul Lawrence, of Virginia, to be Deputy Secretary of Veterans Affairs",
+    "issue": ""
+  },
+  {
+    "congress": 119,
+    "chamber": "senate",
+    "session": 1,
+    "roll_call": 255,
+    "date": "May 14, 2025,  06:03 PM",
+    "question": "On the Cloture Motion PN26-46",
+    "result": "Cloture Motion Agreed to (51-45)",
+    "title": "Motion to Invoke Cloture: Eric Matthew Ueland to be Deputy Director for Management, Office of Management and Budget",
+    "issue": ""
+  },
+  {
+    "congress": 119,
+    "chamber": "senate",
+    "session": 1,
+    "roll_call": 256,
+    "date": "May 14, 2025,  08:30 PM",
+    "question": "On the Nomination PN26-46",
+    "result": "Nomination Confirmed (52-45)",
+    "title": "Confirmation: Eric Matthew Ueland, of Virginia, to be Deputy Director for Management, Office of Management and Budget",
+    "issue": ""
+  },
+  {
+    "congress": 119,
+    "chamber": "senate",
+    "session": 1,
+    "roll_call": 284,
+    "date": "June 3, 2025,  12:11 PM",
+    "question": "On the Cloture Motion PN25-19",
+    "result": "Cloture Motion Agreed to (59-37)",
+    "title": "Motion to Invoke Cloture: Allison Hooker to be an Under Secretary of State (Political Affairs)",
+    "issue": ""
+  },
+  {
+    "congress": 119,
+    "chamber": "senate",
+    "session": 1,
+    "roll_call": 285,
+    "date": "June 3, 2025,  02:15 PM",
+    "question": "On the Nomination PN25-19",
+    "result": "Nomination Confirmed (59-36)",
+    "title": "Confirmation: Allison Hooker, of Georgia, to be an Under Secretary of State (Political Affairs)",
+    "issue": ""
+  },
+  {
+    "congress": 119,
+    "chamber": "senate",
+    "session": 1,
+    "roll_call": 304,
+    "date": "June 11, 2025,  11:59 AM",
+    "question": "On the Cloture Motion PN12-27",
+    "result": "Cloture Motion Agreed to (53-46)",
+    "title": "Motion to Invoke Cloture: William Long to be Commissioner of Internal Revenue",
+    "issue": ""
+  },
+  {
+    "congress": 119,
+    "chamber": "senate",
+    "session": 1,
+    "roll_call": 308,
+    "date": "June 12, 2025,  12:28 PM",
+    "question": "On the Nomination PN12-27",
+    "result": "Nomination Confirmed (53-44)",
+    "title": "Confirmation: William Long, of Missouri, to be Commissioner of Internal Revenue",
+    "issue": ""
+  },
+  {
+    "congress": 119,
+    "chamber": "senate",
+    "session": 1,
+    "roll_call": 310,
+    "date": "June 12, 2025,  01:36 PM",
+    "question": "On the Motion (Motion to Waive All Applicable Budgetary Discipline Re: Amdt. No. 2307)",
+    "result": "Motion Agreed to (64-33, 3/5 majority required)",
+    "title": "Motion to Waive All Applicable Budgetary Discipline Re: Amdt. No. 2307",
+    "issue": ""
+  },
+  {
+    "congress": 119,
+    "chamber": "senate",
+    "session": 1,
+    "roll_call": 331,
+    "date": "June 30, 2025,  10:12 AM",
+    "question": "On the Decision of the Chair H.R. 1",
+    "result": "Decision of Chair Sustained (53-47)",
+    "title": "Does the Decision of the Chair Stand as the Judgment of the Senate that Amdt. No. 2360 does not Violate Section 313(b)(1)(b) of the Congressional Budget Act?",
+    "issue": ""
+  },
+  {
+    "congress": 119,
+    "chamber": "senate",
+    "session": 1,
+    "roll_call": 343,
+    "date": "June 30, 2025,  04:08 PM",
+    "question": "On the Motion (Motion to Waive Section 313(b)(1)(D) of the Congressional Budget Act Re: Merkley Amdt. No. 2446)",
+    "result": "Motion Rejected (47-53, 3/5 majority required)",
+    "title": "Motion to Waive Section 313(b)(1)(D) of the Congressional Budget Act Re: Merkley Amdt. No. 2446",
+    "issue": ""
+  },
+  {
+    "congress": 119,
+    "chamber": "senate",
+    "session": 1,
+    "roll_call": 346,
+    "date": "June 30, 2025,  06:35 PM",
+    "question": "On the Motion (Kaine Motion to Commit H.R. 1 to the Committee on Homeland Security and Governmental Affairs with Instructions)",
+    "result": "Motion Rejected (47-53)",
+    "title": "Kaine Motion to Commit H.R. 1 to the Committee on Homeland Security and Governmental Affairs with Instructions",
+    "issue": ""
+  },
+  {
+    "congress": 119,
+    "chamber": "senate",
+    "session": 1,
+    "roll_call": 352,
+    "date": "June 30, 2025,  10:35 PM",
+    "question": "On the Motion (Motion to Waive Section 313(b)(1)(A) of the Congressional Budget Act Re: Kennedy Amdt. No. 2772 )",
+    "result": "Motion Rejected (42-58, 3/5 majority required)",
+    "title": "Motion to Waive Section 313(b)(1)(A) of the Congressional Budget Act Re: Kennedy Amdt. No. 2772 ",
+    "issue": ""
+  },
+  {
+    "congress": 119,
+    "chamber": "senate",
+    "session": 1,
+    "roll_call": 356,
+    "date": "July 1, 2025,  01:15 AM",
+    "question": "On the Motion (Motion to Waive All Applicable Budgetary Discipline Re: Kennedy Amdt. No. 2775)",
+    "result": "Motion Rejected (54-46, 3/5 majority required)",
+    "title": "Motion to Waive All Applicable Budgetary Discipline Re: Kennedy Amdt. No. 2775",
+    "issue": ""
+  },
+  {
+    "congress": 119,
+    "chamber": "senate",
+    "session": 1,
+    "roll_call": 391,
+    "date": "July 15, 2025,  08:07 PM",
+    "question": "On the Motion to Discharge H.R. 4",
+    "result": "Motion to Discharge Agreed to (50-50, Vice President of the United States, voted Yea)",
+    "title": "Motion to Discharge H.R. 4 from the Committees on Appropriations and the Budget",
+    "issue": ""
+  },
+  {
+    "congress": 119,
+    "chamber": "senate",
+    "session": 1,
+    "roll_call": 394,
+    "date": "July 16, 2025,  02:29 PM",
+    "question": "On the Motion to Recommit H.R. 4",
+    "result": "Motion to Recommit Rejected (48-51)",
+    "title": "Cortez Masto Motion to Recommit H.R. 4 to the Committee on Appropriations with Instructions",
+    "issue": ""
+  },
+  {
+    "congress": 119,
+    "chamber": "senate",
+    "session": 1,
+    "roll_call": 395,
+    "date": "July 16, 2025,  03:03 PM",
+    "question": "On the Motion to Recommit H.R. 4",
+    "result": "Motion to Recommit Rejected (48-51)",
+    "title": "Gallego Motion to Recommit to the Committee on Appropriations with Instructions",
+    "issue": ""
+  },
+  {
+    "congress": 119,
+    "chamber": "senate",
+    "session": 1,
+    "roll_call": 396,
+    "date": "July 16, 2025,  04:15 PM",
+    "question": "On the Motion to Recommit H.R. 4",
+    "result": "Motion to Recommit Rejected (48-51)",
+    "title": "Hirono Motion to Recommit to the Committee on Appropriations with Instructions",
+    "issue": ""
+  },
+  {
+    "congress": 119,
+    "chamber": "senate",
+    "session": 1,
+    "roll_call": 398,
+    "date": "July 16, 2025,  05:34 PM",
+    "question": "On the Motion to Recommit H.R. 4",
+    "result": "Motion to Recommit Rejected (48-51)",
+    "title": "Warner Motion to Recommit H.R. 4 to the Committee on Appropriations with Instructions",
+    "issue": ""
+  },
+  {
+    "congress": 119,
+    "chamber": "senate",
+    "session": 1,
+    "roll_call": 399,
+    "date": "July 16, 2025,  06:11 PM",
+    "question": "On the Motion to Recommit H.R. 4",
+    "result": "Motion to Recommit Rejected (47-52)",
+    "title": "Schumer Motion to Recommit H.R. 4 to the Committee on Appropriations with Instructions",
+    "issue": ""
+  },
+  {
+    "congress": 119,
+    "chamber": "senate",
+    "session": 1,
+    "roll_call": 401,
+    "date": "July 16, 2025,  07:28 PM",
+    "question": "On the Motion to Recommit H.R. 4",
+    "result": "Motion to Recommit Rejected (47-50)",
+    "title": "Markey Motion to Recommit H.R. 4 to the Committee on Appropriations with Instructions",
+    "issue": ""
+  },
+  {
+    "congress": 119,
+    "chamber": "senate",
+    "session": 1,
+    "roll_call": 403,
+    "date": "July 16, 2025,  08:38 PM",
+    "question": "On the Motion to Recommit H.R. 4",
+    "result": "Motion to Recommit Rejected (48-51)",
+    "title": "Kaine Motion to Recommit H.R. 4 to the Committee on Appropriations with Instructions",
+    "issue": ""
+  },
+  {
+    "congress": 119,
+    "chamber": "senate",
+    "session": 1,
+    "roll_call": 435,
+    "date": "July 24, 2025,  12:07 PM",
+    "question": "On the Cloture Motion PN25-54",
+    "result": "Cloture Motion Agreed to (52-46)",
+    "title": "Motion to Invoke Cloture: Richard Topping to be Chief Financial Officer, Department of Veterans Affairs",
+    "issue": ""
+  },
+  {
+    "congress": 119,
+    "chamber": "senate",
+    "session": 1,
+    "roll_call": 436,
+    "date": "July 24, 2025,  01:25 PM",
+    "question": "On the Nomination PN25-54",
+    "result": "Nomination Confirmed (51-47)",
+    "title": "Confirmation: Richard Topping, of Ohio, to be Chief Financial Officer, Department of Veterans Affairs",
+    "issue": ""
+  },
+  {
+    "congress": 119,
+    "chamber": "senate",
+    "session": 1,
+    "roll_call": 446,
+    "date": "July 29, 2025,  06:21 PM",
+    "question": "On the Cloture Motion PN12-7",
+    "result": "Cloture Motion Agreed to (53-45)",
+    "title": "Motion to Invoke Cloture: Samuel Brown to be Under Secretary of Veterans Affairs for Memorial Affairs",
+    "issue": ""
+  },
+  {
+    "congress": 119,
+    "chamber": "senate",
+    "session": 1,
+    "roll_call": 447,
+    "date": "July 29, 2025,  08:02 PM",
+    "question": "On the Nomination PN12-7",
+    "result": "Nomination Confirmed (54-44)",
+    "title": "Confirmation: Samuel Brown, of Nevada, to be Under Secretary of Veterans Affairs for Memorial Services",
+    "issue": ""
+  },
+  {
+    "congress": 119,
+    "chamber": "senate",
+    "session": 1,
+    "roll_call": 458,
+    "date": "July 31, 2025,  10:56 AM",
+    "question": "On the Cloture Motion PN141-30",
+    "result": "Cloture Motion Agreed to (53-41)",
+    "title": "Motion to Invoke Cloture: Cheryl Mason to be Inspector General, Department of Veterans Affairs",
+    "issue": ""
+  },
+  {
+    "congress": 119,
+    "chamber": "senate",
+    "session": 1,
+    "roll_call": 461,
+    "date": "July 31, 2025,  02:43 PM",
+    "question": "On the Nomination PN141-30",
+    "result": "Nomination Confirmed (53-45)",
+    "title": "Confirmation: Cheryl Mason, of North Carolina, to be Inspector General, Department of Veterans Affairs",
+    "issue": ""
+  },
+  {
+    "congress": 119,
+    "chamber": "senate",
+    "session": 1,
+    "roll_call": 472,
+    "date": "August 1, 2025,  04:28 PM",
+    "question": "On the Motion (Motion to Waive All Applicable Budgetary Points of Order Re: Merkley Amdt. No. 3114)",
+    "result": "Motion Rejected (44-51, 3/5 majority required)",
+    "title": "Motion to Waive All Applicable Budgetary Points of Order Re: Merkley Amdt. No. 3114",
+    "issue": ""
+  },
+  {
+    "congress": 119,
+    "chamber": "senate",
+    "session": 1,
+    "roll_call": 493,
+    "date": "August 2, 2025,  08:13 PM",
+    "question": "On the Cloture Motion PN12-26",
+    "result": "Cloture Motion Agreed to (76-19)",
+    "title": "Motion to Invoke Cloture: Luke Lindberg to be Under Secretary of Agriculture for Trade and Foreign Agricultural Affairs",
+    "issue": ""
+  },
+  {
+    "congress": 119,
+    "chamber": "senate",
+    "session": 1,
+    "roll_call": 494,
+    "date": "August 2, 2025,  08:25 PM",
+    "question": "On the Nomination PN12-26",
+    "result": "Nomination Confirmed (78-17)",
+    "title": " Confirmation: Luke Lindberg, of South Dakota, to be Under Secretary of Agriculture for Trade and Foreign Agricultural Affairs",
+    "issue": ""
+  },
+  {
+    "congress": 119,
+    "chamber": "senate",
+    "session": 1,
+    "roll_call": 601,
+    "date": "October 30, 2025,  01:35 PM",
+    "question": "On the Cloture Motion PN400-1",
+    "result": "Cloture Motion Agreed to (51-47)",
+    "title": "Motion to Invoke Cloture: Joshua D. Dunlap to be U.S. Circuit Judge for the First Circuit",
+    "issue": ""
+  },
+  {
+    "congress": 119,
+    "chamber": "senate",
+    "session": 1,
+    "roll_call": 604,
+    "date": "November 4, 2025,  02:16 PM",
+    "question": "On the Nomination PN400-1",
+    "result": "Nomination Confirmed (52-46)",
+    "title": "Confirmation: Joshua D. Dunlap, of Maine, to be U.S. Circuit Judge for the First Circuit",
+    "issue": ""
+  },
+  {
+    "congress": 119,
+    "chamber": "senate",
+    "session": 1,
+    "roll_call": 606,
+    "date": "November 5, 2025,  12:14 PM",
+    "question": "On the Cloture Motion PN25-37",
+    "result": "Cloture Motion Agreed to (57-41)",
+    "title": "Motion to Invoke Cloture: Caleb Orr to be an Assistant Secretary of State (Economic and Business Affairs)",
+    "issue": ""
+  },
+  {
+    "congress": 119,
+    "chamber": "senate",
+    "session": 1,
+    "roll_call": 607,
+    "date": "November 5, 2025,  02:09 PM",
+    "question": "On the Nomination PN25-37",
+    "result": "Nomination Confirmed (57-43)",
+    "title": "Confirmation: Caleb Orr, of Texas, to be an Assistant Secretary of State (Economic and Business Affairs)",
+    "issue": ""
+  },
+  {
+    "congress": 119,
+    "chamber": "senate",
+    "session": 2,
+    "roll_call": 19,
+    "date": "January 30, 2026,  06:03 PM",
+    "question": "On the Motion (Motion to Waive All Applicable Budgetary Discipline Re: Merkley Amdt. No. 4287)",
+    "result": "Motion Rejected (47-52, 3/5 majority required)",
+    "title": "Motion to Waive All Applicable Budgetary Discipline Re: Merkley Amdt. No. 4287",
+    "issue": ""
+  }
+]

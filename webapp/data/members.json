@@ -81,7 +81,10 @@
     "fec_pac_contributions": 1112299.44,
     "jfc_flag": false,
     "one_liner": "99% of Rep. Brendan Boyle (D-PA-02)'s itemized campaign funding comes from outside their district. Top outside employers: KIRKLAND & ELLIS, ROCKET COMPANIES, THE DASCHLE.",
-    "top_funder_agendas": "pro-Israel foreign policy, engages on defense, foreign aid appropriations, tax-advantaged financial planning products, advisor compensation"
+    "top_funder_agendas": "pro-Israel foreign policy, engages on defense, foreign aid appropriations, tax-advantaged financial planning products, advisor compensation",
+    "alignment_pct": 100,
+    "alignment_votes_total": 1,
+    "top_funding_sector": "Labor"
   },
   {
     "member_name": "Steven Horsford",
@@ -123,7 +126,10 @@
     "fec_pac_contributions": 2541047.83,
     "jfc_flag": false,
     "one_liner": "98% of Rep. Steven Horsford (D-NV-04)'s itemized campaign funding comes from outside their district. Top outside employers: BLACKSTONE, APOLLO GLOBAL, ANDREESSEN HOROWITZ.",
-    "top_funder_agendas": "pro-Israel foreign policy, engages on defense, foreign aid appropriations, favorable tax treatment of life insurance"
+    "top_funder_agendas": "pro-Israel foreign policy, engages on defense, foreign aid appropriations, favorable tax treatment of life insurance",
+    "alignment_pct": 100,
+    "alignment_votes_total": 1,
+    "top_funding_sector": "Labor"
   },
   {
     "member_name": "Linda Sanchez",
@@ -165,7 +171,10 @@
     "fec_pac_contributions": 1153570.08,
     "jfc_flag": false,
     "one_liner": "98% of Rep. Linda Sanchez (D-CA-38)'s itemized campaign funding comes from outside their district. Top outside employers: FULCRUM PUBLIC AFFAIRS, THORN RUN, CAPITOL COUNSEL.",
-    "top_funder_agendas": "pro-Israel foreign policy, engages on defense, foreign aid appropriations, Defends Low-Income Housing Tax Credit, depreciation"
+    "top_funder_agendas": "pro-Israel foreign policy, engages on defense, foreign aid appropriations, Defends Low-Income Housing Tax Credit, depreciation",
+    "alignment_pct": 0,
+    "alignment_votes_total": 2,
+    "top_funding_sector": "Finance & Insurance"
   },
   {
     "member_name": "Terri Sewell",
@@ -207,7 +216,10 @@
     "fec_pac_contributions": 2063873.95,
     "jfc_flag": false,
     "one_liner": "98% of Rep. Terri Sewell (D-AL-07)'s itemized campaign funding comes from outside their district. Top outside employers: CHARTER BROKERAGE, GRAIL, NHS.",
-    "top_funder_agendas": "pro-Israel foreign policy, engages on defense, foreign aid appropriations, federal employee benefits, retirement security, aviation"
+    "top_funder_agendas": "pro-Israel foreign policy, engages on defense, foreign aid appropriations, federal employee benefits, retirement security, aviation",
+    "alignment_pct": null,
+    "alignment_votes_total": 0,
+    "top_funding_sector": "Professional Services"
   },
   {
     "member_name": "Bernie Sanders",
@@ -249,7 +261,10 @@
     "fec_pac_contributions": 89133.06,
     "jfc_flag": false,
     "one_liner": "97% of Sen. Bernie Sanders (I-VT)'s itemized campaign funding comes from outside their state. Top outside employers: GOOGLE, TA INSTRUMENTS, APPLE.",
-    "top_funder_agendas": ""
+    "top_funder_agendas": "",
+    "alignment_pct": null,
+    "alignment_votes_total": 0,
+    "top_funding_sector": "Labor"
   },
   {
     "member_name": "Mike Crapo",
@@ -291,7 +306,10 @@
     "fec_pac_contributions": null,
     "jfc_flag": false,
     "one_liner": "97% of Sen. Mike Crapo (R-ID)'s itemized campaign funding comes from outside their state. Top outside employers: NEXTERA ENERGY, WINGED KEEL, NEXTERA.",
-    "top_funder_agendas": ""
+    "top_funder_agendas": "",
+    "alignment_pct": null,
+    "alignment_votes_total": 0,
+    "top_funding_sector": "Healthcare & Pharma"
   },
   {
     "member_name": "Jimmy Gomez",
@@ -333,7 +351,10 @@
     "fec_pac_contributions": 946153.34,
     "jfc_flag": false,
     "one_liner": "97% of Rep. Jimmy Gomez (D-CA-34)'s itemized campaign funding comes from outside their district. Top outside employers: CAPITAL, PISCES, NOT-EMPLOYED.",
-    "top_funder_agendas": "pro-Israel foreign policy, engages on defense, foreign aid appropriations, Defends mortgage interest deduction, 1031 exchanges"
+    "top_funder_agendas": "pro-Israel foreign policy, engages on defense, foreign aid appropriations, Defends mortgage interest deduction, 1031 exchanges",
+    "alignment_pct": 100,
+    "alignment_votes_total": 1,
+    "top_funding_sector": "Labor"
   },
   {
     "member_name": "Claudia Tenney",
@@ -375,7 +396,10 @@
     "fec_pac_contributions": 1202564.09,
     "jfc_flag": false,
     "one_liner": "96% of Rep. Claudia Tenney (R-NY-24)'s itemized campaign funding comes from outside their district. Top outside employers: WEXFORD CAPITAL, POLARIS, HUBBARD BROADCASTING.",
-    "top_funder_agendas": "pro-Israel foreign policy, engages on defense, foreign aid appropriations, tax treatment of mutual funds, capital"
+    "top_funder_agendas": "pro-Israel foreign policy, engages on defense, foreign aid appropriations, tax treatment of mutual funds, capital",
+    "alignment_pct": 100,
+    "alignment_votes_total": 2,
+    "top_funding_sector": "Finance & Insurance"
   },
   {
     "member_name": "Carol Miller",
@@ -417,7 +441,10 @@
     "fec_pac_contributions": 1143059.24,
     "jfc_flag": false,
     "one_liner": "96% of Rep. Carol Miller (R-WV-02)'s itemized campaign funding comes from outside their district. Top outside employers: SELECT MEDICAL, APEX PIPELINE, COLE AUTOMOTIVE.",
-    "top_funder_agendas": "pro-Israel foreign policy, engages on defense, foreign aid appropriations, REIT tax structure, pass-through deductions, commercial"
+    "top_funder_agendas": "pro-Israel foreign policy, engages on defense, foreign aid appropriations, REIT tax structure, pass-through deductions, commercial",
+    "alignment_pct": 100,
+    "alignment_votes_total": 2,
+    "top_funding_sector": "Real Estate & Housing"
   },
   {
     "member_name": "Steve Daines",
@@ -459,7 +486,10 @@
     "fec_pac_contributions": 693800,
     "jfc_flag": false,
     "one_liner": "95% of Sen. Steve Daines (R-MT)'s itemized campaign funding comes from outside their state. Top outside employers: APOLLO, FLORA FARMS, VETERANS GUARDIAN.",
-    "top_funder_agendas": "Defends Low-Income Housing Tax Credit, depreciation schedules, multifamily investment incentives, Influences tax policy through consulting"
+    "top_funder_agendas": "Defends Low-Income Housing Tax Credit, depreciation schedules, multifamily investment incentives, Influences tax policy through consulting",
+    "alignment_pct": null,
+    "alignment_votes_total": 0,
+    "top_funding_sector": "Professional Services"
   },
   {
     "member_name": "Richard Neal",
@@ -501,7 +531,10 @@
     "fec_pac_contributions": 2417922.31,
     "jfc_flag": false,
     "one_liner": "94% of Rep. Richard Neal (D-MA-01)'s itemized campaign funding comes from outside their district. Top outside employers: FIDELITY INVESTMENTS, BLACKSTONE, NFP.",
-    "top_funder_agendas": "media/telecom tax treatment, broadband investment incentives, content regulation, pro-Israel foreign policy, engages on defense, foreign"
+    "top_funder_agendas": "media/telecom tax treatment, broadband investment incentives, content regulation, pro-Israel foreign policy, engages on defense, foreign",
+    "alignment_pct": 100,
+    "alignment_votes_total": 2,
+    "top_funding_sector": "Finance & Insurance"
   },
   {
     "member_name": "Brian Fitzpatrick",
@@ -543,7 +576,10 @@
     "fec_pac_contributions": 2640117.62,
     "jfc_flag": false,
     "one_liner": "94% of Rep. Brian Fitzpatrick (R-PA-01)'s itemized campaign funding comes from outside their district. Top outside employers: BLACKSTONE, GREYLOCK, OAKTREE CAPITAL.",
-    "top_funder_agendas": "Defends credit union tax-exempt status, opposes efforts to tax credit union income, Defends mortgage interest"
+    "top_funder_agendas": "Defends credit union tax-exempt status, opposes efforts to tax credit union income, Defends mortgage interest",
+    "alignment_pct": 100,
+    "alignment_votes_total": 2,
+    "top_funding_sector": "Finance & Insurance"
   },
   {
     "member_name": "John Barrasso",
@@ -585,7 +621,10 @@
     "fec_pac_contributions": 2725370,
     "jfc_flag": false,
     "one_liner": "93% of Sen. John Barrasso (R-WY)'s itemized campaign funding comes from outside their state. Top outside employers: KKR, WCAS, CAPITOL COUNSEL.",
-    "top_funder_agendas": "pro-Israel foreign policy, engages on defense, foreign aid appropriations, physician tax incentives, Medicare reimbursement, healthcare"
+    "top_funder_agendas": "pro-Israel foreign policy, engages on defense, foreign aid appropriations, physician tax incentives, Medicare reimbursement, healthcare",
+    "alignment_pct": null,
+    "alignment_votes_total": 0,
+    "top_funding_sector": "Ideological"
   },
   {
     "member_name": "Max Miller",
@@ -627,7 +666,10 @@
     "fec_pac_contributions": 571316.57,
     "jfc_flag": false,
     "one_liner": "89% of Rep. Max Miller (R-OH-07)'s itemized campaign funding comes from outside their district. Top outside employers: APOLLO GLOBAL, THE NRP, APOLLO.",
-    "top_funder_agendas": "auto dealer pass-through deductions, LIFO accounting, vehicle tax credits, commercial insurance tax treatment, broker compensation"
+    "top_funder_agendas": "auto dealer pass-through deductions, LIFO accounting, vehicle tax credits, commercial insurance tax treatment, broker compensation",
+    "alignment_pct": 100,
+    "alignment_votes_total": 1,
+    "top_funding_sector": "Finance & Insurance"
   },
   {
     "member_name": "Jason Smith",
@@ -669,7 +711,10 @@
     "fec_pac_contributions": 3480068.13,
     "jfc_flag": false,
     "one_liner": "89% of Rep. Jason Smith (R-MO-08)'s itemized campaign funding comes from outside their district. Top outside employers: BLACKSTONE, HERZOG, TRIBE.",
-    "top_funder_agendas": "pro-Israel foreign policy, engages on defense, foreign aid appropriations, physician tax incentives, Medicare reimbursement, healthcare"
+    "top_funder_agendas": "pro-Israel foreign policy, engages on defense, foreign aid appropriations, physician tax incentives, Medicare reimbursement, healthcare",
+    "alignment_pct": 100,
+    "alignment_votes_total": 1,
+    "top_funding_sector": "Finance & Insurance"
   },
   {
     "member_name": "Catherine Cortez Masto",
@@ -711,7 +756,10 @@
     "fec_pac_contributions": 110020.34,
     "jfc_flag": false,
     "one_liner": "89% of Sen. Catherine Cortez Masto (D-NV)'s itemized campaign funding comes from outside their state. Top outside employers: DISABILITY PLANNERS, PORTER, THE PACIFIC COMPANIES.",
-    "top_funder_agendas": "lower corporate tax rates, pass-through deductions, trade policy on imported goods, tax-advantaged employer-sponsored benefits, insurance"
+    "top_funder_agendas": "lower corporate tax rates, pass-through deductions, trade policy on imported goods, tax-advantaged employer-sponsored benefits, insurance",
+    "alignment_pct": null,
+    "alignment_votes_total": 0,
+    "top_funding_sector": "Healthcare & Pharma"
   },
   {
     "member_name": "Danny Davis",
@@ -753,7 +801,10 @@
     "fec_pac_contributions": 448612.85,
     "jfc_flag": false,
     "one_liner": "88% of Rep. Danny Davis (D-IL-07)'s itemized campaign funding comes from outside their district. Top outside employers: ROSCOE, DAMRON, PRIVATE PRACTICE.",
-    "top_funder_agendas": "Defends mortgage interest deduction, 1031 exchanges, capital gains treatment of home sales, REIT tax structure"
+    "top_funder_agendas": "Defends mortgage interest deduction, 1031 exchanges, capital gains treatment of home sales, REIT tax structure",
+    "alignment_pct": 100,
+    "alignment_votes_total": 1,
+    "top_funding_sector": "Real Estate & Housing"
   },
   {
     "member_name": "Raphael Warnock",
@@ -795,7 +846,10 @@
     "fec_pac_contributions": 87316.93,
     "jfc_flag": false,
     "one_liner": "86% of Sen. Raphael Warnock (D-GA)'s itemized campaign funding comes from outside their state. Top outside employers: DAVITA, GOOGLE, GLOBAL GREEN USA.",
-    "top_funder_agendas": "favorable tax treatment of life insurance products, estate tax repeal, retirement savings incentives, favorable tax"
+    "top_funder_agendas": "favorable tax treatment of life insurance products, estate tax repeal, retirement savings incentives, favorable tax",
+    "alignment_pct": null,
+    "alignment_votes_total": 0,
+    "top_funding_sector": "Finance & Insurance"
   },
   {
     "member_name": "Vern Buchanan",
@@ -837,7 +891,10 @@
     "fec_pac_contributions": 1234600,
     "jfc_flag": false,
     "one_liner": "85% of Rep. Vern Buchanan (R-FL-16)'s itemized campaign funding comes from outside their district. Top outside employers: DERICK DERMATOLOGY, BLACKSTONE, CAPITOL COUNSEL.",
-    "top_funder_agendas": "pro-Israel foreign policy, engages on defense, foreign aid appropriations, physician tax incentives, Medicare reimbursement, healthcare"
+    "top_funder_agendas": "pro-Israel foreign policy, engages on defense, foreign aid appropriations, physician tax incentives, Medicare reimbursement, healthcare",
+    "alignment_pct": 100,
+    "alignment_votes_total": 2,
+    "top_funding_sector": "Healthcare & Pharma"
   },
   {
     "member_name": "Jimmy Panetta",
@@ -879,7 +936,10 @@
     "fec_pac_contributions": 1770648.82,
     "jfc_flag": false,
     "one_liner": "85% of Rep. Jimmy Panetta (D-CA-19)'s itemized campaign funding comes from outside their district. Top outside employers: NFP, APOLLO GLOBAL, ROCKET CENTRAL.",
-    "top_funder_agendas": "pro-Israel foreign policy, engages on defense, foreign aid appropriations, physician tax incentives, Medicare reimbursement, healthcare"
+    "top_funder_agendas": "pro-Israel foreign policy, engages on defense, foreign aid appropriations, physician tax incentives, Medicare reimbursement, healthcare",
+    "alignment_pct": 100,
+    "alignment_votes_total": 1,
+    "top_funding_sector": "Healthcare & Pharma"
   },
   {
     "member_name": "Rudy Yakym",
@@ -921,7 +981,10 @@
     "fec_pac_contributions": 730897.16,
     "jfc_flag": false,
     "one_liner": "85% of Rep. Rudy Yakym (R-IN-02)'s itemized campaign funding comes from outside their district. Top outside employers: DARYLE DODEN PERSONAL FINANCES, KIRKLAND & ELLIS, FDC GRAPHIC FILMS.",
-    "top_funder_agendas": "pro-Israel foreign policy, engages on defense, foreign aid appropriations, dental practice deductions, opposes cuts to"
+    "top_funder_agendas": "pro-Israel foreign policy, engages on defense, foreign aid appropriations, dental practice deductions, opposes cuts to",
+    "alignment_pct": 100,
+    "alignment_votes_total": 2,
+    "top_funding_sector": "Healthcare & Pharma"
   },
   {
     "member_name": "Maggie Hassan",
@@ -963,7 +1026,10 @@
     "fec_pac_contributions": null,
     "jfc_flag": false,
     "one_liner": "84% of Sen. Maggie Hassan (D-NH)'s itemized campaign funding comes from outside their state. Top outside employers: ELEVANCE HEALTH, AXXESS, NHS.",
-    "top_funder_agendas": "favorable tax treatment of life insurance products, estate tax repeal, retirement savings incentives"
+    "top_funder_agendas": "favorable tax treatment of life insurance products, estate tax repeal, retirement savings incentives",
+    "alignment_pct": null,
+    "alignment_votes_total": 0,
+    "top_funding_sector": "Labor"
   },
   {
     "member_name": "Randy Feenstra",
@@ -1005,7 +1071,10 @@
     "fec_pac_contributions": null,
     "jfc_flag": false,
     "one_liner": "83% of Rep. Randy Feenstra (R-IA-04)'s itemized campaign funding comes from outside their district. Top outside employers: MARQUIS, BGR, DOLL DISTRIBUTING.",
-    "top_funder_agendas": "Defends mortgage interest deduction, 1031 exchanges, capital gains treatment of home sales, pro-Israel foreign policy"
+    "top_funder_agendas": "Defends mortgage interest deduction, 1031 exchanges, capital gains treatment of home sales, pro-Israel foreign policy",
+    "alignment_pct": 100,
+    "alignment_votes_total": 1,
+    "top_funding_sector": "Real Estate & Housing"
   },
   {
     "member_name": "Gwen Moore",
@@ -1047,7 +1116,10 @@
     "fec_pac_contributions": 953512.21,
     "jfc_flag": false,
     "one_liner": "82% of Rep. Gwen Moore (D-WI-04)'s itemized campaign funding comes from outside their district. Top outside employers: APOLLO, INVARIANT, LEM SETTLEMENT.",
-    "top_funder_agendas": "Shapes tax code complexity, accounting standards, advocates for pass-through business deductions, lower corporate tax rates"
+    "top_funder_agendas": "Shapes tax code complexity, accounting standards, advocates for pass-through business deductions, lower corporate tax rates",
+    "alignment_pct": 0,
+    "alignment_votes_total": 1,
+    "top_funding_sector": "Finance & Insurance"
   },
   {
     "member_name": "Nicole Malliotakis",
@@ -1089,7 +1161,10 @@
     "fec_pac_contributions": 1265691.12,
     "jfc_flag": false,
     "one_liner": "82% of Rep. Nicole Malliotakis (R-NY-11)'s itemized campaign funding comes from outside their district. Top outside employers: WCAS, BLACKSTONE, APOLLO GLOBAL.",
-    "top_funder_agendas": "pro-Israel foreign policy, engages on defense, foreign aid appropriations, Shapes tax code complexity, accounting standards"
+    "top_funder_agendas": "pro-Israel foreign policy, engages on defense, foreign aid appropriations, Shapes tax code complexity, accounting standards",
+    "alignment_pct": 100,
+    "alignment_votes_total": 2,
+    "top_funding_sector": "Finance & Insurance"
   },
   {
     "member_name": "Bill Cassidy",
@@ -1131,7 +1206,10 @@
     "fec_pac_contributions": null,
     "jfc_flag": false,
     "one_liner": "81% of Sen. Bill Cassidy (R-LA)'s itemized campaign funding comes from outside their state. Top outside employers: DAVITA, ANDREESSEN HOROWITZ, TEXAS ONCOLOGY.",
-    "top_funder_agendas": "EV tax credit policies, manufacturing investment incentives, trade tariff adjustments"
+    "top_funder_agendas": "EV tax credit policies, manufacturing investment incentives, trade tariff adjustments",
+    "alignment_pct": null,
+    "alignment_votes_total": 0,
+    "top_funding_sector": "Energy & Utilities"
   },
   {
     "member_name": "Adrian Smith",
@@ -1173,7 +1251,10 @@
     "fec_pac_contributions": 1457609.26,
     "jfc_flag": false,
     "one_liner": "81% of Rep. Adrian Smith (R-NE-03)'s itemized campaign funding comes from outside their district. Top outside employers: HAWKINS CONSTRUCTION, SANDHILLS PUBLISHING, OAKLAND ATHLETICS.",
-    "top_funder_agendas": "Defends mortgage interest deduction, 1031 exchanges, capital gains treatment of home sales, pro-Israel foreign policy"
+    "top_funder_agendas": "Defends mortgage interest deduction, 1031 exchanges, capital gains treatment of home sales, pro-Israel foreign policy",
+    "alignment_pct": 100,
+    "alignment_votes_total": 2,
+    "top_funding_sector": "Finance & Insurance"
   },
   {
     "member_name": "Michelle Fischbach",
@@ -1215,7 +1296,10 @@
     "fec_pac_contributions": 1064450,
     "jfc_flag": false,
     "one_liner": "80% of Rep. Michelle Fischbach (R-MN-07)'s itemized campaign funding comes from outside their district. Top outside employers: MARQUIS, KING CAPITAL, STARKEY HEARING.",
-    "top_funder_agendas": "Defends mortgage interest deduction, 1031 exchanges, capital gains treatment of home sales, pro-Israel foreign policy"
+    "top_funder_agendas": "Defends mortgage interest deduction, 1031 exchanges, capital gains treatment of home sales, pro-Israel foreign policy",
+    "alignment_pct": 100,
+    "alignment_votes_total": 1,
+    "top_funding_sector": "Real Estate & Housing"
   },
   {
     "member_name": "Ben Ray Lujan",
@@ -1257,7 +1341,10 @@
     "fec_pac_contributions": 267540,
     "jfc_flag": false,
     "one_liner": "80% of Sen. Ben Ray Lujan (D-NM)'s itemized campaign funding comes from outside their state. Top outside employers: GARCIA HAMILTON &, CHARTER COMMUNICATIONS, ANDREESSEN HOROWITZ.",
-    "top_funder_agendas": "federal employee benefits, retirement security, aviation infrastructure funding"
+    "top_funder_agendas": "federal employee benefits, retirement security, aviation infrastructure funding",
+    "alignment_pct": null,
+    "alignment_votes_total": 0,
+    "top_funding_sector": "Healthcare & Pharma"
   },
   {
     "member_name": "Peter Welch",
@@ -1299,7 +1386,10 @@
     "fec_pac_contributions": 43110,
     "jfc_flag": false,
     "one_liner": "79% of Sen. Peter Welch (D-VT)'s itemized campaign funding comes from outside their state. Top outside employers: THE OLD MOUNTAIN, WEST FRONT STRATEGIES, WMC HOLDINGSINC.",
-    "top_funder_agendas": "physician reimbursement, opposes Medicare payment cuts for ophthalmology, federal employee benefits, retirement security, aviation infrastructure"
+    "top_funder_agendas": "physician reimbursement, opposes Medicare payment cuts for ophthalmology, federal employee benefits, retirement security, aviation infrastructure",
+    "alignment_pct": null,
+    "alignment_votes_total": 0,
+    "top_funding_sector": "Labor"
   },
   {
     "member_name": "Kevin Hern",
@@ -1341,7 +1431,10 @@
     "fec_pac_contributions": 1520963.93,
     "jfc_flag": false,
     "one_liner": "78% of Rep. Kevin Hern (R-OK-01)'s itemized campaign funding comes from outside their district. Top outside employers: CAPITOL TAX, BLACKSTONE, APOLLO GLOBAL.",
-    "top_funder_agendas": "pro-Israel foreign policy, engages on defense, foreign aid appropriations, excise tax increases on beer, supports"
+    "top_funder_agendas": "pro-Israel foreign policy, engages on defense, foreign aid appropriations, excise tax increases on beer, supports",
+    "alignment_pct": 100,
+    "alignment_votes_total": 2,
+    "top_funding_sector": "Healthcare & Pharma"
   },
   {
     "member_name": "Lloyd Smucker",
@@ -1383,7 +1476,10 @@
     "fec_pac_contributions": 1052021.8,
     "jfc_flag": false,
     "one_liner": "78% of Rep. Lloyd Smucker (R-PA-11)'s itemized campaign funding comes from outside their district. Top outside employers: BLACKSTONE, LEM SETTLEMENT, SEAN N PARKER FOUNDATION.",
-    "top_funder_agendas": "pro-Israel foreign policy, engages on defense, foreign aid appropriations, cuts to Medicare reimbursements, seeks tax-exempt"
+    "top_funder_agendas": "pro-Israel foreign policy, engages on defense, foreign aid appropriations, cuts to Medicare reimbursements, seeks tax-exempt",
+    "alignment_pct": 100,
+    "alignment_votes_total": 2,
+    "top_funding_sector": "Finance & Insurance"
   },
   {
     "member_name": "Ron Johnson",
@@ -1425,7 +1521,10 @@
     "fec_pac_contributions": 36000,
     "jfc_flag": false,
     "one_liner": "77% of Sen. Ron Johnson (R-WI)'s itemized campaign funding comes from outside their state. Top outside employers: ENTREPRENEUR, SO CAL LANDSCAPE, NALLC.",
-    "top_funder_agendas": "Republican online fundraising platform, processes contributions from conservative donors, cuts to Medicare reimbursements, seeks tax-exempt"
+    "top_funder_agendas": "Republican online fundraising platform, processes contributions from conservative donors, cuts to Medicare reimbursements, seeks tax-exempt",
+    "alignment_pct": null,
+    "alignment_votes_total": 0,
+    "top_funding_sector": "Labor"
   },
   {
     "member_name": "Sheldon Whitehouse",
@@ -1467,7 +1566,10 @@
     "fec_pac_contributions": 738285,
     "jfc_flag": false,
     "one_liner": "77% of Sen. Sheldon Whitehouse (D-RI)'s itemized campaign funding comes from outside their state. Top outside employers: JANE STREET CAPITAL, KOREIN TILLERY, CLIFFORD LAW OFFICES.",
-    "top_funder_agendas": "pro-Israel foreign policy, engages on defense, foreign aid appropriations, Shapes tax code complexity, accounting standards"
+    "top_funder_agendas": "pro-Israel foreign policy, engages on defense, foreign aid appropriations, Shapes tax code complexity, accounting standards",
+    "alignment_pct": null,
+    "alignment_votes_total": 0,
+    "top_funding_sector": "Ideological"
   },
   {
     "member_name": "Tim Scott",
@@ -1509,7 +1611,10 @@
     "fec_pac_contributions": 730400,
     "jfc_flag": false,
     "one_liner": "77% of Sen. Tim Scott (R-SC)'s itemized campaign funding comes from outside their state. Top outside employers: GOLDMAN SACHS, COINBASE, ENTREPRENEUR.",
-    "top_funder_agendas": "tax treatment of mutual funds, capital gains rates, retirement savings vehicles, Shapes tax code through"
+    "top_funder_agendas": "tax treatment of mutual funds, capital gains rates, retirement savings vehicles, Shapes tax code through",
+    "alignment_pct": null,
+    "alignment_votes_total": 0,
+    "top_funding_sector": "Finance & Insurance"
   },
   {
     "member_name": "Suzan DelBene",
@@ -1551,7 +1656,10 @@
     "fec_pac_contributions": 1805850,
     "jfc_flag": false,
     "one_liner": "76% of Rep. Suzan DelBene (D-WA-01)'s itemized campaign funding comes from outside their district. Top outside employers: GOOGLE, AMAZON, SANA BIOTECHNOLOGY.",
-    "top_funder_agendas": "federal employee benefits, retirement security, aviation infrastructure funding, pro-Israel foreign policy, engages on defense, foreign"
+    "top_funder_agendas": "federal employee benefits, retirement security, aviation infrastructure funding, pro-Israel foreign policy, engages on defense, foreign",
+    "alignment_pct": 100,
+    "alignment_votes_total": 1,
+    "top_funding_sector": "Labor"
   },
   {
     "member_name": "Thom Tillis",
@@ -1593,7 +1701,10 @@
     "fec_pac_contributions": 1053189.98,
     "jfc_flag": false,
     "one_liner": "76% of Sen. Thom Tillis (R-NC)'s itemized campaign funding comes from outside their state. Top outside employers: BLACKSTONE, METLIFE, WCAS.",
-    "top_funder_agendas": "lower corporate tax rates, pass-through deductions, trade policy on imported goods"
+    "top_funder_agendas": "lower corporate tax rates, pass-through deductions, trade policy on imported goods",
+    "alignment_pct": null,
+    "alignment_votes_total": 0,
+    "top_funding_sector": "Labor"
   },
   {
     "member_name": "Darin LaHood",
@@ -1635,7 +1746,10 @@
     "fec_pac_contributions": 2139954.83,
     "jfc_flag": false,
     "one_liner": "75% of Rep. Darin LaHood (R-IL-16)'s itemized campaign funding comes from outside their district. Top outside employers: BGR, APOLLO GLOBAL, RII.",
-    "top_funder_agendas": "pro-Israel foreign policy, engages on defense, foreign aid appropriations, retirement savings tax policy, pension regulation"
+    "top_funder_agendas": "pro-Israel foreign policy, engages on defense, foreign aid appropriations, retirement savings tax policy, pension regulation",
+    "alignment_pct": 100,
+    "alignment_votes_total": 1,
+    "top_funding_sector": "Finance & Insurance"
   },
   {
     "member_name": "Thomas Suozzi",
@@ -1677,7 +1791,10 @@
     "fec_pac_contributions": 1863507.24,
     "jfc_flag": false,
     "one_liner": "75% of Rep. Thomas Suozzi (D-NY-03)'s itemized campaign funding comes from outside their district. Top outside employers: PAUL WEISS RIFKIND WHARTON & GARRISON, TEITLER & TEITLER, GEHRY.",
-    "top_funder_agendas": "Defends mortgage interest deduction, 1031 exchanges, capital gains treatment of home sales"
+    "top_funder_agendas": "Defends mortgage interest deduction, 1031 exchanges, capital gains treatment of home sales",
+    "alignment_pct": null,
+    "alignment_votes_total": 0,
+    "top_funding_sector": "Labor"
   },
   {
     "member_name": "Mike Kelly",
@@ -1719,7 +1836,10 @@
     "fec_pac_contributions": null,
     "jfc_flag": false,
     "one_liner": "75% of Rep. Mike Kelly (R-PA-16)'s itemized campaign funding comes from outside their district. Top outside employers: THE PARKER FOUNDATION, GREATER PITTSBURGH AUTO DEALERS ASSOCI, O'BRIEN AUTOMOTIVE TEAM.",
-    "top_funder_agendas": "auto dealer pass-through deductions, LIFO accounting, vehicle tax credits, excise tax increases on beer, supports"
+    "top_funder_agendas": "auto dealer pass-through deductions, LIFO accounting, vehicle tax credits, excise tax increases on beer, supports",
+    "alignment_pct": 100,
+    "alignment_votes_total": 1,
+    "top_funding_sector": "Healthcare & Pharma"
   },
   {
     "member_name": "Elizabeth Warren",
@@ -1761,7 +1881,10 @@
     "fec_pac_contributions": 59800,
     "jfc_flag": false,
     "one_liner": "74% of Sen. Elizabeth Warren (D-MA)'s itemized campaign funding comes from outside their state. Top outside employers: MCARTHURGLEN, SOROS FUND, MERITAGE.",
-    "top_funder_agendas": ""
+    "top_funder_agendas": "",
+    "alignment_pct": null,
+    "alignment_votes_total": 0,
+    "top_funding_sector": "Labor"
   },
   {
     "member_name": "Lloyd Doggett",
@@ -1803,7 +1926,10 @@
     "fec_pac_contributions": 450449.65,
     "jfc_flag": false,
     "one_liner": "74% of Rep. Lloyd Doggett (D-TX-37)'s itemized campaign funding comes from outside their district. Top outside employers: DCP360, BROPHY & DEVANEY, SLACK DAVIS SANGER.",
-    "top_funder_agendas": "dental practice deductions, opposes cuts to dental reimbursement, tax treatment of insurance, financial advisor compensation"
+    "top_funder_agendas": "dental practice deductions, opposes cuts to dental reimbursement, tax treatment of insurance, financial advisor compensation",
+    "alignment_pct": 0,
+    "alignment_votes_total": 1,
+    "top_funding_sector": "Labor"
   },
   {
     "member_name": "Todd Young",
@@ -1845,7 +1971,10 @@
     "fec_pac_contributions": 330350,
     "jfc_flag": false,
     "one_liner": "74% of Sen. Todd Young (R-IN)'s itemized campaign funding comes from outside their state. Top outside employers: ANDREESSEN HOROWITZ, SAGESURE, HHQ VENTURES.",
-    "top_funder_agendas": ""
+    "top_funder_agendas": "",
+    "alignment_pct": null,
+    "alignment_votes_total": 0,
+    "top_funding_sector": "Healthcare & Pharma"
   },
   {
     "member_name": "Jodey Arrington",
@@ -1887,7 +2016,10 @@
     "fec_pac_contributions": 1566090.7,
     "jfc_flag": false,
     "one_liner": "73% of Rep. Jodey Arrington (R-TX-19)'s itemized campaign funding comes from outside their district. Top outside employers: GRAIL, INTERSECT POWER, WINGED KEEL.",
-    "top_funder_agendas": "Defends mortgage interest deduction, 1031 exchanges, capital gains treatment of home sales, favorable capital gains"
+    "top_funder_agendas": "Defends mortgage interest deduction, 1031 exchanges, capital gains treatment of home sales, favorable capital gains",
+    "alignment_pct": 100,
+    "alignment_votes_total": 2,
+    "top_funding_sector": "Real Estate & Housing"
   },
   {
     "member_name": "Mike Carey",
@@ -1929,7 +2061,10 @@
     "fec_pac_contributions": 1563750,
     "jfc_flag": false,
     "one_liner": "71% of Rep. Mike Carey (R-OH-15)'s itemized campaign funding comes from outside their district. Top outside employers: DCI, CAPITOL TAX, LAGOS & LAGOS.",
-    "top_funder_agendas": "favorable capital gains rates, international banking tax rules, financial services regulation, Defends Low-Income Housing Tax"
+    "top_funder_agendas": "favorable capital gains rates, international banking tax rules, financial services regulation, Defends Low-Income Housing Tax",
+    "alignment_pct": 100,
+    "alignment_votes_total": 2,
+    "top_funding_sector": "Finance & Insurance"
   },
   {
     "member_name": "Greg Steube",
@@ -1971,7 +2106,10 @@
     "fec_pac_contributions": 749000,
     "jfc_flag": false,
     "one_liner": "71% of Rep. Greg Steube (R-FL-17)'s itemized campaign funding comes from outside their district. Top outside employers: STEPHENS, DOUGLAS JEEP CHRYSLER DODGE RAM, CULLINAN PROPERTIES.",
-    "top_funder_agendas": "pro-Israel foreign policy, engages on defense, foreign aid appropriations, infrastructure tax incentives, bonus depreciation, pass-through"
+    "top_funder_agendas": "pro-Israel foreign policy, engages on defense, foreign aid appropriations, infrastructure tax incentives, bonus depreciation, pass-through",
+    "alignment_pct": 100,
+    "alignment_votes_total": 3,
+    "top_funding_sector": "Finance & Insurance"
   },
   {
     "member_name": "Don Beyer",
@@ -2013,7 +2151,10 @@
     "fec_pac_contributions": 797590,
     "jfc_flag": false,
     "one_liner": "68% of Rep. Don Beyer (D-VA-08)'s itemized campaign funding comes from outside their district. Top outside employers: PLANET SUBARU, AKIN GUMP STRAUSS HAUER & FELD, MORINO VENTURES.",
-    "top_funder_agendas": "Influences tax policy through consulting services, supports favorable partnership taxation, favorable capital gains rates, international"
+    "top_funder_agendas": "Influences tax policy through consulting services, supports favorable partnership taxation, favorable capital gains rates, international",
+    "alignment_pct": 100,
+    "alignment_votes_total": 1,
+    "top_funding_sector": "Defense & Aerospace"
   },
   {
     "member_name": "John Thune",
@@ -2055,7 +2196,10 @@
     "fec_pac_contributions": 555700,
     "jfc_flag": false,
     "one_liner": "68% of Sen. John Thune (R-SD)'s itemized campaign funding comes from outside their state. Top outside employers: MARQUIS, BLACKSTONE, HDR ENGINEERING.",
-    "top_funder_agendas": "EV tax credit policies, manufacturing investment incentives, trade tariff adjustments, tech equipment depreciation, R&D tax"
+    "top_funder_agendas": "EV tax credit policies, manufacturing investment incentives, trade tariff adjustments, tech equipment depreciation, R&D tax",
+    "alignment_pct": null,
+    "alignment_votes_total": 0,
+    "top_funding_sector": "Retail & Consumer"
   },
   {
     "member_name": "Chuck Grassley",
@@ -2097,7 +2241,10 @@
     "fec_pac_contributions": null,
     "jfc_flag": false,
     "one_liner": "67% of Sen. Chuck Grassley (R-IA)'s itemized campaign funding comes from outside their state. Top outside employers: BLACKSTONE, ARVIG ENTERPRISES, PECK ENT.",
-    "top_funder_agendas": "EV tax credit policies, manufacturing investment incentives, trade tariff adjustments"
+    "top_funder_agendas": "EV tax credit policies, manufacturing investment incentives, trade tariff adjustments",
+    "alignment_pct": null,
+    "alignment_votes_total": 0,
+    "top_funding_sector": "Labor"
   },
   {
     "member_name": "Ron Estes",
@@ -2139,7 +2286,10 @@
     "fec_pac_contributions": 1326524.13,
     "jfc_flag": false,
     "one_liner": "66% of Rep. Ron Estes (R-KS-04)'s itemized campaign funding comes from outside their district. Top outside employers: CAPITOL TAX, TRANSYSTEMS, ASH BROKERAGE.",
-    "top_funder_agendas": "pro-Israel foreign policy, engages on defense, foreign aid appropriations, Defends mortgage interest deduction, 1031 exchanges"
+    "top_funder_agendas": "pro-Israel foreign policy, engages on defense, foreign aid appropriations, Defends mortgage interest deduction, 1031 exchanges",
+    "alignment_pct": 100,
+    "alignment_votes_total": 2,
+    "top_funding_sector": "Healthcare & Pharma"
   },
   {
     "member_name": "Beth Van Duyne",
@@ -2181,7 +2331,10 @@
     "fec_pac_contributions": null,
     "jfc_flag": false,
     "one_liner": "65% of Rep. Beth Van Duyne (R-TX-24)'s itemized campaign funding comes from outside their district. Top outside employers: BLACKSTONE, CITADEL, SEAN N PARKER FOUNDATION.",
-    "top_funder_agendas": "Defends mortgage interest deduction, 1031 exchanges, capital gains treatment of home sales, pro-Israel foreign policy"
+    "top_funder_agendas": "Defends mortgage interest deduction, 1031 exchanges, capital gains treatment of home sales, pro-Israel foreign policy",
+    "alignment_pct": 100,
+    "alignment_votes_total": 1,
+    "top_funding_sector": "Real Estate & Housing"
   },
   {
     "member_name": "James Lankford",
@@ -2223,7 +2376,10 @@
     "fec_pac_contributions": 351050,
     "jfc_flag": false,
     "one_liner": "65% of Sen. James Lankford (R-OK)'s itemized campaign funding comes from outside their state. Top outside employers: APOLLO GLOBAL, APOLLO, CAROLYN ROWAN COLLECTION.",
-    "top_funder_agendas": "tech equipment depreciation, R&D tax credits, international tax reform, favorable tax treatment of life insurance"
+    "top_funder_agendas": "tech equipment depreciation, R&D tax credits, international tax reform, favorable tax treatment of life insurance",
+    "alignment_pct": null,
+    "alignment_votes_total": 0,
+    "top_funding_sector": "Finance & Insurance"
   },
   {
     "member_name": "Judy Chu",
@@ -2265,7 +2421,10 @@
     "fec_pac_contributions": 721700,
     "jfc_flag": false,
     "one_liner": "64% of Rep. Judy Chu (D-CA-28)'s itemized campaign funding comes from outside their district. Top outside employers: EDI MEDIA, APEX GLOBAL GROUPS, SEVILLE CLASSICS.",
-    "top_funder_agendas": "media/telecom tax treatment, broadband investment incentives, content regulation, Defends mortgage interest deduction, 1031 exchanges, capital"
+    "top_funder_agendas": "media/telecom tax treatment, broadband investment incentives, content regulation, Defends mortgage interest deduction, 1031 exchanges, capital",
+    "alignment_pct": 100,
+    "alignment_votes_total": 2,
+    "top_funding_sector": "Labor"
   },
   {
     "member_name": "Roger Marshall",
@@ -2307,7 +2466,10 @@
     "fec_pac_contributions": null,
     "jfc_flag": false,
     "one_liner": "64% of Sen. Roger Marshall (R-KS)'s itemized campaign funding comes from outside their state. Top outside employers: PYRAMID SOUND, PLEXUS CAPITAL, ECCO SELECT.",
-    "top_funder_agendas": "commercial insurance tax treatment, broker compensation rules, optometrist reimbursement, vision care tax deductions"
+    "top_funder_agendas": "commercial insurance tax treatment, broker compensation rules, optometrist reimbursement, vision care tax deductions",
+    "alignment_pct": null,
+    "alignment_votes_total": 0,
+    "top_funding_sector": "Finance & Insurance"
   },
   {
     "member_name": "Mark Warner",
@@ -2349,7 +2511,10 @@
     "fec_pac_contributions": 710700,
     "jfc_flag": false,
     "one_liner": "62% of Sen. Mark Warner (D-VA)'s itemized campaign funding comes from outside their state. Top outside employers: CAPITAL, BLACKROCK, APOLLO GLOBAL.",
-    "top_funder_agendas": "capital markets tax treatment, carried interest rules, securities regulation, favorable capital gains rates, wealth management"
+    "top_funder_agendas": "capital markets tax treatment, carried interest rules, securities regulation, favorable capital gains rates, wealth management",
+    "alignment_pct": null,
+    "alignment_votes_total": 0,
+    "top_funding_sector": "Finance & Insurance"
   },
   {
     "member_name": "Maria Cantwell",
@@ -2391,7 +2556,10 @@
     "fec_pac_contributions": 76800,
     "jfc_flag": false,
     "one_liner": "62% of Sen. Maria Cantwell (D-WA)'s itemized campaign funding comes from outside their state. Top outside employers: ROYAL CARIBBEAN, DELTA AIR LINES, UNITED AIRLINES.",
-    "top_funder_agendas": "physician reimbursement, anesthesiology practice tax incentives"
+    "top_funder_agendas": "physician reimbursement, anesthesiology practice tax incentives",
+    "alignment_pct": null,
+    "alignment_votes_total": 0,
+    "top_funding_sector": "Labor"
   },
   {
     "member_name": "Ron Wyden",
@@ -2433,7 +2601,10 @@
     "fec_pac_contributions": 309350,
     "jfc_flag": false,
     "one_liner": "61% of Sen. Ron Wyden (D-OR)'s itemized campaign funding comes from outside their state. Top outside employers: ARNOLD VENTURES, ROCKET CENTRAL, ANDREESSEN HOROWITZ.",
-    "top_funder_agendas": "property casualty insurance tax treatment, catastrophe reserve deductions"
+    "top_funder_agendas": "property casualty insurance tax treatment, catastrophe reserve deductions",
+    "alignment_pct": null,
+    "alignment_votes_total": 0,
+    "top_funding_sector": "Finance & Insurance"
   },
   {
     "member_name": "Marsha Blackburn",
@@ -2475,7 +2646,10 @@
     "fec_pac_contributions": 2143308.88,
     "jfc_flag": false,
     "one_liner": "61% of Sen. Marsha Blackburn (R-TN)'s itemized campaign funding comes from outside their state. Top outside employers: RDV, DAVITA, APOLLO.",
-    "top_funder_agendas": "cuts to Medicare reimbursements, seeks tax-exempt bond financing for hospital construction, pro-Israel foreign policy, engages"
+    "top_funder_agendas": "cuts to Medicare reimbursements, seeks tax-exempt bond financing for hospital construction, pro-Israel foreign policy, engages",
+    "alignment_pct": null,
+    "alignment_votes_total": 0,
+    "top_funding_sector": "Healthcare & Pharma"
   },
   {
     "member_name": "Greg Murphy",
@@ -2517,7 +2691,10 @@
     "fec_pac_contributions": 872700,
     "jfc_flag": false,
     "one_liner": "60% of Rep. Greg Murphy (R-NC-03)'s itemized campaign funding comes from outside their district. Top outside employers: ALG SENIOR, UROLOGY OF NORTH TEXAS, OCEANS HEALTHCARE.",
-    "top_funder_agendas": "Defends mortgage interest deduction, 1031 exchanges, capital gains treatment of home sales, Shapes tax code"
+    "top_funder_agendas": "Defends mortgage interest deduction, 1031 exchanges, capital gains treatment of home sales, Shapes tax code",
+    "alignment_pct": 100,
+    "alignment_votes_total": 2,
+    "top_funding_sector": "Real Estate & Housing"
   },
   {
     "member_name": "Blake Moore",
@@ -2559,7 +2736,10 @@
     "fec_pac_contributions": 1467000,
     "jfc_flag": false,
     "one_liner": "60% of Rep. Blake Moore (R-UT-01)'s itemized campaign funding comes from outside their district. Top outside employers: DOTERRA, APERCEN, ES3.",
-    "top_funder_agendas": "tech equipment depreciation, R&D tax credits, international tax reform, excise tax increases on beer, supports"
+    "top_funder_agendas": "tech equipment depreciation, R&D tax credits, international tax reform, excise tax increases on beer, supports",
+    "alignment_pct": 100,
+    "alignment_votes_total": 2,
+    "top_funding_sector": "Finance & Insurance"
   },
   {
     "member_name": "Mike Thompson",
@@ -2601,7 +2781,10 @@
     "fec_pac_contributions": 1493286,
     "jfc_flag": false,
     "one_liner": "60% of Rep. Mike Thompson (D-CA-04)'s itemized campaign funding comes from outside their district. Top outside employers: TRINCHERO FAMILY ESTATES, NORTHWESTERN MUTUAL, PISCES.",
-    "top_funder_agendas": "physician tax incentives, Medicare reimbursement, healthcare tax deductions, Defends Low-Income Housing Tax Credit, depreciation schedules"
+    "top_funder_agendas": "physician tax incentives, Medicare reimbursement, healthcare tax deductions, Defends Low-Income Housing Tax Credit, depreciation schedules",
+    "alignment_pct": 100,
+    "alignment_votes_total": 1,
+    "top_funding_sector": "Real Estate & Housing"
   },
   {
     "member_name": "David Schweikert",
@@ -2643,7 +2826,10 @@
     "fec_pac_contributions": 1568134.77,
     "jfc_flag": false,
     "one_liner": "54% of Rep. David Schweikert (R-AZ-01)'s itemized campaign funding comes from outside their district. Top outside employers: VETERANS GUARDIANS, CAPITOL COUNSEL, OPTIMA FINANCIAL.",
-    "top_funder_agendas": "pro-Israel foreign policy, engages on defense, foreign aid appropriations"
+    "top_funder_agendas": "pro-Israel foreign policy, engages on defense, foreign aid appropriations",
+    "alignment_pct": 100,
+    "alignment_votes_total": 1,
+    "top_funding_sector": "Ideological"
   },
   {
     "member_name": "Aaron Bean",
@@ -2685,7 +2871,10 @@
     "fec_pac_contributions": 898500,
     "jfc_flag": false,
     "one_liner": "54% of Rep. Aaron Bean (R-FL-04)'s itemized campaign funding comes from outside their district. Top outside employers: APOLLO GLOBAL, THE MAYERNICK, RETTNER.",
-    "top_funder_agendas": "pro-Israel foreign policy, engages on defense, foreign aid appropriations, dental practice deductions, opposes cuts to"
+    "top_funder_agendas": "pro-Israel foreign policy, engages on defense, foreign aid appropriations, dental practice deductions, opposes cuts to",
+    "alignment_pct": 100,
+    "alignment_votes_total": 1,
+    "top_funding_sector": "Finance & Insurance"
   },
   {
     "member_name": "Brad Schneider",
@@ -2727,7 +2916,10 @@
     "fec_pac_contributions": 1597101.07,
     "jfc_flag": false,
     "one_liner": "54% of Rep. Brad Schneider (D-IL-10)'s itemized campaign funding comes from outside their district. Top outside employers: PARAGON BIOSCIENCES, GREENBERG TRAURIG, BLACKSTONE.",
-    "top_funder_agendas": "pro-Israel foreign policy, engages on defense, foreign aid appropriations, R&D tax credits, manufacturing incentives, defense"
+    "top_funder_agendas": "pro-Israel foreign policy, engages on defense, foreign aid appropriations, R&D tax credits, manufacturing incentives, defense",
+    "alignment_pct": 100,
+    "alignment_votes_total": 1,
+    "top_funding_sector": "Finance & Insurance"
   },
   {
     "member_name": "Dwight Evans",
@@ -2769,7 +2961,10 @@
     "fec_pac_contributions": 657156.17,
     "jfc_flag": false,
     "one_liner": "53% of Rep. Dwight Evans (D-PA-03)'s itemized campaign funding comes from outside their district. Top outside employers: PROGRESSIVE, SELECT MEDICAL, METRO PHILLY.",
-    "top_funder_agendas": "auto dealer pass-through deductions, LIFO accounting, vehicle tax credits, Defends mortgage interest deduction, 1031 exchanges"
+    "top_funder_agendas": "auto dealer pass-through deductions, LIFO accounting, vehicle tax credits, Defends mortgage interest deduction, 1031 exchanges",
+    "alignment_pct": 100,
+    "alignment_votes_total": 1,
+    "top_funding_sector": "Labor"
   },
   {
     "member_name": "Tina Smith",
@@ -2811,7 +3006,10 @@
     "fec_pac_contributions": 303750,
     "jfc_flag": false,
     "one_liner": "53% of Sen. Tina Smith (D-MN)'s itemized campaign funding comes from outside their state. Top outside employers: CAPITAL, LINKEDIN, ROCKET COMPANIES.",
-    "top_funder_agendas": "tax-advantaged employer-sponsored benefits, insurance product tax treatment"
+    "top_funder_agendas": "tax-advantaged employer-sponsored benefits, insurance product tax treatment",
+    "alignment_pct": null,
+    "alignment_votes_total": 0,
+    "top_funding_sector": "Finance & Insurance"
   },
   {
     "member_name": "David Kustoff",
@@ -2853,7 +3051,10 @@
     "fec_pac_contributions": 1116370.42,
     "jfc_flag": false,
     "one_liner": "45% of Rep. David Kustoff (R-TN-08)'s itemized campaign funding comes from outside their district. Top outside employers: BLACKSTONE, APOLLO GLOBAL, UROLOGY OF INDIANA.",
-    "top_funder_agendas": "pro-Israel foreign policy, engages on defense, foreign aid appropriations, transportation infrastructure funding, fuel tax policy"
+    "top_funder_agendas": "pro-Israel foreign policy, engages on defense, foreign aid appropriations, transportation infrastructure funding, fuel tax policy",
+    "alignment_pct": 100,
+    "alignment_votes_total": 1,
+    "top_funding_sector": "Transportation"
   },
   {
     "member_name": "Michael Bennet",
@@ -2895,7 +3096,10 @@
     "fec_pac_contributions": 58596.92,
     "jfc_flag": false,
     "one_liner": "45% of Sen. Michael Bennet (D-CO)'s itemized campaign funding comes from outside their state. Top outside employers: PISCES, 1ST FINANCIAL, JANE STREET.",
-    "top_funder_agendas": "tax-advantaged financial planning products, advisor compensation rules"
+    "top_funder_agendas": "tax-advantaged financial planning products, advisor compensation rules",
+    "alignment_pct": null,
+    "alignment_votes_total": 0,
+    "top_funding_sector": "Finance & Insurance"
   },
   {
     "member_name": "John Larson",
@@ -2937,7 +3141,10 @@
     "fec_pac_contributions": 1044213.68,
     "jfc_flag": false,
     "one_liner": "44% of Rep. John Larson (D-CT-01)'s itemized campaign funding comes from outside their district. Top outside employers: SEAN N PARKER FOUNDATION, BLUE OWL CAPITAL, NOT APPLICABLE.",
-    "top_funder_agendas": "favorable capital gains rates, international banking tax rules, financial services regulation, tax-advantaged financial planning products"
+    "top_funder_agendas": "favorable capital gains rates, international banking tax rules, financial services regulation, tax-advantaged financial planning products",
+    "alignment_pct": 100,
+    "alignment_votes_total": 1,
+    "top_funding_sector": "Finance & Insurance"
   },
   {
     "member_name": "Nathaniel Moran",
@@ -2979,7 +3186,10 @@
     "fec_pac_contributions": 355200,
     "jfc_flag": false,
     "one_liner": "34% of Rep. Nathaniel Moran (R-TX-01)'s itemized campaign funding comes from outside their district. Top outside employers: RYAN, HUNT CONSOLIDATED, MYB GOUSTON.",
-    "top_funder_agendas": "pro-Israel foreign policy, engages on defense, foreign aid appropriations, auto dealer pass-through deductions, LIFO accounting"
+    "top_funder_agendas": "pro-Israel foreign policy, engages on defense, foreign aid appropriations, auto dealer pass-through deductions, LIFO accounting",
+    "alignment_pct": null,
+    "alignment_votes_total": 0,
+    "top_funding_sector": "Food & Beverage"
   },
   {
     "member_name": "John Cornyn",
@@ -3021,6 +3231,9 @@
     "fec_pac_contributions": 595022.42,
     "jfc_flag": false,
     "one_liner": "30% of Sen. John Cornyn (R-TX)'s itemized campaign funding comes from outside their state. Top outside employers: CAPITAL, ANDREESSEN HOROWITZ, BLACKSTONE.",
-    "top_funder_agendas": ""
+    "top_funder_agendas": "",
+    "alignment_pct": null,
+    "alignment_votes_total": 0,
+    "top_funding_sector": "Healthcare & Pharma"
   }
 ]

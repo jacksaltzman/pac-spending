@@ -85,7 +85,8 @@ export default function CommitteeComparisonChart({
                 fontSize: "12px",
                 color: "#e7e5e4",
               }}
-              {...({} as never)}
+              /* eslint-disable-next-line @typescript-eslint/no-explicit-any */
+              {...({} as any)}
             />
             <Bar dataKey="medianPac" radius={[0, 4, 4, 0]}>
               {data.map((entry, i) => (

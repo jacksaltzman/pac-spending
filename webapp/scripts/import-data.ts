@@ -399,7 +399,7 @@ function buildTopFunderAgendas(
 
 function importContributionTiming(): {
   weekly_pac_totals: Record<string, unknown>[];
-  events: { date: string; label: string; bill: string; event_type: string; significance: string }[];
+  events: { date: string; label: string; bill: string; bill_title: string; event_type: string; significance: string; description: string; committee: string; chamber: string; sectors_affected: string[]; editorial_summary: string; industry_interest: string; congress_url: string | null; outcome: string | null }[];
   event_analysis: Record<string, unknown>[];
 } | null {
   const pacWeeklyPath = join(PIPELINE_OUTPUT, "pac_weekly_totals.csv");
@@ -436,35 +436,117 @@ function importContributionTiming(): {
     bill_title: string;
     event_type: string;
     date: string;
+    description: string;
+    committee: string;
+    chamber: string;
+    sectors_affected: string[];
     significance: string;
+    editorial_summary: string;
+    industry_interest: string;
+    congress_url: string | null;
+    outcome: string | null;
   }>;
   const events = eventsRaw.map((e) => ({
     date: e.date,
     label: `${e.bill} ${e.event_type.replace(/_/g, " ")}`,
     bill: e.bill,
+    bill_title: e.bill_title,
     event_type: e.event_type,
     significance: e.significance,
+    description: e.description,
+    committee: e.committee,
+    chamber: e.chamber,
+    sectors_affected: e.sectors_affected,
+    editorial_summary: e.editorial_summary,
+    industry_interest: e.industry_interest,
+    congress_url: e.congress_url,
+    outcome: e.outcome,
   }));
 
   // 3. Read event analysis
   const eventAnalysisRaw = readCSV("event_timing_analysis.csv");
   if (!eventAnalysisRaw) return null;
 
-  const eventAnalysis = eventAnalysisRaw.map((row) => ({
-    bill: row.bill,
-    event_type: row.event_type,
-    date: row.date,
-    sector: row.sector,
-    baseline_weekly_avg: toNumber(row.baseline_weekly_avg) ?? 0,
-    pre_event_total: toNumber(row.pre_event_total) ?? 0,
-    event_week_total: toNumber(row.event_week_total) ?? 0,
-    post_event_total: toNumber(row.post_event_total) ?? 0,
-    spike_ratio: row.spike_ratio === "" || row.spike_ratio === "None" ? null : toNumber(row.spike_ratio),
-    sector_specific: toBool(row.sector_specific),
-    significance: row.significance,
-  }));
+  // Build lookup for enriching event_analysis
+  const eventLookup = new Map<string, typeof eventsRaw[0]>();
+  for (const e of eventsRaw) {
+    const key = `${e.bill}|${e.event_type}|${e.date}`;
+    eventLookup.set(key, e);
+  }
+
+  const eventAnalysis = eventAnalysisRaw.map((row) => {
+    const key = `${row.bill}|${row.event_type}|${row.date}`;
+    const meta = eventLookup.get(key);
+    return {
+      bill: row.bill,
+      bill_title: meta?.bill_title ?? "",
+      event_type: row.event_type,
+      date: row.date,
+      sector: row.sector,
+      baseline_weekly_avg: toNumber(row.baseline_weekly_avg) ?? 0,
+      pre_event_total: toNumber(row.pre_event_total) ?? 0,
+      event_week_total: toNumber(row.event_week_total) ?? 0,
+      post_event_total: toNumber(row.post_event_total) ?? 0,
+      spike_ratio: row.spike_ratio === "" || row.spike_ratio === "None" ? null : toNumber(row.spike_ratio),
+      sector_specific: toBool(row.sector_specific),
+      significance: row.significance,
+      sectors_affected: meta?.sectors_affected ?? [],
+      editorial_summary: meta?.editorial_summary ?? "",
+      industry_interest: meta?.industry_interest ?? "",
+      congress_url: meta?.congress_url ?? null,
+      outcome: meta?.outcome ?? null,
+    };
+  });
 
   return { weekly_pac_totals: weeklyPacTotals, events, event_analysis: eventAnalysis };
+}
+
+function importAlignmentScores(): Record<string, {
+  alignment_pct: number | null;
+  votes_with: number;
+  votes_against: number;
+  votes_total: number;
+  top_funding_sector: string;
+  top_sectors: string[];
+  per_sector: Record<string, { with: number; against: number; total: number }>;
+}> | null {
+  const path = join(PIPELINE_OUTPUT, "member_alignment_detail.json");
+  if (!existsSync(path)) {
+    console.log("  Skipping alignment scores (member_alignment_detail.json not found)");
+    return null;
+  }
+  const raw = readFileSync(path, "utf-8");
+  return JSON.parse(raw);
+}
+
+function importMemberVotes(): Record<string, {
+  roll_call_id: string;
+  congress: number;
+  chamber: string;
+  date: string;
+  bill: string;
+  bill_title: string;
+  question: string;
+  result: string;
+  position: string;
+}[]> | null {
+  const path = join(PIPELINE_OUTPUT, "member_votes.json");
+  if (!existsSync(path)) {
+    console.log("  Skipping member votes (member_votes.json not found)");
+    return null;
+  }
+  const raw = readFileSync(path, "utf-8");
+  return JSON.parse(raw);
+}
+
+function importTaxVotes(): unknown[] | null {
+  const path = join(PIPELINE_OUTPUT, "tax_votes_tagged.json");
+  if (!existsSync(path)) {
+    console.log("  Skipping tax votes (tax_votes_tagged.json not found)");
+    return null;
+  }
+  const raw = readFileSync(path, "utf-8");
+  return JSON.parse(raw);
 }
 
 // --- Main ---
@@ -548,6 +630,53 @@ if (industryInfluence) {
 // (writes to webapp/data/ just like benchmarks.json is generated outside this import flow)
 if (existsSync(join(DATA_DIR, "leadership_analysis.json"))) {
   console.log("  leadership_analysis.json: present (generated by scripts/12_leadership_analysis.py)");
+}
+
+// Import voting records and alignment scores
+const alignmentScores = importAlignmentScores();
+if (alignmentScores) {
+  writeFileSync(
+    join(DATA_DIR, "alignment_scores.json"),
+    JSON.stringify(alignmentScores, null, 2)
+  );
+  console.log(`  alignment_scores.json: ${Object.keys(alignmentScores).length} members`);
+
+  // Merge alignment data into members
+  for (const m of members) {
+    const score = alignmentScores[m.member_name];
+    if (score) {
+      (m as Record<string, unknown>).alignment_pct = score.alignment_pct;
+      (m as Record<string, unknown>).alignment_votes_total = score.votes_total;
+      (m as Record<string, unknown>).top_funding_sector = score.top_funding_sector;
+    }
+  }
+}
+
+const memberVotes = importMemberVotes();
+if (memberVotes) {
+  writeFileSync(
+    join(DATA_DIR, "voting_records.json"),
+    JSON.stringify(memberVotes, null, 2)
+  );
+  const totalVotes = Object.values(memberVotes).reduce((s, v) => s + v.length, 0);
+  console.log(`  voting_records.json: ${Object.keys(memberVotes).length} members, ${totalVotes} vote records`);
+}
+
+const taxVotes = importTaxVotes();
+if (taxVotes) {
+  writeFileSync(
+    join(DATA_DIR, "tax_votes.json"),
+    JSON.stringify(taxVotes, null, 2)
+  );
+  console.log(`  tax_votes.json: ${taxVotes.length} votes`);
+}
+
+// Copy vote_sector_positions.json from config
+const sectorPositionsPath = join(CONFIG_DIR, "vote_sector_positions.json");
+if (existsSync(sectorPositionsPath)) {
+  const spData = JSON.parse(readFileSync(sectorPositionsPath, "utf-8"));
+  writeFileSync(join(DATA_DIR, "vote_sector_positions.json"), JSON.stringify(spData, null, 2));
+  console.log(`  vote_sector_positions.json: ${spData.length} curated votes`);
 }
 
 const datasets: [string, unknown][] = [

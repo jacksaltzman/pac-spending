@@ -8,11 +8,11 @@ import {
   YAxis,
   Tooltip,
   ResponsiveContainer,
-  CartesianGrid,
   ReferenceLine,
 } from "recharts";
-import type { ContributionTiming, EventAnalysisEntry } from "@/lib/data";
+import type { ContributionTiming } from "@/lib/data";
 import { formatMoney } from "@/lib/utils";
+import SpikeCards from "./SpikeCards";
 
 interface TimingChartProps {
   timing: ContributionTiming;
@@ -43,18 +43,10 @@ function formatWeekTick(dateStr: string): string {
   return `${months[d.getUTCMonth()]} '${yr}`;
 }
 
-function formatEventType(eventType: string): string {
-  return eventType
-    .split("_")
-    .map((w) => w.charAt(0).toUpperCase() + w.slice(1))
-    .join(" ");
-}
-
 export default function TimingChart({ timing, sectorColors }: TimingChartProps) {
-  const { chartData, sectorKeys, eventLookup } = useMemo(() => {
+  const { sectorPanels, tickWeeks, events } = useMemo(() => {
     const weeks = timing.weekly_pac_totals;
 
-    // Sum each sector across all weeks to find top 8
     const sectorTotals = new Map<string, number>();
     for (const w of weeks) {
       for (const key of Object.keys(w)) {
@@ -67,72 +59,63 @@ export default function TimingChart({ timing, sectorColors }: TimingChartProps) 
     const sorted = Array.from(sectorTotals.entries())
       .sort((a, b) => b[1] - a[1]);
     const top8 = sorted.slice(0, 8).map(([k]) => k);
+    const sectorKeys = [...top8, "Other"];
 
-    // Rebuild weekly data with only top 8 + Other
-    const rebuilt = weeks.map((w) => {
-      const row: Record<string, number | string> = {
-        week: w.week,
-        total: w.total,
-      };
-      let otherSum = 0;
-      for (const key of Object.keys(w)) {
-        if (key === "week" || key === "total") continue;
-        const val = Number(w[key]) || 0;
-        if (top8.includes(key)) {
-          row[key] = val;
-        } else {
-          otherSum += val;
+    const panels = sectorKeys.map((sector) => {
+      const data = weeks.map((w) => {
+        if (sector === "Other") {
+          let otherSum = 0;
+          for (const key of Object.keys(w)) {
+            if (key === "week" || key === "total") continue;
+            if (!top8.includes(key)) {
+              otherSum += Number(w[key]) || 0;
+            }
+          }
+          return { week: w.week, value: Math.max(0, otherSum) };
         }
-      }
-      row["Other"] = otherSum;
-      return row;
+        return { week: w.week, value: Math.max(0, Number(w[sector]) || 0) };
+      });
+
+      return { sector, data };
     });
 
-    const keys = [...top8, "Other"];
-
-    // Build event lookup: week string -> events in that week
-    const lookup = new Map<string, typeof timing.events>();
-    for (const evt of timing.events) {
-      const ws = getWeekStart(evt.date);
-      const existing = lookup.get(ws) || [];
-      existing.push(evt);
-      lookup.set(ws, existing);
-    }
-
-    return { chartData: rebuilt, sectorKeys: keys, eventLookup: lookup };
-  }, [timing]);
-
-  const topSpikes = useMemo(() => {
-    return timing.event_analysis
-      .filter((e) => e.sector_specific && e.spike_ratio != null)
-      .sort((a, b) => (b.spike_ratio ?? 0) - (a.spike_ratio ?? 0))
-      .slice(0, 5);
-  }, [timing]);
-
-  // Determine which weeks should show a tick label (roughly every 3 months)
-  const tickWeeks = useMemo(() => {
-    const weeks = chartData.map((d) => d.week as string);
-    const result: string[] = [];
+    const allWeeks = weeks.map((d) => d.week as string);
+    const ticks: string[] = [];
     let lastMonth = -1;
     let count = 0;
-    for (const w of weeks) {
+    for (const w of allWeeks) {
       const d = new Date(w + "T00:00:00Z");
       const m = d.getUTCMonth();
       if (m !== lastMonth) {
         count++;
         lastMonth = m;
-        // Show every 3rd month
         if (count % 3 === 1) {
-          result.push(w);
+          ticks.push(w);
         }
       }
     }
-    return new Set(result);
-  }, [chartData]);
+
+    const evts = timing.events
+      .filter((evt) => evt.bill && evt.bill !== "N/A")
+      .map((evt) => ({
+        ...evt,
+        weekStart: getWeekStart(evt.date),
+      }));
+
+    return { sectorPanels: panels, tickWeeks: new Set(ticks), events: evts };
+  }, [timing]);
+
+  const topSpikes = useMemo(() => {
+    return timing.event_analysis
+      .filter((e) => e.sector_specific && e.spike_ratio != null && e.bill && e.bill !== "N/A")
+      .sort((a, b) => (b.spike_ratio ?? 0) - (a.spike_ratio ?? 0))
+      .slice(0, 5);
+  }, [timing]);
+
+  const PANEL_HEIGHT = 72;
 
   return (
     <div className="space-y-8">
-      {/* Area Chart */}
       <section>
         <h2
           className="text-xs uppercase tracking-[0.2em] text-stone-500 mb-1"
@@ -142,140 +125,104 @@ export default function TimingChart({ timing, sectorColors }: TimingChartProps) 
         </h2>
         <p className="text-xs text-stone-500 mb-4 max-w-2xl leading-relaxed">
           Weekly PAC contributions to tax-writing committee members, broken down by industry sector.
-          Vertical lines mark key legislative events — watch how contribution patterns shift around
-          committee markups and floor votes.
+          Each row shows one sector independently — revealing patterns hidden by stacking.
+          Vertical lines mark key legislative events.
         </p>
-        <div className="bg-white border border-[#C8C1B6]/50 rounded-lg p-5">
-          <ResponsiveContainer width="100%" height={400}>
-            <AreaChart data={chartData} margin={{ top: 30, right: 30, bottom: 5, left: 20 }}>
-              <CartesianGrid strokeDasharray="3 3" stroke="#E7E5E4" />
-              <XAxis
-                dataKey="week"
-                tick={{ fontSize: 11, fill: "#78716C" }}
-                tickFormatter={(val: string) =>
-                  tickWeeks.has(val) ? formatWeekTick(val) : ""
-                }
-                interval={0}
-              />
-              <YAxis
-                tickFormatter={formatDollarsShort}
-                tick={{ fontSize: 11, fill: "#78716C" }}
-              />
-              <Tooltip
-                content={({ active, payload, label }) => {
-                  if (!active || !payload || payload.length === 0) return null;
-                  const weekStr = label as string;
-                  const eventsThisWeek = eventLookup.get(weekStr);
-                  // Get the total from the first payload item's payload
-                  const dataRow = payload[0]?.payload;
-                  const total = dataRow?.total ?? 0;
 
-                  return (
-                    <div
-                      className="bg-white shadow-lg p-3 max-w-xs"
-                      style={{
-                        borderRadius: 6,
-                        border: "1px solid #C8C1B6",
-                        fontSize: 13,
-                      }}
+        <div className="space-y-0">
+          {sectorPanels.map((panel, idx) => {
+            const isLast = idx === sectorPanels.length - 1;
+            const color = panel.sector === "Other"
+              ? "#9CA3AF"
+              : sectorColors[panel.sector] || "#9CA3AF";
+
+            return (
+              <div key={panel.sector} className="flex items-start">
+                <div className="w-36 flex-shrink-0 pt-2 pr-3 text-right">
+                  <span className="inline-flex items-center gap-1.5 text-[11px] text-stone-600">
+                    <span
+                      className="w-2 h-2 rounded-full flex-shrink-0"
+                      style={{ backgroundColor: color }}
+                    />
+                    <span className="truncate">{panel.sector}</span>
+                  </span>
+                </div>
+
+                <div className="flex-1 min-w-0">
+                  <ResponsiveContainer width="100%" height={PANEL_HEIGHT}>
+                    <AreaChart
+                      data={panel.data}
+                      margin={{ top: 4, right: 12, bottom: 0, left: 0 }}
                     >
-                      <p className="font-semibold text-[#111111] mb-1">
-                        Week of {weekStr}
-                      </p>
-                      <p className="text-xs text-stone-600 mb-2">
-                        Total: <strong>{formatMoney(Number(total))}</strong>
-                      </p>
-                      <div className="space-y-0.5">
-                        {payload
-                          .filter((p) => Number(p.value) > 0)
-                          .sort((a, b) => Number(b.value) - Number(a.value))
-                          .map((p) => (
-                            <div
-                              key={p.dataKey as string}
-                              className="flex items-center justify-between gap-3 text-xs"
-                            >
-                              <span className="flex items-center gap-1.5">
-                                <span
-                                  className="inline-block w-2.5 h-2.5 rounded-sm"
-                                  style={{ backgroundColor: p.color }}
-                                />
-                                {p.dataKey as string}
-                              </span>
-                              <span className="font-medium">
-                                {formatMoney(Number(p.value))}
-                              </span>
+                      <XAxis
+                        dataKey="week"
+                        hide={!isLast}
+                        tick={isLast ? { fontSize: 10, fill: "#78716C" } : false}
+                        tickFormatter={(val: string) =>
+                          tickWeeks.has(val) ? formatWeekTick(val) : ""
+                        }
+                        interval={0}
+                        axisLine={false}
+                        tickLine={false}
+                      />
+                      <YAxis hide domain={[0, "auto"]} />
+                      <Tooltip
+                        content={({ active, payload, label }) => {
+                          if (!active || !payload || payload.length === 0) return null;
+                          const val = Number(payload[0]?.value) || 0;
+                          if (val === 0) return null;
+                          return (
+                            <div className="bg-white border border-[#C8C1B6] rounded p-2 text-xs">
+                              <p className="text-stone-500">{label}</p>
+                              <p className="font-semibold" style={{ color }}>
+                                {panel.sector}: {formatMoney(val)}
+                              </p>
                             </div>
-                          ))}
-                      </div>
-                      {eventsThisWeek && eventsThisWeek.length > 0 && (
-                        <div className="mt-2 pt-2 border-t border-stone-200">
-                          <p className="text-[10px] uppercase tracking-wider text-stone-400 mb-1">
-                            Legislative Events
-                          </p>
-                          {eventsThisWeek.map((evt, i) => (
-                            <p key={i} className="text-xs text-[#FE4F40] font-medium">
-                              {evt.label}
-                            </p>
-                          ))}
-                        </div>
-                      )}
-                    </div>
-                  );
-                }}
-              />
-              {sectorKeys.map((sector) => (
-                <Area
-                  key={sector}
-                  type="monotone"
-                  dataKey={sector}
-                  stackId="1"
-                  stroke={
-                    sector === "Other"
-                      ? "#9CA3AF"
-                      : sectorColors[sector] || "#9CA3AF"
-                  }
-                  fill={
-                    sector === "Other"
-                      ? "#9CA3AF"
-                      : sectorColors[sector] || "#9CA3AF"
-                  }
-                  fillOpacity={0.7}
-                />
-              ))}
-              {timing.events.map((evt, i) => {
-                const weekStart = getWeekStart(evt.date);
-                const isHigh = evt.significance === "high";
-                return (
-                  <ReferenceLine
-                    key={i}
-                    x={weekStart}
-                    stroke={isHigh ? "#FE4F40" : "#A8A29E"}
-                    strokeWidth={isHigh ? 1.5 : 1}
-                    strokeDasharray={isHigh ? undefined : "4 4"}
-                    label={
-                      isHigh
-                        ? {
-                            value: evt.bill,
-                            position: "top",
-                            fill: "#FE4F40",
-                            fontSize: 10,
-                            angle: -30,
-                            offset: 10,
+                          );
+                        }}
+                      />
+                      <Area
+                        type="monotone"
+                        dataKey="value"
+                        stroke={color}
+                        fill={color}
+                        fillOpacity={0.15}
+                        strokeWidth={1.5}
+                      />
+                      {events.map((evt, i) => (
+                        <ReferenceLine
+                          key={i}
+                          x={evt.weekStart}
+                          stroke={evt.significance === "high" ? "#FE4F40" : "#D6D3D1"}
+                          strokeWidth={evt.significance === "high" ? 1 : 0.5}
+                          strokeDasharray={evt.significance === "high" ? undefined : "2 2"}
+                          label={
+                            idx === 0 && evt.significance === "high"
+                              ? {
+                                  value: evt.bill,
+                                  position: "top",
+                                  fill: "#FE4F40",
+                                  fontSize: 9,
+                                  angle: -30,
+                                  offset: 4,
+                                }
+                              : undefined
                           }
-                        : undefined
-                    }
-                  />
-                );
-              })}
-            </AreaChart>
-          </ResponsiveContainer>
-          <p className="text-[10px] text-stone-400 mt-2">
-            Weekly PAC contributions to tax-writing committee members. Vertical lines mark legislative events.
-          </p>
+                        />
+                      ))}
+                    </AreaChart>
+                  </ResponsiveContainer>
+                </div>
+              </div>
+            );
+          })}
         </div>
+
+        <p className="text-[10px] text-stone-400 mt-2 pl-36">
+          Weekly PAC contributions. Each row = one sector. Vertical lines = legislative events.
+        </p>
       </section>
 
-      {/* Spike Ratio Table */}
       {topSpikes.length > 0 && (
         <section>
           <h3
@@ -285,59 +232,16 @@ export default function TimingChart({ timing, sectorColors }: TimingChartProps) 
             Largest Contribution Spikes Around Legislation
           </h3>
           <p className="text-xs text-stone-500 mb-4 max-w-2xl leading-relaxed">
-            When legislation affecting specific industries moves through committee, PAC contributions
-            from those industries often spike. The table below shows the largest sector-specific
-            increases relative to each event&apos;s baseline weekly average.
+            When legislation affecting specific industries moves through committee, PAC
+            contributions from those industries often spike. These are the largest
+            sector-specific increases — click any card to see what the bill does and
+            who had financial interests.
           </p>
-          <div className="bg-white border border-[#C8C1B6]/50 rounded-lg overflow-hidden">
-            <table className="w-full text-sm">
-              <thead>
-                <tr className="border-b border-stone-200 bg-stone-50">
-                  <th className="text-left px-4 py-2.5 text-xs font-medium uppercase tracking-wider text-stone-500">
-                    Event
-                  </th>
-                  <th className="text-left px-4 py-2.5 text-xs font-medium uppercase tracking-wider text-stone-500">
-                    Date
-                  </th>
-                  <th className="text-right px-4 py-2.5 text-xs font-medium uppercase tracking-wider text-stone-500">
-                    Spike Ratio
-                  </th>
-                  <th className="text-right px-4 py-2.5 text-xs font-medium uppercase tracking-wider text-stone-500">
-                    Event Week $
-                  </th>
-                </tr>
-              </thead>
-              <tbody>
-                {topSpikes.map((entry, i) => (
-                  <tr
-                    key={i}
-                    className={`border-b border-stone-100 ${
-                      (entry.spike_ratio ?? 0) >= 2.0 ? "bg-red-50" : ""
-                    }`}
-                  >
-                    <td className="px-4 py-2.5 text-stone-800">
-                      <span className="font-medium">{entry.bill}</span>{" "}
-                      <span className="text-stone-500">
-                        {formatEventType(entry.event_type)}
-                      </span>
-                    </td>
-                    <td className="px-4 py-2.5 text-stone-600">{entry.date}</td>
-                    <td className="px-4 py-2.5 text-right font-mono font-medium text-stone-800">
-                      {entry.spike_ratio != null
-                        ? `${entry.spike_ratio.toFixed(2)}x`
-                        : "N/A"}
-                    </td>
-                    <td className="px-4 py-2.5 text-right text-stone-700">
-                      {formatMoney(entry.event_week_total)}
-                    </td>
-                  </tr>
-                ))}
-              </tbody>
-            </table>
-          </div>
-          <p className="text-[10px] text-stone-400 mt-2">
-            Spike ratio = event-week total / baseline weekly average for affected sectors.
-            Only sector-specific events shown.
+          <SpikeCards spikes={topSpikes} sectorColors={sectorColors} />
+          <p className="text-[10px] text-stone-400 mt-4">
+            Spike ratio = event-week total ÷ baseline weekly average for affected
+            sectors. Only sector-specific events shown. Source: FEC bulk contribution
+            data; legislative dates from Congress.gov.
           </p>
         </section>
       )}

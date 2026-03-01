@@ -46,6 +46,26 @@ function outsidePctColor(pct: number): string {
   return "#4C6971";
 }
 
+function OutsideBar({ pct }: { pct: number }) {
+  const color = outsidePctColor(pct);
+  return (
+    <div className="inline-flex items-center gap-1.5">
+      <span
+        className="font-semibold tabular-nums text-right"
+        style={{ color, minWidth: "2rem" }}
+      >
+        {formatPct(pct)}
+      </span>
+      <div className="w-16 h-2 bg-stone-100 overflow-hidden flex-shrink-0">
+        <div
+          className="h-full"
+          style={{ width: `${pct}%`, backgroundColor: color }}
+        />
+      </div>
+    </div>
+  );
+}
+
 function stateDistrict(m: Member): string {
   if (m.chamber === "house" && m.district != null) {
     return `${m.state}-${String(m.district).padStart(2, "0")}`;
@@ -287,7 +307,9 @@ export default function MembersTable({ members: allMembers }: { members: Member[
                         <span className="inline-block px-2 py-0.5 rounded-sm text-[10px] uppercase tracking-wide font-bold" style={{ fontFamily: "var(--font-display)", backgroundColor: badge.bg, color: badge.text }}>{m.party}</span>
                       </td>
                       <td className="px-3 py-2.5 text-stone-500 whitespace-nowrap">{stateDistrict(m)}</td>
-                      <td className="px-3 py-2.5 text-right font-semibold tabular-nums" style={{ color: outsidePctColor(m.pct_outside) }}>{formatPct(m.pct_outside)}</td>
+                      <td className="px-3 py-2.5 text-right">
+                        <OutsideBar pct={m.pct_outside} />
+                      </td>
                       <td className="px-3 py-2.5 text-right font-semibold tabular-nums whitespace-nowrap"
                           style={{ color: (m.alignment_pct ?? 0) > 75 ? "#FE4F40" : (m.alignment_pct ?? 0) > 50 ? "#F59E0B" : "#4C6971" }}>
                         {m.alignment_pct != null ? `${m.alignment_pct.toFixed(0)}%` : "\u2014"}

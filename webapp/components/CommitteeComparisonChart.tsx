@@ -10,15 +10,7 @@ import {
   Cell,
 } from "recharts";
 
-// Local interface until lib/data.ts exports CommitteeComparisonEntry
-interface CommitteeComparisonEntry {
-  committee: string;
-  count: number;
-  median_pac: number;
-  mean_pac: number;
-  median_receipts: number;
-  mean_receipts: number;
-}
+import type { CommitteeComparisonEntry } from "@/lib/data";
 
 interface CommitteeComparisonChartProps {
   committees: CommitteeComparisonEntry[];

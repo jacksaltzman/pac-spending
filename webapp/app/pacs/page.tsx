@@ -5,6 +5,7 @@ import {
   getBenchmarks,
   getBeforeAfter,
   getLeadershipAnalysis,
+  getCommitteeComparison,
   PacSpreadEntry,
 } from "@/lib/data";
 import { formatMoney, memberSlug, toTitleCase } from "@/lib/utils";
@@ -12,6 +13,7 @@ import Link from "next/link";
 import StatCard from "@/components/StatCard";
 import EmptyState from "@/components/EmptyState";
 import LeadershipChart from "@/components/LeadershipChart";
+import CommitteeComparisonChart from "@/components/CommitteeComparisonChart";
 import { buildFindings } from "./helpers";
 
 export default function PacsOverviewPage() {
@@ -21,6 +23,7 @@ export default function PacsOverviewPage() {
   const benchmarks = getBenchmarks();
   const beforeAfter = getBeforeAfter();
   const leadershipAnalysis = getLeadershipAnalysis();
+  const committeeComparison = getCommitteeComparison();
 
   if (!pacs || pacs.length === 0) {
     return (
@@ -107,74 +110,51 @@ export default function PacsOverviewPage() {
         />
       </div>
 
-      {/* ── Committee vs. Congress PAC Benchmark ─────────── */}
-      {benchmarks && (
+      {/* ── Cross-Committee Comparison ─────────────────── */}
+      {committeeComparison.length > 0 && (
         <section className="mb-10">
           <h2
-            className="text-sm uppercase tracking-[0.2em] text-stone-600 mb-1"
+            className="text-xs uppercase tracking-[0.2em] text-stone-500 mb-1"
             style={{ fontFamily: "var(--font-display)" }}
           >
             Do Tax-Writers Get More PAC Money?
           </h2>
-          <p className="text-sm text-stone-600 mb-5 max-w-3xl leading-relaxed">
-            Comparing median PAC contributions received by Ways &amp; Means and
-            Finance Committee members vs. all other House and Senate incumbents.
-          </p>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            {/* House PAC comparison */}
-            <div className="border border-[#C8C1B6]/40 rounded-sm bg-white px-5 py-4">
-              <p
-                className="text-[10px] uppercase tracking-[0.2em] text-stone-400 mb-3"
-                style={{ fontFamily: "var(--font-display)" }}
-              >
-                House — Median PAC Receipts
+          {(() => {
+            const wm = committeeComparison.find((c) => c.committee === "Ways & Means");
+            const allInc = committeeComparison.find((c) => c.committee === "All House Incumbents");
+            const others = committeeComparison.filter(
+              (c) => c.committee !== "Ways & Means" && c.committee !== "All House Incumbents"
+            );
+            const topOther = [...others].sort((a, b) => b.median_pac - a.median_pac)[0];
+            return (
+              <p className="text-xs text-stone-500 mb-5 max-w-4xl leading-relaxed">
+                {wm && allInc && (
+                  <>
+                    The median Ways &amp; Means member received{" "}
+                    <strong className="text-[#111111]">
+                      {formatMoney(wm.median_pac)}
+                    </strong>{" "}
+                    in PAC contributions &mdash;{" "}
+                    <strong className="text-[#FE4F40]">
+                      {Math.round(((wm.median_pac - allInc.median_pac) / allInc.median_pac) * 100)}%
+                      more
+                    </strong>{" "}
+                    than the typical House incumbent ({formatMoney(allInc.median_pac)})
+                    {topOther && (
+                      <>
+                        {" "}and {Math.round(((wm.median_pac - topOther.median_pac) / topOther.median_pac) * 100)}%
+                        more than {topOther.committee} ({formatMoney(topOther.median_pac)})
+                      </>
+                    )}
+                    . Tax-writing committees don&apos;t just attract more money than average
+                    &mdash; they attract more than other powerful committees too.
+                  </>
+                )}
               </p>
-              <div className="flex items-baseline gap-3">
-                <span className="text-3xl font-bold text-[#FE4F40]" style={{ fontFamily: "var(--font-display)" }}>
-                  {formatMoney(benchmarks.house.committee.median_pac)}
-                </span>
-                <span className="text-sm text-stone-400">vs.</span>
-                <span className="text-lg text-stone-500">
-                  {formatMoney(benchmarks.house.all_incumbents.median_pac)}
-                </span>
-              </div>
-              <p className="text-xs mt-1">
-                <span className="font-semibold text-[#FE4F40]">
-                  +{benchmarks.house.all_incumbents.median_pac > 0 ? Math.round(((benchmarks.house.committee.median_pac / benchmarks.house.all_incumbents.median_pac) - 1) * 100) : 0}%
-                </span>
-                <span className="text-stone-400 ml-1">
-                  — W&amp;M ({benchmarks.house.committee.count}) vs. all incumbents ({benchmarks.house.all_incumbents.count})
-                </span>
-              </p>
-            </div>
-
-            {/* Total fundraising comparison */}
-            <div className="border border-[#C8C1B6]/40 rounded-sm bg-white px-5 py-4">
-              <p
-                className="text-[10px] uppercase tracking-[0.2em] text-stone-400 mb-3"
-                style={{ fontFamily: "var(--font-display)" }}
-              >
-                House — Median Total Receipts
-              </p>
-              <div className="flex items-baseline gap-3">
-                <span className="text-3xl font-bold text-[#4C6971]" style={{ fontFamily: "var(--font-display)" }}>
-                  {formatMoney(benchmarks.house.committee.median_receipts)}
-                </span>
-                <span className="text-sm text-stone-400">vs.</span>
-                <span className="text-lg text-stone-500">
-                  {formatMoney(benchmarks.house.all_incumbents.median_receipts)}
-                </span>
-              </div>
-              <p className="text-xs mt-1">
-                <span className="font-semibold text-[#4C6971]">
-                  +{benchmarks.house.all_incumbents.median_receipts > 0 ? Math.round(((benchmarks.house.committee.median_receipts / benchmarks.house.all_incumbents.median_receipts) - 1) * 100) : 0}%
-                </span>
-                <span className="text-stone-400 ml-1">
-                  — Source: FEC bulk data, 2024 cycle
-                </span>
-              </p>
-            </div>
+            );
+          })()}
+          <div className="bg-white border border-[#C8C1B6]/50 rounded-lg p-5">
+            <CommitteeComparisonChart committees={committeeComparison} />
           </div>
         </section>
       )}

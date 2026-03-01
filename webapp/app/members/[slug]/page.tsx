@@ -243,48 +243,68 @@ export default async function MemberDetailPage({
     sectorPositionMap.set(sp.roll_call_id, sp.sector_positions);
   }
 
-  // Build vote matching data for the table
+  // Build vote matching data — only show curated votes where the member voted
+  type SectorMatch = {
+    sector: string;
+    wanted: string;
+    matched: boolean | null;
+    reason: string;
+  };
   type VoteRow = {
     date: string;
     bill: string;
     billTitle: string;
     memberPosition: string;
-    sectorPosition: string | null;
-    sectorReason: string | null;
-    matched: boolean | null;
     rollCallId: string;
+    sectorMatches: SectorMatch[];
   };
 
+  // Gather the member's top funding sectors (up to 3)
+  const memberFundingSectors: string[] = [];
+  if (topSector) memberFundingSectors.push(topSector);
+  for (const s of topSectors.slice(0, 3)) {
+    if (!memberFundingSectors.includes(s)) memberFundingSectors.push(s);
+  }
+
   const voteRows: VoteRow[] = [];
-  if (taxVotes.length > 0 && topSector) {
+  if (taxVotes.length > 0 && memberFundingSectors.length > 0) {
     for (const vote of taxVotes) {
       const positions = sectorPositionMap.get(vote.roll_call_id);
-      const sectorPos = positions?.[topSector];
+      if (!positions) continue; // Skip votes without curated sector positions
       const memberPos = vote.position?.toLowerCase();
-      const sectorWanted = sectorPos?.position?.toLowerCase() ?? null;
+      if (!memberPos || memberPos === "not voting") continue;
 
-      let matched: boolean | null = null;
-      if (memberPos && sectorWanted && memberPos !== "not voting") {
-        matched = memberPos === sectorWanted;
+      // Check each of the member's top funding sectors against this vote
+      const sectorMatches: SectorMatch[] = [];
+      for (const sector of memberFundingSectors) {
+        const sp = positions[sector];
+        if (!sp) continue;
+        const wanted = sp.position.toLowerCase();
+        sectorMatches.push({
+          sector,
+          wanted: sp.position,
+          matched: memberPos === wanted,
+          reason: sp.reason,
+        });
       }
+
+      if (sectorMatches.length === 0) continue; // No overlap between member's sectors and this vote
 
       voteRows.push({
         date: vote.date,
         bill: vote.bill,
         billTitle: vote.bill_title,
         memberPosition: vote.position,
-        sectorPosition: sectorPos?.position ?? null,
-        sectorReason: sectorPos?.reason ?? null,
-        matched,
         rollCallId: vote.roll_call_id,
+        sectorMatches,
       });
     }
-    // Sort by date descending
     voteRows.sort((a, b) => b.date.localeCompare(a.date));
   }
 
-  const votesMatched = voteRows.filter((v) => v.matched === true).length;
-  const votesWithPosition = voteRows.filter((v) => v.matched !== null).length;
+  const allSectorMatches = voteRows.flatMap((v) => v.sectorMatches);
+  const votesMatched = allSectorMatches.filter((m) => m.matched === true).length;
+  const votesWithPosition = allSectorMatches.filter((m) => m.matched !== null).length;
 
   /* ---------- benchmark comparison ---------- */
 
@@ -786,87 +806,67 @@ export default async function MemberDetailPage({
       {/* ==================================================================
           ACT 4: HOW THEY VOTED
           ================================================================== */}
-      {voteRows.length > 0 && topSector && (
+      {voteRows.length > 0 && (
         <section className="space-y-4">
           <h2
             className="text-sm text-stone-600 uppercase tracking-[0.2em]"
             style={{ fontFamily: "var(--font-display)" }}
           >
-            How They Voted
+            Key Votes
           </h2>
 
-          {/* Summary line — only show with enough data points */}
-          {votesWithPosition > 0 && (alignment?.votes_total ?? 0) >= MIN_ALIGNMENT_VOTES && (
-            <div className="bg-white border border-[#C8C1B6]/50 rounded-lg p-5">
-              <p className="text-sm text-stone-600">
-                Voted with{" "}
-                <span
-                  className="inline-block px-1.5 py-0.5 rounded-sm text-[10px] font-medium text-white"
-                  style={{ backgroundColor: sectorColor(topSector) }}
-                >
-                  {topSector}
-                </span>{" "}
-                <span className="font-bold text-[#111111]">
-                  {votesMatched}/{votesWithPosition} times
-                </span>{" "}
-                ({votesWithPosition > 0 ? ((votesMatched / votesWithPosition) * 100).toFixed(0) : 0}%)
-              </p>
-            </div>
-          )}
+          {/* Voting cards — one per curated vote */}
+          <div className="space-y-3">
+            {voteRows.map((row) => (
+              <div
+                key={row.rollCallId}
+                className="bg-white border border-[#C8C1B6]/50 rounded-lg p-4"
+              >
+                {/* Top row: date + bill + vote badge */}
+                <div className="flex items-start justify-between gap-3">
+                  <div className="flex-1 min-w-0">
+                    <div className="flex items-center gap-2 mb-1">
+                      <span className="text-[10px] text-stone-400 tabular-nums">{row.date}</span>
+                      <span className="text-xs font-bold text-[#111111]">{row.bill}</span>
+                    </div>
+                    <p className="text-xs text-stone-500 leading-relaxed">
+                      {row.billTitle}
+                    </p>
+                  </div>
+                  <div className="shrink-0">
+                    <VoteBadge position={row.memberPosition} />
+                  </div>
+                </div>
 
-          {/* Voting table */}
-          <div className="bg-white border border-[#C8C1B6]/50 rounded-lg overflow-hidden">
-            <div className="overflow-x-auto">
-              <table className="w-full text-sm">
-                <thead>
-                  <tr className="border-b border-[#C8C1B6]/50 bg-[#F5F0EB] text-stone-500 text-xs uppercase tracking-wider" style={{ fontFamily: "var(--font-display)" }}>
-                    <th className="text-left px-4 py-3">Date</th>
-                    <th className="text-left px-4 py-3">Bill</th>
-                    <th className="text-center px-4 py-3">Vote</th>
-                    <th className="text-center px-4 py-3">{topSector} Wanted</th>
-                    <th className="text-center px-4 py-3">Match</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  {voteRows.map((row) => (
-                    <tr
-                      key={row.rollCallId}
-                      className="border-b border-[#C8C1B6]/30 last:border-b-0 hover:bg-[#F5F0EB] transition-colors"
+                {/* Sector alignment pills */}
+                <div className="flex flex-wrap gap-2 mt-3 pt-3 border-t border-[#C8C1B6]/30">
+                  {row.sectorMatches.map((sm) => (
+                    <span
+                      key={sm.sector}
+                      className="inline-flex items-center gap-1.5 text-[10px] px-2 py-1 rounded-full border"
+                      style={{
+                        borderColor: sm.matched ? "#16a34a" : "#FE4F40",
+                        backgroundColor: sm.matched ? "#f0fdf4" : "#fef2f2",
+                        color: sm.matched ? "#15803d" : "#dc2626",
+                      }}
+                      title={sm.reason}
                     >
-                      <td className="px-4 py-3 text-stone-500 text-xs whitespace-nowrap">
-                        {row.date}
-                      </td>
-                      <td className="px-4 py-3">
-                        <p className="text-[#111111] text-xs font-medium">{row.bill}</p>
-                        <p className="text-[10px] text-stone-400 mt-0.5 leading-relaxed line-clamp-2">
-                          {row.billTitle}
-                        </p>
-                      </td>
-                      <td className="px-4 py-3 text-center">
-                        <VoteBadge position={row.memberPosition} />
-                      </td>
-                      <td className="px-4 py-3 text-center">
-                        {row.sectorPosition ? (
-                          <VoteBadge position={row.sectorPosition} />
-                        ) : (
-                          <span className="text-stone-300 text-xs">&mdash;</span>
-                        )}
-                      </td>
-                      <td className="px-4 py-3 text-center">
-                        {row.matched === true ? (
-                          <span className="text-green-600 font-bold text-base" title="Voted with sector position">&#10003;</span>
-                        ) : row.matched === false ? (
-                          <span className="text-[#FE4F40] font-bold text-base" title="Voted against sector position">&#10007;</span>
-                        ) : (
-                          <span className="text-stone-300 text-xs">&mdash;</span>
-                        )}
-                      </td>
-                    </tr>
+                      <span
+                        className="w-2 h-2 rounded-full shrink-0"
+                        style={{ backgroundColor: sectorColor(sm.sector) }}
+                      />
+                      {sm.sector}
+                      <span className="font-bold">{sm.matched ? "\u2713" : "\u2717"}</span>
+                    </span>
                   ))}
-                </tbody>
-              </table>
-            </div>
+                </div>
+              </div>
+            ))}
           </div>
+
+          <p className="text-[10px] text-stone-400">
+            Showing {voteRows.length} curated tax-policy votes where top funding sectors took a position.
+          </p>
         </section>
       )}
 

@@ -12,8 +12,6 @@ import {
   ScatterChart,
   Scatter,
   ZAxis,
-  CartesianGrid,
-  Legend,
 } from "recharts";
 import type { PacSpreadEntry } from "@/lib/data";
 import { formatMoney } from "@/lib/utils";
@@ -99,7 +97,7 @@ export default function PacCharts({ pacs, sectorColors }: PacChartsProps) {
           Industries that spend the most on PAC contributions to tax-writing committees are the same ones with the most at stake in tax legislation.
           Finance, healthcare, and real estate together account for the majority of classified PAC dollars — and each has a distinct tax policy wishlist.
         </p>
-        <div className="bg-white border border-[#C8C1B6]/50 rounded-lg p-5">
+        <div>
           <ResponsiveContainer width="100%" height={Math.max(300, sectorData.length * 36)}>
             <BarChart data={sectorData} layout="vertical" margin={{ left: 160, right: 40, top: 5, bottom: 5 }}>
               <XAxis type="number" tickFormatter={formatDollarsShort} tick={{ fontSize: 11, fill: "#78716C" }} />
@@ -114,7 +112,7 @@ export default function PacCharts({ pacs, sectorColors }: PacChartsProps) {
                 labelStyle={{ fontWeight: 600 }}
                 contentStyle={{ borderRadius: 6, border: "1px solid #C8C1B6", fontSize: 13 }}
               />
-              <Bar dataKey="total" radius={[0, 4, 4, 0]}>
+              <Bar dataKey="total" radius={0}>
                 {sectorData.map((entry, i) => (
                   <Cell key={i} fill={entry.color} />
                 ))}
@@ -139,10 +137,9 @@ export default function PacCharts({ pacs, sectorColors }: PacChartsProps) {
           The upper-right corner is where the power lives: PACs that spend big <em>and</em> spread wide.
           A PAC funding 40+ members across both committees doesn&apos;t just have access — it has leverage over every stage of the tax-writing process.
         </p>
-        <div className="bg-white border border-[#C8C1B6]/50 rounded-lg p-5">
+        <div>
           <ResponsiveContainer width="100%" height={400}>
             <ScatterChart margin={{ top: 10, right: 30, bottom: 30, left: 20 }}>
-              <CartesianGrid strokeDasharray="3 3" stroke="#E7E5E4" />
               <XAxis
                 type="number"
                 dataKey="x"
@@ -163,7 +160,7 @@ export default function PacCharts({ pacs, sectorColors }: PacChartsProps) {
                   if (!payload || payload.length === 0) return null;
                   const d = payload[0].payload;
                   return (
-                    <div className="bg-white border border-[#C8C1B6] rounded-md p-3 shadow-lg max-w-xs">
+                    <div className="bg-white border border-[#C8C1B6] rounded-md p-3 max-w-xs">
                       <p className="text-sm font-semibold text-[#111111] mb-1">{d.fullName}</p>
                       <p className="text-xs text-stone-500">{d.sector}</p>
                       <div className="flex gap-4 mt-2 text-xs">
@@ -199,7 +196,7 @@ export default function PacCharts({ pacs, sectorColors }: PacChartsProps) {
           The most powerful PACs give to both parties — not out of bipartisanship, but to guarantee a seat at the table regardless of who controls the committee.
           This &ldquo;hedge your bets&rdquo; strategy ensures their tax priorities survive any shift in power.
         </p>
-        <div className="bg-white border border-[#C8C1B6]/50 rounded-lg p-5">
+        <div>
           <ResponsiveContainer width="100%" height={Math.max(300, partyData.length * 36)}>
             <BarChart data={partyData} layout="vertical" margin={{ left: 180, right: 40, top: 5, bottom: 5 }}>
               <XAxis type="number" tickFormatter={formatDollarsShort} tick={{ fontSize: 11, fill: "#78716C" }} />
@@ -216,14 +213,8 @@ export default function PacCharts({ pacs, sectorColors }: PacChartsProps) {
                 ]}
                 contentStyle={{ borderRadius: 6, border: "1px solid #C8C1B6", fontSize: 13 }}
               />
-              <Legend
-                formatter={(value: string) =>
-                  value === "rTotal" ? "Republican" : "Democrat"
-                }
-                wrapperStyle={{ fontSize: 12 }}
-              />
-              <Bar dataKey="rTotal" stackId="party" fill="#EF4444" radius={[0, 0, 0, 0]} />
-              <Bar dataKey="dTotal" stackId="party" fill="#3B82F6" radius={[0, 4, 4, 0]} />
+              <Bar dataKey="rTotal" stackId="party" fill="#EF4444" radius={0} />
+              <Bar dataKey="dTotal" stackId="party" fill="#3B82F6" radius={0} />
             </BarChart>
           </ResponsiveContainer>
           <p className="text-[10px] text-stone-400 mt-2">

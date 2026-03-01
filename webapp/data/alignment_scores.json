@@ -1,9 +1,9 @@
 {
   "Jason Smith": {
-    "alignment_pct": 100,
-    "votes_with": 1,
-    "votes_against": 0,
-    "votes_total": 1,
+    "alignment_pct": 84.6,
+    "votes_with": 11,
+    "votes_against": 2,
+    "votes_total": 13,
     "top_funding_sector": "Finance & Insurance",
     "top_sectors": [
       "Finance & Insurance",
@@ -12,17 +12,22 @@
     ],
     "per_sector": {
       "Finance & Insurance": {
-        "with": 1,
+        "with": 9,
         "against": 0,
-        "total": 1
+        "total": 9
+      },
+      "Healthcare & Pharma": {
+        "with": 2,
+        "against": 2,
+        "total": 4
       }
     }
   },
   "Vern Buchanan": {
-    "alignment_pct": 100,
-    "votes_with": 2,
-    "votes_against": 0,
-    "votes_total": 2,
+    "alignment_pct": 81.2,
+    "votes_with": 13,
+    "votes_against": 3,
+    "votes_total": 16,
     "top_funding_sector": "Healthcare & Pharma",
     "top_sectors": [
       "Healthcare & Pharma",
@@ -31,22 +36,27 @@
     ],
     "per_sector": {
       "Real Estate & Housing": {
-        "with": 1,
+        "with": 4,
         "against": 0,
-        "total": 1
+        "total": 4
       },
       "Finance & Insurance": {
-        "with": 1,
-        "against": 0,
-        "total": 1
+        "with": 7,
+        "against": 1,
+        "total": 8
+      },
+      "Healthcare & Pharma": {
+        "with": 2,
+        "against": 2,
+        "total": 4
       }
     }
   },
   "Adrian Smith": {
-    "alignment_pct": 100,
-    "votes_with": 2,
-    "votes_against": 0,
-    "votes_total": 2,
+    "alignment_pct": 88.2,
+    "votes_with": 15,
+    "votes_against": 2,
+    "votes_total": 17,
     "top_funding_sector": "Finance & Insurance",
     "top_sectors": [
       "Finance & Insurance",
@@ -55,22 +65,27 @@
     ],
     "per_sector": {
       "Finance & Insurance": {
-        "with": 1,
+        "with": 9,
         "against": 0,
-        "total": 1
+        "total": 9
       },
       "Real Estate & Housing": {
-        "with": 1,
+        "with": 4,
         "against": 0,
-        "total": 1
+        "total": 4
+      },
+      "Healthcare & Pharma": {
+        "with": 2,
+        "against": 2,
+        "total": 4
       }
     }
   },
   "Mike Kelly": {
-    "alignment_pct": 100,
-    "votes_with": 1,
-    "votes_against": 0,
-    "votes_total": 1,
+    "alignment_pct": 75,
+    "votes_with": 6,
+    "votes_against": 2,
+    "votes_total": 8,
     "top_funding_sector": "Healthcare & Pharma",
     "top_sectors": [
       "Healthcare & Pharma",
@@ -78,7 +93,17 @@
       "Transportation"
     ],
     "per_sector": {
+      "Healthcare & Pharma": {
+        "with": 2,
+        "against": 2,
+        "total": 4
+      },
       "Real Estate & Housing": {
+        "with": 3,
+        "against": 0,
+        "total": 3
+      },
+      "Transportation": {
         "with": 1,
         "against": 0,
         "total": 1
@@ -86,10 +111,10 @@
     }
   },
   "David Schweikert": {
-    "alignment_pct": 100,
-    "votes_with": 1,
-    "votes_against": 0,
-    "votes_total": 1,
+    "alignment_pct": 85.7,
+    "votes_with": 12,
+    "votes_against": 2,
+    "votes_total": 14,
     "top_funding_sector": "Ideological",
     "top_sectors": [
       "Ideological",
@@ -97,6 +122,16 @@
       "Healthcare & Pharma"
     ],
     "per_sector": {
+      "Ideological": {
+        "with": 9,
+        "against": 0,
+        "total": 9
+      },
+      "Healthcare & Pharma": {
+        "with": 2,
+        "against": 2,
+        "total": 4
+      },
       "Construction & Engineering": {
         "with": 1,
         "against": 0,
@@ -105,10 +140,10 @@
     }
   },
   "Darin LaHood": {
-    "alignment_pct": 100,
-    "votes_with": 1,
-    "votes_against": 0,
-    "votes_total": 1,
+    "alignment_pct": 81.8,
+    "votes_with": 18,
+    "votes_against": 4,
+    "votes_total": 22,
     "top_funding_sector": "Finance & Insurance",
     "top_sectors": [
       "Finance & Insurance",
@@ -117,17 +152,27 @@
     ],
     "per_sector": {
       "Finance & Insurance": {
-        "with": 1,
-        "against": 0,
-        "total": 1
+        "with": 8,
+        "against": 1,
+        "total": 9
+      },
+      "Healthcare & Pharma": {
+        "with": 2,
+        "against": 2,
+        "total": 4
+      },
+      "Ideological": {
+        "with": 8,
+        "against": 1,
+        "total": 9
       }
     }
   },
   "Jodey Arrington": {
     "alignment_pct": 100,
-    "votes_with": 2,
+    "votes_with": 13,
     "votes_against": 0,
-    "votes_total": 2,
+    "votes_total": 13,
     "top_funding_sector": "Real Estate & Housing",
     "top_sectors": [
       "Real Estate & Housing",
@@ -136,22 +181,22 @@
     ],
     "per_sector": {
       "Real Estate & Housing": {
-        "with": 1,
+        "with": 4,
         "against": 0,
-        "total": 1
+        "total": 4
       },
       "Finance & Insurance": {
-        "with": 1,
+        "with": 9,
         "against": 0,
-        "total": 1
+        "total": 9
       }
     }
   },
   "Ron Estes": {
-    "alignment_pct": 100,
-    "votes_with": 2,
-    "votes_against": 0,
-    "votes_total": 2,
+    "alignment_pct": 88.2,
+    "votes_with": 15,
+    "votes_against": 2,
+    "votes_total": 17,
     "top_funding_sector": "Healthcare & Pharma",
     "top_sectors": [
       "Healthcare & Pharma",
@@ -160,22 +205,27 @@
     ],
     "per_sector": {
       "Real Estate & Housing": {
-        "with": 1,
+        "with": 4,
         "against": 0,
-        "total": 1
+        "total": 4
       },
       "Finance & Insurance": {
-        "with": 1,
+        "with": 9,
         "against": 0,
-        "total": 1
+        "total": 9
+      },
+      "Healthcare & Pharma": {
+        "with": 2,
+        "against": 2,
+        "total": 4
       }
     }
   },
   "Lloyd Smucker": {
-    "alignment_pct": 100,
-    "votes_with": 2,
-    "votes_against": 0,
-    "votes_total": 2,
+    "alignment_pct": 84.6,
+    "votes_with": 11,
+    "votes_against": 2,
+    "votes_total": 13,
     "top_funding_sector": "Finance & Insurance",
     "top_sectors": [
       "Finance & Insurance",
@@ -184,9 +234,14 @@
     ],
     "per_sector": {
       "Finance & Insurance": {
-        "with": 1,
+        "with": 8,
         "against": 0,
-        "total": 1
+        "total": 8
+      },
+      "Healthcare & Pharma": {
+        "with": 2,
+        "against": 2,
+        "total": 4
       },
       "Construction & Engineering": {
         "with": 1,
@@ -196,10 +251,10 @@
     }
   },
   "Kevin Hern": {
-    "alignment_pct": 100,
-    "votes_with": 2,
-    "votes_against": 0,
-    "votes_total": 2,
+    "alignment_pct": 81.8,
+    "votes_with": 9,
+    "votes_against": 2,
+    "votes_total": 11,
     "top_funding_sector": "Healthcare & Pharma",
     "top_sectors": [
       "Healthcare & Pharma",
@@ -208,22 +263,27 @@
     ],
     "per_sector": {
       "Real Estate & Housing": {
-        "with": 1,
+        "with": 4,
         "against": 0,
-        "total": 1
+        "total": 4
+      },
+      "Healthcare & Pharma": {
+        "with": 2,
+        "against": 2,
+        "total": 4
       },
       "Tech & Telecom": {
-        "with": 1,
+        "with": 3,
         "against": 0,
-        "total": 1
+        "total": 3
       }
     }
   },
   "Carol Miller": {
     "alignment_pct": 100,
-    "votes_with": 2,
+    "votes_with": 14,
     "votes_against": 0,
-    "votes_total": 2,
+    "votes_total": 14,
     "top_funding_sector": "Real Estate & Housing",
     "top_sectors": [
       "Real Estate & Housing",
@@ -232,11 +292,16 @@
     ],
     "per_sector": {
       "Real Estate & Housing": {
-        "with": 1,
+        "with": 4,
         "against": 0,
-        "total": 1
+        "total": 4
       },
       "Finance & Insurance": {
+        "with": 9,
+        "against": 0,
+        "total": 9
+      },
+      "Transportation": {
         "with": 1,
         "against": 0,
         "total": 1
@@ -244,10 +309,10 @@
     }
   },
   "Greg Murphy": {
-    "alignment_pct": 100,
-    "votes_with": 2,
-    "votes_against": 0,
-    "votes_total": 2,
+    "alignment_pct": 86.7,
+    "votes_with": 13,
+    "votes_against": 2,
+    "votes_total": 15,
     "top_funding_sector": "Real Estate & Housing",
     "top_sectors": [
       "Real Estate & Housing",
@@ -256,22 +321,27 @@
     ],
     "per_sector": {
       "Real Estate & Housing": {
-        "with": 1,
+        "with": 4,
         "against": 0,
-        "total": 1
+        "total": 4
       },
       "Finance & Insurance": {
-        "with": 1,
+        "with": 7,
         "against": 0,
-        "total": 1
+        "total": 7
+      },
+      "Healthcare & Pharma": {
+        "with": 2,
+        "against": 2,
+        "total": 4
       }
     }
   },
   "David Kustoff": {
     "alignment_pct": 100,
-    "votes_with": 1,
+    "votes_with": 19,
     "votes_against": 0,
-    "votes_total": 1,
+    "votes_total": 19,
     "top_funding_sector": "Transportation",
     "top_sectors": [
       "Transportation",
@@ -280,6 +350,16 @@
     ],
     "per_sector": {
       "Finance & Insurance": {
+        "with": 9,
+        "against": 0,
+        "total": 9
+      },
+      "Ideological": {
+        "with": 9,
+        "against": 0,
+        "total": 9
+      },
+      "Transportation": {
         "with": 1,
         "against": 0,
         "total": 1
@@ -287,10 +367,10 @@
     }
   },
   "Brian Fitzpatrick": {
-    "alignment_pct": 100,
-    "votes_with": 2,
-    "votes_against": 0,
-    "votes_total": 2,
+    "alignment_pct": 95.5,
+    "votes_with": 21,
+    "votes_against": 1,
+    "votes_total": 22,
     "top_funding_sector": "Finance & Insurance",
     "top_sectors": [
       "Finance & Insurance",
@@ -299,22 +379,27 @@
     ],
     "per_sector": {
       "Finance & Insurance": {
-        "with": 1,
+        "with": 9,
         "against": 0,
-        "total": 1
+        "total": 9
       },
       "Real Estate & Housing": {
-        "with": 1,
+        "with": 4,
         "against": 0,
-        "total": 1
+        "total": 4
+      },
+      "Ideological": {
+        "with": 8,
+        "against": 1,
+        "total": 9
       }
     }
   },
   "Greg Steube": {
-    "alignment_pct": 100,
-    "votes_with": 3,
-    "votes_against": 0,
-    "votes_total": 3,
+    "alignment_pct": 92.9,
+    "votes_with": 13,
+    "votes_against": 1,
+    "votes_total": 14,
     "top_funding_sector": "Finance & Insurance",
     "top_sectors": [
       "Finance & Insurance",
@@ -323,14 +408,14 @@
     ],
     "per_sector": {
       "Finance & Insurance": {
-        "with": 1,
-        "against": 0,
-        "total": 1
+        "with": 8,
+        "against": 1,
+        "total": 9
       },
       "Real Estate & Housing": {
-        "with": 1,
+        "with": 4,
         "against": 0,
-        "total": 1
+        "total": 4
       },
       "Construction & Engineering": {
         "with": 1,
@@ -341,9 +426,9 @@
   },
   "Claudia Tenney": {
     "alignment_pct": 100,
-    "votes_with": 2,
+    "votes_with": 17,
     "votes_against": 0,
-    "votes_total": 2,
+    "votes_total": 17,
     "top_funding_sector": "Finance & Insurance",
     "top_sectors": [
       "Finance & Insurance",
@@ -352,22 +437,27 @@
     ],
     "per_sector": {
       "Finance & Insurance": {
-        "with": 1,
+        "with": 9,
         "against": 0,
-        "total": 1
+        "total": 9
       },
       "Real Estate & Housing": {
-        "with": 1,
+        "with": 4,
         "against": 0,
-        "total": 1
+        "total": 4
+      },
+      "Energy & Utilities": {
+        "with": 4,
+        "against": 0,
+        "total": 4
       }
     }
   },
   "Michelle Fischbach": {
-    "alignment_pct": 100,
-    "votes_with": 1,
-    "votes_against": 0,
-    "votes_total": 1,
+    "alignment_pct": 93.3,
+    "votes_with": 14,
+    "votes_against": 1,
+    "votes_total": 15,
     "top_funding_sector": "Real Estate & Housing",
     "top_sectors": [
       "Real Estate & Housing",
@@ -376,17 +466,27 @@
     ],
     "per_sector": {
       "Real Estate & Housing": {
-        "with": 1,
+        "with": 4,
         "against": 0,
-        "total": 1
+        "total": 4
+      },
+      "Professional Services": {
+        "with": 2,
+        "against": 0,
+        "total": 2
+      },
+      "Ideological": {
+        "with": 8,
+        "against": 1,
+        "total": 9
       }
     }
   },
   "Blake Moore": {
     "alignment_pct": 100,
-    "votes_with": 2,
+    "votes_with": 13,
     "votes_against": 0,
-    "votes_total": 2,
+    "votes_total": 13,
     "top_funding_sector": "Finance & Insurance",
     "top_sectors": [
       "Finance & Insurance",
@@ -395,11 +495,16 @@
     ],
     "per_sector": {
       "Finance & Insurance": {
-        "with": 1,
+        "with": 9,
         "against": 0,
-        "total": 1
+        "total": 9
       },
       "Tech & Telecom": {
+        "with": 3,
+        "against": 0,
+        "total": 3
+      },
+      "Transportation": {
         "with": 1,
         "against": 0,
         "total": 1
@@ -407,10 +512,10 @@
     }
   },
   "Beth Van Duyne": {
-    "alignment_pct": 100,
-    "votes_with": 1,
-    "votes_against": 0,
-    "votes_total": 1,
+    "alignment_pct": 77.8,
+    "votes_with": 7,
+    "votes_against": 2,
+    "votes_total": 9,
     "top_funding_sector": "Real Estate & Housing",
     "top_sectors": [
       "Real Estate & Housing",
@@ -419,6 +524,16 @@
     ],
     "per_sector": {
       "Real Estate & Housing": {
+        "with": 4,
+        "against": 0,
+        "total": 4
+      },
+      "Healthcare & Pharma": {
+        "with": 2,
+        "against": 2,
+        "total": 4
+      },
+      "Transportation": {
         "with": 1,
         "against": 0,
         "total": 1
@@ -427,9 +542,9 @@
   },
   "Randy Feenstra": {
     "alignment_pct": 100,
-    "votes_with": 1,
+    "votes_with": 7,
     "votes_against": 0,
-    "votes_total": 1,
+    "votes_total": 7,
     "top_funding_sector": "Real Estate & Housing",
     "top_sectors": [
       "Real Estate & Housing",
@@ -438,6 +553,16 @@
     ],
     "per_sector": {
       "Real Estate & Housing": {
+        "with": 4,
+        "against": 0,
+        "total": 4
+      },
+      "Professional Services": {
+        "with": 2,
+        "against": 0,
+        "total": 2
+      },
+      "Transportation": {
         "with": 1,
         "against": 0,
         "total": 1
@@ -445,10 +570,10 @@
     }
   },
   "Nicole Malliotakis": {
-    "alignment_pct": 100,
-    "votes_with": 2,
-    "votes_against": 0,
-    "votes_total": 2,
+    "alignment_pct": 76,
+    "votes_with": 19,
+    "votes_against": 6,
+    "votes_total": 25,
     "top_funding_sector": "Finance & Insurance",
     "top_sectors": [
       "Finance & Insurance",
@@ -457,22 +582,27 @@
     ],
     "per_sector": {
       "Finance & Insurance": {
-        "with": 1,
+        "with": 9,
         "against": 0,
-        "total": 1
+        "total": 9
+      },
+      "Labor": {
+        "with": 6,
+        "against": 6,
+        "total": 12
       },
       "Real Estate & Housing": {
-        "with": 1,
+        "with": 4,
         "against": 0,
-        "total": 1
+        "total": 4
       }
     }
   },
   "Mike Carey": {
-    "alignment_pct": 100,
-    "votes_with": 2,
-    "votes_against": 0,
-    "votes_total": 2,
+    "alignment_pct": 88.2,
+    "votes_with": 15,
+    "votes_against": 2,
+    "votes_total": 17,
     "top_funding_sector": "Finance & Insurance",
     "top_sectors": [
       "Finance & Insurance",
@@ -481,22 +611,27 @@
     ],
     "per_sector": {
       "Finance & Insurance": {
-        "with": 1,
+        "with": 9,
         "against": 0,
-        "total": 1
+        "total": 9
       },
       "Real Estate & Housing": {
-        "with": 1,
+        "with": 4,
         "against": 0,
-        "total": 1
+        "total": 4
+      },
+      "Healthcare & Pharma": {
+        "with": 2,
+        "against": 2,
+        "total": 4
       }
     }
   },
   "Rudy Yakym": {
-    "alignment_pct": 100,
-    "votes_with": 2,
-    "votes_against": 0,
-    "votes_total": 2,
+    "alignment_pct": 77.8,
+    "votes_with": 7,
+    "votes_against": 2,
+    "votes_total": 9,
     "top_funding_sector": "Healthcare & Pharma",
     "top_sectors": [
       "Healthcare & Pharma",
@@ -505,9 +640,14 @@
     ],
     "per_sector": {
       "Real Estate & Housing": {
-        "with": 1,
+        "with": 4,
         "against": 0,
-        "total": 1
+        "total": 4
+      },
+      "Healthcare & Pharma": {
+        "with": 2,
+        "against": 2,
+        "total": 4
       },
       "Construction & Engineering": {
         "with": 1,
@@ -517,10 +657,10 @@
     }
   },
   "Max Miller": {
-    "alignment_pct": 100,
-    "votes_with": 1,
-    "votes_against": 0,
-    "votes_total": 1,
+    "alignment_pct": 72.7,
+    "votes_with": 16,
+    "votes_against": 6,
+    "votes_total": 22,
     "top_funding_sector": "Finance & Insurance",
     "top_sectors": [
       "Finance & Insurance",
@@ -529,6 +669,16 @@
     ],
     "per_sector": {
       "Finance & Insurance": {
+        "with": 9,
+        "against": 0,
+        "total": 9
+      },
+      "Labor": {
+        "with": 6,
+        "against": 6,
+        "total": 12
+      },
+      "Transportation": {
         "with": 1,
         "against": 0,
         "total": 1
@@ -536,10 +686,10 @@
     }
   },
   "Aaron Bean": {
-    "alignment_pct": 100,
-    "votes_with": 1,
-    "votes_against": 0,
-    "votes_total": 1,
+    "alignment_pct": 90.9,
+    "votes_with": 20,
+    "votes_against": 2,
+    "votes_total": 22,
     "top_funding_sector": "Finance & Insurance",
     "top_sectors": [
       "Finance & Insurance",
@@ -548,30 +698,51 @@
     ],
     "per_sector": {
       "Finance & Insurance": {
-        "with": 1,
+        "with": 9,
         "against": 0,
-        "total": 1
+        "total": 9
+      },
+      "Healthcare & Pharma": {
+        "with": 2,
+        "against": 2,
+        "total": 4
+      },
+      "Ideological": {
+        "with": 9,
+        "against": 0,
+        "total": 9
       }
     }
   },
   "Nathaniel Moran": {
-    "alignment_pct": null,
-    "votes_with": 0,
-    "votes_against": 0,
-    "votes_total": 0,
+    "alignment_pct": 76.9,
+    "votes_with": 10,
+    "votes_against": 3,
+    "votes_total": 13,
     "top_funding_sector": "Food & Beverage",
     "top_sectors": [
       "Food & Beverage",
       "Healthcare & Pharma",
       "Ideological"
     ],
-    "per_sector": {}
+    "per_sector": {
+      "Healthcare & Pharma": {
+        "with": 2,
+        "against": 2,
+        "total": 4
+      },
+      "Ideological": {
+        "with": 8,
+        "against": 1,
+        "total": 9
+      }
+    }
   },
   "Richard Neal": {
-    "alignment_pct": 100,
-    "votes_with": 2,
-    "votes_against": 0,
-    "votes_total": 2,
+    "alignment_pct": 56.2,
+    "votes_with": 9,
+    "votes_against": 7,
+    "votes_total": 16,
     "top_funding_sector": "Finance & Insurance",
     "top_sectors": [
       "Finance & Insurance",
@@ -580,22 +751,27 @@
     ],
     "per_sector": {
       "Finance & Insurance": {
-        "with": 1,
-        "against": 0,
-        "total": 1
+        "with": 4,
+        "against": 5,
+        "total": 9
+      },
+      "Healthcare & Pharma": {
+        "with": 3,
+        "against": 1,
+        "total": 4
       },
       "Tech & Telecom": {
-        "with": 1,
-        "against": 0,
-        "total": 1
+        "with": 2,
+        "against": 1,
+        "total": 3
       }
     }
   },
   "Lloyd Doggett": {
-    "alignment_pct": 0,
-    "votes_with": 0,
-    "votes_against": 1,
-    "votes_total": 1,
+    "alignment_pct": 40,
+    "votes_with": 8,
+    "votes_against": 12,
+    "votes_total": 20,
     "top_funding_sector": "Labor",
     "top_sectors": [
       "Labor",
@@ -603,18 +779,28 @@
       "Real Estate & Housing"
     ],
     "per_sector": {
+      "Labor": {
+        "with": 6,
+        "against": 6,
+        "total": 12
+      },
       "Real Estate & Housing": {
         "with": 0,
-        "against": 1,
-        "total": 1
+        "against": 4,
+        "total": 4
+      },
+      "Healthcare & Pharma": {
+        "with": 2,
+        "against": 2,
+        "total": 4
       }
     }
   },
   "Mike Thompson": {
-    "alignment_pct": 100,
-    "votes_with": 1,
-    "votes_against": 0,
-    "votes_total": 1,
+    "alignment_pct": 44.4,
+    "votes_with": 4,
+    "votes_against": 5,
+    "votes_total": 9,
     "top_funding_sector": "Real Estate & Housing",
     "top_sectors": [
       "Real Estate & Housing",
@@ -624,16 +810,26 @@
     "per_sector": {
       "Real Estate & Housing": {
         "with": 1,
-        "against": 0,
+        "against": 3,
+        "total": 4
+      },
+      "Healthcare & Pharma": {
+        "with": 3,
+        "against": 1,
+        "total": 4
+      },
+      "Transportation": {
+        "with": 0,
+        "against": 1,
         "total": 1
       }
     }
   },
   "John Larson": {
-    "alignment_pct": 100,
-    "votes_with": 1,
-    "votes_against": 0,
-    "votes_total": 1,
+    "alignment_pct": 43.3,
+    "votes_with": 13,
+    "votes_against": 17,
+    "votes_total": 30,
     "top_funding_sector": "Finance & Insurance",
     "top_sectors": [
       "Finance & Insurance",
@@ -642,17 +838,27 @@
     ],
     "per_sector": {
       "Finance & Insurance": {
-        "with": 1,
-        "against": 0,
-        "total": 1
+        "with": 3,
+        "against": 6,
+        "total": 9
+      },
+      "Labor": {
+        "with": 7,
+        "against": 5,
+        "total": 12
+      },
+      "Defense & Aerospace": {
+        "with": 3,
+        "against": 6,
+        "total": 9
       }
     }
   },
   "Danny Davis": {
-    "alignment_pct": 100,
-    "votes_with": 1,
-    "votes_against": 0,
-    "votes_total": 1,
+    "alignment_pct": 48,
+    "votes_with": 12,
+    "votes_against": 13,
+    "votes_total": 25,
     "top_funding_sector": "Real Estate & Housing",
     "top_sectors": [
       "Real Estate & Housing",
@@ -662,16 +868,26 @@
     "per_sector": {
       "Real Estate & Housing": {
         "with": 1,
-        "against": 0,
-        "total": 1
+        "against": 3,
+        "total": 4
+      },
+      "Labor": {
+        "with": 7,
+        "against": 5,
+        "total": 12
+      },
+      "Defense & Aerospace": {
+        "with": 4,
+        "against": 5,
+        "total": 9
       }
     }
   },
   "Linda Sanchez": {
-    "alignment_pct": 0,
-    "votes_with": 0,
-    "votes_against": 2,
-    "votes_total": 2,
+    "alignment_pct": 20,
+    "votes_with": 3,
+    "votes_against": 12,
+    "votes_total": 15,
     "top_funding_sector": "Finance & Insurance",
     "top_sectors": [
       "Finance & Insurance",
@@ -680,35 +896,56 @@
     ],
     "per_sector": {
       "Finance & Insurance": {
-        "with": 0,
-        "against": 1,
-        "total": 1
+        "with": 3,
+        "against": 6,
+        "total": 9
       },
       "Real Estate & Housing": {
         "with": 0,
-        "against": 1,
-        "total": 1
+        "against": 4,
+        "total": 4
+      },
+      "Professional Services": {
+        "with": 0,
+        "against": 2,
+        "total": 2
       }
     }
   },
   "Terri Sewell": {
-    "alignment_pct": null,
-    "votes_with": 0,
-    "votes_against": 0,
-    "votes_total": 0,
+    "alignment_pct": 43.5,
+    "votes_with": 10,
+    "votes_against": 13,
+    "votes_total": 23,
     "top_funding_sector": "Professional Services",
     "top_sectors": [
       "Professional Services",
       "Labor",
       "Ideological"
     ],
-    "per_sector": {}
+    "per_sector": {
+      "Professional Services": {
+        "with": 0,
+        "against": 2,
+        "total": 2
+      },
+      "Labor": {
+        "with": 7,
+        "against": 5,
+        "total": 12
+      },
+      "Ideological": {
+        "with": 3,
+        "against": 6,
+        "total": 9
+      }
+    }
   },
   "Suzan DelBene": {
-    "alignment_pct": 100,
-    "votes_with": 1,
-    "votes_against": 0,
-    "votes_total": 1,
+    "alignment_pct": 63.2,
+    "votes_with": 12,
+    "votes_against": 7,
+    "votes_total": 19,
     "top_funding_sector": "Labor",
     "top_sectors": [
       "Labor",
@@ -716,18 +953,28 @@
       "Tech & Telecom"
     ],
     "per_sector": {
+      "Labor": {
+        "with": 7,
+        "against": 5,
+        "total": 12
+      },
+      "Healthcare & Pharma": {
+        "with": 3,
+        "against": 1,
+        "total": 4
+      },
       "Tech & Telecom": {
-        "with": 1,
-        "against": 0,
-        "total": 1
+        "with": 2,
+        "against": 1,
+        "total": 3
       }
     }
   },
   "Judy Chu": {
-    "alignment_pct": 100,
-    "votes_with": 2,
-    "votes_against": 0,
-    "votes_total": 2,
+    "alignment_pct": 44,
+    "votes_with": 11,
+    "votes_against": 14,
+    "votes_total": 25,
     "top_funding_sector": "Labor",
     "top_sectors": [
       "Labor",
@@ -735,23 +982,28 @@
       "Finance & Insurance"
     ],
     "per_sector": {
+      "Labor": {
+        "with": 7,
+        "against": 5,
+        "total": 12
+      },
       "Real Estate & Housing": {
         "with": 1,
-        "against": 0,
-        "total": 1
+        "against": 3,
+        "total": 4
       },
       "Finance & Insurance": {
-        "with": 1,
-        "against": 0,
-        "total": 1
+        "with": 3,
+        "against": 6,
+        "total": 9
       }
     }
   },
   "Gwen Moore": {
-    "alignment_pct": 0,
-    "votes_with": 0,
-    "votes_against": 1,
-    "votes_total": 1,
+    "alignment_pct": 28.6,
+    "votes_with": 6,
+    "votes_against": 15,
+    "votes_total": 21,
     "top_funding_sector": "Finance & Insurance",
     "top_sectors": [
       "Finance & Insurance",
@@ -760,17 +1012,27 @@
     ],
     "per_sector": {
       "Finance & Insurance": {
+        "with": 1,
+        "against": 7,
+        "total": 8
+      },
+      "Labor": {
+        "with": 5,
+        "against": 6,
+        "total": 11
+      },
+      "Professional Services": {
         "with": 0,
-        "against": 1,
-        "total": 1
+        "against": 2,
+        "total": 2
       }
     }
   },
   "Brendan Boyle": {
-    "alignment_pct": 100,
-    "votes_with": 1,
-    "votes_against": 0,
-    "votes_total": 1,
+    "alignment_pct": 52.4,
+    "votes_with": 11,
+    "votes_against": 10,
+    "votes_total": 21,
     "top_funding_sector": "Labor",
     "top_sectors": [
       "Labor",
@@ -778,18 +1040,28 @@
       "Transportation"
     ],
     "per_sector": {
+      "Labor": {
+        "with": 6,
+        "against": 6,
+        "total": 12
+      },
       "Finance & Insurance": {
-        "with": 1,
-        "against": 0,
+        "with": 5,
+        "against": 3,
+        "total": 8
+      },
+      "Transportation": {
+        "with": 0,
+        "against": 1,
         "total": 1
       }
     }
   },
   "Don Beyer": {
-    "alignment_pct": 100,
-    "votes_with": 1,
-    "votes_against": 0,
-    "votes_total": 1,
+    "alignment_pct": 46.7,
+    "votes_with": 14,
+    "votes_against": 16,
+    "votes_total": 30,
     "top_funding_sector": "Defense & Aerospace",
     "top_sectors": [
       "Defense & Aerospace",
@@ -797,18 +1069,28 @@
       "Finance & Insurance"
     ],
     "per_sector": {
+      "Labor": {
+        "with": 7,
+        "against": 5,
+        "total": 12
+      },
       "Finance & Insurance": {
-        "with": 1,
-        "against": 0,
-        "total": 1
+        "with": 4,
+        "against": 5,
+        "total": 9
+      },
+      "Defense & Aerospace": {
+        "with": 3,
+        "against": 6,
+        "total": 9
       }
     }
   },
   "Dwight Evans": {
-    "alignment_pct": 100,
-    "votes_with": 1,
-    "votes_against": 0,
-    "votes_total": 1,
+    "alignment_pct": 50,
+    "votes_with": 7,
+    "votes_against": 7,
+    "votes_total": 14,
     "top_funding_sector": "Labor",
     "top_sectors": [
       "Labor",
@@ -816,18 +1098,28 @@
       "Real Estate & Housing"
     ],
     "per_sector": {
+      "Labor": {
+        "with": 6,
+        "against": 3,
+        "total": 9
+      },
       "Real Estate & Housing": {
         "with": 1,
-        "against": 0,
+        "against": 3,
+        "total": 4
+      },
+      "Transportation": {
+        "with": 0,
+        "against": 1,
         "total": 1
       }
     }
   },
   "Brad Schneider": {
-    "alignment_pct": 100,
-    "votes_with": 1,
-    "votes_against": 0,
-    "votes_total": 1,
+    "alignment_pct": 55.6,
+    "votes_with": 15,
+    "votes_against": 12,
+    "votes_total": 27,
     "top_funding_sector": "Finance & Insurance",
     "top_sectors": [
       "Finance & Insurance",
@@ -836,17 +1128,27 @@
     ],
     "per_sector": {
       "Finance & Insurance": {
-        "with": 1,
-        "against": 0,
-        "total": 1
+        "with": 6,
+        "against": 3,
+        "total": 9
+      },
+      "Ideological": {
+        "with": 5,
+        "against": 4,
+        "total": 9
+      },
+      "Defense & Aerospace": {
+        "with": 4,
+        "against": 5,
+        "total": 9
       }
     }
   },
   "Jimmy Panetta": {
-    "alignment_pct": 100,
-    "votes_with": 1,
-    "votes_against": 0,
-    "votes_total": 1,
+    "alignment_pct": 47.1,
+    "votes_with": 8,
+    "votes_against": 9,
+    "votes_total": 17,
     "top_funding_sector": "Healthcare & Pharma",
     "top_sectors": [
       "Healthcare & Pharma",
@@ -856,16 +1158,26 @@
     "per_sector": {
       "Real Estate & Housing": {
         "with": 1,
-        "against": 0,
-        "total": 1
+        "against": 3,
+        "total": 4
+      },
+      "Healthcare & Pharma": {
+        "with": 3,
+        "against": 1,
+        "total": 4
+      },
+      "Defense & Aerospace": {
+        "with": 4,
+        "against": 5,
+        "total": 9
       }
     }
   },
   "Jimmy Gomez": {
-    "alignment_pct": 100,
-    "votes_with": 1,
-    "votes_against": 0,
-    "votes_total": 1,
+    "alignment_pct": 40,
+    "votes_with": 10,
+    "votes_against": 15,
+    "votes_total": 25,
     "top_funding_sector": "Labor",
     "top_sectors": [
       "Labor",
@@ -873,18 +1185,28 @@
       "Ideological"
     ],
     "per_sector": {
+      "Labor": {
+        "with": 6,
+        "against": 6,
+        "total": 12
+      },
       "Real Estate & Housing": {
         "with": 1,
-        "against": 0,
-        "total": 1
+        "against": 3,
+        "total": 4
+      },
+      "Ideological": {
+        "with": 3,
+        "against": 6,
+        "total": 9
       }
     }
   },
   "Steven Horsford": {
-    "alignment_pct": 100,
-    "votes_with": 1,
-    "votes_against": 0,
-    "votes_total": 1,
+    "alignment_pct": 50,
+    "votes_with": 15,
+    "votes_against": 15,
+    "votes_total": 30,
     "top_funding_sector": "Labor",
     "top_sectors": [
       "Labor",
@@ -892,25 +1214,46 @@
       "Finance & Insurance"
     ],
     "per_sector": {
+      "Labor": {
+        "with": 6,
+        "against": 6,
+        "total": 12
+      },
       "Finance & Insurance": {
-        "with": 1,
-        "against": 0,
-        "total": 1
+        "with": 5,
+        "against": 4,
+        "total": 9
+      },
+      "Ideological": {
+        "with": 4,
+        "against": 5,
+        "total": 9
       }
     }
   },
   "Thomas Suozzi": {
-    "alignment_pct": null,
-    "votes_with": 0,
-    "votes_against": 0,
-    "votes_total": 0,
+    "alignment_pct": 37.5,
+    "votes_with": 3,
+    "votes_against": 5,
+    "votes_total": 8,
     "top_funding_sector": "Labor",
     "top_sectors": [
       "Labor",
       "Real Estate & Housing",
       "Construction & Engineering"
     ],
-    "per_sector": {}
+    "per_sector": {
+      "Labor": {
+        "with": 3,
+        "against": 4,
+        "total": 7
+      },
+      "Real Estate & Housing": {
+        "with": 0,
+        "against": 1,
+        "total": 1
+      }
+    }
   },
   "Mike Crapo": {
     "alignment_pct": null,

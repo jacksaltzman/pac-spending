@@ -1,11 +1,11 @@
 [
   {
     "roll_call_id": "H-118-2-30",
-    "bill": "H.R.7024",
+    "bill": "H.R. 7024",
     "bill_title": "Tax Relief for American Families and Workers Act of 2024",
     "date": "2024-01-31",
     "chamber": "house",
-    "description": "Expanded child tax credit, restored R&D expensing, extended business interest deductions, increased low-income housing tax credit",
+    "description": "Expanded child tax credit, restored R&D expensing, extended business interest deductions, increased LIHTC",
     "sector_positions": {
       "Finance & Insurance": {
         "position": "yea",
@@ -22,28 +22,362 @@
       "Construction & Engineering": {
         "position": "yea",
         "reason": "Extends 100% bonus depreciation for capital equipment"
+      },
+      "Healthcare & Pharma": {
+        "position": "yea",
+        "reason": "R&D expensing restoration benefits pharma/biotech development costs"
+      },
+      "Labor": {
+        "position": "yea",
+        "reason": "Child Tax Credit expansion is a core labor/worker benefit priority"
+      },
+      "Defense & Aerospace": {
+        "position": "yea",
+        "reason": "Bonus depreciation and R&D credits benefit large defense manufacturers"
       }
     }
   },
   {
-    "roll_call_id": "H-118-1-182",
-    "bill": "H.R.1",
-    "bill_title": "Lower Energy Costs Act",
-    "date": "2023-03-30",
+    "roll_call_id": "H-118-1-25",
+    "bill": "H.R. 23",
+    "bill_title": "Family and Small Business Taxpayer Protection Act",
+    "date": "2023-01-09",
     "chamber": "house",
-    "description": "Repealed IRA clean energy tax credits, expanded fossil fuel leasing, blocked methane fee",
+    "description": "Rescinded $80B in new IRS enforcement funding from the Inflation Reduction Act",
     "sector_positions": {
-      "Energy & Utilities": {
+      "Finance & Insurance": {
         "position": "yea",
-        "reason": "Expands fossil fuel production tax benefits and blocks methane emissions fee"
+        "reason": "Reduced IRS audit capacity for high-income taxpayers and pass-through businesses"
+      },
+      "Real Estate & Housing": {
+        "position": "yea",
+        "reason": "Real estate pass-throughs heavily targeted under IRS enforcement expansion"
+      },
+      "Labor": {
+        "position": "nay",
+        "reason": "Unions opposed gutting enforcement against wealthy tax avoidance"
+      },
+      "Ideological": {
+        "position": "yea",
+        "reason": "Signature anti-IRS, anti-government-expansion vote for conservative PACs"
+      },
+      "Healthcare & Pharma": {
+        "position": "yea",
+        "reason": "Reduced audit risk for complex pharmaceutical corporate structures"
+      },
+      "Professional Services": {
+        "position": "yea",
+        "reason": "Tax advisory clients benefit from reduced IRS enforcement"
+      }
+    }
+  },
+  {
+    "roll_call_id": "H-118-1-243",
+    "bill": "H.R. 3746",
+    "bill_title": "Fiscal Responsibility Act of 2023",
+    "date": "2023-05-31",
+    "chamber": "house",
+    "description": "Debt ceiling deal: suspended debt limit, clawed back COVID funds, cut IRS funding, added SNAP work requirements",
+    "sector_positions": {
+      "Finance & Insurance": {
+        "position": "aye",
+        "reason": "Averted catastrophic default; markets required resolution"
+      },
+      "Labor": {
+        "position": "nay",
+        "reason": "SNAP work requirements and IRS cuts opposed by unions as anti-worker"
+      },
+      "Ideological": {
+        "position": "aye",
+        "reason": "Spending restraint, work requirements, and IRS rescission"
+      },
+      "Energy & Utilities": {
+        "position": "aye",
+        "reason": "Accelerated permitting provisions aided energy project approvals"
+      },
+      "Defense & Aerospace": {
+        "position": "aye",
+        "reason": "Avoided default-triggered spending sequester on defense"
+      }
+    }
+  },
+  {
+    "roll_call_id": "H-119-1-50",
+    "bill": "H.Con.Res. 14",
+    "bill_title": "FY2025 Budget Resolution — Reconciliation Vehicle",
+    "date": "2025-02-25",
+    "chamber": "house",
+    "description": "Unlocked reconciliation for extending TCJA tax cuts plus deep cuts to Medicaid, SNAP, and clean energy credits",
+    "sector_positions": {
+      "Finance & Insurance": {
+        "position": "yea",
+        "reason": "Permanently lower corporate rates and restored TCJA provisions"
       },
       "Healthcare & Pharma": {
         "position": "nay",
-        "reason": "No direct stake but opposition aligned with preserving IRA provisions"
+        "reason": "Medicaid cuts threaten hospital and pharma revenue streams"
+      },
+      "Labor": {
+        "position": "nay",
+        "reason": "Cuts to SNAP/Medicaid viewed as attacking the worker safety net"
+      },
+      "Ideological": {
+        "position": "yea",
+        "reason": "Core conservative fiscal agenda: tax cuts funded by spending reductions"
+      },
+      "Defense & Aerospace": {
+        "position": "yea",
+        "reason": "Budget resolution included significant defense spending increases"
+      },
+      "Real Estate & Housing": {
+        "position": "yea",
+        "reason": "TCJA extensions preserve pass-through deductions for real estate"
+      }
+    }
+  },
+  {
+    "roll_call_id": "H-118-2-97",
+    "bill": "H.Con.Res. 86",
+    "bill_title": "Expressing Sense of Congress That a Carbon Tax Would Be Detrimental",
+    "date": "2024-03-21",
+    "chamber": "house",
+    "description": "Non-binding resolution against carbon pricing mechanisms",
+    "sector_positions": {
+      "Energy & Utilities": {
+        "position": "yea",
+        "reason": "Carbon tax is the existential threat to fossil fuel sector business model"
+      },
+      "Transportation": {
+        "position": "yea",
+        "reason": "Fuel costs would rise substantially under carbon pricing"
+      },
+      "Labor": {
+        "position": "yea",
+        "reason": "Building trades and mining unions concerned about fossil fuel job losses"
+      },
+      "Ideological": {
+        "position": "yea",
+        "reason": "Anti-carbon-tax is a core conservative economic position"
+      }
+    }
+  },
+  {
+    "roll_call_id": "H-119-1-71",
+    "bill": "H.J.Res. 25",
+    "bill_title": "IRS Crypto Broker Reporting Rule Disapproval",
+    "date": "2025-03-11",
+    "chamber": "house",
+    "description": "Overturned IRS rule requiring digital asset brokers to report crypto transaction proceeds",
+    "sector_positions": {
+      "Finance & Insurance": {
+        "position": "yea",
+        "reason": "DeFi/crypto industry lobbied intensely against reporting burden"
+      },
+      "Tech & Telecom": {
+        "position": "yea",
+        "reason": "Technology sector broadly supports lighter regulatory touch on digital assets"
+      },
+      "Ideological": {
+        "position": "yea",
+        "reason": "Anti-regulatory, pro-innovation, pro-crypto-freedom position"
+      },
+      "Labor": {
+        "position": "nay",
+        "reason": "Viewed as creating tax evasion safe harbor benefiting wealthy crypto holders"
+      }
+    }
+  },
+  {
+    "roll_call_id": "H-118-2-219",
+    "bill": "H.R. 5863",
+    "bill_title": "Federal Disaster Tax Relief Act",
+    "date": "2024-05-21",
+    "chamber": "house",
+    "description": "Tax relief for wildfire and East Palestine train derailment victims",
+    "sector_positions": {
+      "Labor": {
+        "position": "yea",
+        "reason": "Worker and community disaster relief; union households in affected areas benefited"
       },
       "Finance & Insurance": {
         "position": "yea",
-        "reason": "Reduces regulatory costs and energy transition compliance burden"
+        "reason": "Supports disaster relief payments flowing through insurance channels"
+      },
+      "Ideological": {
+        "position": "yea",
+        "reason": "Bipartisan disaster relief broadly supported across ideological spectrum"
+      }
+    }
+  },
+  {
+    "roll_call_id": "H-118-1-502",
+    "bill": "H.R. 4365",
+    "bill_title": "Department of Defense Appropriations Act, FY2024",
+    "date": "2023-09-28",
+    "chamber": "house",
+    "description": "Set $858B for national defense including major procurement and R&D accounts",
+    "sector_positions": {
+      "Defense & Aerospace": {
+        "position": "yea",
+        "reason": "Core appropriations for Lockheed, Raytheon, Boeing, Northrop — the single biggest sector spending event"
+      },
+      "Labor": {
+        "position": "yea",
+        "reason": "Defense manufacturing employment and worker benefits protected"
+      },
+      "Energy & Utilities": {
+        "position": "yea",
+        "reason": "Defense installations are major energy consumers; contracts embedded in DoD spending"
+      }
+    }
+  },
+  {
+    "roll_call_id": "H-118-2-331",
+    "bill": "H.R. 8774",
+    "bill_title": "Department of Defense Appropriations Act, FY2025",
+    "date": "2024-06-28",
+    "chamber": "house",
+    "description": "House FY2025 defense appropriations at ~$895B authorization",
+    "sector_positions": {
+      "Defense & Aerospace": {
+        "position": "yea",
+        "reason": "Direct sector spending at the highest level ever appropriated"
+      },
+      "Labor": {
+        "position": "yea",
+        "reason": "Secures jobs at defense primes and suppliers across the country"
+      }
+    }
+  },
+  {
+    "roll_call_id": "H-118-2-279",
+    "bill": "H.R. 8070",
+    "bill_title": "National Defense Authorization Act, FY2025",
+    "date": "2024-06-14",
+    "chamber": "house",
+    "description": "Authorized $895B in defense spending, servicemember pay raises, and procurement authorities",
+    "sector_positions": {
+      "Defense & Aerospace": {
+        "position": "aye",
+        "reason": "Authorization of all major weapons programs: F-35, B-21, Columbia-class, hypersonics"
+      },
+      "Labor": {
+        "position": "aye",
+        "reason": "Servicemember pay raises and defense manufacturing employment protected"
+      },
+      "Energy & Utilities": {
+        "position": "aye",
+        "reason": "DoD energy security provisions and military base energy requirements"
+      }
+    }
+  },
+  {
+    "roll_call_id": "H-118-1-690",
+    "bill": "S.J.Res. 32",
+    "bill_title": "CRA Disapproval of CFPB Small Business Lending Rule",
+    "date": "2023-12-01",
+    "chamber": "house",
+    "description": "Overturned CFPB rule requiring small business lenders to collect and report demographic loan data",
+    "sector_positions": {
+      "Finance & Insurance": {
+        "position": "yea",
+        "reason": "Banks and lenders avoided costly compliance burden and data disclosure"
+      },
+      "Real Estate & Housing": {
+        "position": "yea",
+        "reason": "Small commercial real estate lenders relieved of reporting burden"
+      },
+      "Labor": {
+        "position": "nay",
+        "reason": "Section 1071 data seen as tool to expose discriminatory lending against minority businesses"
+      },
+      "Professional Services": {
+        "position": "yea",
+        "reason": "Reduced compliance costs for financial services clients"
+      }
+    }
+  },
+  {
+    "roll_call_id": "H-118-2-152",
+    "bill": "H.R. 8034",
+    "bill_title": "Israel Security Supplemental Appropriations Act",
+    "date": "2024-04-20",
+    "chamber": "house",
+    "description": "$26B Israel security assistance package as part of broader foreign supplemental",
+    "sector_positions": {
+      "Defense & Aerospace": {
+        "position": "yea",
+        "reason": "Direct procurement contracts for Raytheon (Iron Dome), Lockheed (F-35 parts), Boeing"
+      },
+      "Ideological": {
+        "position": "yea",
+        "reason": "Pro-Israel ideological PACs (AIPAC-aligned) strongly supported"
+      }
+    }
+  },
+  {
+    "roll_call_id": "H-119-1-70",
+    "bill": "H.R. 1968",
+    "bill_title": "Full-Year Continuing Appropriations Act, FY2025",
+    "date": "2025-03-11",
+    "chamber": "house",
+    "description": "First-ever full-year CR locking in FY2024 spending levels for all domestic programs",
+    "sector_positions": {
+      "Defense & Aerospace": {
+        "position": "yea",
+        "reason": "Defense spending maintained at baseline; avoided sequester"
+      },
+      "Labor": {
+        "position": "nay",
+        "reason": "Flat-funded labor enforcement agencies during inflation — a real-terms cut"
+      },
+      "Healthcare & Pharma": {
+        "position": "nay",
+        "reason": "NIH, CDC flat-funded; hospitals opposed continued uncertainty"
+      },
+      "Ideological": {
+        "position": "yea",
+        "reason": "Spending restraint; GOP unified behind CR approach"
+      }
+    }
+  },
+  {
+    "roll_call_id": "H-119-1-15",
+    "bill": "H.R. 33",
+    "bill_title": "United States-Taiwan Expedited Double-Tax Relief Act",
+    "date": "2025-01-15",
+    "chamber": "house",
+    "description": "Special tax rules for Taiwanese residents with U.S.-source income; bilateral tax coordination",
+    "sector_positions": {
+      "Tech & Telecom": {
+        "position": "yea",
+        "reason": "Semiconductor and tech supply chain companies with Taiwan operations benefit from reduced double-taxation"
+      },
+      "Defense & Aerospace": {
+        "position": "yea",
+        "reason": "Taiwan defense industrial base access incentivized"
+      },
+      "Finance & Insurance": {
+        "position": "yea",
+        "reason": "Cross-border investment and financial service flows clarified"
+      }
+    }
+  },
+  {
+    "roll_call_id": "H-118-2-477",
+    "bill": "H.R. 9495",
+    "bill_title": "Stop Terror-Financing and Tax Penalties on American Hostages Act",
+    "date": "2024-11-21",
+    "chamber": "house",
+    "description": "Allowed Treasury to revoke tax-exempt status of organizations supporting terrorism; tax penalty relief for hostages",
+    "sector_positions": {
+      "Ideological": {
+        "position": "yea",
+        "reason": "Pro-Israel PACs strongly supported revocation authority targeting terror-linked nonprofits"
+      },
+      "Finance & Insurance": {
+        "position": "yea",
+        "reason": "Tax compliance clarity for nonprofit sector donors"
       }
     }
   }

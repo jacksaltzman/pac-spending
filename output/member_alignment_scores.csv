@@ -1,48 +1,48 @@
 member_name,party,state,chamber,alignment_pct,votes_with,votes_against,votes_total,top_funding_sector
-Jason Smith,R,MO,house,100.0,1,0,1,Finance & Insurance
-Vern Buchanan,R,FL,house,100.0,2,0,2,Healthcare & Pharma
-Adrian Smith,R,NE,house,100.0,2,0,2,Finance & Insurance
-Mike Kelly,R,PA,house,100.0,1,0,1,Healthcare & Pharma
-David Schweikert,R,AZ,house,100.0,1,0,1,Ideological
-Darin LaHood,R,IL,house,100.0,1,0,1,Finance & Insurance
-Jodey Arrington,R,TX,house,100.0,2,0,2,Real Estate & Housing
-Ron Estes,R,KS,house,100.0,2,0,2,Healthcare & Pharma
-Lloyd Smucker,R,PA,house,100.0,2,0,2,Finance & Insurance
-Kevin Hern,R,OK,house,100.0,2,0,2,Healthcare & Pharma
-Carol Miller,R,WV,house,100.0,2,0,2,Real Estate & Housing
-Greg Murphy,R,NC,house,100.0,2,0,2,Real Estate & Housing
-David Kustoff,R,TN,house,100.0,1,0,1,Transportation
-Brian Fitzpatrick,R,PA,house,100.0,2,0,2,Finance & Insurance
-Greg Steube,R,FL,house,100.0,3,0,3,Finance & Insurance
-Claudia Tenney,R,NY,house,100.0,2,0,2,Finance & Insurance
-Michelle Fischbach,R,MN,house,100.0,1,0,1,Real Estate & Housing
-Blake Moore,R,UT,house,100.0,2,0,2,Finance & Insurance
-Beth Van Duyne,R,TX,house,100.0,1,0,1,Real Estate & Housing
-Randy Feenstra,R,IA,house,100.0,1,0,1,Real Estate & Housing
-Nicole Malliotakis,R,NY,house,100.0,2,0,2,Finance & Insurance
-Mike Carey,R,OH,house,100.0,2,0,2,Finance & Insurance
-Rudy Yakym,R,IN,house,100.0,2,0,2,Healthcare & Pharma
-Max Miller,R,OH,house,100.0,1,0,1,Finance & Insurance
-Aaron Bean,R,FL,house,100.0,1,0,1,Finance & Insurance
-Nathaniel Moran,R,TX,house,,0,0,0,Food & Beverage
-Richard Neal,D,MA,house,100.0,2,0,2,Finance & Insurance
-Lloyd Doggett,D,TX,house,0.0,0,1,1,Labor
-Mike Thompson,D,CA,house,100.0,1,0,1,Real Estate & Housing
-John Larson,D,CT,house,100.0,1,0,1,Finance & Insurance
-Danny Davis,D,IL,house,100.0,1,0,1,Real Estate & Housing
-Linda Sanchez,D,CA,house,0.0,0,2,2,Finance & Insurance
-Terri Sewell,D,AL,house,,0,0,0,Professional Services
-Suzan DelBene,D,WA,house,100.0,1,0,1,Labor
-Judy Chu,D,CA,house,100.0,2,0,2,Labor
-Gwen Moore,D,WI,house,0.0,0,1,1,Finance & Insurance
-Brendan Boyle,D,PA,house,100.0,1,0,1,Labor
-Don Beyer,D,VA,house,100.0,1,0,1,Defense & Aerospace
-Dwight Evans,D,PA,house,100.0,1,0,1,Labor
-Brad Schneider,D,IL,house,100.0,1,0,1,Finance & Insurance
-Jimmy Panetta,D,CA,house,100.0,1,0,1,Healthcare & Pharma
-Jimmy Gomez,D,CA,house,100.0,1,0,1,Labor
-Steven Horsford,D,NV,house,100.0,1,0,1,Labor
-Thomas Suozzi,D,NY,house,,0,0,0,Labor
+Jason Smith,R,MO,house,84.6,11,2,13,Finance & Insurance
+Vern Buchanan,R,FL,house,81.2,13,3,16,Healthcare & Pharma
+Adrian Smith,R,NE,house,88.2,15,2,17,Finance & Insurance
+Mike Kelly,R,PA,house,75.0,6,2,8,Healthcare & Pharma
+David Schweikert,R,AZ,house,85.7,12,2,14,Ideological
+Darin LaHood,R,IL,house,81.8,18,4,22,Finance & Insurance
+Jodey Arrington,R,TX,house,100.0,13,0,13,Real Estate & Housing
+Ron Estes,R,KS,house,88.2,15,2,17,Healthcare & Pharma
+Lloyd Smucker,R,PA,house,84.6,11,2,13,Finance & Insurance
+Kevin Hern,R,OK,house,81.8,9,2,11,Healthcare & Pharma
+Carol Miller,R,WV,house,100.0,14,0,14,Real Estate & Housing
+Greg Murphy,R,NC,house,86.7,13,2,15,Real Estate & Housing
+David Kustoff,R,TN,house,100.0,19,0,19,Transportation
+Brian Fitzpatrick,R,PA,house,95.5,21,1,22,Finance & Insurance
+Greg Steube,R,FL,house,92.9,13,1,14,Finance & Insurance
+Claudia Tenney,R,NY,house,100.0,17,0,17,Finance & Insurance
+Michelle Fischbach,R,MN,house,93.3,14,1,15,Real Estate & Housing
+Blake Moore,R,UT,house,100.0,13,0,13,Finance & Insurance
+Beth Van Duyne,R,TX,house,77.8,7,2,9,Real Estate & Housing
+Randy Feenstra,R,IA,house,100.0,7,0,7,Real Estate & Housing
+Nicole Malliotakis,R,NY,house,76.0,19,6,25,Finance & Insurance
+Mike Carey,R,OH,house,88.2,15,2,17,Finance & Insurance
+Rudy Yakym,R,IN,house,77.8,7,2,9,Healthcare & Pharma
+Max Miller,R,OH,house,72.7,16,6,22,Finance & Insurance
+Aaron Bean,R,FL,house,90.9,20,2,22,Finance & Insurance
+Nathaniel Moran,R,TX,house,76.9,10,3,13,Food & Beverage
+Richard Neal,D,MA,house,56.2,9,7,16,Finance & Insurance
+Lloyd Doggett,D,TX,house,40.0,8,12,20,Labor
+Mike Thompson,D,CA,house,44.4,4,5,9,Real Estate & Housing
+John Larson,D,CT,house,43.3,13,17,30,Finance & Insurance
+Danny Davis,D,IL,house,48.0,12,13,25,Real Estate & Housing
+Linda Sanchez,D,CA,house,20.0,3,12,15,Finance & Insurance
+Terri Sewell,D,AL,house,43.5,10,13,23,Professional Services
+Suzan DelBene,D,WA,house,63.2,12,7,19,Labor
+Judy Chu,D,CA,house,44.0,11,14,25,Labor
+Gwen Moore,D,WI,house,28.6,6,15,21,Finance & Insurance
+Brendan Boyle,D,PA,house,52.4,11,10,21,Labor
+Don Beyer,D,VA,house,46.7,14,16,30,Defense & Aerospace
+Dwight Evans,D,PA,house,50.0,7,7,14,Labor
+Brad Schneider,D,IL,house,55.6,15,12,27,Finance & Insurance
+Jimmy Panetta,D,CA,house,47.1,8,9,17,Healthcare & Pharma
+Jimmy Gomez,D,CA,house,40.0,10,15,25,Labor
+Steven Horsford,D,NV,house,50.0,15,15,30,Labor
+Thomas Suozzi,D,NY,house,37.5,3,5,8,Labor
 Mike Crapo,R,ID,senate,,0,0,0,Healthcare & Pharma
 Chuck Grassley,R,IA,senate,,0,0,0,Labor
 John Cornyn,R,TX,senate,,0,0,0,Healthcare & Pharma

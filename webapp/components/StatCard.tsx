@@ -8,7 +8,7 @@ interface StatCardProps {
 
 export default function StatCard({ label, value, detail, accent, smallValue }: StatCardProps) {
   return (
-    <div className="bg-white rounded-lg border border-[#C8C1B6]/50 p-5">
+    <div className="py-3">
       <p
         className="text-xs uppercase tracking-widest text-stone-600 mb-2"
         style={{ fontFamily: "var(--font-display)" }}

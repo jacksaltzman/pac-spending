@@ -48,6 +48,7 @@ A Python data pipeline fetches FEC bulk data, classifies each contribution by ge
 │   │   ├── StatCard.tsx       # Stat display card (label + value + detail)
 │   │   ├── PacCharts.tsx      # Recharts visualizations: sector bars, scatter plot, party split
 │   │   ├── IndustryChart.tsx  # Industry individual vs PAC stacked bar chart
+│   │   ├── GeoBreakdownChart.tsx  # Geographic funding stacked bar chart
 │   │   ├── LeadershipChart.tsx # Leadership tier bars + subcommittee-sector alignment table
 │   │   ├── NewsCard.tsx       # News article card grid
 │   │   ├── Filters.tsx        # Filter controls
@@ -181,11 +182,11 @@ Industry influence data:
 
 ### Dashboard (`/`) — `app/page.tsx`
 Server component. Title: "Who Really Writes American Tax Policy?"
-- **Introduction section** ("Why This Matters") with coral left-border accent, includes the +66% PAC money stat dynamically computed from `benchmarks.json`, with FEC source citation
-- Stat cards (members analyzed, median outside funding, total $ analyzed, mean DC/K-Street)
-- Committee comparison table (House W&M vs Senate Finance)
+- **Introduction section** ("Why This Matters") with coral left-border accent, leads with +66% PAC premium stat
+- Finding-based stat cards: PAC premium (+66%), committee seat effect (+51%), median outside funding, broadest-reach PAC
+- Geographic breakdown chart (GeoBreakdownChart) — stacked bar showing avg in-district / in-state / DC / out-of-state split
 - Member rankings: most outside-funded and most locally-funded (top 5 each, MemberCard components)
-- Top PACs by reach table (top 10)
+- Top PACs by reach table (top 10, with sector color dots)
 
 ### Members List (`/members`) — `app/members/page.tsx` + `MembersTable.tsx`
 Server component passes data; `MembersTable.tsx` is a client component with search, filters, and sorting.

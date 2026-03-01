@@ -78,7 +78,7 @@ function Pill({
 }
 
 function SortArrow({ active, dir }: { active: boolean; dir: SortDir }) {
-  if (!active) return <span className="text-stone-300 ml-1">&udarr;</span>;
+  if (!active) return <span className="text-stone-300 ml-1">{"\u2195"}</span>;
   return (
     <span className="text-[#FE4F40] ml-1">
       {dir === "asc" ? "\u2191" : "\u2193"}

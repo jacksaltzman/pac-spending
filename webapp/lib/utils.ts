@@ -1,12 +1,14 @@
 export function formatMoney(val: number | null | undefined): string {
   if (val == null || val === 0) return "$0";
-  if (val >= 1_000_000) return `$${(val / 1_000_000).toFixed(1)}M`;
-  if (val >= 1_000) return `$${(val / 1_000).toFixed(0)}K`;
-  return `$${val.toLocaleString("en-US", { maximumFractionDigits: 0 })}`;
+  const abs = Math.abs(val);
+  const sign = val < 0 ? "-" : "";
+  if (abs >= 1_000_000) return `${sign}$${(abs / 1_000_000).toFixed(1)}M`;
+  if (abs >= 1_000) return `${sign}$${(abs / 1_000).toFixed(0)}K`;
+  return `${sign}$${abs.toLocaleString("en-US", { maximumFractionDigits: 0 })}`;
 }
 
 export function formatPct(val: number | null | undefined): string {
-  if (val == null) return "N/A";
+  if (val == null || isNaN(val)) return "N/A";
   return `${val.toFixed(1)}%`;
 }
 
@@ -93,6 +95,7 @@ const SECTOR_COLORS: Record<string, string> = {
   "Food & Beverage": "#65A30D",
   "Construction & Engineering": "#A16207",
   "Ideological": "#BE185D",
+  "Lobbying & Gov Relations": "#8B5CF6",
   "Other Industry": "#9CA3AF",
 };
 

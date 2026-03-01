@@ -24,10 +24,12 @@ A Python data pipeline fetches FEC bulk data, classifies each contribution by ge
 │   ├── members.json           # All 72 tracked members with FEC IDs
 │   ├── employer_aliases.json  # Employer name normalization rules
 │   ├── pac_sectors.json       # Curated PAC → industry sector mappings (75 PACs, 14 sectors)
+│   ├── employer_sectors.json  # Curated employer → sector mapping (213 employers, 15 sectors)
 │   ├── pac_news.json          # Curated news articles about PAC influence on tax policy (12 articles)
 │   └── committee_history.json # Member committee appointment dates (first_congress, first_year)
-├── scripts/                   # 10-step Python pipeline (00–09)
-│   └── run_all.py             # Orchestrator with checkpoint resume
+├── scripts/                   # 11-step Python pipeline (00–09, 11)
+│   ├── run_all.py             # Orchestrator with checkpoint resume
+│   └── 11_classify_employers.py  # Classify individual contributions by employer industry sector
 ├── utils/                     # Shared: FEC API client, checkpoints, employer normalizer
 ├── data/                      # raw/, processed/ (parquet), reference/, checkpoints/
 │   └── raw/webl_2024/         # FEC all-candidates summary file (for benchmarks)
@@ -43,17 +45,18 @@ A Python data pipeline fetches FEC bulk data, classifies each contribution by ge
 │   │   ├── MemberCard.tsx     # Member summary card (used in rankings)
 │   │   ├── StatCard.tsx       # Stat display card (label + value + detail)
 │   │   ├── PacCharts.tsx      # Recharts visualizations: sector bars, scatter plot, party split
+│   │   ├── IndustryChart.tsx  # Industry individual vs PAC stacked bar chart
 │   │   ├── NewsCard.tsx       # News article card grid
 │   │   ├── Filters.tsx        # Filter controls
 │   │   ├── EmptyState.tsx     # Empty data fallback
 │   │   ├── CopyButton.tsx     # Copy-to-clipboard button
 │   │   └── OneLinerCopy.tsx   # One-liner copy component
 │   ├── lib/
-│   │   ├── data.ts            # Server-side data loaders (14 exports)
+│   │   ├── data.ts            # Server-side data loaders (15 exports)
 │   │   └── utils.ts           # formatMoney, formatPct, memberSlug, partyColor, geoClassColor, cn
 │   ├── scripts/
 │   │   └── import-data.ts     # Pipeline CSV → static JSON converter (also copies pac_news, pac_sectors)
-│   └── data/                  # Static JSON consumed by webapp (11 files)
+│   └── data/                  # Static JSON consumed by webapp (12 files)
 │       ├── members.json       # Member data with geographic breakdowns
 │       ├── pac_spread.json    # PAC spread analysis (enriched with sectors/agendas)
 │       ├── pacs.json          # Per-member PAC contributions
@@ -62,6 +65,7 @@ A Python data pipeline fetches FEC bulk data, classifies each contribution by ge
 │       ├── dc_breakdown.json  # DC/K-Street breakdown details
 │       ├── benchmarks.json    # FEC benchmark comparison data (committee vs all incumbents)
 │       ├── pac_news.json      # Curated news articles
+│       ├── industry_influence.json  # Industry individual vs PAC contribution comparison
 │       ├── sector_colors.json # Industry sector → color mapping
 │       ├── one_liners.json    # Auto-generated member one-liners
 │       └── before_after.json  # Before/after committee appointment PAC analysis
@@ -97,6 +101,7 @@ Pipeline steps:
 7. Generate summary statistics — **resolves PAC names from committee master** (not payee names), groups by CMTE_ID, enriches with connected org names
 8. Generate markdown report
 9. Fetch historical PAC receipts via FEC API and analyze before/after committee appointment (`scripts/09_before_after.py`, standalone)
+11. Classify individual contributions by employer industry sector
 
 Checkpoints live in `data/checkpoints/`. Delete a checkpoint file to force re-run of that step.
 
@@ -130,6 +135,13 @@ Additional data:
   config/pac_sectors.json → merged into pac_spread.json during import
   config/pac_news.json → copied to webapp/data/pac_news.json during import
   data/raw/webl_2024/webl24.txt → benchmarks.json (generated manually, not by pipeline)
+
+Industry influence data:
+  config/employer_sectors.json + pac_sectors.json (keyword fallbacks)
+    → scripts/11_classify_employers.py
+    → output/industry_*.csv
+    → import-data.ts → webapp/data/industry_influence.json
+    → IndustryChart.tsx + pacs/page.tsx
 ```
 
 ## Key Files to Know
@@ -138,17 +150,20 @@ Additional data:
 |------|---------|
 | `config/config.py` | All paths, API config, column definitions, cycle years, CM_COLUMNS for committee master |
 | `config/members.json` | Member roster with FEC IDs (updated by step 01) |
-| `config/pac_sectors.json` | Curated mapping: CMTE_ID → sector, agenda, opensecrets_url (75 PACs across 14 sectors) |
+| `config/pac_sectors.json` | Curated mapping: CMTE_ID → sector, agenda, opensecrets_url (75 PACs across 15 sectors) |
 | `config/pac_news.json` | Curated news articles about PAC/tax policy influence (12 articles with title, source, url, date, sector, excerpt) |
 | `config/committee_history.json` | Committee appointment dates for all 72 members (first_congress, first_year) |
+| `config/employer_sectors.json` | Curated employer-to-sector mapping (213 employers across 15 sectors including Lobbying & Gov Relations) |
 | `scripts/07_analyze.py` | Summary stats generator — resolves PAC names from committee master, computes PAC spread |
 | `scripts/09_before_after.py` | Fetches historical PAC receipts from FEC API, computes before/after committee appointment analysis |
+| `scripts/11_classify_employers.py` | 3-tier employer classification: curated map → keyword fallbacks → occupation fallback |
 | `utils/fec_api.py` | Rate-limited FEC API client (1s delay, 5 retries) |
 | `utils/checkpoint.py` | Pipeline checkpoint/resume system |
-| `webapp/lib/data.ts` | Server-side data loaders: getMembers, getMemberBySlug, getPacSpread, getBenchmarks, getBeforeAfter, getNews, getSectorColors, etc. (14 exports) |
+| `webapp/lib/data.ts` | Server-side data loaders: getMembers, getMemberBySlug, getPacSpread, getBenchmarks, getBeforeAfter, getNews, getSectorColors, getIndustryInfluence, etc. (15 exports) |
 | `webapp/lib/utils.ts` | formatMoney, formatPct, memberSlug, partyColor, geoClassColor, geoClassLabel, cn |
 | `webapp/app/globals.css` | Tailwind theme: coral (#FE4F40), teal (#4C6971), lime (#D4F72A), paper (#FDFBF9) |
 | `webapp/components/PacCharts.tsx` | Three Recharts visualizations: sector breakdown bar chart, reach-vs-dollars scatter, party split stacked bars |
+| `webapp/components/IndustryChart.tsx` | Recharts stacked bar chart: individual employee vs PAC contributions by sector |
 | `webapp/components/NewsCard.tsx` | News article card grid with sector dots and hover effects |
 | `webapp/app/pacs/PacsTable.tsx` | Interactive PAC table with search, sector filter, sort controls |
 | `webapp/app/pacs/page.tsx` | PACs page: key findings, benchmarks, before/after analysis, charts, sector spotlights, top recipients, news, table |
@@ -182,6 +197,7 @@ The most feature-rich page. Server component with extensive data processing:
   - Party split stacked bars (top 15 PACs by reach, R vs D funding)
   - Each chart has interpretive captions explaining the "so what"
 - **"What Each Industry Wants"** — sector spotlight cards with policy agenda descriptions, $ totals, top PACs per sector (uses `SECTOR_AGENDAS` constant)
+- **"The Full Picture: PAC Money Is Just the Tip"** — individual vs PAC contribution comparison by industry sector (IndustryChart stacked bar chart) plus top employers table showing employee contributions alongside PAC totals
 - **"Who Receives the Most PAC Attention?"** — top 10 members by distinct PAC count, linked to member profiles
 - **"In the News"** — curated news article cards (NewsCard component)
 - **Interactive table** (client component via `PacsTable.tsx`) — search, sector dropdown filter, sortable columns
@@ -195,7 +211,7 @@ Auto-generated narrative stories about contribution patterns.
 The `NAME` field in FEC pas2 bulk data is **not the PAC's own name** — it's a payee/vendor/conduit name. Step 07 resolves real PAC names by joining `CMTE_ID` against the FEC committee master file (`cm.txt`), which provides `CMTE_NM` (committee name), `CMTE_TP` (type), `CMTE_DSGN` (designation), and `CONNECTED_ORG_NM` (connected organization).
 
 ### PAC Sector Classification
-`config/pac_sectors.json` maps ~75 PACs to 14 sectors: Finance, Healthcare, Energy, Real Estate, Technology, Defense, Labor, Insurance, Pharma, Agriculture, Telecom, Transportation, Ideological, Professional Services. Each entry includes:
+`config/pac_sectors.json` maps ~75 PACs to 15 sectors: Finance, Healthcare, Energy, Real Estate, Technology, Defense, Labor, Insurance, Pharma, Agriculture, Telecom, Transportation, Ideological, Professional Services, Lobbying & Gov Relations. Each entry includes:
 - `sector`: industry category
 - `agenda`: 1-sentence policy interest description (displayed in sector spotlight cards)
 - `opensecrets_url`: link to OpenSecrets profile

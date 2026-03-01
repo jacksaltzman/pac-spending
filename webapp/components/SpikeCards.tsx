@@ -128,7 +128,7 @@ export default function SpikeCards({ spikes, sectorColors }: SpikeCardsProps) {
                 {/* What this bill does */}
                 <div>
                   <h4
-                    className="text-[10px] uppercase tracking-[0.2em] text-stone-500 mb-1"
+                    className="text-xs uppercase tracking-[0.2em] text-stone-600 mb-1"
                     style={{ fontFamily: "var(--font-display)" }}
                   >
                     What this bill does
@@ -141,7 +141,7 @@ export default function SpikeCards({ spikes, sectorColors }: SpikeCardsProps) {
                 {/* Who had skin in the game */}
                 <div>
                   <h4
-                    className="text-[10px] uppercase tracking-[0.2em] text-stone-500 mb-1"
+                    className="text-xs uppercase tracking-[0.2em] text-stone-600 mb-1"
                     style={{ fontFamily: "var(--font-display)" }}
                   >
                     Who had skin in the game
@@ -154,7 +154,7 @@ export default function SpikeCards({ spikes, sectorColors }: SpikeCardsProps) {
                 {/* The money */}
                 <div>
                   <h4
-                    className="text-[10px] uppercase tracking-[0.2em] text-stone-500 mb-1"
+                    className="text-xs uppercase tracking-[0.2em] text-stone-600 mb-1"
                     style={{ fontFamily: "var(--font-display)" }}
                   >
                     The money
@@ -210,7 +210,7 @@ export default function SpikeCards({ spikes, sectorColors }: SpikeCardsProps) {
                 {spike.outcome && (
                   <div>
                     <h4
-                      className="text-[10px] uppercase tracking-[0.2em] text-stone-500 mb-1"
+                      className="text-xs uppercase tracking-[0.2em] text-stone-600 mb-1"
                       style={{ fontFamily: "var(--font-display)" }}
                     >
                       What happened

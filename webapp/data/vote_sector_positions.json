@@ -1,0 +1,72 @@
+[
+  {
+    "roll_call_id": "H-118-2-19",
+    "bill": "H.R.7024",
+    "bill_title": "Tax Relief for American Families and Workers Act of 2024",
+    "date": "2024-01-31",
+    "chamber": "house",
+    "description": "Expanded child tax credit, restored R&D expensing, extended business interest deductions, increased low-income housing tax credit",
+    "sector_positions": {
+      "Finance & Insurance": {
+        "position": "yea",
+        "reason": "Restores business interest deduction and R&D amortization rules favorable to financial firms"
+      },
+      "Real Estate & Housing": {
+        "position": "yea",
+        "reason": "Increases Low-Income Housing Tax Credit allocation by 12.5%"
+      },
+      "Tech & Telecom": {
+        "position": "yea",
+        "reason": "Restores immediate R&D expensing instead of 5-year amortization"
+      },
+      "Construction & Engineering": {
+        "position": "yea",
+        "reason": "Extends 100% bonus depreciation for capital equipment"
+      }
+    }
+  },
+  {
+    "roll_call_id": "H-118-1-192",
+    "bill": "H.R.1",
+    "bill_title": "Lower Energy Costs Act",
+    "date": "2023-03-30",
+    "chamber": "house",
+    "description": "Repealed IRA clean energy tax credits, expanded fossil fuel leasing, blocked methane fee",
+    "sector_positions": {
+      "Energy & Utilities": {
+        "position": "yea",
+        "reason": "Expands fossil fuel production tax benefits and blocks methane emissions fee"
+      },
+      "Healthcare & Pharma": {
+        "position": "nay",
+        "reason": "No direct stake but opposition aligned with preserving IRA provisions"
+      },
+      "Finance & Insurance": {
+        "position": "yea",
+        "reason": "Reduces regulatory costs and energy transition compliance burden"
+      }
+    }
+  },
+  {
+    "roll_call_id": "H-118-1-72",
+    "bill": "H.R.25",
+    "bill_title": "FairTax Act of 2023",
+    "date": "2023-01-27",
+    "chamber": "house",
+    "description": "Referred to Ways and Means — would replace income tax with national sales tax and abolish the IRS",
+    "sector_positions": {
+      "Finance & Insurance": {
+        "position": "nay",
+        "reason": "Would eliminate tax-advantaged products (401k, IRA, life insurance) that drive revenue"
+      },
+      "Professional Services": {
+        "position": "nay",
+        "reason": "Would eliminate demand for tax advisory and compliance services"
+      },
+      "Retail & Consumer": {
+        "position": "nay",
+        "reason": "23% national sales tax would suppress consumer spending"
+      }
+    }
+  }
+]

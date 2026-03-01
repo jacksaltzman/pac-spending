@@ -111,7 +111,7 @@ export default function MembersTable({ members: allMembers }: { members: Member[
   const [committee, setCommittee] = useState("all");
   const [party, setParty] = useState("all");
   const [search, setSearch] = useState("");
-  const [sortKey, setSortKey] = useState<SortKey>("alignment_pct");
+  const [sortKey, setSortKey] = useState<SortKey>("pct_outside");
   const [sortDir, setSortDir] = useState<SortDir>("desc");
 
   function handleSort(key: SortKey) {

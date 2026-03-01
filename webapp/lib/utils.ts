@@ -102,3 +102,16 @@ const SECTOR_COLORS: Record<string, string> = {
 export function sectorColor(sector: string): string {
   return SECTOR_COLORS[sector] || "#9CA3AF";
 }
+
+/** Convert ALL-CAPS PAC name to Title Case, preserving common acronyms */
+export function toTitleCase(str: string): string {
+  const acronyms = new Set(["PAC", "LLC", "INC", "USA", "AFL", "CIO", "AFSCME", "UBS", "AT&T", "IBM", "NRECA"]);
+  return str
+    .split(" ")
+    .map((word) => {
+      if (acronyms.has(word)) return word;
+      if (word.length <= 2) return word.toLowerCase();
+      return word.charAt(0) + word.slice(1).toLowerCase();
+    })
+    .join(" ");
+}

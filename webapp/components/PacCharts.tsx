@@ -14,7 +14,7 @@ import {
   ZAxis,
 } from "recharts";
 import type { PacSpreadEntry } from "@/lib/data";
-import { formatMoney } from "@/lib/utils";
+import { formatMoney, toTitleCase } from "@/lib/utils";
 
 interface PacChartsProps {
   pacs: PacSpreadEntry[];
@@ -73,7 +73,7 @@ export default function PacCharts({ pacs, sectorColors }: PacChartsProps) {
       .map((p) => {
         const total = p.r_total + p.d_total;
         return {
-          name: p.connected_org || p.pac_name.split(" PAC")[0].split(" POLITICAL")[0].slice(0, 25),
+          name: toTitleCase((p.connected_org || p.pac_name.split(" PAC")[0].split(" POLITICAL")[0]).slice(0, 22)),
           rTotal: p.r_total,
           dTotal: p.d_total,
           rPct: total > 0 ? Math.round((p.r_total / total) * 100) : 0,
@@ -88,12 +88,12 @@ export default function PacCharts({ pacs, sectorColors }: PacChartsProps) {
       {/* Sector Breakdown */}
       <section>
         <h2
-          className="text-xs uppercase tracking-[0.2em] text-stone-500 mb-1"
+          className="text-sm uppercase tracking-[0.2em] text-stone-600 mb-1"
           style={{ fontFamily: "var(--font-display)" }}
         >
           PAC Dollars by Industry Sector
         </h2>
-        <p className="text-xs text-stone-500 mb-4 max-w-4xl leading-relaxed">
+        <p className="text-sm text-stone-600 mb-4 max-w-3xl leading-relaxed">
           Industries that spend the most on PAC contributions to tax-writing committees are the same ones with the most at stake in tax legislation.
           Finance, healthcare, and real estate together account for the majority of classified PAC dollars — and each has a distinct tax policy wishlist.
         </p>
@@ -119,7 +119,7 @@ export default function PacCharts({ pacs, sectorColors }: PacChartsProps) {
               </Bar>
             </BarChart>
           </ResponsiveContainer>
-          <p className="text-[10px] text-stone-400 mt-2">
+          <p className="text-xs text-stone-500 mt-2">
             Based on {pacs.filter((p) => p.sector).length} classified PACs. Unclassified PACs not shown.
           </p>
         </div>
@@ -128,12 +128,12 @@ export default function PacCharts({ pacs, sectorColors }: PacChartsProps) {
       {/* Reach vs Dollars Scatter */}
       <section>
         <h2
-          className="text-xs uppercase tracking-[0.2em] text-stone-500 mb-1"
+          className="text-sm uppercase tracking-[0.2em] text-stone-600 mb-1"
           style={{ fontFamily: "var(--font-display)" }}
         >
           PAC Reach vs. Total Dollars (10+ Recipients)
         </h2>
-        <p className="text-xs text-stone-500 mb-4 max-w-4xl leading-relaxed">
+        <p className="text-sm text-stone-600 mb-4 max-w-3xl leading-relaxed">
           The upper-right corner is where the power lives: PACs that spend big <em>and</em> spread wide.
           A PAC funding 40+ members across both committees doesn&apos;t just have access — it has leverage over every stage of the tax-writing process.
         </p>
@@ -178,8 +178,16 @@ export default function PacCharts({ pacs, sectorColors }: PacChartsProps) {
               </Scatter>
             </ScatterChart>
           </ResponsiveContainer>
-          <p className="text-[10px] text-stone-400 mt-2">
-            Each dot is a PAC. Color = industry sector. Hover for details.
+          <div className="flex flex-wrap gap-x-4 gap-y-1 mt-3">
+            {sectorData.slice(0, 8).map((s) => (
+              <span key={s.sector} className="inline-flex items-center gap-1 text-[10px] text-stone-500">
+                <span className="w-2 h-2 rounded-full flex-shrink-0" style={{ backgroundColor: s.color }} />
+                {s.sector}
+              </span>
+            ))}
+          </div>
+          <p className="text-xs text-stone-500 mt-1">
+            Each dot is a PAC. Hover for details.
           </p>
         </div>
       </section>
@@ -187,24 +195,24 @@ export default function PacCharts({ pacs, sectorColors }: PacChartsProps) {
       {/* Party Split */}
       <section>
         <h2
-          className="text-xs uppercase tracking-[0.2em] text-stone-500 mb-1"
+          className="text-sm uppercase tracking-[0.2em] text-stone-600 mb-1"
           style={{ fontFamily: "var(--font-display)" }}
         >
           Party Split — Top PACs by Reach (20+ Recipients)
         </h2>
-        <p className="text-xs text-stone-500 mb-4 max-w-4xl leading-relaxed">
+        <p className="text-sm text-stone-600 mb-4 max-w-3xl leading-relaxed">
           The most powerful PACs give to both parties — not out of bipartisanship, but to guarantee a seat at the table regardless of who controls the committee.
           This &ldquo;hedge your bets&rdquo; strategy ensures their tax priorities survive any shift in power.
         </p>
         <div>
-          <ResponsiveContainer width="100%" height={Math.max(300, partyData.length * 36)}>
+          <ResponsiveContainer width="100%" height={Math.max(300, partyData.length * 40)}>
             <BarChart data={partyData} layout="vertical" margin={{ left: 180, right: 40, top: 5, bottom: 5 }}>
               <XAxis type="number" tickFormatter={formatDollarsShort} tick={{ fontSize: 11, fill: "#78716C" }} />
               <YAxis
                 type="category"
                 dataKey="name"
                 width={170}
-                tick={{ fontSize: 11, fill: "#111111" }}
+                tick={{ fontSize: 10, fill: "#111111" }}
               />
               <Tooltip
                 formatter={(value, name) => [
@@ -217,7 +225,7 @@ export default function PacCharts({ pacs, sectorColors }: PacChartsProps) {
               <Bar dataKey="dTotal" stackId="party" fill="#3B82F6" radius={0} />
             </BarChart>
           </ResponsiveContainer>
-          <p className="text-[10px] text-stone-400 mt-2">
+          <p className="text-xs text-stone-500 mt-2">
             Shows how each PAC splits its contributions between party members on the tax-writing committees.
           </p>
         </div>

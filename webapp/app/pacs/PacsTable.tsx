@@ -2,13 +2,13 @@
 
 import { useState, useMemo } from "react";
 import type { PacSpreadEntry } from "@/lib/data";
-import { formatMoney } from "@/lib/utils";
+import { formatMoney, toTitleCase } from "@/lib/utils";
 
 type SortKey = "pac_name" | "total_given" | "num_recipients" | "r_total" | "d_total";
 type SortDir = "asc" | "desc";
 
 function SortArrow({ active, dir }: { active: boolean; dir: SortDir }) {
-  if (!active) return <span className="text-stone-300 ml-1">&udarr;</span>;
+  if (!active) return <span className="text-stone-300 ml-1">{"\u21C5"}</span>;
   return (
     <span className="text-[#FE4F40] ml-1">
       {dir === "asc" ? "\u2191" : "\u2193"}
@@ -20,7 +20,7 @@ function SectorBadge({ sector, color }: { sector: string; color: string }) {
   if (!sector) return null;
   return (
     <span
-      className="inline-block px-2 py-0.5 rounded-sm text-[10px] uppercase tracking-wide font-medium whitespace-nowrap"
+      className="inline-block px-2 py-0.5 rounded-sm text-[10px] uppercase tracking-wide font-medium"
       style={{
         fontFamily: "var(--font-display)",
         backgroundColor: `${color}18`,
@@ -67,6 +67,8 @@ export default function PacsTable({
   const [sector, setSector] = useState("all");
   const [sortKey, setSortKey] = useState<SortKey>("num_recipients");
   const [sortDir, setSortDir] = useState<SortDir>("desc");
+  const [showAll, setShowAll] = useState(false);
+  const INITIAL_COUNT = 10;
   const [expandedId, setExpandedId] = useState<string | null>(null);
 
   const sectors = useMemo(() => {
@@ -135,6 +137,7 @@ export default function PacsTable({
       return 0;
     });
 
+    setShowAll(false);
     return result;
   }, [pacs, search, sector, sortKey, sortDir]);
 
@@ -162,7 +165,7 @@ export default function PacsTable({
   return (
     <div>
       <h2
-        className="text-xs uppercase tracking-[0.2em] text-stone-500 mb-4"
+        className="text-sm uppercase tracking-[0.2em] text-stone-600 mb-4"
         style={{ fontFamily: "var(--font-display)" }}
       >
         All PACs
@@ -204,7 +207,7 @@ export default function PacsTable({
         />
       </div>
 
-      <p className="text-xs text-stone-400 mb-3">
+      <p className="text-sm text-stone-500 mb-3">
         {filtered.length} PAC{filtered.length !== 1 ? "s" : ""}
         {sector !== "all" ? ` in ${sector}` : ""}
       </p>
@@ -238,7 +241,7 @@ export default function PacsTable({
                   </th>
                   <ColHeader label="PAC / Organization" sortField="pac_name" />
                   <th
-                    className="px-3 py-3 text-left text-[10px] uppercase tracking-wider text-stone-500"
+                    className="px-3 py-3 text-left text-[10px] uppercase tracking-wider text-stone-500 min-w-[100px] max-w-[160px]"
                     style={{ fontFamily: "var(--font-display)" }}
                   >
                     Sector
@@ -262,7 +265,7 @@ export default function PacsTable({
                 </tr>
               </thead>
               <tbody>
-                {filtered.map((pac, i) => {
+                {(showAll ? filtered : filtered.slice(0, INITIAL_COUNT)).map((pac, i) => {
                   const isExpanded = expandedId === pac.pac_cmte_id;
                   const recipientList = pac.recipients
                     ? pac.recipients.split(",").map((r) => r.trim())
@@ -282,11 +285,11 @@ export default function PacsTable({
                       <td className="px-3 py-2.5 align-top max-w-md">
                         <div>
                           <p className="text-[#111111] font-medium text-sm leading-tight">
-                            {pac.connected_org || pac.pac_name}
+                            {toTitleCase(pac.connected_org || pac.pac_name)}
                           </p>
                           {pac.connected_org && (
                             <p className="text-[10px] text-stone-400 mt-0.5 truncate">
-                              {pac.pac_name}
+                              {toTitleCase(pac.pac_name)}
                             </p>
                           )}
                           {isExpanded && (
@@ -334,6 +337,18 @@ export default function PacsTable({
                     </tr>
                   );
                 })}
+                {filtered.length > INITIAL_COUNT && (
+                  <tr>
+                    <td colSpan={6} className="text-center py-3">
+                      <button
+                        onClick={(e) => { e.stopPropagation(); setShowAll((v) => !v); }}
+                        className="text-xs text-[#4C6971] hover:text-[#111111] transition-colors underline underline-offset-2"
+                      >
+                        {showAll ? "Show less" : `Show all ${filtered.length} PACs`}
+                      </button>
+                    </td>
+                  </tr>
+                )}
               </tbody>
             </table>
           </div>

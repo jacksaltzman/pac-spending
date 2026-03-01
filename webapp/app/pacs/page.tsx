@@ -7,7 +7,7 @@ import {
   getLeadershipAnalysis,
   PacSpreadEntry,
 } from "@/lib/data";
-import { formatMoney, memberSlug } from "@/lib/utils";
+import { formatMoney, memberSlug, toTitleCase } from "@/lib/utils";
 import Link from "next/link";
 import StatCard from "@/components/StatCard";
 import EmptyState from "@/components/EmptyState";
@@ -44,14 +44,15 @@ export default function PacsOverviewPage() {
   const findings = buildFindings(pacs);
   const ultraBroadPacs = pacs.filter((p) => p.num_recipients >= 30).length;
 
-  const mostConnectedName =
+  const mostConnectedName = toTitleCase(
     mostConnected.connected_org ||
-    mostConnected.pac_name.split(" PAC")[0].split(" POLITICAL")[0];
+    mostConnected.pac_name.split(" PAC")[0].split(" POLITICAL")[0]
+  );
 
   return (
     <div>
       {/* Date range badge */}
-      <p className="text-xs text-stone-400 mb-6">
+      <p className="text-sm text-stone-500 mb-6">
         <span
           className="inline-block bg-[#111111] text-[#D4F72A] rounded-sm px-2 py-0.5 text-[10px] font-bold uppercase tracking-wide mr-2"
           style={{ fontFamily: "var(--font-display)" }}
@@ -110,19 +111,19 @@ export default function PacsOverviewPage() {
       {benchmarks && (
         <section className="mb-10">
           <h2
-            className="text-xs uppercase tracking-[0.2em] text-stone-500 mb-1"
+            className="text-sm uppercase tracking-[0.2em] text-stone-600 mb-1"
             style={{ fontFamily: "var(--font-display)" }}
           >
             Do Tax-Writers Get More PAC Money?
           </h2>
-          <p className="text-xs text-stone-500 mb-5 max-w-4xl leading-relaxed">
+          <p className="text-sm text-stone-600 mb-5 max-w-3xl leading-relaxed">
             Comparing median PAC contributions received by Ways &amp; Means and
             Finance Committee members vs. all other House and Senate incumbents.
           </p>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {/* House PAC comparison */}
-            <div>
+            <div className="border border-[#C8C1B6]/40 rounded-sm bg-white px-5 py-4">
               <p
                 className="text-[10px] uppercase tracking-[0.2em] text-stone-400 mb-3"
                 style={{ fontFamily: "var(--font-display)" }}
@@ -149,7 +150,7 @@ export default function PacsOverviewPage() {
             </div>
 
             {/* Total fundraising comparison */}
-            <div>
+            <div className="border border-[#C8C1B6]/40 rounded-sm bg-white px-5 py-4">
               <p
                 className="text-[10px] uppercase tracking-[0.2em] text-stone-400 mb-3"
                 style={{ fontFamily: "var(--font-display)" }}
@@ -189,12 +190,12 @@ export default function PacsOverviewPage() {
         return (
           <section className="mb-10">
             <h2
-              className="text-xs uppercase tracking-[0.2em] text-stone-500 mb-1"
+              className="text-sm uppercase tracking-[0.2em] text-stone-600 mb-1"
               style={{ fontFamily: "var(--font-display)" }}
             >
               The Committee Seat Premium
             </h2>
-            <p className="text-xs text-stone-500 mb-5 max-w-4xl leading-relaxed">
+            <p className="text-sm text-stone-600 mb-5 max-w-3xl leading-relaxed">
               Do PAC contributions increase after a member joins the tax-writing
               committee? We compared each member&apos;s median PAC receipts in
               election cycles <em>before</em> their appointment vs.{" "}
@@ -202,7 +203,7 @@ export default function PacsOverviewPage() {
             </p>
 
             {/* Headline prose */}
-            <p className="text-[15px] text-[#111111] leading-relaxed mb-6">
+            <p className="text-base text-[#111111] leading-relaxed mb-6 max-w-3xl">
               Of{" "}
               <strong>{headline.valid_members}</strong> members with sufficient data,{" "}
               <strong className="text-[#FE4F40]">{headline.increased_count}</strong>{" "}
@@ -222,7 +223,7 @@ export default function PacsOverviewPage() {
 
             {/* Before/after table — top gainers */}
             {topGainers.length > 0 && (
-              <div className="overflow-hidden">
+              <div className="border border-[#C8C1B6]/40 rounded-sm overflow-hidden">
                 <div className="overflow-x-auto">
                   <table className="w-full text-sm">
                     <thead>
@@ -285,7 +286,7 @@ export default function PacsOverviewPage() {
               </div>
             )}
 
-            <p className="text-[10px] text-stone-400 mt-2 max-w-4xl leading-relaxed">
+            <p className="text-xs text-stone-500 mt-2 max-w-3xl leading-relaxed">
               Based on {headline.valid_members} members with at least one election
               cycle before and after their committee appointment. Median PAC
               receipts compared across cycles 2014&ndash;2024. The cycle of appointment
@@ -305,12 +306,12 @@ export default function PacsOverviewPage() {
         return (
           <section className="mb-10">
             <h2
-              className="text-xs uppercase tracking-[0.2em] text-stone-500 mb-1"
+              className="text-sm uppercase tracking-[0.2em] text-stone-600 mb-1"
               style={{ fontFamily: "var(--font-display)" }}
             >
               Where Power Sits, Money Follows
             </h2>
-            <p className="text-xs text-stone-500 mb-5 max-w-4xl leading-relaxed">
+            <p className="text-sm text-stone-600 mb-5 max-w-3xl leading-relaxed">
               Not all committee seats are equal. Members who chair subcommittees
               &mdash; the ones who set hearing agendas and decide which bills get a markup
               &mdash; receive{" "}
@@ -351,7 +352,7 @@ export default function PacsOverviewPage() {
               </p>
             </div>
 
-            <p className="text-[10px] text-stone-400 mt-3 max-w-4xl leading-relaxed">
+            <p className="text-xs text-stone-500 mt-3 max-w-3xl leading-relaxed">
               Leadership tiers: Full Committee Leadership = Chair + Ranking Member (n=2
               for House). Subcommittee Leadership = Subcommittee Chairs + Ranking
               Members (n=8 for House, n=10 for Senate). Rank-and-File = all other

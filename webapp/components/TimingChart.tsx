@@ -118,12 +118,12 @@ export default function TimingChart({ timing, sectorColors }: TimingChartProps) 
     <div className="space-y-8">
       <section>
         <h2
-          className="text-xs uppercase tracking-[0.2em] text-stone-500 mb-1"
+          className="text-sm uppercase tracking-[0.2em] text-stone-600 mb-1"
           style={{ fontFamily: "var(--font-display)" }}
         >
           PAC Contributions Over Time
         </h2>
-        <p className="text-xs text-stone-500 mb-4 max-w-2xl leading-relaxed">
+        <p className="text-sm text-stone-600 mb-4 max-w-3xl leading-relaxed">
           Weekly PAC contributions to tax-writing committee members, broken down by industry sector.
           Each row shows one sector independently — revealing patterns hidden by stacking.
           Vertical lines mark key legislative events.
@@ -218,7 +218,7 @@ export default function TimingChart({ timing, sectorColors }: TimingChartProps) 
           })}
         </div>
 
-        <p className="text-[10px] text-stone-400 mt-2 pl-36">
+        <p className="text-xs text-stone-500 mt-2 pl-36">
           Weekly PAC contributions. Each row = one sector. Vertical lines = legislative events.
         </p>
       </section>
@@ -226,19 +226,19 @@ export default function TimingChart({ timing, sectorColors }: TimingChartProps) 
       {topSpikes.length > 0 && (
         <section>
           <h3
-            className="text-xs uppercase tracking-[0.2em] text-stone-500 mb-2"
+            className="text-sm uppercase tracking-[0.2em] text-stone-600 mb-2"
             style={{ fontFamily: "var(--font-display)" }}
           >
             Largest Contribution Spikes Around Legislation
           </h3>
-          <p className="text-xs text-stone-500 mb-4 max-w-2xl leading-relaxed">
+          <p className="text-sm text-stone-600 mb-4 max-w-3xl leading-relaxed">
             When legislation affecting specific industries moves through committee, PAC
             contributions from those industries often spike. These are the largest
             sector-specific increases — click any card to see what the bill does and
             who had financial interests.
           </p>
           <SpikeCards spikes={topSpikes} sectorColors={sectorColors} />
-          <p className="text-[10px] text-stone-400 mt-4">
+          <p className="text-xs text-stone-500 mt-4">
             Spike ratio = event-week total ÷ baseline weekly average for affected
             sectors. Only sector-specific events shown. Source: FEC bulk contribution
             data; legislative dates from Congress.gov.

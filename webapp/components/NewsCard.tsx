@@ -1,5 +1,6 @@
 "use client";
 
+import { useState } from "react";
 import type { NewsEntry } from "@/lib/data";
 
 interface NewsCardsProps {
@@ -20,18 +21,24 @@ function SectorDot({ sector, color }: { sector: string; color: string }) {
 }
 
 export default function NewsCards({ articles, sectorColors }: NewsCardsProps) {
+  const [expanded, setExpanded] = useState(false);
+  const INITIAL_COUNT = 3;
+
   if (articles.length === 0) return null;
+
+  const visible = expanded ? articles : articles.slice(0, INITIAL_COUNT);
+  const hasMore = articles.length > INITIAL_COUNT;
 
   return (
     <section>
       <h2
-        className="text-xs uppercase tracking-[0.2em] text-stone-500 mb-4"
+        className="text-sm uppercase tracking-[0.2em] text-stone-600 mb-4"
         style={{ fontFamily: "var(--font-display)" }}
       >
         In the News
       </h2>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-        {articles.map((article, i) => (
+        {visible.map((article, i) => (
           <a
             key={i}
             href={article.url}
@@ -51,7 +58,7 @@ export default function NewsCards({ articles, sectorColors }: NewsCardsProps) {
             <h3 className="text-sm font-semibold text-[#111111] leading-snug mb-2 group-hover:text-[#4C6971] transition-colors">
               {article.title}
             </h3>
-            <p className="text-xs text-stone-500 leading-relaxed mb-3 line-clamp-3">
+            <p className="text-sm text-stone-600 leading-relaxed mb-3 line-clamp-3">
               {article.excerpt}
             </p>
             <div className="flex items-center gap-2">
@@ -65,6 +72,16 @@ export default function NewsCards({ articles, sectorColors }: NewsCardsProps) {
           </a>
         ))}
       </div>
+      {hasMore && (
+        <div className="text-center mt-4">
+          <button
+            onClick={() => setExpanded((v) => !v)}
+            className="text-xs text-[#4C6971] hover:text-[#111111] transition-colors underline underline-offset-2"
+          >
+            {expanded ? "Show less" : `Show all ${articles.length} articles`}
+          </button>
+        </div>
+      )}
     </section>
   );
 }

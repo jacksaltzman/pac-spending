@@ -15,8 +15,9 @@ import {
   getPacSpread,
   getSectorColors,
 } from "@/lib/data";
-import { formatMoney, formatPct, memberLabel, sectorColor } from "@/lib/utils";
+import { formatMoney, formatPct, memberLabel, sectorColor, toTitleCase } from "@/lib/utils";
 import CopyButton from "./CopyButton";
+import ExpandableTable from "@/components/ExpandableTable";
 
 /* ------------------------------------------------------------------ */
 /*  Static params                                                     */
@@ -408,7 +409,7 @@ export default async function MemberDetailPage({
       {alignment && alignmentPct != null && (
         <section className="space-y-4">
           <h2
-            className="text-xs text-stone-500 uppercase tracking-[0.2em]"
+            className="text-sm text-stone-600 uppercase tracking-[0.2em]"
             style={{ fontFamily: "var(--font-display)" }}
           >
             Influence Scorecard
@@ -432,7 +433,7 @@ export default async function MemberDetailPage({
               >
                 Aligned with top funders
               </p>
-              <p className="text-xs text-stone-400 mt-2 max-w-lg mx-auto leading-relaxed">
+              <p className="text-sm text-stone-500 mt-2 max-w-lg mx-auto leading-relaxed">
                 On {alignment.votes_total} tax-relevant vote{alignment.votes_total !== 1 ? "s" : ""},{" "}
                 {member.member_name.split(" ").pop()} voted with their top funding
                 sectors&apos; positions {alignmentPct.toFixed(0)}% of the time
@@ -481,7 +482,7 @@ export default async function MemberDetailPage({
           ================================================================== */}
       <section className="space-y-4">
         <h2
-          className="text-xs text-stone-500 uppercase tracking-[0.2em]"
+          className="text-sm text-stone-600 uppercase tracking-[0.2em]"
           style={{ fontFamily: "var(--font-display)" }}
         >
           The Money
@@ -607,7 +608,7 @@ export default async function MemberDetailPage({
           ================================================================== */}
       <section className="space-y-6">
         <h2
-          className="text-xs text-stone-500 uppercase tracking-[0.2em]"
+          className="text-sm text-stone-600 uppercase tracking-[0.2em]"
           style={{ fontFamily: "var(--font-display)" }}
         >
           Who Funds Them &amp; What They Want
@@ -676,50 +677,53 @@ export default async function MemberDetailPage({
                 </tr>
               </thead>
               <tbody>
-                {pacs.map((p, i) => {
-                  const reach = pacReach.get(p.pac_cmte_id);
-                  return (
-                    <tr
-                      key={`${p.pac_cmte_id}-${p.rank}`}
-                      className={`border-b border-[#C8C1B6]/30 last:border-b-0 hover:bg-[#F5F0EB] transition-colors ${
-                        i % 2 === 0 ? "" : "bg-[#FDFBF9]"
-                      }`}
-                    >
-                      <td className="px-5 py-3 text-stone-400 text-xs">{p.rank}</td>
-                      <td className="px-5 py-3">
-                        <div className="flex items-start gap-2">
-                          <div className="flex-1 min-w-0">
-                            <div className="flex items-center gap-2 flex-wrap">
-                              <span className="text-[#111111]">{p.pac_name}</span>
-                              {p.sector && (
-                                <span
-                                  className="inline-block px-1.5 py-0.5 rounded-sm text-[10px] font-medium text-white whitespace-nowrap"
-                                  style={{ backgroundColor: sectorColor(p.sector) }}
-                                >
-                                  {p.sector}
-                                </span>
+                <ExpandableTable
+                  totalLabel="PACs"
+                  rows={pacs.map((p, i) => {
+                    const reach = pacReach.get(p.pac_cmte_id);
+                    return (
+                      <tr
+                        key={`${p.pac_cmte_id}-${p.rank}`}
+                        className={`border-b border-[#C8C1B6]/30 last:border-b-0 hover:bg-[#F5F0EB] transition-colors ${
+                          i % 2 === 0 ? "" : "bg-[#FDFBF9]"
+                        }`}
+                      >
+                        <td className="px-5 py-3 text-stone-400 text-xs">{p.rank}</td>
+                        <td className="px-5 py-3">
+                          <div className="flex items-start gap-2">
+                            <div className="flex-1 min-w-0">
+                              <div className="flex items-center gap-2 flex-wrap">
+                                <span className="text-[#111111] max-w-xs truncate">{toTitleCase(p.pac_name)}</span>
+                                {p.sector && (
+                                  <span
+                                    className="inline-block px-1.5 py-0.5 rounded-sm text-[10px] font-medium text-white whitespace-nowrap"
+                                    style={{ backgroundColor: sectorColor(p.sector) }}
+                                  >
+                                    {p.sector}
+                                  </span>
+                                )}
+                              </div>
+                              {p.agenda && (
+                                <p className="text-xs text-stone-400 mt-1 leading-relaxed">{p.agenda}</p>
                               )}
                             </div>
-                            {p.agenda && (
-                              <p className="text-xs text-stone-400 mt-1 leading-relaxed">{p.agenda}</p>
-                            )}
                           </div>
-                        </div>
-                      </td>
-                      <td className="px-5 py-3 text-right text-[#111111] font-medium">{formatMoney(p.total)}</td>
-                      <td className="px-5 py-3 text-right text-stone-500">{p.count}</td>
-                      <td className="px-5 py-3 text-right text-stone-500">
-                        {reach != null ? (
-                          <span className="text-xs" title={`Funds ${reach} of 72 committee members`}>
-                            {reach}/72
-                          </span>
-                        ) : (
-                          <span className="text-stone-300">&mdash;</span>
-                        )}
-                      </td>
-                    </tr>
-                  );
-                })}
+                        </td>
+                        <td className="px-5 py-3 text-right text-[#111111] font-medium">{formatMoney(p.total)}</td>
+                        <td className="px-5 py-3 text-right text-stone-500">{p.count}</td>
+                        <td className="px-5 py-3 text-right text-stone-500">
+                          {reach != null ? (
+                            <span className="text-xs" title={`Funds ${reach} of 72 committee members`}>
+                              {reach}/72
+                            </span>
+                          ) : (
+                            <span className="text-stone-300">&mdash;</span>
+                          )}
+                        </td>
+                      </tr>
+                    );
+                  })}
+                />
               </tbody>
             </table>
           </div>
@@ -746,19 +750,22 @@ export default async function MemberDetailPage({
                 </tr>
               </thead>
               <tbody>
-                {employers.map((e, i) => (
-                  <tr
-                    key={`${e.employer}-${e.rank}`}
-                    className={`border-b border-[#C8C1B6]/30 last:border-b-0 hover:bg-[#F5F0EB] transition-colors ${
-                      i % 2 === 0 ? "" : "bg-[#FDFBF9]"
-                    }`}
-                  >
-                    <td className="px-5 py-3 text-stone-400 text-xs">{e.rank}</td>
-                    <td className="px-5 py-3 text-[#111111]">{e.employer}</td>
-                    <td className="px-5 py-3 text-right text-[#111111] font-medium">{formatMoney(e.total)}</td>
-                    <td className="px-5 py-3 text-right text-stone-500">{e.count}</td>
-                  </tr>
-                ))}
+                <ExpandableTable
+                  totalLabel="employers"
+                  rows={employers.map((e, i) => (
+                    <tr
+                      key={`${e.employer}-${e.rank}`}
+                      className={`border-b border-[#C8C1B6]/30 last:border-b-0 hover:bg-[#F5F0EB] transition-colors ${
+                        i % 2 === 0 ? "" : "bg-[#FDFBF9]"
+                      }`}
+                    >
+                      <td className="px-5 py-3 text-stone-400 text-xs">{e.rank}</td>
+                      <td className="px-5 py-3 text-[#111111]">{e.employer}</td>
+                      <td className="px-5 py-3 text-right text-[#111111] font-medium">{formatMoney(e.total)}</td>
+                      <td className="px-5 py-3 text-right text-stone-500">{e.count}</td>
+                    </tr>
+                  ))}
+                />
               </tbody>
             </table>
           </div>
@@ -771,7 +778,7 @@ export default async function MemberDetailPage({
       {voteRows.length > 0 && topSector && (
         <section className="space-y-4">
           <h2
-            className="text-xs text-stone-500 uppercase tracking-[0.2em]"
+            className="text-sm text-stone-600 uppercase tracking-[0.2em]"
             style={{ fontFamily: "var(--font-display)" }}
           >
             How They Voted
@@ -858,7 +865,7 @@ export default async function MemberDetailPage({
       {(pacVsMedianPct != null || relevantNews.length > 0) && (
         <section className="space-y-4">
           <h2
-            className="text-xs text-stone-500 uppercase tracking-[0.2em]"
+            className="text-sm text-stone-600 uppercase tracking-[0.2em]"
             style={{ fontFamily: "var(--font-display)" }}
           >
             Context
@@ -906,7 +913,7 @@ export default async function MemberDetailPage({
                 </div>
               </div>
               {committeePacMedian != null && (
-                <p className="text-xs text-stone-400">
+                <p className="text-sm text-stone-500">
                   {committeeName} committee median: {formatMoney(committeePacMedian)} PAC receipts ({benchmarks?.cycle} cycle)
                 </p>
               )}
@@ -954,7 +961,7 @@ export default async function MemberDetailPage({
       {topStates.length > 0 && (
         <section className="space-y-4">
           <h2
-            className="text-xs text-stone-500 uppercase tracking-[0.2em]"
+            className="text-sm text-stone-600 uppercase tracking-[0.2em]"
             style={{ fontFamily: "var(--font-display)" }}
           >
             Top Outside States
@@ -985,7 +992,7 @@ export default async function MemberDetailPage({
           ================================================================== */}
       <section className="space-y-4">
         <h2
-          className="text-xs text-stone-500 uppercase tracking-[0.2em]"
+          className="text-sm text-stone-600 uppercase tracking-[0.2em]"
           style={{ fontFamily: "var(--font-display)" }}
         >
           Data Quality
@@ -1033,7 +1040,7 @@ export default async function MemberDetailPage({
       {/* ---- Territorial footnote ---- */}
       {member.is_territorial && (
         <footer className="border-t border-[#C8C1B6]/50 pt-6">
-          <p className="text-xs text-stone-400 italic">
+          <p className="text-xs text-stone-500 italic">
             Note: This member represents a U.S. territory. Geographic
             contribution breakdowns may differ from standard state/district
             analyses due to territorial boundaries and unique filing patterns.

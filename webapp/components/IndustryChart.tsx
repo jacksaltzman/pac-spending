@@ -34,8 +34,7 @@ export default function IndustryChart({
       .sort((a, b) => b.combined_total - a.combined_total)
       .slice(0, 12)
       .map((s) => ({
-        sector:
-          s.sector.length > 20 ? s.sector.slice(0, 18) + "…" : s.sector,
+        sector: s.sector,
         sectorFull: s.sector,
         individual: s.individual_total,
         pac: s.pac_total,
@@ -52,7 +51,7 @@ export default function IndustryChart({
           <BarChart
             data={data}
             layout="vertical"
-            margin={{ top: 5, right: 30, left: 5, bottom: 5 }}
+            margin={{ top: 5, right: 30, left: 10, bottom: 5 }}
             barCategoryGap="20%"
           >
             <XAxis
@@ -65,7 +64,7 @@ export default function IndustryChart({
             <YAxis
               type="category"
               dataKey="sector"
-              width={160}
+              width={180}
               tick={{ fontSize: 11, fill: "#44403c" }}
               axisLine={false}
               tickLine={false}
@@ -98,7 +97,7 @@ export default function IndustryChart({
           </BarChart>
         </ResponsiveContainer>
       </div>
-      <p className="text-[10px] text-stone-500 mt-2">
+      <p className="text-xs text-stone-500 mt-2">
         <span className="inline-block w-2.5 h-2.5 rounded-sm mr-1 align-middle" style={{ backgroundColor: "#9CA3AF", opacity: 0.85 }} />Solid = individual employee contributions
         <span className="mx-2 text-stone-300">|</span>
         <span className="inline-block w-2.5 h-2.5 rounded-sm mr-1 align-middle" style={{ backgroundColor: "#9CA3AF", opacity: 0.4 }} />Faded = direct PAC contributions

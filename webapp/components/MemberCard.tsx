@@ -22,15 +22,12 @@ export default function MemberCard({
   chamber,
   pctOutside,
   totalAmount,
-  topEmployer,
   rank,
 }: MemberCardProps) {
-  const partyColor = party === "R" ? "#EF4444" : party === "D" ? "#3B82F6" : "#78716C";
   const partyBg = party === "R" ? "#FEE2E2" : party === "D" ? "#DBEAFE" : "#F5F5F4";
   const partyText = party === "R" ? "#991B1B" : party === "D" ? "#1E40AF" : "#44403C";
   const prefix = chamber === "senate" ? "Sen." : "Rep.";
   const distStr = chamber === "house" && district != null ? `-${String(district).padStart(2, "0")}` : "";
-  const label = `${prefix} ${name}`;
   const location = `${party}-${state}${distStr}`;
 
   const formatMoney = (v: number) => {
@@ -44,47 +41,39 @@ export default function MemberCard({
   return (
     <Link
       href={`/members/${slug}`}
-      className="block border-b border-stone-200 py-3 px-1 hover:bg-stone-50 transition-colors group"
+      className="flex items-center border-b border-stone-200 py-2 px-1 hover:bg-stone-50 transition-colors group gap-2"
     >
-      <div className="flex items-start justify-between mb-2">
-        <div className="flex items-center gap-2">
-          {rank != null && (
-            <span className="w-8 h-8 rounded-sm bg-[#111111] text-white text-sm font-bold flex items-center justify-center" style={{ fontFamily: "var(--font-display)" }}>
-              {rank}
-            </span>
-          )}
-          <span className="text-sm font-medium text-[#111111] group-hover:text-[#FE4F40] transition-colors">
-            {label}
-          </span>
-        </div>
+      {rank != null && (
         <span
-          className="rounded-sm px-2.5 py-0.5 text-[10px] uppercase tracking-wide font-bold"
-          style={{ fontFamily: "var(--font-display)", backgroundColor: partyBg, color: partyText }}
+          className="text-xs text-stone-400 w-6 shrink-0 tabular-nums"
+          style={{ fontFamily: "var(--font-display)" }}
         >
-          {location}
+          {rank}.
         </span>
-      </div>
+      )}
 
-      <div className="flex items-end justify-between">
-        <div>
-          <span
-            className="text-2xl font-bold"
-            style={{
-              fontFamily: "var(--font-display)",
-              color: outsideColor,
-            }}
-          >
-            {pctOutside.toFixed(0)}%
-          </span>
-          <span className="text-xs text-stone-500 ml-1">outside</span>
-        </div>
-        <div className="text-right">
-          <p className="text-xs text-stone-600 font-medium">{formatMoney(totalAmount)}</p>
-          {topEmployer && (
-            <p className="text-[10px] text-stone-400 mt-0.5 max-w-32 truncate">{topEmployer}</p>
-          )}
-        </div>
-      </div>
+      <span className="text-sm font-medium text-[#111111] group-hover:text-[#FE4F40] transition-colors truncate">
+        {prefix} {name}
+      </span>
+
+      <span
+        className="rounded-sm px-1.5 py-px text-[10px] uppercase tracking-wide font-bold shrink-0"
+        style={{ fontFamily: "var(--font-display)", backgroundColor: partyBg, color: partyText }}
+      >
+        {location}
+      </span>
+
+      <span className="ml-auto flex items-center gap-3 shrink-0">
+        <span
+          className="text-sm font-semibold tabular-nums"
+          style={{ fontFamily: "var(--font-display)", color: outsideColor }}
+        >
+          {pctOutside.toFixed(0)}%
+        </span>
+        <span className="text-xs text-stone-500 tabular-nums w-16 text-right">
+          {formatMoney(totalAmount)}
+        </span>
+      </span>
     </Link>
   );
 }

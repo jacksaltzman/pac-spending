@@ -6,12 +6,11 @@ import {
   getBeforeAfter,
   getSectorColors,
 } from "@/lib/data";
-import { formatMoney, formatPct } from "@/lib/utils";
+import { formatMoney, formatPct, toTitleCase } from "@/lib/utils";
 import StatCard from "@/components/StatCard";
 import MemberCard from "@/components/MemberCard";
 import EmptyState from "@/components/EmptyState";
 import GeoBreakdownChart from "@/components/GeoBreakdownChart";
-import GeoStripChart from "@/components/GeoStripChart";
 
 export default function DashboardPage() {
   const members = getMembers();
@@ -98,7 +97,7 @@ export default function DashboardPage() {
         >
           Who Really Writes American Tax Policy?
         </h1>
-        <p className="text-[15px] text-[#111111] leading-relaxed mb-3">
+        <p className="text-base text-[#111111] leading-relaxed mb-3">
           The House Ways &amp; Means Committee and the Senate Finance Committee
           write the tax code &mdash; every deduction, credit, and loophole passes
           through them. That power attracts money from every corner of the country.{" "}
@@ -114,7 +113,7 @@ export default function DashboardPage() {
             </>
           )}
         </p>
-        <p className="text-xs text-stone-400">
+        <p className="text-sm text-stone-500">
           <span
             className="inline-block bg-[#111111] text-[#D4F72A] rounded-sm px-2 py-0.5 text-[10px] font-bold uppercase tracking-wide mr-2"
             style={{ fontFamily: "var(--font-display)" }}
@@ -126,7 +125,7 @@ export default function DashboardPage() {
       </header>
 
       {/* ── Top-line stats ──────────────────────────────── */}
-      <section className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 mb-10">
+      <section className="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-10">
         <StatCard
           label="Committee members receive"
           value={pacPremiumPct != null ? `${pacPremiumPct}% more` : "—"}
@@ -143,25 +142,19 @@ export default function DashboardPage() {
           label=""
           value={formatPct(medianOutside)}
           detail="of contributions come from outside a member's home state"
-          accent="#F59E0B"
-        />
-        <StatCard
-          label={`${majorityOutside} of ${memberCount} members`}
-          value="majority outside"
-          detail="get more money from out of state than from their own constituents"
-          smallValue
+          accent="#FE4F40"
         />
       </section>
 
       {/* ── Where the Money Comes From ────────────────── */}
       <section className="mb-10">
         <h2
-          className="text-xs text-stone-500 uppercase tracking-[0.2em] mb-1"
+          className="text-sm text-stone-600 uppercase tracking-[0.2em] mb-1"
           style={{ fontFamily: "var(--font-display)" }}
         >
           Where the Money Comes From
         </h2>
-        <p className="text-xs text-stone-500 mb-4 max-w-4xl leading-relaxed">
+        <p className="text-sm text-stone-600 mb-4 max-w-3xl leading-relaxed">
           On average, only{" "}
           <strong className="text-[#111111]">
             {Math.round(avgInDistrict + avgInStateOutDistrict)}%
@@ -179,33 +172,17 @@ export default function DashboardPage() {
         </div>
       </section>
 
-      {/* ── Every Member's Geographic Profile ────────── */}
-      <section className="mb-10">
-        <h2
-          className="text-xs text-stone-500 uppercase tracking-[0.2em] mb-1"
-          style={{ fontFamily: "var(--font-display)" }}
-        >
-          Every Member&apos;s Geographic Profile
-        </h2>
-        <p className="text-xs text-stone-500 mb-4 max-w-4xl leading-relaxed">
-          Each row is one committee member, sorted by outside funding percentage.
-          The pattern reveals which members are outliers — and which rely almost
-          entirely on money from outside their district.
-        </p>
-        <GeoStripChart members={members} />
-      </section>
-
       {/* ── Member Rankings ─────────────────────────────── */}
       <section className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-10">
         {/* Most Outside-Funded */}
         <div>
           <h2
-            className="text-xs text-stone-500 uppercase tracking-[0.2em] mb-2"
+            className="text-sm text-stone-600 uppercase tracking-[0.2em] mb-2"
             style={{ fontFamily: "var(--font-display)" }}
           >
             <span className="text-[#FE4F40]">&#9679;</span> Most Outside-Funded
           </h2>
-          <p className="text-xs text-stone-500 mb-4">
+          <p className="text-sm text-stone-600 mb-4">
             Highest percentage of contributions from outside their home
             state/district
           </p>
@@ -231,12 +208,12 @@ export default function DashboardPage() {
         {/* Most Locally-Funded */}
         <div>
           <h2
-            className="text-xs text-stone-500 uppercase tracking-[0.2em] mb-2"
+            className="text-sm text-stone-600 uppercase tracking-[0.2em] mb-2"
             style={{ fontFamily: "var(--font-display)" }}
           >
             <span className="text-[#4C6971]">&#9679;</span> Most Locally-Funded
           </h2>
-          <p className="text-xs text-stone-500 mb-4">
+          <p className="text-sm text-stone-600 mb-4">
             Lowest percentage of outside funding &mdash; strongest local donor
             base
           </p>
@@ -264,12 +241,12 @@ export default function DashboardPage() {
       {topPacs.length > 0 && (
         <section className="mb-10">
           <h2
-            className="text-xs text-stone-500 uppercase tracking-[0.2em] mb-4"
+            className="text-sm text-stone-600 uppercase tracking-[0.2em] mb-4"
             style={{ fontFamily: "var(--font-display)" }}
           >
             Top PACs by Reach
           </h2>
-          <p className="text-xs text-stone-500 mb-4">
+          <p className="text-sm text-stone-600 mb-4 max-w-3xl">
             Political action committees funding the most committee members
           </p>
           <div className="overflow-x-auto">
@@ -318,7 +295,7 @@ export default function DashboardPage() {
                       {i + 1}
                     </td>
                     <td className="py-3 px-4 text-[#111111]">
-                      {pac.connected_org || pac.pac_name}
+                      {toTitleCase(pac.connected_org || pac.pac_name)}
                     </td>
                     <td className="py-3 px-4">
                       {pac.sector && (

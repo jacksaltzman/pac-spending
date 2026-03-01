@@ -197,7 +197,7 @@ export default function StoriesPage() {
         >
           Story Hooks
         </h1>
-        <p className="text-sm text-stone-600">
+        <p className="text-sm text-stone-600 max-w-3xl">
           Auto-generated findings and story angles from the data
         </p>
       </header>
@@ -212,7 +212,7 @@ export default function StoriesPage() {
       ) : (
         <div className="space-y-6">
           <p
-            className="text-xs text-stone-500 uppercase tracking-[0.2em]"
+            className="text-sm text-stone-600 uppercase tracking-[0.2em]"
             style={{ fontFamily: "var(--font-display)" }}
           >
             {stories.length} story hook{stories.length === 1 ? "" : "s"}{" "}
@@ -231,7 +231,7 @@ export default function StoriesPage() {
                 <CopyButton text={story.copyText} />
               </div>
 
-              <p className="text-sm text-stone-600 mb-4 leading-relaxed">
+              <p className="text-sm text-stone-600 mb-4 leading-relaxed max-w-3xl">
                 {story.summary}
               </p>
 

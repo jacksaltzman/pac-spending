@@ -42,8 +42,8 @@ CONGRESS_API_KEY = os.environ.get("CONGRESS_API_KEY", "")
 CONGRESS_API_BASE = "https://api.congress.gov/v3"
 CONGRESS_API_DELAY = 0.8  # seconds between requests (5000/hr limit)
 
-LEGISLATORS_URL = "https://theunitedstates.io/congress-legislators/legislators-current.json"
-LEGISLATORS_HISTORICAL_URL = "https://theunitedstates.io/congress-legislators/legislators-historical.json"
+LEGISLATORS_URL = "https://unitedstates.github.io/congress-legislators/legislators-current.json"
+LEGISLATORS_HISTORICAL_URL = "https://unitedstates.github.io/congress-legislators/legislators-historical.json"
 
 # 118th Congress = 2023-2024, 119th = 2025-2026
 TARGET_CONGRESSES = [118, 119]
@@ -130,10 +130,15 @@ def congress_api_get(endpoint: str, params: dict | None = None) -> dict:
 
 
 def fetch_house_votes(congress: int) -> list[dict]:
-    """Fetch all House roll call votes for a Congress via Congress.gov API."""
-    print(f"  Fetching House votes for {congress}th Congress...")
-    all_votes = []
+    """Fetch all House roll call votes for a Congress.
 
+    Uses Congress.gov API to get the list of roll calls, then fetches
+    the clerk.house.gov XML for each to get actual bill titles (the API
+    listing only has vote type, not bill descriptions)."""
+    print(f"  Fetching House votes for {congress}th Congress...")
+
+    # Step 1: Get roll call listing from Congress.gov API
+    api_votes: list[dict] = []
     for session in [1, 2]:
         offset = 0
         while True:
@@ -147,28 +152,72 @@ def fetch_house_votes(congress: int) -> list[dict]:
                     break  # session doesn't exist yet
                 raise
 
-            votes = data.get("votes", [])
+            votes = data.get("houseRollCallVotes", [])
             if not votes:
                 break
 
             for v in votes:
-                all_votes.append({
-                    "congress": congress,
-                    "chamber": "house",
+                api_votes.append({
                     "session": session,
-                    "roll_call": v.get("rollCallNumber") or v.get("number"),
-                    "date": v.get("date", ""),
-                    "question": v.get("question", ""),
+                    "roll_call": v.get("rollCallNumber"),
+                    "date": v.get("startDate", "")[:10],
                     "result": v.get("result", ""),
-                    "title": v.get("description") or v.get("title", ""),
-                    "bill": v.get("bill", {}),
-                    "vote_url": v.get("url", ""),
+                    "legislation_type": v.get("legislationType", ""),
+                    "legislation_number": v.get("legislationNumber", ""),
+                    "source_xml": v.get("sourceDataURL", ""),
                 })
             offset += 250
             if len(votes) < 250:
                 break
 
-    print(f"    Found {len(all_votes)} House roll calls")
+    print(f"    API listing: {len(api_votes)} roll calls")
+
+    # Step 2: Fetch clerk XML for each vote to get bill title/description
+    all_votes = []
+    for i, av in enumerate(api_votes):
+        if i % 100 == 0 and i > 0:
+            print(f"      ...fetching clerk XML {i}/{len(api_votes)}")
+
+        xml_url = av["source_xml"]
+        if not xml_url:
+            # Construct from pattern if missing
+            year = av["date"][:4] if av["date"] else ("2023" if av["session"] == 1 else "2024")
+            xml_url = f"https://clerk.house.gov/evs/{year}/roll{av['roll_call']:03d}.xml"
+
+        vote_desc = ""
+        legis_num = ""
+        try:
+            resp = requests.get(xml_url, timeout=10)
+            if resp.status_code == 200:
+                root = ElementTree.fromstring(resp.content)
+                md = root.find("vote-metadata")
+                if md is not None:
+                    vote_desc = md.findtext("vote-desc", "")
+                    legis_num = md.findtext("legis-num", "")
+            time.sleep(0.1)  # be polite to clerk.house.gov
+        except (requests.RequestException, ElementTree.ParseError):
+            pass
+
+        leg_type = av["legislation_type"]
+        leg_num = av["legislation_number"]
+        bill_info = {
+            "number": legis_num or f"{leg_type} {leg_num}".strip(),
+            "title": vote_desc,
+        }
+        all_votes.append({
+            "congress": congress,
+            "chamber": "house",
+            "session": av["session"],
+            "roll_call": av["roll_call"],
+            "date": av["date"],
+            "question": vote_desc,
+            "result": av["result"],
+            "title": vote_desc,
+            "bill": bill_info,
+            "vote_url": xml_url,
+        })
+
+    print(f"    Found {len(all_votes)} House roll calls with titles")
     return all_votes
 
 
@@ -187,9 +236,10 @@ def fetch_house_vote_positions(congress: int, session: int, roll_call: int) -> d
         return {}
 
     positions = {}
-    for member in data.get("members", []):
-        bio_id = member.get("bioguideId", "")
-        position = member.get("voteResponse", "")
+    vote_data = data.get("houseRollCallVoteMemberVotes", {})
+    for member in vote_data.get("results", []):
+        bio_id = member.get("bioguideID", "")
+        position = member.get("voteCast", "")
         if bio_id and position:
             positions[bio_id] = position
     return positions
@@ -213,8 +263,8 @@ def fetch_senate_votes(congress: int) -> list[dict]:
                 f"vote_{congress}_{session}_{vote_num:05d}.xml"
             )
             try:
-                resp = requests.get(url, timeout=15)
-                if resp.status_code == 404:
+                resp = requests.get(url, timeout=15, allow_redirects=False)
+                if resp.status_code in (301, 302, 404):
                     consecutive_404s += 1
                     vote_num += 1
                     continue
@@ -225,7 +275,19 @@ def fetch_senate_votes(congress: int) -> list[dict]:
                 vote_num += 1
                 continue
 
-            root = ElementTree.fromstring(resp.text)
+            # Skip non-XML responses (e.g., HTML error pages)
+            content_type = resp.headers.get("content-type", "")
+            if "xml" not in content_type and not resp.text.strip().startswith("<?xml"):
+                consecutive_404s += 1
+                vote_num += 1
+                continue
+
+            try:
+                root = ElementTree.fromstring(resp.text)
+            except ElementTree.ParseError:
+                print(f"    WARNING: Malformed XML for vote {congress}-{session}-{vote_num}, skipping")
+                vote_num += 1
+                continue
 
             # Parse vote metadata
             question = root.findtext("vote_question_text", "")

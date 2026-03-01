@@ -8,7 +8,11 @@
     "chamber": "house",
     "description": "Ways & Means Committee marks up and advances the bill 40-3, the largest bipartisan tax package of the 118th Congress",
     "sectors_affected": ["Finance & Insurance", "Tech & Telecom", "Real Estate & Housing", "Retail & Consumer"],
-    "significance": "high"
+    "significance": "high",
+    "editorial_summary": "The largest bipartisan tax package of the 118th Congress — a $79B deal restoring R&D expensing, expanding the Child Tax Credit, extending bonus depreciation, and increasing low-income housing credits. Passed the House 357-70 but died in the Senate 48-44.",
+    "industry_interest": "Tech companies wanted R&D expensing restored (worth billions annually). Real estate needed bonus depreciation and LIHTC expansion. Finance and retail benefited broadly from business tax relief. Business groups lobbied intensely for years.",
+    "congress_url": "https://www.congress.gov/bill/118th-congress/house-bill/7024",
+    "outcome": "Passed the House 357-70 but died in the Senate when cloture failed 48-44. The industries that spent heavily — tech, real estate, finance — did not get the R&D expensing, bonus depreciation, or LIHTC expansion they lobbied for."
   },
   {
     "bill": "H.R. 7024",
@@ -19,7 +23,11 @@
     "chamber": "house",
     "description": "House passes the tax package 357-70 with overwhelming bipartisan support, restoring R&D expensing, expanding Child Tax Credit, and extending business interest deductions",
     "sectors_affected": ["Finance & Insurance", "Tech & Telecom", "Real Estate & Housing", "Retail & Consumer"],
-    "significance": "high"
+    "significance": "high",
+    "editorial_summary": "The largest bipartisan tax package of the 118th Congress — a $79B deal restoring R&D expensing, expanding the Child Tax Credit, extending bonus depreciation, and increasing low-income housing credits. Passed the House 357-70 but died in the Senate 48-44.",
+    "industry_interest": "Tech companies wanted R&D expensing restored (worth billions annually). Real estate needed bonus depreciation and LIHTC expansion. Finance and retail benefited broadly from business tax relief. Business groups lobbied intensely for years.",
+    "congress_url": "https://www.congress.gov/bill/118th-congress/house-bill/7024",
+    "outcome": "Passed the House 357-70 but died in the Senate when cloture failed 48-44. The industries that spent heavily — tech, real estate, finance — did not get the R&D expensing, bonus depreciation, or LIHTC expansion they lobbied for."
   },
   {
     "bill": "H.R. 7024",
@@ -30,7 +38,11 @@
     "chamber": "senate",
     "description": "Senate cloture vote fails 48-44 (needed 60), effectively killing the $79B bipartisan tax relief bill for the 118th Congress",
     "sectors_affected": ["Finance & Insurance", "Tech & Telecom", "Real Estate & Housing", "Retail & Consumer"],
-    "significance": "high"
+    "significance": "high",
+    "editorial_summary": "The largest bipartisan tax package of the 118th Congress — a $79B deal restoring R&D expensing, expanding the Child Tax Credit, extending bonus depreciation, and increasing low-income housing credits. Passed the House 357-70 but died in the Senate 48-44.",
+    "industry_interest": "Tech companies wanted R&D expensing restored (worth billions annually). Real estate needed bonus depreciation and LIHTC expansion. Finance and retail benefited broadly from business tax relief. Business groups lobbied intensely for years.",
+    "congress_url": "https://www.congress.gov/bill/118th-congress/house-bill/7024",
+    "outcome": "Passed the House 357-70 but died in the Senate when cloture failed 48-44. The industries that spent heavily — tech, real estate, finance — did not get the R&D expensing, bonus depreciation, or LIHTC expansion they lobbied for."
   },
   {
     "bill": "S. 2973",
@@ -41,7 +53,11 @@
     "chamber": "senate",
     "description": "Senate Finance Committee hearing on pharmacy benefit managers and the prescription drug supply chain's impact on patients and taxpayers",
     "sectors_affected": ["Healthcare & Pharma"],
-    "significance": "high"
+    "significance": "high",
+    "editorial_summary": "A bipartisan bill to regulate pharmacy benefit managers — the middlemen who negotiate drug prices between insurers and pharmacies. Would ban spread pricing in Medicaid, require PBM pricing transparency, and eliminate rebate-tied compensation.",
+    "industry_interest": "The three largest PBMs (CVS Caremark, Express Scripts, OptumRx) control ~80% of the market. This bill directly threatens their profit model — they and their parent companies all operate PACs contributing to Finance Committee members.",
+    "congress_url": "https://www.congress.gov/bill/118th-congress/senate-bill/2973",
+    "outcome": "Passed Senate Finance 26-1 and 26-0 but never received a Senate floor vote. The PBM industry effectively outlasted the bill — their business model remains intact and unreformed."
   },
   {
     "bill": "S. 2973",
@@ -52,7 +68,11 @@
     "chamber": "senate",
     "description": "Senate Finance Committee passes bipartisan PBM reform legislation 26-1, imposing drug pricing standards on pharmacy benefit managers",
     "sectors_affected": ["Healthcare & Pharma", "Retail & Consumer"],
-    "significance": "high"
+    "significance": "high",
+    "editorial_summary": "A bipartisan bill to regulate pharmacy benefit managers — the middlemen who negotiate drug prices between insurers and pharmacies. Would ban spread pricing in Medicaid, require PBM pricing transparency, and eliminate rebate-tied compensation.",
+    "industry_interest": "The three largest PBMs (CVS Caremark, Express Scripts, OptumRx) control ~80% of the market. This bill directly threatens their profit model — they and their parent companies all operate PACs contributing to Finance Committee members.",
+    "congress_url": "https://www.congress.gov/bill/118th-congress/senate-bill/2973",
+    "outcome": "Passed Senate Finance 26-1 and 26-0 but never received a Senate floor vote. The PBM industry effectively outlasted the bill — their business model remains intact and unreformed."
   },
   {
     "bill": "S. 2973",
@@ -63,7 +83,11 @@
     "chamber": "senate",
     "description": "Senate Finance Committee passes expanded PBM reform and mental health package 26-0, combining drug pricing, mental health access, and tax extenders",
     "sectors_affected": ["Healthcare & Pharma", "Professional Services"],
-    "significance": "high"
+    "significance": "high",
+    "editorial_summary": "An expanded package combining PBM reform with mental health access and tax extenders. Passed Senate Finance 26-0, imposing drug pricing standards on pharmacy benefit managers and expanding mental health coverage.",
+    "industry_interest": "Healthcare & Pharma PACs faced regulation of their core pricing practices. Professional services firms also had stakes in the tax extender provisions bundled into the package.",
+    "congress_url": "https://www.congress.gov/bill/118th-congress/senate-bill/2973",
+    "outcome": "Passed Senate Finance 26-0 but never received a Senate floor vote. Despite overwhelming bipartisan committee support, PBM reform stalled — the industry's lobbying prevented floor action."
   },
   {
     "bill": "H.R. 3936",
@@ -74,7 +98,11 @@
     "chamber": "house",
     "description": "Ways & Means marks up the Tax Cuts for Working Families Act 24-16, part of the American Families and Jobs Act package increasing standard deduction and expanding tax brackets",
     "sectors_affected": ["Real Estate & Housing", "Retail & Consumer", "Finance & Insurance"],
-    "significance": "high"
+    "significance": "high",
+    "editorial_summary": "Part of the three-bill American Families and Jobs Act package. Would increase the standard deduction by $2,000–$4,000 for working families.",
+    "industry_interest": "Real estate and retail benefited from family tax cuts. The spike also reflects companion bills marked up the same day — small business expensing (H.R. 3937) and R&D/energy provisions (H.R. 3938).",
+    "congress_url": "https://www.congress.gov/bill/118th-congress/house-bill/3936",
+    "outcome": "Passed Ways & Means but never received a House floor vote as standalone legislation. Key provisions were later folded into H.R. 7024, which also died in the Senate."
   },
   {
     "bill": "H.R. 3937",
@@ -85,7 +113,11 @@
     "chamber": "house",
     "description": "Ways & Means marks up the Small Business Jobs Act 24-18, expanding pass-through deductions and small business expensing provisions",
     "sectors_affected": ["Professional Services", "Retail & Consumer", "Finance & Insurance"],
-    "significance": "medium"
+    "significance": "medium",
+    "editorial_summary": "Would expand pass-through business deductions and small business expensing provisions, part of the American Families and Jobs Act package.",
+    "industry_interest": "Professional services firms and small business owners operate through pass-through structures and benefit directly from expanded deductions. Finance and retail sectors also had stakes.",
+    "congress_url": "https://www.congress.gov/bill/118th-congress/house-bill/3937",
+    "outcome": "Passed Ways & Means 24-18 but never received a House floor vote. Provisions were later incorporated into H.R. 7024, which died in the Senate."
   },
   {
     "bill": "H.R. 3938",
@@ -96,7 +128,11 @@
     "chamber": "house",
     "description": "Ways & Means marks up the Build It in America Act 24-18, restoring R&D expensing, repealing IRA green energy credits, and countering China's economic influence",
     "sectors_affected": ["Tech & Telecom", "Energy & Utilities", "Defense & Aerospace", "Construction & Engineering"],
-    "significance": "high"
+    "significance": "high",
+    "editorial_summary": "Would restore immediate R&D expensing, repeal IRA clean energy tax credits, and counter China's economic influence. Part of the American Families and Jobs Act package.",
+    "industry_interest": "Tech companies needed R&D expensing restored after 2022 changes forced amortization over 5 years. Energy companies wanted green energy credits repealed. Defense and construction sectors had stakes in the China competition provisions.",
+    "congress_url": "https://www.congress.gov/bill/118th-congress/house-bill/3938",
+    "outcome": "Passed Ways & Means 24-18 but never received a House floor vote. R&D expensing provisions were incorporated into H.R. 7024 (which died in the Senate). The IRA green energy credit repeal was dropped entirely."
   },
   {
     "bill": "N/A",
@@ -107,7 +143,11 @@
     "chamber": "senate",
     "description": "Senate Finance Committee hearing on housing tax incentives including LIHTC expansion; Chairman Wyden introduces the DASH Act for affordable housing",
     "sectors_affected": ["Real Estate & Housing", "Construction & Engineering"],
-    "significance": "medium"
+    "significance": "medium",
+    "editorial_summary": "Senate Finance Committee hearing on housing tax incentives including Low-Income Housing Tax Credit expansion. Chairman Wyden introduced the DASH Act for affordable housing.",
+    "industry_interest": "Real estate developers and construction firms rely on LIHTC and housing tax incentives as a primary funding mechanism for affordable housing projects.",
+    "congress_url": null,
+    "outcome": null
   },
   {
     "bill": "N/A",
@@ -118,7 +158,11 @@
     "chamber": "senate",
     "description": "Senate Finance Committee examines how pharmaceutical companies use international tax strategies to shift profits offshore and avoid U.S. taxes",
     "sectors_affected": ["Healthcare & Pharma", "Professional Services"],
-    "significance": "medium"
+    "significance": "medium",
+    "editorial_summary": "Senate Finance Committee hearing examining how pharmaceutical companies use international tax strategies to shift profits offshore and reduce U.S. tax obligations.",
+    "industry_interest": "Pharma companies with offshore profit structures faced scrutiny. Professional services firms advising on international tax planning also had direct exposure.",
+    "congress_url": null,
+    "outcome": null
   },
   {
     "bill": "N/A",
@@ -129,7 +173,11 @@
     "chamber": "house",
     "description": "Ways & Means hearing on IRS accountability featuring Commissioner Werfel, examining IRS enforcement funding and taxpayer service issues",
     "sectors_affected": ["Finance & Insurance", "Professional Services"],
-    "significance": "medium"
+    "significance": "medium",
+    "editorial_summary": "Ways & Means hearing on IRS accountability featuring Commissioner Werfel, examining enforcement funding and taxpayer service issues.",
+    "industry_interest": "Finance and professional services firms faced increased audit exposure from expanded IRS enforcement funding under the Inflation Reduction Act.",
+    "congress_url": null,
+    "outcome": null
   },
   {
     "bill": "N/A",
@@ -140,7 +188,11 @@
     "chamber": "senate",
     "description": "Senate Finance Committee examines tax avoidance schemes used by ultra-wealthy Americans, leading to introduction of Billionaires Income Tax proposal",
     "sectors_affected": ["Finance & Insurance", "Professional Services", "Real Estate & Housing"],
-    "significance": "medium"
+    "significance": "medium",
+    "editorial_summary": "Senate Finance Committee hearing examining tax avoidance strategies used by ultra-wealthy Americans, leading to a Billionaires Income Tax proposal.",
+    "industry_interest": "Finance, professional services, and real estate — the sectors most involved in structuring wealth — faced potential new reporting and taxation requirements.",
+    "congress_url": null,
+    "outcome": null
   },
   {
     "bill": "N/A",
@@ -151,7 +203,11 @@
     "chamber": "senate",
     "description": "Senate Finance Committee hearing examining prescription drug shortages from a federal health program perspective, leading to bipartisan draft legislation",
     "sectors_affected": ["Healthcare & Pharma"],
-    "significance": "medium"
+    "significance": "medium",
+    "editorial_summary": "Senate Finance Committee hearing on prescription drug shortages from a federal health program perspective, leading to bipartisan draft legislation.",
+    "industry_interest": "Pharma manufacturers and distributors faced potential regulatory changes to supply chain management and drug pricing.",
+    "congress_url": null,
+    "outcome": null
   },
   {
     "bill": "N/A",
@@ -162,7 +218,11 @@
     "chamber": "house",
     "description": "Ways & Means hearing on TCJA impact and expiring provisions, the official kickoff of debate on extending $4.3 trillion in tax cuts before 2025 sunset",
     "sectors_affected": ["Finance & Insurance", "Real Estate & Housing", "Energy & Utilities", "Tech & Telecom", "Retail & Consumer"],
-    "significance": "high"
+    "significance": "high",
+    "editorial_summary": "Ways & Means hearing on TCJA impact and expiring provisions — the official kickoff of debate on extending $4.3 trillion in tax cuts before the 2025 sunset.",
+    "industry_interest": "Every major sector had stakes in TCJA extension: finance (pass-through deductions), real estate (opportunity zones, depreciation), energy (production credits), tech (R&D rules), retail (individual rate cuts).",
+    "congress_url": null,
+    "outcome": null
   },
   {
     "bill": "H.R. 8816",
@@ -173,7 +233,11 @@
     "chamber": "house",
     "description": "Ways & Means marks up healthcare innovation bills including Medicare coverage for breakthrough devices, multi-cancer screening, and obesity treatment",
     "sectors_affected": ["Healthcare & Pharma"],
-    "significance": "medium"
+    "significance": "medium",
+    "editorial_summary": "A healthcare innovation bill expanding Medicare coverage for breakthrough medical devices, multi-cancer screening tests, digital therapeutics, and AI-powered healthcare. Marked up by Ways & Means alongside other health bills.",
+    "industry_interest": "Pharma and medical device companies sought new Medicare reimbursement pathways for their products. Coverage decisions directly determine whether devices and treatments have a viable market.",
+    "congress_url": "https://www.congress.gov/bill/118th-congress/house-bill/8816",
+    "outcome": "Reported out of Ways & Means but never received a House floor vote. Medical device and pharma companies did not get the new Medicare coverage pathways they sought."
   },
   {
     "bill": "H.R. 9495",
@@ -184,7 +248,11 @@
     "chamber": "house",
     "description": "Ways & Means marks up five tax bills 38-0 including terror-financing provisions, tax-exempt org accountability, and gig worker reporting rules",
     "sectors_affected": ["Finance & Insurance", "Professional Services", "Ideological"],
-    "significance": "medium"
+    "significance": "medium",
+    "editorial_summary": "Grants IRS power to revoke tax-exempt status of organizations deemed to support terrorism. Also includes tax-exempt org accountability rules and gig worker reporting changes.",
+    "industry_interest": "Finance and professional services PACs had stakes in tax-exempt org reporting rules. Ideological groups on both sides were concerned about IRS power to revoke nonprofit status.",
+    "congress_url": "https://www.congress.gov/bill/118th-congress/house-bill/9495",
+    "outcome": "Passed the House 219-184 but did not pass the Senate before the 118th Congress ended. The controversial IRS authority to revoke tax-exempt status was never enacted."
   },
   {
     "bill": "N/A",
@@ -195,7 +263,11 @@
     "chamber": "senate",
     "description": "Senate Finance Committee hearing on the 2025 tax policy debate examining TCJA extension options and tax avoidance strategies by high-income taxpayers",
     "sectors_affected": ["Finance & Insurance", "Real Estate & Housing", "Professional Services", "Energy & Utilities"],
-    "significance": "high"
+    "significance": "high",
+    "editorial_summary": "Senate Finance Committee hearing on the 2025 tax debate examining TCJA extension options and tax avoidance by high-income taxpayers.",
+    "industry_interest": "Finance, real estate, professional services, and energy sectors all had direct financial stakes in which TCJA provisions would be extended, modified, or allowed to expire.",
+    "congress_url": null,
+    "outcome": null
   },
   {
     "bill": "H.R. 9495",
@@ -206,7 +278,11 @@
     "chamber": "house",
     "description": "House passes H.R. 9495 219-184, granting IRS power to revoke tax-exempt status of organizations supporting terrorism and providing hostage tax relief",
     "sectors_affected": ["Finance & Insurance", "Professional Services", "Ideological"],
-    "significance": "medium"
+    "significance": "medium",
+    "editorial_summary": "Passed the House 219-184, granting IRS power to revoke tax-exempt status of organizations supporting terrorism and providing tax relief for hostages.",
+    "industry_interest": "Finance and professional services PACs had stakes in tax-exempt org reporting rules. Ideological groups on both sides were concerned about IRS power to revoke nonprofit status.",
+    "congress_url": "https://www.congress.gov/bill/118th-congress/house-bill/9495",
+    "outcome": "Passed the House 219-184 but did not pass the Senate before the 118th Congress ended. The controversial IRS authority to revoke tax-exempt status was never enacted."
   },
   {
     "bill": "H.R. 3936",
@@ -217,7 +293,11 @@
     "chamber": "house",
     "description": "Chairman Smith introduces the three-bill American Families and Jobs Act package: Tax Cuts for Working Families Act, Small Business Jobs Act, and Build It in America Act",
     "sectors_affected": ["Real Estate & Housing", "Retail & Consumer", "Finance & Insurance", "Tech & Telecom", "Energy & Utilities"],
-    "significance": "medium"
+    "significance": "medium",
+    "editorial_summary": "Part of the three-bill American Families and Jobs Act package. Would increase the standard deduction by $2,000–$4,000 for working families. Introduced alongside small business and R&D expensing bills (H.R. 3937, H.R. 3938).",
+    "industry_interest": "The spike reflects all three bills introduced the same day. Real estate and retail benefited from family tax cuts, while tech and energy had massive stakes in the companion Build It in America Act (R&D expensing, repeal of green energy credits).",
+    "congress_url": "https://www.congress.gov/bill/118th-congress/house-bill/3936",
+    "outcome": "None of the three bills received a House floor vote. Key provisions were later folded into H.R. 7024, which passed the House 357-70 but died in the Senate."
   },
   {
     "bill": "H.R. 7024",
@@ -228,6 +308,10 @@
     "chamber": "house",
     "description": "Chairman Smith and Senate Finance Chairman Wyden announce bipartisan $79B tax deal restoring R&D expensing, expanding Child Tax Credit, and extending bonus depreciation",
     "sectors_affected": ["Finance & Insurance", "Tech & Telecom", "Real Estate & Housing", "Retail & Consumer"],
-    "significance": "high"
+    "significance": "high",
+    "editorial_summary": "The largest bipartisan tax package of the 118th Congress — a $79B deal restoring R&D expensing, expanding the Child Tax Credit, extending bonus depreciation, and increasing low-income housing credits.",
+    "industry_interest": "Tech companies wanted R&D expensing restored (worth billions annually). Real estate needed bonus depreciation and LIHTC expansion. Finance and retail benefited broadly from business tax relief. Business groups lobbied intensely for years.",
+    "congress_url": "https://www.congress.gov/bill/118th-congress/house-bill/7024",
+    "outcome": "Passed the House 357-70 but died in the Senate when cloture failed 48-44. The industries that spent heavily — tech, real estate, finance — did not get the R&D expensing, bonus depreciation, or LIHTC expansion they lobbied for."
   }
 ]

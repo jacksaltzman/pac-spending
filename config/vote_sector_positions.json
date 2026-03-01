@@ -1,6 +1,6 @@
 [
   {
-    "roll_call_id": "H-118-2-19",
+    "roll_call_id": "H-118-2-30",
     "bill": "H.R.7024",
     "bill_title": "Tax Relief for American Families and Workers Act of 2024",
     "date": "2024-01-31",
@@ -14,7 +14,7 @@
     }
   },
   {
-    "roll_call_id": "H-118-1-192",
+    "roll_call_id": "H-118-1-182",
     "bill": "H.R.1",
     "bill_title": "Lower Energy Costs Act",
     "date": "2023-03-30",
@@ -24,19 +24,6 @@
       "Energy & Utilities": {"position": "yea", "reason": "Expands fossil fuel production tax benefits and blocks methane emissions fee"},
       "Healthcare & Pharma": {"position": "nay", "reason": "No direct stake but opposition aligned with preserving IRA provisions"},
       "Finance & Insurance": {"position": "yea", "reason": "Reduces regulatory costs and energy transition compliance burden"}
-    }
-  },
-  {
-    "roll_call_id": "H-118-1-72",
-    "bill": "H.R.25",
-    "bill_title": "FairTax Act of 2023",
-    "date": "2023-01-27",
-    "chamber": "house",
-    "description": "Referred to Ways and Means — would replace income tax with national sales tax and abolish the IRS",
-    "sector_positions": {
-      "Finance & Insurance": {"position": "nay", "reason": "Would eliminate tax-advantaged products (401k, IRA, life insurance) that drive revenue"},
-      "Professional Services": {"position": "nay", "reason": "Would eliminate demand for tax advisory and compliance services"},
-      "Retail & Consumer": {"position": "nay", "reason": "23% national sales tax would suppress consumer spending"}
     }
   }
 ]

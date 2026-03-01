@@ -1,0 +1,347 @@
+{
+  "Mike Crapo": {
+    "alignment_pct": null,
+    "votes_with": 0,
+    "votes_against": 0,
+    "votes_total": 0,
+    "top_funding_sector": "Healthcare & Pharma",
+    "top_sectors": [
+      "Healthcare & Pharma",
+      "Tech & Telecom",
+      "Construction & Engineering"
+    ],
+    "per_sector": {}
+  },
+  "Chuck Grassley": {
+    "alignment_pct": null,
+    "votes_with": 0,
+    "votes_against": 0,
+    "votes_total": 0,
+    "top_funding_sector": "Labor",
+    "top_sectors": [
+      "Labor",
+      "Healthcare & Pharma",
+      "Finance & Insurance"
+    ],
+    "per_sector": {}
+  },
+  "John Cornyn": {
+    "alignment_pct": null,
+    "votes_with": 0,
+    "votes_against": 0,
+    "votes_total": 0,
+    "top_funding_sector": "Healthcare & Pharma",
+    "top_sectors": [
+      "Healthcare & Pharma",
+      "Energy & Utilities",
+      "Finance & Insurance"
+    ],
+    "per_sector": {}
+  },
+  "John Thune": {
+    "alignment_pct": null,
+    "votes_with": 0,
+    "votes_against": 0,
+    "votes_total": 0,
+    "top_funding_sector": "Retail & Consumer",
+    "top_sectors": [
+      "Retail & Consumer",
+      "Healthcare & Pharma",
+      "Food & Beverage"
+    ],
+    "per_sector": {}
+  },
+  "Tim Scott": {
+    "alignment_pct": null,
+    "votes_with": 0,
+    "votes_against": 0,
+    "votes_total": 0,
+    "top_funding_sector": "Finance & Insurance",
+    "top_sectors": [
+      "Finance & Insurance",
+      "Healthcare & Pharma",
+      "Professional Services"
+    ],
+    "per_sector": {}
+  },
+  "Bill Cassidy": {
+    "alignment_pct": null,
+    "votes_with": 0,
+    "votes_against": 0,
+    "votes_total": 0,
+    "top_funding_sector": "Energy & Utilities",
+    "top_sectors": [
+      "Energy & Utilities",
+      "Retail & Consumer",
+      "Professional Services"
+    ],
+    "per_sector": {}
+  },
+  "James Lankford": {
+    "alignment_pct": null,
+    "votes_with": 0,
+    "votes_against": 0,
+    "votes_total": 0,
+    "top_funding_sector": "Finance & Insurance",
+    "top_sectors": [
+      "Finance & Insurance",
+      "Tech & Telecom",
+      "Retail & Consumer"
+    ],
+    "per_sector": {}
+  },
+  "Steve Daines": {
+    "alignment_pct": null,
+    "votes_with": 0,
+    "votes_against": 0,
+    "votes_total": 0,
+    "top_funding_sector": "Professional Services",
+    "top_sectors": [
+      "Professional Services",
+      "Healthcare & Pharma",
+      "Real Estate & Housing"
+    ],
+    "per_sector": {}
+  },
+  "Todd Young": {
+    "alignment_pct": null,
+    "votes_with": 0,
+    "votes_against": 0,
+    "votes_total": 0,
+    "top_funding_sector": "Healthcare & Pharma",
+    "top_sectors": [
+      "Healthcare & Pharma",
+      "Finance & Insurance"
+    ],
+    "per_sector": {}
+  },
+  "John Barrasso": {
+    "alignment_pct": null,
+    "votes_with": 0,
+    "votes_against": 0,
+    "votes_total": 0,
+    "top_funding_sector": "Ideological",
+    "top_sectors": [
+      "Ideological",
+      "Defense & Aerospace",
+      "Healthcare & Pharma"
+    ],
+    "per_sector": {}
+  },
+  "Ron Johnson": {
+    "alignment_pct": null,
+    "votes_with": 0,
+    "votes_against": 0,
+    "votes_total": 0,
+    "top_funding_sector": "Labor",
+    "top_sectors": [
+      "Labor",
+      "Finance & Insurance",
+      "Ideological"
+    ],
+    "per_sector": {}
+  },
+  "Thom Tillis": {
+    "alignment_pct": null,
+    "votes_with": 0,
+    "votes_against": 0,
+    "votes_total": 0,
+    "top_funding_sector": "Labor",
+    "top_sectors": [
+      "Labor",
+      "Retail & Consumer",
+      "Finance & Insurance"
+    ],
+    "per_sector": {}
+  },
+  "Marsha Blackburn": {
+    "alignment_pct": null,
+    "votes_with": 0,
+    "votes_against": 0,
+    "votes_total": 0,
+    "top_funding_sector": "Healthcare & Pharma",
+    "top_sectors": [
+      "Healthcare & Pharma",
+      "Ideological",
+      "Transportation"
+    ],
+    "per_sector": {}
+  },
+  "Roger Marshall": {
+    "alignment_pct": null,
+    "votes_with": 0,
+    "votes_against": 0,
+    "votes_total": 0,
+    "top_funding_sector": "Finance & Insurance",
+    "top_sectors": [
+      "Finance & Insurance",
+      "Healthcare & Pharma"
+    ],
+    "per_sector": {}
+  },
+  "Ron Wyden": {
+    "alignment_pct": null,
+    "votes_with": 0,
+    "votes_against": 0,
+    "votes_total": 0,
+    "top_funding_sector": "Finance & Insurance",
+    "top_sectors": [
+      "Finance & Insurance",
+      "Healthcare & Pharma",
+      "Labor"
+    ],
+    "per_sector": {}
+  },
+  "Maria Cantwell": {
+    "alignment_pct": null,
+    "votes_with": 0,
+    "votes_against": 0,
+    "votes_total": 0,
+    "top_funding_sector": "Labor",
+    "top_sectors": [
+      "Labor",
+      "Healthcare & Pharma"
+    ],
+    "per_sector": {}
+  },
+  "Michael Bennet": {
+    "alignment_pct": null,
+    "votes_with": 0,
+    "votes_against": 0,
+    "votes_total": 0,
+    "top_funding_sector": "Finance & Insurance",
+    "top_sectors": [
+      "Finance & Insurance",
+      "Transportation",
+      "Retail & Consumer"
+    ],
+    "per_sector": {}
+  },
+  "Mark Warner": {
+    "alignment_pct": null,
+    "votes_with": 0,
+    "votes_against": 0,
+    "votes_total": 0,
+    "top_funding_sector": "Finance & Insurance",
+    "top_sectors": [
+      "Finance & Insurance",
+      "Healthcare & Pharma"
+    ],
+    "per_sector": {}
+  },
+  "Sheldon Whitehouse": {
+    "alignment_pct": null,
+    "votes_with": 0,
+    "votes_against": 0,
+    "votes_total": 0,
+    "top_funding_sector": "Ideological",
+    "top_sectors": [
+      "Ideological",
+      "Labor",
+      "Professional Services"
+    ],
+    "per_sector": {}
+  },
+  "Maggie Hassan": {
+    "alignment_pct": null,
+    "votes_with": 0,
+    "votes_against": 0,
+    "votes_total": 0,
+    "top_funding_sector": "Labor",
+    "top_sectors": [
+      "Labor",
+      "Finance & Insurance",
+      "Healthcare & Pharma"
+    ],
+    "per_sector": {}
+  },
+  "Catherine Cortez Masto": {
+    "alignment_pct": null,
+    "votes_with": 0,
+    "votes_against": 0,
+    "votes_total": 0,
+    "top_funding_sector": "Healthcare & Pharma",
+    "top_sectors": [
+      "Healthcare & Pharma",
+      "Finance & Insurance",
+      "Retail & Consumer"
+    ],
+    "per_sector": {}
+  },
+  "Elizabeth Warren": {
+    "alignment_pct": null,
+    "votes_with": 0,
+    "votes_against": 0,
+    "votes_total": 0,
+    "top_funding_sector": "Labor",
+    "top_sectors": [
+      "Labor",
+      "Healthcare & Pharma"
+    ],
+    "per_sector": {}
+  },
+  "Bernie Sanders": {
+    "alignment_pct": null,
+    "votes_with": 0,
+    "votes_against": 0,
+    "votes_total": 0,
+    "top_funding_sector": "Labor",
+    "top_sectors": [
+      "Labor",
+      "Transportation",
+      "Healthcare & Pharma"
+    ],
+    "per_sector": {}
+  },
+  "Tina Smith": {
+    "alignment_pct": null,
+    "votes_with": 0,
+    "votes_against": 0,
+    "votes_total": 0,
+    "top_funding_sector": "Finance & Insurance",
+    "top_sectors": [
+      "Finance & Insurance",
+      "Healthcare & Pharma",
+      "Labor"
+    ],
+    "per_sector": {}
+  },
+  "Ben Ray Lujan": {
+    "alignment_pct": null,
+    "votes_with": 0,
+    "votes_against": 0,
+    "votes_total": 0,
+    "top_funding_sector": "Healthcare & Pharma",
+    "top_sectors": [
+      "Healthcare & Pharma",
+      "Labor",
+      "Tech & Telecom"
+    ],
+    "per_sector": {}
+  },
+  "Raphael Warnock": {
+    "alignment_pct": null,
+    "votes_with": 0,
+    "votes_against": 0,
+    "votes_total": 0,
+    "top_funding_sector": "Finance & Insurance",
+    "top_sectors": [
+      "Finance & Insurance",
+      "Labor"
+    ],
+    "per_sector": {}
+  },
+  "Peter Welch": {
+    "alignment_pct": null,
+    "votes_with": 0,
+    "votes_against": 0,
+    "votes_total": 0,
+    "top_funding_sector": "Labor",
+    "top_sectors": [
+      "Labor",
+      "Healthcare & Pharma",
+      "Tech & Telecom"
+    ],
+    "per_sector": {}
+  }
+}

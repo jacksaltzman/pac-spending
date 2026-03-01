@@ -11,6 +11,7 @@ import StatCard from "@/components/StatCard";
 import MemberCard from "@/components/MemberCard";
 import EmptyState from "@/components/EmptyState";
 import GeoBreakdownChart from "@/components/GeoBreakdownChart";
+import GeoStripChart from "@/components/GeoStripChart";
 
 export default function DashboardPage() {
   const members = getMembers();
@@ -176,6 +177,22 @@ export default function DashboardPage() {
             outOfState={avgOutOfState}
           />
         </div>
+      </section>
+
+      {/* ── Every Member's Geographic Profile ────────── */}
+      <section className="mb-10">
+        <h2
+          className="text-xs text-stone-500 uppercase tracking-[0.2em] mb-1"
+          style={{ fontFamily: "var(--font-display)" }}
+        >
+          Every Member&apos;s Geographic Profile
+        </h2>
+        <p className="text-xs text-stone-500 mb-4 max-w-4xl leading-relaxed">
+          Each row is one committee member, sorted by outside funding percentage.
+          The pattern reveals which members are outliers — and which rely almost
+          entirely on money from outside their district.
+        </p>
+        <GeoStripChart members={members} />
       </section>
 
       {/* ── Member Rankings ─────────────────────────────── */}

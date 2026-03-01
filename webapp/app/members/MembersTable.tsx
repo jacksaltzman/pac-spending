@@ -326,8 +326,13 @@ export default function MembersTable({ members: allMembers }: { members: Member[
                         ) : "\u2014"}
                       </td>
                       <td className="px-3 py-2.5 text-right text-[#111111] tabular-nums whitespace-nowrap">{formatMoney(m.total_itemized_amount)}</td>
-                      <td className="px-3 py-2.5 text-stone-500 text-xs max-w-64">
-                        <span className="line-clamp-2">{m.top_funder_agendas || "\u2014"}</span>
+                      <td className="px-3 py-2.5 text-stone-500 text-xs min-w-48 max-w-80">
+                        {(() => {
+                          if (!m.top_funder_agendas) return "\u2014";
+                          const items = m.top_funder_agendas.split(", ").slice(0, 3);
+                          const text = items.join(", ");
+                          return text.charAt(0).toUpperCase() + text.slice(1);
+                        })()}
                       </td>
                     </tr>
                   );

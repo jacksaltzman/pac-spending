@@ -3,7 +3,7 @@
 import { useState, useMemo } from "react";
 import { useRouter } from "next/navigation";
 import type { Member } from "@/lib/data";
-import { formatMoney, formatPct } from "@/lib/utils";
+import { formatMoney, formatPct, sectorColor } from "@/lib/utils";
 
 const COMMITTEES = [
   { value: "all", label: "All" },
@@ -18,11 +18,12 @@ const PARTIES = [
 ] as const;
 
 type SortKey =
+  | "member_name"
   | "pct_outside"
+  | "total_itemized_amount"
   | "pct_dc_kstreet"
   | "pct_in_home"
-  | "total_itemized_amount"
-  | "member_name";
+  | "alignment_pct";
 
 type SortDir = "asc" | "desc";
 
@@ -90,7 +91,7 @@ export default function MembersTable({ members: allMembers }: { members: Member[
   const [committee, setCommittee] = useState("all");
   const [party, setParty] = useState("all");
   const [search, setSearch] = useState("");
-  const [sortKey, setSortKey] = useState<SortKey>("pct_outside");
+  const [sortKey, setSortKey] = useState<SortKey>("alignment_pct");
   const [sortDir, setSortDir] = useState<SortDir>("desc");
 
   function handleSort(key: SortKey) {
@@ -114,7 +115,8 @@ export default function MembersTable({ members: allMembers }: { members: Member[
         q &&
         !m.member_name.toLowerCase().includes(q) &&
         !m.state.toLowerCase().includes(q) &&
-        !(m.top_funder_agendas ?? "").toLowerCase().includes(q)
+        !(m.top_funder_agendas ?? "").toLowerCase().includes(q) &&
+        !(m.top_funding_sector ?? "").toLowerCase().includes(q)
       ) {
         return false;
       }
@@ -146,9 +148,13 @@ export default function MembersTable({ members: allMembers }: { members: Member[
           av = a.total_itemized_amount;
           bv = b.total_itemized_amount;
           break;
+        case "alignment_pct":
+          av = a.alignment_pct ?? -1;
+          bv = b.alignment_pct ?? -1;
+          break;
         default:
-          av = a.pct_outside;
-          bv = b.pct_outside;
+          av = a.alignment_pct ?? -1;
+          bv = b.alignment_pct ?? -1;
       }
 
       if (av < bv) return sortDir === "asc" ? -1 : 1;
@@ -255,8 +261,8 @@ export default function MembersTable({ members: allMembers }: { members: Member[
                   <th className="px-3 py-3 text-left text-[10px] uppercase tracking-wider text-stone-500 w-14" style={{ fontFamily: "var(--font-display)" }}>Party</th>
                   <th className="px-3 py-3 text-left text-[10px] uppercase tracking-wider text-stone-500" style={{ fontFamily: "var(--font-display)" }}>State-Dist</th>
                   <ColHeader label="Outside %" sortField="pct_outside" className="text-right" />
-                  <ColHeader label="DC %" sortField="pct_dc_kstreet" className="text-right" />
-                  <ColHeader label="In-Home %" sortField="pct_in_home" className="text-right" />
+                  <ColHeader label="Alignment" sortField="alignment_pct" className="text-right" />
+                  <th className="px-3 py-3 text-left text-[10px] uppercase tracking-wider text-stone-500" style={{ fontFamily: "var(--font-display)" }}>Top Sector</th>
                   <ColHeader label="Total $" sortField="total_itemized_amount" className="text-right" />
                   <th className="px-3 py-3 text-left text-[10px] uppercase tracking-wider text-stone-500" style={{ fontFamily: "var(--font-display)" }}>Top Funders Lobby For</th>
                 </tr>
@@ -282,8 +288,19 @@ export default function MembersTable({ members: allMembers }: { members: Member[
                       </td>
                       <td className="px-3 py-2.5 text-stone-500 whitespace-nowrap">{stateDistrict(m)}</td>
                       <td className="px-3 py-2.5 text-right font-semibold tabular-nums" style={{ color: outsidePctColor(m.pct_outside) }}>{formatPct(m.pct_outside)}</td>
-                      <td className="px-3 py-2.5 text-right text-stone-500 tabular-nums">{formatPct(m.pct_dc_kstreet)}</td>
-                      <td className="px-3 py-2.5 text-right text-stone-500 tabular-nums">{formatPct(m.pct_in_home)}</td>
+                      <td className="px-3 py-2.5 text-right font-semibold tabular-nums whitespace-nowrap"
+                          style={{ color: (m.alignment_pct ?? 0) > 75 ? "#FE4F40" : (m.alignment_pct ?? 0) > 50 ? "#F59E0B" : "#4C6971" }}>
+                        {m.alignment_pct != null ? `${m.alignment_pct.toFixed(0)}%` : "\u2014"}
+                      </td>
+                      <td className="px-3 py-2.5 text-xs text-stone-600 whitespace-nowrap">
+                        {m.top_funding_sector ? (
+                          <span className="inline-flex items-center gap-1.5">
+                            <span className="w-2 h-2 rounded-full flex-shrink-0"
+                                  style={{ backgroundColor: sectorColor(m.top_funding_sector) }} />
+                            {m.top_funding_sector}
+                          </span>
+                        ) : "\u2014"}
+                      </td>
                       <td className="px-3 py-2.5 text-right text-[#111111] tabular-nums whitespace-nowrap">{formatMoney(m.total_itemized_amount)}</td>
                       <td className="px-3 py-2.5 text-stone-500 text-xs max-w-64">
                         <span className="line-clamp-2">{m.top_funder_agendas || "\u2014"}</span>

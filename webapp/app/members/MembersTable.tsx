@@ -312,7 +312,9 @@ export default function MembersTable({ members: allMembers }: { members: Member[
                       </td>
                       <td className="px-3 py-2.5 text-right font-semibold tabular-nums whitespace-nowrap"
                           style={{ color: (m.alignment_pct ?? 0) > 75 ? "#FE4F40" : (m.alignment_pct ?? 0) > 50 ? "#F59E0B" : "#4C6971" }}>
-                        {m.alignment_pct != null ? `${m.alignment_pct.toFixed(0)}%` : "\u2014"}
+                        {m.alignment_pct != null && (m.alignment_votes_total == null || m.alignment_votes_total >= 3)
+                          ? `${m.alignment_pct.toFixed(0)}%`
+                          : "\u2014"}
                       </td>
                       <td className="px-3 py-2.5 text-xs text-stone-600 whitespace-nowrap">
                         {m.top_funding_sector ? (

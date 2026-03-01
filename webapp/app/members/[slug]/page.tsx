@@ -77,6 +77,8 @@ export default async function MemberDetailPage({
   const pacSpread = getPacSpread();
   const sectorColorsMap = getSectorColors();
 
+  const MIN_ALIGNMENT_VOTES = 3; // Don't show scorecard with fewer matched votes
+
   /* ---------- party styling ---------- */
 
   const partyBadgeBg =
@@ -415,6 +417,7 @@ export default async function MemberDetailPage({
             Influence Scorecard
           </h2>
 
+          {alignment.votes_total >= MIN_ALIGNMENT_VOTES ? (
           <div className="bg-white border border-[#C8C1B6]/50 rounded-lg p-6 space-y-6">
             {/* Big alignment number */}
             <div className="text-center">
@@ -474,6 +477,14 @@ export default async function MemberDetailPage({
               </div>
             )}
           </div>
+          ) : (
+          <div className="bg-white border border-[#C8C1B6]/50 rounded-lg p-5">
+            <p className="text-sm text-stone-400 leading-relaxed">
+              Alignment data available for only {alignment.votes_total} vote{alignment.votes_total !== 1 ? "s" : ""} &mdash; too few to display a meaningful score.
+              As more sector positions are curated, this scorecard will populate.
+            </p>
+          </div>
+          )}
         </section>
       )}
 
@@ -784,8 +795,8 @@ export default async function MemberDetailPage({
             How They Voted
           </h2>
 
-          {/* Summary line */}
-          {votesWithPosition > 0 && (
+          {/* Summary line — only show with enough data points */}
+          {votesWithPosition > 0 && (alignment?.votes_total ?? 0) >= MIN_ALIGNMENT_VOTES && (
             <div className="bg-white border border-[#C8C1B6]/50 rounded-lg p-5">
               <p className="text-sm text-stone-600">
                 Voted with{" "}

@@ -44,6 +44,9 @@ export interface Member {
   jfc_flag: boolean;
   one_liner: string;
   top_funder_agendas: string;
+  alignment_pct?: number | null;
+  alignment_votes_total?: number;
+  top_funding_sector?: string;
 }
 
 export interface EmployerEntry {
@@ -182,12 +185,22 @@ export interface TimingEvent {
   date: string;
   label: string;
   bill: string;
+  bill_title: string;
   event_type: string;
   significance: string;
+  description: string;
+  committee: string;
+  chamber: string;
+  sectors_affected: string[];
+  editorial_summary: string;
+  industry_interest: string;
+  congress_url: string | null;
+  outcome: string | null;
 }
 
 export interface EventAnalysisEntry {
   bill: string;
+  bill_title: string;
   event_type: string;
   date: string;
   sector: string;
@@ -198,6 +211,11 @@ export interface EventAnalysisEntry {
   spike_ratio: number | null;
   sector_specific: boolean;
   significance: string;
+  sectors_affected: string[];
+  editorial_summary: string;
+  industry_interest: string;
+  congress_url: string | null;
+  outcome: string | null;
 }
 
 export interface ContributionTiming {
@@ -283,6 +301,43 @@ export interface LeadershipAnalysis {
     avg_pac_leadership_premium_pct: number | null;
   };
   member_leadership_roles: Record<string, LeadershipMemberRole>;
+}
+
+export interface AlignmentScore {
+  alignment_pct: number | null;
+  votes_with: number;
+  votes_against: number;
+  votes_total: number;
+  top_funding_sector: string;
+  top_sectors: string[];
+  per_sector: Record<string, { with: number; against: number; total: number }>;
+}
+
+export interface VoteRecord {
+  roll_call_id: string;
+  congress: number;
+  chamber: string;
+  date: string;
+  bill: string;
+  bill_title: string;
+  question: string;
+  result: string;
+  position: string;
+}
+
+export interface SectorPosition {
+  position: string;
+  reason: string;
+}
+
+export interface TaxVoteSectorPositions {
+  roll_call_id: string;
+  bill: string;
+  bill_title: string;
+  date: string;
+  chamber: string;
+  description: string;
+  sector_positions: Record<string, SectorPosition>;
 }
 
 // --- Data loading via fs (server components only) ---
@@ -400,4 +455,47 @@ export function getLeadershipAnalysis(): LeadershipAnalysis | null {
   } catch {
     return null;
   }
+}
+
+export function getAlignmentScores(): Record<string, AlignmentScore> | null {
+  try {
+    const raw = readFileSync(join(DATA_DIR, "alignment_scores.json"), "utf-8");
+    return JSON.parse(raw);
+  } catch {
+    return null;
+  }
+}
+
+export function getAlignmentForMember(name: string): AlignmentScore | null {
+  const scores = getAlignmentScores();
+  return scores?.[name] ?? null;
+}
+
+export function getVotingRecords(): Record<string, VoteRecord[]> | null {
+  try {
+    const raw = readFileSync(join(DATA_DIR, "voting_records.json"), "utf-8");
+    return JSON.parse(raw);
+  } catch {
+    return null;
+  }
+}
+
+export function getTaxVotesForMember(name: string): VoteRecord[] {
+  const records = getVotingRecords();
+  return records?.[name] ?? [];
+}
+
+export function getSectorPositions(): TaxVoteSectorPositions[] {
+  try {
+    const raw = readFileSync(join(DATA_DIR, "vote_sector_positions.json"), "utf-8");
+    return JSON.parse(raw);
+  } catch {
+    return [];
+  }
+}
+
+export function getBeforeAfterForMember(name: string): BeforeAfterMember | null {
+  const data = getBeforeAfter();
+  if (!data) return null;
+  return data.members.find((m) => m.name === name) ?? null;
 }

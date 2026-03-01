@@ -181,10 +181,10 @@ export default async function MemberDetailPage({
   /* ---------- top outside states ---------- */
 
   const topStates = [
-    member.top_outside_state_1,
-    member.top_outside_state_2,
-    member.top_outside_state_3,
-  ].filter(Boolean);
+    { state: member.top_outside_state_1, amt: member.top_outside_state_1_amt },
+    { state: member.top_outside_state_2, amt: member.top_outside_state_2_amt },
+    { state: member.top_outside_state_3, amt: member.top_outside_state_3_amt },
+  ].filter((s) => s.state);
 
   /* ---------- PAC sector breakdown ---------- */
 
@@ -987,23 +987,36 @@ export default async function MemberDetailPage({
           >
             Top Outside States
           </h2>
-          <div className="flex gap-3">
-            {topStates.map((st, i) => (
-              <div
-                key={st}
-                className="bg-white border border-[#C8C1B6]/50 rounded-lg px-5 py-4 flex items-center gap-3"
-              >
-                <span
-                  className="w-8 h-8 rounded-sm bg-[#111111] text-white text-sm font-bold flex items-center justify-center"
-                  style={{ fontFamily: "var(--font-display)" }}
+          <div className="grid grid-cols-3 gap-3">
+            {topStates.map((st, i) => {
+              const pct = member.total_itemized_amount > 0
+                ? (st.amt / member.total_itemized_amount) * 100
+                : 0;
+              return (
+                <div
+                  key={st.state}
+                  className="bg-white border border-[#C8C1B6]/50 rounded-lg px-5 py-4"
                 >
-                  {i + 1}
-                </span>
-                <span className="text-lg text-[#111111] font-medium">
-                  {st}
-                </span>
-              </div>
-            ))}
+                  <div className="flex items-center gap-3 mb-2">
+                    <span
+                      className="w-7 h-7 rounded-sm bg-[#111111] text-white text-xs font-bold flex items-center justify-center"
+                      style={{ fontFamily: "var(--font-display)" }}
+                    >
+                      {i + 1}
+                    </span>
+                    <span className="text-lg text-[#111111] font-medium">
+                      {st.state}
+                    </span>
+                  </div>
+                  <p className="text-sm font-bold text-[#111111]" style={{ fontFamily: "var(--font-display)" }}>
+                    {formatMoney(st.amt)}
+                  </p>
+                  <p className="text-[10px] text-stone-400">
+                    {pct.toFixed(1)}% of itemized
+                  </p>
+                </div>
+              );
+            })}
           </div>
         </section>
       )}

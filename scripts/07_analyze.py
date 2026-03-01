@@ -227,8 +227,11 @@ def analyze_individual_contributions(cycle):
             "top_outside_employer_2": top_emp[1]["employer"] if len(top_emp) > 1 else "",
             "top_outside_employer_3": top_emp[2]["employer"] if len(top_emp) > 2 else "",
             "top_outside_state_1": top_states[0]["state"] if len(top_states) > 0 else "",
+            "top_outside_state_1_amt": top_states[0]["total"] if len(top_states) > 0 else 0,
             "top_outside_state_2": top_states[1]["state"] if len(top_states) > 1 else "",
+            "top_outside_state_2_amt": top_states[1]["total"] if len(top_states) > 1 else 0,
             "top_outside_state_3": top_states[2]["state"] if len(top_states) > 2 else "",
+            "top_outside_state_3_amt": top_states[2]["total"] if len(top_states) > 2 else 0,
         }
 
         # Merge validation data

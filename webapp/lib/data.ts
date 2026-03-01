@@ -35,8 +35,11 @@ export interface Member {
   top_outside_employer_2: string;
   top_outside_employer_3: string;
   top_outside_state_1: string;
+  top_outside_state_1_amt: number;
   top_outside_state_2: string;
+  top_outside_state_2_amt: number;
   top_outside_state_3: string;
+  top_outside_state_3_amt: number;
   unitemized_pct: number | null;
   capture_rate_pct: number | null;
   fec_total_receipts: number | null;

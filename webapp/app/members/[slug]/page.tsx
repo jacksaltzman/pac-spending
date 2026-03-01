@@ -5,6 +5,7 @@ import {
   getEmployersForMember,
   getPacsForMember,
   getOneLinerForMember,
+  getLeadershipAnalysis,
 } from "@/lib/data";
 import { formatMoney, formatPct, memberLabel, sectorColor } from "@/lib/utils";
 import CopyButton from "./CopyButton";
@@ -54,6 +55,8 @@ export default async function MemberDetailPage({
   const employers = getEmployersForMember(member.member_name).slice(0, 20);
   const pacs = getPacsForMember(member.member_name).slice(0, 20);
   const oneLiner = getOneLinerForMember(member.member_name);
+  const leadershipData = getLeadershipAnalysis();
+  const leadershipRole = leadershipData?.member_leadership_roles?.[member.member_name];
 
   const partyBadgeBg =
     member.party === "R"
@@ -207,8 +210,36 @@ export default async function MemberDetailPage({
           <p className="mt-2 text-sm text-stone-600">
             {member.role}
             {member.role && member.committee ? " — " : ""}
-            {member.committee}
+            {member.committee === "house_ways_and_means"
+              ? "House Ways & Means"
+              : member.committee === "senate_finance"
+                ? "Senate Finance"
+                : member.committee}
           </p>
+        )}
+        {leadershipRole && leadershipRole.tier <= 2 && (
+          <div className="mt-2 inline-flex items-center gap-2">
+            <span
+              className="inline-flex items-center gap-1.5 text-xs font-semibold px-2.5 py-1 rounded-full"
+              style={{
+                backgroundColor: leadershipRole.tier === 1 ? "#FEE2E2" : "#FEF3C7",
+                color: leadershipRole.tier === 1 ? "#991B1B" : "#92400E",
+              }}
+            >
+              <span
+                className="w-1.5 h-1.5 rounded-full"
+                style={{
+                  backgroundColor: leadershipRole.tier === 1 ? "#FE4F40" : "#F59E0B",
+                }}
+              />
+              {leadershipRole.title}
+              {leadershipRole.subcommittee && (
+                <span className="font-normal">
+                  , {leadershipRole.subcommittee}
+                </span>
+              )}
+            </span>
+          </div>
         )}
       </header>
 

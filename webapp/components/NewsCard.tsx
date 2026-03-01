@@ -37,7 +37,7 @@ export default function NewsCards({ articles, sectorColors }: NewsCardsProps) {
             href={article.url}
             target="_blank"
             rel="noopener noreferrer"
-            className="group block bg-white border border-[#C8C1B6]/50 rounded-lg p-5 hover:border-[#C8C1B6] hover:shadow-sm transition-all"
+            className="group block py-4 border-b border-stone-200 hover:bg-stone-50 transition-colors"
           >
             <div className="flex items-start justify-between gap-3 mb-3">
               <SectorDot

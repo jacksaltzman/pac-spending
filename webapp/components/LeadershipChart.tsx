@@ -74,9 +74,9 @@ export default function LeadershipChart({
                     )}
                   </div>
                 </div>
-                <div className="h-4 rounded bg-stone-100 overflow-hidden">
+                <div className="h-4 bg-stone-100 overflow-hidden">
                   <div
-                    className="h-full rounded transition-all duration-500"
+                    className="h-full"
                     style={{
                       width: `${Math.max(pct, 3)}%`,
                       backgroundColor: color,

@@ -3,11 +3,14 @@ import {
   getCommitteeAggregates,
   getPacSpread,
   getBenchmarks,
+  getBeforeAfter,
+  getSectorColors,
 } from "@/lib/data";
 import { formatMoney, formatPct } from "@/lib/utils";
 import StatCard from "@/components/StatCard";
 import MemberCard from "@/components/MemberCard";
 import EmptyState from "@/components/EmptyState";
+import GeoBreakdownChart from "@/components/GeoBreakdownChart";
 
 export default function DashboardPage() {
   const members = getMembers();
@@ -31,19 +34,9 @@ export default function DashboardPage() {
   );
   const memberCount = activeMembersWithData.length;
 
-  const totalAnalyzed = activeMembersWithData.reduce(
-    (sum, m) => sum + m.total_itemized_amount,
-    0
-  );
-
   const allMembersAgg = committeeAggs.find((a) => a.group === "All Members");
-  const houseAgg = committeeAggs.find(
-    (a) => a.group === "House Ways & Means"
-  );
-  const senateAgg = committeeAggs.find((a) => a.group === "Senate Finance");
 
   const medianOutside = allMembersAgg?.median_pct_outside ?? 0;
-  const meanDc = allMembersAgg?.mean_pct_dc ?? 0;
 
   /* PAC benchmark: how much more PAC money do committee members receive? */
   const pacPremiumPct =
@@ -72,8 +65,24 @@ export default function DashboardPage() {
     .sort((a, b) => b.num_recipients - a.num_recipients)
     .slice(0, 10);
 
-  /* Committee comparison rows */
-  const comparisonRows = [houseAgg, senateAgg].filter(Boolean);
+  const beforeAfter = getBeforeAfter();
+  const sectorColors = getSectorColors();
+
+  /* Before/after stat: median PAC increase after joining committee */
+  const medianPacIncrease = beforeAfter?.headline.median_pct_change ?? null;
+
+  /* Broadest-reach PAC */
+  const broadestPac = topPacs[0]; // already sorted by num_recipients desc
+
+  /* Geographic averages for chart */
+  const avgInDistrict =
+    activeMembersWithData.reduce((s, m) => s + m.pct_in_district, 0) / memberCount;
+  const avgInStateOutDistrict =
+    activeMembersWithData.reduce((s, m) => s + m.pct_in_state_out_district, 0) / memberCount;
+  const avgDcKStreet =
+    activeMembersWithData.reduce((s, m) => s + m.pct_dc_kstreet, 0) / memberCount;
+  const avgOutOfState =
+    activeMembersWithData.reduce((s, m) => s + m.pct_out_of_state, 0) / memberCount;
 
   return (
     <div>
@@ -106,45 +115,25 @@ export default function DashboardPage() {
           </h2>
           <p className="text-[15px] text-[#111111] leading-relaxed mb-3">
             The House Ways &amp; Means Committee and the Senate Finance Committee
-            write the tax code. Every deduction, credit, and loophole in federal
-            tax law passes through these two committees before it reaches the
-            floor. The members who sit on them decide who pays and who
-            doesn&rsquo;t &mdash; making them the most lobbied legislators in
-            Congress.
-          </p>
-          <p className="text-[15px] text-[#111111] leading-relaxed mb-3">
-            That attention translates directly into money.{" "}
+            write the tax code &mdash; every deduction, credit, and loophole passes
+            through them. That power attracts money.{" "}
             {pacPremiumPct != null && (
               <>
-                According to FEC filings, the median House Ways &amp; Means
-                member received{" "}
+                The median Ways &amp; Means member received{" "}
                 <strong className="text-[#FE4F40]">
                   {pacPremiumPct}% more PAC money
                 </strong>{" "}
-                than the median House incumbent in the 2024 cycle ({formatMoney(
-                  benchmarks!.house.committee.median_pac
-                )}{" "}
-                vs.{" "}
-                {formatMoney(benchmarks!.house.all_incumbents.median_pac)}).{" "}
+                than the median House incumbent in the 2024 cycle.{" "}
               </>
             )}
             PACs representing finance, healthcare, energy, and real estate
-            &mdash; the industries with the most at stake in tax policy &mdash;
             concentrate their spending on these committees, funding members on
-            both sides of the aisle to ensure access no matter who holds the
+            both sides of the aisle to guarantee access no matter who holds the
             gavel.
           </p>
-          <p className="text-[15px] text-[#111111] leading-relaxed mb-4">
-            This project traces that money to its source. Where do the dollars
-            come from? How much originates in a member&rsquo;s own district
-            versus from corporate PACs and out-of-state donors? The answers
-            reveal whose interests these committees are built to serve.
-          </p>
           <p className="text-[11px] text-stone-400 leading-relaxed">
-            Source: FEC all-candidates summary file (webl24.txt) and FEC
-            bulk contribution records for the 2024 election cycle.
-            Analysis by Accountable. All dollar figures reflect reported
-            itemized contributions and PAC disbursements.
+            Source: FEC all-candidates summary and bulk contribution records,
+            2024 election cycle. Analysis by Accountable.
           </p>
         </div>
       </section>
@@ -152,111 +141,56 @@ export default function DashboardPage() {
       {/* ── Top-line stats ──────────────────────────────── */}
       <section className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 mb-10">
         <StatCard
-          label="Members Analyzed"
-          value={String(memberCount)}
-          detail="Non-territorial members with itemized data"
+          label="PAC Premium"
+          value={pacPremiumPct != null ? `+${pacPremiumPct}%` : "—"}
+          detail="More PAC $ than typical House incumbents"
+          accent="#FE4F40"
+        />
+        <StatCard
+          label="Committee Seat Effect"
+          value={medianPacIncrease != null ? `+${Math.round(medianPacIncrease)}%` : "—"}
+          detail="Median PAC increase after joining"
+          accent="#FE4F40"
         />
         <StatCard
           label="Median Outside Funding"
           value={formatPct(medianOutside)}
-          detail="Across all committee members"
-          accent="#FE4F40"
-        />
-        <StatCard
-          label="Total $ Analyzed"
-          value={formatMoney(totalAnalyzed)}
-          detail="Itemized individual contributions"
-        />
-        <StatCard
-          label="Mean DC / K-Street"
-          value={formatPct(meanDc)}
-          detail="Average share from the Beltway corridor"
+          detail="From outside their home state or district"
           accent="#F59E0B"
+        />
+        <StatCard
+          label="Broadest-Reach PAC"
+          value={broadestPac ? `${broadestPac.num_recipients} members` : "—"}
+          detail={broadestPac ? broadestPac.connected_org || broadestPac.pac_name.split(" PAC")[0] : ""}
+          smallValue
         />
       </section>
 
-      {/* ── Committee Comparison ────────────────────────── */}
-      {comparisonRows.length > 0 && (
-        <section className="mb-10">
-          <h2
-            className="text-xs text-stone-500 uppercase tracking-[0.2em] mb-4"
-            style={{ fontFamily: "var(--font-display)" }}
-          >
-            Committee Comparison
-          </h2>
-          <div className="bg-white rounded-lg border border-[#C8C1B6]/50 overflow-x-auto">
-            <table className="w-full text-sm border-collapse">
-              <thead>
-                <tr className="border-b border-[#C8C1B6]/50">
-                  <th
-                    className="text-left py-3 px-4 text-[10px] uppercase tracking-wider text-stone-500 font-medium"
-                    style={{ fontFamily: "var(--font-display)" }}
-                  >
-                    Committee
-                  </th>
-                  <th
-                    className="text-right py-3 px-4 text-[10px] uppercase tracking-wider text-stone-500 font-medium"
-                    style={{ fontFamily: "var(--font-display)" }}
-                  >
-                    Members
-                  </th>
-                  <th
-                    className="text-right py-3 px-4 text-[10px] uppercase tracking-wider text-stone-500 font-medium"
-                    style={{ fontFamily: "var(--font-display)" }}
-                  >
-                    Mean Outside %
-                  </th>
-                  <th
-                    className="text-right py-3 px-4 text-[10px] uppercase tracking-wider text-stone-500 font-medium"
-                    style={{ fontFamily: "var(--font-display)" }}
-                  >
-                    Median Outside %
-                  </th>
-                  <th
-                    className="text-right py-3 px-4 text-[10px] uppercase tracking-wider text-stone-500 font-medium"
-                    style={{ fontFamily: "var(--font-display)" }}
-                  >
-                    Mean DC %
-                  </th>
-                  <th
-                    className="text-right py-3 px-4 text-[10px] uppercase tracking-wider text-stone-500 font-medium"
-                    style={{ fontFamily: "var(--font-display)" }}
-                  >
-                    Total Contributions
-                  </th>
-                </tr>
-              </thead>
-              <tbody>
-                {comparisonRows.map((agg) => (
-                  <tr
-                    key={agg!.group}
-                    className="border-b border-[#C8C1B6]/30 last:border-b-0 hover:bg-[#F5F0EB] transition-colors"
-                  >
-                    <td className="py-3 px-4 text-[#111111] font-medium">
-                      {agg!.group}
-                    </td>
-                    <td className="py-3 px-4 text-right text-[#111111]">
-                      {agg!.member_count}
-                    </td>
-                    <td className="py-3 px-4 text-right text-[#FE4F40] font-medium">
-                      {formatPct(agg!.mean_pct_outside)}
-                    </td>
-                    <td className="py-3 px-4 text-right text-[#FE4F40] font-medium">
-                      {formatPct(agg!.median_pct_outside)}
-                    </td>
-                    <td className="py-3 px-4 text-right text-[#F59E0B] font-medium">
-                      {formatPct(agg!.mean_pct_dc)}
-                    </td>
-                    <td className="py-3 px-4 text-right text-[#111111]">
-                      {formatMoney(agg!.total_contributions)}
-                    </td>
-                  </tr>
-                ))}
-              </tbody>
-            </table>
-          </div>
-        </section>
-      )}
+      {/* ── Where the Money Comes From ────────────────── */}
+      <section className="mb-10">
+        <h2
+          className="text-xs text-stone-500 uppercase tracking-[0.2em] mb-1"
+          style={{ fontFamily: "var(--font-display)" }}
+        >
+          Where the Money Comes From
+        </h2>
+        <p className="text-xs text-stone-500 mb-4 max-w-4xl leading-relaxed">
+          On average, only{" "}
+          <strong className="text-[#111111]">
+            {Math.round(avgInDistrict + avgInStateOutDistrict)}%
+          </strong>{" "}
+          of a tax-writing committee member&apos;s itemized contributions come
+          from their own state. The majority arrives from out of state entirely.
+        </p>
+        <div className="bg-white rounded-lg border border-[#C8C1B6]/50 p-5">
+          <GeoBreakdownChart
+            inDistrict={avgInDistrict}
+            inStateOutDistrict={avgInStateOutDistrict}
+            dcKStreet={avgDcKStreet}
+            outOfState={avgOutOfState}
+          />
+        </div>
+      </section>
 
       {/* ── Member Rankings ─────────────────────────────── */}
       <section className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-10">
@@ -352,6 +286,12 @@ export default function DashboardPage() {
                     PAC Name
                   </th>
                   <th
+                    className="text-left py-3 px-4 text-[10px] uppercase tracking-wider text-stone-500 font-medium"
+                    style={{ fontFamily: "var(--font-display)" }}
+                  >
+                    Sector
+                  </th>
+                  <th
                     className="text-right py-3 px-4 text-[10px] uppercase tracking-wider text-stone-500 font-medium"
                     style={{ fontFamily: "var(--font-display)" }}
                   >
@@ -375,7 +315,20 @@ export default function DashboardPage() {
                       {i + 1}
                     </td>
                     <td className="py-3 px-4 text-[#111111]">
-                      {pac.pac_name}
+                      {pac.connected_org || pac.pac_name}
+                    </td>
+                    <td className="py-3 px-4">
+                      {pac.sector && (
+                        <span className="inline-flex items-center gap-1.5 text-xs text-stone-600">
+                          <span
+                            className="w-2 h-2 rounded-full flex-shrink-0"
+                            style={{
+                              backgroundColor: sectorColors[pac.sector] || "#9CA3AF",
+                            }}
+                          />
+                          {pac.sector}
+                        </span>
+                      )}
                     </td>
                     <td className="py-3 px-4 text-right text-[#111111]">
                       {formatMoney(pac.total_given)}

@@ -74,6 +74,9 @@ export default function DashboardPage() {
   /* Broadest-reach PAC */
   const broadestPac = topPacs[0]; // already sorted by num_recipients desc
 
+  /* Members where majority of funding is from outside their state */
+  const majorityOutside = activeMembersWithData.filter((m) => m.pct_outside > 50).length;
+
   /* Geographic averages for chart */
   const avgInDistrict =
     activeMembersWithData.reduce((s, m) => s + m.pct_in_district, 0) / memberCount;
@@ -87,81 +90,64 @@ export default function DashboardPage() {
   return (
     <div>
       {/* ── Header ──────────────────────────────────────── */}
-      <header className="mb-6">
+      <header className="mb-10">
         <h1
-          className="text-3xl sm:text-5xl lg:text-6xl text-[#111111] leading-tight mb-3 uppercase tracking-tight font-bold"
+          className="text-3xl sm:text-5xl lg:text-6xl text-[#111111] leading-tight mb-4 uppercase tracking-tight font-bold"
           style={{ fontFamily: "var(--font-display)" }}
         >
-          Who Really Writes
-          <br />
-          American Tax Policy?
+          Who Really Writes American Tax Policy?
         </h1>
-        <p className="text-sm text-stone-600 max-w-4xl leading-relaxed">
-          A geographic analysis of individual contributions to every member of
-          the House Ways &amp; Means Committee and Senate Finance Committee.
-          Tracking where the money originates &mdash; in-district, in-state,
-          DC/K-Street, or out of state entirely.
+        <p className="text-[15px] text-[#111111] leading-relaxed mb-3">
+          The House Ways &amp; Means Committee and the Senate Finance Committee
+          write the tax code &mdash; every deduction, credit, and loophole passes
+          through them. That power attracts money from every corner of the country.{" "}
+          This project tracks where it originates &mdash; in-district, in-state,
+          DC/K-Street, or out of state entirely &mdash; for every member of both committees.
+          {pacPremiumPct != null && (
+            <>
+              {" "}The median Ways &amp; Means member received{" "}
+              <strong className="text-[#FE4F40]">
+                {pacPremiumPct}% more PAC money
+              </strong>{" "}
+              than the median House incumbent in the 2024 cycle.
+            </>
+          )}
         </p>
-      </header>
-
-      {/* ── Introduction / Why This Matters ───────────── */}
-      <section className="mb-10 max-w-5xl">
-        <div className="border-l-4 border-[#FE4F40] pl-5 py-1">
-          <h2
-            className="text-xs uppercase tracking-[0.2em] text-stone-500 mb-3"
+        <p className="text-xs text-stone-400">
+          <span
+            className="inline-block bg-[#111111] text-[#D4F72A] rounded-sm px-2 py-0.5 text-[10px] font-bold uppercase tracking-wide mr-2"
             style={{ fontFamily: "var(--font-display)" }}
           >
-            Why This Matters
-          </h2>
-          <p className="text-[15px] text-[#111111] leading-relaxed mb-3">
-            The House Ways &amp; Means Committee and the Senate Finance Committee
-            write the tax code &mdash; every deduction, credit, and loophole passes
-            through them. That power attracts money.{" "}
-            {pacPremiumPct != null && (
-              <>
-                The median Ways &amp; Means member received{" "}
-                <strong className="text-[#FE4F40]">
-                  {pacPremiumPct}% more PAC money
-                </strong>{" "}
-                than the median House incumbent in the 2024 cycle.{" "}
-              </>
-            )}
-            PACs representing finance, healthcare, energy, and real estate
-            concentrate their spending on these committees, funding members on
-            both sides of the aisle to guarantee access no matter who holds the
-            gavel.
-          </p>
-          <p className="text-[11px] text-stone-400 leading-relaxed">
-            Source: FEC all-candidates summary and bulk contribution records,
-            2024 election cycle. Analysis by Accountable.
-          </p>
-        </div>
-      </section>
+            2024 Election Cycle
+          </span>
+          FEC individual &amp; PAC contribution data, January 2023 – December 2024
+        </p>
+      </header>
 
       {/* ── Top-line stats ──────────────────────────────── */}
       <section className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 mb-10">
         <StatCard
-          label="PAC Premium"
-          value={pacPremiumPct != null ? `+${pacPremiumPct}%` : "—"}
-          detail="More PAC $ than typical House incumbents"
+          label="Committee members receive"
+          value={pacPremiumPct != null ? `${pacPremiumPct}% more` : "—"}
+          detail="PAC money than the typical House member"
           accent="#FE4F40"
         />
         <StatCard
-          label="Committee Seat Effect"
-          value={medianPacIncrease != null ? `+${Math.round(medianPacIncrease)}%` : "—"}
-          detail="Median PAC increase after joining"
+          label="PAC money jumps"
+          value={medianPacIncrease != null ? `${Math.round(medianPacIncrease)}%` : "—"}
+          detail="after a member joins the committee"
           accent="#FE4F40"
         />
         <StatCard
-          label="Median Outside Funding"
+          label=""
           value={formatPct(medianOutside)}
-          detail="From outside their home state or district"
+          detail="of contributions come from outside a member's home state"
           accent="#F59E0B"
         />
         <StatCard
-          label="Broadest-Reach PAC"
-          value={broadestPac ? `${broadestPac.num_recipients} members` : "—"}
-          detail={broadestPac ? broadestPac.connected_org || broadestPac.pac_name.split(" PAC")[0] : ""}
+          label={`${majorityOutside} of ${memberCount} members`}
+          value="majority outside"
+          detail="get more money from out of state than from their own constituents"
           smallValue
         />
       </section>
@@ -182,7 +168,7 @@ export default function DashboardPage() {
           of a tax-writing committee member&apos;s itemized contributions come
           from their own state. The majority arrives from out of state entirely.
         </p>
-        <div className="bg-white rounded-lg border border-[#C8C1B6]/50 p-5">
+        <div>
           <GeoBreakdownChart
             inDistrict={avgInDistrict}
             inStateOutDistrict={avgInStateOutDistrict}
@@ -269,7 +255,7 @@ export default function DashboardPage() {
           <p className="text-xs text-stone-500 mb-4">
             Political action committees funding the most committee members
           </p>
-          <div className="bg-white rounded-lg border border-[#C8C1B6]/50 overflow-x-auto">
+          <div className="overflow-x-auto">
             <table className="w-full text-sm border-collapse">
               <thead>
                 <tr className="border-b border-[#C8C1B6]/50">

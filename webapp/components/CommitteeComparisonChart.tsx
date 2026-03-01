@@ -12,6 +12,22 @@ import {
 
 import type { CommitteeComparisonEntry } from "@/lib/data";
 
+/* eslint-disable @typescript-eslint/no-explicit-any */
+function CustomTooltip({ active, payload }: any) {
+  if (!active || !payload?.length) return null;
+  const { name, medianPac, count } = payload[0].payload;
+  return (
+    <div className="bg-white border border-[#C8C1B6]/60 rounded-md shadow-lg px-3 py-2">
+      <p className="text-xs font-semibold text-[#111111] mb-0.5">{name}</p>
+      <p className="text-sm font-bold text-[#FE4F40] tabular-nums">
+        {formatDollarsShort(medianPac)}
+      </p>
+      <p className="text-[10px] text-stone-400">{count} members</p>
+    </div>
+  );
+}
+/* eslint-enable @typescript-eslint/no-explicit-any */
+
 interface CommitteeComparisonChartProps {
   committees: CommitteeComparisonEntry[];
 }
@@ -68,18 +84,7 @@ export default function CommitteeComparisonChart({
               axisLine={false}
               tickLine={false}
             />
-            <Tooltip
-              formatter={(value: number) => [formatDollarsShort(value), "Median PAC $"]}
-              contentStyle={{
-                backgroundColor: "#111",
-                border: "none",
-                borderRadius: "8px",
-                fontSize: "12px",
-                color: "#e7e5e4",
-              }}
-              /* eslint-disable-next-line @typescript-eslint/no-explicit-any */
-              {...({} as any)}
-            />
+            <Tooltip content={<CustomTooltip />} cursor={false} />
             <Bar dataKey="medianPac" radius={[0, 4, 4, 0]}>
               {data.map((entry, i) => (
                 <Cell

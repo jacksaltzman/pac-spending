@@ -1,25 +1,19 @@
 import {
   getPacSpread,
-  getSectorColors,
-  getMembers,
   getBenchmarks,
   getBeforeAfter,
   getLeadershipAnalysis,
   getCommitteeComparison,
   PacSpreadEntry,
 } from "@/lib/data";
-import { formatMoney, memberSlug, toTitleCase } from "@/lib/utils";
+import { formatMoney, memberSlug } from "@/lib/utils";
 import Link from "next/link";
-import StatCard from "@/components/StatCard";
 import EmptyState from "@/components/EmptyState";
 import LeadershipChart from "@/components/LeadershipChart";
 import CommitteeComparisonChart from "@/components/CommitteeComparisonChart";
-import { buildFindings } from "./helpers";
 
 export default function PacsOverviewPage() {
   const pacs: PacSpreadEntry[] = getPacSpread();
-  const sectorColors = getSectorColors();
-  const members = getMembers();
   const benchmarks = getBenchmarks();
   const beforeAfter = getBeforeAfter();
   const leadershipAnalysis = getLeadershipAnalysis();
@@ -34,87 +28,13 @@ export default function PacsOverviewPage() {
     );
   }
 
-  const sorted = [...pacs].sort(
-    (a, b) => b.num_recipients - a.num_recipients
-  );
-
-  const totalPacs = new Set(pacs.map((p) => p.pac_cmte_id)).size;
-  const mostConnected = sorted[0];
-  const totalDollars = pacs.reduce(
-    (sum, p) => sum + (p.total_given > 0 ? p.total_given : 0),
-    0
-  );
-  const findings = buildFindings(pacs);
-  const ultraBroadPacs = pacs.filter((p) => p.num_recipients >= 30).length;
-
-  const mostConnectedName = toTitleCase(
-    mostConnected.connected_org ||
-    mostConnected.pac_name.split(" PAC")[0].split(" POLITICAL")[0]
-  );
-
   return (
     <div>
-      {/* Date range badge */}
-      <p className="text-sm text-stone-500 mb-6">
-        <span
-          className="inline-block bg-[#111111] text-[#D4F72A] rounded-sm px-2 py-0.5 text-[10px] font-bold uppercase tracking-wide mr-2"
-          style={{ fontFamily: "var(--font-display)" }}
-        >
-          2024 Election Cycle
-        </span>
-        FEC data covering January 2023 – December 2024
-      </p>
-
-      {/* Key Findings */}
-      {findings.length > 0 && (
-        <div className="bg-[#111111] rounded-lg p-6 mb-8">
-          <p
-            className="text-[10px] uppercase tracking-[0.2em] text-[#D4F72A] mb-3"
-            style={{ fontFamily: "var(--font-display)" }}
-          >
-            Key Findings
-          </p>
-          <ul className="space-y-2">
-            {findings.map((f, i) => (
-              <li
-                key={i}
-                className="text-sm text-stone-300 leading-relaxed pl-4 relative"
-              >
-                <span className="absolute left-0 top-[0.45rem] w-1.5 h-1.5 bg-[#FE4F40] rounded-full" />
-                {f}
-              </li>
-            ))}
-          </ul>
-        </div>
-      )}
-
-      {/* Stat Cards */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4 mb-10">
-        <StatCard label="PACs Tracked" value={totalPacs.toLocaleString()} />
-        <StatCard
-          label="Most Connected PAC"
-          value={mostConnectedName}
-          smallValue
-          detail={`${mostConnected.num_recipients} members funded`}
-          accent="#FE4F40"
-        />
-        <StatCard
-          label="Total PAC Dollars"
-          value={formatMoney(totalDollars)}
-          accent="#4C6971"
-        />
-        <StatCard
-          label="Ultra-Broad PACs"
-          value={String(ultraBroadPacs)}
-          detail="Fund 30+ committee members each"
-        />
-      </div>
-
       {/* ── Cross-Committee Comparison ─────────────────── */}
       {committeeComparison.length > 0 && (
         <section className="mb-10">
           <h2
-            className="text-xs uppercase tracking-[0.2em] text-stone-500 mb-1"
+            className="text-sm uppercase tracking-[0.2em] text-stone-600 mb-1"
             style={{ fontFamily: "var(--font-display)" }}
           >
             Do Tax-Writers Get More PAC Money?
@@ -127,7 +47,7 @@ export default function PacsOverviewPage() {
             );
             const topOther = [...others].sort((a, b) => b.median_pac - a.median_pac)[0];
             return (
-              <p className="text-xs text-stone-500 mb-5 max-w-4xl leading-relaxed">
+              <p className="text-sm text-stone-600 mb-5 leading-relaxed">
                 {wm && allInc && (
                   <>
                     The median Ways &amp; Means member received{" "}
@@ -175,7 +95,7 @@ export default function PacsOverviewPage() {
             >
               The Committee Seat Premium
             </h2>
-            <p className="text-sm text-stone-600 mb-5 max-w-3xl leading-relaxed">
+            <p className="text-sm text-stone-600 mb-5 leading-relaxed">
               Do PAC contributions increase after a member joins the tax-writing
               committee? We compared each member&apos;s median PAC receipts in
               election cycles <em>before</em> their appointment vs.{" "}
@@ -183,7 +103,7 @@ export default function PacsOverviewPage() {
             </p>
 
             {/* Headline prose */}
-            <p className="text-base text-[#111111] leading-relaxed mb-6 max-w-3xl">
+            <p className="text-base text-[#111111] leading-relaxed mb-6">
               Of{" "}
               <strong>{headline.valid_members}</strong> members with sufficient data,{" "}
               <strong className="text-[#FE4F40]">{headline.increased_count}</strong>{" "}
@@ -266,7 +186,7 @@ export default function PacsOverviewPage() {
               </div>
             )}
 
-            <p className="text-xs text-stone-500 mt-2 max-w-3xl leading-relaxed">
+            <p className="text-xs text-stone-500 mt-2 leading-relaxed">
               Based on {headline.valid_members} members with at least one election
               cycle before and after their committee appointment. Median PAC
               receipts compared across cycles 2014&ndash;2024. The cycle of appointment
@@ -291,7 +211,7 @@ export default function PacsOverviewPage() {
             >
               Where Power Sits, Money Follows
             </h2>
-            <p className="text-sm text-stone-600 mb-5 max-w-3xl leading-relaxed">
+            <p className="text-sm text-stone-600 mb-5 leading-relaxed">
               Not all committee seats are equal. Members who chair subcommittees
               &mdash; the ones who set hearing agendas and decide which bills get a markup
               &mdash; receive{" "}
@@ -332,7 +252,7 @@ export default function PacsOverviewPage() {
               </p>
             </div>
 
-            <p className="text-xs text-stone-500 mt-3 max-w-3xl leading-relaxed">
+            <p className="text-xs text-stone-500 mt-3 leading-relaxed">
               Leadership tiers: Full Committee Leadership = Chair + Ranking Member (n=2
               for House). Subcommittee Leadership = Subcommittee Chairs + Ranking
               Members (n=8 for House, n=10 for Senate). Rank-and-File = all other

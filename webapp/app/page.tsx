@@ -100,18 +100,12 @@ export default function DashboardPage() {
         <p className="text-base text-[#111111] leading-relaxed mb-3">
           The House Ways &amp; Means Committee and the Senate Finance Committee
           write the tax code &mdash; every deduction, credit, and loophole passes
-          through them. That power attracts money from every corner of the country.{" "}
-          This project tracks where it originates &mdash; in-district, in-state,
-          DC/K-Street, or out of state entirely &mdash; for every member of both committees.
-          {pacPremiumPct != null && (
-            <>
-              {" "}The median Ways &amp; Means member received{" "}
-              <strong className="text-[#FE4F40]">
-                {pacPremiumPct}% more PAC money
-              </strong>{" "}
-              than the median House incumbent in the 2024 cycle.
-            </>
-          )}
+          through them. That power attracts money from every corner of the country
+          and every major industry lobby. This project follows the money from both
+          angles: geographically &mdash; how much comes from a member&apos;s own
+          district vs. out of state &mdash; and by interest group, tracking which
+          industries and PACs are funding the people who decide who pays taxes
+          and who doesn&apos;t.
         </p>
         <p className="text-sm text-stone-500">
           <span
@@ -154,7 +148,7 @@ export default function DashboardPage() {
         >
           Where the Money Comes From
         </h2>
-        <p className="text-sm text-stone-600 mb-4 max-w-3xl leading-relaxed">
+        <p className="text-sm text-stone-600 mb-4 leading-relaxed">
           On average, only{" "}
           <strong className="text-[#111111]">
             {Math.round(avgInDistrict + avgInStateOutDistrict)}%

@@ -27,7 +27,7 @@ export default function PacsLayout({
         >
           PAC Influence
         </h1>
-        <p className="text-sm text-stone-600 max-w-4xl leading-relaxed">
+        <p className="text-sm text-stone-600 leading-relaxed">
           Political Action Committees funnel industry money directly to
           tax-writing committee members. This analysis shows which PACs have
           the broadest reach, which industries spend the most, and how they

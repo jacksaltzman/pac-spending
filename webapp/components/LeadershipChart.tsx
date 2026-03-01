@@ -102,7 +102,7 @@ export default function LeadershipChart({
           >
             Subcommittee Leaders vs. Committee Average — Relevant Sector PAC Share
           </p>
-          <div className="overflow-x-auto">
+          <div className="border border-[#C8C1B6]/40 rounded-sm overflow-x-auto">
             <table className="w-full text-sm">
               <thead>
                 <tr className="border-b border-[#C8C1B6]/50 bg-[#F5F0EB]">

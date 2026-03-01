@@ -34,10 +34,9 @@ PROJECT_ROOT = Path(__file__).resolve().parent.parent
 CONFIG_DIR = PROJECT_ROOT / "config"
 OUTPUT_DIR = PROJECT_ROOT / "output"
 DATA_DIR = PROJECT_ROOT / "data"
-CHECKPOINT_DIR = DATA_DIR / "checkpoints"
-
 MEMBERS_FILE = CONFIG_DIR / "members.json"
 SECTOR_POSITIONS_FILE = CONFIG_DIR / "vote_sector_positions.json"
+PACS_DATA_FILE = PROJECT_ROOT / "webapp" / "data" / "pacs.json"
 
 CONGRESS_API_KEY = os.environ.get("CONGRESS_API_KEY", "")
 CONGRESS_API_BASE = "https://api.congress.gov/v3"
@@ -181,7 +180,10 @@ def fetch_house_vote_positions(congress: int, session: int, roll_call: int) -> d
             f"house-vote/{congress}/{session}/{roll_call}/members",
             {"limit": 250},
         )
-    except requests.HTTPError:
+    except requests.HTTPError as e:
+        status = e.response.status_code if e.response is not None else "unknown"
+        if status != 404:
+            print(f"  WARNING: HTTP {status} fetching vote positions for {congress}-{session}-{roll_call}")
         return {}
 
     positions = {}
@@ -303,11 +305,10 @@ def load_sector_positions() -> list[dict]:
 
 def load_member_top_sectors(members: list[dict]) -> dict[str, list[str]]:
     """Load each member's top 3 funding sectors from PAC data."""
-    pacs_file = PROJECT_ROOT / "webapp" / "data" / "pacs.json"
-    if not pacs_file.exists():
+    if not PACS_DATA_FILE.exists():
         return {}
 
-    with open(pacs_file) as f:
+    with open(PACS_DATA_FILE) as f:
         pacs = json.load(f)
 
     # Aggregate PAC $ by sector per member
@@ -499,6 +500,11 @@ def build_member_votes(
                     "position": matched_position,
                 })
 
+    # Warn about unmatched Senate members
+    for name, m in senate_members.items():
+        if name not in member_votes:
+            print(f"  WARNING: No Senate votes matched for {name} ({m['state']})")
+
     return member_votes
 
 
@@ -506,6 +512,11 @@ def build_member_votes(
 
 
 def main():
+    if not CONGRESS_API_KEY:
+        print("ERROR: CONGRESS_API_KEY env var not set.")
+        print("  Get a free key at https://api.congress.gov/sign-up/")
+        sys.exit(1)
+
     print("=" * 60)
     print("Step 13: Voting Records & Alignment Scores")
     print("=" * 60)

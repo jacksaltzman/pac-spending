@@ -1,22 +1,21 @@
+import Link from "next/link";
 import {
   getMembers,
   getCommitteeAggregates,
-  getPacSpread,
   getBenchmarks,
   getBeforeAfter,
-  getSectorColors,
+  getAlignmentScores,
 } from "@/lib/data";
-import { formatMoney, formatPct, toTitleCase } from "@/lib/utils";
+import { formatPct } from "@/lib/utils";
 import StatCard from "@/components/StatCard";
-import MemberCard from "@/components/MemberCard";
 import EmptyState from "@/components/EmptyState";
-import GeoBreakdownChart from "@/components/GeoBreakdownChart";
 
 export default function DashboardPage() {
   const members = getMembers();
   const committeeAggs = getCommitteeAggregates();
-  const pacSpread = getPacSpread();
   const benchmarks = getBenchmarks();
+  const beforeAfter = getBeforeAfter();
+  const alignmentScores = getAlignmentScores();
 
   /* ── Empty guard ────────────────────────────────────────── */
   if (members.length === 0) {
@@ -32,10 +31,8 @@ export default function DashboardPage() {
   const activeMembersWithData = members.filter(
     (m) => !m.is_territorial && m.total_itemized_amount > 0
   );
-  const memberCount = activeMembersWithData.length;
 
   const allMembersAgg = committeeAggs.find((a) => a.group === "All Members");
-
   const medianOutside = allMembersAgg?.median_pct_outside ?? 0;
 
   /* PAC benchmark: how much more PAC money do committee members receive? */
@@ -50,42 +47,57 @@ export default function DashboardPage() {
         )
       : null;
 
-  /* Top 5 most outside-funded */
-  const mostOutside = [...activeMembersWithData]
-    .sort((a, b) => b.pct_outside - a.pct_outside)
-    .slice(0, 5);
-
-  /* Bottom 5 = most locally-funded */
-  const mostLocal = [...activeMembersWithData]
-    .sort((a, b) => a.pct_outside - b.pct_outside)
-    .slice(0, 5);
-
-  /* Top 10 PACs by number of recipients */
-  const topPacs = [...pacSpread]
-    .sort((a, b) => b.num_recipients - a.num_recipients)
-    .slice(0, 10);
-
-  const beforeAfter = getBeforeAfter();
-  const sectorColors = getSectorColors();
-
   /* Before/after stat: median PAC increase after joining committee */
   const medianPacIncrease = beforeAfter?.headline.median_pct_change ?? null;
 
-  /* Broadest-reach PAC */
-  const broadestPac = topPacs[0]; // already sorted by num_recipients desc
+  /* Average outside funding % for the Money CTA */
+  const avgOutsidePct =
+    activeMembersWithData.length > 0
+      ? activeMembersWithData.reduce((s, m) => s + m.pct_outside, 0) /
+        activeMembersWithData.length
+      : 0;
 
-  /* Members where majority of funding is from outside their state */
-  const majorityOutside = activeMembersWithData.filter((m) => m.pct_outside > 50).length;
+  /* Average alignment % for the Votes CTA */
+  let avgAlignmentPct: number | null = null;
+  if (alignmentScores) {
+    const scores = Object.values(alignmentScores)
+      .map((s) => s.alignment_pct)
+      .filter((v): v is number => v != null);
+    if (scores.length > 0) {
+      avgAlignmentPct =
+        Math.round(
+          (scores.reduce((sum, v) => sum + v, 0) / scores.length) * 10
+        ) / 10;
+    }
+  }
 
-  /* Geographic averages for chart */
-  const avgInDistrict =
-    activeMembersWithData.reduce((s, m) => s + m.pct_in_district, 0) / memberCount;
-  const avgInStateOutDistrict =
-    activeMembersWithData.reduce((s, m) => s + m.pct_in_state_out_district, 0) / memberCount;
-  const avgDcKStreet =
-    activeMembersWithData.reduce((s, m) => s + m.pct_dc_kstreet, 0) / memberCount;
-  const avgOutOfState =
-    activeMembersWithData.reduce((s, m) => s + m.pct_out_of_state, 0) / memberCount;
+  /* ── CTA card data ──────────────────────────────────────── */
+  const chapters = [
+    {
+      title: "The Committee",
+      href: "/committee",
+      teaser: `72 members control every tax deduction in America. Who are they?`,
+    },
+    {
+      title: "The Money",
+      href: "/money",
+      teaser: `${Math.round(avgOutsidePct)}% of their funding comes from outside their home state. Where is it coming from?`,
+    },
+    {
+      title: "The Industries",
+      href: "/industries",
+      teaser:
+        "Finance, healthcare, and real estate PACs dominate. What do they want?",
+    },
+    {
+      title: "The Votes",
+      href: "/votes",
+      teaser:
+        avgAlignmentPct != null
+          ? `Members vote with their top funders ${avgAlignmentPct}% of the time. See the receipts.`
+          : "Do members vote the way their top funders want? See the receipts.",
+    },
+  ];
 
   return (
     <div>
@@ -98,14 +110,10 @@ export default function DashboardPage() {
           Who Really Writes American Tax Policy?
         </h1>
         <p className="text-base text-[#111111] leading-relaxed mb-3">
-          The House Ways &amp; Means Committee and the Senate Finance Committee
-          write the tax code &mdash; every deduction, credit, and loophole passes
-          through them. That power attracts money from every corner of the country
-          and every major industry lobby. This project follows the money from both
-          angles: geographically &mdash; how much comes from a member&apos;s own
-          district vs. out of state &mdash; and by interest group, tracking which
-          industries and PACs are funding the people who decide who pays taxes
-          and who doesn&apos;t.
+          Two congressional committees write every line of the federal tax
+          code. This project follows the money behind their 72
+          members &mdash; where it comes from, which industries are paying,
+          and whether it shapes how they vote.
         </p>
         <p className="text-sm text-stone-500">
           <span
@@ -119,7 +127,7 @@ export default function DashboardPage() {
       </header>
 
       {/* ── Top-line stats ──────────────────────────────── */}
-      <section className="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-10">
+      <section className="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-12">
         <StatCard
           label="Committee members receive"
           value={pacPremiumPct != null ? `${pacPremiumPct}% more` : "—"}
@@ -133,190 +141,44 @@ export default function DashboardPage() {
           accent="#FE4F40"
         />
         <StatCard
-          label=""
+          label="Median outside funding"
           value={formatPct(medianOutside)}
           detail="of contributions come from outside a member's home state"
           accent="#FE4F40"
         />
       </section>
 
-      {/* ── Where the Money Comes From ────────────────── */}
-      <section className="mb-10">
+      {/* ── Follow the Money ────────────────────────────── */}
+      <section>
         <h2
-          className="text-sm text-stone-600 uppercase tracking-[0.2em] mb-1"
+          className="text-xs uppercase tracking-[0.2em] text-stone-500 mb-5"
           style={{ fontFamily: "var(--font-display)" }}
         >
-          Where the Money Comes From
+          Follow the Money
         </h2>
-        <p className="text-sm text-stone-600 mb-4 leading-relaxed">
-          On average, only{" "}
-          <strong className="text-[#111111]">
-            {Math.round(avgInDistrict + avgInStateOutDistrict)}%
-          </strong>{" "}
-          of a tax-writing committee member&apos;s itemized contributions come
-          from their own state. The majority arrives from out of state entirely.
-        </p>
-        <div>
-          <GeoBreakdownChart
-            inDistrict={avgInDistrict}
-            inStateOutDistrict={avgInStateOutDistrict}
-            dcKStreet={avgDcKStreet}
-            outOfState={avgOutOfState}
-          />
+        <div className="flex flex-col gap-4">
+          {chapters.map((ch) => (
+            <Link
+              key={ch.href}
+              href={ch.href}
+              className="bg-white border border-[#C8C1B6]/50 rounded-lg p-6 hover:border-[#FE4F40] transition-colors group"
+            >
+              <h3
+                className="text-sm uppercase tracking-[0.15em] text-[#111111] mb-2 font-bold"
+                style={{ fontFamily: "var(--font-display)" }}
+              >
+                {ch.title}
+                <span className="inline-block ml-2 text-stone-400 group-hover:text-[#FE4F40] transition-colors">
+                  &rarr;
+                </span>
+              </h3>
+              <p className="text-stone-600 text-sm leading-relaxed">
+                {ch.teaser}
+              </p>
+            </Link>
+          ))}
         </div>
       </section>
-
-      {/* ── Member Rankings ─────────────────────────────── */}
-      <section className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-10">
-        {/* Most Outside-Funded */}
-        <div>
-          <h2
-            className="text-sm text-stone-600 uppercase tracking-[0.2em] mb-2"
-            style={{ fontFamily: "var(--font-display)" }}
-          >
-            <span className="text-[#FE4F40]">&#9679;</span> Most Outside-Funded
-          </h2>
-          <p className="text-sm text-stone-600 mb-4">
-            Highest percentage of contributions from outside their home
-            state/district
-          </p>
-          <div className="flex flex-col gap-3">
-            {mostOutside.map((m, i) => (
-              <MemberCard
-                key={m.slug}
-                name={m.member_name}
-                slug={m.slug}
-                party={m.party}
-                state={m.state}
-                district={m.district}
-                chamber={m.chamber}
-                pctOutside={m.pct_outside}
-                totalAmount={m.total_itemized_amount}
-                topEmployer={m.top_outside_employer_1}
-                rank={i + 1}
-              />
-            ))}
-          </div>
-        </div>
-
-        {/* Most Locally-Funded */}
-        <div>
-          <h2
-            className="text-sm text-stone-600 uppercase tracking-[0.2em] mb-2"
-            style={{ fontFamily: "var(--font-display)" }}
-          >
-            <span className="text-[#4C6971]">&#9679;</span> Most Locally-Funded
-          </h2>
-          <p className="text-sm text-stone-600 mb-4">
-            Lowest percentage of outside funding &mdash; strongest local donor
-            base
-          </p>
-          <div className="flex flex-col gap-3">
-            {mostLocal.map((m, i) => (
-              <MemberCard
-                key={m.slug}
-                name={m.member_name}
-                slug={m.slug}
-                party={m.party}
-                state={m.state}
-                district={m.district}
-                chamber={m.chamber}
-                pctOutside={m.pct_outside}
-                totalAmount={m.total_itemized_amount}
-                topEmployer={m.top_outside_employer_1}
-                rank={i + 1}
-              />
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* ── Top PACs ────────────────────────────────────── */}
-      {topPacs.length > 0 && (
-        <section className="mb-10">
-          <h2
-            className="text-sm text-stone-600 uppercase tracking-[0.2em] mb-4"
-            style={{ fontFamily: "var(--font-display)" }}
-          >
-            Top PACs by Reach
-          </h2>
-          <p className="text-sm text-stone-600 mb-4 max-w-3xl">
-            Political action committees funding the most committee members
-          </p>
-          <div className="overflow-x-auto">
-            <table className="w-full text-sm border-collapse">
-              <thead>
-                <tr className="border-b border-[#C8C1B6]/50">
-                  <th
-                    className="text-left py-3 px-4 text-[10px] uppercase tracking-wider text-stone-500 font-medium w-8"
-                    style={{ fontFamily: "var(--font-display)" }}
-                  >
-                    #
-                  </th>
-                  <th
-                    className="text-left py-3 px-4 text-[10px] uppercase tracking-wider text-stone-500 font-medium"
-                    style={{ fontFamily: "var(--font-display)" }}
-                  >
-                    PAC Name
-                  </th>
-                  <th
-                    className="text-left py-3 px-4 text-[10px] uppercase tracking-wider text-stone-500 font-medium"
-                    style={{ fontFamily: "var(--font-display)" }}
-                  >
-                    Sector
-                  </th>
-                  <th
-                    className="text-right py-3 px-4 text-[10px] uppercase tracking-wider text-stone-500 font-medium"
-                    style={{ fontFamily: "var(--font-display)" }}
-                  >
-                    Total Given
-                  </th>
-                  <th
-                    className="text-right py-3 px-4 text-[10px] uppercase tracking-wider text-stone-500 font-medium"
-                    style={{ fontFamily: "var(--font-display)" }}
-                  >
-                    # Members Funded
-                  </th>
-                </tr>
-              </thead>
-              <tbody>
-                {topPacs.map((pac, i) => (
-                  <tr
-                    key={`${pac.pac_cmte_id}-${i}`}
-                    className="border-b border-[#C8C1B6]/30 last:border-b-0 hover:bg-[#F5F0EB] transition-colors"
-                  >
-                    <td className="py-3 px-4 text-stone-400 text-xs">
-                      {i + 1}
-                    </td>
-                    <td className="py-3 px-4 text-[#111111]">
-                      {toTitleCase(pac.connected_org || pac.pac_name)}
-                    </td>
-                    <td className="py-3 px-4">
-                      {pac.sector && (
-                        <span className="inline-flex items-center gap-1.5 text-xs text-stone-600">
-                          <span
-                            className="w-2 h-2 rounded-full flex-shrink-0"
-                            style={{
-                              backgroundColor: sectorColors[pac.sector] || "#9CA3AF",
-                            }}
-                          />
-                          {pac.sector}
-                        </span>
-                      )}
-                    </td>
-                    <td className="py-3 px-4 text-right text-[#111111]">
-                      {formatMoney(pac.total_given)}
-                    </td>
-                    <td className="py-3 px-4 text-right text-[#FE4F40] font-semibold">
-                      {pac.num_recipients}
-                    </td>
-                  </tr>
-                ))}
-              </tbody>
-            </table>
-          </div>
-        </section>
-      )}
     </div>
   );
 }

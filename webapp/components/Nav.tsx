@@ -5,10 +5,10 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 
 const NAV_ITEMS = [
-  { href: "/", label: "Dashboard" },
-  { href: "/members", label: "Members" },
-  { href: "/pacs", label: "PACs" },
-  { href: "/methodology", label: "Methodology" },
+  { href: "/committee", label: "The Committee" },
+  { href: "/money", label: "The Money" },
+  { href: "/industries", label: "The Industries" },
+  { href: "/votes", label: "The Votes" },
 ];
 
 export default function Nav() {
@@ -77,17 +77,14 @@ export default function Nav() {
               className="hidden sm:inline text-xs text-stone-400 uppercase tracking-widest"
               style={{ fontFamily: "var(--font-display)" }}
             >
-              Geographic Mismatch
+              Follow the Money
             </span>
           </Link>
 
           {/* Desktop nav links — hidden on small screens */}
           <div className="hidden md:flex items-center gap-1 ml-auto">
             {NAV_ITEMS.map((item) => {
-              const isActive =
-                item.href === "/"
-                  ? pathname === "/"
-                  : pathname.startsWith(item.href);
+              const isActive = pathname.startsWith(item.href);
               return (
                 <Link
                   key={item.href}
@@ -153,10 +150,7 @@ export default function Nav() {
       >
         <div className="bg-[#111111] border-b border-stone-800 px-4 py-3 flex flex-col gap-1">
           {NAV_ITEMS.map((item) => {
-            const isActive =
-              item.href === "/"
-                ? pathname === "/"
-                : pathname.startsWith(item.href);
+            const isActive = pathname.startsWith(item.href);
             return (
               <Link
                 key={item.href}

@@ -31,6 +31,29 @@ export default function RootLayout({
         <main className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 pt-20 pb-12">
           {children}
         </main>
+        <footer className="border-t border-[#C8C1B6]/30 mt-8">
+          <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-8 flex flex-wrap items-center justify-between gap-4">
+            <p className="text-xs text-stone-400">
+              FEC individual &amp; PAC contribution data, 2024 cycle.
+            </p>
+            <div className="flex items-center gap-4">
+              <a
+                href="/methodology"
+                className="text-xs text-stone-400 hover:text-[#111111] transition-colors uppercase tracking-wide"
+                style={{ fontFamily: "var(--font-display)" }}
+              >
+                Methodology
+              </a>
+              <a
+                href="/stories"
+                className="text-xs text-stone-400 hover:text-[#111111] transition-colors uppercase tracking-wide"
+                style={{ fontFamily: "var(--font-display)" }}
+              >
+                Story Hooks
+              </a>
+            </div>
+          </div>
+        </footer>
       </body>
     </html>
   );

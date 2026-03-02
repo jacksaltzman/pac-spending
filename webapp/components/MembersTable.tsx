@@ -290,7 +290,7 @@ export default function MembersTable({ members: allMembers }: { members: Member[
               <tbody>
                 {members.map((m, i) => {
                   const badge = partyBadge(m.party);
-                  const href = `/members/${m.slug || toSlug(m.member_name)}`;
+                  const href = `/committee/${m.slug || toSlug(m.member_name)}`;
                   return (
                     <tr
                       key={m.slug || toSlug(m.member_name)}

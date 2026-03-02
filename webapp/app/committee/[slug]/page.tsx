@@ -18,6 +18,8 @@ import {
 import { formatMoney, formatPct, memberLabel, sectorColor, toTitleCase } from "@/lib/utils";
 import CopyButton from "./CopyButton";
 import ExpandableTable from "@/components/ExpandableTable";
+import ExpandableList from "@/components/ExpandableList";
+import MemberTabs from "@/components/MemberTabs";
 
 /* ------------------------------------------------------------------ */
 /*  Static params                                                     */
@@ -52,7 +54,7 @@ export default async function MemberDetailPage({
           No member matches the slug &ldquo;{slug}&rdquo;.
         </p>
         <Link
-          href="/members"
+          href="/committee"
           className="text-sm text-[#FE4F40] hover:text-[#E5453A] transition-colors"
         >
           &larr; Back to all members
@@ -366,21 +368,13 @@ export default async function MemberDetailPage({
       ? "Senate Finance"
       : member.committee;
 
-  return (
-    <div className="space-y-10">
-      {/* ---- Back link ---- */}
-      <Link
-        href="/members"
-        className="inline-flex items-center gap-1.5 text-xs text-stone-500 hover:text-[#111111] transition-colors uppercase tracking-wider"
-        style={{ fontFamily: "var(--font-display)" }}
-      >
-        <span>&larr;</span>
-        <span>All Members</span>
-      </Link>
+  /* ==================================================================
+      TAB CONTENT: OVERVIEW
+      ================================================================== */
 
-      {/* ==================================================================
-          ACT 0: HEADER
-          ================================================================== */}
+  const overviewContent = (
+    <div className="space-y-10">
+      {/* ---- Header ---- */}
       <header>
         <div
           className="h-1 w-16 rounded-sm mb-6"
@@ -435,16 +429,14 @@ export default async function MemberDetailPage({
         </div>
       )}
 
-      {/* ==================================================================
-          ACT 1: INFLUENCE SCORECARD (centerpiece)
-          ================================================================== */}
+      {/* ---- Influence Scorecard ---- */}
       {alignment && alignmentPct != null && (
         <section className="space-y-4">
           <h2
             className="text-sm text-stone-600 uppercase tracking-[0.2em]"
             style={{ fontFamily: "var(--font-display)" }}
           >
-            Influence Scorecard
+            Funder–Vote Alignment
           </h2>
 
           {alignment.votes_total >= MIN_ALIGNMENT_VOTES ? (
@@ -518,9 +510,7 @@ export default async function MemberDetailPage({
         </section>
       )}
 
-      {/* ==================================================================
-          ACT 2: THE MONEY
-          ================================================================== */}
+      {/* ---- The Money: stat cards ---- */}
       <section className="space-y-4">
         <h2
           className="text-sm text-stone-600 uppercase tracking-[0.2em]"
@@ -557,7 +547,7 @@ export default async function MemberDetailPage({
         {beforeAfterMember && beforeAfterMember.pct_change_pac != null && beforeAfterMember.first_year != null && (
           <div className="bg-[#FEF3C7] border border-[#F59E0B]/30 rounded-lg p-5">
             <div className="flex items-start gap-3">
-              <span className="text-lg">&#9888;</span>
+              <span className="w-5 h-5 rounded-full bg-[#F59E0B] text-white text-xs font-bold flex items-center justify-center shrink-0 mt-0.5" style={{ fontFamily: "var(--font-display)" }}>!</span>
               <div>
                 <p className="text-sm font-medium text-[#92400E]">
                   PAC funding {beforeAfterMember.pct_change_pac > 0 ? "increased" : "decreased"}{" "}
@@ -579,7 +569,7 @@ export default async function MemberDetailPage({
         {leadershipRole && leadershipRole.tier <= 2 && leadershipPremium != null && leadershipPremium > 0 && (
           <div className="bg-[#FEE2E2] border border-[#FE4F40]/30 rounded-lg p-5">
             <div className="flex items-start gap-3">
-              <span className="text-lg">&#9733;</span>
+              <span className="w-5 h-5 rounded-full bg-[#FE4F40] text-white text-xs font-bold flex items-center justify-center shrink-0 mt-0.5" style={{ fontFamily: "var(--font-display)" }}>&uarr;</span>
               <div>
                 <p className="text-sm font-medium text-[#991B1B]">
                   As {leadershipRole.title}, receives{" "}
@@ -595,16 +585,26 @@ export default async function MemberDetailPage({
             </div>
           </div>
         )}
+      </section>
+    </div>
+  );
 
-        {/* Geographic Breakdown */}
+  /* ==================================================================
+      TAB CONTENT: FUNDING SOURCES
+      ================================================================== */
+
+  const fundingContent = (
+    <div className="space-y-10">
+      {/* ---- Geographic Breakdown ---- */}
+      <section className="space-y-4">
+        <h2
+          className="text-sm text-stone-600 uppercase tracking-[0.2em]"
+          style={{ fontFamily: "var(--font-display)" }}
+        >
+          Geographic Breakdown
+        </h2>
+
         <div className="bg-white border border-[#C8C1B6]/50 rounded-lg p-5 space-y-5">
-          <p
-            className="text-[10px] uppercase tracking-[0.2em] text-stone-400"
-            style={{ fontFamily: "var(--font-display)" }}
-          >
-            Geographic Breakdown
-          </p>
-
           <div className="flex h-8 rounded-sm overflow-hidden">
             {segments.map(
               (seg) =>
@@ -644,9 +644,7 @@ export default async function MemberDetailPage({
         </div>
       </section>
 
-      {/* ==================================================================
-          ACT 3: WHO FUNDS THEM & WHAT THEY WANT
-          ================================================================== */}
+      {/* ---- Who Funds Them & What They Want ---- */}
       <section className="space-y-6">
         <h2
           className="text-sm text-stone-600 uppercase tracking-[0.2em]"
@@ -778,7 +776,7 @@ export default async function MemberDetailPage({
                 className="text-[10px] uppercase tracking-[0.2em] text-stone-400"
                 style={{ fontFamily: "var(--font-display)" }}
               >
-                Top Outside Employers
+                Top Employers of Individual Donors
               </p>
             </div>
             <table className="w-full text-sm">
@@ -812,10 +810,16 @@ export default async function MemberDetailPage({
           </div>
         )}
       </section>
+    </div>
+  );
 
-      {/* ==================================================================
-          ACT 4: HOW THEY VOTED
-          ================================================================== */}
+  /* ==================================================================
+      TAB CONTENT: VOTES & CONTEXT
+      ================================================================== */
+
+  const votesContent = (
+    <div className="space-y-10">
+      {/* ---- Key Votes ---- */}
       {voteRows.length > 0 && (
         <section className="space-y-4">
           <h2
@@ -827,51 +831,55 @@ export default async function MemberDetailPage({
 
           {/* Voting cards — one per curated vote */}
           <div className="space-y-3">
-            {voteRows.map((row) => (
-              <div
-                key={row.rollCallId}
-                className="bg-white border border-[#C8C1B6]/50 rounded-lg p-4"
-              >
-                {/* Top row: date + bill + vote badge */}
-                <div className="flex items-start justify-between gap-3">
-                  <div className="flex-1 min-w-0">
-                    <div className="flex items-center gap-2 mb-1">
-                      <span className="text-[10px] text-stone-400 tabular-nums">{row.date}</span>
-                      <span className="text-xs font-bold text-[#111111]">{row.bill}</span>
+            <ExpandableList
+              initialCount={5}
+              totalLabel="votes"
+              items={voteRows.map((row) => (
+                <div
+                  key={row.rollCallId}
+                  className="bg-white border border-[#C8C1B6]/50 rounded-lg p-4"
+                >
+                  {/* Top row: date + bill + vote badge */}
+                  <div className="flex items-start justify-between gap-3">
+                    <div className="flex-1 min-w-0">
+                      <div className="flex items-center gap-2 mb-1">
+                        <span className="text-[10px] text-stone-400 tabular-nums">{row.date}</span>
+                        <span className="text-xs font-bold text-[#111111]">{row.bill}</span>
+                      </div>
+                      <p className="text-xs text-stone-500 leading-relaxed">
+                        {row.billTitle}
+                      </p>
                     </div>
-                    <p className="text-xs text-stone-500 leading-relaxed">
-                      {row.billTitle}
-                    </p>
+                    <div className="shrink-0">
+                      <VoteBadge position={row.memberPosition} />
+                    </div>
                   </div>
-                  <div className="shrink-0">
-                    <VoteBadge position={row.memberPosition} />
-                  </div>
-                </div>
 
-                {/* Sector alignment pills */}
-                <div className="flex flex-wrap gap-2 mt-3 pt-3 border-t border-[#C8C1B6]/30">
-                  {row.sectorMatches.map((sm) => (
-                    <span
-                      key={sm.sector}
-                      className="inline-flex items-center gap-1.5 text-[10px] px-2 py-1 rounded-full border"
-                      style={{
-                        borderColor: sm.matched ? "#16a34a" : "#FE4F40",
-                        backgroundColor: sm.matched ? "#f0fdf4" : "#fef2f2",
-                        color: sm.matched ? "#15803d" : "#dc2626",
-                      }}
-                      title={sm.reason}
-                    >
+                  {/* Sector alignment pills */}
+                  <div className="flex flex-wrap gap-2 mt-3 pt-3 border-t border-[#C8C1B6]/30">
+                    {row.sectorMatches.map((sm) => (
                       <span
-                        className="w-2 h-2 rounded-full shrink-0"
-                        style={{ backgroundColor: sectorColor(sm.sector) }}
-                      />
-                      {sm.sector}
-                      <span className="font-bold">{sm.matched ? "\u2713" : "\u2717"}</span>
-                    </span>
-                  ))}
+                        key={sm.sector}
+                        className="inline-flex items-center gap-1.5 text-[10px] px-2 py-1 rounded-full border"
+                        style={{
+                          borderColor: sm.matched ? "#16a34a" : "#FE4F40",
+                          backgroundColor: sm.matched ? "#f0fdf4" : "#fef2f2",
+                          color: sm.matched ? "#15803d" : "#dc2626",
+                        }}
+                        title={sm.reason}
+                      >
+                        <span
+                          className="w-2 h-2 rounded-full shrink-0"
+                          style={{ backgroundColor: sectorColor(sm.sector) }}
+                        />
+                        {sm.sector}
+                        <span className="font-bold">{sm.matched ? "\u2713" : "\u2717"}</span>
+                      </span>
+                    ))}
+                  </div>
                 </div>
-              </div>
-            ))}
+              ))}
+            />
           </div>
 
           <p className="text-[10px] text-stone-400">
@@ -880,9 +888,7 @@ export default async function MemberDetailPage({
         </section>
       )}
 
-      {/* ==================================================================
-          ACT 5: CONTEXT
-          ================================================================== */}
+      {/* ---- Context: Committee Comparison + News ---- */}
       {(pacVsMedianPct != null || relevantNews.length > 0) && (
         <section className="space-y-4">
           <h2
@@ -976,9 +982,7 @@ export default async function MemberDetailPage({
         </section>
       )}
 
-      {/* ==================================================================
-          TOP OUTSIDE STATES
-          ================================================================== */}
+      {/* ---- Top Outside States ---- */}
       {topStates.length > 0 && (
         <section className="space-y-4">
           <h2
@@ -1012,7 +1016,7 @@ export default async function MemberDetailPage({
                     {formatMoney(st.amt)}
                   </p>
                   <p className="text-[10px] text-stone-400">
-                    {pct.toFixed(1)}% of itemized
+                    {pct.toFixed(1)}% of trackable contributions
                   </p>
                 </div>
               );
@@ -1021,9 +1025,7 @@ export default async function MemberDetailPage({
         </section>
       )}
 
-      {/* ==================================================================
-          DATA QUALITY
-          ================================================================== */}
+      {/* ---- Data Quality ---- */}
       <section className="space-y-4">
         <h2
           className="text-sm text-stone-600 uppercase tracking-[0.2em]"
@@ -1035,27 +1037,30 @@ export default async function MemberDetailPage({
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6 text-sm">
             <div>
               <p className="text-[10px] uppercase tracking-wider text-stone-500 mb-1" style={{ fontFamily: "var(--font-display)" }}>
-                Unitemized Gap
+                Small Donations
               </p>
               <p className="text-[#111111] font-medium">
                 {member.unitemized_pct != null ? formatPct(member.unitemized_pct) : "N/A"}
               </p>
+              <p className="text-[10px] text-stone-400 mt-0.5">% under $200, not trackable</p>
             </div>
             <div>
               <p className="text-[10px] uppercase tracking-wider text-stone-500 mb-1" style={{ fontFamily: "var(--font-display)" }}>
-                Capture Rate
+                Data Coverage
               </p>
               <p className="text-[#111111] font-medium">
                 {member.capture_rate_pct != null ? formatPct(member.capture_rate_pct) : "N/A"}
               </p>
+              <p className="text-[10px] text-stone-400 mt-0.5">% of FEC total we can analyze</p>
             </div>
             <div>
               <p className="text-[10px] uppercase tracking-wider text-stone-500 mb-1" style={{ fontFamily: "var(--font-display)" }}>
-                JFC Flag
+                Joint Fundraising
               </p>
               <p className="text-[#111111] font-medium">
                 {member.jfc_flag ? <span className="text-[#F59E0B]">Yes</span> : "No"}
               </p>
+              <p className="text-[10px] text-stone-400 mt-0.5">Uses shared fundraising committee</p>
             </div>
             {member.fec_total_receipts != null && (
               <div>
@@ -1065,11 +1070,37 @@ export default async function MemberDetailPage({
                 <p className="text-[#111111] font-medium">
                   {formatMoney(member.fec_total_receipts)}
                 </p>
+                <p className="text-[10px] text-stone-400 mt-0.5">Official FEC-reported total</p>
               </div>
             )}
           </div>
         </div>
       </section>
+    </div>
+  );
+
+  /* ==================================================================
+      RENDER
+      ================================================================== */
+
+  return (
+    <div className="space-y-10">
+      {/* ---- Back link ---- */}
+      <Link
+        href="/committee"
+        className="inline-flex items-center gap-1.5 text-xs text-stone-500 hover:text-[#111111] transition-colors uppercase tracking-wider"
+        style={{ fontFamily: "var(--font-display)" }}
+      >
+        <span>&larr;</span>
+        <span>All Members</span>
+      </Link>
+
+      {/* ---- Tabs ---- */}
+      <MemberTabs
+        overviewContent={overviewContent}
+        fundingContent={fundingContent}
+        votesContent={votesContent}
+      />
 
       {/* ---- Territorial footnote ---- */}
       {member.is_territorial && (

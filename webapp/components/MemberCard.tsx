@@ -40,7 +40,7 @@ export default function MemberCard({
 
   return (
     <Link
-      href={`/members/${slug}`}
+      href={`/committee/${slug}`}
       className="flex items-center border-b border-stone-200 py-2 px-1 hover:bg-stone-50 transition-colors group gap-2"
     >
       {rank != null && (
